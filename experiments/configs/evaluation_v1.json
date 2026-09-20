@@ -1,0 +1,27 @@
+{
+  "evaluator_version": "evaluation_v1",
+  "fields": ["company", "address", "date", "total"],
+  "field_matching": {
+    "raw": "Unicode NFC plus trim/collapse whitespace; preserve case and accents",
+    "raw_strict_diagnostic": "Unicode NFC only; preserve whitespace",
+    "normalized": "exact string equality against independently prepared normalized GT",
+    "wrong_non_empty": "FP+FN",
+    "missing_prediction_for_present_gt": "FN",
+    "spurious_prediction_for_absent_gt": "FP",
+    "both_absent": "correct slot EM without TP"
+  },
+  "ground_truth_status": {
+    "evaluable": ["annotated", "annotated_empty", "absent"],
+    "masked": ["source_missing", "unlabeled"],
+    "unresolved_normalized_gt": "masked from normalized metrics but retained in raw metrics"
+  },
+  "document_exact_match": "all four fields correct on documents where all four slots are evaluable",
+  "entity_matching": "exact field class and exact [start,end) boundary; wrong class or boundary is FP+FN",
+  "zero_division": {
+    "class_with_positive_support_and_no_predictions": 0,
+    "class_with_zero_positive_support": null,
+    "no_eligible_documents": null
+  },
+  "macro_policy": "mean over fields where the metric is defined",
+  "baseline_validation": "exporter ready; values remain NOT_RUN until T13 predictions exist"
+}

@@ -1,0 +1,136 @@
+{
+  "field_documents": [
+    {
+      "document_id": "doc-perfect-after-canonicalization",
+      "ground_truth": {
+        "company": {"status": "annotated", "raw_value": "Công ty Ánh Dương", "normalized_value": "Công ty Ánh Dương", "normalization_status": "ok"},
+        "address": {"status": "annotated", "raw_value": "12 Đường A\nPhường B", "normalized_value": "12 Đường A Phường B", "normalization_status": "ok"},
+        "date": {"status": "annotated", "raw_value": "01/02/2024", "normalized_value": "2024-02-01", "normalization_status": "ok"},
+        "total": {"status": "annotated", "raw_value": "125.000 đ", "normalized_value": "125000", "normalization_status": "ok"}
+      },
+      "prediction": {
+        "company": {"raw_value": "  Công ty Ánh Dương  ", "normalized_value": "Công ty Ánh Dương"},
+        "address": {"raw_value": " 12 Đường A   Phường B ", "normalized_value": "12 Đường A Phường B"},
+        "date": {"raw_value": "01/02/2024", "normalized_value": "2024-02-01"},
+        "total": {"raw_value": "125000", "normalized_value": "125000"}
+      }
+    },
+    {
+      "document_id": "doc-missing-wrong-spurious",
+      "ground_truth": {
+        "company": {"status": "annotated", "raw_value": "Shop A", "normalized_value": "Shop A", "normalization_status": "ok"},
+        "address": {"status": "annotated", "raw_value": "Addr A", "normalized_value": "Addr A", "normalization_status": "ok"},
+        "date": {"status": "absent", "raw_value": null, "normalized_value": null, "normalization_status": null},
+        "total": {"status": "annotated_empty", "raw_value": null, "normalized_value": null, "normalization_status": null}
+      },
+      "prediction": {
+        "company": {"raw_value": null, "normalized_value": null},
+        "address": {"raw_value": "Addr B", "normalized_value": "Addr B"},
+        "date": {"raw_value": "02/02/2024", "normalized_value": "2024-02-02"},
+        "total": {"raw_value": null, "normalized_value": null}
+      }
+    },
+    {
+      "document_id": "doc-masked-and-unresolved",
+      "ground_truth": {
+        "company": {"status": "unlabeled", "raw_value": null, "normalized_value": null, "normalization_status": null},
+        "address": {"status": "annotated", "raw_value": "Số 1", "normalized_value": "Số 1", "normalization_status": "ok"},
+        "date": {"status": "annotated", "raw_value": "31/02/2024", "normalized_value": null, "normalization_status": "invalid"},
+        "total": {"status": "annotated", "raw_value": "1.000 đ", "normalized_value": "1000", "normalization_status": "ok"}
+      },
+      "prediction": {
+        "company": {"raw_value": "Ignored prediction", "normalized_value": "Ignored prediction"},
+        "address": {"raw_value": "Số 1", "normalized_value": "Số 1"},
+        "date": {"raw_value": "31/02/2024", "normalized_value": null},
+        "total": {"raw_value": "2.000 đ", "normalized_value": "2000"}
+      }
+    },
+    {
+      "document_id": "doc-all-present-perfect",
+      "ground_truth": {
+        "company": {"status": "annotated", "raw_value": "C", "normalized_value": "C", "normalization_status": "ok"},
+        "address": {"status": "annotated", "raw_value": "A", "normalized_value": "A", "normalization_status": "ok"},
+        "date": {"status": "annotated", "raw_value": "03/04/2024", "normalized_value": "2024-04-03", "normalization_status": "ok"},
+        "total": {"status": "annotated", "raw_value": "500 đ", "normalized_value": "500", "normalization_status": "ok"}
+      },
+      "prediction": {
+        "company": {"raw_value": "C", "normalized_value": "C"},
+        "address": {"raw_value": "A", "normalized_value": "A"},
+        "date": {"raw_value": "03/04/2024", "normalized_value": "2024-04-03"},
+        "total": {"raw_value": "500 đ", "normalized_value": "500"}
+      }
+    },
+    {
+      "document_id": "doc-all-absent-perfect",
+      "ground_truth": {
+        "company": {"status": "absent", "raw_value": null, "normalized_value": null, "normalization_status": null},
+        "address": {"status": "annotated_empty", "raw_value": null, "normalized_value": null, "normalization_status": null},
+        "date": {"status": "absent", "raw_value": null, "normalized_value": null, "normalization_status": null},
+        "total": {"status": "absent", "raw_value": null, "normalized_value": null, "normalization_status": null}
+      },
+      "prediction": {
+        "company": {"raw_value": null, "normalized_value": null},
+        "address": {"raw_value": null, "normalized_value": null},
+        "date": {"raw_value": null, "normalized_value": null},
+        "total": {"raw_value": null, "normalized_value": null}
+      }
+    }
+  ],
+  "entity_documents": [
+    {
+      "document_id": "entity-boundary-and-spurious",
+      "evaluable_fields": ["company", "address", "date", "total"],
+      "ground_truth": [
+        {"field": "company", "start": 0, "end": 2},
+        {"field": "address", "start": 3, "end": 5},
+        {"field": "date", "start": 6, "end": 7}
+      ],
+      "prediction": [
+        {"field": "company", "start": 0, "end": 2},
+        {"field": "address", "start": 3, "end": 4},
+        {"field": "date", "start": 6, "end": 7},
+        {"field": "total", "start": 8, "end": 9}
+      ]
+    },
+    {
+      "document_id": "entity-missing-and-masked-class",
+      "evaluable_fields": ["company", "address", "total"],
+      "ground_truth": [
+        {"field": "company", "start": 0, "end": 1},
+        {"field": "total", "start": 5, "end": 6}
+      ],
+      "prediction": [
+        {"field": "date", "start": 2, "end": 3},
+        {"field": "total", "start": 5, "end": 6}
+      ]
+    },
+    {
+      "document_id": "entity-empty-gold-and-prediction",
+      "evaluable_fields": ["company", "address", "date", "total"],
+      "ground_truth": [],
+      "prediction": []
+    }
+  ],
+  "expected": {
+    "raw": {
+      "micro": {"tp": 9, "fp": 4, "fn": 4, "support": 13, "evaluable_slots": 19, "correct_slots": 14},
+      "document_exact_match": {"eligible_documents": 4, "correct_documents": 2, "value": 0.5},
+      "company": {"tp": 2, "fp": 0, "fn": 1, "evaluable_slots": 4, "correct_slots": 3},
+      "address": {"tp": 3, "fp": 1, "fn": 1, "evaluable_slots": 5, "correct_slots": 4},
+      "date": {"tp": 3, "fp": 1, "fn": 0, "evaluable_slots": 5, "correct_slots": 4},
+      "total": {"tp": 1, "fp": 2, "fn": 2, "evaluable_slots": 5, "correct_slots": 3}
+    },
+    "normalized": {
+      "micro": {"tp": 9, "fp": 3, "fn": 3, "support": 12, "evaluable_slots": 18, "correct_slots": 14},
+      "document_exact_match": {"eligible_documents": 4, "correct_documents": 3, "value": 0.75},
+      "date": {"tp": 2, "fp": 1, "fn": 0, "evaluable_slots": 4, "correct_slots": 3, "unresolved_normalized_gt_slots": 1}
+    },
+    "entity": {
+      "micro": {"tp": 3, "fp": 2, "fn": 2, "support": 5},
+      "company": {"tp": 1, "fp": 0, "fn": 1},
+      "address": {"tp": 0, "fp": 1, "fn": 1},
+      "date": {"tp": 1, "fp": 0, "fn": 0},
+      "total": {"tp": 1, "fp": 1, "fn": 0}
+    }
+  }
+}

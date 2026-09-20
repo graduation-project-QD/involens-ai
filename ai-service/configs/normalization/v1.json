@@ -1,0 +1,44 @@
+{
+  "normalizer_version": "normalization_v1",
+  "api_locale": "vi-VN",
+  "fields": ["company", "address", "date", "total"],
+  "company": {
+    "unicode": "NFC",
+    "whitespace": "trim_and_collapse",
+    "fuzzy_correction": false
+  },
+  "address": {
+    "unicode": "NFC",
+    "multiline_join": "single_space",
+    "fuzzy_correction": false
+  },
+  "date": {
+    "vi-VN_order": "DD/MM/YYYY",
+    "output": "YYYY-MM-DD",
+    "two_digit_year": "reject",
+    "unknown_locale_dual_valid": "ambiguous_null",
+    "time_component": "drop_from_normalized_keep_raw"
+  },
+  "total": {
+    "output": "decimal_string",
+    "float_output": false,
+    "single_three_digit_separator_with_known_locale": "grouping",
+    "mixed_separators": "rightmost_is_decimal_if_grouping_is_valid",
+    "multiple_numeric_candidates": "ambiguous_null",
+    "non_positive": "parse_and_warn",
+    "explicit_vnd_fraction": "parse_and_warn"
+  },
+  "warning_codes": {
+    "MISSING_VALUE": "No raw value was provided",
+    "EMPTY_VALUE": "Raw text contains no non-whitespace character",
+    "INVALID_DATE": "No valid supported calendar date can be parsed",
+    "AMBIGUOUS_DATE": "More than one calendar interpretation remains",
+    "MULTIPLE_DATE_CANDIDATES": "More than one date candidate occurs in the field text",
+    "TWO_DIGIT_YEAR_UNSUPPORTED": "Century is not inferred",
+    "UNSUPPORTED_LOCALE": "Locale is not a supported date-order profile",
+    "INVALID_AMOUNT": "Amount syntax is invalid",
+    "AMBIGUOUS_AMOUNT": "Amount has multiple candidates or unresolved separator meaning",
+    "CURRENCY_FRACTION_UNEXPECTED": "Explicit VND value contains fractional digits",
+    "NON_POSITIVE_TOTAL": "Amount parsed but is zero or negative; business validation remains Backend-owned"
+  }
+}
