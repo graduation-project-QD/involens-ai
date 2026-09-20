@@ -1,0 +1,13 @@
+# Installed after CUDA-specific Torch and CPU PaddlePaddle.
+# The passing rented-GPU environment is captured by the retained final lock.
+accelerate==1.10.1
+huggingface-hub==0.36.0
+numpy==1.26.4
+opencv-python-headless==4.10.0.84
+paddleocr==3.7.0
+Pillow==11.3.0
+protobuf==5.29.5
+psutil==7.0.0
+safetensors==0.6.2
+sentencepiece==0.2.1
+transformers==4.40.0

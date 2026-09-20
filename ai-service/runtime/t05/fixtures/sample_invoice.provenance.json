@@ -1,0 +1,11 @@
+{
+  "dataset": "mcocr_2021",
+  "dataset_version": "local_inspected_2026-09-14",
+  "document_id": "mcocr_public_145013anmiz.jpg",
+  "split_version": "t06_v1",
+  "split": "validation",
+  "canonical_image_path": "train_images/train_images/mcocr_public_145013anmiz.jpg",
+  "sha256": "e5a349bfce39e5f54eea871b56bd1e1cb61a18ff78478342729364db5d803dc0",
+  "purpose": "T05 PaddleOCR and LayoutXLM runtime smoke only",
+  "quarantine": false
+}
