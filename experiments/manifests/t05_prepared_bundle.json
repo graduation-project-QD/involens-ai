@@ -1,0 +1,29 @@
+{
+  "task": "T05",
+  "stage": "LOCAL_PREPARATION_ONLY",
+  "status": "PREPARED_NOT_EXECUTED",
+  "t05_completed": false,
+  "candidate_id": "ezycloudx_rtx5060ti_cu129_v1",
+  "target": {
+    "provider": "EzyCloudX",
+    "os": "Ubuntu 24.04",
+    "gpu": "NVIDIA RTX 5060 Ti",
+    "vram_gib": 16
+  },
+  "bundle": {
+    "path": "experiments/artifacts/t05/t05_gpu_smoke_bundle_v1.zip",
+    "bytes": 158564,
+    "sha256": "da74dacf9b430b668079a79ee590a39c2d743291d2978ae82394b293338a6e33",
+    "checksum_path": "experiments/artifacts/t05/t05_gpu_smoke_bundle_v1.zip.sha256",
+    "entries": 17,
+    "contains_full_dataset": false
+  },
+  "local_verification": {
+    "status": "PASS",
+    "test_count": 23,
+    "gpu_execution_performed": false,
+    "linux_shell_execution_performed": false,
+    "reason": "Linux/CUDA execution is intentionally deferred until the rented GPU instance exists"
+  },
+  "completion_gate": "Run the bundle on the rented GPU; LayoutXLM and PaddleOCR smoke tests must both pass and result artifacts must be copied to local storage"
+}

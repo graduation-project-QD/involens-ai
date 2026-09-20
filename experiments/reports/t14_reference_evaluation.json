@@ -1,0 +1,317 @@
+{
+  "task": "T14",
+  "status": "PASS",
+  "evaluator_version": "evaluation_v1",
+  "reference_fixture": {
+    "field_documents": 5,
+    "entity_documents": 3,
+    "expected_counts": "PASS",
+    "raw": {
+      "evaluator_version": "evaluation_v1",
+      "comparison": "raw",
+      "fields": {
+        "company": {
+          "tp": 2,
+          "fp": 0,
+          "fn": 1,
+          "support": 3,
+          "precision": 1.0,
+          "recall": 0.6666666666666666,
+          "f1": 0.8,
+          "evaluable_slots": 4,
+          "correct_slots": 3,
+          "masked_slots": 1,
+          "unresolved_normalized_gt_slots": 0,
+          "slot_exact_match": 0.75,
+          "strict_preserve_whitespace_exact_match": 0.5
+        },
+        "address": {
+          "tp": 3,
+          "fp": 1,
+          "fn": 1,
+          "support": 4,
+          "precision": 0.75,
+          "recall": 0.75,
+          "f1": 0.75,
+          "evaluable_slots": 5,
+          "correct_slots": 4,
+          "masked_slots": 0,
+          "unresolved_normalized_gt_slots": 0,
+          "slot_exact_match": 0.8,
+          "strict_preserve_whitespace_exact_match": 0.6
+        },
+        "date": {
+          "tp": 3,
+          "fp": 1,
+          "fn": 0,
+          "support": 3,
+          "precision": 0.75,
+          "recall": 1.0,
+          "f1": 0.8571428571428571,
+          "evaluable_slots": 5,
+          "correct_slots": 4,
+          "masked_slots": 0,
+          "unresolved_normalized_gt_slots": 0,
+          "slot_exact_match": 0.8,
+          "strict_preserve_whitespace_exact_match": 0.8
+        },
+        "total": {
+          "tp": 1,
+          "fp": 2,
+          "fn": 2,
+          "support": 3,
+          "precision": 0.3333333333333333,
+          "recall": 0.3333333333333333,
+          "f1": 0.3333333333333333,
+          "evaluable_slots": 5,
+          "correct_slots": 3,
+          "masked_slots": 0,
+          "unresolved_normalized_gt_slots": 0,
+          "slot_exact_match": 0.6,
+          "strict_preserve_whitespace_exact_match": 0.6
+        }
+      },
+      "micro": {
+        "tp": 9,
+        "fp": 4,
+        "fn": 4,
+        "support": 13,
+        "precision": 0.6923076923076923,
+        "recall": 0.6923076923076923,
+        "f1": 0.6923076923076923,
+        "evaluable_slots": 19,
+        "correct_slots": 14,
+        "masked_slots": 1,
+        "unresolved_normalized_gt_slots": 0,
+        "slot_exact_match": 0.7368421052631579,
+        "strict_preserve_whitespace_exact_match": 0.631578947368421
+      },
+      "macro": {
+        "precision": 0.7083333333333334,
+        "recall": 0.6875,
+        "f1": 0.6851190476190476,
+        "defined_f1_fields": 4
+      },
+      "document_exact_match": {
+        "input_documents": 5,
+        "eligible_documents": 4,
+        "correct_documents": 2,
+        "value": 0.5,
+        "eligibility": "all four GT field slots are evaluable for the selected comparison"
+      },
+      "provenance": {
+        "dataset": "independent_reference_fixture",
+        "evaluator_version": "evaluation_v1",
+        "fixture_sha256": "4710d7e54908b3abe6d29e073332cac89b6ea3264867245ed5514a183f2aea76"
+      }
+    },
+    "normalized": {
+      "evaluator_version": "evaluation_v1",
+      "comparison": "normalized",
+      "fields": {
+        "company": {
+          "tp": 2,
+          "fp": 0,
+          "fn": 1,
+          "support": 3,
+          "precision": 1.0,
+          "recall": 0.6666666666666666,
+          "f1": 0.8,
+          "evaluable_slots": 4,
+          "correct_slots": 3,
+          "masked_slots": 1,
+          "unresolved_normalized_gt_slots": 0,
+          "slot_exact_match": 0.75
+        },
+        "address": {
+          "tp": 3,
+          "fp": 1,
+          "fn": 1,
+          "support": 4,
+          "precision": 0.75,
+          "recall": 0.75,
+          "f1": 0.75,
+          "evaluable_slots": 5,
+          "correct_slots": 4,
+          "masked_slots": 0,
+          "unresolved_normalized_gt_slots": 0,
+          "slot_exact_match": 0.8
+        },
+        "date": {
+          "tp": 2,
+          "fp": 1,
+          "fn": 0,
+          "support": 2,
+          "precision": 0.6666666666666666,
+          "recall": 1.0,
+          "f1": 0.8,
+          "evaluable_slots": 4,
+          "correct_slots": 3,
+          "masked_slots": 0,
+          "unresolved_normalized_gt_slots": 1,
+          "slot_exact_match": 0.75
+        },
+        "total": {
+          "tp": 2,
+          "fp": 1,
+          "fn": 1,
+          "support": 3,
+          "precision": 0.6666666666666666,
+          "recall": 0.6666666666666666,
+          "f1": 0.6666666666666666,
+          "evaluable_slots": 5,
+          "correct_slots": 4,
+          "masked_slots": 0,
+          "unresolved_normalized_gt_slots": 0,
+          "slot_exact_match": 0.8
+        }
+      },
+      "micro": {
+        "tp": 9,
+        "fp": 3,
+        "fn": 3,
+        "support": 12,
+        "precision": 0.75,
+        "recall": 0.75,
+        "f1": 0.75,
+        "evaluable_slots": 18,
+        "correct_slots": 14,
+        "masked_slots": 1,
+        "unresolved_normalized_gt_slots": 1,
+        "slot_exact_match": 0.7777777777777778
+      },
+      "macro": {
+        "precision": 0.7708333333333333,
+        "recall": 0.7708333333333333,
+        "f1": 0.7541666666666667,
+        "defined_f1_fields": 4
+      },
+      "document_exact_match": {
+        "input_documents": 5,
+        "eligible_documents": 4,
+        "correct_documents": 3,
+        "value": 0.75,
+        "eligibility": "all four GT field slots are evaluable for the selected comparison"
+      },
+      "provenance": {
+        "dataset": "independent_reference_fixture",
+        "evaluator_version": "evaluation_v1",
+        "fixture_sha256": "4710d7e54908b3abe6d29e073332cac89b6ea3264867245ed5514a183f2aea76"
+      }
+    },
+    "entity": {
+      "evaluator_version": "evaluation_v1",
+      "matching": "exact field class and exact [start,end) boundary",
+      "fields": {
+        "company": {
+          "tp": 1,
+          "fp": 0,
+          "fn": 1,
+          "support": 2,
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1": 0.6666666666666666,
+          "evaluable_documents": 3
+        },
+        "address": {
+          "tp": 0,
+          "fp": 1,
+          "fn": 1,
+          "support": 1,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "evaluable_documents": 3
+        },
+        "date": {
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "support": 1,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "evaluable_documents": 2
+        },
+        "total": {
+          "tp": 1,
+          "fp": 1,
+          "fn": 0,
+          "support": 1,
+          "precision": 0.5,
+          "recall": 1.0,
+          "f1": 0.6666666666666666,
+          "evaluable_documents": 3
+        }
+      },
+      "micro": {
+        "tp": 3,
+        "fp": 2,
+        "fn": 2,
+        "support": 5,
+        "precision": 0.6,
+        "recall": 0.6,
+        "f1": 0.6
+      },
+      "macro": {
+        "precision": 0.625,
+        "recall": 0.625,
+        "f1": 0.5833333333333333,
+        "defined_f1_fields": 4
+      },
+      "input_documents": 3,
+      "provenance": {
+        "dataset": "independent_reference_fixture",
+        "evaluator_version": "evaluation_v1",
+        "fixture_sha256": "4710d7e54908b3abe6d29e073332cac89b6ea3264867245ed5514a183f2aea76"
+      }
+    }
+  },
+  "frozen_validation_coverage": {
+    "mcocr": {
+      "documents": 173,
+      "field_slots": 692,
+      "raw_evaluable_slots": 648,
+      "raw_masked_slots": 44,
+      "annotation_status": {
+        "address:annotated": 162,
+        "address:unlabeled": 11,
+        "company:annotated": 161,
+        "company:unlabeled": 12,
+        "date:annotated": 163,
+        "date:unlabeled": 10,
+        "total:annotated": 162,
+        "total:unlabeled": 11
+      }
+    },
+    "sroie": {
+      "documents": 93,
+      "field_slots": 372,
+      "raw_evaluable_slots": 372,
+      "raw_masked_slots": 0,
+      "annotation_status": {
+        "address:annotated": 93,
+        "company:annotated": 93,
+        "date:annotated": 93,
+        "total:annotated": 93
+      }
+    }
+  },
+  "actual_runs": {
+    "baseline_validation": "NOT_RUN_WAITING_FOR_T13_PREDICTIONS",
+    "layoutxlm_validation": "NOT_RUN_WAITING_FOR_T18_CHECKPOINT",
+    "normalized_accuracy": "N/A_NO_INDEPENDENT_NORMALIZED_VALIDATION_GT",
+    "gold_entity_metrics": "NOT_RUN_WAITING_FOR_QAED_GOLD_SPAN_RUBRIC"
+  },
+  "artifacts": {
+    "metrics_table": "experiments/reports/t14_reference_metrics.csv",
+    "metrics_table_sha256": "159242d908755ac21a7001dc634357c37cc4264e23753431e9ffc505470935d4"
+  },
+  "inputs": {
+    "config_sha256": "a0a23e99813d8a9ba2b717029eeeed9ace9a3981a8dee645067672df32582682",
+    "fixture_sha256": "4710d7e54908b3abe6d29e073332cac89b6ea3264867245ed5514a183f2aea76",
+    "evaluator_code_sha256": "6f22183b6108e6e943c67549e07e9ad602d59afbf6bb992e440e0aaa588cce6d",
+    "mcocr_validation_sha256": "21099d9eb776c4412eb409738a28c8e507c21ffb8a00895d29b7b8dfcc6bd60f",
+    "sroie_validation_sha256": "ebbaf64d1cabf92138bc7a9b79a422224b1456856aa5361abc0932214068eae0"
+  }
+}

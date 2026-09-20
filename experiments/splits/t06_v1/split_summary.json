@@ -1,0 +1,246 @@
+{
+  "task": "T06",
+  "status": "COMPLETED_WITH_DUPLICATE_DISCLOSURES",
+  "split_version": "t06_v1",
+  "seed": 42,
+  "canonical_dataset_version": "t04_v1",
+  "mcocr": {
+    "protocol": "local_labeled_group_split_70_15_15",
+    "splits": {
+      "train": {
+        "documents": 806,
+        "groups": 785,
+        "source_partitions": {
+          "train": 806
+        },
+        "field_status": {
+          "address:annotated": 753,
+          "address:unlabeled": 53,
+          "company:annotated": 748,
+          "company:unlabeled": 58,
+          "date:annotated": 761,
+          "date:unlabeled": 45,
+          "total:annotated": 757,
+          "total:unlabeled": 49
+        },
+        "max_group_size": 2
+      },
+      "validation": {
+        "documents": 173,
+        "groups": 166,
+        "source_partitions": {
+          "train": 173
+        },
+        "field_status": {
+          "address:annotated": 162,
+          "address:unlabeled": 11,
+          "company:annotated": 161,
+          "company:unlabeled": 12,
+          "date:annotated": 163,
+          "date:unlabeled": 10,
+          "total:annotated": 162,
+          "total:unlabeled": 11
+        },
+        "max_group_size": 4
+      },
+      "test": {
+        "documents": 173,
+        "groups": 168,
+        "source_partitions": {
+          "train": 173
+        },
+        "field_status": {
+          "address:annotated": 161,
+          "address:unlabeled": 12,
+          "company:annotated": 161,
+          "company:unlabeled": 12,
+          "date:annotated": 163,
+          "date:unlabeled": 10,
+          "total:annotated": 162,
+          "total:unlabeled": 11
+        },
+        "max_group_size": 2
+      }
+    },
+    "source_accepted_documents": 1152,
+    "assigned_documents": 1152,
+    "exact_or_confirmed_groups_with_multiple_documents": 31,
+    "confirmed_strong_near_duplicate_pairs": 0,
+    "unreviewed_near_duplicate_candidates": 0,
+    "near_duplicate_candidates_classified_as_distinct_receipts": 37,
+    "provided_validation_without_verified_gold": 391,
+    "leakage_checks": {
+      "train__validation": {
+        "document_id_overlap": [],
+        "group_id_overlap": [],
+        "image_sha256_overlap": []
+      },
+      "train__test": {
+        "document_id_overlap": [],
+        "group_id_overlap": [],
+        "image_sha256_overlap": []
+      },
+      "validation__test": {
+        "document_id_overlap": [],
+        "group_id_overlap": [],
+        "image_sha256_overlap": []
+      }
+    }
+  },
+  "sroie": {
+    "protocol": "preserved_official_test_plus_optional_grouped_85_15_adapted_development",
+    "splits": {
+      "train": {
+        "documents": 526,
+        "groups": 521,
+        "source_partitions": {
+          "train": 526
+        },
+        "field_status": {
+          "address:annotated": 525,
+          "address:source_missing": 1,
+          "company:annotated": 526,
+          "date:annotated": 526,
+          "total:annotated": 525,
+          "total:annotated_empty": 1
+        },
+        "max_group_size": 2
+      },
+      "validation": {
+        "documents": 93,
+        "groups": 92,
+        "source_partitions": {
+          "train": 93
+        },
+        "field_status": {
+          "address:annotated": 93,
+          "company:annotated": 93,
+          "date:annotated": 93,
+          "total:annotated": 93
+        },
+        "max_group_size": 2
+      },
+      "test": {
+        "documents": 345,
+        "groups": 342,
+        "source_partitions": {
+          "test": 345
+        },
+        "field_status": {
+          "address:annotated": 345,
+          "company:annotated": 345,
+          "date:annotated": 345,
+          "total:annotated": 345
+        },
+        "max_group_size": 2
+      }
+    },
+    "official_train_reference_documents": 626,
+    "official_test_documents_preserved": 345,
+    "cross_official_exact_duplicate_train_documents_excluded_from_adapted_development": 7,
+    "confirmed_strong_near_duplicate_pairs_grouped": 1,
+    "unreviewed_cross_official_near_duplicate_candidates": 0,
+    "zero_shot_primary": true,
+    "adapted_split_prepared_not_trained": true,
+    "leakage_checks": {
+      "train__validation": {
+        "document_id_overlap": [],
+        "group_id_overlap": [],
+        "image_sha256_overlap": []
+      },
+      "train__test": {
+        "document_id_overlap": [],
+        "group_id_overlap": [],
+        "image_sha256_overlap": []
+      },
+      "validation__test": {
+        "document_id_overlap": [],
+        "group_id_overlap": [],
+        "image_sha256_overlap": []
+      }
+    }
+  },
+  "guards": {
+    "quarantine_ids_in_splits": [],
+    "augmentation_generated": false,
+    "source_files_modified": false,
+    "unreviewed_near_candidates_grouped": false
+  },
+  "inputs": {
+    "mcocr_canonical_sha256": "8b33dcd2264773e24ed0ccff4911e0cbe584350c187d6ff3043a8fa6b1402878",
+    "sroie_canonical_sha256": "99021c5ec92e09d3837aac62af3d1c6f51c22e77cee03c0de3b0d7f7f8641c42",
+    "mcocr_exact_duplicates_sha256": "b17c9fcc0aeb25cf24048207fafc82281d4eea95275e7c39aea1c7208cccd78b",
+    "sroie_exact_duplicates_sha256": "fd4de65331b742796250c62f997cd53bff2ebf82373c05f960d48780837fa8a4",
+    "sroie_near_duplicate_refined_sha256": "ed8d31a89254785c72813dc6b35416d2b429b290cb4d1d6200713eff99d6659c",
+    "sroie_near_duplicate_reviews_sha256": "e2f50c94a23418aa3df0e652260b4266472cb409497054eb79719d65697bb9e2",
+    "split_policy_sha256": "aba36d14e80a22f40bb883f36ad50922cead5c27b5f3e14f454fc8a2cde11528",
+    "split_builder_sha256": "48e1c64a474e3ddf5e8e75479fa38b278895c98e8c1b2aa74d410ca9da1a68f7"
+  },
+  "artifacts": {
+    "mcocr_train": {
+      "path": "experiments/splits/t06_v1/mcocr/train.jsonl",
+      "records": 806,
+      "sha256": "389e794849649219d39170bbe7435b60fa2f83b56891d22364b690d3f71dc201"
+    },
+    "mcocr_validation": {
+      "path": "experiments/splits/t06_v1/mcocr/validation.jsonl",
+      "records": 173,
+      "sha256": "21099d9eb776c4412eb409738a28c8e507c21ffb8a00895d29b7b8dfcc6bd60f"
+    },
+    "mcocr_test": {
+      "path": "experiments/splits/t06_v1/mcocr/test.jsonl",
+      "records": 173,
+      "sha256": "975b1631eac3d04bf5f8385a95b2c679f6f084eda9cef4324a5095cfbad104a5"
+    },
+    "sroie_train": {
+      "path": "experiments/splits/t06_v1/sroie/train.jsonl",
+      "records": 526,
+      "sha256": "66c8430eb846068f2cc2d21f5c769f636f5e4c337518df3187e373521d69b1b1"
+    },
+    "sroie_validation": {
+      "path": "experiments/splits/t06_v1/sroie/validation.jsonl",
+      "records": 93,
+      "sha256": "ebbaf64d1cabf92138bc7a9b79a422224b1456856aa5361abc0932214068eae0"
+    },
+    "sroie_test": {
+      "path": "experiments/splits/t06_v1/sroie/test.jsonl",
+      "records": 345,
+      "sha256": "8ead0691abbb4c112eb370ebbb51759142039ff6f555b53a5650b810a7d8ce05"
+    },
+    "mcocr_groups": {
+      "path": "experiments/splits/t06_v1/mcocr/groups.jsonl",
+      "records": 1119,
+      "sha256": "1562caec004d9102c8add72b2cfab58e188ff8e7c3cc6a60020bb47da8d3d8d2"
+    },
+    "mcocr_near_candidates": {
+      "path": "experiments/splits/t06_v1/mcocr/near_duplicate_candidates.jsonl",
+      "records": 37,
+      "sha256": "62393db909198fe88c7e969d00115ae449960bd8db621a888e679e712a6cf9ed"
+    },
+    "mcocr_unlabeled_official_validation": {
+      "path": "experiments/splits/t06_v1/mcocr/unlabeled_official_validation.jsonl",
+      "records": 391,
+      "sha256": "88f8fd3a4bc21598112d571254b602a9f9a324a9b09a46ce3813b04db863924d"
+    },
+    "sroie_groups": {
+      "path": "experiments/splits/t06_v1/sroie/groups.jsonl",
+      "records": 955,
+      "sha256": "9abb6375a4ef8e908122fe4a33bcb2a4fdf727ad74fb75417b43b4cfc4a92ee1"
+    },
+    "sroie_official_train_reference": {
+      "path": "experiments/splits/t06_v1/sroie/official_train_reference.jsonl",
+      "records": 626,
+      "sha256": "3f5d9ef478e20f2757075a02b11f7c0243354b01f3d5af0c8a00d691ead2b94e"
+    },
+    "sroie_exclusions": {
+      "path": "experiments/splits/t06_v1/sroie/adapted_exclusions.jsonl",
+      "records": 7,
+      "sha256": "0d6cb6eff2b2c2b979d08e97feedf0e81a2ca620a9024446975940a4e39ec6fb"
+    },
+    "sroie_near_candidates": {
+      "path": "experiments/splits/t06_v1/sroie/near_duplicate_candidates.jsonl",
+      "records": 436,
+      "sha256": "82c2c01fa584529471e0ec8180d7132d9a1ed85960191eefd6914ec9d6403b3b"
+    }
+  }
+}

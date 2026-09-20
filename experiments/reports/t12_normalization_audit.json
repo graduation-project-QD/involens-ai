@@ -1,0 +1,89 @@
+{
+  "task": "T12",
+  "status": "COMPLETED_WITH_NORMALIZED_ACCURACY_NA",
+  "normalizer_version": "normalization_v1",
+  "datasets": {
+    "mcocr": {
+      "documents": 173,
+      "field_slots": 692,
+      "locale": "vi-VN",
+      "annotation_status": {
+        "address:annotated": 162,
+        "address:unlabeled": 11,
+        "company:annotated": 161,
+        "company:unlabeled": 12,
+        "date:annotated": 163,
+        "date:unlabeled": 10,
+        "total:annotated": 162,
+        "total:unlabeled": 11
+      },
+      "normalization_status": {
+        "address:masked": 11,
+        "address:ok": 162,
+        "company:masked": 12,
+        "company:ok": 161,
+        "date:ambiguous": 3,
+        "date:invalid": 12,
+        "date:masked": 10,
+        "date:ok": 148,
+        "total:ambiguous": 6,
+        "total:invalid": 21,
+        "total:masked": 11,
+        "total:ok": 135
+      },
+      "warnings": {
+        "date:INVALID_DATE": 9,
+        "date:MULTIPLE_DATE_CANDIDATES": 3,
+        "date:TWO_DIGIT_YEAR_UNSUPPORTED": 3,
+        "total:AMBIGUOUS_AMOUNT": 6,
+        "total:INVALID_AMOUNT": 21,
+        "total:NON_POSITIVE_TOTAL": 1
+      }
+    },
+    "sroie": {
+      "documents": 93,
+      "field_slots": 372,
+      "locale": null,
+      "annotation_status": {
+        "address:annotated": 93,
+        "company:annotated": 93,
+        "date:annotated": 93,
+        "total:annotated": 93
+      },
+      "normalization_status": {
+        "address:ok": 93,
+        "company:ok": 93,
+        "date:ambiguous": 26,
+        "date:invalid": 25,
+        "date:ok": 42,
+        "total:ok": 93
+      },
+      "warnings": {
+        "date:AMBIGUOUS_DATE": 26,
+        "date:INVALID_DATE": 7,
+        "date:TWO_DIGIT_YEAR_UNSUPPORTED": 18
+      }
+    }
+  },
+  "fixture_rubric": {
+    "cases": 26,
+    "expected_cases_are_independent_test_fixtures": true,
+    "test_status": "PASS"
+  },
+  "normalized_accuracy": {
+    "status": "N/A",
+    "reason": "Frozen validation data has raw field GT but no independently QAed normalized GT artifact"
+  },
+  "artifact": {
+    "path": "experiments/manifests/t12_validation_normalization.jsonl",
+    "records": 1064,
+    "sha256": "1aa69b45790b9829bef2ac69b2286934fb604eee0b024a9587038493a47e7da4"
+  },
+  "inputs": {
+    "mcocr_validation_sha256": "21099d9eb776c4412eb409738a28c8e507c21ffb8a00895d29b7b8dfcc6bd60f",
+    "sroie_validation_sha256": "ebbaf64d1cabf92138bc7a9b79a422224b1456856aa5361abc0932214068eae0",
+    "normalization_config_sha256": "97bfcbd88a698bd77de3ef166eba32d5fd5d73057bfe250c63fb7c8a8680c6d5",
+    "normalization_code_sha256": "486ee453cb0cc7c6017d7989e26f55b394d7456f175e7bf1822ef141bdc55c38",
+    "fixture_sha256": "f116fb3a26705d695bcf260d855ebe5bb3a6ae8cabe178871a7f091cd5cd874f"
+  }
+}

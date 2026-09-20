@@ -1,0 +1,82 @@
+{
+  "bundle_files": {
+    "README.md": {
+      "bytes": 3108,
+      "sha256": "3616d02aae95a90a9d75cd76c7a0c79bcdcebeca0a9a1ac6ce5245b2bf79a772"
+    },
+    "build_bundle.py": {
+      "bytes": 2476,
+      "sha256": "9fb77d955d26053439a01cd5c604da84675b161d99c9d65246e52adadc45a8f1"
+    },
+    "candidate.env": {
+      "bytes": 780,
+      "sha256": "fa61b79619c3d63ab4b43ae2fe8e6efb9c40d938c2b44d82e0f9eca4ce33a058"
+    },
+    "fixtures/sample_invoice.jpg": {
+      "bytes": 138010,
+      "sha256": "e5a349bfce39e5f54eea871b56bd1e1cb61a18ff78478342729364db5d803dc0"
+    },
+    "fixtures/sample_invoice.provenance.json": {
+      "bytes": 434,
+      "sha256": "1947f98d8b67e16032beb709e740ac987a2e995d059d28afe3849f8eb5444fca"
+    },
+    "requirements-candidate.txt": {
+      "bytes": 352,
+      "sha256": "0c6508e3f74b2cf4f833df5343c70f3f43f7196f34d313dc25f1d98d54f165d2"
+    },
+    "scripts/bootstrap_ubuntu.sh": {
+      "bytes": 2050,
+      "sha256": "cc743bdb07c70041de689317278e8280b4afea7c503469cc10c89e5de0445bbb"
+    },
+    "scripts/finalize_runtime.py": {
+      "bytes": 4755,
+      "sha256": "446b607cd8ed44df25a592fcf96db267972e8ce4413080fb72fed3d9090a92cc"
+    },
+    "scripts/hardware_inventory.py": {
+      "bytes": 2564,
+      "sha256": "8b848eee458b0c93e4449244f7f367ec945d03e47fb3ea1988ce1aa398ac5aed"
+    },
+    "scripts/package_results.sh": {
+      "bytes": 521,
+      "sha256": "ea82d307ef1b3a42ff871b0a4f0d6d4be1deafdfbf4b3faf141a99777aed83e3"
+    },
+    "scripts/preflight.py": {
+      "bytes": 5852,
+      "sha256": "d7a0dc582006002b7e8ef93dd6521f8a8abc2f67f87103c63201ec0b5818e50e"
+    },
+    "scripts/render_smoke_report.py": {
+      "bytes": 3365,
+      "sha256": "262c5bd8daf03b19f7082b2ac6c0f0634924d0bb117e677aeb0052e89835aa3a"
+    },
+    "scripts/resource_monitor.py": {
+      "bytes": 1872,
+      "sha256": "82ff31b3f7bf93a67ff4649405851613268762a53119b04b0cf3d0c078620c3b"
+    },
+    "scripts/run_smoke.sh": {
+      "bytes": 1397,
+      "sha256": "6ce26cbc05297c82c2d6244aead6a5434eade310af9dee00d6a918b34c84762a"
+    },
+    "scripts/smoke_layoutxlm.py": {
+      "bytes": 9300,
+      "sha256": "f096b1537c822a7b4e312621c2be9ab009eaa819689ee10bdc6546f78e2ac77e"
+    },
+    "scripts/smoke_paddleocr.py": {
+      "bytes": 6661,
+      "sha256": "a1d91ce2802a2e699c9f826d6621db08159606aea0a8ed59c4e892b20cd2928c"
+    }
+  },
+  "candidate_id": "ezycloudx_rtx5060ti_cu129_v1",
+  "checks": {
+    "fixture_sha256": "e5a349bfce39e5f54eea871b56bd1e1cb61a18ff78478342729364db5d803dc0",
+    "full_dataset_in_bundle": false,
+    "gpu_execution_performed": false,
+    "layoutxlm_model_unchanged": true,
+    "python_scripts_parsed": 7,
+    "required_files": 13,
+    "shell_scripts_lf": true
+  },
+  "failures": [],
+  "stage": "LOCAL_PREPARATION_ONLY",
+  "status": "PASS",
+  "task": "T05"
+}

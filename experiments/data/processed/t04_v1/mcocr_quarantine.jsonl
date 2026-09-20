@@ -1,0 +1,3 @@
+{"dataset":"mcocr_2021","details":{"message":"Unknown MC-OCR label: TOTAL_TOTAL_COST"},"document_id":"mcocr_public_145013kzjew.jpg","reason_codes":["UNKNOWN_SOURCE_LABEL"],"source_partition":"train"}
+{"dataset":"mcocr_2021","details":{"message":"No annotated target regions"},"document_id":"mcocr_public_145014iwhec.jpg","reason_codes":["EMPTY_DOCUMENT_ANNOTATION"],"source_partition":"train"}
+{"dataset":"mcocr_2021","details":{"message":"No annotated target regions"},"document_id":"mcocr_public_145014jndnz.jpg","reason_codes":["EMPTY_DOCUMENT_ANNOTATION"],"source_partition":"train"}

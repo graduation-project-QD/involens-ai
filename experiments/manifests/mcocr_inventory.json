@@ -1,0 +1,1141 @@
+{
+  "root": "D:\\graduation-project-2\\dataset_hoadon",
+  "inspection_date": "2026-09-14",
+  "file_count": 61340,
+  "extensions": {
+    ".jpg": 54402,
+    "": 4,
+    ".txt": 5777,
+    ".tsv": 1151,
+    ".csv": 4,
+    ".pkl": 2
+  },
+  "top_folders": {
+    "data0.7": 1044,
+    "data0_or_180": 35987,
+    "dataset": 2311,
+    "kie_data": 2307,
+    "mcocr_train_df.csv": 1,
+    "mcocr_val_sample_df.csv": 1,
+    "post_dict.pkl": 1,
+    "pre_dict.pkl": 1,
+    "preprocessor": 2311,
+    "results.csv": 1,
+    "rotation_corrector": 3466,
+    "rotation_corrector_kie": 3465,
+    "text_detector": 2311,
+    "text_recognition_mcocr_data": 6585,
+    "text_recognition_train_data.txt": 1,
+    "text_recognition_val_data.txt": 1,
+    "train_images": 1155,
+    "val_images": 391
+  },
+  "csv_rows": 1155,
+  "csv_labels": {
+    "SELLER": 1171,
+    "ADDRESS": 1952,
+    "TIMESTAMP": 1347,
+    "TOTAL_COST": 2114,
+    "TOTAL_TOTAL_COST": 1
+  },
+  "category_to_label_observed": {
+    "15": {
+      "SELLER": 1171
+    },
+    "16": {
+      "ADDRESS": 1952
+    },
+    "17": {
+      "TIMESTAMP": 1347
+    },
+    "18": {
+      "TOTAL_COST": 2114,
+      "TOTAL_TOTAL_COST": 1
+    }
+  },
+  "annotation_region_count": 6585,
+  "region_count_range": [
+    0,
+    29
+  ],
+  "quality_range": [
+    0.134141,
+    0.90689
+  ],
+  "missing_fields_rows": {
+    "TIMESTAMP": 67,
+    "TOTAL_COST": 74,
+    "SELLER": 84,
+    "ADDRESS": 78
+  },
+  "csv_duplicate_ids": 0,
+  "val_rows": 391,
+  "val_text_counts": {
+    "abc abc abc": 391
+  },
+  "results_equals_val_sample": true,
+  "image_summary": {
+    "train_images/train_images": {
+      "count": 1155,
+      "decode_errors": 0
+    },
+    "val_images/val_images": {
+      "count": 391,
+      "decode_errors": 0
+    },
+    "kie_data/kie_data/images": {
+      "count": 1155,
+      "decode_errors": 0
+    }
+  },
+  "image_dimensions": {
+    "(1024, 1366)": 135,
+    "(768, 1024)": 695,
+    "(576, 1024)": 305,
+    "(1024, 1024)": 20,
+    "(1024, 768)": 71,
+    "(590, 1280)": 74,
+    "(1024, 1365)": 63,
+    "(1024, 2290)": 1,
+    "(960, 1280)": 22,
+    "(472, 1024)": 81,
+    "(1024, 1938)": 1,
+    "(720, 1280)": 71,
+    "(640, 1280)": 1,
+    "(1024, 2115)": 3,
+    "(1024, 1332)": 1,
+    "(1024, 1213)": 1,
+    "(1024, 1820)": 18,
+    "(1024, 1629)": 1,
+    "(1024, 2276)": 4,
+    "(708, 2860)": 1,
+    "(352, 480)": 4,
+    "(1024, 576)": 5,
+    "(1024, 1821)": 4,
+    "(1024, 1518)": 1,
+    "(730, 1440)": 3,
+    "(1024, 1364)": 1,
+    "(1024, 1842)": 1,
+    "(1024, 2434)": 1,
+    "(1024, 1333)": 1,
+    "(988, 2540)": 1,
+    "(714, 960)": 1,
+    "(1024, 1580)": 1,
+    "(1024, 2079)": 1,
+    "(1024, 1367)": 1,
+    "(1024, 1369)": 1,
+    "(1024, 1682)": 1,
+    "(956, 1276)": 1,
+    "(1024, 3684)": 1,
+    "(1024, 769)": 1,
+    "(1024, 762)": 1,
+    "(1024, 3324)": 1,
+    "(1054, 1388)": 3,
+    "(782, 1035)": 7,
+    "(788, 1039)": 10,
+    "(780, 1033)": 16,
+    "(577, 1025)": 3,
+    "(774, 1028)": 11,
+    "(1027, 1027)": 1,
+    "(781, 1034)": 11,
+    "(810, 1055)": 3,
+    "(784, 1036)": 15,
+    "(593, 1033)": 4,
+    "(592, 1032)": 2,
+    "(1049, 1384)": 2,
+    "(646, 1304)": 1,
+    "(820, 1062)": 1,
+    "(1029, 1369)": 4,
+    "(1034, 1373)": 2,
+    "(586, 1029)": 6,
+    "(786, 1038)": 3,
+    "(811, 1055)": 1,
+    "(608, 1042)": 3,
+    "(798, 1047)": 1,
+    "(770, 1025)": 24,
+    "(777, 1031)": 10,
+    "(578, 1025)": 3,
+    "(794, 1043)": 5,
+    "(585, 1029)": 6,
+    "(779, 1032)": 14,
+    "(1080, 2314)": 1,
+    "(675, 1076)": 1,
+    "(776, 1030)": 22,
+    "(772, 1027)": 21,
+    "(1044, 1379)": 1,
+    "(607, 1287)": 1,
+    "(1034, 1034)": 1,
+    "(1031, 1370)": 1,
+    "(1090, 1415)": 1,
+    "(1063, 1063)": 1,
+    "(1064, 1394)": 1,
+    "(973, 1289)": 1,
+    "(808, 1054)": 2,
+    "(477, 1026)": 3,
+    "(826, 1067)": 3,
+    "(787, 1038)": 14,
+    "(1110, 1982)": 1,
+    "(583, 1028)": 10,
+    "(771, 1308)": 1,
+    "(589, 1031)": 5,
+    "(700, 1309)": 1,
+    "(754, 1299)": 1,
+    "(785, 1036)": 7,
+    "(737, 1289)": 1,
+    "(1076, 1076)": 1,
+    "(624, 1050)": 2,
+    "(783, 1035)": 17,
+    "(771, 1026)": 24,
+    "(1027, 1368)": 2,
+    "(577, 1024)": 7,
+    "(593, 1281)": 2,
+    "(731, 1286)": 3,
+    "(482, 1028)": 3,
+    "(789, 1039)": 7,
+    "(769, 1025)": 20,
+    "(782, 1034)": 12,
+    "(631, 1298)": 1,
+    "(797, 1046)": 2,
+    "(800, 1047)": 1,
+    "(793, 1320)": 1,
+    "(1040, 1377)": 1,
+    "(1059, 1392)": 1,
+    "(789, 1040)": 3,
+    "(599, 1037)": 4,
+    "(1034, 1372)": 3,
+    "(479, 1027)": 5,
+    "(610, 1043)": 2,
+    "(778, 1031)": 15,
+    "(629, 1297)": 1,
+    "(1025, 1365)": 3,
+    "(1067, 1397)": 2,
+    "(774, 1029)": 7,
+    "(1070, 1399)": 1,
+    "(1034, 2120)": 1,
+    "(813, 1057)": 2,
+    "(613, 1290)": 1,
+    "(795, 1044)": 6,
+    "(1067, 1364)": 1,
+    "(1068, 1249)": 1,
+    "(582, 1027)": 7,
+    "(620, 1048)": 1,
+    "(1037, 1376)": 1,
+    "(596, 1035)": 3,
+    "(831, 1070)": 2,
+    "(1056, 2130)": 1,
+    "(581, 1026)": 7,
+    "(481, 1028)": 4,
+    "(1068, 1398)": 1,
+    "(781, 1313)": 1,
+    "(815, 1058)": 1,
+    "(801, 1048)": 2,
+    "(594, 1034)": 5,
+    "(1127, 1442)": 1,
+    "(474, 1025)": 5,
+    "(780, 1313)": 1,
+    "(777, 1030)": 5,
+    "(1072, 1846)": 1,
+    "(581, 1027)": 2,
+    "(809, 1054)": 4,
+    "(775, 1029)": 17,
+    "(647, 1062)": 1,
+    "(605, 1040)": 1,
+    "(785, 1037)": 8,
+    "(1035, 1374)": 2,
+    "(473, 1024)": 5,
+    "(806, 1052)": 2,
+    "(603, 1039)": 3,
+    "(792, 1042)": 4,
+    "(486, 1030)": 2,
+    "(793, 1043)": 5,
+    "(829, 1069)": 1,
+    "(1058, 1391)": 1,
+    "(1087, 1668)": 1,
+    "(1043, 1380)": 3,
+    "(844, 1080)": 1,
+    "(598, 1036)": 7,
+    "(485, 1030)": 2,
+    "(579, 1026)": 5,
+    "(1053, 1388)": 1,
+    "(798, 1046)": 4,
+    "(830, 1070)": 2,
+    "(1045, 1380)": 1,
+    "(796, 1045)": 3,
+    "(1038, 1376)": 2,
+    "(1038, 1375)": 1,
+    "(1054, 1389)": 1,
+    "(662, 1311)": 1,
+    "(478, 1026)": 4,
+    "(586, 1030)": 2,
+    "(790, 1040)": 5,
+    "(1061, 1393)": 1,
+    "(803, 1050)": 3,
+    "(800, 1048)": 4,
+    "(734, 1288)": 2,
+    "(1126, 1441)": 1,
+    "(729, 1285)": 2,
+    "(591, 1032)": 2,
+    "(762, 1303)": 2,
+    "(606, 1040)": 2,
+    "(790, 1041)": 4,
+    "(778, 1032)": 6,
+    "(637, 1301)": 1,
+    "(727, 1284)": 3,
+    "(1103, 1863)": 1,
+    "(1040, 1378)": 3,
+    "(595, 1035)": 3,
+    "(631, 1054)": 1,
+    "(823, 1064)": 1,
+    "(619, 1047)": 1,
+    "(618, 1047)": 2,
+    "(854, 1086)": 1,
+    "(1057, 1390)": 3,
+    "(590, 1031)": 2,
+    "(599, 1036)": 2,
+    "(1032, 1372)": 4,
+    "(1055, 1388)": 2,
+    "(1064, 1064)": 1,
+    "(1129, 1443)": 1,
+    "(579, 1025)": 8,
+    "(726, 1283)": 3,
+    "(475, 1025)": 4,
+    "(773, 1028)": 13,
+    "(607, 1041)": 4,
+    "(1053, 2289)": 1,
+    "(1095, 1418)": 1,
+    "(796, 1044)": 1,
+    "(480, 1028)": 4,
+    "(714, 2861)": 1,
+    "(609, 1042)": 3,
+    "(484, 1029)": 2,
+    "(1072, 1401)": 1,
+    "(816, 1136)": 1,
+    "(587, 1030)": 7,
+    "(597, 1035)": 4,
+    "(832, 1071)": 2,
+    "(1039, 1828)": 2,
+    "(633, 1055)": 1,
+    "(770, 1026)": 6,
+    "(619, 1048)": 1,
+    "(776, 1029)": 2,
+    "(821, 1063)": 1,
+    "(1062, 1394)": 1,
+    "(1015, 1321)": 1,
+    "(659, 1310)": 2,
+    "(1073, 1847)": 1,
+    "(723, 1098)": 1,
+    "(1034, 1374)": 1,
+    "(604, 1039)": 2,
+    "(480, 1027)": 3,
+    "(786, 1037)": 5,
+    "(1137, 1448)": 1,
+    "(476, 1025)": 2,
+    "(727, 1283)": 1,
+    "(580, 1026)": 12,
+    "(1033, 1825)": 1,
+    "(612, 1290)": 2,
+    "(794, 1320)": 1,
+    "(634, 1055)": 1,
+    "(591, 1280)": 3,
+    "(1055, 1389)": 3,
+    "(1104, 1425)": 1,
+    "(723, 1281)": 2,
+    "(1053, 1387)": 1,
+    "(602, 1285)": 2,
+    "(600, 1037)": 7,
+    "(791, 1041)": 6,
+    "(802, 1049)": 2,
+    "(483, 1029)": 2,
+    "(597, 1283)": 1,
+    "(819, 1061)": 1,
+    "(1028, 1369)": 5,
+    "(645, 1061)": 1,
+    "(746, 1294)": 1,
+    "(1068, 1844)": 1,
+    "(799, 1047)": 6,
+    "(597, 1036)": 2,
+    "(611, 1043)": 2,
+    "(499, 1036)": 1,
+    "(856, 1088)": 2,
+    "(601, 1285)": 4,
+    "(602, 1038)": 3,
+    "(1049, 1385)": 1,
+    "(1056, 1390)": 1,
+    "(994, 1305)": 2,
+    "(1025, 1367)": 1,
+    "(1081, 1081)": 1,
+    "(1043, 1379)": 2,
+    "(584, 1028)": 9,
+    "(614, 1291)": 2,
+    "(1033, 1373)": 2,
+    "(1036, 1374)": 1,
+    "(805, 1052)": 1,
+    "(1040, 1376)": 1,
+    "(840, 1076)": 1,
+    "(807, 1053)": 1,
+    "(1027, 1367)": 1,
+    "(769, 1024)": 7,
+    "(1030, 1370)": 2,
+    "(968, 1286)": 1,
+    "(678, 1318)": 1,
+    "(1027, 1822)": 1,
+    "(616, 1291)": 1,
+    "(824, 1066)": 1,
+    "(1033, 1371)": 1,
+    "(747, 1295)": 1,
+    "(588, 1031)": 5,
+    "(1074, 1403)": 1,
+    "(476, 1026)": 1,
+    "(979, 1294)": 1,
+    "(1120, 1873)": 1,
+    "(1041, 1378)": 1,
+    "(1093, 1417)": 1,
+    "(1127, 1586)": 1,
+    "(781, 1033)": 4,
+    "(1050, 1384)": 1,
+    "(1031, 1371)": 2,
+    "(1073, 1401)": 1,
+    "(596, 1283)": 2,
+    "(1075, 1848)": 1,
+    "(615, 1045)": 1,
+    "(608, 1041)": 1,
+    "(681, 1319)": 1,
+    "(793, 1042)": 2,
+    "(629, 1053)": 2,
+    "(596, 1282)": 1,
+    "(1011, 1317)": 1,
+    "(867, 1096)": 1,
+    "(1072, 1072)": 1,
+    "(590, 1032)": 3,
+    "(721, 1280)": 1,
+    "(1069, 1399)": 1,
+    "(786, 1316)": 1,
+    "(773, 1027)": 4,
+    "(1037, 1375)": 1,
+    "(592, 1033)": 5,
+    "(812, 1056)": 2,
+    "(1032, 1032)": 1,
+    "(804, 1051)": 2,
+    "(598, 1284)": 1,
+    "(1094, 1858)": 2,
+    "(588, 1030)": 3,
+    "(895, 1115)": 1,
+    "(766, 1305)": 1,
+    "(1085, 1411)": 1,
+    "(1081, 1408)": 2,
+    "(742, 1292)": 1,
+    "(583, 1027)": 1,
+    "(774, 1461)": 1,
+    "(490, 1032)": 1,
+    "(703, 1089)": 1,
+    "(503, 1037)": 1,
+    "(1039, 1377)": 2,
+    "(669, 1073)": 1,
+    "(828, 1068)": 1,
+    "(1032, 1371)": 2,
+    "(1069, 2296)": 1,
+    "(1041, 1379)": 1,
+    "(513, 1042)": 1,
+    "(737, 1290)": 1,
+    "(594, 1282)": 2,
+    "(610, 1289)": 3,
+    "(725, 1282)": 3,
+    "(1035, 1373)": 1,
+    "(611, 1289)": 1,
+    "(997, 1308)": 1,
+    "(647, 1305)": 1,
+    "(780, 1032)": 1,
+    "(1029, 1370)": 2,
+    "(692, 1084)": 1,
+    "(996, 1307)": 1,
+    "(1091, 1413)": 1,
+    "(626, 1051)": 1,
+    "(801, 1049)": 1,
+    "(1059, 1839)": 1,
+    "(595, 1034)": 1,
+    "(609, 1288)": 1,
+    "(817, 1060)": 5,
+    "(775, 1310)": 1,
+    "(627, 1052)": 1,
+    "(1048, 1384)": 1,
+    "(656, 1309)": 1,
+    "(724, 1282)": 1,
+    "(1044, 1381)": 1,
+    "(826, 1066)": 1,
+    "(1059, 1391)": 3,
+    "(1110, 1428)": 1,
+    "(1057, 1838)": 1,
+    "(728, 1284)": 2,
+    "(650, 1063)": 1,
+    "(614, 1045)": 1,
+    "(1033, 1372)": 1,
+    "(1082, 1409)": 1,
+    "(1027, 1843)": 1,
+    "(1018, 1323)": 1,
+    "(493, 1033)": 2,
+    "(642, 1059)": 1,
+    "(1060, 1393)": 1,
+    "(478, 1027)": 2,
+    "(509, 1040)": 1,
+    "(1051, 1835)": 1,
+    "(1026, 1367)": 2,
+    "(612, 1044)": 2,
+    "(1046, 1382)": 1,
+    "(685, 1081)": 1,
+    "(823, 1065)": 1,
+    "(860, 1091)": 1,
+    "(682, 1319)": 1,
+    "(984, 1298)": 2,
+    "(741, 1291)": 1,
+    "(753, 1451)": 1,
+    "(1179, 1478)": 1,
+    "(500, 1036)": 1,
+    "(651, 1064)": 1,
+    "(1155, 1461)": 1,
+    "(592, 1281)": 2,
+    "(1120, 1436)": 1,
+    "(986, 1299)": 1,
+    "(1042, 1042)": 1,
+    "(1058, 1058)": 1,
+    "(1036, 1375)": 1,
+    "(1052, 1386)": 1,
+    "(1058, 2448)": 1,
+    "(756, 1300)": 1,
+    "(627, 1296)": 1,
+    "(1124, 1439)": 1,
+    "(628, 1297)": 1,
+    "(1174, 1444)": 1,
+    "(1020, 2552)": 1,
+    "(638, 1057)": 1,
+    "(973, 1290)": 1,
+    "(1057, 1391)": 3,
+    "(845, 1080)": 1,
+    "(621, 1294)": 1,
+    "(1041, 1377)": 1,
+    "(733, 1287)": 1,
+    "(1056, 1838)": 1,
+    "(758, 1454)": 1,
+    "(768, 1306)": 1,
+    "(1045, 1381)": 1,
+    "(610, 1042)": 1,
+    "(694, 1085)": 1,
+    "(1089, 1855)": 1,
+    "(772, 1026)": 1,
+    "(721, 965)": 1,
+    "(1047, 1833)": 1,
+    "(494, 1034)": 1,
+    "(754, 1298)": 1,
+    "(776, 1311)": 1,
+    "(1087, 1412)": 1,
+    "(857, 1089)": 1,
+    "(1050, 2287)": 1,
+    "(805, 1051)": 2,
+    "(1058, 1392)": 1,
+    "(1046, 1343)": 1,
+    "(601, 1038)": 2,
+    "(1048, 1383)": 1,
+    "(1071, 1401)": 1,
+    "(714, 1094)": 1,
+    "(1131, 1444)": 1,
+    "(1025, 1366)": 1,
+    "(797, 1045)": 1,
+    "(748, 1295)": 1,
+    "(978, 1293)": 1,
+    "(818, 1061)": 1,
+    "(851, 1084)": 1,
+    "(743, 1293)": 1,
+    "(1050, 1385)": 1,
+    "(812, 1057)": 1,
+    "(734, 1287)": 1,
+    "(1113, 1432)": 1,
+    "(1029, 1029)": 1,
+    "(692, 1323)": 1,
+    "(786, 1315)": 1,
+    "(489, 1031)": 1,
+    "(783, 1314)": 1,
+    "(650, 1306)": 1,
+    "(1052, 1836)": 1,
+    "(598, 1283)": 1,
+    "(836, 1074)": 1,
+    "(1108, 1866)": 1,
+    "(1066, 1397)": 1,
+    "(1028, 1368)": 1,
+    "(864, 1094)": 1,
+    "(1163, 1466)": 1,
+    "(1035, 1035)": 1,
+    "(1047, 1047)": 1,
+    "(474, 1024)": 1
+  },
+  "tsv_files": 1151,
+  "tsv_stats": {
+    "lines": 40868,
+    "empty_transcripts": 20085
+  },
+  "tsv_labels": {
+    "OTHER": 33481,
+    "TIMESTAMP": 1769,
+    "TOTAL_COST": 2532,
+    "ADDRESS": 1935,
+    "SELLER": 1151
+  },
+  "tsv_no_empty_files": 0,
+  "recognition_lists": {
+    "text_recognition_train_data.txt": {
+      "lines": 5285,
+      "without_tab": 0,
+      "empty_transcript": 0
+    },
+    "text_recognition_val_data.txt": {
+      "lines": 1300,
+      "without_tab": 0,
+      "empty_transcript": 0
+    }
+  },
+  "issues_count": 3,
+  "duplicate_image_hash_groups": 84,
+  "csv_empty_annotation_rows": 2,
+  "parser_length_mismatches": 0,
+  "exact_duplicate_summary": {
+    "('train_images',)": 31,
+    "('train_images', 'val_images')": 20,
+    "('val_images',)": 2,
+    "('kie_data',)": 31
+  },
+  "raw_exact_duplicate_groups": 53,
+  "raw_exact_duplicate_groups_detail": [
+    {
+      "sha256": "2ec0eea5ae6373c472b467dece5952fb6339a9baa3b701effb40e7473cd04797",
+      "paths": [
+        "train_images/train_images/mcocr_public_145013aaprl.jpg",
+        "train_images/train_images/mcocr_public_145014lopme.jpg"
+      ]
+    },
+    {
+      "sha256": "f4a2536b5e3b0aa967f1d6228aa23f99f851cba8a7e61a70d71147755f0730d9",
+      "paths": [
+        "train_images/train_images/mcocr_public_145013acjke.jpg",
+        "train_images/train_images/mcocr_public_145013mwqpu.jpg"
+      ]
+    },
+    {
+      "sha256": "29dc88ed01a0a0c3ea4e688ec6e44f0b8eaf685d6628e31511dcad0a2584d930",
+      "paths": [
+        "train_images/train_images/mcocr_public_145013adyee.jpg",
+        "val_images/val_images/mcocr_val_145115thtzv.jpg"
+      ]
+    },
+    {
+      "sha256": "c50f33ca891ce3789662764eda3d9d52fbd53dda09a3e01c0dd54037a8e1aa47",
+      "paths": [
+        "train_images/train_images/mcocr_public_145013atlmq.jpg",
+        "train_images/train_images/mcocr_public_145014irdab.jpg",
+        "train_images/train_images/mcocr_public_145014mtbhi.jpg",
+        "train_images/train_images/mcocr_public_145014odboi.jpg"
+      ]
+    },
+    {
+      "sha256": "3a4a46c077b2092299498877da336f07068b3afcd4d9461a8cdb9068b809fa0e",
+      "paths": [
+        "train_images/train_images/mcocr_public_145013bfddt.jpg",
+        "train_images/train_images/mcocr_public_145014wjhib.jpg"
+      ]
+    },
+    {
+      "sha256": "cc279639f3983584df4dc3f0d3a656cad5bea332e76fb749e5c00e096f2cc3e6",
+      "paths": [
+        "train_images/train_images/mcocr_public_145013blbqm.jpg",
+        "train_images/train_images/mcocr_public_145014mjfti.jpg"
+      ]
+    },
+    {
+      "sha256": "31aed844a415ed49e49859adf4b196134761e690704a9f26d59474b8d5736e6f",
+      "paths": [
+        "train_images/train_images/mcocr_public_145013bpcpt.jpg",
+        "val_images/val_images/mcocr_val_145115roove.jpg"
+      ]
+    },
+    {
+      "sha256": "b9bb8b7367818d2e9a93bba74bd5b9e3dc150893d3f5af429625ca6fcae610e5",
+      "paths": [
+        "train_images/train_images/mcocr_public_145013djwis.jpg",
+        "train_images/train_images/mcocr_public_145014dqrls.jpg"
+      ]
+    },
+    {
+      "sha256": "ac26b66de7266ed27ecb7f496ee67f5c7275862156bfe527a622a18008fe0e6e",
+      "paths": [
+        "train_images/train_images/mcocr_public_145013dkgbh.jpg",
+        "train_images/train_images/mcocr_public_145014jkafe.jpg"
+      ]
+    },
+    {
+      "sha256": "2da4e0bc583147a8f53cf30e7ccd4cec5f0905ea42cfe4643b019cae22240ce6",
+      "paths": [
+        "train_images/train_images/mcocr_public_145013emvhs.jpg",
+        "train_images/train_images/mcocr_public_145014hxlhz.jpg"
+      ]
+    },
+    {
+      "sha256": "6c7e233d634398ec052305a2a8fc47bc704e3626101a1734636c5ec8c9e10000",
+      "paths": [
+        "train_images/train_images/mcocr_public_145013fxcgs.jpg",
+        "train_images/train_images/mcocr_public_145014abbay.jpg"
+      ]
+    },
+    {
+      "sha256": "2df1e55e1306b020d20d0b68fcca50bc834b54428b9a0759e9ac32a93de99e9a",
+      "paths": [
+        "train_images/train_images/mcocr_public_145013geohx.jpg",
+        "val_images/val_images/mcocr_val_145115fcnxy.jpg"
+      ]
+    },
+    {
+      "sha256": "861b89ca4d9283c573d24eec5774f2a4df4f0a410eb4df8022b5c81910d100db",
+      "paths": [
+        "train_images/train_images/mcocr_public_145013hewxu.jpg",
+        "train_images/train_images/mcocr_public_145013ngzwi.jpg"
+      ]
+    },
+    {
+      "sha256": "15acdff6c107928245786c91acf78645dce5acb36661c7c90f51f5c4769dc7c2",
+      "paths": [
+        "train_images/train_images/mcocr_public_145013jechb.jpg",
+        "val_images/val_images/mcocr_val_145115fqwje.jpg"
+      ]
+    },
+    {
+      "sha256": "f74fc2e63b5b78620b83a3c5336d67ddc94a9ea572692228a049fcdd2fa43c3b",
+      "paths": [
+        "train_images/train_images/mcocr_public_145013nsktd.jpg",
+        "train_images/train_images/mcocr_public_145013sxjox.jpg"
+      ]
+    },
+    {
+      "sha256": "47c9d278942334549354590bfe581741978bd932bbfafee198f4db3dc6b55ca8",
+      "paths": [
+        "train_images/train_images/mcocr_public_145013nwbcg.jpg",
+        "val_images/val_images/mcocr_val_145115kexzv.jpg"
+      ]
+    },
+    {
+      "sha256": "938ac96352f421f3c589673d2c251b39dff20e98616d3548e0ba40b8506ee69c",
+      "paths": [
+        "train_images/train_images/mcocr_public_145013pzwfd.jpg",
+        "train_images/train_images/mcocr_public_145014nircs.jpg"
+      ]
+    },
+    {
+      "sha256": "b1fcfb4e19dc1fdd0fb2a8324e76c661f9470b5df6d99a50d3640a75eae07792",
+      "paths": [
+        "train_images/train_images/mcocr_public_145013qeejy.jpg",
+        "train_images/train_images/mcocr_public_145014zstut.jpg"
+      ]
+    },
+    {
+      "sha256": "952dfbbe0672d42131c335bb563b1ab3043b4596431b91a42a978ef0c5eb2bed",
+      "paths": [
+        "train_images/train_images/mcocr_public_145013rhwvu.jpg",
+        "train_images/train_images/mcocr_public_145014vnfrc.jpg"
+      ]
+    },
+    {
+      "sha256": "11a8e61c2b0fc9138f58be8a2534990f9e8af3aa07dfc2c444581be7edac6455",
+      "paths": [
+        "train_images/train_images/mcocr_public_145013sqona.jpg",
+        "train_images/train_images/mcocr_public_145014pxnrk.jpg"
+      ]
+    },
+    {
+      "sha256": "eab08be98c654a243eb4889b8c5e1a72ba203862d0ef03ad9d820bf8f15c8b4b",
+      "paths": [
+        "train_images/train_images/mcocr_public_145013xczvp.jpg",
+        "train_images/train_images/mcocr_public_145014ykqth.jpg"
+      ]
+    },
+    {
+      "sha256": "398c137c0d02b9960c487ae0feda9598d091d0a957c24ab96e26d7cebc1b8fde",
+      "paths": [
+        "train_images/train_images/mcocr_public_145013xzfut.jpg",
+        "train_images/train_images/mcocr_public_145014lisam.jpg"
+      ]
+    },
+    {
+      "sha256": "ecdb6e8a1eb3d602ba30c095d4363099aadbf2c4aa5cbcb173c0df836561b506",
+      "paths": [
+        "train_images/train_images/mcocr_public_145013ypdox.jpg",
+        "train_images/train_images/mcocr_public_145014nykks.jpg"
+      ]
+    },
+    {
+      "sha256": "a6a8f0b186f3caad1a16d20601caf403210b15cedc29683d9e6e3613bd2b8116",
+      "paths": [
+        "train_images/train_images/mcocr_public_145013zhiwi.jpg",
+        "train_images/train_images/mcocr_public_145014bxkli.jpg"
+      ]
+    },
+    {
+      "sha256": "3f037cb77f49df69a2338f9a78c9285d292e5fdd1e8b5eae96e19fb7cf99bd1c",
+      "paths": [
+        "train_images/train_images/mcocr_public_145014aglyp.jpg",
+        "val_images/val_images/mcocr_val_145115jbayx.jpg"
+      ]
+    },
+    {
+      "sha256": "90845ae09797b2f9e9654a1316ef66820cd21164c6021b8f8fd9c16ef3235c86",
+      "paths": [
+        "train_images/train_images/mcocr_public_145014avuac.jpg",
+        "val_images/val_images/mcocr_val_145114aszbc.jpg"
+      ]
+    },
+    {
+      "sha256": "6f90dd17ed3323e141b0d8082507bbb9beb843d3eb71f4220829d99c6bb90865",
+      "paths": [
+        "train_images/train_images/mcocr_public_145014bfwhz.jpg",
+        "train_images/train_images/mcocr_public_145014lshmg.jpg"
+      ]
+    },
+    {
+      "sha256": "312b287281ad3a9738d89f8bdb666f9b2e494a88df54753e7e090d09d4f72f02",
+      "paths": [
+        "train_images/train_images/mcocr_public_145014bwelu.jpg",
+        "train_images/train_images/mcocr_public_145014pgkzd.jpg"
+      ]
+    },
+    {
+      "sha256": "04cc3e4c3aefb85c9ef8459226d6e2278eec2eb6677f937f68503f0f1d381e5a",
+      "paths": [
+        "train_images/train_images/mcocr_public_145014crsgq.jpg",
+        "train_images/train_images/mcocr_public_145014ezyfv.jpg"
+      ]
+    },
+    {
+      "sha256": "cf2000b3f49109197e70b5120799f44bfa29c807f226f061dc1f7cbd68a4dc6a",
+      "paths": [
+        "train_images/train_images/mcocr_public_145014divcp.jpg",
+        "val_images/val_images/mcocr_val_145115yecqs.jpg"
+      ]
+    },
+    {
+      "sha256": "d6a5d63d5733142f30c4cd56a4ffde9f905070bcd53ab93ea66205f1fb768b14",
+      "paths": [
+        "train_images/train_images/mcocr_public_145014dkmtx.jpg",
+        "val_images/val_images/mcocr_val_145115aohoe.jpg"
+      ]
+    },
+    {
+      "sha256": "b11d5d42fce8593e9ba25558f60899f27778b93d66ac6fe6322f3e64fc27a0e7",
+      "paths": [
+        "train_images/train_images/mcocr_public_145014fltno.jpg",
+        "val_images/val_images/mcocr_val_145115zpaiz.jpg"
+      ]
+    },
+    {
+      "sha256": "79d07f59f028f99c335c7f14a1c34cb2dd13c3a14d2b1d4c66ee2655437a85a9",
+      "paths": [
+        "train_images/train_images/mcocr_public_145014foimu.jpg",
+        "train_images/train_images/mcocr_public_145014lwxal.jpg"
+      ]
+    },
+    {
+      "sha256": "e23ef8df5fdd24144ac8ae2d2ecab4a5ffc2f2f530751920fba0f5371c699734",
+      "paths": [
+        "train_images/train_images/mcocr_public_145014gkduf.jpg",
+        "train_images/train_images/mcocr_public_145014ytzcj.jpg"
+      ]
+    },
+    {
+      "sha256": "f1473cf3814db3cc9853b49f6c01a05725f7e327ba92dda96abf83a2fec20437",
+      "paths": [
+        "train_images/train_images/mcocr_public_145014gobol.jpg",
+        "train_images/train_images/mcocr_public_145014sprsy.jpg"
+      ]
+    },
+    {
+      "sha256": "63e60fca7417c2855e7f812959546ec87124ccd165f850a685c9c276e079f2ae",
+      "paths": [
+        "train_images/train_images/mcocr_public_145014haprd.jpg",
+        "train_images/train_images/mcocr_public_145014sydpm.jpg"
+      ]
+    },
+    {
+      "sha256": "50f7d9aea4c2d47751c2cd407c7893c729d32adc96dfd7a1d779cc3633381fc8",
+      "paths": [
+        "train_images/train_images/mcocr_public_145014iriei.jpg",
+        "train_images/train_images/mcocr_public_145014qoaez.jpg"
+      ]
+    },
+    {
+      "sha256": "67fc7a3b1dc12b4b14e4f9311ef2f69eaa555326178521daf65220a53128dec9",
+      "paths": [
+        "train_images/train_images/mcocr_public_145014itwqb.jpg",
+        "train_images/train_images/mcocr_public_145014orfyr.jpg"
+      ]
+    },
+    {
+      "sha256": "1997853200b9caf1329f8e24444518b6aa11dc6f1b0ff7c7f9dbd2365183aa1d",
+      "paths": [
+        "train_images/train_images/mcocr_public_145014jgtbj.jpg",
+        "val_images/val_images/mcocr_val_145115bxrpi.jpg"
+      ]
+    },
+    {
+      "sha256": "a29848295f3e8fa02790ecbd537913ec2de3529aa2eb99383220cbd96d1d9942",
+      "paths": [
+        "train_images/train_images/mcocr_public_145014mdhan.jpg",
+        "val_images/val_images/mcocr_val_145115rrirk.jpg"
+      ]
+    },
+    {
+      "sha256": "ccd4e7480be5676c179f090d1cbaf9d9ec8bb00b252596a5ec5a86295087c543",
+      "paths": [
+        "train_images/train_images/mcocr_public_145014mnwrz.jpg",
+        "val_images/val_images/mcocr_val_145115pwzhy.jpg"
+      ]
+    },
+    {
+      "sha256": "32fb3aba199b3cab319f4c8c3bab542b28ec6aec710fa8c42512a1b64f83bfce",
+      "paths": [
+        "train_images/train_images/mcocr_public_145014qjkba.jpg",
+        "val_images/val_images/mcocr_val_145115upgly.jpg"
+      ]
+    },
+    {
+      "sha256": "ab4e7f2081082866ae197566f00a3b21c1e98fe11affc511684843eee91fc4cc",
+      "paths": [
+        "train_images/train_images/mcocr_public_145014qodwj.jpg",
+        "train_images/train_images/mcocr_public_145014wzcxq.jpg"
+      ]
+    },
+    {
+      "sha256": "5e4f3f02ef54dee5a6f43f5980be3bf0706e13a664cc7e6ce735a025e6fd7b02",
+      "paths": [
+        "train_images/train_images/mcocr_public_145014toiko.jpg",
+        "train_images/train_images/mcocr_public_145014ztmap.jpg"
+      ]
+    },
+    {
+      "sha256": "5e8740a50a6dd6d6d2078795745129bb47d82029ad54560701bc55becd6aa0f9",
+      "paths": [
+        "train_images/train_images/mcocr_public_145014ukewl.jpg",
+        "train_images/train_images/mcocr_public_145014zjcdx.jpg"
+      ]
+    },
+    {
+      "sha256": "98d0708a316db0f98c21c8854108cc969eab27fc1d1620752359d6a35dc3136a",
+      "paths": [
+        "train_images/train_images/mcocr_public_145014upass.jpg",
+        "val_images/val_images/mcocr_val_145115bttrw.jpg"
+      ]
+    },
+    {
+      "sha256": "9f2c5dd433d3c2d74686fdecd9d9d7fdfeac4e9963af91b0a5c8ec2dca54e58b",
+      "paths": [
+        "train_images/train_images/mcocr_public_145014vxrob.jpg",
+        "val_images/val_images/mcocr_val_145115jxfng.jpg"
+      ]
+    },
+    {
+      "sha256": "374a412433586ac8fbb07ab9cab23144f1460d79a7311699e0320c95a25e251d",
+      "paths": [
+        "train_images/train_images/mcocr_public_145014wpnpe.jpg",
+        "val_images/val_images/mcocr_val_145115nypff.jpg"
+      ]
+    },
+    {
+      "sha256": "3aaa914e18585794d944e98943365b89b9b44573da0925292369e83393e44624",
+      "paths": [
+        "train_images/train_images/mcocr_public_145014wvmqh.jpg",
+        "val_images/val_images/mcocr_val_145115hupmg.jpg"
+      ]
+    },
+    {
+      "sha256": "cf361204d8263493f03b59e918ea71fc8a083bd137d6b94dff32e741dae31d75",
+      "paths": [
+        "train_images/train_images/mcocr_public_145014xsefn.jpg",
+        "val_images/val_images/mcocr_val_145115scqcn.jpg"
+      ]
+    },
+    {
+      "sha256": "1f591d0f9f55fae22583fd264d0889647dae125087c0b8774594e2fa7366cb70",
+      "paths": [
+        "train_images/train_images/mcocr_public_145014xsppi.jpg",
+        "val_images/val_images/mcocr_val_145115ishek.jpg"
+      ]
+    },
+    {
+      "sha256": "69bae901e4c3af5a6506f5f0381d4affa6f44db1f9fa677eb1d70c5ae86cd0b6",
+      "paths": [
+        "val_images/val_images/mcocr_val_145114qwggd.jpg",
+        "val_images/val_images/mcocr_val_145115zheoi.jpg"
+      ]
+    },
+    {
+      "sha256": "9a2c3288c4093b9dd4e279c74a7a649d38047fe02f1126869d7d82dcabafc80c",
+      "paths": [
+        "val_images/val_images/mcocr_val_145115havhi.jpg",
+        "val_images/val_images/mcocr_val_145115hhxdq.jpg"
+      ]
+    }
+  ],
+  "annotation_quality_mean": 0.6696047593073593,
+  "raw_image_dimension_ranges": {
+    "train_images/train_images": {
+      "width": [
+        352,
+        1024
+      ],
+      "height": [
+        480,
+        2860
+      ]
+    },
+    "val_images/val_images": {
+      "width": [
+        472,
+        1024
+      ],
+      "height": [
+        576,
+        3684
+      ]
+    }
+  },
+  "inspection_scope": {
+    "file_paths_and_sizes": "all 61340 files",
+    "metadata_hashes": "all CSV/TXT/TSV files",
+    "image_hash_and_full_decode": "train_images, val_images, kie_data images only",
+    "perceptual_near_duplicate_audit": "not performed",
+    "manual_visual_review": "one train receipt only"
+  },
+  "unique_raw_image_hashes": 1491,
+  "unique_train_image_hashes": 1122,
+  "unique_val_image_hashes": 389,
+  "train_exact_duplicate_groups_with_different_annotation_serialization": [
+    [
+      "mcocr_public_145013aaprl.jpg",
+      "mcocr_public_145014lopme.jpg"
+    ],
+    [
+      "mcocr_public_145013acjke.jpg",
+      "mcocr_public_145013mwqpu.jpg"
+    ],
+    [
+      "mcocr_public_145013atlmq.jpg",
+      "mcocr_public_145014irdab.jpg",
+      "mcocr_public_145014mtbhi.jpg",
+      "mcocr_public_145014odboi.jpg"
+    ],
+    [
+      "mcocr_public_145013bfddt.jpg",
+      "mcocr_public_145014wjhib.jpg"
+    ],
+    [
+      "mcocr_public_145013blbqm.jpg",
+      "mcocr_public_145014mjfti.jpg"
+    ],
+    [
+      "mcocr_public_145013djwis.jpg",
+      "mcocr_public_145014dqrls.jpg"
+    ],
+    [
+      "mcocr_public_145013dkgbh.jpg",
+      "mcocr_public_145014jkafe.jpg"
+    ],
+    [
+      "mcocr_public_145013emvhs.jpg",
+      "mcocr_public_145014hxlhz.jpg"
+    ],
+    [
+      "mcocr_public_145013fxcgs.jpg",
+      "mcocr_public_145014abbay.jpg"
+    ],
+    [
+      "mcocr_public_145013hewxu.jpg",
+      "mcocr_public_145013ngzwi.jpg"
+    ],
+    [
+      "mcocr_public_145013nsktd.jpg",
+      "mcocr_public_145013sxjox.jpg"
+    ],
+    [
+      "mcocr_public_145013pzwfd.jpg",
+      "mcocr_public_145014nircs.jpg"
+    ],
+    [
+      "mcocr_public_145013qeejy.jpg",
+      "mcocr_public_145014zstut.jpg"
+    ],
+    [
+      "mcocr_public_145013rhwvu.jpg",
+      "mcocr_public_145014vnfrc.jpg"
+    ],
+    [
+      "mcocr_public_145013sqona.jpg",
+      "mcocr_public_145014pxnrk.jpg"
+    ],
+    [
+      "mcocr_public_145013xczvp.jpg",
+      "mcocr_public_145014ykqth.jpg"
+    ],
+    [
+      "mcocr_public_145013xzfut.jpg",
+      "mcocr_public_145014lisam.jpg"
+    ],
+    [
+      "mcocr_public_145013ypdox.jpg",
+      "mcocr_public_145014nykks.jpg"
+    ],
+    [
+      "mcocr_public_145013zhiwi.jpg",
+      "mcocr_public_145014bxkli.jpg"
+    ],
+    [
+      "mcocr_public_145014bfwhz.jpg",
+      "mcocr_public_145014lshmg.jpg"
+    ],
+    [
+      "mcocr_public_145014bwelu.jpg",
+      "mcocr_public_145014pgkzd.jpg"
+    ],
+    [
+      "mcocr_public_145014crsgq.jpg",
+      "mcocr_public_145014ezyfv.jpg"
+    ],
+    [
+      "mcocr_public_145014foimu.jpg",
+      "mcocr_public_145014lwxal.jpg"
+    ],
+    [
+      "mcocr_public_145014gkduf.jpg",
+      "mcocr_public_145014ytzcj.jpg"
+    ],
+    [
+      "mcocr_public_145014gobol.jpg",
+      "mcocr_public_145014sprsy.jpg"
+    ],
+    [
+      "mcocr_public_145014haprd.jpg",
+      "mcocr_public_145014sydpm.jpg"
+    ],
+    [
+      "mcocr_public_145014iriei.jpg",
+      "mcocr_public_145014qoaez.jpg"
+    ],
+    [
+      "mcocr_public_145014itwqb.jpg",
+      "mcocr_public_145014orfyr.jpg"
+    ],
+    [
+      "mcocr_public_145014qodwj.jpg",
+      "mcocr_public_145014wzcxq.jpg"
+    ],
+    [
+      "mcocr_public_145014toiko.jpg",
+      "mcocr_public_145014ztmap.jpg"
+    ],
+    [
+      "mcocr_public_145014ukewl.jpg",
+      "mcocr_public_145014zjcdx.jpg"
+    ]
+  ]
+}

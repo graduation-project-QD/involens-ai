@@ -1,0 +1,14 @@
+{
+  "dataset": "sroie_2019",
+  "details": {
+    "byte_end": 408,
+    "byte_start": 407,
+    "message": "Annotation is not valid UTF-8: D:\\graduation-project-2\\dataset_hoadon\\SROIE2019\\test\\box\\X51006619503.txt",
+    "path": "D:\\graduation-project-2\\dataset_hoadon\\SROIE2019\\test\\box\\X51006619503.txt"
+  },
+  "document_id": "X51006619503",
+  "reason_codes": [
+    "NON_UTF8_ANNOTATION"
+  ],
+  "source_partition": "test"
+}

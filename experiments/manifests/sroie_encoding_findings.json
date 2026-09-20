@@ -1,0 +1,14 @@
+[
+  {
+    "path": "test/box/X51006619503.txt",
+    "inspection_decoder": "cp1252",
+    "decoder_status": "PROVISIONAL_REQUIRES_QA",
+    "raw_non_utf8_sequence_hex": "A3 AC",
+    "candidate_decoders": {
+      "cp1252": "U+00A3 U+00AC",
+      "gb18030": "U+FF0C"
+    },
+    "gold_decoder_selected": null,
+    "visual_review_note": "Image shows punctuation after KEPONG BARU; GB18030 is plausible, source decoder still unverified"
+  }
+]

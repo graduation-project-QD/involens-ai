@@ -1,0 +1,94 @@
+{
+  "task": "T04",
+  "processed_dataset_version": "t04_v1",
+  "canonical_schema_version": "1.0",
+  "split_created": false,
+  "normalization_applied": false,
+  "source_datasets_modified": false,
+  "artifacts": {
+    "mcocr": {
+      "data": {
+        "path": "experiments/data/processed/t04_v1/mcocr.jsonl",
+        "records": 1152,
+        "sha256": "8b33dcd2264773e24ed0ccff4911e0cbe584350c187d6ff3043a8fa6b1402878"
+      },
+      "quarantine": {
+        "path": "experiments/data/processed/t04_v1/mcocr_quarantine.jsonl",
+        "records": 3,
+        "sha256": "a18ca9cdacd057eafb8eae286eab9f5d38e6571bf83f7a0f796f5bfdba4df3de"
+      },
+      "summary": {
+        "documents": 1152,
+        "regions": 6581,
+        "source_partitions": {
+          "train": 1152
+        },
+        "field_status": {
+          "address:annotated": 1076,
+          "address:unlabeled": 76,
+          "company:annotated": 1070,
+          "company:unlabeled": 82,
+          "date:annotated": 1087,
+          "date:unlabeled": 65,
+          "total:annotated": 1081,
+          "total:unlabeled": 71
+        },
+        "qa_flags": {},
+        "region_label_status": {
+          "mapped": 6581
+        }
+      },
+      "quarantine_summary": {
+        "documents": 3,
+        "reason_codes": {
+          "EMPTY_DOCUMENT_ANNOTATION": 2,
+          "UNKNOWN_SOURCE_LABEL": 1
+        }
+      }
+    },
+    "sroie": {
+      "data": {
+        "path": "experiments/data/processed/t04_v1/sroie.jsonl",
+        "records": 971,
+        "sha256": "99021c5ec92e09d3837aac62af3d1c6f51c22e77cee03c0de3b0d7f7f8641c42"
+      },
+      "quarantine": {
+        "path": "experiments/data/processed/t04_v1/sroie_quarantine.jsonl",
+        "records": 2,
+        "sha256": "2a9978a1a069536a26d3e1b27ebada6d3e3adc0cc5af5e68046ac3b6df042ebf"
+      },
+      "summary": {
+        "documents": 971,
+        "regions": 52219,
+        "source_partitions": {
+          "test": 345,
+          "train": 626
+        },
+        "field_status": {
+          "address:annotated": 970,
+          "address:source_missing": 1,
+          "company:annotated": 971,
+          "date:annotated": 971,
+          "total:annotated": 970,
+          "total:annotated_empty": 1
+        },
+        "qa_flags": {
+          "ANNOTATED_EMPTY_TOTAL": 1,
+          "SOURCE_MISSING_ADDRESS": 1,
+          "UNCERTAIN_OCR_MARKER": 8
+        },
+        "region_label_status": {
+          "uncertain_marker": 11,
+          "unlabeled": 52208
+        }
+      },
+      "quarantine_summary": {
+        "documents": 2,
+        "reason_codes": {
+          "DEGENERATE_POLYGON": 1,
+          "NON_UTF8_ANNOTATION": 1
+        }
+      }
+    }
+  }
+}

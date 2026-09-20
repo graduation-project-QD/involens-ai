@@ -1,0 +1,81 @@
+{
+  "task": "T06",
+  "split_version": "t06_v1",
+  "seed": 42,
+  "summary": {
+    "path": "experiments/splits/t06_v1/split_summary.json",
+    "sha256": "de5b1768fe86bd11051909fa04ce9abdcbff9f959008c22f52aef0a5e8034577"
+  },
+  "artifacts": {
+    "mcocr_train": {
+      "path": "experiments/splits/t06_v1/mcocr/train.jsonl",
+      "records": 806,
+      "sha256": "389e794849649219d39170bbe7435b60fa2f83b56891d22364b690d3f71dc201"
+    },
+    "mcocr_validation": {
+      "path": "experiments/splits/t06_v1/mcocr/validation.jsonl",
+      "records": 173,
+      "sha256": "21099d9eb776c4412eb409738a28c8e507c21ffb8a00895d29b7b8dfcc6bd60f"
+    },
+    "mcocr_test": {
+      "path": "experiments/splits/t06_v1/mcocr/test.jsonl",
+      "records": 173,
+      "sha256": "975b1631eac3d04bf5f8385a95b2c679f6f084eda9cef4324a5095cfbad104a5"
+    },
+    "sroie_train": {
+      "path": "experiments/splits/t06_v1/sroie/train.jsonl",
+      "records": 526,
+      "sha256": "66c8430eb846068f2cc2d21f5c769f636f5e4c337518df3187e373521d69b1b1"
+    },
+    "sroie_validation": {
+      "path": "experiments/splits/t06_v1/sroie/validation.jsonl",
+      "records": 93,
+      "sha256": "ebbaf64d1cabf92138bc7a9b79a422224b1456856aa5361abc0932214068eae0"
+    },
+    "sroie_test": {
+      "path": "experiments/splits/t06_v1/sroie/test.jsonl",
+      "records": 345,
+      "sha256": "8ead0691abbb4c112eb370ebbb51759142039ff6f555b53a5650b810a7d8ce05"
+    },
+    "mcocr_groups": {
+      "path": "experiments/splits/t06_v1/mcocr/groups.jsonl",
+      "records": 1119,
+      "sha256": "1562caec004d9102c8add72b2cfab58e188ff8e7c3cc6a60020bb47da8d3d8d2"
+    },
+    "mcocr_near_candidates": {
+      "path": "experiments/splits/t06_v1/mcocr/near_duplicate_candidates.jsonl",
+      "records": 37,
+      "sha256": "62393db909198fe88c7e969d00115ae449960bd8db621a888e679e712a6cf9ed"
+    },
+    "mcocr_unlabeled_official_validation": {
+      "path": "experiments/splits/t06_v1/mcocr/unlabeled_official_validation.jsonl",
+      "records": 391,
+      "sha256": "88f8fd3a4bc21598112d571254b602a9f9a324a9b09a46ce3813b04db863924d"
+    },
+    "sroie_groups": {
+      "path": "experiments/splits/t06_v1/sroie/groups.jsonl",
+      "records": 955,
+      "sha256": "9abb6375a4ef8e908122fe4a33bcb2a4fdf727ad74fb75417b43b4cfc4a92ee1"
+    },
+    "sroie_official_train_reference": {
+      "path": "experiments/splits/t06_v1/sroie/official_train_reference.jsonl",
+      "records": 626,
+      "sha256": "3f5d9ef478e20f2757075a02b11f7c0243354b01f3d5af0c8a00d691ead2b94e"
+    },
+    "sroie_exclusions": {
+      "path": "experiments/splits/t06_v1/sroie/adapted_exclusions.jsonl",
+      "records": 7,
+      "sha256": "0d6cb6eff2b2c2b979d08e97feedf0e81a2ca620a9024446975940a4e39ec6fb"
+    },
+    "sroie_near_candidates": {
+      "path": "experiments/splits/t06_v1/sroie/near_duplicate_candidates.jsonl",
+      "records": 436,
+      "sha256": "82c2c01fa584529471e0ec8180d7132d9a1ed85960191eefd6914ec9d6403b3b"
+    }
+  },
+  "verification": {
+    "path": "experiments/manifests/t06_verification.json",
+    "sha256": "e2913408c85a7d2487f24eed386eb76a5d6b1fe0236e0025b99af348426806b2",
+    "status": "PASS"
+  }
+}

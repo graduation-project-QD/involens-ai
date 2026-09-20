@@ -1,0 +1,23 @@
+{
+  "task": "T14",
+  "status": "PASS",
+  "evaluator_version": "evaluation_v1",
+  "checks": {
+    "reference_expected_counts": "PASS",
+    "deterministic_rebuild": true,
+    "frozen_validation_documents": 266,
+    "frozen_validation_field_slots": 1064,
+    "raw_evaluable_field_slots": 1020,
+    "artifact_sha256": {
+      "json": "ea0d49d42d1eeafe4e4395a1be84b0621e57b2ba174e5b53e332e0e4e83e73d2",
+      "csv": "159242d908755ac21a7001dc634357c37cc4264e23753431e9ffc505470935d4"
+    }
+  },
+  "actual_metric_runs": {
+    "baseline_validation": "NOT_RUN_WAITING_FOR_T13_PREDICTIONS",
+    "layoutxlm_validation": "NOT_RUN_WAITING_FOR_T18_CHECKPOINT",
+    "normalized_accuracy": "N/A_NO_INDEPENDENT_NORMALIZED_VALIDATION_GT",
+    "gold_entity_metrics": "NOT_RUN_WAITING_FOR_QAED_GOLD_SPAN_RUBRIC"
+  },
+  "failures": []
+}

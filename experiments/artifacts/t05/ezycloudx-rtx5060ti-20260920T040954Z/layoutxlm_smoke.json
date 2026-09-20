@@ -1,0 +1,106 @@
+{
+  "batch_trials": [
+    {
+      "batch_size": 1,
+      "forward_backward_seconds": 0.7629454790000025,
+      "loss": 2.381103515625,
+      "peak_gpu_used_mib": 2335,
+      "peak_process_rss_bytes": 2659221504,
+      "peak_torch_allocated_bytes": 2987994112,
+      "peak_torch_reserved_bytes": 3160408064,
+      "status": "PASS"
+    },
+    {
+      "batch_size": 2,
+      "forward_backward_seconds": 0.08318193899999926,
+      "loss": 2.5281982421875,
+      "peak_gpu_used_mib": 1765,
+      "peak_process_rss_bytes": 2700955648,
+      "peak_torch_allocated_bytes": 2984392192,
+      "peak_torch_reserved_bytes": 3263168512,
+      "status": "PASS"
+    }
+  ],
+  "largest_tested_physical_batch": 2,
+  "load_seconds": 6.617963715999998,
+  "model_forward_parameters": [
+    "attention_mask",
+    "bbox",
+    "head_mask",
+    "image",
+    "input_ids",
+    "inputs_embeds",
+    "labels",
+    "output_attentions",
+    "output_hidden_states",
+    "position_ids",
+    "return_dict",
+    "token_type_ids"
+  ],
+  "model_id": "microsoft/layoutxlm-base",
+  "processor_keys": [
+    "attention_mask",
+    "bbox",
+    "input_ids",
+    "labels",
+    "pixel_values"
+  ],
+  "reload_parity": {
+    "atol": 0.0001,
+    "max_abs_difference": 0.0,
+    "pass": true,
+    "rtol": 0.0001
+  },
+  "reload_seconds": 0.3569819500000051,
+  "revision": "b95ef788341ccd507115d74e10c4bb7137559f19",
+  "save_seconds": 1.7438912349999924,
+  "saved_model_files": {
+    "added_tokens.json": {
+      "bytes": 99,
+      "sha256": "160e1e55270d698b34c94ab513d38ef8535fe4094497d33a4fa9165532a53786"
+    },
+    "config.json": {
+      "bytes": 3220,
+      "sha256": "ca0466ab7b6309738ee64ef5f67de32f9fe6124bc9891256f739a2d80f9b8374"
+    },
+    "model.safetensors": {
+      "bytes": 1476355396,
+      "sha256": "1a9baf0cab3cd9bf2e8ae7516c2d9d9e20d29b09857caf9ac7c79d500be4a03e"
+    },
+    "preprocessor_config.json": {
+      "bytes": 475,
+      "sha256": "5203ace27d9a0f7dd9d127055d5d3a6a031daa323f5f2cd3e9c01c93c222516d"
+    },
+    "sentencepiece.bpe.model": {
+      "bytes": 5069051,
+      "sha256": "cfc8146abe2a0488e9e2a0c56de7952f7c11ab059eca145a0a727afce0db2865"
+    },
+    "special_tokens_map.json": {
+      "bytes": 125,
+      "sha256": "b6d346be366a7d1d48332dbc9fdf3bf8960b5d879522b7799ddba59e76237ee3"
+    },
+    "tokenizer.json": {
+      "bytes": 17083646,
+      "sha256": "1b1e700c041535c54bc071879912b49e74079e30f4ec6204f70f5de83ddb8e1c"
+    },
+    "tokenizer_config.json": {
+      "bytes": 2379,
+      "sha256": "3d6416bb0ba438ab522c5d824df853434949174d51321e3dad3eaea08b4b4721"
+    },
+    "unigram.json": {
+      "bytes": 14763260,
+      "sha256": "da145b5e7700ae40f16691ec32a0b1fdc1ee3298db22a31ea55f57a966c4a65d"
+    }
+  },
+  "schema_version": "t05_layoutxlm_smoke_v1",
+  "status": "PASS",
+  "torch": {
+    "capability": [
+      12,
+      0
+    ],
+    "cuda_build": "12.9",
+    "gpu_name": "NVIDIA GeForce RTX 5060 Ti",
+    "version": "2.8.0+cu129"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "task": "T04",
+  "verification_status": "PASS",
+  "processed_dataset_version": "t04_v1",
+  "canonical_schema_version": "1.0",
+  "datasets": {
+    "mcocr": {
+      "accepted": 1152,
+      "quarantined": 3,
+      "source_documents_accounted_for": 1155,
+      "regions_validated": 6581,
+      "artifact_hashes_match_report": true,
+      "image_metadata_matches_inspection_inventory": true,
+      "accepted_and_quarantine_disjoint": true,
+      "source_coverage_complete": true
+    },
+    "sroie": {
+      "accepted": 971,
+      "quarantined": 2,
+      "source_documents_accounted_for": 973,
+      "regions_validated": 52219,
+      "artifact_hashes_match_report": true,
+      "image_metadata_matches_inspection_inventory": true,
+      "accepted_and_quarantine_disjoint": true,
+      "source_coverage_complete": true
+    }
+  },
+  "source_inventory_checks": {
+    "mcocr_images": {
+      "files_checked": 1155,
+      "mismatches": [],
+      "passed": true
+    },
+    "mcocr_metadata": {
+      "files_checked": 1,
+      "mismatches": [],
+      "passed": true
+    },
+    "sroie_consumed_files": {
+      "files_checked": 2919,
+      "mismatches": [],
+      "passed": true
+    }
+  },
+  "invariants": {
+    "exactly_four_field_slots": true,
+    "empty_values_use_null": true,
+    "unknown_regions_never_mapped_to_O": true,
+    "polygons_and_bboxes_within_image_bounds": true,
+    "field_region_references_resolve": true,
+    "no_new_split_created": true,
+    "no_value_normalization_applied": true
+  },
+  "reproducibility_inputs": {
+    "ai-service/src/invoice_ai/datasets/schema.py": "6c56626ed85524e5a047f16352237a48d4dd2c1813a557567a7027db1d6c7f30",
+    "ai-service/src/invoice_ai/datasets/common.py": "a956b8af1ec897950c5a7b2bb12a1a45441649b3e6bc823cde42380c45778f1f",
+    "ai-service/src/invoice_ai/datasets/mcocr.py": "055f675644c0490788cbfe93751350b1130cc481102d6bdff6566903fa64bac7",
+    "ai-service/src/invoice_ai/datasets/sroie.py": "678502ba04096983900a7f6232e576fa539fadd3c7b820826d9df658e9438374",
+    "ai-service/src/invoice_ai/datasets/build.py": "bd629d1056c932134569583f5e9af668b4a5d69d5cbe2195549e2c9d74973d41",
+    "ai-service/src/invoice_ai/datasets/verify.py": "0cd57bc5fb7f4f41bce25a498be2658094b5a121d8b5fdc6d920fc3430c659c5",
+    "ai-service/src/invoice_ai/datasets/export_quarantine.py": "04d2cdf7ae78ba6fb2877a2571465174bc922edd5f0e083447d7df558b6b6caa",
+    "ai-service/configs/datasets/t04_qa_policy.json": "39b27fb634b67bf2daa14d29284472c59114c33110539f02491dc35da2b97636",
+    "experiments/manifests/field_mapping.json": "7eb955602f7297fa94a217a7f6d00e772378d2649473fd8fa6ef3ca10db30654",
+    "experiments/manifests/t04_qa_decisions.json": "df84be6c5a6f5f1e29285a62a876154a665573e29354db3c9ab2ec16b8847463"
+  }
+}

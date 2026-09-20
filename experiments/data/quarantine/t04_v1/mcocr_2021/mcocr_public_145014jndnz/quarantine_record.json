@@ -1,0 +1,11 @@
+{
+  "dataset": "mcocr_2021",
+  "details": {
+    "message": "No annotated target regions"
+  },
+  "document_id": "mcocr_public_145014jndnz.jpg",
+  "reason_codes": [
+    "EMPTY_DOCUMENT_ANNOTATION"
+  ],
+  "source_partition": "train"
+}

@@ -1,0 +1,15 @@
+{"sha256": "177122548f177241b25024338de0f877b164614f4d5b26fecf649a488e95f9fc", "paths": ["test/img/X51005268275.jpg", "test/img/X51005301666.jpg"], "entities_equal": true, "ocr_annotation_bytes_equal": false}
+{"sha256": "5599437a296b736c203c9b44f0739ffd5fffdf1fdedccd0f2fbd54ac9c134b4f", "paths": ["test/img/X51005447842.jpg", "test/img/X51009447842.jpg"], "entities_equal": true, "ocr_annotation_bytes_equal": false}
+{"sha256": "895f71a999ffab734aae955ca8e7609f76626466031d2fd8213074081e743cb5", "paths": ["test/img/X510056849111.jpg", "test/img/X51005684949.jpg"], "entities_equal": false, "ocr_annotation_bytes_equal": false}
+{"sha256": "f52296d80601441345507949d634354d34eebaf04a86b9caae705ea72c9481ba", "paths": ["test/img/X51006328937.jpg", "train/img/X51006329399.jpg"], "entities_equal": true, "ocr_annotation_bytes_equal": false}
+{"sha256": "2c3f4328f088d2a8abb90fd04a283c7931f640058239042494973bb38548b929", "paths": ["test/img/X51006328967.jpg", "train/img/X51006332575.jpg"], "entities_equal": true, "ocr_annotation_bytes_equal": false}
+{"sha256": "8b31ff5f14fdb9973fdb509ad997439be2811a342327f0417b21a8754704c504", "paths": ["test/img/X51006329388.jpg", "train/img/X51006328913.jpg"], "entities_equal": false, "ocr_annotation_bytes_equal": false}
+{"sha256": "58e3d0ab5333a2f8c05a3d60d1c66fe05f7f433d6ca676b7402c4723da5f3f30", "paths": ["test/img/X51006401853.jpg", "train/img/X51007135247.jpg"], "entities_equal": false, "ocr_annotation_bytes_equal": false}
+{"sha256": "0c9f94faa20bfe343279a81b5456fd076d599c6e02f6392654ed5a5e1b323d54", "paths": ["test/img/X51009008095.jpg", "train/img/X51006008095.jpg"], "entities_equal": false, "ocr_annotation_bytes_equal": false}
+{"sha256": "472f3f2e8be49ce33edee8a09d44932426fc2cfcd2fa4b50d2dd078b40a0454f", "paths": ["test/img/X51009453729.jpg", "train/img/X51005453729.jpg"], "entities_equal": true, "ocr_annotation_bytes_equal": false}
+{"sha256": "d7bfcb8d418724f9680b528186d249c98860fa60a1d452e2b7956b6c4685768d", "paths": ["test/img/X51009568881.jpg", "train/img/X51005568881.jpg"], "entities_equal": true, "ocr_annotation_bytes_equal": false}
+{"sha256": "c07bb1228ae7cc72d6510ae76dd1b6f542321d65ba38f99ad151ef64a68cafea", "paths": ["train/img/X51005268262.jpg", "train/img/X51005301659.jpg"], "entities_equal": true, "ocr_annotation_bytes_equal": false}
+{"sha256": "cf81742e708b6dda55b00856ec17ad2130e04f5caea3779a9d3e75a4f3bf5e1e", "paths": ["train/img/X51005301661.jpg", "train/img/X51005303661.jpg"], "entities_equal": false, "ocr_annotation_bytes_equal": false}
+{"sha256": "1613ee46467b109043805e79d821d9a7ecdbc6a3d53ffa954d308018ed43faec", "paths": ["train/img/X51005453801.jpg", "train/img/X51009453801.jpg"], "entities_equal": true, "ocr_annotation_bytes_equal": false}
+{"sha256": "9758674ab336ba9a8d18c098c1d209fd857004883943f75381a4af12cec7a7a7", "paths": ["train/img/X51005453804.jpg", "train/img/X51009453804.jpg"], "entities_equal": true, "ocr_annotation_bytes_equal": false}
+{"sha256": "b00688ece8bf1786f35d28f6d3ad17e09f4931fb7b2e5ba609fe370283eee636", "paths": ["train/img/X51006401723.jpg", "train/img/X51007135037.jpg"], "entities_equal": true, "ocr_annotation_bytes_equal": false}

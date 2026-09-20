@@ -1,0 +1,1155 @@
+{"id": "mcocr_public_145013ddcph.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.635309}
+{"id": "mcocr_public_145013fxcgs.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.774317}
+{"id": "mcocr_public_145013clltn.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TOTAL_COST", "TOTAL_COST", "TOTAL_COST"], "quality": 0.664084}
+{"id": "mcocr_public_145013tmibr.jpg", "regions": 8, "labels": ["SELLER", "SELLER", "ADDRESS", "ADDRESS", "TIMESTAMP", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.715504}
+{"id": "mcocr_public_145013kgypr.jpg", "regions": 5, "labels": ["ADDRESS", "SELLER", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.766884}
+{"id": "mcocr_public_145013cixex.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.829096}
+{"id": "mcocr_public_145013qxxxo.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.767563}
+{"id": "mcocr_public_145013eknsk.jpg", "regions": 7, "labels": ["SELLER", "SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST"], "quality": 0.636108}
+{"id": "mcocr_public_145013kzjew.jpg", "regions": 4, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_TOTAL_COST"], "quality": 0.701006}
+{"id": "mcocr_public_145013jechb.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.714937}
+{"id": "mcocr_public_145013dhzmu.jpg", "regions": 1, "labels": ["TOTAL_COST"], "quality": 0.271707}
+{"id": "mcocr_public_145013tumhj.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.718378}
+{"id": "mcocr_public_145013xbegl.jpg", "regions": 8, "labels": ["SELLER", "SELLER", "ADDRESS", "ADDRESS", "TIMESTAMP", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.45984}
+{"id": "mcocr_public_145013vxrqg.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.616947}
+{"id": "mcocr_public_145013zftfo.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.868203}
+{"id": "mcocr_public_145013vullg.jpg", "regions": 9, "labels": ["SELLER", "SELLER", "ADDRESS", "ADDRESS", "TIMESTAMP", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST", "TOTAL_COST"], "quality": 0.50053}
+{"id": "mcocr_public_145013nvoah.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.876552}
+{"id": "mcocr_public_145013pbggg.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.652117}
+{"id": "mcocr_public_145013eygxv.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.817126}
+{"id": "mcocr_public_145013qwmeo.jpg", "regions": 7, "labels": ["SELLER", "SELLER", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.388896}
+{"id": "mcocr_public_145013pedoz.jpg", "regions": 11, "labels": ["SELLER", "SELLER", "ADDRESS", "ADDRESS", "TIMESTAMP", "TIMESTAMP", "TIMESTAMP", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST", "TOTAL_COST"], "quality": 0.279631}
+{"id": "mcocr_public_145013rtwyd.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.731116}
+{"id": "mcocr_public_145013jzyzz.jpg", "regions": 5, "labels": ["SELLER", "SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST"], "quality": 0.592661}
+{"id": "mcocr_public_145013sbulh.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TOTAL_COST", "TIMESTAMP", "TOTAL_COST"], "quality": 0.72238}
+{"id": "mcocr_public_145013pvwgq.jpg", "regions": 6, "labels": ["SELLER", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.49781}
+{"id": "mcocr_public_145013imsqw.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.646625}
+{"id": "mcocr_public_145013apigo.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.639758}
+{"id": "mcocr_public_145013vmzzn.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.775982}
+{"id": "mcocr_public_145013rrmow.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.665235}
+{"id": "mcocr_public_145013dwbmu.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.783435}
+{"id": "mcocr_public_145013eyjmn.jpg", "regions": 7, "labels": ["ADDRESS", "TIMESTAMP", "TIMESTAMP", "TIMESTAMP", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.551958}
+{"id": "mcocr_public_145013mbytl.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.785159}
+{"id": "mcocr_public_145013fcovi.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.840708}
+{"id": "mcocr_public_145013lmjqa.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.613544}
+{"id": "mcocr_public_145013arxqp.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.666179}
+{"id": "mcocr_public_145013crqqo.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.626783}
+{"id": "mcocr_public_145013lbslf.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.854781}
+{"id": "mcocr_public_145013sbvwi.jpg", "regions": 6, "labels": ["SELLER", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.755362}
+{"id": "mcocr_public_145013hopjk.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.770651}
+{"id": "mcocr_public_145013euvfm.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.668107}
+{"id": "mcocr_public_145013jjaqc.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.702375}
+{"id": "mcocr_public_145013zpvng.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.803571}
+{"id": "mcocr_public_145013hfchp.jpg", "regions": 6, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST"], "quality": 0.649705}
+{"id": "mcocr_public_145013auohz.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.706497}
+{"id": "mcocr_public_145013aisfu.jpg", "regions": 6, "labels": ["SELLER", "SELLER", "ADDRESS", "ADDRESS", "TOTAL_COST", "TOTAL_COST"], "quality": 0.790878}
+{"id": "mcocr_public_145013tlipr.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.90689}
+{"id": "mcocr_public_145013atnil.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.754912}
+{"id": "mcocr_public_145013jyghf.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.79143}
+{"id": "mcocr_public_145013ypdox.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.780127}
+{"id": "mcocr_public_145013aukcu.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TOTAL_COST", "TOTAL_COST", "TIMESTAMP"], "quality": 0.781184}
+{"id": "mcocr_public_145013qbpjw.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.747966}
+{"id": "mcocr_public_145013ebiff.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TIMESTAMP"], "quality": 0.761653}
+{"id": "mcocr_public_145013hewxu.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.719326}
+{"id": "mcocr_public_145013cxgot.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.804801}
+{"id": "mcocr_public_145013aqosh.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.612233}
+{"id": "mcocr_public_145013aaprl.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.742918}
+{"id": "mcocr_public_145013aeriv.jpg", "regions": 4, "labels": ["SELLER", "ADDRESS", "TOTAL_COST", "TOTAL_COST"], "quality": 0.661353}
+{"id": "mcocr_public_145013qikxs.jpg", "regions": 6, "labels": ["SELLER", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.792358}
+{"id": "mcocr_public_145013jyzhp.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.885446}
+{"id": "mcocr_public_145013dfzcb.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.752483}
+{"id": "mcocr_public_145013vnlnm.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.696769}
+{"id": "mcocr_public_145013dxysa.jpg", "regions": 5, "labels": ["ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.591994}
+{"id": "mcocr_public_145013bybgv.jpg", "regions": 6, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TIMESTAMP"], "quality": 0.653424}
+{"id": "mcocr_public_145013qrpce.jpg", "regions": 9, "labels": ["SELLER", "SELLER", "ADDRESS", "ADDRESS", "TIMESTAMP", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST", "TOTAL_COST"], "quality": 0.295527}
+{"id": "mcocr_public_145013zcscc.jpg", "regions": 7, "labels": ["SELLER", "SELLER", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.767901}
+{"id": "mcocr_public_145013vviou.jpg", "regions": 7, "labels": ["TOTAL_COST", "TOTAL_COST", "TIMESTAMP", "ADDRESS", "ADDRESS", "ADDRESS", "SELLER"], "quality": 0.461675}
+{"id": "mcocr_public_145013nwksx.jpg", "regions": 3, "labels": ["TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.607009}
+{"id": "mcocr_public_145013yhzdy.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.664984}
+{"id": "mcocr_public_145013hzddg.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.791965}
+{"id": "mcocr_public_145013fibim.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.780346}
+{"id": "mcocr_public_145013fonbk.jpg", "regions": 4, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST"], "quality": 0.637317}
+{"id": "mcocr_public_145013udktj.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TOTAL_COST", "TIMESTAMP", "TOTAL_COST"], "quality": 0.809219}
+{"id": "mcocr_public_145013iblsz.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.735897}
+{"id": "mcocr_public_145013sqona.jpg", "regions": 4, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST"], "quality": 0.621905}
+{"id": "mcocr_public_145013ahfqj.jpg", "regions": 8, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TIMESTAMP", "TIMESTAMP", "TIMESTAMP", "TIMESTAMP", "TOTAL_COST"], "quality": 0.642843}
+{"id": "mcocr_public_145013uixud.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.556856}
+{"id": "mcocr_public_145013utfgs.jpg", "regions": 6, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "ADDRESS", "TOTAL_COST", "TOTAL_COST"], "quality": 0.654502}
+{"id": "mcocr_public_145013cnknh.jpg", "regions": 3, "labels": ["SELLER", "ADDRESS", "TOTAL_COST"], "quality": 0.784025}
+{"id": "mcocr_public_145013chgcz.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.665399}
+{"id": "mcocr_public_145013ogxhv.jpg", "regions": 3, "labels": ["SELLER", "TIMESTAMP", "TOTAL_COST"], "quality": 0.454803}
+{"id": "mcocr_public_145013bomoz.jpg", "regions": 3, "labels": ["TOTAL_COST", "TOTAL_COST", "ADDRESS"], "quality": 0.742181}
+{"id": "mcocr_public_145013bkcgv.jpg", "regions": 6, "labels": ["SELLER", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.455879}
+{"id": "mcocr_public_145013wkuuf.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.733788}
+{"id": "mcocr_public_145013wjnhn.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.634726}
+{"id": "mcocr_public_145013oxnpr.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.740574}
+{"id": "mcocr_public_145013bykuv.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TIMESTAMP", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.713181}
+{"id": "mcocr_public_145013itpoe.jpg", "regions": 6, "labels": ["SELLER", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.750123}
+{"id": "mcocr_public_145013kfxqd.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.848143}
+{"id": "mcocr_public_145013alybg.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.857438}
+{"id": "mcocr_public_145013idjei.jpg", "regions": 5, "labels": ["SELLER", "TIMESTAMP", "ADDRESS", "TOTAL_COST", "TOTAL_COST"], "quality": 0.744136}
+{"id": "mcocr_public_145013satyz.jpg", "regions": 6, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TIMESTAMP"], "quality": 0.678321}
+{"id": "mcocr_public_145013pzwfd.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.683227}
+{"id": "mcocr_public_145013jtjmc.jpg", "regions": 6, "labels": ["SELLER", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.655126}
+{"id": "mcocr_public_145013tgayt.jpg", "regions": 2, "labels": ["TOTAL_COST", "TOTAL_COST"], "quality": 0.518292}
+{"id": "mcocr_public_145013tifph.jpg", "regions": 4, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST"], "quality": 0.639096}
+{"id": "mcocr_public_145013bfddt.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.801902}
+{"id": "mcocr_public_145013rmrji.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.774704}
+{"id": "mcocr_public_145013kokcl.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.519037}
+{"id": "mcocr_public_145013fkkfr.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "SELLER", "ADDRESS"], "quality": 0.374122}
+{"id": "mcocr_public_145013zpqsi.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.666636}
+{"id": "mcocr_public_145013yavpz.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.736068}
+{"id": "mcocr_public_145013rttzk.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.698741}
+{"id": "mcocr_public_145013pkqci.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.828542}
+{"id": "mcocr_public_145013iesjs.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.420035}
+{"id": "mcocr_public_145013crsoa.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.816638}
+{"id": "mcocr_public_145013cuztb.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TOTAL_COST", "TOTAL_COST", "TIMESTAMP"], "quality": 0.603539}
+{"id": "mcocr_public_145013qmuqc.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.702133}
+{"id": "mcocr_public_145013zlljn.jpg", "regions": 5, "labels": ["ADDRESS", "TOTAL_COST", "SELLER", "TIMESTAMP", "TOTAL_COST"], "quality": 0.688026}
+{"id": "mcocr_public_145013vcpta.jpg", "regions": 3, "labels": ["TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.527511}
+{"id": "mcocr_public_145013nwbcg.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.492587}
+{"id": "mcocr_public_145013sommy.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.71487}
+{"id": "mcocr_public_145013wraxn.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.638914}
+{"id": "mcocr_public_145013eicdg.jpg", "regions": 4, "labels": ["SELLER", "ADDRESS", "TOTAL_COST", "TOTAL_COST"], "quality": 0.695545}
+{"id": "mcocr_public_145013nbiie.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.736954}
+{"id": "mcocr_public_145013dylla.jpg", "regions": 6, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TOTAL_COST", "TOTAL_COST"], "quality": 0.345014}
+{"id": "mcocr_public_145013hvjbj.jpg", "regions": 10, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TIMESTAMP", "TIMESTAMP", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.390359}
+{"id": "mcocr_public_145013ycbtn.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.60997}
+{"id": "mcocr_public_145013jcwbe.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.713641}
+{"id": "mcocr_public_145013pqnzb.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.82933}
+{"id": "mcocr_public_145013vpqnu.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.679536}
+{"id": "mcocr_public_145013dxngu.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "TOTAL_COST", "ADDRESS", "TIMESTAMP", "TOTAL_COST"], "quality": 0.517579}
+{"id": "mcocr_public_145013inxnt.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.707855}
+{"id": "mcocr_public_145013tcvim.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.834089}
+{"id": "mcocr_public_145013ifdaj.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.660927}
+{"id": "mcocr_public_145013cuilp.jpg", "regions": 2, "labels": ["TOTAL_COST", "TOTAL_COST"], "quality": 0.814219}
+{"id": "mcocr_public_145013wokiq.jpg", "regions": 10, "labels": ["SELLER", "SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST", "ADDRESS", "ADDRESS"], "quality": 0.713056}
+{"id": "mcocr_public_145013esetg.jpg", "regions": 6, "labels": ["ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.702785}
+{"id": "mcocr_public_145013fiibr.jpg", "regions": 5, "labels": ["SELLER", "TIMESTAMP", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.643134}
+{"id": "mcocr_public_145013snoxg.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.623475}
+{"id": "mcocr_public_145013mmpgk.jpg", "regions": 6, "labels": ["SELLER", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.549266}
+{"id": "mcocr_public_145013iurdz.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.839511}
+{"id": "mcocr_public_145013dtobm.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.691718}
+{"id": "mcocr_public_145013ckcsv.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.797083}
+{"id": "mcocr_public_145013unjxn.jpg", "regions": 6, "labels": ["SELLER", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.769548}
+{"id": "mcocr_public_145013kqcxc.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.739648}
+{"id": "mcocr_public_145013ibbrd.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.743185}
+{"id": "mcocr_public_145013adyee.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.79309}
+{"id": "mcocr_public_145013borvc.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.610242}
+{"id": "mcocr_public_145013qlpau.jpg", "regions": 7, "labels": ["TOTAL_COST", "TOTAL_COST", "TIMESTAMP", "ADDRESS", "ADDRESS", "ADDRESS", "SELLER"], "quality": 0.48192}
+{"id": "mcocr_public_145013zridb.jpg", "regions": 7, "labels": ["SELLER", "SELLER", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.776931}
+{"id": "mcocr_public_145013xtskr.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.656432}
+{"id": "mcocr_public_145013sagoy.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.850005}
+{"id": "mcocr_public_145013dhnii.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.756476}
+{"id": "mcocr_public_145013kwwha.jpg", "regions": 6, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.587841}
+{"id": "mcocr_public_145013plnfr.jpg", "regions": 9, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TIMESTAMP", "TIMESTAMP", "TIMESTAMP", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.456111}
+{"id": "mcocr_public_145013hrtto.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.625839}
+{"id": "mcocr_public_145013zykbw.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.66215}
+{"id": "mcocr_public_145013bajyy.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.524612}
+{"id": "mcocr_public_145013goyhg.jpg", "regions": 6, "labels": ["SELLER", "TIMESTAMP", "ADDRESS", "ADDRESS", "TOTAL_COST", "TOTAL_COST"], "quality": 0.796744}
+{"id": "mcocr_public_145013ozjnr.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.877528}
+{"id": "mcocr_public_145013uexmk.jpg", "regions": 9, "labels": ["SELLER", "SELLER", "ADDRESS", "ADDRESS", "TIMESTAMP", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST", "TOTAL_COST"], "quality": 0.423734}
+{"id": "mcocr_public_145013tljfn.jpg", "regions": 6, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "ADDRESS", "ADDRESS"], "quality": 0.714543}
+{"id": "mcocr_public_145013giwqv.jpg", "regions": 3, "labels": ["SELLER", "ADDRESS", "TOTAL_COST"], "quality": 0.134141}
+{"id": "mcocr_public_145013anmiz.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.615591}
+{"id": "mcocr_public_145013cawuf.jpg", "regions": 10, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST", "TIMESTAMP", "TIMESTAMP", "TIMESTAMP", "TIMESTAMP"], "quality": 0.685869}
+{"id": "mcocr_public_145013idboz.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.653821}
+{"id": "mcocr_public_145013sxjox.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.750632}
+{"id": "mcocr_public_145013wgrej.jpg", "regions": 10, "labels": ["SELLER", "SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.74877}
+{"id": "mcocr_public_145013hgrpn.jpg", "regions": 7, "labels": ["SELLER", "SELLER", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.808666}
+{"id": "mcocr_public_145013wuprd.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.752524}
+{"id": "mcocr_public_145013xyaln.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.719561}
+{"id": "mcocr_public_145013wrunk.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.579756}
+{"id": "mcocr_public_145013dsaix.jpg", "regions": 6, "labels": ["TOTAL_COST", "TOTAL_COST", "TIMESTAMP", "TIMESTAMP", "SELLER", "ADDRESS"], "quality": 0.649813}
+{"id": "mcocr_public_145013iadlw.jpg", "regions": 11, "labels": ["SELLER", "SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.795432}
+{"id": "mcocr_public_145013wwkrv.jpg", "regions": 6, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TIMESTAMP"], "quality": 0.728419}
+{"id": "mcocr_public_145013qvyzw.jpg", "regions": 1, "labels": ["TOTAL_COST"], "quality": 0.643861}
+{"id": "mcocr_public_145013fskld.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "TIMESTAMP", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.710758}
+{"id": "mcocr_public_145013vbjnr.jpg", "regions": 3, "labels": ["SELLER", "TOTAL_COST", "TIMESTAMP"], "quality": 0.275847}
+{"id": "mcocr_public_145013rywqy.jpg", "regions": 5, "labels": ["ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.738451}
+{"id": "mcocr_public_145013ywvkx.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.806078}
+{"id": "mcocr_public_145013eituj.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.877818}
+{"id": "mcocr_public_145013tffpu.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.855467}
+{"id": "mcocr_public_145013cleap.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.669001}
+{"id": "mcocr_public_145013azaup.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.794414}
+{"id": "mcocr_public_145013alpyf.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.833367}
+{"id": "mcocr_public_145013isfbd.jpg", "regions": 7, "labels": ["SELLER", "SELLER", "ADDRESS", "TIMESTAMP", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.542944}
+{"id": "mcocr_public_145013bldqx.jpg", "regions": 1, "labels": ["TOTAL_COST"], "quality": 0.459077}
+{"id": "mcocr_public_145013amzul.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.851726}
+{"id": "mcocr_public_145013ywtjf.jpg", "regions": 4, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST"], "quality": 0.754084}
+{"id": "mcocr_public_145013kaedt.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.792146}
+{"id": "mcocr_public_145013uqtmx.jpg", "regions": 21, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST", "TOTAL_COST", "TOTAL_COST", "TOTAL_COST", "TOTAL_COST", "TOTAL_COST", "TOTAL_COST", "TOTAL_COST", "TOTAL_COST", "TOTAL_COST", "TOTAL_COST", "TOTAL_COST", "TOTAL_COST", "TOTAL_COST", "TOTAL_COST", "TOTAL_COST", "TOTAL_COST"], "quality": 0.781005}
+{"id": "mcocr_public_145013gklzz.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.760593}
+{"id": "mcocr_public_145013kbhkb.jpg", "regions": 10, "labels": ["SELLER", "SELLER", "ADDRESS", "ADDRESS", "TIMESTAMP", "TIMESTAMP", "TIMESTAMP", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.611457}
+{"id": "mcocr_public_145013dxavh.jpg", "regions": 6, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TIMESTAMP"], "quality": 0.731075}
+{"id": "mcocr_public_145013blbqm.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.816294}
+{"id": "mcocr_public_145013mwqpu.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.775195}
+{"id": "mcocr_public_145013lukaj.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.677853}
+{"id": "mcocr_public_145013guoun.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.771883}
+{"id": "mcocr_public_145013puwmb.jpg", "regions": 11, "labels": ["SELLER", "SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TIMESTAMP", "TIMESTAMP", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.251513}
+{"id": "mcocr_public_145013qqkij.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.81624}
+{"id": "mcocr_public_145013tnlbk.jpg", "regions": 7, "labels": ["TOTAL_COST", "TOTAL_COST", "SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP"], "quality": 0.740721}
+{"id": "mcocr_public_145013imbop.jpg", "regions": 3, "labels": ["TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.429344}
+{"id": "mcocr_public_145013iijxa.jpg", "regions": 6, "labels": ["SELLER", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.596221}
+{"id": "mcocr_public_145013sscqf.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.777246}
+{"id": "mcocr_public_145013byufi.jpg", "regions": 4, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST"], "quality": 0.654522}
+{"id": "mcocr_public_145013wacye.jpg", "regions": 9, "labels": ["SELLER", "SELLER", "ADDRESS", "TIMESTAMP", "TIMESTAMP", "TIMESTAMP", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.488052}
+{"id": "mcocr_public_145013lkqkg.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.371445}
+{"id": "mcocr_public_145013skwtp.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.803889}
+{"id": "mcocr_public_145013cdjax.jpg", "regions": 3, "labels": ["ADDRESS", "TIMESTAMP", "TOTAL_COST"], "quality": 0.463105}
+{"id": "mcocr_public_145013mwcaz.jpg", "regions": 3, "labels": ["TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.756562}
+{"id": "mcocr_public_145013mylmw.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.789786}
+{"id": "mcocr_public_145013rhwvu.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.798236}
+{"id": "mcocr_public_145013xzsri.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.652819}
+{"id": "mcocr_public_145013cuwqi.jpg", "regions": 6, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.726024}
+{"id": "mcocr_public_145013ckwpd.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.661847}
+{"id": "mcocr_public_145013ufbki.jpg", "regions": 6, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.653984}
+{"id": "mcocr_public_145013gguch.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.569572}
+{"id": "mcocr_public_145013uwdpy.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "SELLER", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.686638}
+{"id": "mcocr_public_145013coalz.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.775105}
+{"id": "mcocr_public_145013zufms.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.635292}
+{"id": "mcocr_public_145013nsnnh.jpg", "regions": 10, "labels": ["SELLER", "SELLER", "ADDRESS", "ADDRESS", "TIMESTAMP", "TIMESTAMP", "TIMESTAMP", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.230183}
+{"id": "mcocr_public_145013wdcqs.jpg", "regions": 6, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.741955}
+{"id": "mcocr_public_145013vtqrc.jpg", "regions": 6, "labels": ["ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.720828}
+{"id": "mcocr_public_145013bxoir.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.744927}
+{"id": "mcocr_public_145013ramij.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.812681}
+{"id": "mcocr_public_145013vmxho.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.655945}
+{"id": "mcocr_public_145013xafsi.jpg", "regions": 6, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TIMESTAMP"], "quality": 0.528878}
+{"id": "mcocr_public_145013ndqdl.jpg", "regions": 3, "labels": ["TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.48753}
+{"id": "mcocr_public_145013zguhy.jpg", "regions": 4, "labels": ["TIMESTAMP", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.23646}
+{"id": "mcocr_public_145013ecfzg.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.682586}
+{"id": "mcocr_public_145013cxtop.jpg", "regions": 5, "labels": ["SELLER", "TIMESTAMP", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.729176}
+{"id": "mcocr_public_145013fctzg.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.71169}
+{"id": "mcocr_public_145013gxbkt.jpg", "regions": 7, "labels": ["SELLER", "SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST", "ADDRESS"], "quality": 0.723811}
+{"id": "mcocr_public_145013acjke.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.680905}
+{"id": "mcocr_public_145013kacze.jpg", "regions": 6, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.548397}
+{"id": "mcocr_public_145013kwckq.jpg", "regions": 6, "labels": ["SELLER", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.733627}
+{"id": "mcocr_public_145013yinzr.jpg", "regions": 6, "labels": ["SELLER", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.722124}
+{"id": "mcocr_public_145013xczvp.jpg", "regions": 4, "labels": ["SELLER", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.580955}
+{"id": "mcocr_public_145013cxcei.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.764983}
+{"id": "mcocr_public_145013niqeq.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.440991}
+{"id": "mcocr_public_145013ilier.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.644057}
+{"id": "mcocr_public_145013zhiwi.jpg", "regions": 6, "labels": ["SELLER", "SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.754876}
+{"id": "mcocr_public_145013xzfut.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.741576}
+{"id": "mcocr_public_145013djwis.jpg", "regions": 4, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST"], "quality": 0.726014}
+{"id": "mcocr_public_145013pnbza.jpg", "regions": 10, "labels": ["SELLER", "SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TIMESTAMP", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.498423}
+{"id": "mcocr_public_145013fybvq.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.658389}
+{"id": "mcocr_public_145013crgek.jpg", "regions": 10, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TIMESTAMP", "TIMESTAMP", "TIMESTAMP", "TIMESTAMP", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.698177}
+{"id": "mcocr_public_145013rcioe.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.792768}
+{"id": "mcocr_public_145013bcovr.jpg", "regions": 5, "labels": ["ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.72161}
+{"id": "mcocr_public_145013bdnvs.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.807136}
+{"id": "mcocr_public_145013zrrly.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.727482}
+{"id": "mcocr_public_145013yjpdv.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.782977}
+{"id": "mcocr_public_145013seqfm.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.648547}
+{"id": "mcocr_public_145013vfius.jpg", "regions": 6, "labels": ["SELLER", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.739312}
+{"id": "mcocr_public_145013waefm.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.749153}
+{"id": "mcocr_public_145013awcbh.jpg", "regions": 4, "labels": ["SELLER", "ADDRESS", "TOTAL_COST", "TOTAL_COST"], "quality": 0.766654}
+{"id": "mcocr_public_145013nnlba.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.75112}
+{"id": "mcocr_public_145013jgdys.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.596393}
+{"id": "mcocr_public_145013sihqk.jpg", "regions": 11, "labels": ["SELLER", "SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TIMESTAMP", "TIMESTAMP", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.398941}
+{"id": "mcocr_public_145013dcdmv.jpg", "regions": 6, "labels": ["SELLER", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.651402}
+{"id": "mcocr_public_145013joykg.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.697504}
+{"id": "mcocr_public_145013rqfec.jpg", "regions": 6, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST"], "quality": 0.681072}
+{"id": "mcocr_public_145013nfkiq.jpg", "regions": 5, "labels": ["SELLER", "SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST"], "quality": 0.646313}
+{"id": "mcocr_public_145013kyyit.jpg", "regions": 4, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST"], "quality": 0.716466}
+{"id": "mcocr_public_145013avtwc.jpg", "regions": 3, "labels": ["TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.580448}
+{"id": "mcocr_public_145013wdwok.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.797394}
+{"id": "mcocr_public_145013njyzj.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.668177}
+{"id": "mcocr_public_145013iulwh.jpg", "regions": 6, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.787825}
+{"id": "mcocr_public_145013ihpxr.jpg", "regions": 4, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST"], "quality": 0.620576}
+{"id": "mcocr_public_145013atlmq.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.671323}
+{"id": "mcocr_public_145013tupze.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.763436}
+{"id": "mcocr_public_145013qujjw.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.79796}
+{"id": "mcocr_public_145013vilkn.jpg", "regions": 6, "labels": ["TOTAL_COST", "TOTAL_COST", "TIMESTAMP", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.67679}
+{"id": "mcocr_public_145013bpcpt.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.72164}
+{"id": "mcocr_public_145013cgpoh.jpg", "regions": 8, "labels": ["SELLER", "ADDRESS", "ADDRESS", "TIMESTAMP", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST", "TOTAL_COST"], "quality": 0.370958}
+{"id": "mcocr_public_145013dkgbh.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.777283}
+{"id": "mcocr_public_145013bgfxq.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.776852}
+{"id": "mcocr_public_145013lkpwc.jpg", "regions": 8, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TIMESTAMP", "TIMESTAMP", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.539924}
+{"id": "mcocr_public_145013aqeha.jpg", "regions": 2, "labels": ["TIMESTAMP", "TOTAL_COST"], "quality": 0.611996}
+{"id": "mcocr_public_145013aedmq.jpg", "regions": 6, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TIMESTAMP"], "quality": 0.563695}
+{"id": "mcocr_public_145013emvhs.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.718027}
+{"id": "mcocr_public_145013haeps.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.535477}
+{"id": "mcocr_public_145013rfcrv.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.70173}
+{"id": "mcocr_public_145013fwuow.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.810597}
+{"id": "mcocr_public_145013ohrly.jpg", "regions": 4, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST"], "quality": 0.595577}
+{"id": "mcocr_public_145013kgaqa.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.610775}
+{"id": "mcocr_public_145013eekwk.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.750771}
+{"id": "mcocr_public_145013nnxlz.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TOTAL_COST", "TOTAL_COST", "TIMESTAMP"], "quality": 0.821781}
+{"id": "mcocr_public_145013egffi.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.788355}
+{"id": "mcocr_public_145013tmshn.jpg", "regions": 7, "labels": ["SELLER", "SELLER", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.795463}
+{"id": "mcocr_public_145013itqit.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TIMESTAMP", "TIMESTAMP"], "quality": 0.760325}
+{"id": "mcocr_public_145013blmgu.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.688659}
+{"id": "mcocr_public_145013shecj.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.76152}
+{"id": "mcocr_public_145013vgvpe.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.78462}
+{"id": "mcocr_public_145013famty.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.694933}
+{"id": "mcocr_public_145013tafca.jpg", "regions": 7, "labels": ["SELLER", "SELLER", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.727359}
+{"id": "mcocr_public_145013ipoka.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.647905}
+{"id": "mcocr_public_145013cqpwh.jpg", "regions": 4, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST"], "quality": 0.793899}
+{"id": "mcocr_public_145013msokr.jpg", "regions": 4, "labels": ["ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.676907}
+{"id": "mcocr_public_145013clfsp.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.623407}
+{"id": "mcocr_public_145013cllbf.jpg", "regions": 4, "labels": ["ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.524167}
+{"id": "mcocr_public_145013lkorp.jpg", "regions": 1, "labels": ["ADDRESS"], "quality": 0.442701}
+{"id": "mcocr_public_145013otqcx.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.75316}
+{"id": "mcocr_public_145013pytgf.jpg", "regions": 4, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST"], "quality": 0.673616}
+{"id": "mcocr_public_145013scuxn.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.602575}
+{"id": "mcocr_public_145013mqmzy.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.713476}
+{"id": "mcocr_public_145013laizk.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.661434}
+{"id": "mcocr_public_145013mfogg.jpg", "regions": 6, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.331843}
+{"id": "mcocr_public_145013qiyft.jpg", "regions": 6, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TIMESTAMP"], "quality": 0.585442}
+{"id": "mcocr_public_145013lxunp.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.753243}
+{"id": "mcocr_public_145013lmhud.jpg", "regions": 4, "labels": ["SELLER", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.676107}
+{"id": "mcocr_public_145013fomil.jpg", "regions": 2, "labels": ["TOTAL_COST", "TOTAL_COST"], "quality": 0.740599}
+{"id": "mcocr_public_145013yewns.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.749184}
+{"id": "mcocr_public_145013yqmqe.jpg", "regions": 4, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST"], "quality": 0.873629}
+{"id": "mcocr_public_145013qigez.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TOTAL_COST", "TOTAL_COST", "TIMESTAMP"], "quality": 0.738453}
+{"id": "mcocr_public_145013nwgha.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.591408}
+{"id": "mcocr_public_145013doybn.jpg", "regions": 4, "labels": ["SELLER", "ADDRESS", "TOTAL_COST", "TOTAL_COST"], "quality": 0.796748}
+{"id": "mcocr_public_145013ngzwi.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.663617}
+{"id": "mcocr_public_145013rnpjm.jpg", "regions": 6, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TIMESTAMP"], "quality": 0.551065}
+{"id": "mcocr_public_145013qeejy.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.76244}
+{"id": "mcocr_public_145013mctzs.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.628396}
+{"id": "mcocr_public_145013dnwxv.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.651501}
+{"id": "mcocr_public_145013wjlkq.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.824343}
+{"id": "mcocr_public_145013sqwxo.jpg", "regions": 6, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TIMESTAMP"], "quality": 0.606782}
+{"id": "mcocr_public_145013geohx.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.432425}
+{"id": "mcocr_public_145013luuro.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "TIMESTAMP", "ADDRESS", "TOTAL_COST", "TOTAL_COST"], "quality": 0.638529}
+{"id": "mcocr_public_145013tvyce.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.691784}
+{"id": "mcocr_public_145013uomce.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.805813}
+{"id": "mcocr_public_145013xaojq.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.774777}
+{"id": "mcocr_public_145013lxdbt.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.777971}
+{"id": "mcocr_public_145013cezfv.jpg", "regions": 2, "labels": ["SELLER", "TIMESTAMP"], "quality": 0.372112}
+{"id": "mcocr_public_145013dcqda.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.698969}
+{"id": "mcocr_public_145013nsktd.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.705917}
+{"id": "mcocr_public_145013lrksq.jpg", "regions": 3, "labels": ["TOTAL_COST", "TIMESTAMP", "TIMESTAMP"], "quality": 0.301963}
+{"id": "mcocr_public_145013njeuf.jpg", "regions": 4, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST"], "quality": 0.793873}
+{"id": "mcocr_public_145013ptdjx.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.623297}
+{"id": "mcocr_public_145013ogvmp.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TOTAL_COST", "TOTAL_COST", "TIMESTAMP"], "quality": 0.692691}
+{"id": "mcocr_public_145013yzczt.jpg", "regions": 3, "labels": ["SELLER", "TOTAL_COST", "TOTAL_COST"], "quality": 0.622279}
+{"id": "mcocr_public_145013drlui.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.720519}
+{"id": "mcocr_public_145013bvmvl.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.892995}
+{"id": "mcocr_public_145013iyqnr.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST"], "quality": 0.300921}
+{"id": "mcocr_public_145013bchvc.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.788375}
+{"id": "mcocr_public_145013ckejs.jpg", "regions": 3, "labels": ["SELLER", "ADDRESS", "TIMESTAMP"], "quality": 0.575069}
+{"id": "mcocr_public_145013syjan.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.795871}
+{"id": "mcocr_public_145013jhxzq.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.878966}
+{"id": "mcocr_public_145013jwjnj.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.777738}
+{"id": "mcocr_public_145013lisnd.jpg", "regions": 4, "labels": ["ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.721706}
+{"id": "mcocr_public_145013bjvsn.jpg", "regions": 4, "labels": ["SELLER", "ADDRESS", "ADDRESS", "TOTAL_COST"], "quality": 0.579227}
+{"id": "mcocr_public_145013egelf.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.373885}
+{"id": "mcocr_public_145013zcfau.jpg", "regions": 6, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TIMESTAMP"], "quality": 0.607606}
+{"id": "mcocr_public_145013shcxo.jpg", "regions": 11, "labels": ["SELLER", "SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TIMESTAMP", "TIMESTAMP", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.377123}
+{"id": "mcocr_public_145013lplfx.jpg", "regions": 5, "labels": ["SELLER", "TIMESTAMP", "ADDRESS", "TOTAL_COST", "TOTAL_COST"], "quality": 0.875064}
+{"id": "mcocr_public_145013mzyyu.jpg", "regions": 7, "labels": ["SELLER", "SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "ADDRESS", "TOTAL_COST"], "quality": 0.611247}
+{"id": "mcocr_public_145013wrrom.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.744333}
+{"id": "mcocr_public_145013otehh.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.668499}
+{"id": "mcocr_public_145013shpih.jpg", "regions": 7, "labels": ["SELLER", "SELLER", "ADDRESS", "TIMESTAMP", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.647803}
+{"id": "mcocr_public_145013fpcxy.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.435603}
+{"id": "mcocr_public_145013ezyfw.jpg", "regions": 3, "labels": ["ADDRESS", "TIMESTAMP", "TOTAL_COST"], "quality": 0.680287}
+{"id": "mcocr_public_145013geoih.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.865597}
+{"id": "mcocr_public_145013aagqw.jpg", "regions": 11, "labels": ["SELLER", "SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TIMESTAMP", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.695402}
+{"id": "mcocr_public_145013qvqeu.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.696496}
+{"id": "mcocr_public_145013laiap.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.733904}
+{"id": "mcocr_public_145013bynnh.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.798786}
+{"id": "mcocr_public_145013rtjsr.jpg", "regions": 3, "labels": ["ADDRESS", "TIMESTAMP", "TOTAL_COST"], "quality": 0.739077}
+{"id": "mcocr_public_145013moepq.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.855165}
+{"id": "mcocr_public_145013lozjt.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.720453}
+{"id": "mcocr_public_145013dkfnl.jpg", "regions": 7, "labels": ["TOTAL_COST", "TOTAL_COST", "TIMESTAMP", "SELLER", "SELLER", "ADDRESS", "ADDRESS"], "quality": 0.600331}
+{"id": "mcocr_public_145013srvjw.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.724097}
+{"id": "mcocr_public_145013onyrj.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.825069}
+{"id": "mcocr_public_145013nkpao.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.713505}
+{"id": "mcocr_public_145013jiksh.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST"], "quality": 0.688904}
+{"id": "mcocr_public_145013ykdsv.jpg", "regions": 7, "labels": ["SELLER", "SELLER", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.617076}
+{"id": "mcocr_public_145013cmeru.jpg", "regions": 1, "labels": ["SELLER"], "quality": 0.405871}
+{"id": "mcocr_public_145013hfxkr.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.854982}
+{"id": "mcocr_public_145013bsywa.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.835642}
+{"id": "mcocr_public_145013cgpey.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.746162}
+{"id": "mcocr_public_145013kcxya.jpg", "regions": 1, "labels": ["TOTAL_COST"], "quality": 0.470588}
+{"id": "mcocr_public_145013itmvi.jpg", "regions": 6, "labels": ["SELLER", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.716755}
+{"id": "mcocr_public_145013rpxpi.jpg", "regions": 6, "labels": ["SELLER", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.580781}
+{"id": "mcocr_public_145014rdhuo.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.694361}
+{"id": "mcocr_public_145014luapg.jpg", "regions": 6, "labels": ["SELLER", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.708517}
+{"id": "mcocr_public_145014cmdbw.jpg", "regions": 1, "labels": ["TOTAL_COST"], "quality": 0.444359}
+{"id": "mcocr_public_145014nymps.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.660453}
+{"id": "mcocr_public_145014enjwd.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.661461}
+{"id": "mcocr_public_145014maadf.jpg", "regions": 7, "labels": ["SELLER", "SELLER", "ADDRESS", "TIMESTAMP", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.210877}
+{"id": "mcocr_public_145014hexbx.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.767708}
+{"id": "mcocr_public_145014mgasx.jpg", "regions": 10, "labels": ["SELLER", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST"], "quality": 0.655852}
+{"id": "mcocr_public_145014kncdk.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.834787}
+{"id": "mcocr_public_145014shmit.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.563261}
+{"id": "mcocr_public_145014knafb.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.70477}
+{"id": "mcocr_public_145014qodwj.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.684575}
+{"id": "mcocr_public_145014ynigt.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.859788}
+{"id": "mcocr_public_145014wpplc.jpg", "regions": 6, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TIMESTAMP"], "quality": 0.733077}
+{"id": "mcocr_public_145014ansoe.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.842993}
+{"id": "mcocr_public_145014iwlls.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.736497}
+{"id": "mcocr_public_145014paioy.jpg", "regions": 8, "labels": ["TIMESTAMP", "SELLER", "SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "ADDRESS", "TOTAL_COST"], "quality": 0.601257}
+{"id": "mcocr_public_145014ltwth.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.740867}
+{"id": "mcocr_public_145014iwkki.jpg", "regions": 2, "labels": ["TOTAL_COST", "TOTAL_COST"], "quality": 0.71357}
+{"id": "mcocr_public_145014cfwkp.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.658739}
+{"id": "mcocr_public_145014caxiq.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.764087}
+{"id": "mcocr_public_145014mxcxa.jpg", "regions": 6, "labels": ["SELLER", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.706749}
+{"id": "mcocr_public_145014zkxjr.jpg", "regions": 1, "labels": ["TIMESTAMP"], "quality": 0.4597}
+{"id": "mcocr_public_145014fzozs.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.793674}
+{"id": "mcocr_public_145014udqjt.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "TIMESTAMP", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.202762}
+{"id": "mcocr_public_145014nxeuq.jpg", "regions": 3, "labels": ["TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.64571}
+{"id": "mcocr_public_145014mvpzk.jpg", "regions": 6, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.243006}
+{"id": "mcocr_public_145014ekpfi.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.698167}
+{"id": "mcocr_public_145014mdljs.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.824776}
+{"id": "mcocr_public_145014xbjfb.jpg", "regions": 1, "labels": ["TIMESTAMP"], "quality": 0.225615}
+{"id": "mcocr_public_145014oqflg.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.802645}
+{"id": "mcocr_public_145014wkmws.jpg", "regions": 6, "labels": ["SELLER", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.698947}
+{"id": "mcocr_public_145014lesir.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.714378}
+{"id": "mcocr_public_145014tkdal.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.737171}
+{"id": "mcocr_public_145014evnmr.jpg", "regions": 4, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST"], "quality": 0.579286}
+{"id": "mcocr_public_145014hngsl.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "ADDRESS", "TOTAL_COST", "TOTAL_COST"], "quality": 0.687386}
+{"id": "mcocr_public_145014pbtzz.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.696413}
+{"id": "mcocr_public_145014wpnpe.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.719201}
+{"id": "mcocr_public_145014wcjoc.jpg", "regions": 11, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TIMESTAMP", "TIMESTAMP", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.687181}
+{"id": "mcocr_public_145014qjkba.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.607012}
+{"id": "mcocr_public_145014obtof.jpg", "regions": 6, "labels": ["SELLER", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.615326}
+{"id": "mcocr_public_145014fbixi.jpg", "regions": 6, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TIMESTAMP"], "quality": 0.647987}
+{"id": "mcocr_public_145014kyxew.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.816946}
+{"id": "mcocr_public_145014zibrj.jpg", "regions": 4, "labels": ["SELLER", "ADDRESS", "TOTAL_COST", "TOTAL_COST"], "quality": 0.657379}
+{"id": "mcocr_public_145014orfyr.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.743571}
+{"id": "mcocr_public_145014apodg.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.730695}
+{"id": "mcocr_public_145014wplip.jpg", "regions": 6, "labels": ["SELLER", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.406405}
+{"id": "mcocr_public_145014yjivr.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.67493}
+{"id": "mcocr_public_145014pnuud.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.716735}
+{"id": "mcocr_public_145014dnwoz.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.581463}
+{"id": "mcocr_public_145014kupdx.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.740639}
+{"id": "mcocr_public_145014upely.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.814881}
+{"id": "mcocr_public_145014lopme.jpg", "regions": 6, "labels": ["SELLER", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.728886}
+{"id": "mcocr_public_145014evpom.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.779573}
+{"id": "mcocr_public_145014ofrbt.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.261412}
+{"id": "mcocr_public_145014cbkkn.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.895945}
+{"id": "mcocr_public_145014ppfqq.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.710084}
+{"id": "mcocr_public_145014woqkn.jpg", "regions": 6, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TIMESTAMP"], "quality": 0.65198}
+{"id": "mcocr_public_145014gjtjf.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.805096}
+{"id": "mcocr_public_145014ecchz.jpg", "regions": 6, "labels": ["SELLER", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.729269}
+{"id": "mcocr_public_145014giqwv.jpg", "regions": 1, "labels": ["SELLER"], "quality": 0.402023}
+{"id": "mcocr_public_145014zdfgy.jpg", "regions": 6, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TIMESTAMP"], "quality": 0.652127}
+{"id": "mcocr_public_145014zzzej.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.798019}
+{"id": "mcocr_public_145014nsrnp.jpg", "regions": 2, "labels": ["TOTAL_COST", "TOTAL_COST"], "quality": 0.533927}
+{"id": "mcocr_public_145014miikd.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TOTAL_COST", "TIMESTAMP", "TOTAL_COST"], "quality": 0.747804}
+{"id": "mcocr_public_145014lshmg.jpg", "regions": 6, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST"], "quality": 0.654031}
+{"id": "mcocr_public_145014wcltx.jpg", "regions": 4, "labels": ["SELLER", "ADDRESS", "TOTAL_COST", "TOTAL_COST"], "quality": 0.668699}
+{"id": "mcocr_public_145014umhqi.jpg", "regions": 7, "labels": ["ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.658348}
+{"id": "mcocr_public_145014phmqt.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.898578}
+{"id": "mcocr_public_145014fvnus.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TOTAL_COST", "TIMESTAMP", "TIMESTAMP"], "quality": 0.848139}
+{"id": "mcocr_public_145014ztmap.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.710393}
+{"id": "mcocr_public_145014wyctr.jpg", "regions": 9, "labels": ["SELLER", "SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.601605}
+{"id": "mcocr_public_145014jvifr.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.763987}
+{"id": "mcocr_public_145014wbfza.jpg", "regions": 6, "labels": ["SELLER", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST", "ADDRESS", "ADDRESS"], "quality": 0.727731}
+{"id": "mcocr_public_145014ugcvq.jpg", "regions": 4, "labels": ["SELLER", "ADDRESS", "TOTAL_COST", "TOTAL_COST"], "quality": 0.724113}
+{"id": "mcocr_public_145014uqhki.jpg", "regions": 2, "labels": ["TIMESTAMP", "SELLER"], "quality": 0.528212}
+{"id": "mcocr_public_145014evbnu.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.779807}
+{"id": "mcocr_public_145014lfctk.jpg", "regions": 6, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TIMESTAMP"], "quality": 0.635496}
+{"id": "mcocr_public_145014yrxvd.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.54161}
+{"id": "mcocr_public_145014jcwux.jpg", "regions": 1, "labels": ["SELLER"], "quality": 0.314848}
+{"id": "mcocr_public_145014rzbtj.jpg", "regions": 8, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TIMESTAMP", "TIMESTAMP", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.526837}
+{"id": "mcocr_public_145014itwqb.jpg", "regions": 6, "labels": ["ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.700065}
+{"id": "mcocr_public_145014emqom.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.783293}
+{"id": "mcocr_public_145014wcrlk.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.734259}
+{"id": "mcocr_public_145014uagtj.jpg", "regions": 5, "labels": ["ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.753693}
+{"id": "mcocr_public_145014gkura.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.721652}
+{"id": "mcocr_public_145014pvsrm.jpg", "regions": 6, "labels": ["SELLER", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.502199}
+{"id": "mcocr_public_145014tobyw.jpg", "regions": 6, "labels": ["SELLER", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.579335}
+{"id": "mcocr_public_145014lrken.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.792307}
+{"id": "mcocr_public_145014yiufn.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.781709}
+{"id": "mcocr_public_145014uzdqt.jpg", "regions": 9, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TIMESTAMP", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.21056}
+{"id": "mcocr_public_145014awwfw.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.784907}
+{"id": "mcocr_public_145014nwfmm.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.802927}
+{"id": "mcocr_public_145014wdzrp.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.85414}
+{"id": "mcocr_public_145014xdtdp.jpg", "regions": 4, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST"], "quality": 0.774561}
+{"id": "mcocr_public_145014jgtbj.jpg", "regions": 6, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST"], "quality": 0.735902}
+{"id": "mcocr_public_145014pevvt.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.842428}
+{"id": "mcocr_public_145014mudmu.jpg", "regions": 6, "labels": ["SELLER", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.376322}
+{"id": "mcocr_public_145014nerzt.jpg", "regions": 6, "labels": ["SELLER", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.613169}
+{"id": "mcocr_public_145014hdevu.jpg", "regions": 7, "labels": ["SELLER", "SELLER", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.815979}
+{"id": "mcocr_public_145014armln.jpg", "regions": 8, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TIMESTAMP", "TIMESTAMP", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.579892}
+{"id": "mcocr_public_145014enllh.jpg", "regions": 9, "labels": ["SELLER", "ADDRESS", "ADDRESS", "TIMESTAMP", "TIMESTAMP", "TIMESTAMP", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.338744}
+{"id": "mcocr_public_145014ohtbh.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.758582}
+{"id": "mcocr_public_145014xzfyh.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.682709}
+{"id": "mcocr_public_145014fiydd.jpg", "regions": 6, "labels": ["SELLER", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.744279}
+{"id": "mcocr_public_145014hpdwx.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.859196}
+{"id": "mcocr_public_145014cfgjy.jpg", "regions": 6, "labels": ["SELLER", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.290264}
+{"id": "mcocr_public_145014uilmf.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.848064}
+{"id": "mcocr_public_145014xubtk.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.639834}
+{"id": "mcocr_public_145014orisb.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.86747}
+{"id": "mcocr_public_145014vtqgy.jpg", "regions": 4, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST"], "quality": 0.671169}
+{"id": "mcocr_public_145014kplqb.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.801719}
+{"id": "mcocr_public_145014ytzcj.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.689996}
+{"id": "mcocr_public_145014fhbos.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.663178}
+{"id": "mcocr_public_145014sprsy.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.818981}
+{"id": "mcocr_public_145014dhiru.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.893027}
+{"id": "mcocr_public_145014ofcbe.jpg", "regions": 2, "labels": ["TOTAL_COST", "TOTAL_COST"], "quality": 0.612567}
+{"id": "mcocr_public_145014tetea.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.790357}
+{"id": "mcocr_public_145014cqsoz.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.56216}
+{"id": "mcocr_public_145014xsppi.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.735319}
+{"id": "mcocr_public_145014lmarv.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.819928}
+{"id": "mcocr_public_145014zorzw.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.673217}
+{"id": "mcocr_public_145014mtbhi.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.713383}
+{"id": "mcocr_public_145014nsqiz.jpg", "regions": 6, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TIMESTAMP"], "quality": 0.596477}
+{"id": "mcocr_public_145014ayyud.jpg", "regions": 6, "labels": ["ADDRESS", "SELLER", "SELLER", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.574928}
+{"id": "mcocr_public_145014khrvg.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TOTAL_COST", "TIMESTAMP", "TOTAL_COST"], "quality": 0.732073}
+{"id": "mcocr_public_145014hngaw.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.8518}
+{"id": "mcocr_public_145014dztik.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.667476}
+{"id": "mcocr_public_145014ccyis.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.783348}
+{"id": "mcocr_public_145014zuarq.jpg", "regions": 6, "labels": ["SELLER", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.779715}
+{"id": "mcocr_public_145014esieu.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.609666}
+{"id": "mcocr_public_145014mjfti.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.778934}
+{"id": "mcocr_public_145014irkqn.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.83937}
+{"id": "mcocr_public_145014vyosv.jpg", "regions": 3, "labels": ["TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.713389}
+{"id": "mcocr_public_145014aixgf.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.750297}
+{"id": "mcocr_public_145014rmhwd.jpg", "regions": 8, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TIMESTAMP", "TIMESTAMP", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.686418}
+{"id": "mcocr_public_145014jpzwu.jpg", "regions": 6, "labels": ["TOTAL_COST", "TOTAL_COST", "TIMESTAMP", "ADDRESS", "ADDRESS", "ADDRESS"], "quality": 0.732584}
+{"id": "mcocr_public_145014xaqvy.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.735047}
+{"id": "mcocr_public_145014qcxwq.jpg", "regions": 6, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST"], "quality": 0.5428}
+{"id": "mcocr_public_145014iqlqw.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.822718}
+{"id": "mcocr_public_145014fgfzb.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.789623}
+{"id": "mcocr_public_145014sqltv.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.74074}
+{"id": "mcocr_public_145014xkuxu.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.67179}
+{"id": "mcocr_public_145014zxdlo.jpg", "regions": 6, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.236047}
+{"id": "mcocr_public_145014fbeqa.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.510282}
+{"id": "mcocr_public_145014noddg.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.665719}
+{"id": "mcocr_public_145014wvxfq.jpg", "regions": 5, "labels": ["ADDRESS", "TIMESTAMP", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.591001}
+{"id": "mcocr_public_145014jcmch.jpg", "regions": 11, "labels": ["SELLER", "SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TIMESTAMP", "TIMESTAMP", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.476501}
+{"id": "mcocr_public_145014xgpwb.jpg", "regions": 6, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TIMESTAMP"], "quality": 0.622232}
+{"id": "mcocr_public_145014iueod.jpg", "regions": 5, "labels": ["ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST"], "quality": 0.71859}
+{"id": "mcocr_public_145014eilwc.jpg", "regions": 11, "labels": ["SELLER", "SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.865667}
+{"id": "mcocr_public_145014xxdza.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.599217}
+{"id": "mcocr_public_145014nmqkb.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.71849}
+{"id": "mcocr_public_145014wgimk.jpg", "regions": 4, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST"], "quality": 0.395839}
+{"id": "mcocr_public_145014bzkaq.jpg", "regions": 4, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TIMESTAMP"], "quality": 0.818855}
+{"id": "mcocr_public_145014mnwrz.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.675371}
+{"id": "mcocr_public_145014ywtoy.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.682232}
+{"id": "mcocr_public_145014odboi.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.626324}
+{"id": "mcocr_public_145014aecqi.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TOTAL_COST", "TOTAL_COST", "TIMESTAMP"], "quality": 0.765339}
+{"id": "mcocr_public_145014pmcli.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.794722}
+{"id": "mcocr_public_145014wrzex.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.766925}
+{"id": "mcocr_public_145014jfyvi.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.781627}
+{"id": "mcocr_public_145014izcur.jpg", "regions": 3, "labels": ["SELLER", "ADDRESS", "TOTAL_COST"], "quality": 0.365032}
+{"id": "mcocr_public_145014cnkgs.jpg", "regions": 3, "labels": ["TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.468207}
+{"id": "mcocr_public_145014ebrwa.jpg", "regions": 3, "labels": ["SELLER", "ADDRESS", "TOTAL_COST"], "quality": 0.741687}
+{"id": "mcocr_public_145014zvjqh.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.629192}
+{"id": "mcocr_public_145014elcju.jpg", "regions": 4, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST"], "quality": 0.662246}
+{"id": "mcocr_public_145014ljxit.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.780986}
+{"id": "mcocr_public_145014bpeci.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TIMESTAMP", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.225473}
+{"id": "mcocr_public_145014lukeo.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.787947}
+{"id": "mcocr_public_145014ncpxq.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.701881}
+{"id": "mcocr_public_145014glqgm.jpg", "regions": 3, "labels": ["SELLER", "TOTAL_COST", "TOTAL_COST"], "quality": 0.801933}
+{"id": "mcocr_public_145014jfoxg.jpg", "regions": 7, "labels": ["SELLER", "SELLER", "ADDRESS", "TIMESTAMP", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.533387}
+{"id": "mcocr_public_145014lcffb.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.872753}
+{"id": "mcocr_public_145014hwaqw.jpg", "regions": 6, "labels": ["SELLER", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.599311}
+{"id": "mcocr_public_145014xpucl.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.620475}
+{"id": "mcocr_public_145014wmrqi.jpg", "regions": 7, "labels": ["SELLER", "SELLER", "ADDRESS", "TIMESTAMP", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.559829}
+{"id": "mcocr_public_145014ewdtv.jpg", "regions": 5, "labels": ["ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.44409}
+{"id": "mcocr_public_145014yphuv.jpg", "regions": 5, "labels": ["TOTAL_COST", "TOTAL_COST", "SELLER", "ADDRESS", "TIMESTAMP"], "quality": 0.606724}
+{"id": "mcocr_public_145014ldvxl.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.80589}
+{"id": "mcocr_public_145014wbhzq.jpg", "regions": 4, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST"], "quality": 0.619555}
+{"id": "mcocr_public_145014etlhn.jpg", "regions": 5, "labels": ["TOTAL_COST", "TOTAL_COST", "TIMESTAMP", "SELLER", "ADDRESS"], "quality": 0.861512}
+{"id": "mcocr_public_145014bxkli.jpg", "regions": 5, "labels": ["SELLER", "SELLER", "ADDRESS", "TOTAL_COST", "TOTAL_COST"], "quality": 0.777736}
+{"id": "mcocr_public_145014kxqtn.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.563726}
+{"id": "mcocr_public_145014xtcll.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.823728}
+{"id": "mcocr_public_145014zxrle.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.823803}
+{"id": "mcocr_public_145014qrfai.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.810749}
+{"id": "mcocr_public_145014vizbq.jpg", "regions": 4, "labels": ["SELLER", "ADDRESS", "TOTAL_COST", "TOTAL_COST"], "quality": 0.781785}
+{"id": "mcocr_public_145014hrvjc.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.753746}
+{"id": "mcocr_public_145014ndurw.jpg", "regions": 4, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST"], "quality": 0.704364}
+{"id": "mcocr_public_145014wkdkh.jpg", "regions": 6, "labels": ["SELLER", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.67789}
+{"id": "mcocr_public_145014nkquo.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.65357}
+{"id": "mcocr_public_145014gflyd.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.825505}
+{"id": "mcocr_public_145014hbjul.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.653707}
+{"id": "mcocr_public_145014muzpf.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.629275}
+{"id": "mcocr_public_145014ikibc.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.782846}
+{"id": "mcocr_public_145014uqaoc.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.826159}
+{"id": "mcocr_public_145014mfmvh.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.854252}
+{"id": "mcocr_public_145014gvogn.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST"], "quality": 0.682599}
+{"id": "mcocr_public_145014rrbnn.jpg", "regions": 7, "labels": ["SELLER", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST", "ADDRESS", "ADDRESS", "ADDRESS"], "quality": 0.737144}
+{"id": "mcocr_public_145014ftydn.jpg", "regions": 5, "labels": ["TOTAL_COST", "TOTAL_COST", "TIMESTAMP", "SELLER", "ADDRESS"], "quality": 0.819932}
+{"id": "mcocr_public_145014ywmiq.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.628927}
+{"id": "mcocr_public_145014awmql.jpg", "regions": 5, "labels": ["ADDRESS", "SELLER", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.797964}
+{"id": "mcocr_public_145014wscvw.jpg", "regions": 4, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TIMESTAMP"], "quality": 0.271974}
+{"id": "mcocr_public_145014kcbzk.jpg", "regions": 6, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TIMESTAMP"], "quality": 0.742821}
+{"id": "mcocr_public_145014xvwfa.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.878807}
+{"id": "mcocr_public_145014epcqx.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.723071}
+{"id": "mcocr_public_145014gniax.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.702623}
+{"id": "mcocr_public_145014quwvb.jpg", "regions": 9, "labels": ["TOTAL_COST", "TOTAL_COST", "TIMESTAMP", "ADDRESS", "ADDRESS", "ADDRESS", "ADDRESS", "SELLER", "SELLER"], "quality": 0.786164}
+{"id": "mcocr_public_145014ziulw.jpg", "regions": 11, "labels": ["SELLER", "SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.74701}
+{"id": "mcocr_public_145014zsypc.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.826889}
+{"id": "mcocr_public_145014oorxd.jpg", "regions": 8, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.605638}
+{"id": "mcocr_public_145014pgkzd.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.730145}
+{"id": "mcocr_public_145014zhaaz.jpg", "regions": 6, "labels": ["SELLER", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.735902}
+{"id": "mcocr_public_145014urapv.jpg", "regions": 4, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST"], "quality": 0.666967}
+{"id": "mcocr_public_145014dwyzl.jpg", "regions": 4, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST"], "quality": 0.585304}
+{"id": "mcocr_public_145014ibokx.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TOTAL_COST", "TIMESTAMP", "TOTAL_COST"], "quality": 0.799689}
+{"id": "mcocr_public_145014mnwlg.jpg", "regions": 6, "labels": ["SELLER", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.569837}
+{"id": "mcocr_public_145014xajzl.jpg", "regions": 4, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST"], "quality": 0.680976}
+{"id": "mcocr_public_145014epafb.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.772479}
+{"id": "mcocr_public_145014awxdd.jpg", "regions": 7, "labels": ["SELLER", "SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "ADDRESS", "ADDRESS"], "quality": 0.726626}
+{"id": "mcocr_public_145014xkqax.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.607748}
+{"id": "mcocr_public_145014lkccn.jpg", "regions": 8, "labels": ["SELLER", "ADDRESS", "ADDRESS", "TIMESTAMP", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST", "TOTAL_COST"], "quality": 0.376445}
+{"id": "mcocr_public_145014anjdg.jpg", "regions": 5, "labels": ["TOTAL_COST", "TOTAL_COST", "TIMESTAMP", "ADDRESS", "SELLER"], "quality": 0.795347}
+{"id": "mcocr_public_145014tfbnr.jpg", "regions": 6, "labels": ["SELLER", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.639959}
+{"id": "mcocr_public_145014hcbdo.jpg", "regions": 4, "labels": ["ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.634104}
+{"id": "mcocr_public_145014bxyhq.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TOTAL_COST", "TOTAL_COST", "TIMESTAMP"], "quality": 0.811258}
+{"id": "mcocr_public_145014yhorz.jpg", "regions": 7, "labels": ["SELLER", "SELLER", "SELLER", "ADDRESS", "TIMESTAMP", "TIMESTAMP", "TIMESTAMP"], "quality": 0.30359}
+{"id": "mcocr_public_145014eamas.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.574431}
+{"id": "mcocr_public_145014zcoyr.jpg", "regions": 4, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST"], "quality": 0.806928}
+{"id": "mcocr_public_145014gmvig.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.643787}
+{"id": "mcocr_public_145014gfgse.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.7333}
+{"id": "mcocr_public_145014yjrsk.jpg", "regions": 7, "labels": ["SELLER", "SELLER", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.79402}
+{"id": "mcocr_public_145014nazga.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.60319}
+{"id": "mcocr_public_145014crsgq.jpg", "regions": 5, "labels": ["ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.695004}
+{"id": "mcocr_public_145014ugdwd.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.786803}
+{"id": "mcocr_public_145014zbpki.jpg", "regions": 6, "labels": ["SELLER", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.732899}
+{"id": "mcocr_public_145014bqwna.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.724798}
+{"id": "mcocr_public_145014blxif.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.495385}
+{"id": "mcocr_public_145014njsyx.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.64622}
+{"id": "mcocr_public_145014chqzo.jpg", "regions": 6, "labels": ["SELLER", "SELLER", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST"], "quality": 0.375366}
+{"id": "mcocr_public_145014rqund.jpg", "regions": 1, "labels": ["SELLER"], "quality": 0.263411}
+{"id": "mcocr_public_145014sfktp.jpg", "regions": 4, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST"], "quality": 0.465122}
+{"id": "mcocr_public_145014zkhdi.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.796144}
+{"id": "mcocr_public_145014gxgwj.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.889225}
+{"id": "mcocr_public_145014dkivp.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.818316}
+{"id": "mcocr_public_145014pudoo.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.637756}
+{"id": "mcocr_public_145014xpidv.jpg", "regions": 7, "labels": ["ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TIMESTAMP", "TIMESTAMP", "TIMESTAMP"], "quality": 0.782956}
+{"id": "mcocr_public_145014kbzqa.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.652043}
+{"id": "mcocr_public_145014nhvqt.jpg", "regions": 9, "labels": ["SELLER", "ADDRESS", "ADDRESS", "TIMESTAMP", "TIMESTAMP", "TIMESTAMP", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.707928}
+{"id": "mcocr_public_145014bwuiw.jpg", "regions": 11, "labels": ["SELLER", "SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.59887}
+{"id": "mcocr_public_145014cryzd.jpg", "regions": 2, "labels": ["TIMESTAMP", "TOTAL_COST"], "quality": 0.243712}
+{"id": "mcocr_public_145014ychqi.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.849613}
+{"id": "mcocr_public_145014zgsjb.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.780726}
+{"id": "mcocr_public_145014yhgfq.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.817442}
+{"id": "mcocr_public_145014tshzk.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.734986}
+{"id": "mcocr_public_145014bdeah.jpg", "regions": 8, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TIMESTAMP", "TIMESTAMP", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.587502}
+{"id": "mcocr_public_145014iznli.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.799694}
+{"id": "mcocr_public_145014vwnco.jpg", "regions": 6, "labels": ["SELLER", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.15239}
+{"id": "mcocr_public_145014tzbvy.jpg", "regions": 4, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST"], "quality": 0.412531}
+{"id": "mcocr_public_145014nykks.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.774566}
+{"id": "mcocr_public_145014dplaq.jpg", "regions": 9, "labels": ["ADDRESS", "TIMESTAMP", "TIMESTAMP", "TIMESTAMP", "TIMESTAMP", "TIMESTAMP", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.617254}
+{"id": "mcocr_public_145014pyikk.jpg", "regions": 3, "labels": ["TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.796782}
+{"id": "mcocr_public_145014ngihg.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.670524}
+{"id": "mcocr_public_145014udhjy.jpg", "regions": 3, "labels": ["TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.58533}
+{"id": "mcocr_public_145014xlpvu.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.642552}
+{"id": "mcocr_public_145014xdscr.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.658276}
+{"id": "mcocr_public_145014mtdoy.jpg", "regions": 2, "labels": ["TOTAL_COST", "TOTAL_COST"], "quality": 0.547604}
+{"id": "mcocr_public_145014yqlhe.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.641571}
+{"id": "mcocr_public_145014jqlcm.jpg", "regions": 6, "labels": ["SELLER", "SELLER", "ADDRESS", "ADDRESS", "TIMESTAMP", "TIMESTAMP"], "quality": 0.562951}
+{"id": "mcocr_public_145014fdjhi.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.645363}
+{"id": "mcocr_public_145014dllhs.jpg", "regions": 6, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TIMESTAMP"], "quality": 0.442918}
+{"id": "mcocr_public_145014ftvdj.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.757656}
+{"id": "mcocr_public_145014xinpg.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.700373}
+{"id": "mcocr_public_145014vaxiy.jpg", "regions": 6, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST"], "quality": 0.500378}
+{"id": "mcocr_public_145014vymtd.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.832056}
+{"id": "mcocr_public_145014auskb.jpg", "regions": 8, "labels": ["SELLER", "SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.193659}
+{"id": "mcocr_public_145014omzxy.jpg", "regions": 4, "labels": ["SELLER", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.613368}
+{"id": "mcocr_public_145014beisj.jpg", "regions": 7, "labels": ["SELLER", "SELLER", "ADDRESS", "TIMESTAMP", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.627078}
+{"id": "mcocr_public_145014wbnwu.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.856538}
+{"id": "mcocr_public_145014uimoq.jpg", "regions": 6, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TIMESTAMP"], "quality": 0.73717}
+{"id": "mcocr_public_145014dypib.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.832739}
+{"id": "mcocr_public_145014gqaum.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.72831}
+{"id": "mcocr_public_145014yiovk.jpg", "regions": 6, "labels": ["ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.361454}
+{"id": "mcocr_public_145014acbrl.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.792082}
+{"id": "mcocr_public_145014sftbp.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.865324}
+{"id": "mcocr_public_145014rppvz.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.80875}
+{"id": "mcocr_public_145014muozt.jpg", "regions": 4, "labels": ["ADDRESS", "TIMESTAMP", "TIMESTAMP", "TOTAL_COST"], "quality": 0.388149}
+{"id": "mcocr_public_145014bphyw.jpg", "regions": 8, "labels": ["SELLER", "SELLER", "ADDRESS", "ADDRESS", "TIMESTAMP", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.255372}
+{"id": "mcocr_public_145014vpysr.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.839914}
+{"id": "mcocr_public_145014qxkke.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.82921}
+{"id": "mcocr_public_145014phbcu.jpg", "regions": 11, "labels": ["SELLER", "SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.774407}
+{"id": "mcocr_public_145014tecsd.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.753612}
+{"id": "mcocr_public_145014nssmi.jpg", "regions": 6, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST"], "quality": 0.440471}
+{"id": "mcocr_public_145014kpsgk.jpg", "regions": 5, "labels": ["ADDRESS", "TIMESTAMP", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.594778}
+{"id": "mcocr_public_145014xooen.jpg", "regions": 6, "labels": ["SELLER", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.730451}
+{"id": "mcocr_public_145014slmit.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.544548}
+{"id": "mcocr_public_145014ebdtm.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.722183}
+{"id": "mcocr_public_145014drgcr.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.79578}
+{"id": "mcocr_public_145014imqdy.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.863974}
+{"id": "mcocr_public_145014qlemc.jpg", "regions": 4, "labels": ["TIMESTAMP", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.800666}
+{"id": "mcocr_public_145014vhiaa.jpg", "regions": 6, "labels": ["SELLER", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.751588}
+{"id": "mcocr_public_145014qojtz.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.557536}
+{"id": "mcocr_public_145014pomqp.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.795433}
+{"id": "mcocr_public_145014whgiz.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.660388}
+{"id": "mcocr_public_145014bnscr.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TIMESTAMP", "TIMESTAMP"], "quality": 0.596466}
+{"id": "mcocr_public_145014tvfga.jpg", "regions": 6, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TIMESTAMP"], "quality": 0.659819}
+{"id": "mcocr_public_145014onrob.jpg", "regions": 3, "labels": ["TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.414978}
+{"id": "mcocr_public_145014eyfwj.jpg", "regions": 4, "labels": ["SELLER", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.731373}
+{"id": "mcocr_public_145014csmbn.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.88349}
+{"id": "mcocr_public_145014lkoul.jpg", "regions": 7, "labels": ["SELLER", "SELLER", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.584014}
+{"id": "mcocr_public_145014euhfv.jpg", "regions": 6, "labels": ["ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "SELLER", "TOTAL_COST"], "quality": 0.47211}
+{"id": "mcocr_public_145014bqpcb.jpg", "regions": 10, "labels": ["SELLER", "SELLER", "ADDRESS", "ADDRESS", "TIMESTAMP", "TIMESTAMP", "TIMESTAMP", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.266476}
+{"id": "mcocr_public_145014howdt.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.875831}
+{"id": "mcocr_public_145014ttaic.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.737997}
+{"id": "mcocr_public_145014nccit.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.646517}
+{"id": "mcocr_public_145014edoty.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.852318}
+{"id": "mcocr_public_145014fdlxd.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.736989}
+{"id": "mcocr_public_145014abbay.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.749344}
+{"id": "mcocr_public_145014niegm.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TOTAL_COST", "TIMESTAMP", "TOTAL_COST"], "quality": 0.604985}
+{"id": "mcocr_public_145014gmjkd.jpg", "regions": 4, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST"], "quality": 0.810107}
+{"id": "mcocr_public_145014yngbg.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.650699}
+{"id": "mcocr_public_145014uxlol.jpg", "regions": 3, "labels": ["TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.539276}
+{"id": "mcocr_public_145014ogron.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.754991}
+{"id": "mcocr_public_145014uabqc.jpg", "regions": 7, "labels": ["SELLER", "SELLER", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.701528}
+{"id": "mcocr_public_145014lwhgn.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.8693}
+{"id": "mcocr_public_145014avuac.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.638145}
+{"id": "mcocr_public_145014wejxq.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.665739}
+{"id": "mcocr_public_145014emepc.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.747732}
+{"id": "mcocr_public_145014gcszj.jpg", "regions": 4, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST"], "quality": 0.784529}
+{"id": "mcocr_public_145014znijb.jpg", "regions": 6, "labels": ["SELLER", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.688817}
+{"id": "mcocr_public_145014dspwj.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.680576}
+{"id": "mcocr_public_145014clbzb.jpg", "regions": 9, "labels": ["SELLER", "ADDRESS", "ADDRESS", "TIMESTAMP", "TIMESTAMP", "TIMESTAMP", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.311126}
+{"id": "mcocr_public_145014kuxpu.jpg", "regions": 6, "labels": ["SELLER", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.764009}
+{"id": "mcocr_public_145014uilrh.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.813437}
+{"id": "mcocr_public_145014tkpbp.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.798745}
+{"id": "mcocr_public_145014rpcdh.jpg", "regions": 8, "labels": ["SELLER", "SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.333652}
+{"id": "mcocr_public_145014xhzbt.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.558642}
+{"id": "mcocr_public_145014mpsud.jpg", "regions": 6, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TIMESTAMP"], "quality": 0.600628}
+{"id": "mcocr_public_145014wwevk.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.874965}
+{"id": "mcocr_public_145014nasdz.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.773593}
+{"id": "mcocr_public_145014smasw.jpg", "regions": 4, "labels": ["SELLER", "ADDRESS", "TOTAL_COST", "TIMESTAMP"], "quality": 0.286361}
+{"id": "mcocr_public_145014qaueg.jpg", "regions": 6, "labels": ["SELLER", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.681531}
+{"id": "mcocr_public_145014ukewl.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.813106}
+{"id": "mcocr_public_145014zncnq.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.692101}
+{"id": "mcocr_public_145014hyfyd.jpg", "regions": 6, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST", "TOTAL_COST"], "quality": 0.272786}
+{"id": "mcocr_public_145014dxqop.jpg", "regions": 6, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST"], "quality": 0.704896}
+{"id": "mcocr_public_145014seogk.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.499328}
+{"id": "mcocr_public_145014tfdcx.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.689254}
+{"id": "mcocr_public_145014mprun.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.484052}
+{"id": "mcocr_public_145014xyqra.jpg", "regions": 4, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST"], "quality": 0.141499}
+{"id": "mcocr_public_145014rfvhh.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TIMESTAMP", "TIMESTAMP"], "quality": 0.640434}
+{"id": "mcocr_public_145014ahsfe.jpg", "regions": 6, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TIMESTAMP"], "quality": 0.675137}
+{"id": "mcocr_public_145014rtorl.jpg", "regions": 4, "labels": ["SELLER", "ADDRESS", "TOTAL_COST", "TOTAL_COST"], "quality": 0.629842}
+{"id": "mcocr_public_145014ompih.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.522919}
+{"id": "mcocr_public_145014jxwwm.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.698904}
+{"id": "mcocr_public_145014wvmqh.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.790523}
+{"id": "mcocr_public_145014kzoxh.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.459851}
+{"id": "mcocr_public_145014ywhyw.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.81624}
+{"id": "mcocr_public_145014nuiop.jpg", "regions": 9, "labels": ["SELLER", "SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.28914}
+{"id": "mcocr_public_145014gcmnd.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.818568}
+{"id": "mcocr_public_145014irdem.jpg", "regions": 10, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TIMESTAMP", "TIMESTAMP", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.247125}
+{"id": "mcocr_public_145014bznim.jpg", "regions": 4, "labels": ["SELLER", "ADDRESS", "SELLER", "TOTAL_COST"], "quality": 0.517625}
+{"id": "mcocr_public_145014wymgj.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.741042}
+{"id": "mcocr_public_145014cmghn.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TIMESTAMP", "TIMESTAMP"], "quality": 0.798382}
+{"id": "mcocr_public_145014btewf.jpg", "regions": 8, "labels": ["SELLER", "SELLER", "SELLER", "ADDRESS", "TIMESTAMP", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.52371}
+{"id": "mcocr_public_145014edrhv.jpg", "regions": 6, "labels": ["ADDRESS", "TIMESTAMP", "TIMESTAMP", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.410447}
+{"id": "mcocr_public_145014fghbc.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.588296}
+{"id": "mcocr_public_145014klkcx.jpg", "regions": 6, "labels": ["SELLER", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.806258}
+{"id": "mcocr_public_145014kfgle.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.853654}
+{"id": "mcocr_public_145014wzcxq.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.627533}
+{"id": "mcocr_public_145014ojudj.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.844833}
+{"id": "mcocr_public_145014gylsk.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.570824}
+{"id": "mcocr_public_145014mspcw.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.661359}
+{"id": "mcocr_public_145014bcbgu.jpg", "regions": 4, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST"], "quality": 0.551117}
+{"id": "mcocr_public_145014jizcq.jpg", "regions": 6, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST", "TOTAL_COST"], "quality": 0.684153}
+{"id": "mcocr_public_145014dqjen.jpg", "regions": 6, "labels": ["SELLER", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.325431}
+{"id": "mcocr_public_145014ypjsx.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.89021}
+{"id": "mcocr_public_145014fvjus.jpg", "regions": 7, "labels": ["TOTAL_COST", "TOTAL_COST", "TIMESTAMP", "ADDRESS", "ADDRESS", "ADDRESS", "SELLER"], "quality": 0.441065}
+{"id": "mcocr_public_145014mwhyh.jpg", "regions": 29, "labels": ["SELLER", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST", "TOTAL_COST", "TOTAL_COST", "TOTAL_COST", "TOTAL_COST", "TOTAL_COST", "TOTAL_COST", "TOTAL_COST", "TOTAL_COST", "TOTAL_COST", "TOTAL_COST", "TOTAL_COST", "TOTAL_COST", "TOTAL_COST", "TOTAL_COST", "TOTAL_COST", "TOTAL_COST", "TOTAL_COST", "TOTAL_COST", "TOTAL_COST", "TOTAL_COST", "TOTAL_COST", "TOTAL_COST", "TOTAL_COST"], "quality": 0.764185}
+{"id": "mcocr_public_145014wnpbo.jpg", "regions": 2, "labels": ["TOTAL_COST", "TOTAL_COST"], "quality": 0.441354}
+{"id": "mcocr_public_145014aclha.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.795287}
+{"id": "mcocr_public_145014pfcua.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.667991}
+{"id": "mcocr_public_145014mjzwg.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.540851}
+{"id": "mcocr_public_145014lbzhz.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.686319}
+{"id": "mcocr_public_145014jkegi.jpg", "regions": 6, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TIMESTAMP"], "quality": 0.631093}
+{"id": "mcocr_public_145014bymkd.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.864549}
+{"id": "mcocr_public_145014nrlra.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.488173}
+{"id": "mcocr_public_145014gvuhh.jpg", "regions": 6, "labels": ["SELLER", "SELLER", "ADDRESS", "ADDRESS", "TOTAL_COST", "TOTAL_COST"], "quality": 0.857469}
+{"id": "mcocr_public_145014jhuyg.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.690749}
+{"id": "mcocr_public_145014nwpjb.jpg", "regions": 4, "labels": ["SELLER", "ADDRESS", "TOTAL_COST", "TOTAL_COST"], "quality": 0.7756}
+{"id": "mcocr_public_145014qifdw.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.879512}
+{"id": "mcocr_public_145014sabav.jpg", "regions": 9, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TIMESTAMP", "TIMESTAMP", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST", "TOTAL_COST"], "quality": 0.585963}
+{"id": "mcocr_public_145014vfape.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.334194}
+{"id": "mcocr_public_145014qgcwi.jpg", "regions": 5, "labels": ["ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST", "SELLER"], "quality": 0.792188}
+{"id": "mcocr_public_145014khqqq.jpg", "regions": 7, "labels": ["SELLER", "SELLER", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.566123}
+{"id": "mcocr_public_145014etdhs.jpg", "regions": 9, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.550635}
+{"id": "mcocr_public_145014tsvjp.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TIMESTAMP", "TIMESTAMP"], "quality": 0.496808}
+{"id": "mcocr_public_145014zfite.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.532919}
+{"id": "mcocr_public_145014ekshr.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.694442}
+{"id": "mcocr_public_145014zqryn.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.491197}
+{"id": "mcocr_public_145014qozsl.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.765505}
+{"id": "mcocr_public_145014xpuhm.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.614681}
+{"id": "mcocr_public_145014mmnhi.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.686042}
+{"id": "mcocr_public_145014wywkr.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.68094}
+{"id": "mcocr_public_145014euevz.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.524004}
+{"id": "mcocr_public_145014mdhan.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.745488}
+{"id": "mcocr_public_145014ivlka.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.756607}
+{"id": "mcocr_public_145014yworm.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.613141}
+{"id": "mcocr_public_145014ocyhh.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.742019}
+{"id": "mcocr_public_145014lqzdv.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.840229}
+{"id": "mcocr_public_145014cgzmv.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.875845}
+{"id": "mcocr_public_145014ghnst.jpg", "regions": 4, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST"], "quality": 0.538762}
+{"id": "mcocr_public_145014plbzo.jpg", "regions": 6, "labels": ["SELLER", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.736142}
+{"id": "mcocr_public_145014tpwuk.jpg", "regions": 1, "labels": ["SELLER"], "quality": 0.327297}
+{"id": "mcocr_public_145014owowx.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.765315}
+{"id": "mcocr_public_145014slzwi.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "TIMESTAMP", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.334877}
+{"id": "mcocr_public_145014ancat.jpg", "regions": 7, "labels": ["SELLER", "SELLER", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.831}
+{"id": "mcocr_public_145014kbcho.jpg", "regions": 6, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TIMESTAMP"], "quality": 0.351298}
+{"id": "mcocr_public_145014zoebw.jpg", "regions": 7, "labels": ["SELLER", "SELLER", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.843488}
+{"id": "mcocr_public_145014jgrti.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.844705}
+{"id": "mcocr_public_145014yibwb.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "ADDRESS", "TOTAL_COST", "TOTAL_COST"], "quality": 0.7158}
+{"id": "mcocr_public_145014evdcm.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.617028}
+{"id": "mcocr_public_145014wgbsx.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.756696}
+{"id": "mcocr_public_145014rvbhf.jpg", "regions": 10, "labels": ["TOTAL_COST", "TOTAL_COST", "TIMESTAMP", "ADDRESS", "ADDRESS", "ADDRESS", "ADDRESS", "ADDRESS", "SELLER", "SELLER"], "quality": 0.505372}
+{"id": "mcocr_public_145014pstow.jpg", "regions": 10, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TIMESTAMP", "TIMESTAMP", "TIMESTAMP", "TIMESTAMP", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.873232}
+{"id": "mcocr_public_145014skpym.jpg", "regions": 11, "labels": ["SELLER", "SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TIMESTAMP", "TIMESTAMP", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.413484}
+{"id": "mcocr_public_145014etnjz.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.510941}
+{"id": "mcocr_public_145014ivclx.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.615211}
+{"id": "mcocr_public_145014xxdnm.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.665983}
+{"id": "mcocr_public_145014gqqnf.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.644937}
+{"id": "mcocr_public_145014wjhib.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.743066}
+{"id": "mcocr_public_145014qyfft.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.745898}
+{"id": "mcocr_public_145014hpikq.jpg", "regions": 3, "labels": ["SELLER", "ADDRESS", "TOTAL_COST"], "quality": 0.430845}
+{"id": "mcocr_public_145014voijl.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.754466}
+{"id": "mcocr_public_145014ksyep.jpg", "regions": 10, "labels": ["SELLER", "SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.732242}
+{"id": "mcocr_public_145014iwujb.jpg", "regions": 3, "labels": ["ADDRESS", "TIMESTAMP", "TOTAL_COST"], "quality": 0.801515}
+{"id": "mcocr_public_145014xfcbh.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.81095}
+{"id": "mcocr_public_145014tbhtz.jpg", "regions": 4, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST"], "quality": 0.601271}
+{"id": "mcocr_public_145014btqny.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.422463}
+{"id": "mcocr_public_145014eercq.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.761677}
+{"id": "mcocr_public_145014mjhvf.jpg", "regions": 4, "labels": ["SELLER", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.221692}
+{"id": "mcocr_public_145014yxiox.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.804565}
+{"id": "mcocr_public_145014evoja.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.722806}
+{"id": "mcocr_public_145014ysbpa.jpg", "regions": 4, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST"], "quality": 0.39692}
+{"id": "mcocr_public_145014jggjq.jpg", "regions": 5, "labels": ["TOTAL_COST", "TOTAL_COST", "TIMESTAMP", "SELLER", "ADDRESS"], "quality": 0.763498}
+{"id": "mcocr_public_145014qofcz.jpg", "regions": 6, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TIMESTAMP"], "quality": 0.786515}
+{"id": "mcocr_public_145014jqtcw.jpg", "regions": 8, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TIMESTAMP", "TIMESTAMP", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.579881}
+{"id": "mcocr_public_145014cwifi.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.7499}
+{"id": "mcocr_public_145014xbkfz.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.598689}
+{"id": "mcocr_public_145014jxscx.jpg", "regions": 5, "labels": ["SELLER", "SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST"], "quality": 0.692031}
+{"id": "mcocr_public_145014czicu.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.825082}
+{"id": "mcocr_public_145014buspt.jpg", "regions": 7, "labels": ["SELLER", "SELLER", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.722603}
+{"id": "mcocr_public_145014zsgzm.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.767788}
+{"id": "mcocr_public_145014uqaia.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.682292}
+{"id": "mcocr_public_145014xozig.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.697012}
+{"id": "mcocr_public_145014motth.jpg", "regions": 1, "labels": ["SELLER"], "quality": 0.340321}
+{"id": "mcocr_public_145014vnfrc.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.786273}
+{"id": "mcocr_public_145014enxgn.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.585471}
+{"id": "mcocr_public_145014depsq.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.716125}
+{"id": "mcocr_public_145014xsefn.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.585291}
+{"id": "mcocr_public_145014jbchc.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.652562}
+{"id": "mcocr_public_145014umwey.jpg", "regions": 5, "labels": ["SELLER", "SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST"], "quality": 0.85848}
+{"id": "mcocr_public_145014bfwhz.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.670216}
+{"id": "mcocr_public_145014ufyxi.jpg", "regions": 4, "labels": ["SELLER", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.183983}
+{"id": "mcocr_public_145014xzqlh.jpg", "regions": 6, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TIMESTAMP"], "quality": 0.574102}
+{"id": "mcocr_public_145014zckhw.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.77105}
+{"id": "mcocr_public_145014erruh.jpg", "regions": 4, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST"], "quality": 0.623442}
+{"id": "mcocr_public_145014vvmgm.jpg", "regions": 7, "labels": ["TOTAL_COST", "TOTAL_COST", "TIMESTAMP", "SELLER", "ADDRESS", "ADDRESS", "ADDRESS"], "quality": 0.590732}
+{"id": "mcocr_public_145014bfesf.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.731422}
+{"id": "mcocr_public_145014onmxs.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.631541}
+{"id": "mcocr_public_145014hjsxj.jpg", "regions": 4, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST"], "quality": 0.607317}
+{"id": "mcocr_public_145014ltjcp.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.78798}
+{"id": "mcocr_public_145014igwbv.jpg", "regions": 10, "labels": ["TOTAL_COST", "TOTAL_COST", "SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TIMESTAMP", "TIMESTAMP"], "quality": 0.802289}
+{"id": "mcocr_public_145014idfgg.jpg", "regions": 6, "labels": ["SELLER", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.717054}
+{"id": "mcocr_public_145014bbnco.jpg", "regions": 3, "labels": ["TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.32332}
+{"id": "mcocr_public_145014wgexm.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.820109}
+{"id": "mcocr_public_145014mghmv.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP"], "quality": 0.745868}
+{"id": "mcocr_public_145014qoaez.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.672839}
+{"id": "mcocr_public_145014ocmco.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST"], "quality": 0.710945}
+{"id": "mcocr_public_145014qmicf.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.737868}
+{"id": "mcocr_public_145014sfcjb.jpg", "regions": 3, "labels": ["SELLER", "TOTAL_COST", "TOTAL_COST"], "quality": 0.598418}
+{"id": "mcocr_public_145014ofdxo.jpg", "regions": 8, "labels": ["SELLER", "SELLER", "ADDRESS", "ADDRESS", "TIMESTAMP", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.284015}
+{"id": "mcocr_public_145014toiko.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.675318}
+{"id": "mcocr_public_145014otrlb.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.740486}
+{"id": "mcocr_public_145014cmcvj.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.635309}
+{"id": "mcocr_public_145014epvwk.jpg", "regions": 6, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TIMESTAMP"], "quality": 0.694899}
+{"id": "mcocr_public_145014iksot.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.502918}
+{"id": "mcocr_public_145014oxghl.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.567864}
+{"id": "mcocr_public_145014pkgap.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.815006}
+{"id": "mcocr_public_145014keyfh.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.793262}
+{"id": "mcocr_public_145014pjtlz.jpg", "regions": 9, "labels": ["SELLER", "SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.780849}
+{"id": "mcocr_public_145014nuhli.jpg", "regions": 4, "labels": ["SELLER", "ADDRESS", "TOTAL_COST", "TOTAL_COST"], "quality": 0.785309}
+{"id": "mcocr_public_145014huitj.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.668874}
+{"id": "mcocr_public_145014dkmtx.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.791221}
+{"id": "mcocr_public_145014hpkhf.jpg", "regions": 6, "labels": ["TOTAL_COST", "ADDRESS", "TIMESTAMP", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.191404}
+{"id": "mcocr_public_145014rwzyq.jpg", "regions": 7, "labels": ["SELLER", "SELLER", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.656664}
+{"id": "mcocr_public_145014xcxaw.jpg", "regions": 3, "labels": ["SELLER", "ADDRESS", "TOTAL_COST"], "quality": 0.732898}
+{"id": "mcocr_public_145014ubcjg.jpg", "regions": 11, "labels": ["SELLER", "SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.750534}
+{"id": "mcocr_public_145014zstox.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.779897}
+{"id": "mcocr_public_145014pzlbd.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.636244}
+{"id": "mcocr_public_145014ssrmo.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.668743}
+{"id": "mcocr_public_145014diuoj.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.757848}
+{"id": "mcocr_public_145014vdyar.jpg", "regions": 2, "labels": ["TIMESTAMP", "TOTAL_COST"], "quality": 0.193195}
+{"id": "mcocr_public_145014lijow.jpg", "regions": 11, "labels": ["SELLER", "SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TIMESTAMP", "TIMESTAMP", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.221246}
+{"id": "mcocr_public_145014ajgaf.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.615156}
+{"id": "mcocr_public_145014ubwmd.jpg", "regions": 4, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TIMESTAMP"], "quality": 0.763015}
+{"id": "mcocr_public_145014qcume.jpg", "regions": 4, "labels": ["SELLER", "ADDRESS", "TOTAL_COST", "TIMESTAMP"], "quality": 0.80524}
+{"id": "mcocr_public_145014jlxnp.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.820647}
+{"id": "mcocr_public_145014ubmpt.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.833117}
+{"id": "mcocr_public_145014epano.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.641706}
+{"id": "mcocr_public_145014jqbse.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.692003}
+{"id": "mcocr_public_145014vjvjt.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.802952}
+{"id": "mcocr_public_145014kvtrh.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.759703}
+{"id": "mcocr_public_145014npyol.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.628122}
+{"id": "mcocr_public_145014fxqlw.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.68208}
+{"id": "mcocr_public_145014jpdxp.jpg", "regions": 6, "labels": ["SELLER", "SELLER", "ADDRESS", "ADDRESS", "TOTAL_COST", "TOTAL_COST"], "quality": 0.744161}
+{"id": "mcocr_public_145014cmafd.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.678337}
+{"id": "mcocr_public_145014futkh.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.807771}
+{"id": "mcocr_public_145014xdscy.jpg", "regions": 4, "labels": ["ADDRESS", "ADDRESS", "TIMESTAMP", "TIMESTAMP"], "quality": 0.656452}
+{"id": "mcocr_public_145014emexr.jpg", "regions": 8, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TIMESTAMP", "TIMESTAMP", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.380291}
+{"id": "mcocr_public_145014yjdpq.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.71215}
+{"id": "mcocr_public_145014jvwce.jpg", "regions": 4, "labels": ["ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.800892}
+{"id": "mcocr_public_145014xglvf.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.683}
+{"id": "mcocr_public_145014gqlrt.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.740289}
+{"id": "mcocr_public_145014xnezl.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.806037}
+{"id": "mcocr_public_145014lqokm.jpg", "regions": 6, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TIMESTAMP"], "quality": 0.744674}
+{"id": "mcocr_public_145014jiwoe.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.711575}
+{"id": "mcocr_public_145014vitnu.jpg", "regions": 6, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TIMESTAMP"], "quality": 0.787597}
+{"id": "mcocr_public_145014dxvde.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.761669}
+{"id": "mcocr_public_145014hxpcf.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.852668}
+{"id": "mcocr_public_145014xwajt.jpg", "regions": 3, "labels": ["SELLER", "ADDRESS", "TOTAL_COST"], "quality": 0.737832}
+{"id": "mcocr_public_145014fhimy.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.60289}
+{"id": "mcocr_public_145014ewmyb.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.522219}
+{"id": "mcocr_public_145014qwikh.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.590704}
+{"id": "mcocr_public_145014kscfa.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.35266}
+{"id": "mcocr_public_145014zjcdx.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.800272}
+{"id": "mcocr_public_145014rijtj.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "TIMESTAMP", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.745247}
+{"id": "mcocr_public_145014rdcoj.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TIMESTAMP", "TIMESTAMP"], "quality": 0.642925}
+{"id": "mcocr_public_145014bpohg.jpg", "regions": 6, "labels": ["SELLER", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.761391}
+{"id": "mcocr_public_145014ptuuq.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.609002}
+{"id": "mcocr_public_145014sncle.jpg", "regions": 4, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST"], "quality": 0.621191}
+{"id": "mcocr_public_145014ybclw.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.569076}
+{"id": "mcocr_public_145014phuqi.jpg", "regions": 6, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TIMESTAMP"], "quality": 0.742442}
+{"id": "mcocr_public_145014rczsi.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.616874}
+{"id": "mcocr_public_145014wxpyg.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "ADDRESS", "TOTAL_COST", "TOTAL_COST"], "quality": 0.454175}
+{"id": "mcocr_public_145014ezyfv.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.640287}
+{"id": "mcocr_public_145014vrbsr.jpg", "regions": 6, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST"], "quality": 0.722993}
+{"id": "mcocr_public_145014tnnoi.jpg", "regions": 4, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TIMESTAMP"], "quality": 0.769058}
+{"id": "mcocr_public_145014zqocc.jpg", "regions": 4, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST"], "quality": 0.626011}
+{"id": "mcocr_public_145014ejeba.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.747576}
+{"id": "mcocr_public_145014snrrj.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.874644}
+{"id": "mcocr_public_145014bqglf.jpg", "regions": 7, "labels": ["TOTAL_COST", "TOTAL_COST", "TIMESTAMP", "ADDRESS", "ADDRESS", "ADDRESS", "SELLER"], "quality": 0.457737}
+{"id": "mcocr_public_145014oiwct.jpg", "regions": 4, "labels": ["SELLER", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.812628}
+{"id": "mcocr_public_145014uwjom.jpg", "regions": 5, "labels": ["TOTAL_COST", "TOTAL_COST", "TIMESTAMP", "SELLER", "ADDRESS"], "quality": 0.85364}
+{"id": "mcocr_public_145014fhfxn.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.767623}
+{"id": "mcocr_public_145014dhkqp.jpg", "regions": 6, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TOTAL_COST", "TOTAL_COST"], "quality": 0.513366}
+{"id": "mcocr_public_145014idsgm.jpg", "regions": 4, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST"], "quality": 0.414766}
+{"id": "mcocr_public_145014pyhgf.jpg", "regions": 11, "labels": ["SELLER", "SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.646504}
+{"id": "mcocr_public_145014ayhsu.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.754485}
+{"id": "mcocr_public_145014htnck.jpg", "regions": 3, "labels": ["TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.548097}
+{"id": "mcocr_public_145014mxrld.jpg", "regions": 6, "labels": ["TOTAL_COST", "TIMESTAMP", "SELLER", "ADDRESS", "ADDRESS", "ADDRESS"], "quality": 0.654478}
+{"id": "mcocr_public_145014ckynq.jpg", "regions": 4, "labels": ["SELLER", "ADDRESS", "TOTAL_COST", "TOTAL_COST"], "quality": 0.201826}
+{"id": "mcocr_public_145014ajgqu.jpg", "regions": 6, "labels": ["SELLER", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.605877}
+{"id": "mcocr_public_145014fcvez.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.661007}
+{"id": "mcocr_public_145014ktane.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.735174}
+{"id": "mcocr_public_145014pcsfj.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.723092}
+{"id": "mcocr_public_145014xxiyx.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.773341}
+{"id": "mcocr_public_145014shwyh.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.635445}
+{"id": "mcocr_public_145014yivlq.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.806848}
+{"id": "mcocr_public_145014khxoz.jpg", "regions": 6, "labels": ["SELLER", "SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.773998}
+{"id": "mcocr_public_145014huwgv.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.693096}
+{"id": "mcocr_public_145014zsdex.jpg", "regions": 4, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST"], "quality": 0.703284}
+{"id": "mcocr_public_145014bjahl.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.776803}
+{"id": "mcocr_public_145014plodi.jpg", "regions": 6, "labels": ["SELLER", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.443595}
+{"id": "mcocr_public_145014kolbk.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.844669}
+{"id": "mcocr_public_145014foulc.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.842435}
+{"id": "mcocr_public_145014emeev.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.781915}
+{"id": "mcocr_public_145014evqra.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.580576}
+{"id": "mcocr_public_145014fegvz.jpg", "regions": 6, "labels": ["SELLER", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.716572}
+{"id": "mcocr_public_145014rxymg.jpg", "regions": 4, "labels": ["SELLER", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.661081}
+{"id": "mcocr_public_145014okszg.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.846874}
+{"id": "mcocr_public_145014eeksl.jpg", "regions": 1, "labels": ["TOTAL_COST"], "quality": 0.509642}
+{"id": "mcocr_public_145014owkmp.jpg", "regions": 6, "labels": ["SELLER", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.422883}
+{"id": "mcocr_public_145014gkduf.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.699276}
+{"id": "mcocr_public_145014mcvls.jpg", "regions": 8, "labels": ["TOTAL_COST", "TOTAL_COST", "TIMESTAMP", "ADDRESS", "ADDRESS", "ADDRESS", "SELLER", "SELLER"], "quality": 0.758129}
+{"id": "mcocr_public_145014jixhn.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.824464}
+{"id": "mcocr_public_145014klyxi.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.847411}
+{"id": "mcocr_public_145014ejgcd.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.702775}
+{"id": "mcocr_public_145014edwpt.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.674814}
+{"id": "mcocr_public_145014oogiy.jpg", "regions": 5, "labels": ["SELLER", "TIMESTAMP", "ADDRESS", "TOTAL_COST", "TOTAL_COST"], "quality": 0.633406}
+{"id": "mcocr_public_145014pxnrk.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.642034}
+{"id": "mcocr_public_145014sgzjh.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TOTAL_COST", "TOTAL_COST", "TIMESTAMP"], "quality": 0.811604}
+{"id": "mcocr_public_145014mzrbm.jpg", "regions": 6, "labels": ["SELLER", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.721464}
+{"id": "mcocr_public_145014pwhor.jpg", "regions": 6, "labels": ["SELLER", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.675863}
+{"id": "mcocr_public_145014vjcbu.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.672745}
+{"id": "mcocr_public_145014vauus.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "ADDRESS", "ADDRESS", "TOTAL_COST", "TOTAL_COST"], "quality": 0.6837}
+{"id": "mcocr_public_145014tckwp.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.693124}
+{"id": "mcocr_public_145014kdvhb.jpg", "regions": 8, "labels": ["ADDRESS", "ADDRESS", "TIMESTAMP", "TIMESTAMP", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST", "TOTAL_COST"], "quality": 0.303021}
+{"id": "mcocr_public_145014jakjq.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST", "TOTAL_COST"], "quality": 0.397295}
+{"id": "mcocr_public_145014exzpp.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.798558}
+{"id": "mcocr_public_145014zvrla.jpg", "regions": 6, "labels": ["SELLER", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.694047}
+{"id": "mcocr_public_145014qmagv.jpg", "regions": 5, "labels": ["ADDRESS", "SELLER", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.659362}
+{"id": "mcocr_public_145014lpghh.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.834025}
+{"id": "mcocr_public_145014iriei.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.596798}
+{"id": "mcocr_public_145014uvxyx.jpg", "regions": 5, "labels": ["TIMESTAMP", "TOTAL_COST", "TOTAL_COST", "ADDRESS", "SELLER"], "quality": 0.867969}
+{"id": "mcocr_public_145014jkafe.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.766234}
+{"id": "mcocr_public_145014sydpm.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.764125}
+{"id": "mcocr_public_145014mmuxs.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.830673}
+{"id": "mcocr_public_145014gobol.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.787216}
+{"id": "mcocr_public_145014lwxal.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.728654}
+{"id": "mcocr_public_145014yltna.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.803045}
+{"id": "mcocr_public_145014mbvkd.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.853621}
+{"id": "mcocr_public_145014hmdtg.jpg", "regions": 7, "labels": ["SELLER", "SELLER", "ADDRESS", "TIMESTAMP", "ADDRESS", "TOTAL_COST", "TOTAL_COST"], "quality": 0.776045}
+{"id": "mcocr_public_145014foimu.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.713925}
+{"id": "mcocr_public_145014vfxry.jpg", "regions": 6, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.554359}
+{"id": "mcocr_public_145014fltno.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.722619}
+{"id": "mcocr_public_145014lwrxk.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.77044}
+{"id": "mcocr_public_145014ajita.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.701161}
+{"id": "mcocr_public_145014irdab.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.598097}
+{"id": "mcocr_public_145014urzox.jpg", "regions": 4, "labels": ["SELLER", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.687429}
+{"id": "mcocr_public_145014ojewe.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.661689}
+{"id": "mcocr_public_145014aqymg.jpg", "regions": 4, "labels": ["SELLER", "ADDRESS", "TOTAL_COST", "TOTAL_COST"], "quality": 0.693219}
+{"id": "mcocr_public_145014yfnqu.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.594207}
+{"id": "mcocr_public_145014gkruw.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.804107}
+{"id": "mcocr_public_145014kvcfd.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.54209}
+{"id": "mcocr_public_145014tugre.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.724506}
+{"id": "mcocr_public_145014hxoeu.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.578649}
+{"id": "mcocr_public_145014dkbzw.jpg", "regions": 3, "labels": ["SELLER", "TIMESTAMP", "TOTAL_COST"], "quality": 0.674232}
+{"id": "mcocr_public_145014rsbuj.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.615274}
+{"id": "mcocr_public_145014ofqlt.jpg", "regions": 8, "labels": ["SELLER", "SELLER", "ADDRESS", "TIMESTAMP", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST", "TOTAL_COST"], "quality": 0.440694}
+{"id": "mcocr_public_145014yccar.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.829828}
+{"id": "mcocr_public_145014eabnk.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST"], "quality": 0.702327}
+{"id": "mcocr_public_145014rshbs.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.670828}
+{"id": "mcocr_public_145014twoee.jpg", "regions": 1, "labels": ["TIMESTAMP"], "quality": 0.300542}
+{"id": "mcocr_public_145014nircs.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.664767}
+{"id": "mcocr_public_145014mikss.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.702595}
+{"id": "mcocr_public_145014fhmjg.jpg", "regions": 11, "labels": ["SELLER", "SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.822168}
+{"id": "mcocr_public_145014qbucx.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.824197}
+{"id": "mcocr_public_145014gobum.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.681657}
+{"id": "mcocr_public_145014hxlhz.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.687329}
+{"id": "mcocr_public_145014upass.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.680848}
+{"id": "mcocr_public_145014iwhec.jpg", "regions": 0, "labels": [""], "quality": 0.622674}
+{"id": "mcocr_public_145014nrger.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.655689}
+{"id": "mcocr_public_145014rkuyh.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.640643}
+{"id": "mcocr_public_145014gwllr.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.83808}
+{"id": "mcocr_public_145014uavtd.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TIMESTAMP", "TIMESTAMP"], "quality": 0.615308}
+{"id": "mcocr_public_145014hcsva.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.831442}
+{"id": "mcocr_public_145014ghudu.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.355152}
+{"id": "mcocr_public_145014mgcfg.jpg", "regions": 4, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST"], "quality": 0.709862}
+{"id": "mcocr_public_145014ycgki.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.586779}
+{"id": "mcocr_public_145014wgjvg.jpg", "regions": 10, "labels": ["SELLER", "SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.856416}
+{"id": "mcocr_public_145014rpmsm.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.801273}
+{"id": "mcocr_public_145014ihyqu.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.641134}
+{"id": "mcocr_public_145014miwkj.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.636842}
+{"id": "mcocr_public_145014qajwu.jpg", "regions": 6, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.676968}
+{"id": "mcocr_public_145014rotwn.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.634407}
+{"id": "mcocr_public_145014zmplv.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.675825}
+{"id": "mcocr_public_145014vxrob.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.724361}
+{"id": "mcocr_public_145014mntfs.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.8001}
+{"id": "mcocr_public_145014neytd.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.7241}
+{"id": "mcocr_public_145014ozfbe.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.676401}
+{"id": "mcocr_public_145014vkdhy.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.770437}
+{"id": "mcocr_public_145014fvrpp.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.818812}
+{"id": "mcocr_public_145014zqkgu.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.799704}
+{"id": "mcocr_public_145014jfncf.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.770622}
+{"id": "mcocr_public_145014cgbau.jpg", "regions": 7, "labels": ["SELLER", "SELLER", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.574383}
+{"id": "mcocr_public_145014yfexx.jpg", "regions": 4, "labels": ["SELLER", "TIMESTAMP", "ADDRESS", "TIMESTAMP"], "quality": 0.241765}
+{"id": "mcocr_public_145014mpahy.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "TIMESTAMP", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.714798}
+{"id": "mcocr_public_145014sxfmn.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.719938}
+{"id": "mcocr_public_145014ooznt.jpg", "regions": 2, "labels": ["SELLER", "TOTAL_COST"], "quality": 0.521557}
+{"id": "mcocr_public_145014zwyas.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.805581}
+{"id": "mcocr_public_145014wmjil.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.673834}
+{"id": "mcocr_public_145014heqey.jpg", "regions": 4, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST"], "quality": 0.661138}
+{"id": "mcocr_public_145014oaduc.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.803141}
+{"id": "mcocr_public_145014ykqth.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.623032}
+{"id": "mcocr_public_145014cwfup.jpg", "regions": 6, "labels": ["ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.684477}
+{"id": "mcocr_public_145014ihdjg.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.805757}
+{"id": "mcocr_public_145014elolx.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.72483}
+{"id": "mcocr_public_145014ehtue.jpg", "regions": 2, "labels": ["TOTAL_COST", "TOTAL_COST"], "quality": 0.499909}
+{"id": "mcocr_public_145014ftgca.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.707794}
+{"id": "mcocr_public_145014wdhcw.jpg", "regions": 2, "labels": ["TOTAL_COST", "TOTAL_COST"], "quality": 0.726693}
+{"id": "mcocr_public_145014qmchf.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.810606}
+{"id": "mcocr_public_145014kvqte.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.683274}
+{"id": "mcocr_public_145014imncc.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.676952}
+{"id": "mcocr_public_145014idiie.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.651545}
+{"id": "mcocr_public_145014ymhqd.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.767649}
+{"id": "mcocr_public_145014hdquz.jpg", "regions": 7, "labels": ["SELLER", "SELLER", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.652417}
+{"id": "mcocr_public_145014mppzy.jpg", "regions": 2, "labels": ["TOTAL_COST", "TOTAL_COST"], "quality": 0.341865}
+{"id": "mcocr_public_145014fkqug.jpg", "regions": 5, "labels": ["TOTAL_COST", "TOTAL_COST", "TIMESTAMP", "SELLER", "ADDRESS"], "quality": 0.788504}
+{"id": "mcocr_public_145014cfgdh.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.766724}
+{"id": "mcocr_public_145014zrswr.jpg", "regions": 7, "labels": ["SELLER", "SELLER", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.632763}
+{"id": "mcocr_public_145014dqrls.jpg", "regions": 3, "labels": ["SELLER", "TIMESTAMP", "TOTAL_COST"], "quality": 0.562826}
+{"id": "mcocr_public_145014rsxlc.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.654034}
+{"id": "mcocr_public_145014atzjl.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.827669}
+{"id": "mcocr_public_145014tkueb.jpg", "regions": 5, "labels": ["SELLER", "TIMESTAMP", "SELLER", "TOTAL_COST", "TOTAL_COST"], "quality": 0.814872}
+{"id": "mcocr_public_145014okiuq.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.733123}
+{"id": "mcocr_public_145014tiglg.jpg", "regions": 6, "labels": ["SELLER", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.733433}
+{"id": "mcocr_public_145014cuqln.jpg", "regions": 6, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TIMESTAMP"], "quality": 0.597803}
+{"id": "mcocr_public_145014lohnm.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.680066}
+{"id": "mcocr_public_145014zstut.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.736929}
+{"id": "mcocr_public_145014lxhnj.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.456766}
+{"id": "mcocr_public_145014lfihs.jpg", "regions": 6, "labels": ["ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.66455}
+{"id": "mcocr_public_145014nukhy.jpg", "regions": 4, "labels": ["SELLER", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.775237}
+{"id": "mcocr_public_145014iidaa.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.660731}
+{"id": "mcocr_public_145014kgyki.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.847089}
+{"id": "mcocr_public_145014bwelu.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.652792}
+{"id": "mcocr_public_145014ikozz.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.822394}
+{"id": "mcocr_public_145014pdqkk.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.470851}
+{"id": "mcocr_public_145014etxsp.jpg", "regions": 6, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TIMESTAMP"], "quality": 0.688769}
+{"id": "mcocr_public_145014scxqk.jpg", "regions": 6, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TIMESTAMP"], "quality": 0.684277}
+{"id": "mcocr_public_145014xjfxx.jpg", "regions": 6, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TIMESTAMP"], "quality": 0.691217}
+{"id": "mcocr_public_145014bvfay.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.838058}
+{"id": "mcocr_public_145014nbtki.jpg", "regions": 6, "labels": ["SELLER", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.492868}
+{"id": "mcocr_public_145014nxuwg.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.5454}
+{"id": "mcocr_public_145014xxqwv.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.802725}
+{"id": "mcocr_public_145014rvwat.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.729551}
+{"id": "mcocr_public_145014dcpkd.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.733487}
+{"id": "mcocr_public_145014gndox.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.706267}
+{"id": "mcocr_public_145014nqpwx.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.745271}
+{"id": "mcocr_public_145014qcesc.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.719914}
+{"id": "mcocr_public_145014xqbce.jpg", "regions": 4, "labels": ["SELLER", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.525912}
+{"id": "mcocr_public_145014jndnz.jpg", "regions": 0, "labels": [""], "quality": 0.297373}
+{"id": "mcocr_public_145014gcycl.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.681212}
+{"id": "mcocr_public_145014qawzo.jpg", "regions": 4, "labels": ["ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.668475}
+{"id": "mcocr_public_145014owdgs.jpg", "regions": 6, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TIMESTAMP"], "quality": 0.766166}
+{"id": "mcocr_public_145014zppme.jpg", "regions": 4, "labels": ["ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.341603}
+{"id": "mcocr_public_145014okzcs.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.873268}
+{"id": "mcocr_public_145014divcp.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.736429}
+{"id": "mcocr_public_145014pmuou.jpg", "regions": 8, "labels": ["SELLER", "SELLER", "ADDRESS", "TIMESTAMP", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST", "TOTAL_COST"], "quality": 0.297309}
+{"id": "mcocr_public_145014tmkco.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.593593}
+{"id": "mcocr_public_145014fvwak.jpg", "regions": 4, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST"], "quality": 0.719041}
+{"id": "mcocr_public_145014vnsjq.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.858051}
+{"id": "mcocr_public_145014fsrkz.jpg", "regions": 8, "labels": ["SELLER", "ADDRESS", "ADDRESS", "TIMESTAMP", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST", "ADDRESS"], "quality": 0.655949}
+{"id": "mcocr_public_145014aqeur.jpg", "regions": 9, "labels": ["SELLER", "SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST", "TIMESTAMP", "TIMESTAMP", "TIMESTAMP"], "quality": 0.53801}
+{"id": "mcocr_public_145014gsbke.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.675967}
+{"id": "mcocr_public_145014llqzl.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.855815}
+{"id": "mcocr_public_145014zoocd.jpg", "regions": 6, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST"], "quality": 0.547559}
+{"id": "mcocr_public_145014ryyyw.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "TIMESTAMP", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.20685}
+{"id": "mcocr_public_145014ftlgi.jpg", "regions": 10, "labels": ["ADDRESS", "TIMESTAMP", "TIMESTAMP", "TIMESTAMP", "TIMESTAMP", "TIMESTAMP", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST", "SELLER"], "quality": 0.649093}
+{"id": "mcocr_public_145014btidj.jpg", "regions": 4, "labels": ["SELLER", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.579393}
+{"id": "mcocr_public_145014yxijr.jpg", "regions": 6, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TIMESTAMP"], "quality": 0.669352}
+{"id": "mcocr_public_145014unbru.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.774854}
+{"id": "mcocr_public_145014nzgjm.jpg", "regions": 7, "labels": ["SELLER", "SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST", "TOTAL_COST"], "quality": 0.571389}
+{"id": "mcocr_public_145014ttrrd.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.61447}
+{"id": "mcocr_public_145014swnex.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.740662}
+{"id": "mcocr_public_145014avkgm.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TOTAL_COST", "TOTAL_COST", "TOTAL_COST"], "quality": 0.667386}
+{"id": "mcocr_public_145014cbbmj.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.809785}
+{"id": "mcocr_public_145014rnzgt.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.794827}
+{"id": "mcocr_public_145014skzzh.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.767102}
+{"id": "mcocr_public_145014wxzpz.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.743067}
+{"id": "mcocr_public_145014pfjsu.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.87186}
+{"id": "mcocr_public_145014yaivb.jpg", "regions": 4, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST"], "quality": 0.710647}
+{"id": "mcocr_public_145014ruiqd.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.600863}
+{"id": "mcocr_public_145014tihfn.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.859726}
+{"id": "mcocr_public_145014lbrqe.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.815732}
+{"id": "mcocr_public_145014lqgzd.jpg", "regions": 7, "labels": ["TOTAL_COST", "TOTAL_COST", "TIMESTAMP", "ADDRESS", "ADDRESS", "ADDRESS", "SELLER"], "quality": 0.51755}
+{"id": "mcocr_public_145014yryue.jpg", "regions": 8, "labels": ["SELLER", "SELLER", "ADDRESS", "ADDRESS", "TIMESTAMP", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.449948}
+{"id": "mcocr_public_145014qbdep.jpg", "regions": 5, "labels": ["SELLER", "SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST"], "quality": 0.683713}
+{"id": "mcocr_public_145014kogop.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.713668}
+{"id": "mcocr_public_145014mthgu.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.467131}
+{"id": "mcocr_public_145014uevcn.jpg", "regions": 6, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "ADDRESS", "TOTAL_COST", "TOTAL_COST"], "quality": 0.754259}
+{"id": "mcocr_public_145014mzlbz.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.777796}
+{"id": "mcocr_public_145014egqdh.jpg", "regions": 4, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST"], "quality": 0.576753}
+{"id": "mcocr_public_145014haprd.jpg", "regions": 4, "labels": ["SELLER", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.83574}
+{"id": "mcocr_public_145014lisam.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.648115}
+{"id": "mcocr_public_145014ybodg.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.788115}
+{"id": "mcocr_public_145014awmyq.jpg", "regions": 7, "labels": ["ADDRESS", "ADDRESS", "TIMESTAMP", "TIMESTAMP", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.224447}
+{"id": "mcocr_public_145014wbtei.jpg", "regions": 4, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST"], "quality": 0.79778}
+{"id": "mcocr_public_145014rrfit.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TOTAL_COST", "TOTAL_COST", "TIMESTAMP"], "quality": 0.776342}
+{"id": "mcocr_public_145014cftxo.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.73449}
+{"id": "mcocr_public_145014cnphh.jpg", "regions": 3, "labels": ["SELLER", "ADDRESS", "TIMESTAMP"], "quality": 0.728184}
+{"id": "mcocr_public_145014vtyrp.jpg", "regions": 4, "labels": ["SELLER", "ADDRESS", "ADDRESS", "TOTAL_COST"], "quality": 0.611589}
+{"id": "mcocr_public_145014kljgu.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.696701}
+{"id": "mcocr_public_145014aglyp.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TOTAL_COST", "TOTAL_COST", "TIMESTAMP"], "quality": 0.772798}
+{"id": "mcocr_public_145014vpjby.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.845546}
+{"id": "mcocr_public_145014wowmj.jpg", "regions": 6, "labels": ["SELLER", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.427703}
+{"id": "mcocr_public_145014aprcw.jpg", "regions": 3, "labels": ["TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.733672}
+{"id": "mcocr_public_145014msalk.jpg", "regions": 6, "labels": ["SELLER", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.436597}
+{"id": "mcocr_public_145014cpzwm.jpg", "regions": 1, "labels": ["SELLER"], "quality": 0.475328}
+{"id": "mcocr_public_145014qikqz.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.591904}
+{"id": "mcocr_public_145014dhito.jpg", "regions": 5, "labels": ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.748317}
+{"id": "mcocr_public_145014bokrq.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.675324}
+{"id": "mcocr_public_145014ectxq.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.708228}
+{"id": "mcocr_public_145014xyzwl.jpg", "regions": 7, "labels": ["SELLER", "ADDRESS", "ADDRESS", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.650219}
+{"id": "mcocr_public_145014xmngo.jpg", "regions": 6, "labels": ["SELLER", "SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST", "TOTAL_COST"], "quality": 0.468302}

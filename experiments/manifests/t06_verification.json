@@ -1,0 +1,29 @@
+{
+  "task": "T06",
+  "verification_status": "PASS",
+  "split_version": "t06_v1",
+  "checks": {
+    "deterministic_rebuild_hashes": true,
+    "document_ids_pairwise_disjoint": true,
+    "group_ids_pairwise_disjoint": true,
+    "image_sha256_pairwise_disjoint": true,
+    "mcocr_accepted_coverage_complete": true,
+    "sroie_official_test_preserved": true,
+    "sroie_adapted_development_coverage_complete_after_disclosed_exclusions": true,
+    "quarantine_excluded": true,
+    "augmentation_generated": false
+  },
+  "counts": {
+    "mcocr": {
+      "train": 806,
+      "validation": 173,
+      "test": 173
+    },
+    "sroie": {
+      "train": 526,
+      "validation": 93,
+      "test": 345
+    },
+    "sroie_adapted_exclusions": 7
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "root": "D:\\graduation-project-2\\dataset_hoadon\\SROIE2019",
+  "file_count": 2925,
+  "extensions": {
+    ".json": 3,
+    ".bin": 2,
+    ".txt": 1947,
+    ".jpg": 973
+  },
+  "total_bytes": 1016463701,
+  "split_summary": {
+    "train": {
+      "image_files": 626,
+      "box_files": 626,
+      "entities_files": 626,
+      "counts": {
+        "decoded_images": 626,
+        "transcript_contains_comma": 1679,
+        "box_files_parsed": 626,
+        "box_regions": 33626,
+        "box_parse_errors": 0,
+        "empty_box_transcripts": 0,
+        "entities_files_parsed": 626
+      },
+      "missing_box_ids": [],
+      "missing_entities_ids": [],
+      "extra_box_ids": [],
+      "extra_entities_ids": [],
+      "missing_field_counts": {
+        "address": 1
+      },
+      "empty_field_counts": {
+        "total": 1
+      },
+      "entity_key_counts": {
+        "company": 626,
+        "date": 626,
+        "address": 625,
+        "total": 626
+      },
+      "date_format_counts": {
+        "dayfirst_only": 252,
+        "two_digit_year": 144,
+        "ambiguous_day_month": 146,
+        "monthfirst_only": 2,
+        "other_format": 73,
+        "same_day_month": 9
+      },
+      "total_format_counts": {
+        "dot_two_decimals": 535,
+        "other_format": 91
+      },
+      "field_literal_presence_in_ocr_counts": {
+        "company": 608,
+        "address": 485,
+        "date": 622,
+        "total": 624
+      }
+    },
+    "test": {
+      "image_files": 347,
+      "box_files": 347,
+      "entities_files": 347,
+      "counts": {
+        "decoded_images": 347,
+        "transcript_contains_comma": 940,
+        "box_files_parsed": 347,
+        "box_regions": 18705,
+        "box_parse_errors": 0,
+        "empty_box_transcripts": 0,
+        "entities_files_parsed": 347,
+        "blank_box_lines": 1
+      },
+      "missing_box_ids": [],
+      "missing_entities_ids": [],
+      "extra_box_ids": [],
+      "extra_entities_ids": [],
+      "missing_field_counts": {},
+      "empty_field_counts": {},
+      "entity_key_counts": {
+        "company": 347,
+        "date": 347,
+        "address": 347,
+        "total": 347
+      },
+      "date_format_counts": {
+        "dayfirst_only": 130,
+        "ambiguous_day_month": 96,
+        "two_digit_year": 66,
+        "other_format": 50,
+        "same_day_month": 4,
+        "monthfirst_only": 1
+      },
+      "total_format_counts": {
+        "dot_two_decimals": 282,
+        "other_format": 65
+      },
+      "field_literal_presence_in_ocr_counts": {
+        "company": 339,
+        "address": 261,
+        "date": 343,
+        "total": 347
+      }
+    }
+  },
+  "image_dimension_range": {
+    "width": [
+      435,
+      4961
+    ],
+    "height": [
+      605,
+      7016
+    ]
+  },
+  "train_test_overlapping_ids": [],
+  "exact_duplicate_groups": 15,
+  "cross_split_exact_duplicate_groups": 7,
+  "pixel_duplicate_groups": 15,
+  "cross_split_pixel_duplicate_groups": 7,
+  "near_duplicate_candidates": 2589,
+  "cross_split_near_duplicate_candidates": 1234,
+  "near_duplicate_method": {
+    "method": "dhash_64bit",
+    "hamming_max": 4,
+    "absolute_aspect_ratio_delta_max": 0.03,
+    "note": "screening candidates only; no proof of completeness"
+  },
+  "issues_by_kind": {
+    "empty_entity_field": 1,
+    "missing_entity_field": 1,
+    "degenerate_quad": 1,
+    "non_utf8_annotation": 1
+  },
+  "local_readme_license_files": [],
+  "inspection_fixture_tests": "PASS",
+  "local_content_digest": "556c0af0016c91c52e1901cdf4cab97c4167b866902fd96604da15f1aadc6571",
+  "provided_split_manifest_sha256": {
+    "train": "b86e3bc9d5949f729679d3c3c8e3fb2268be4afd0c8c3f32601ed1d755885daf",
+    "test": "18cd98f20449c3fa5345327af16dfcece61d5737c90af3a92295efc32ff4b8d6"
+  },
+  "near_duplicate_refinement": {
+    "method": "low_frequency_8x8_cosine_phash_on_32x32_gray",
+    "phash_hamming_max": 6,
+    "input_dhash_candidates": 2589,
+    "refined_candidates": 436,
+    "cross_split_refined_candidates": 175,
+    "review_status": "UNREVIEWED_CANDIDATES_ONLY"
+  },
+  "unique_image_hashes": 958,
+  "unique_image_hashes_by_split": {
+    "train": 621,
+    "test": 344
+  },
+  "duplicate_groups_entities_different": 5,
+  "duplicate_groups_ocr_bytes_different": 15,
+  "mcocr_raw_exact_hash_intersection": [],
+  "images_above_proposed_service_pixel_cap": {
+    "train": 81,
+    "test": 52
+  },
+  "images_above_proposed_service_file_cap": {
+    "train": 0,
+    "test": 0
+  },
+  "manual_review_scope": {
+    "visual_images": 4,
+    "near_duplicate_pairs_reviewed": 1,
+    "near_duplicate_pairs_distinct_confirmed": 1,
+    "remaining_refined_candidates_unreviewed": 435,
+    "semantic_annotation_qa": "Not a complete manual QA pass"
+  }
+}

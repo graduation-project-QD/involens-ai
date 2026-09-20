@@ -1,0 +1,1 @@
+{"paths": ["test/img/X51005442334.jpg", "train/img/X51005442386.jpg"], "review_status": "DISTINCT_RECEIPTS_SAME_TEMPLATE", "reason": "Visual review: receipt date, invoice number, items and amount differ; perceptual hash equality does not identify duplicate receipts", "review_date": "2026-09-14"}

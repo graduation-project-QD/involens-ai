@@ -1,0 +1,35 @@
+{
+  "mapping_version": "t04_v1",
+  "canonical_fields": ["company", "address", "date", "total"],
+  "mcocr_2021": {
+    "SELLER": {"category_id": 15, "field": "company", "status": "mapped"},
+    "ADDRESS": {"category_id": 16, "field": "address", "status": "mapped"},
+    "TIMESTAMP": {"category_id": 17, "field": "date", "status": "mapped"},
+    "TOTAL_COST": {"category_id": 18, "field": "total", "status": "mapped"},
+    "TOTAL_TOTAL_COST": {
+      "category_id": 18,
+      "field": null,
+      "status": "quarantine_unknown_label",
+      "document_id": "mcocr_public_145013kzjew.jpg",
+      "note": "Source is preserved. No automatic typo correction is applied."
+    }
+  },
+  "sroie_2019": {
+    "company": {"field": "company", "status": "mapped_document_field"},
+    "address": {"field": "address", "status": "mapped_document_field"},
+    "date": {"field": "date", "status": "mapped_document_field"},
+    "total": {"field": "total", "status": "mapped_document_field"},
+    "ocr_regions": {
+      "field": null,
+      "status": "unlabeled",
+      "note": "No gold OCR-region-to-field alignment is asserted. Regions are not labeled O."
+    }
+  },
+  "status_semantics": {
+    "annotated": "Source explicitly provides a non-empty value or mapped region.",
+    "annotated_empty": "Source contains the field key with an empty string.",
+    "source_missing": "Expected source key is absent.",
+    "unlabeled": "Source does not state the field label or absence.",
+    "absent": "Reserved for an explicit source assertion that a field is absent; not inferred in T04."
+  }
+}

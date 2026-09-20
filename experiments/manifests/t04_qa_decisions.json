@@ -1,0 +1,56 @@
+{
+  "task": "T04",
+  "decision_version": "t04_v1",
+  "source_files_modified": false,
+  "decisions": [
+    {
+      "dataset": "mcocr_2021",
+      "document_ids": ["mcocr_public_145014iwhec.jpg", "mcocr_public_145014jndnz.jpg"],
+      "finding": "anno_num=0 with empty polygons/text/labels",
+      "disposition": "quarantine",
+      "correction_applied": false
+    },
+    {
+      "dataset": "mcocr_2021",
+      "document_ids": ["mcocr_public_145013kzjew.jpg"],
+      "finding": "unknown source label TOTAL_TOTAL_COST with category_id 18",
+      "disposition": "quarantine; do not silently correct to TOTAL_COST",
+      "correction_applied": false
+    },
+    {
+      "dataset": "sroie_2019",
+      "document_ids": ["X51005663280"],
+      "finding": "address key missing",
+      "disposition": "retain with address.status=source_missing and raw_value=null",
+      "correction_applied": false
+    },
+    {
+      "dataset": "sroie_2019",
+      "document_ids": ["X51005433522"],
+      "finding": "total key present with empty value",
+      "disposition": "retain with total.status=annotated_empty and raw_value=null",
+      "correction_applied": false
+    },
+    {
+      "dataset": "sroie_2019",
+      "document_ids": ["X51006008092"],
+      "finding": "degenerate OCR quadrilateral",
+      "disposition": "quarantine document until geometry QA",
+      "correction_applied": false
+    },
+    {
+      "dataset": "sroie_2019",
+      "document_ids": ["X51006619503"],
+      "finding": "OCR annotation is not valid UTF-8 and source encoding is unverified",
+      "disposition": "quarantine document; do not decode with replacement or silently choose cp1252/GB18030",
+      "correction_applied": false
+    },
+    {
+      "dataset": "sroie_2019",
+      "document_ids": [],
+      "finding": "exact and perceptual duplicate candidates",
+      "disposition": "retain records and pass duplicate groups to T06",
+      "correction_applied": false
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "dataset": "mcocr_2021",
+  "details": {
+    "message": "Unknown MC-OCR label: TOTAL_TOTAL_COST"
+  },
+  "document_id": "mcocr_public_145013kzjew.jpg",
+  "reason_codes": [
+    "UNKNOWN_SOURCE_LABEL"
+  ],
+  "source_partition": "train"
+}

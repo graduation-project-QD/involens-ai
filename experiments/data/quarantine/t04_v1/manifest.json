@@ -1,0 +1,164 @@
+{
+  "task": "T04",
+  "package_version": "t04_v1",
+  "status": "QUARANTINED_EXCLUDED_FROM_CANONICAL_DATA",
+  "document_count": 5,
+  "excluded_from": [
+    "experiments/data/processed/t04_v1/mcocr.jsonl",
+    "experiments/data/processed/t04_v1/sroie.jsonl"
+  ],
+  "source_files_moved": false,
+  "copies_match_source_sha256": true,
+  "documents": [
+    {
+      "dataset": "mcocr_2021",
+      "document_id": "mcocr_public_145013kzjew.jpg",
+      "reason_codes": [
+        "UNKNOWN_SOURCE_LABEL"
+      ],
+      "files": [
+        {
+          "path": "experiments/data/quarantine/t04_v1/mcocr_2021/mcocr_public_145013kzjew/mcocr_public_145013kzjew.jpg",
+          "bytes": 370030,
+          "sha256": "fa935701958f3c859c5748734f18aab76fe59ec38716bc453447ed6869f3817c",
+          "source_path": "dataset_hoadon/train_images/train_images/mcocr_public_145013kzjew.jpg",
+          "source_sha256": "fa935701958f3c859c5748734f18aab76fe59ec38716bc453447ed6869f3817c"
+        },
+        {
+          "path": "experiments/data/quarantine/t04_v1/mcocr_2021/mcocr_public_145013kzjew/annotation_row.json",
+          "bytes": 1251,
+          "sha256": "1e051e9a1db798e190ef7a33c9fe035e71086ad34129815fa0fc766d921eb016"
+        },
+        {
+          "path": "experiments/data/quarantine/t04_v1/mcocr_2021/mcocr_public_145013kzjew/quarantine_record.json",
+          "bytes": 249,
+          "sha256": "75e40935c7f3f82c0d605c6ed57d6a59a2443425d58fece32433b15e91a2ec40"
+        }
+      ]
+    },
+    {
+      "dataset": "mcocr_2021",
+      "document_id": "mcocr_public_145014iwhec.jpg",
+      "reason_codes": [
+        "EMPTY_DOCUMENT_ANNOTATION"
+      ],
+      "files": [
+        {
+          "path": "experiments/data/quarantine/t04_v1/mcocr_2021/mcocr_public_145014iwhec/mcocr_public_145014iwhec.jpg",
+          "bytes": 166272,
+          "sha256": "66dd3855b6b17937113a9c4ab69f415feca0c2b8c6351d150d8698b802321f1f",
+          "source_path": "dataset_hoadon/train_images/train_images/mcocr_public_145014iwhec.jpg",
+          "source_sha256": "66dd3855b6b17937113a9c4ab69f415feca0c2b8c6351d150d8698b802321f1f"
+        },
+        {
+          "path": "experiments/data/quarantine/t04_v1/mcocr_2021/mcocr_public_145014iwhec/annotation_row.json",
+          "bytes": 176,
+          "sha256": "cb5b3dd092e5bca7b2dd17bb56ce322b4a80cdb7144dc7f000b14eb655823d81"
+        },
+        {
+          "path": "experiments/data/quarantine/t04_v1/mcocr_2021/mcocr_public_145014iwhec/quarantine_record.json",
+          "bytes": 243,
+          "sha256": "115c05c740f4096d0271246342a1003d5690681a5d8e7d29abeb703cadd41bf7"
+        }
+      ]
+    },
+    {
+      "dataset": "mcocr_2021",
+      "document_id": "mcocr_public_145014jndnz.jpg",
+      "reason_codes": [
+        "EMPTY_DOCUMENT_ANNOTATION"
+      ],
+      "files": [
+        {
+          "path": "experiments/data/quarantine/t04_v1/mcocr_2021/mcocr_public_145014jndnz/mcocr_public_145014jndnz.jpg",
+          "bytes": 271736,
+          "sha256": "b0cd383a53ca6246ffb1436b97f8efbd08ede66af52a973e872fb09b8d5f363a",
+          "source_path": "dataset_hoadon/train_images/train_images/mcocr_public_145014jndnz.jpg",
+          "source_sha256": "b0cd383a53ca6246ffb1436b97f8efbd08ede66af52a973e872fb09b8d5f363a"
+        },
+        {
+          "path": "experiments/data/quarantine/t04_v1/mcocr_2021/mcocr_public_145014jndnz/annotation_row.json",
+          "bytes": 176,
+          "sha256": "e7c44e8c260dc5a0d0021f547547313a8862295fc0ac5c52b85efa4b64a01c3a"
+        },
+        {
+          "path": "experiments/data/quarantine/t04_v1/mcocr_2021/mcocr_public_145014jndnz/quarantine_record.json",
+          "bytes": 243,
+          "sha256": "5e1555932fb92bd16972c1acc204190946c9a8eccad1534ab3ce6e88baf77e92"
+        }
+      ]
+    },
+    {
+      "dataset": "sroie_2019",
+      "document_id": "X51006008092",
+      "source_partition": "test",
+      "reason_codes": [
+        "DEGENERATE_POLYGON"
+      ],
+      "files": [
+        {
+          "path": "experiments/data/quarantine/t04_v1/sroie_2019/X51006008092/X51006008092.jpg",
+          "bytes": 625515,
+          "sha256": "a19cccd22f032bc042941611a0b7a89e4dd298eb27f027131463f23cb68f9329",
+          "source_path": "dataset_hoadon/SROIE2019/test/img/X51006008092.jpg",
+          "source_sha256": "a19cccd22f032bc042941611a0b7a89e4dd298eb27f027131463f23cb68f9329"
+        },
+        {
+          "path": "experiments/data/quarantine/t04_v1/sroie_2019/X51006008092/ocr_boxes.txt",
+          "bytes": 2616,
+          "sha256": "bc6cdcc23d50e153ad5818865a9383da01218bb83b59c02d7b90945b84a54f2d",
+          "source_path": "dataset_hoadon/SROIE2019/test/box/X51006008092.txt",
+          "source_sha256": "bc6cdcc23d50e153ad5818865a9383da01218bb83b59c02d7b90945b84a54f2d"
+        },
+        {
+          "path": "experiments/data/quarantine/t04_v1/sroie_2019/X51006008092/entities.txt",
+          "bytes": 177,
+          "sha256": "f77a4ed62485c44e16b46b68b164d2b321280f3aee59059cd210b2ba5b89c1bb",
+          "source_path": "dataset_hoadon/SROIE2019/test/entities/X51006008092.txt",
+          "source_sha256": "f77a4ed62485c44e16b46b68b164d2b321280f3aee59059cd210b2ba5b89c1bb"
+        },
+        {
+          "path": "experiments/data/quarantine/t04_v1/sroie_2019/X51006008092/quarantine_record.json",
+          "bytes": 354,
+          "sha256": "06fa81586b100ab5bd770e975b354a0f851ddfc334fcb9cf7118aa3be9e1b1f5"
+        }
+      ]
+    },
+    {
+      "dataset": "sroie_2019",
+      "document_id": "X51006619503",
+      "source_partition": "test",
+      "reason_codes": [
+        "NON_UTF8_ANNOTATION"
+      ],
+      "files": [
+        {
+          "path": "experiments/data/quarantine/t04_v1/sroie_2019/X51006619503/X51006619503.jpg",
+          "bytes": 106612,
+          "sha256": "54fd3fa4981f91e7c1e976ffacc6396dfa58c9e77858026635538c961f1cc6ca",
+          "source_path": "dataset_hoadon/SROIE2019/test/img/X51006619503.jpg",
+          "source_sha256": "54fd3fa4981f91e7c1e976ffacc6396dfa58c9e77858026635538c961f1cc6ca"
+        },
+        {
+          "path": "experiments/data/quarantine/t04_v1/sroie_2019/X51006619503/ocr_boxes.txt",
+          "bytes": 2610,
+          "sha256": "8aae254cba6e7e46dae15762e749befbb2deffb82e3b97c39590fc5d5a0521fe",
+          "source_path": "dataset_hoadon/SROIE2019/test/box/X51006619503.txt",
+          "source_sha256": "8aae254cba6e7e46dae15762e749befbb2deffb82e3b97c39590fc5d5a0521fe"
+        },
+        {
+          "path": "experiments/data/quarantine/t04_v1/sroie_2019/X51006619503/entities.txt",
+          "bytes": 185,
+          "sha256": "9efef155c5a9695a5e9230488d195d280e14ca9136f13e1c65d6bbafd4353a8f",
+          "source_path": "dataset_hoadon/SROIE2019/test/entities/X51006619503.txt",
+          "source_sha256": "9efef155c5a9695a5e9230488d195d280e14ca9136f13e1c65d6bbafd4353a8f"
+        },
+        {
+          "path": "experiments/data/quarantine/t04_v1/sroie_2019/X51006619503/quarantine_record.json",
+          "bytes": 447,
+          "sha256": "ab1f5afc8071709a51ae098eb95bd6ec8ead91dfd2c74d12c22066c403e3568f"
+        }
+      ]
+    }
+  ]
+}

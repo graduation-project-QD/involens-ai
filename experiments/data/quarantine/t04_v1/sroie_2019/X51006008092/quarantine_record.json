@@ -1,0 +1,21 @@
+{
+  "dataset": "sroie_2019",
+  "details": {
+    "message": "Polygon has zero area",
+    "polygon": [
+      144.0,
+      1398.0,
+      145.0,
+      1398.0,
+      145.0,
+      1398.0,
+      144.0,
+      1398.0
+    ]
+  },
+  "document_id": "X51006008092",
+  "reason_codes": [
+    "DEGENERATE_POLYGON"
+  ],
+  "source_partition": "test"
+}

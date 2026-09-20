@@ -1,0 +1,53 @@
+{
+  "csv_real_empty_rows": [
+    "mcocr_public_145014iwhec.jpg",
+    "mcocr_public_145014jndnz.jpg"
+  ],
+  "correct_empty_string_interpretation_length_mismatch": [],
+  "unknown_labels": [
+    {
+      "id": "mcocr_public_145013kzjew.jpg",
+      "label": "TOTAL_TOTAL_COST"
+    }
+  ],
+  "train_csv_without_image": [],
+  "train_images_without_csv": [],
+  "train_val_same_filename": [],
+  "csv_without_tsv": [
+    "mcocr_public_145013uqtmx.jpg",
+    "mcocr_public_145014iwhec.jpg",
+    "mcocr_public_145014jndnz.jpg",
+    "mcocr_public_145014mwhyh.jpg"
+  ],
+  "tsv_without_csv": [],
+  "recognition_parent_overlap_count": 0,
+  "recognition_parent_overlap_ids": [],
+  "recognition_lists": {
+    "text_recognition_train_data.txt": {
+      "lines": 5285,
+      "unique_crops": 5285,
+      "parents": 922,
+      "unresolved_parents": 0,
+      "missing_crop_files": 0
+    },
+    "text_recognition_val_data.txt": {
+      "lines": 1300,
+      "unique_crops": 1300,
+      "parents": 231,
+      "unresolved_parents": 0,
+      "missing_crop_files": 0
+    }
+  },
+  "detector_stats": {
+    "dataset/text_detector/txt": {
+      "lines": 47626,
+      "empty_text": 47626,
+      "invalid": 0
+    },
+    "text_detector/text_detector/txt": {
+      "lines": 47626,
+      "empty_text": 47626,
+      "invalid": 0
+    }
+  }
+}

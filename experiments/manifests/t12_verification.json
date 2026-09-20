@@ -1,0 +1,22 @@
+{
+  "task": "T12",
+  "status": "PASS",
+  "normalizer_version": "normalization_v1",
+  "checks": {
+    "expected_records": 1064,
+    "actual_records": 1064,
+    "unique_field_slots": 1064,
+    "raw_values_preserved": true,
+    "annotation_masks_preserved": true,
+    "normalized_values_string_or_null": true,
+    "warning_taxonomy_closed": true,
+    "deterministic_rebuild": true,
+    "artifact_sha256": "1aa69b45790b9829bef2ac69b2286934fb604eee0b024a9587038493a47e7da4"
+  },
+  "normalized_accuracy": {
+    "status": "N/A",
+    "reason": "Frozen validation data has raw field GT but no independently QAed normalized GT artifact"
+  },
+  "failures": [],
+  "audit_report_sha256": "d553944570429661d97b617574cbf790fb6aa433ba859389aee7a1d9853f9a14"
+}
