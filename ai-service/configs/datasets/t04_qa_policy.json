@@ -1,0 +1,28 @@
+{
+  "policy_version": "t04_v1",
+  "source_mutation_allowed": false,
+  "mcocr": {
+    "unknown_source_label": "quarantine_document",
+    "empty_document_annotation": "quarantine_document",
+    "missing_target_label": "retain_document_and_mark_field_unlabeled",
+    "multipart_segmentation": "preserve_all_polygon_parts",
+    "field_value_joiner": "newline_in_source_region_order"
+  },
+  "sroie": {
+    "non_utf8_annotation": "quarantine_document_until_decoder_is_verified",
+    "degenerate_polygon": "quarantine_document_until_geometry_is_resolved",
+    "missing_entity_key": "retain_document_and_mark_source_missing",
+    "empty_entity_value": "retain_document_and_mark_annotated_empty_with_null_value",
+    "ocr_region_field_label": "unlabeled_not_O",
+    "triple_asterisk_transcript": "retain_region_and_mark_uncertain_marker",
+    "single_asterisk_transcript": "retain_as_annotated_text"
+  },
+  "duplicates": {
+    "action": "retain_and_defer_grouping_to_T06",
+    "reason": "T04 preserves source records; leakage-safe fixed split is owned by T06"
+  },
+  "normalization": {
+    "applied_in_T04": false,
+    "reason": "T04 preserves raw annotations; field normalization is a later versioned stage"
+  }
+}

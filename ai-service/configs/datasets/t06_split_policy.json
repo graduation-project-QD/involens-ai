@@ -1,0 +1,38 @@
+{
+  "task": "T06",
+  "policy_version": "t06_v1",
+  "seed": 42,
+  "canonical_dataset_version": "t04_v1",
+  "mcocr": {
+    "source": "accepted labeled canonical MC-OCR records only",
+    "ratios": {"train": 0.70, "validation": 0.15, "test": 0.15},
+    "official_validation_policy": "exclude_from_gold_split_because_local_files_have_sample_outputs_without_gold",
+    "grouping": ["exact_image_sha256", "confirmed_strong_near_duplicate"],
+    "candidate_near_duplicate_thresholds": {
+      "dhash_hamming_max": 4,
+      "ahash_hamming_max": 4,
+      "relative_aspect_ratio_difference_max": 0.08
+    },
+    "confirmed_strong_near_duplicate_thresholds": {
+      "dhash_hamming_max": 1,
+      "ahash_hamming_max": 1,
+      "relative_aspect_ratio_difference_max": 0.01,
+      "normalized_grayscale_rms_max": 0.01
+    },
+    "distinct_candidate_evidence": "non-exact candidate with different annotated date and total plus normalized grayscale RMS above 0.03"
+  },
+  "sroie": {
+    "official_test_policy": "preserve_all_accepted_official_test_records",
+    "adapted_development_ratios": {"train": 0.85, "validation": 0.15},
+    "cross_official_exact_duplicate_policy": "retain_test_and_exclude_duplicated_train_copy_from_adapted_train_validation",
+    "confirmed_near_duplicate_evidence": "dHash and pHash distance at most 1 with matching company, date and total",
+    "zero_shot_primary": true,
+    "adapted_train_validation": "prepared_only_not_trained"
+  },
+  "guards": {
+    "quarantine_excluded": true,
+    "augmentation_generated": false,
+    "source_files_modified": false,
+    "unreviewed_near_duplicate_candidates_are_not_automatically_grouped": true
+  }
+}
