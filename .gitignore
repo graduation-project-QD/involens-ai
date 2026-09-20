@@ -1,0 +1,83 @@
+# Local datasets (never commit source data)
+/dataset/
+/dataset_hoadon/
+/experiments/data/raw/
+/experiments/data/processed/**/*.jsonl
+!/experiments/data/processed/**/*_quarantine.jsonl
+
+# Quarantined source documents: keep audit metadata, ignore document binaries
+/experiments/data/quarantine/**/*.jpg
+/experiments/data/quarantine/**/*.jpeg
+/experiments/data/quarantine/**/*.png
+/experiments/data/quarantine/**/*.pdf
+
+# Python environments and caches
+.venv/
+venv/
+env/
+ENV/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+/project-planning/
+
+# Build and package outputs
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ML caches, checkpoints and exported model weights
+.cache/
+.huggingface/
+.paddlex/
+/experiments/checkpoints/
+/experiments/runs/
+/experiments/models/
+/ai-service/outputs/
+*.ckpt
+*.pt
+*.pth
+*.safetensors
+*.onnx
+
+# Generated experiment archives; retain reports, manifests and checksum files
+/experiments/artifacts/**/*.zip
+/experiments/artifacts/**/*.tar
+/experiments/artifacts/**/*.tar.gz
+/experiments/artifacts/**/*.tgz
+
+# Logs, temporary files and notebooks
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+.ipynb_checkpoints/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+secrets.json
+
+# IDE and operating-system files
+.idea/
+.vscode/
+*.code-workspace
+.DS_Store
+Thumbs.db
+Desktop.ini
