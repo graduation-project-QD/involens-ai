@@ -1,0 +1,33 @@
+{
+  "schema_version": "augmentation_config_v1",
+  "augmentation_version": "t08_augmentation_v1",
+  "enabled": false,
+  "seed": 42,
+  "allowed_splits": ["train"],
+  "mode": "gt_view_visual_geometry_only",
+  "operation_order": ["rotation", "brightness", "blur"],
+  "rotation": {
+    "enabled": true,
+    "probability": 0.2,
+    "degrees": [-3.0, 3.0],
+    "expand_canvas": true,
+    "fill_rgb": [255, 255, 255],
+    "resample": "BICUBIC"
+  },
+  "brightness": {
+    "enabled": true,
+    "probability": 0.2,
+    "factor": [0.8, 1.2]
+  },
+  "blur": {
+    "enabled": true,
+    "probability": 0.2,
+    "radius": [0.1, 1.0]
+  },
+  "ocr_policy": {
+    "rerun_ocr": false,
+    "claim_ocr_robustness": false,
+    "baseline_cache_must_remain_separate": true,
+    "activation_gate": "T10 CER/WER and resource ablation"
+  }
+}

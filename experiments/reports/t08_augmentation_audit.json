@@ -1,0 +1,177 @@
+{
+  "task": "T08",
+  "status": "PASS_DISABLED_BY_DEFAULT",
+  "augmentation_version": "t08_augmentation_v1",
+  "activation": {
+    "enabled_by_default": false,
+    "audit_mode": "PREVIEW_ONLY_DISABLED_CONFIG",
+    "allowed_splits": [
+      "train"
+    ],
+    "mode": "gt_view_visual_geometry_only",
+    "rerun_ocr": false,
+    "claim_ocr_robustness": false,
+    "activation_gate": "T10 CER/WER and resource ablation"
+  },
+  "datasets": {
+    "mcocr": {
+      "documents": 806,
+      "pass": 806,
+      "fail": 0,
+      "invalid_boxes": 0,
+      "operation_applied_counts": {
+        "blur": 148,
+        "brightness": 152,
+        "rotation": 174
+      },
+      "operation_combination_counts": {
+        "blur": 95,
+        "brightness": 103,
+        "brightness+blur": 22,
+        "none": 412,
+        "rotation": 118,
+        "rotation+blur": 29,
+        "rotation+brightness": 25,
+        "rotation+brightness+blur": 2
+      },
+      "max_round_trip_error_pixels": 4.547473508864641e-13
+    },
+    "sroie": {
+      "documents": 526,
+      "pass": 526,
+      "fail": 0,
+      "invalid_boxes": 0,
+      "operation_applied_counts": {
+        "blur": 105,
+        "brightness": 103,
+        "rotation": 101
+      },
+      "operation_combination_counts": {
+        "blur": 62,
+        "brightness": 62,
+        "brightness+blur": 22,
+        "none": 279,
+        "rotation": 65,
+        "rotation+blur": 17,
+        "rotation+brightness": 15,
+        "rotation+brightness+blur": 4
+      },
+      "max_round_trip_error_pixels": 1.8189894035458565e-12
+    }
+  },
+  "geometry": {
+    "max_round_trip_error_pixels": 1.8189894035458565e-12,
+    "acceptance_tolerance_pixels": 1e-06,
+    "round_trip_scope": "polygon vertices and source bbox corners",
+    "axis_aligned_bbox_policy": "validate transformed-corner envelope; inverse AABB is intentionally not used",
+    "rotation_expand_canvas": true,
+    "invalid_boxes": 0,
+    "raw_sources_modified": false
+  },
+  "determinism": {
+    "rechecked_documents": 32,
+    "status": "PASS",
+    "seed_scope": "global seed + document id + source hash + version + config hash"
+  },
+  "t10_isolation": {
+    "baseline_uses_t07_canonical_images": true,
+    "augmentation_cache_namespace_separate": true,
+    "validation_and_test_augmented": false,
+    "ocr_ablation": "NOT_RUN_WAITING_FOR_T10"
+  },
+  "artifacts": {
+    "train_audit_manifest": "experiments/manifests/t08_augmentation_train_audit.jsonl",
+    "records": 1332,
+    "sha256": "811265f1597e69452aa9ee5a216b034d930d12f345184700b5c6f028171cf7e5",
+    "qa_previews": [
+      {
+        "path": "experiments/artifacts/t08/qa/mcocr_mcocr_public_145013aaprl.jpg",
+        "sha256": "f05d886d0ba4368de819c2ddcdbfba1ac7771131bc8fcddd8a3e9350ece5b1a9",
+        "document_id": "mcocr_public_145013aaprl.jpg",
+        "operations": [
+          {
+            "name": "rotation",
+            "applied": true,
+            "clockwise_degrees": -0.6704475912511603
+          },
+          {
+            "name": "brightness",
+            "applied": false
+          },
+          {
+            "name": "blur",
+            "applied": false
+          }
+        ]
+      },
+      {
+        "path": "experiments/artifacts/t08/qa/mcocr_mcocr_public_145013aeriv.jpg",
+        "sha256": "140aa6809427bafdbbde5fc168a97b68a3c181a7bd500df4e7449543fb2c0ce4",
+        "document_id": "mcocr_public_145013aeriv.jpg",
+        "operations": [
+          {
+            "name": "rotation",
+            "applied": true,
+            "clockwise_degrees": -0.5615100142204796
+          },
+          {
+            "name": "brightness",
+            "applied": false
+          },
+          {
+            "name": "blur",
+            "applied": false
+          }
+        ]
+      },
+      {
+        "path": "experiments/artifacts/t08/qa/sroie_X51005268262.jpg",
+        "sha256": "45a1c1bc8b9bf5598b148f523b547a7e21e7f9fcc2179b290c3295a8abf407a6",
+        "document_id": "X51005268262",
+        "operations": [
+          {
+            "name": "rotation",
+            "applied": true,
+            "clockwise_degrees": -2.939590254098057
+          },
+          {
+            "name": "brightness",
+            "applied": false
+          },
+          {
+            "name": "blur",
+            "applied": false
+          }
+        ]
+      },
+      {
+        "path": "experiments/artifacts/t08/qa/sroie_X51005301661.jpg",
+        "sha256": "6e389f862ec472302bbef4243c6c948150cb3f5de3d1ff29c24c7b873945c8c6",
+        "document_id": "X51005301661",
+        "operations": [
+          {
+            "name": "rotation",
+            "applied": true,
+            "clockwise_degrees": 0.2832374313408641
+          },
+          {
+            "name": "brightness",
+            "applied": true,
+            "factor": 0.8282952303519012
+          },
+          {
+            "name": "blur",
+            "applied": false
+          }
+        ]
+      }
+    ]
+  },
+  "inputs": {
+    "augmentation_config": "experiments/configs/layoutxlm/augmentation_v1.json",
+    "augmentation_config_sha256": "1fadaca13527a4c7841bac6149835b467eb73f95e38ee3102eb130a08709e025",
+    "preprocessing_config_sha256": "6422d43d2679a4b38d9ab2efc9296d864390117fbe31841fde1339fd5f1a1f50",
+    "mcocr_train_sha256": "389e794849649219d39170bbe7435b60fa2f83b56891d22364b690d3f71dc201",
+    "sroie_train_sha256": "66c8430eb846068f2cc2d21f5c769f636f5e4c337518df3187e373521d69b1b1"
+  }
+}

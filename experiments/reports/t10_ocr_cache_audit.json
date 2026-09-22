@@ -1,0 +1,50 @@
+{
+  "task": "T10",
+  "status": "PAUSED_BY_USER",
+  "complete_bulk_scope": false,
+  "documents_expected": 1598,
+  "documents_processed": 251,
+  "documents_remaining": 1347,
+  "unique_cache_entries": 241,
+  "groups": {
+    "mcocr_train": {
+      "expected": 806,
+      "cached": 251,
+      "remaining": 555,
+      "empty": 0,
+      "lines": 10086
+    },
+    "mcocr_validation": {
+      "expected": 173,
+      "cached": 0,
+      "remaining": 173,
+      "empty": 0,
+      "lines": 0
+    },
+    "sroie_train": {
+      "expected": 526,
+      "cached": 0,
+      "remaining": 526,
+      "empty": 0,
+      "lines": 0
+    },
+    "sroie_validation": {
+      "expected": 93,
+      "cached": 0,
+      "remaining": 93,
+      "empty": 0,
+      "lines": 0
+    }
+  },
+  "runtime_identity": {
+    "ocr_config_sha256": "f920f80e502f5372823b84fb719fbcb0b778f4dca940f7fb8b53ab98b31faf0b",
+    "model_manifest_sha256": "b12d0e61d45f73e57fcd538d55ec25a64e162a45cca19885316e370c92dd7f41",
+    "detection_model_name": "PP-OCRv5_mobile_det",
+    "recognition_model_name": "latin_PP-OCRv5_mobile_rec"
+  },
+  "invalid_cache_files": [],
+  "progress_checkpoint": "experiments/manifests/t10_progress_checkpoint.json",
+  "cache_root": "experiments/runs/ocr_v1/cache",
+  "accuracy": "NOT_RUN_T11",
+  "note": "T10 remains incomplete until all 1598 train/validation documents pass and the final aggregate audit is generated."
+}

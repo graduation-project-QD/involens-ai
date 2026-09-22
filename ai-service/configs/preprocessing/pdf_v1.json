@@ -1,0 +1,23 @@
+{
+  "schema_version": "pdf_intake_config_v1",
+  "intake_version": "t09_pdf_intake_v1",
+  "request_limits": {
+    "max_bytes": 10485760,
+    "max_pixels": 20000000
+  },
+  "pdf": {
+    "allowed_mime_types": ["application/pdf"],
+    "header_scan_bytes": 1024,
+    "required_page_count": 1,
+    "reject_encrypted": true,
+    "use_text_layer": false
+  },
+  "renderer": {
+    "backend": "pypdfium2",
+    "dependency": "pypdfium2==5.13.0",
+    "dpi": 200,
+    "timeout_seconds": 15.0,
+    "output_format": "PNG",
+    "background_rgb": [255, 255, 255]
+  }
+}

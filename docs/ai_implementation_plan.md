@@ -582,6 +582,8 @@ Mọi task hoàn tất phải có input/output kiểm chứng, artifact version 
 
 ## T07 — Image preprocessing và transform bookkeeping
 
+**Trạng thái 2026-09-20:** `COMPLETED — PASS`. Pipeline `t07_preprocess_v1` đã freeze EXIF→RGB→resize giữ tỷ lệ 2.000 px và transform chain thuận/nghịch. Audit 266 validation documents đạt 266/266 PASS, max geometry round-trip error `9,095e-13` px. Tám ảnh SROIE vượt 20 MP chỉ được xử lý ở chế độ dataset nội bộ; API request vẫn reject đúng contract T03. Deskew/orientation inference/contrast tiếp tục off đến khi T10 có CER/WER evidence. Báo cáo: `experiments/reports/t07_preprocessing.md`.
+
 - **Objective:** pipeline ảnh deterministic theo §9.
 - **Why it is needed:** OCR và KIE phải dùng layout cùng coordinate frame.
 - **Input:** fixtures ảnh, configs đề xuất §9, T05 runtime.
@@ -608,6 +610,8 @@ Mọi task hoàn tất phải có input/output kiểm chứng, artifact version 
 - **Metrics:** invalid-box count=0 trên accepted samples; validation ablation delta tại T18.
 - **Artifacts produced:** augmentation version, sample QA report, optional ablation config.
 
+**Trạng thái 2026-09-20:** `COMPLETED — PASS, DISABLED_BY_DEFAULT`. Đã triển khai `t08_augmentation_v1` cho train-only với rotation ±3°, brightness và blur nhẹ; config vẫn `enabled=false` để không làm thay đổi T10 baseline. Audit toàn bộ 1.332 train documents đạt 1.332/1.332 PASS, 0 invalid boxes, max polygon/bbox-corner round-trip error `1,819e-12` px; manifest tái lập cùng SHA-256 qua hai lần chạy. Validation/test bị code reject, OCR không rerun và không có claim robustness. Chỉ bật trong experiment sau gate ablation T10/T18. Báo cáo: `experiments/reports/t08_augmentation.md`.
+
 ## T09 — PDF intake và file limits
 
 - **Objective:** hỗ trợ PDF một trang theo contract và xử lý lỗi hữu hạn.
@@ -622,6 +626,8 @@ Mọi task hoàn tất phải có input/output kiểm chứng, artifact version 
 - **Metrics:** render ms, peak memory trên fixtures, rejection correctness.
 - **Artifacts produced:** renderer lock/config, intake fixtures và test report.
 
+**Trạng thái 2026-09-20:** `COMPLETED — PASS`. Đã triển khai `t09_pdf_intake_v1`: chỉ nhận PDF đúng một trang, tối đa 10 MiB và 20 MP; reject có mã riêng cho multipage, encrypted/password, corrupt, pixel bomb và renderer timeout. Renderer `pypdfium2==5.13.0` chạy trong subprocess giới hạn 15 giây, raster 200 DPI rồi chuyển qua T07 `PageImage`; không đọc PDF text layer. Sáu focused tests và 4/4 rejection fixtures PASS, raster lặp lại có cùng pixel SHA-256; visual QA bằng Poppler không thấy crop/overlap. Báo cáo: `experiments/reports/t09_pdf_intake.md`.
+
 ## T10 — PaddleOCR adapter và cache
 
 - **Objective:** chạy OCR Việt Nam và canonical output theo §10.
@@ -635,6 +641,8 @@ Mọi task hoàn tất phải có input/output kiểm chứng, artifact version 
 - **Tests:** engine-output fixture version đã chọn, empty OCR, rotated lines, duplicated filenames khác hash, exceptions.
 - **Metrics:** latency, empty rate, line counts; accuracy đo T11.
 - **Artifacts produced:** OCR manifest, train/val cache, model checksums, adapter tests.
+
+**Trạng thái 2026-09-20:** `IN PROGRESS — PAUSED BY USER`. Adapter/config/model manifest đã được dựng và 6 focused tests PASS. Đã lưu cache cho 251/1.598 train/validation records (241 content-addressed entries do một số records dùng cùng image hash), tất cả 241 entries có trạng thái `OK`, 0 cache file lỗi; còn 1.347 records. Tiến độ nằm tại `experiments/manifests/t10_progress_checkpoint.json` và cache tại `experiments/runs/ocr_v1/cache/`. Khi tiếp tục, runner 6 shard đọc lại cache và chỉ inference phần còn thiếu. T10 chưa được đánh dấu hoàn tất; T11 chưa bắt đầu.
 
 ## T11 — OCR evaluator và validation report
 
@@ -894,9 +902,9 @@ Mọi task hoàn tất phải có input/output kiểm chứng, artifact version 
 
 ## Dependency summary và thứ tự giao implementation
 
-Đường chính: **T01 → T04 → T06 → T10 → T11 → T13 → T15 → T05 → T16 → T17 → T18 → T19 → T20 → T21 → T22 → T24 → T26**. T05 vẫn thuộc critical path và là gate runtime bắt buộc trước T16/T18. Một số mũi tên thể hiện thứ tự bàn giao mong muốn, không phải tất cả là dependency code; dependencies chi tiết trong từng task là nguồn chính xác.
+Đường chính: **T01 → T04 → T06 → T07 → T10 → T11 → T13 → T15 → T05 → T16 → T17 → T18 → T19 → T20 → T21 → T22 → T24 → T26**. T05 vẫn thuộc critical path và là gate runtime bắt buộc trước T16/T18. Một số mũi tên thể hiện thứ tự bàn giao mong muốn, không phải tất cả là dependency code; dependencies chi tiết trong từng task là nguồn chính xác.
 
-**Thứ tự thực thi hiện tại:** T05, T06, T12 và T14 đã hoàn tất; runtime gate cho T16/T18 đã mở. Tiếp tục các dependency dữ liệu/code còn thiếu theo đường chính, gồm T07 → T10 → T11 → T13 → T15, rồi T16/T17/T18. T18 provision lại môi trường từ dependency lock/runtime manifest của T05 để tiny/full training. T03 contract bắt đầu Week 1, không chờ fine-tune. T12 normalization và T14 evaluator đã được xây sớm để baseline/checkpoint selection nhất quán, dù normalization trong runtime nằm sau reconstruction. T09 PDF, T23 container là nhánh bắt buộc trước full integration và dùng deployment target riêng được Shared chọn. T02/T25 là nhánh SROIE có gate thời gian/GT. T08 augmentation không chặn first train. T28 collection và A.1–A.5 evaluation không là dependency của MVP.
+**Thứ tự thực thi hiện tại:** T05, T06, T07, T08, T09, T12 và T14 đã hoàn tất; runtime, image-coordinate và PDF-intake gates đã mở. Tiếp tục đường chính với T10 → T11 → T13 → T15, rồi T16/T17/T18. T18 provision lại môi trường từ dependency lock/runtime manifest của T05 để tiny/full training. T03 contract bắt đầu Week 1, không chờ fine-tune. T12 normalization và T14 evaluator đã được xây sớm để baseline/checkpoint selection nhất quán, dù normalization trong runtime nằm sau reconstruction. T23 container vẫn là nhánh bắt buộc trước full integration và dùng deployment target riêng được Shared chọn. T02/T25 là nhánh SROIE có gate thời gian/GT. T08 đã verified nhưng vẫn disabled cho T10 baseline; chỉ bật sau ablation, nên không chặn first train. T28 collection và A.1–A.5 evaluation không là dependency của MVP.
 
 # 22. Week 1-7 Timeline
 
@@ -905,14 +913,14 @@ Timeline dưới đây là **đề xuất của kế hoạch này**, ghi rõ kh�
 | Week | Tasks A và milestone | Dependency/Shared | Gate và khác biệt với DOCX |
 |---|---|---|---|
 | 1 | T01/T02 inspection; T03 contract draft; bắt đầu T04; T28 collection; chuẩn bị T05 local | B chốt input/IDs, cả hai QA label | Biết actual dataset/GT; không viết frontend. SROIE chỉ inspection/protocol |
-| 2 | Hoàn tất T04/T06/T12/T14; chạy và hoàn tất T05 trên rented GPU; T07/T10/T11 tiếp tục theo dependency thực | Shared QA MC-OCR; B upload/storage | Runtime gate T05 PASS và artifacts đã lưu local trước T16/T18 |
-| 3 | T07/T10/T11/T13/T15 chuẩn bị units theo dependency; tiếp tục T16, T17 decoder bản đầu và T18 tiny training khi data gates đạt; T08 theo thời gian | B queue/worker, T03 freeze trước cuối tuần | T05 đã PASS; baseline và encoded data vẫn phải verified trước training; không ép full tuning vào cùng tuần conversion chưa đạt |
-| 4 | T18 full train/val/checkpoint trên rented GPU; T17 hoàn thiện; T09 PDF; T19 confidence bản đầu; T22 schema/stub và nối core khi đủ | B có thể tích hợp fixtures trước real AI | Có model v1, checkpoint đã copy khỏi ephemeral disk và real-image inference. FastAPI full hoàn tất Week 5 nếu training cần sửa; ghi khác Week 4 DOCX |
+| 2 | Hoàn tất T04/T05/T06/T07/T08/T09/T12/T14; T10/T11 tiếp tục theo dependency thực | Shared QA MC-OCR; B upload/storage | Runtime T05, image-coordinate T07, train-only T08 và PDF intake T09 đều PASS trước OCR/KIE; T08 vẫn disabled |
+| 3 | T10/T11/T13/T15 chuẩn bị units theo dependency; tiếp tục T16, T17 decoder bản đầu và T18 tiny training khi data gates đạt | B queue/worker, T03 freeze trước cuối tuần | T05/T07 đã PASS; baseline và encoded data vẫn phải verified trước training; không ép full tuning vào cùng tuần conversion chưa đạt |
+| 4 | T18 full train/val/checkpoint trên rented GPU; T17 hoàn thiện; T19 confidence bản đầu; T22 schema/stub và nối core khi đủ | B có thể tích hợp fixtures trước real AI | T09 PDF đã hoàn tất sớm; có model v1, checkpoint đã copy khỏi ephemeral disk và real-image inference. FastAPI full hoàn tất Week 5 nếu training cần sửa; ghi khác Week 4 DOCX |
 | 5 | T19 threshold val; T20 attribution; T21 inference bundle; T22 FastAPI thật; T23 container smoke | Shared contract integration; B Review UI/API | A làm confidence/warnings/AI, **không Review UI như Week 5 DOCX** |
 | 6 | T24 integration/errors/timeouts; T25 SROIE nếu data sẵn; fixes từ val; freeze model/rules/normalization/thresholds | B validation/retry/status/dashboard; A cung cấp fixtures | Có E2E real model; test vẫn kín; dành buffer cho lỗi integration thay vì extension |
 | 7 | T26 final test OCR+rules+LayoutXLM; final error analysis; đóng gói bàn giao; hoàn tất report T25 hoặc NOT_RUN | Shared weekly Compose demo/gate | CER/WER, 4-field P/R/F1/EM, frozen threshold evidence; integration chưa pass thì ghi gate pending |
 
-Timeline kiểm tra tải công việc: T05/T06/T12/T14 đã hoàn tất; T05 đã mở runtime gate trước T16/T18 và artifact đã được copy khỏi instance. Rented GPU không cần chạy liên tục trong thời gian chuẩn bị data/code; T18 mới thuê lại để training. Nếu trễ, giảm LR/augmentation ablations và hoãn retrain SROIE/extension, không đổi LayoutXLM. T12 và T14 được làm sớm vì required cho evaluation; không hiểu thứ tự runtime là thứ tự duy nhất được implement. T22 stub chỉ giúp B kết nối, không thay T21 real inference. Nếu chưa có đủ supervision trước T16/T18, phải cập nhật milestone có bằng chứng; không cam kết Week 4 hoàn tất như chưa có blocker.
+Timeline kiểm tra tải công việc: T05/T06/T07/T08/T09/T12/T14 đã hoàn tất; T05 đã mở runtime gate, T07 đã mở image-coordinate gate, T08 đã verified ở trạng thái disabled và T09 đã mở PDF-intake gate trước OCR/KIE. Rented GPU không cần chạy liên tục trong thời gian chuẩn bị data/code; T18 mới thuê lại để training. Nếu trễ, giảm LR/augmentation ablations và hoãn retrain SROIE/extension, không đổi LayoutXLM. T12 và T14 được làm sớm vì required cho evaluation; không hiểu thứ tự runtime là thứ tự duy nhất được implement. T22 stub chỉ giúp B kết nối, không thay T21 real inference. Nếu chưa có đủ supervision trước T16/T18, phải cập nhật milestone có bằng chứng; không cam kết Week 4 hoàn tất như chưa có blocker.
 
 # 23. Week 8-12 Responsibilities
 

@@ -1,0 +1,35 @@
+{
+  "schema_version": "preprocessing_config_v1",
+  "pipeline_version": "t07_preprocess_v1",
+  "decode": {
+    "max_decode_bytes": 52428800,
+    "max_decode_pixels": 50000000,
+    "apply_exif_orientation": true,
+    "output_mode": "RGB",
+    "alpha_background_rgb": [255, 255, 255]
+  },
+  "request_limits": {
+    "max_bytes": 10485760,
+    "max_pixels": 20000000,
+    "owner": "T03/T09/T22 API input contract"
+  },
+  "resize": {
+    "enabled": true,
+    "max_long_edge": 2000,
+    "allow_upscale": false,
+    "resample": "LANCZOS"
+  },
+  "orientation_detection": {
+    "enabled": false,
+    "reason": "Requires PaddleOCR validation evidence before activation"
+  },
+  "deskew": {
+    "enabled": false,
+    "max_absolute_degrees": 5.0,
+    "reason": "Requires validation evidence and a confidence policy before activation"
+  },
+  "contrast": {
+    "enabled": false,
+    "reason": "Requires CER/WER validation evidence before activation"
+  }
+}

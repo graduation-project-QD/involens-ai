@@ -1,0 +1,33 @@
+{
+  "schema_version": "ocr_config_v1",
+  "ocr_version": "t10_paddleocr_v1",
+  "cache_version": "t10_ocr_cache_v1",
+  "language": "vi",
+  "engine": {
+    "api_variant": "paddleocr_3_predict",
+    "device": "cpu",
+    "paddlepaddle_version": "3.3.0",
+    "paddleocr_version": "3.7.0",
+    "paddlex_version": "3.7.2",
+    "cpu_threads": 1,
+    "enable_mkldnn": false,
+    "use_doc_orientation_classify": false,
+    "use_doc_unwarping": false,
+    "use_textline_orientation": false,
+    "text_rec_score_thresh": 0.0,
+    "require_utf8_runtime": true
+  },
+  "models": {
+    "text_detection_model_name": "PP-OCRv5_mobile_det",
+    "text_recognition_model_name": "latin_PP-OCRv5_mobile_rec"
+  },
+  "reading_order": {
+    "vertical_overlap_ratio": 0.5,
+    "tie_break": ["row_top", "x0", "engine_index"]
+  },
+  "score_semantics": {
+    "field": "recognition_score",
+    "description": "PaddleOCR recognition score for the returned line text; not detection confidence or calibrated correctness probability",
+    "missing": null
+  }
+}

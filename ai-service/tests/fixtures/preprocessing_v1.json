@@ -1,0 +1,13 @@
+{
+  "schema_version": "t07_golden_fixtures_v1",
+  "pipeline_version": "t07_preprocess_v1",
+  "cases": [
+    {"name": "resize_4000x1000", "source_size": [4000, 1000], "output_size": [2000, 500]},
+    {"name": "no_upscale_120x80", "source_size": [120, 80], "output_size": [120, 80]},
+    {"name": "exif_orientation_6", "source_size": [40, 20], "output_size": [20, 40]},
+    {"name": "rgba_transparent_white_background", "output_mode": "RGB", "pixel": [255, 255, 255]},
+    {"name": "grayscale_to_rgb", "output_mode": "RGB", "pixel": [77, 77, 77]},
+    {"name": "out_of_bounds_point", "error_code": "POINT_OUT_OF_BOUNDS"},
+    {"name": "corrupt_image", "error_code": "IMAGE_DECODE_ERROR"}
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "task": "T07",
+  "status": "PASS",
+  "pipeline_version": "t07_preprocess_v1",
+  "config": {
+    "path": "ai-service/configs/preprocessing/v1.json",
+    "sha256": "6422d43d2679a4b38d9ab2efc9296d864390117fbe31841fde1339fd5f1a1f50",
+    "default_max_long_edge": 2000,
+    "output_mode": "RGB",
+    "decoder_safety_max_pixels": 50000000,
+    "request_max_pixels": 20000000,
+    "orientation_detection_enabled": false,
+    "deskew_enabled": false,
+    "contrast_enabled": false
+  },
+  "datasets": {
+    "mcocr": {
+      "documents": 173,
+      "pass": 173,
+      "fail": 0,
+      "resized_documents": 2,
+      "request_pixel_limit_exceeded_internal_only": 0,
+      "source_modes": {
+        "RGB": 173
+      },
+      "source_formats": {
+        "JPEG": 173
+      },
+      "exif_orientations": {
+        "1": 173
+      },
+      "max_round_trip_error_pixels": 2.2737367544323206e-13
+    },
+    "sroie": {
+      "documents": 93,
+      "pass": 93,
+      "fail": 0,
+      "resized_documents": 27,
+      "request_pixel_limit_exceeded_internal_only": 8,
+      "source_modes": {
+        "RGB": 93
+      },
+      "source_formats": {
+        "JPEG": 93
+      },
+      "exif_orientations": {
+        "1": 93
+      },
+      "max_round_trip_error_pixels": 9.094947017729282e-13
+    }
+  },
+  "geometry": {
+    "max_round_trip_error_pixels": 9.094947017729282e-13,
+    "acceptance_tolerance_pixels": 1e-06,
+    "crop_applied": false,
+    "raw_sources_modified": false
+  },
+  "validation_variants": {
+    "max_edge_1600": {
+      "max_long_edge": 1600,
+      "documents": 266,
+      "resized_documents": 63,
+      "min_linear_scale": 0.22805017103762829,
+      "mean_retained_pixel_ratio": 0.9086695896776484,
+      "cer_wer": "NOT_RUN_T10_OCR_CACHE_NOT_AVAILABLE"
+    },
+    "max_edge_2000_selected_initial": {
+      "max_long_edge": 2000,
+      "documents": 266,
+      "resized_documents": 29,
+      "min_linear_scale": 0.28506271379703535,
+      "mean_retained_pixel_ratio": 0.9576276024165411,
+      "cer_wer": "NOT_RUN_T10_OCR_CACHE_NOT_AVAILABLE"
+    },
+    "no_resize": {
+      "max_long_edge": null,
+      "documents": 266,
+      "resized_documents": 0,
+      "min_linear_scale": 1.0,
+      "mean_retained_pixel_ratio": 1.0,
+      "cer_wer": "NOT_RUN_T10_OCR_CACHE_NOT_AVAILABLE"
+    },
+    "selection_note": "2000 px remains the documented initial setting; OCR CER/WER ablation is deferred to T10, so no optional transform was enabled."
+  },
+  "ocr_validation": {
+    "status": "NOT_RUN",
+    "reason": "T10 OCR cache and full-page OCR ground truth are not available yet",
+    "optional_transforms_activated": false
+  },
+  "artifacts": {
+    "validation_manifest": "experiments/manifests/t07_preprocessing_validation.jsonl",
+    "records": 266,
+    "sha256": "064af3b7c11bb2e4bfe6a1ede729f4e413c5953445ed688ec3c66928b1c3dec4",
+    "golden_fixture": "ai-service/tests/fixtures/preprocessing_v1.json",
+    "golden_fixture_sha256": "05866884ab40f89f0e62558de3502e3e6c7f92ed804af66c3811c2224cc7e997"
+  },
+  "inputs": {
+    "core_sha256": "bdf4a7bc8e1f24c171b192a6edc1bcdf5fd0a66ddd37fa0d58199b5c3dd81a93",
+    "mcocr_validation_sha256": "21099d9eb776c4412eb409738a28c8e507c21ffb8a00895d29b7b8dfcc6bd60f",
+    "sroie_validation_sha256": "ebbaf64d1cabf92138bc7a9b79a422224b1456856aa5361abc0932214068eae0"
+  }
+}

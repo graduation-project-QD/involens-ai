@@ -1,0 +1,58 @@
+{
+  "task": "T07",
+  "status": "PASS",
+  "verified_on": "2026-09-20",
+  "pipeline_version": "t07_preprocess_v1",
+  "checks": {
+    "full_test_suite": {
+      "status": "PASS",
+      "tests": 33
+    },
+    "t07_unit_tests": {
+      "status": "PASS",
+      "tests": 10
+    },
+    "frozen_validation": {
+      "status": "PASS",
+      "documents": 266,
+      "passed": 266,
+      "failed": 0
+    },
+    "deterministic_manifest": {
+      "status": "PASS",
+      "sha256": "064af3b7c11bb2e4bfe6a1ede729f4e413c5953445ed688ec3c66928b1c3dec4"
+    },
+    "geometry_round_trip": {
+      "status": "PASS",
+      "max_error_pixels": 9.094947017729282E-13,
+      "tolerance_pixels": 1E-06
+    },
+    "raw_sources_modified": false,
+    "optional_transforms_activated": false,
+    "api_20mp_limit_preserved": true
+  },
+  "artifacts": {
+    "config": {
+      "path": "ai-service/configs/preprocessing/v1.json",
+      "sha256": "6422d43d2679a4b38d9ab2efc9296d864390117fbe31841fde1339fd5f1a1f50"
+    },
+    "core": {
+      "path": "ai-service/src/invoice_ai/preprocessing/core.py",
+      "sha256": "bdf4a7bc8e1f24c171b192a6edc1bcdf5fd0a66ddd37fa0d58199b5c3dd81a93"
+    },
+    "golden_fixture": {
+      "path": "ai-service/tests/fixtures/preprocessing_v1.json",
+      "sha256": "05866884ab40f89f0e62558de3502e3e6c7f92ed804af66c3811c2224cc7e997"
+    },
+    "validation_manifest": {
+      "path": "experiments/manifests/t07_preprocessing_validation.jsonl",
+      "sha256": "064af3b7c11bb2e4bfe6a1ede729f4e413c5953445ed688ec3c66928b1c3dec4"
+    },
+    "audit": {
+      "path": "experiments/reports/t07_preprocessing_audit.json",
+      "sha256": "ab40a8e6aafcdbc748c16cb9efe7d35dc2f4e9b28d96955040e35c25b641548d"
+    },
+    "human_report": "experiments/reports/t07_preprocessing.md"
+  }
+}
+

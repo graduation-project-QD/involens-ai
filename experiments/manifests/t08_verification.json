@@ -1,0 +1,36 @@
+{
+  "task": "T08",
+  "date": "2026-09-20",
+  "status": "PASS_DISABLED_BY_DEFAULT",
+  "augmentation_version": "t08_augmentation_v1",
+  "configuration": {
+    "enabled_by_default": false,
+    "allowed_splits": ["train"],
+    "mode": "gt_view_visual_geometry_only",
+    "rerun_ocr": false,
+    "claim_ocr_robustness": false,
+    "activation_gate": "T10 CER/WER and resource ablation"
+  },
+  "audit": {
+    "documents": 1332,
+    "pass": 1332,
+    "fail": 0,
+    "polygons_checked": 32862,
+    "bboxes_checked": 32769,
+    "invalid_boxes": 0,
+    "max_round_trip_error_pixels": 1.8189894035458565e-12,
+    "tolerance_pixels": 1e-6,
+    "deterministic_full_rerun": true,
+    "manifest_sha256_first_run": "811265f1597e69452aa9ee5a216b034d930d12f345184700b5c6f028171cf7e5",
+    "manifest_sha256_second_run": "811265f1597e69452aa9ee5a216b034d930d12f345184700b5c6f028171cf7e5"
+  },
+  "sha256": {
+    "augmentation_config": "1fadaca13527a4c7841bac6149835b467eb73f95e38ee3102eb130a08709e025",
+    "augmentation_implementation": "fa908c02261fcb98186508c3eb2bb621800f665d9dcfc1afb8ff1264e6cc5baa",
+    "audit_implementation": "895ccb77b3d4303f5c0b007e6ff04e75a923af3f842efc0ddf4708dc449eda62",
+    "test_implementation": "78ac63f707a2a08067b4bc9ef156ed6458ce429681850c095a83a58f3e5111e3",
+    "train_audit_manifest": "811265f1597e69452aa9ee5a216b034d930d12f345184700b5c6f028171cf7e5",
+    "machine_readable_report": "71d626323b8b0b6da8e76d62dfe80800f31b25307e27fbdd5634ba782dbb6848"
+  }
+}
+

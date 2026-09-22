@@ -55,6 +55,7 @@ dist/
 /experiments/artifacts/**/*.tar
 /experiments/artifacts/**/*.tar.gz
 /experiments/artifacts/**/*.tgz
+/experiments/artifacts/t08/qa/
 
 # Logs, temporary files and notebooks
 *.log
