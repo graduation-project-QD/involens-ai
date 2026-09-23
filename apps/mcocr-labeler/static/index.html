@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MC-OCR Label Studio</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div>
+      <p class="eyebrow">INVOLENS · DATA WORKBENCH</p>
+      <h1>MC-OCR Label Studio</h1>
+    </div>
+    <div class="save-state" id="saveState"><span class="status-dot"></span><span>Đã đồng bộ</span></div>
+  </header>
+
+  <nav class="mode-tabs" aria-label="Chế độ làm việc">
+    <button class="mode-tab active" data-mode="train">01 · Đánh nhãn Train</button>
+    <button class="mode-tab" data-mode="val">02 · Đánh nhãn Validation</button>
+    <button class="mode-tab" data-mode="review">03 · Kiểm tra nhãn LLM</button>
+  </nav>
+
+  <main class="workspace">
+    <aside class="sidebar panel">
+      <section id="workspaceImport" class="import-block">
+        <label class="field-label" for="workspaceCsvPath">Đường dẫn file CSV</label>
+        <input id="workspaceCsvPath" class="text-input" type="text" placeholder="D:\...\mcocr_train_df.csv">
+        <label class="field-label" for="workspaceImageDir">Đường dẫn thư mục ảnh</label>
+        <input id="workspaceImageDir" class="text-input" type="text" placeholder="D:\...\train_images">
+        <button id="openWorkspace" class="button primary full">Mở phiên đánh nhãn Train</button>
+        <p id="workspaceHint" class="hint">CSV và thư mục ảnh phải chứa cùng danh sách img_id.</p>
+      </section>
+
+      <section id="reviewImport" class="import-block hidden">
+        <label class="field-label" for="reviewCsv">CSV cần kiểm tra</label>
+        <input id="reviewCsv" class="file-input" type="file" accept=".csv,text/csv">
+        <label class="field-label" for="reviewImageDir">Thư mục ảnh trên máy</label>
+        <input id="reviewImageDir" class="text-input" type="text" value="D:\graduation-project-2\dataset_hoadon\val_images\val_images">
+        <button id="importReview" class="button primary full">Nhập phiên kiểm tra</button>
+      </section>
+
+      <div class="list-heading">
+        <div>
+          <span id="listTitle">Danh sách ảnh</span>
+          <small id="listCount">0 ảnh</small>
+        </div>
+        <button id="refreshList" class="icon-button" title="Tải lại">↻</button>
+      </div>
+      <div class="filter-row">
+        <input id="imageSearch" class="search-input" type="search" placeholder="Tìm tên ảnh…">
+        <select id="statusFilter" class="select compact">
+          <option value="all">Tất cả</option>
+          <option value="pending">Chưa làm</option>
+          <option value="done">Đã lưu</option>
+          <option value="flagged">🚩 Ảnh khó đọc</option>
+          <option value="rotation_pending">Chưa xác nhận chiều đọc</option>
+        </select>
+      </div>
+      <div id="imageList" class="image-list" aria-live="polite"></div>
+    </aside>
+
+    <section class="stage panel">
+      <div class="stage-toolbar">
+        <div>
+          <h2 id="currentName">Chọn một ảnh để bắt đầu</h2>
+          <p id="imageMeta">Tọa độ luôn được lưu theo kích thước ảnh gốc.</p>
+        </div>
+        <div class="toolbar-actions">
+          <button id="undoAction" class="icon-button" title="Hoàn tác (Ctrl+Z)" disabled>↩</button>
+          <button id="redoAction" class="icon-button" title="Làm lại (Ctrl+Y)" disabled>↪</button>
+          <button id="rotateLeft" class="icon-button" title="Xoay hiển thị 90° sang trái">↶</button>
+          <span id="rotationLabel" class="zoom-label">0°</span>
+          <button id="rotateRight" class="icon-button" title="Xoay hiển thị 90° sang phải">↷</button>
+          <button id="zoomOut" class="icon-button" title="Thu nhỏ">−</button>
+          <span id="zoomLabel" class="zoom-label">Vừa khung</span>
+          <button id="zoomIn" class="icon-button" title="Phóng to">＋</button>
+          <button id="fitImage" class="button subtle">Vừa khung</button>
+        </div>
+      </div>
+
+      <div id="emptyStage" class="empty-stage">
+        <div class="empty-mark">⌗</div>
+        <h3>Chưa có ảnh được chọn</h3>
+        <p>Chọn ảnh ở cột bên trái, sau đó kéo một khung quanh vùng chữ.</p>
+      </div>
+      <div id="canvasViewport" class="canvas-viewport hidden">
+        <div id="canvasFrame" class="canvas-frame">
+          <div id="canvasSurface" class="canvas-surface">
+            <img id="receiptImage" alt="Ảnh hóa đơn đang gán nhãn" draggable="false">
+            <svg id="annotationLayer" xmlns="http://www.w3.org/2000/svg" aria-label="Lớp annotation">
+              <g id="regionLayer"></g>
+              <rect id="draftRect" class="draft-region" visibility="hidden"></rect>
+            </svg>
+          </div>
+        </div>
+      </div>
+
+      <div class="stage-footer">
+        <span><kbd>Kéo chuột</kbd> tạo vùng</span>
+        <span><kbd>↶ ↷</kbd> chỉ xoay hiển thị</span>
+        <span><kbd>Delete</kbd> xóa vùng</span>
+        <span><kbd>Ctrl</kbd> + <kbd>S</kbd> lưu</span>
+      </div>
+    </section>
+
+    <aside class="inspector panel">
+      <section class="category-card">
+        <div class="section-title">
+          <span>Category đang chọn</span>
+          <span id="categoryIdBadge" class="id-badge">ID 15</span>
+        </div>
+        <div class="category-grid" id="categoryGrid">
+          <button class="category active seller" data-label="SELLER" data-category="15"><i></i>SELLER</button>
+          <button class="category address" data-label="ADDRESS" data-category="16"><i></i>ADDRESS</button>
+          <button class="category timestamp" data-label="TIMESTAMP" data-category="17"><i></i>TIMESTAMP</button>
+          <button class="category total" data-label="TOTAL_COST" data-category="18"><i></i>TOTAL_COST</button>
+          <button class="category item-name" data-label="ITEM_NAME" data-category="19"><i></i>ITEM_NAME</button>
+          <button class="category quantity" data-label="QUANTITY" data-category="20"><i></i>QUANTITY</button>
+          <button class="category unit-price" data-label="UNIT_PRICE" data-category="21"><i></i>UNIT_PRICE</button>
+          <button class="category line-total" data-label="LINE_TOTAL" data-category="22"><i></i>LINE_TOTAL</button>
+        </div>
+        <div id="lineItemControl" class="line-item-control is-disabled">
+          <label class="field-label" for="lineItemId">Dòng mặt hàng hiện tại (line_item_id)</label>
+          <div class="line-item-row">
+            <input id="lineItemId" class="text-input" type="number" min="1" step="1" value="1" disabled>
+            <button id="nextLineItem" class="button subtle" type="button" disabled>Dòng kế tiếp</button>
+          </div>
+          <p id="lineItemHint" class="hint">Chỉ áp dụng cho bốn nhãn mặt hàng.</p>
+        </div>
+        <button id="toggleMissingField" class="button missing-field full" type="button" disabled>Trường này không xuất hiện</button>
+        <p id="missingFieldHint" class="hint">Chọn category để khai báo trường thực sự không có trên hóa đơn.</p>
+      </section>
+
+      <section class="region-editor">
+        <div class="section-title">
+          <span>Vùng đang chọn</span>
+          <button id="deleteRegion" class="text-button danger" disabled>Xóa vùng</button>
+        </div>
+        <label class="field-label" for="regionText">Nội dung chữ</label>
+        <textarea id="regionText" class="textarea" rows="3" placeholder="Nhập đúng nội dung nhìn thấy trên ảnh…" disabled></textarea>
+        <div class="coordinate-grid">
+          <label>X<input id="coordX" type="number" min="0" step="1" disabled></label>
+          <label>Y<input id="coordY" type="number" min="0" step="1" disabled></label>
+          <label>W<input id="coordW" type="number" min="1" step="1" disabled></label>
+          <label>H<input id="coordH" type="number" min="1" step="1" disabled></label>
+        </div>
+        <p id="regionDetails" class="hint">Chọn hoặc tạo một vùng để chỉnh sửa.</p>
+      </section>
+
+      <section class="regions-section">
+        <div class="section-title">
+          <span>Các vùng đã tạo</span>
+          <span id="regionCount" class="count-badge">0</span>
+        </div>
+        <div id="regionList" class="region-list"></div>
+      </section>
+
+      <section class="save-panel">
+        <div id="rotationPanel" class="rotation-panel">
+          <div>
+            <strong>Chiều đọc để preprocessing</strong>
+            <span id="rotationStatus">Chưa xác nhận</span>
+          </div>
+          <button id="confirmRotation" class="button orientation full" disabled>Xác nhận chiều đọc: 0°</button>
+          <p id="rotationPath" class="path-note"></p>
+        </div>
+        <div class="validation-message" id="validationMessage">Hãy chọn một ảnh.</div>
+        <p id="draftStatus" class="draft-status">Bản nháp tự động: chưa có thay đổi</p>
+        <button id="flagImage" class="button flag full" disabled>🚩 Gắn cờ ảnh khó đọc</button>
+        <button id="saveAnnotation" class="button primary full" disabled>Lưu ảnh này</button>
+        <button id="saveAndNext" class="button primary full" disabled>Lưu và sang ảnh tiếp theo</button>
+        <div class="navigation-row">
+          <button id="previousImage" class="button subtle" disabled>← Ảnh trước</button>
+          <button id="nextImage" class="button subtle" disabled>Ảnh tiếp →</button>
+        </div>
+        <button id="markChecked" class="button success full" disabled>Đánh dấu hoàn tất</button>
+        <a id="exportCsv" class="button outline full" href="/api/export?mode=train">Tải CSV hiện tại</a>
+        <p id="csvPath" class="path-note"></p>
+      </section>
+    </aside>
+  </main>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <script src="/app.js"></script>
+</body>
+</html>

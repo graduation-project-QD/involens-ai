@@ -1,0 +1,3 @@
+img_id,anno_polygons,anno_texts,anno_labels,anno_num,anno_image_quality
+mcocr_val_145114anqqj.jpg,"[{'category_id': 15, 'segmentation': [[315, 68, 693, 68, 693, 207, 315, 207]], 'area': 52542, 'bbox': [315, 68, 378, 139], 'width': 1024, 'height': 1366}]",Joma Bakery café,SELLER,1,
+

@@ -57,6 +57,7 @@ dist/
 /experiments/artifacts/**/*.tgz
 /experiments/artifacts/t08/qa/
 
+/docs/
 # Logs, temporary files and notebooks
 *.log
 *.tmp
