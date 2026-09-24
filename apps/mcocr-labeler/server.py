@@ -377,12 +377,19 @@ def regions_for_save(mode: str, existing: dict[str, str] | None, submitted: list
         return submitted
     original_regions = row_to_regions(existing)
     document_regions = [region for region in original_regions if region["label"] not in LINE_ITEM_LABELS]
+    original_document_labels = {region["label"] for region in document_regions}
+    new_document_regions = [
+        region for region in submitted
+        if str(region.get("label", "")).strip().upper() in LABEL_TO_CATEGORY
+        and str(region.get("label", "")).strip().upper() not in LINE_ITEM_LABELS
+        and str(region.get("label", "")).strip().upper() not in original_document_labels
+    ]
     submitted_items = [
         region
         for region in submitted
         if str(region.get("label", "")).strip().upper() in LINE_ITEM_LABELS
     ]
-    return document_regions + submitted_items
+    return document_regions + new_document_regions + submitted_items
 
 
 def current_review_info() -> dict | None:
@@ -555,6 +562,23 @@ def open_workspace(mode: str, csv_value: str, directory_value: str) -> tuple[dic
         for path in image_directory.iterdir()
         if path.is_file() and path.suffix.lower() in IMAGE_SUFFIXES
     }
+    if csv_path.stat().st_size == 0:
+        if not image_names:
+            raise ApiError(HTTPStatus.BAD_REQUEST, "Thư mục ảnh không có ảnh được hỗ trợ")
+        rows = [
+            {
+                "img_id": name,
+                "anno_polygons": "[]",
+                "anno_texts": "",
+                "anno_labels": "",
+                "anno_num": "0",
+                "anno_image_quality": "",
+                "anno_line_item_ids": "[]",
+            }
+            for name in sorted(image_names)
+        ]
+        write_rows(csv_path, rows)
+        csv_names = image_names
     missing = sorted(csv_names - image_names)
     extra = sorted(image_names - csv_names)
     if missing or extra:

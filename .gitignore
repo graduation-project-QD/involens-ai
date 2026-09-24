@@ -76,6 +76,8 @@ dist/
 credentials.json
 secrets.json
 
+label-ocr-train_rotation.csv
+
 # IDE and operating-system files
 .idea/
 .vscode/

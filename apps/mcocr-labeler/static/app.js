@@ -18,6 +18,7 @@ const state = {
   selectedId: null,
   category: "SELLER",
   dirty: false,
+  savedImages: new Set(),
   zoom: 1,
   baseScale: 1,
   rotation: 0,
@@ -131,8 +132,16 @@ function setDirty(value) {
   els.saveState.classList.toggle("dirty", value);
   els.saveState.classList.remove("error");
   els.saveState.querySelector("span:last-child").textContent = value ? "Có thay đổi chưa lưu" : "Đã đồng bộ";
-  if (value) scheduleDraftSave();
+  if (value) {
+    if (state.current) state.savedImages.delete(savedImageKey(state.current.img_id));
+    scheduleDraftSave();
+  }
+  renderImageList();
   validateCurrent();
+}
+
+function savedImageKey(imgId) {
+  return `${state.mode}:${state.csvPath}:${imgId}`;
 }
 
 function draftStorageKey() {
@@ -282,13 +291,16 @@ function renderImageList() {
   images.forEach((image, index) => {
     const button = document.createElement("button");
     button.className = `image-item${state.current?.img_id === image.img_id ? " active" : ""}`;
-    const statusClass = image.missing_image ? "missing" : image.flagged ? "flagged" : image.checked ? "checked" : "";
+    const hasUnsavedChanges = state.current?.img_id === image.img_id && state.dirty;
+    const statusClass = image.missing_image ? "missing" : image.flagged ? "flagged" : image.checked ? "checked" : !hasUnsavedChanges && state.savedImages.has(savedImageKey(image.img_id)) ? "saved" : "";
     const statusTitle = image.missing_image
       ? "Thiếu ảnh"
       : image.flagged
         ? "Ảnh khó đọc đã được gắn cờ"
       : image.checked
         ? (state.mode === "review" ? "Đã kiểm tra" : "Đã hoàn tất")
+      : statusClass === "saved"
+        ? "Đã lưu vào CSV"
         : (state.mode === "review" ? "Chưa kiểm tra" : "Chưa hoàn tất");
     button.innerHTML = `
       <span class="image-number">${String(index + 1).padStart(3, "0")}</span>
@@ -497,6 +509,7 @@ function rectanglePoints(x, y, width, height) {
 function regionColor(region) { return LABELS[region.label]?.color || "#777"; }
 
 function renderAll() {
+  updateCategoryAvailability();
   renderRegions();
   renderInspector();
   renderMissingFieldControl();
@@ -569,7 +582,8 @@ function renderMissingFieldControl() {
   const active = state.missingFields.has(key);
   const hasRegion = state.regions.some((region) => region.label === state.category
     && (!isLineItemLabel(state.category) || Number(region.line_item_id) === state.lineItemId));
-  const unavailable = !state.current || state.mode === "review" || (state.mode === "train" && !isLineItemLabel(state.category));
+  const unavailable = !state.current || state.mode === "review"
+    || (state.mode === "train" && state.regions.some((region) => region.locked && region.label === state.category));
   els.toggleMissingField.classList.toggle("hidden", state.mode === "review");
   els.missingFieldHint.classList.toggle("hidden", state.mode === "review");
   els.toggleMissingField.disabled = unavailable || (hasRegion && !active);
@@ -596,7 +610,9 @@ function toggleMissingField() {
 
 function updateCategoryAvailability() {
   [...els.categoryGrid.querySelectorAll(".category")].forEach((button) => {
-    button.disabled = state.mode === "train" && !isLineItemLabel(button.dataset.label);
+    button.disabled = state.mode === "train" && state.regions.some(
+      (region) => region.locked && region.label === button.dataset.label,
+    );
   });
 }
 
@@ -783,6 +799,7 @@ async function saveAnnotation() {
         missing_fields: [...state.missingFields],
       }),
     });
+    state.savedImages.add(savedImageKey(state.current.img_id));
     setDirty(false);
     clearDraft();
     showToast(`Đã lưu ${payload.anno_num} vùng vào CSV`);
@@ -943,7 +960,7 @@ function applyModeUi(mode) {
   if (mode === "review" && ["flagged", "rotation_pending"].includes(els.statusFilter.value)) els.statusFilter.value = "all";
   els.openWorkspace.textContent = `Mở phiên đánh nhãn ${mode === "train" ? "Train" : "Validation"}`;
   els.workspaceHint.textContent = mode === "train"
-    ? "Nhãn hóa đơn cũ được khóa; dữ liệu mới ghi trực tiếp vào CSV train."
+    ? "CSV rỗng sẽ tạo dòng cho từng ảnh. Nhãn hóa đơn đã có được khóa; các nhãn còn thiếu có thể gán mới."
     : "Gán đủ nhãn hóa đơn và mặt hàng; dữ liệu ghi trực tiếp vào CSV validation.";
   updateCategoryAvailability();
   setCategory(mode === "train" ? "ITEM_NAME" : "SELLER", false);

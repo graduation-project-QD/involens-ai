@@ -186,6 +186,21 @@ class AnnotationCoreTests(unittest.TestCase):
         self.assertEqual(saved["anno_line_item_ids"], "[null,1]")
         self.assertEqual(saved["anno_image_quality"], "0.82")
 
+    def test_train_save_accepts_document_fields_on_blank_row(self) -> None:
+        blank = {
+            "img_id": "receipt.jpg",
+            "anno_polygons": "[]",
+            "anno_texts": "",
+            "anno_labels": "",
+            "anno_num": "0",
+            "anno_image_quality": "",
+            "anno_line_item_ids": "[]",
+        }
+        seller = {"label": "SELLER", "text": "Shop", "segmentation": [0, 0, 50, 0, 50, 20, 0, 20]}
+        saved = server.regions_to_row("receipt.jpg", server.regions_for_save("train", blank, [seller]), 100, 100)
+        self.assertEqual(saved["anno_labels"], "SELLER")
+        self.assertEqual(server.regions_for_save("train", saved, [])[0]["text"], "Shop")
+
     def test_open_workspace_requires_exact_csv_image_match(self) -> None:
         original_config = server.WORKSPACE_CONFIG
         try:
@@ -216,6 +231,29 @@ class AnnotationCoreTests(unittest.TestCase):
                 server.Image.new("RGB", (20, 20), "white").save(image_dir / "extra.jpg")
                 with self.assertRaises(server.ApiError):
                     server.open_workspace("val", str(csv_path), str(image_dir))
+        finally:
+            server.WORKSPACE_CONFIG = original_config
+
+    def test_open_workspace_initializes_empty_csv_from_images(self) -> None:
+        original_config = server.WORKSPACE_CONFIG
+        try:
+            with tempfile.TemporaryDirectory() as directory:
+                root = Path(directory)
+                server.WORKSPACE_CONFIG = root / "workspaces.json"
+                image_dir = root / "images"
+                image_dir.mkdir()
+                for name in ("second.jpg", "first.jpg"):
+                    server.Image.new("RGB", (20, 20), "white").save(image_dir / name)
+                csv_path = root / "labels.csv"
+                csv_path.touch()
+
+                _, count = server.open_workspace("train", str(csv_path), str(image_dir))
+                self.assertEqual(count, 2)
+                rows = server.read_rows(csv_path)
+                self.assertEqual([row["img_id"] for row in rows], ["first.jpg", "second.jpg"])
+                self.assertTrue(all(row["anno_num"] == "0" for row in rows))
+                self.assertTrue(all(row["anno_polygons"] == "[]" for row in rows))
+                self.assertEqual(server.open_workspace("train", str(csv_path), str(image_dir))[1], 2)
         finally:
             server.WORKSPACE_CONFIG = original_config
 

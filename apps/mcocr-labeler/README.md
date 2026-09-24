@@ -39,7 +39,7 @@ python server.py
 
 Stopping the localhost server does not delete these files. The `data/` directory is ignored by Git because it can contain working state and backups.
 
-The app refuses to open a direct workspace unless the CSV `img_id` values and image filenames match exactly. Saving updates the existing `img_id` row and creates a backup before replacing the CSV. Existing `anno_image_quality` values are preserved.
+An empty CSV is initialized with one unannotated row per image when opening a direct workspace. For a nonempty CSV, the app requires its `img_id` values and image filenames to match exactly. Saving updates the existing `img_id` row and creates a backup before replacing the CSV. Existing `anno_image_quality` values are preserved.
 
 ## Assigned train/validation workflow
 
@@ -53,7 +53,7 @@ Use **Đánh nhãn Train** or **Đánh nhãn Validation** for a pre-created assi
 
 Before completion, Validation requires `SELLER`, `ADDRESS`, `TIMESTAMP`, and `TOTAL_COST`. Every `line_item_id` in Train and Validation requires `ITEM_NAME`, `QUANTITY`, `UNIT_PRICE`, and `LINE_TOTAL`. If a field is genuinely not printed, select its category and line item, then use **Trường này không xuất hiện** instead of drawing a fake region.
 
-In Train mode, existing `SELLER`, `ADDRESS`, `TIMESTAMP`, and `TOTAL_COST` regions are locked and preserved by the server. Annotators add only the four line-item fields. Validation mode allows all eight labels.
+In Train mode, existing `SELLER`, `ADDRESS`, `TIMESTAMP`, and `TOTAL_COST` regions are locked and preserved by the server. Annotators can add document fields that do not already exist, as well as the four line-item fields. Validation mode allows all eight labels.
 
 Use **Gắn cờ ảnh khó đọc** when blur or other degradation makes a reliable annotation impossible. The flag does not alter the annotation CSV and does not automatically mark the image complete. Use the **Ảnh khó đọc** filter to review these images later; the sidecar JSON can also be used to exclude or adjudicate them before training.
 
