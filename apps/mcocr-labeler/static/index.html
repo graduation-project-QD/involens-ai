@@ -16,30 +16,40 @@
   </header>
 
   <nav class="mode-tabs" aria-label="Chế độ làm việc">
-    <button class="mode-tab active" data-mode="train">01 · Đánh nhãn Train</button>
-    <button class="mode-tab" data-mode="val">02 · Đánh nhãn Validation</button>
-    <button class="mode-tab" data-mode="review">03 · Kiểm tra nhãn LLM</button>
+    <div class="mode-tab-group">
+      <button class="mode-tab active" data-mode="train">01 · Đánh nhãn Train</button>
+      <button class="mode-tab" data-mode="val">02 · Đánh nhãn Validation</button>
+      <button class="mode-tab" data-mode="review">03 · Kiểm tra nhãn LLM</button>
+    </div>
+
+    <section id="workspaceImport" class="top-import" aria-label="Mở dữ liệu đánh nhãn">
+      <label class="top-import-field" for="workspaceCsvPath">
+        <span class="field-label">Đường dẫn file CSV</span>
+        <input id="workspaceCsvPath" class="text-input" type="text" placeholder="D:\...\mcocr_train_df.csv">
+      </label>
+      <label class="top-import-field" for="workspaceImageDir">
+        <span class="field-label">Đường dẫn thư mục ảnh</span>
+        <input id="workspaceImageDir" class="text-input" type="text" placeholder="D:\...\train_images">
+      </label>
+      <button id="openWorkspace" class="button primary top-import-action">Mở phiên Train</button>
+      <p id="workspaceHint" class="visually-hidden">CSV rỗng sẽ được tạo dòng nhãn từ thư mục ảnh. CSV đã có dữ liệu phải khớp tên ảnh.</p>
+    </section>
+
+    <section id="reviewImport" class="top-import hidden" aria-label="Nhập dữ liệu kiểm tra nhãn">
+      <label class="top-import-field" for="reviewCsv">
+        <span class="field-label">CSV cần kiểm tra</span>
+        <input id="reviewCsv" class="file-input" type="file" accept=".csv,text/csv">
+      </label>
+      <label class="top-import-field" for="reviewImageDir">
+        <span class="field-label">Thư mục ảnh trên máy</span>
+        <input id="reviewImageDir" class="text-input" type="text" value="D:\graduation-project-2\dataset_hoadon\val_images\val_images">
+      </label>
+      <button id="importReview" class="button primary top-import-action">Nhập kiểm tra</button>
+    </section>
   </nav>
 
   <main class="workspace">
     <aside class="sidebar panel">
-      <section id="workspaceImport" class="import-block">
-        <label class="field-label" for="workspaceCsvPath">Đường dẫn file CSV</label>
-        <input id="workspaceCsvPath" class="text-input" type="text" placeholder="D:\...\mcocr_train_df.csv">
-        <label class="field-label" for="workspaceImageDir">Đường dẫn thư mục ảnh</label>
-        <input id="workspaceImageDir" class="text-input" type="text" placeholder="D:\...\train_images">
-        <button id="openWorkspace" class="button primary full">Mở phiên đánh nhãn Train</button>
-        <p id="workspaceHint" class="hint">CSV rỗng sẽ được tạo dòng nhãn từ thư mục ảnh. CSV đã có dữ liệu phải khớp tên ảnh.</p>
-      </section>
-
-      <section id="reviewImport" class="import-block hidden">
-        <label class="field-label" for="reviewCsv">CSV cần kiểm tra</label>
-        <input id="reviewCsv" class="file-input" type="file" accept=".csv,text/csv">
-        <label class="field-label" for="reviewImageDir">Thư mục ảnh trên máy</label>
-        <input id="reviewImageDir" class="text-input" type="text" value="D:\graduation-project-2\dataset_hoadon\val_images\val_images">
-        <button id="importReview" class="button primary full">Nhập phiên kiểm tra</button>
-      </section>
-
       <div class="list-heading">
         <div>
           <span id="listTitle">Danh sách ảnh</span>
@@ -51,11 +61,21 @@
         <input id="imageSearch" class="search-input" type="search" placeholder="Tìm tên ảnh…">
         <select id="statusFilter" class="select compact">
           <option value="all">Tất cả</option>
-          <option value="pending">Chưa làm</option>
-          <option value="done">Đã lưu</option>
+          <option value="pending">Chưa hoàn tất</option>
+          <option value="done">Đã hoàn tất</option>
+          <option value="saved">Đã có dữ liệu CSV</option>
+          <option value="empty">Chưa có vùng nhãn</option>
           <option value="flagged">🚩 Ảnh khó đọc</option>
           <option value="rotation_pending">Chưa xác nhận chiều đọc</option>
         </select>
+      </div>
+      <div class="status-legend" aria-label="Chú thích trạng thái ảnh">
+        <span><i class="item-status empty"></i>Chưa có nhãn</span>
+        <span><i class="item-status saved"></i>Đã có dữ liệu CSV</span>
+        <span><i class="item-status dirty"></i>Chưa lưu thay đổi</span>
+        <span><i class="item-status checked"></i>Đã hoàn tất/kiểm tra</span>
+        <span><b>🚩</b>Ảnh khó đọc</span>
+        <span><i class="item-status missing"></i>Thiếu file ảnh</span>
       </div>
       <div id="imageList" class="image-list" aria-live="polite"></div>
     </aside>
@@ -76,6 +96,7 @@
           <span id="zoomLabel" class="zoom-label">Vừa khung</span>
           <button id="zoomIn" class="icon-button" title="Phóng to">＋</button>
           <button id="fitImage" class="button subtle">Vừa khung</button>
+          <button id="toggleLabels" class="icon-button label-toggle" title="Ẩn/hiện badge nhãn (H)" aria-label="Ẩn badge nhãn">#</button>
         </div>
       </div>
 
@@ -98,6 +119,9 @@
 
       <div class="stage-footer">
         <span><kbd>Kéo chuột</kbd> tạo vùng</span>
+        <span><kbd>Ctrl</kbd> + <kbd>Lăn chuột</kbd> zoom</span>
+        <span><kbd>Chuột phải</kbd> kéo ảnh</span>
+        <span><kbd>H</kbd> ẩn/hiện nhãn</span>
         <span><kbd>↶ ↷</kbd> chỉ xoay hiển thị</span>
         <span><kbd>Delete</kbd> xóa vùng</span>
         <span><kbd>Ctrl</kbd> + <kbd>S</kbd> lưu</span>

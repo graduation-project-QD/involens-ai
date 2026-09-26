@@ -45,19 +45,25 @@ An empty CSV is initialized with one unannotated row per image when opening a di
 
 Use **Đánh nhãn Train** or **Đánh nhãn Validation** for a pre-created assignment:
 
-1. Enter the full path to the member's `mcocr_train_df.csv` or `mcocr_val_df.csv`.
-2. Enter the full path to the matching `train_images` or `val_images` directory.
+1. In the horizontal controls to the right of the three mode tabs, enter the full path to the member's `mcocr_train_df.csv` or `mcocr_val_df.csv`.
+2. Enter the full path to the matching `train_images` or `val_images` directory in the adjacent field.
 3. Open the workspace, annotate each image, and save. Each save writes directly to the selected CSV.
 4. Rotate the browser view until the receipt is upright, then select **Xác nhận chiều đọc**. The saved value is clockwise `0`, `90`, `180`, or `270`.
 5. Mark an image complete to track progress. Completion requires a confirmed reading orientation. Downloading the annotation CSV remains available as an optional copy.
 
 Before completion, Validation requires `SELLER`, `ADDRESS`, `TIMESTAMP`, and `TOTAL_COST`. Every `line_item_id` in Train and Validation requires `ITEM_NAME`, `QUANTITY`, `UNIT_PRICE`, and `LINE_TOTAL`. If a field is genuinely not printed, select its category and line item, then use **Trường này không xuất hiện** instead of drawing a fake region.
 
-In Train mode, existing `SELLER`, `ADDRESS`, `TIMESTAMP`, and `TOTAL_COST` regions are locked and preserved by the server. Annotators can add document fields that do not already exist, as well as the four line-item fields. Validation mode allows all eight labels.
+Train and Validation both allow annotators to edit or delete existing regions and add new regions for all eight labels. This includes the original `SELLER`, `ADDRESS`, `TIMESTAMP`, and `TOTAL_COST` regions, so incorrect source annotations can be corrected directly. Every save still creates a CSV backup before replacing the working file.
+
+The image-list status dot is derived from persistent data whenever the list reloads: gray means no labeled region, blue means the CSV contains labeled regions, orange means the current image has unsaved edits, and dark green means the image was marked complete (or checked in Review). The flag icon is independent and continues to identify hard-to-read images.
 
 Use **Gắn cờ ảnh khó đọc** when blur or other degradation makes a reliable annotation impossible. The flag does not alter the annotation CSV and does not automatically mark the image complete. Use the **Ảnh khó đọc** filter to review these images later; the sidecar JSON can also be used to exclude or adjudicate them before training.
 
 The left/right rotate controls change only the browser view in 90-degree steps. The source image is never rewritten. Drawing and moving regions on a rotated view are inverse-mapped to the original image coordinate system, so CSV `segmentation`, `bbox`, `width`, and `height` always remain aligned with the original file.
+
+While the pointer is over the annotation viewport, hold `Ctrl` and use the mouse wheel to zoom around the pointer position. Hold the right mouse button and drag to pan the viewport. These actions only change the browser view and do not modify annotation coordinates.
+
+Region labels use compact numbered badges so nearby labels do not cover receipt text. Hover over a region or select it to expand the badge to its full category name. Use the `#` toolbar button or press `H` to hide or show all region badges.
 
 **Xác nhận chiều đọc** stores the current browser angle in the separate rotation metadata CSV. A confirmed `0` is distinct from an image that has not been checked. This metadata is intended for a later preprocessing script that rotates image files and transforms all annotation coordinates together.
 

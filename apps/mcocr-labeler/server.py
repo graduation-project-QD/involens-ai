@@ -373,23 +373,7 @@ def upsert_row(path: Path, row: dict[str, str]) -> None:
 
 
 def regions_for_save(mode: str, existing: dict[str, str] | None, submitted: list[dict]) -> list[dict]:
-    if mode != "train" or not existing:
-        return submitted
-    original_regions = row_to_regions(existing)
-    document_regions = [region for region in original_regions if region["label"] not in LINE_ITEM_LABELS]
-    original_document_labels = {region["label"] for region in document_regions}
-    new_document_regions = [
-        region for region in submitted
-        if str(region.get("label", "")).strip().upper() in LABEL_TO_CATEGORY
-        and str(region.get("label", "")).strip().upper() not in LINE_ITEM_LABELS
-        and str(region.get("label", "")).strip().upper() not in original_document_labels
-    ]
-    submitted_items = [
-        region
-        for region in submitted
-        if str(region.get("label", "")).strip().upper() in LINE_ITEM_LABELS
-    ]
-    return document_regions + new_document_regions + submitted_items
+    return submitted
 
 
 def current_review_info() -> dict | None:
@@ -529,7 +513,7 @@ def list_review_images() -> list[dict]:
                 "img_id": row["img_id"],
                 "width": dimensions[0],
                 "height": dimensions[1],
-                "annotated": True,
+                "annotated": int(row["anno_num"] or 0) > 0,
                 "anno_num": int(row["anno_num"] or 0),
                 "checked": row["img_id"] in checked,
                 "flagged": False,
@@ -902,9 +886,6 @@ class RequestHandler(BaseHTTPRequestHandler):
             row = rows.get(img_id)
             width, height = image_dimensions(image_path)
             regions = row_to_regions(row) if row else []
-            if mode == "train":
-                for region in regions:
-                    region["locked"] = region["label"] not in LINE_ITEM_LABELS
             self.send_json(
                 HTTPStatus.OK,
                 {

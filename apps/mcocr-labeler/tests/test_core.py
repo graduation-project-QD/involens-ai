@@ -162,7 +162,7 @@ class AnnotationCoreTests(unittest.TestCase):
             self.assertEqual(len(rows), 1)
             self.assertEqual(rows[0]["anno_texts"], "B")
 
-    def test_train_save_preserves_document_fields_and_accepts_items(self) -> None:
+    def test_train_save_allows_editing_document_fields(self) -> None:
         original = server.regions_to_row(
             "receipt.jpg",
             [{"label": "SELLER", "text": "Cửa hàng gốc", "segmentation": [0, 0, 50, 0, 50, 20, 0, 20]}],
@@ -181,10 +181,34 @@ class AnnotationCoreTests(unittest.TestCase):
         ]
         merged = server.regions_for_save("train", original, submitted)
         saved = server.regions_to_row("receipt.jpg", merged, 100, 100, original["anno_image_quality"])
-        self.assertEqual(saved["anno_texts"], "Cửa hàng gốc|||Cà phê")
+        self.assertEqual(saved["anno_texts"], "Bị sửa|||Cà phê")
         self.assertEqual(saved["anno_labels"], "SELLER|||ITEM_NAME")
         self.assertEqual(saved["anno_line_item_ids"], "[null,1]")
         self.assertEqual(saved["anno_image_quality"], "0.82")
+
+    def test_train_save_allows_deleting_original_document_fields(self) -> None:
+        original = server.regions_to_row(
+            "receipt.jpg",
+            [{"label": "SELLER", "text": "Cửa hàng gốc", "segmentation": [0, 0, 50, 0, 50, 20, 0, 20]}],
+            100,
+            100,
+        )
+        submitted = [
+            {
+                "label": "ITEM_NAME",
+                "text": "Cà phê",
+                "line_item_id": 1,
+                "segmentation": [10, 30, 70, 30, 70, 50, 10, 50],
+            },
+        ]
+        saved = server.regions_to_row(
+            "receipt.jpg",
+            server.regions_for_save("train", original, submitted),
+            100,
+            100,
+        )
+        self.assertEqual(saved["anno_labels"], "ITEM_NAME")
+        self.assertEqual(saved["anno_texts"], "Cà phê")
 
     def test_train_save_accepts_document_fields_on_blank_row(self) -> None:
         blank = {
@@ -199,7 +223,7 @@ class AnnotationCoreTests(unittest.TestCase):
         seller = {"label": "SELLER", "text": "Shop", "segmentation": [0, 0, 50, 0, 50, 20, 0, 20]}
         saved = server.regions_to_row("receipt.jpg", server.regions_for_save("train", blank, [seller]), 100, 100)
         self.assertEqual(saved["anno_labels"], "SELLER")
-        self.assertEqual(server.regions_for_save("train", saved, [])[0]["text"], "Shop")
+        self.assertEqual(server.regions_for_save("train", saved, []), [])
 
     def test_open_workspace_requires_exact_csv_image_match(self) -> None:
         original_config = server.WORKSPACE_CONFIG

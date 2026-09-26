@@ -18,12 +18,13 @@ const state = {
   selectedId: null,
   category: "SELLER",
   dirty: false,
-  savedImages: new Set(),
   zoom: 1,
   baseScale: 1,
   rotation: 0,
   rotationsByImage: new Map(),
   pointer: null,
+  pan: null,
+  labelsVisible: true,
   csvPath: "",
   rotationCsvPath: "",
   missingFieldsPath: "",
@@ -77,6 +78,7 @@ const els = {
   rotationPath: $("#rotationPath"),
   confirmRotation: $("#confirmRotation"),
   fitImage: $("#fitImage"),
+  toggleLabels: $("#toggleLabels"),
   categoryGrid: $("#categoryGrid"),
   categoryIdBadge: $("#categoryIdBadge"),
   lineItemControl: $("#lineItemControl"),
@@ -132,16 +134,9 @@ function setDirty(value) {
   els.saveState.classList.toggle("dirty", value);
   els.saveState.classList.remove("error");
   els.saveState.querySelector("span:last-child").textContent = value ? "Có thay đổi chưa lưu" : "Đã đồng bộ";
-  if (value) {
-    if (state.current) state.savedImages.delete(savedImageKey(state.current.img_id));
-    scheduleDraftSave();
-  }
+  if (value) scheduleDraftSave();
   renderImageList();
   validateCurrent();
-}
-
-function savedImageKey(imgId) {
-  return `${state.mode}:${state.csvPath}:${imgId}`;
 }
 
 function draftStorageKey() {
@@ -274,6 +269,8 @@ function filteredImages() {
     let matchesStatus = true;
     if (filter === "pending") matchesStatus = !image.checked;
     if (filter === "done") matchesStatus = image.checked;
+    if (filter === "saved") matchesStatus = image.annotated;
+    if (filter === "empty") matchesStatus = !image.annotated;
     if (filter === "flagged") matchesStatus = image.flagged;
     if (filter === "rotation_pending") matchesStatus = !image.rotation_confirmed;
     return matchesName && matchesStatus;
@@ -292,16 +289,24 @@ function renderImageList() {
     const button = document.createElement("button");
     button.className = `image-item${state.current?.img_id === image.img_id ? " active" : ""}`;
     const hasUnsavedChanges = state.current?.img_id === image.img_id && state.dirty;
-    const statusClass = image.missing_image ? "missing" : image.flagged ? "flagged" : image.checked ? "checked" : !hasUnsavedChanges && state.savedImages.has(savedImageKey(image.img_id)) ? "saved" : "";
+    const statusClass = image.missing_image
+      ? "missing"
+      : hasUnsavedChanges
+        ? "dirty"
+        : image.checked
+          ? "checked"
+          : image.annotated
+            ? "saved"
+            : "empty";
     const statusTitle = image.missing_image
       ? "Thiếu ảnh"
-      : image.flagged
-        ? "Ảnh khó đọc đã được gắn cờ"
+      : hasUnsavedChanges
+        ? "Có thay đổi chưa lưu"
       : image.checked
         ? (state.mode === "review" ? "Đã kiểm tra" : "Đã hoàn tất")
-      : statusClass === "saved"
-        ? "Đã lưu vào CSV"
-        : (state.mode === "review" ? "Chưa kiểm tra" : "Chưa hoàn tất");
+      : image.annotated
+        ? "Đã có dữ liệu trong CSV"
+        : "Chưa có vùng nhãn";
     button.innerHTML = `
       <span class="image-number">${String(index + 1).padStart(3, "0")}</span>
       <span class="image-copy">
@@ -345,8 +350,8 @@ async function selectImage(image, force = false) {
     state.undoStack = [];
     state.redoStack = [];
     refreshHistoryButtons();
-    const firstEditableRegion = state.regions.find((region) => !region.locked);
-    state.selectedId = (firstEditableRegion || state.regions[0])?.id || null;
+    const firstRegion = state.regions[0];
+    state.selectedId = firstRegion?.id || null;
     const existingItemIds = state.regions
       .filter((region) => isLineItemLabel(region.label))
       .map((region) => positiveInteger(region.line_item_id, 0));
@@ -357,7 +362,7 @@ async function selectImage(image, force = false) {
       : (image.rotation_confirmed ? image.rotation_to_upright : 0);
     setCategory(
       state.mode === "train"
-        ? (firstEditableRegion?.label || "ITEM_NAME")
+        ? (firstRegion?.label || "ITEM_NAME")
         : (state.regions[0]?.label || "SELLER"),
       false,
     );
@@ -417,6 +422,27 @@ function applyZoom() {
   els.zoomLabel.textContent = `${Math.round(scale * 100)}%`;
   els.rotationLabel.textContent = `${state.rotation}°`;
   renderRotationControl();
+}
+
+function zoomAt(nextZoom, clientX = null, clientY = null) {
+  if (!state.current) return;
+  const viewportRect = els.viewport.getBoundingClientRect();
+  const anchorX = clientX ?? (viewportRect.left + viewportRect.width / 2);
+  const anchorY = clientY ?? (viewportRect.top + viewportRect.height / 2);
+  const oldFrameRect = els.frame.getBoundingClientRect();
+  const relativeX = oldFrameRect.width
+    ? clamp((anchorX - oldFrameRect.left) / oldFrameRect.width, 0, 1)
+    : .5;
+  const relativeY = oldFrameRect.height
+    ? clamp((anchorY - oldFrameRect.top) / oldFrameRect.height, 0, 1)
+    : .5;
+
+  state.zoom = clamp(nextZoom, .35, 4);
+  applyZoom();
+
+  const newFrameRect = els.frame.getBoundingClientRect();
+  els.viewport.scrollLeft += newFrameRect.left + relativeX * newFrameRect.width - anchorX;
+  els.viewport.scrollTop += newFrameRect.top + relativeY * newFrameRect.height - anchorY;
 }
 
 function updateImageMeta() {
@@ -520,8 +546,10 @@ function renderAll() {
 
 function renderRegions() {
   els.regionLayer.innerHTML = "";
+  els.regionLayer.classList.toggle("labels-hidden", !state.labelsVisible);
   state.regions.forEach((region, index) => {
     const group = document.createElementNS("http://www.w3.org/2000/svg", "g");
+    group.setAttribute("class", `region-group${region.id === state.selectedId ? " is-selected" : ""}`);
     const polygon = document.createElementNS("http://www.w3.org/2000/svg", "polygon");
     const pairs = [];
     for (let i = 0; i < region.segmentation.length; i += 2) pairs.push(`${region.segmentation[i]},${region.segmentation[i + 1]}`);
@@ -533,23 +561,53 @@ function renderRegions() {
     const [x, y] = bboxFromPoints(region.segmentation);
     const itemSuffix = isLineItemLabel(region.label) ? ` · L${region.line_item_id ?? "?"}` : "";
     const labelText = `${index + 1} · ${region.label}${itemSuffix}`;
-    const labelWidth = Math.max(68, labelText.length * 8.2);
-    const rect = document.createElementNS("http://www.w3.org/2000/svg", "rect");
-    rect.setAttribute("x", x);
-    rect.setAttribute("y", Math.max(0, y - 22));
-    rect.setAttribute("width", labelWidth);
-    rect.setAttribute("height", 22);
-    rect.setAttribute("fill", regionColor(region));
-    rect.setAttribute("class", "region-label-bg");
-    rect.setAttribute("pointer-events", "none");
-    const text = document.createElementNS("http://www.w3.org/2000/svg", "text");
-    text.setAttribute("x", x + 5);
-    text.setAttribute("y", Math.max(14, y - 6));
-    text.setAttribute("class", "region-label");
-    text.textContent = labelText;
-    group.append(polygon, rect, text);
+    const labelY = Math.max(0, y - 18);
+    const compactText = `${index + 1}`;
+    const compactWidth = Math.max(18, compactText.length * 8 + 8);
+    const fullWidth = Math.max(62, labelText.length * 7.2 + 10);
+
+    const compactRect = document.createElementNS("http://www.w3.org/2000/svg", "rect");
+    compactRect.setAttribute("x", x);
+    compactRect.setAttribute("y", labelY);
+    compactRect.setAttribute("width", compactWidth);
+    compactRect.setAttribute("height", 18);
+    compactRect.setAttribute("fill", regionColor(region));
+    compactRect.setAttribute("class", "region-label-bg region-label-compact");
+
+    const compactLabel = document.createElementNS("http://www.w3.org/2000/svg", "text");
+    compactLabel.setAttribute("x", x + 4);
+    compactLabel.setAttribute("y", labelY + 13);
+    compactLabel.setAttribute("class", "region-label region-label-compact");
+    compactLabel.textContent = compactText;
+
+    const fullRect = document.createElementNS("http://www.w3.org/2000/svg", "rect");
+    fullRect.setAttribute("x", x);
+    fullRect.setAttribute("y", labelY);
+    fullRect.setAttribute("width", fullWidth);
+    fullRect.setAttribute("height", 18);
+    fullRect.setAttribute("fill", regionColor(region));
+    fullRect.setAttribute("class", "region-label-bg region-label-full");
+
+    const fullLabel = document.createElementNS("http://www.w3.org/2000/svg", "text");
+    fullLabel.setAttribute("x", x + 4);
+    fullLabel.setAttribute("y", labelY + 13);
+    fullLabel.setAttribute("class", "region-label region-label-full");
+    fullLabel.textContent = labelText;
+
+    const title = document.createElementNS("http://www.w3.org/2000/svg", "title");
+    title.textContent = labelText;
+    group.append(polygon, compactRect, compactLabel, fullRect, fullLabel, title);
     els.regionLayer.appendChild(group);
   });
+}
+
+function toggleRegionLabels() {
+  state.labelsVisible = !state.labelsVisible;
+  els.toggleLabels.classList.toggle("active", !state.labelsVisible);
+  els.toggleLabels.textContent = state.labelsVisible ? "#" : "×";
+  els.toggleLabels.setAttribute("aria-label", state.labelsVisible ? "Ẩn badge nhãn" : "Hiện badge nhãn");
+  els.toggleLabels.title = state.labelsVisible ? "Ẩn badge nhãn (H)" : "Hiện badge nhãn (H)";
+  renderRegions();
 }
 
 function selectedRegion() { return state.regions.find((region) => region.id === state.selectedId) || null; }
@@ -557,7 +615,7 @@ function selectedRegion() { return state.regions.find((region) => region.id === 
 function selectRegion(id) {
   state.selectedId = id;
   const region = selectedRegion();
-  if (region && !region.locked) setCategory(region.label, false);
+  if (region) setCategory(region.label, false);
   renderAll();
 }
 
@@ -582,8 +640,7 @@ function renderMissingFieldControl() {
   const active = state.missingFields.has(key);
   const hasRegion = state.regions.some((region) => region.label === state.category
     && (!isLineItemLabel(state.category) || Number(region.line_item_id) === state.lineItemId));
-  const unavailable = !state.current || state.mode === "review"
-    || (state.mode === "train" && state.regions.some((region) => region.locked && region.label === state.category));
+  const unavailable = !state.current || state.mode === "review";
   els.toggleMissingField.classList.toggle("hidden", state.mode === "review");
   els.missingFieldHint.classList.toggle("hidden", state.mode === "review");
   els.toggleMissingField.disabled = unavailable || (hasRegion && !active);
@@ -610,16 +667,14 @@ function toggleMissingField() {
 
 function updateCategoryAvailability() {
   [...els.categoryGrid.querySelectorAll(".category")].forEach((button) => {
-    button.disabled = state.mode === "train" && state.regions.some(
-      (region) => region.locked && region.label === button.dataset.label,
-    );
+    button.disabled = false;
   });
 }
 
 function renderInspector() {
   const region = selectedRegion();
   const controls = [els.regionText, els.coordX, els.coordY, els.coordW, els.coordH, els.deleteRegion];
-  controls.forEach((control) => { control.disabled = !region || Boolean(region?.locked); });
+  controls.forEach((control) => { control.disabled = !region; });
   els.regionCount.textContent = state.regions.length;
   els.regionList.innerHTML = "";
   state.regions.forEach((item, index) => {
@@ -627,7 +682,7 @@ function renderInspector() {
     row.className = `region-item${item.id === state.selectedId ? " active" : ""}`;
     row.innerHTML = `
       <i class="region-color" style="background:${regionColor(item)}"></i>
-      <div><strong>${escapeHtml(item.label)}${isLineItemLabel(item.label) ? ` · dòng #${item.line_item_id ?? "?"}` : ""}${item.locked ? " · khóa" : ""}</strong><span>${escapeHtml(item.text || "Chưa nhập nội dung")}</span></div>
+      <div><strong>${escapeHtml(item.label)}${isLineItemLabel(item.label) ? ` · dòng #${item.line_item_id ?? "?"}` : ""}</strong><span>${escapeHtml(item.text || "Chưa nhập nội dung")}</span></div>
       <b class="region-index">#${index + 1}</b>`;
     row.addEventListener("click", () => selectRegion(item.id));
     els.regionList.appendChild(row);
@@ -644,8 +699,7 @@ function renderInspector() {
   els.coordY.value = Math.round(y);
   els.coordW.value = Math.round(width);
   els.coordH.value = Math.round(height);
-  const lockNote = region.locked ? " · nhãn train gốc được khóa" : "";
-  els.regionDetails.textContent = `category_id ${LABELS[region.label].id} · area ${Math.round(width * height)} px²${lockNote}`;
+  els.regionDetails.textContent = `category_id ${LABELS[region.label].id} · area ${Math.round(width * height)} px²`;
 }
 
 function setCategory(label, updateRegion = true) {
@@ -656,12 +710,6 @@ function setCategory(label, updateRegion = true) {
     button.classList.toggle("active", button.dataset.label === label);
   });
   const region = selectedRegion();
-  if (updateRegion && region?.locked) {
-    state.selectedId = null;
-    syncLineItemControl();
-    renderAll();
-    return;
-  }
   if (!updateRegion && region && isLineItemLabel(region.label) && region.line_item_id) {
     state.lineItemId = positiveInteger(region.line_item_id, state.lineItemId);
   }
@@ -679,7 +727,7 @@ function setCategory(label, updateRegion = true) {
 
 function updateSelectedRectangle() {
   const region = selectedRegion();
-  if (!region || region.locked || !state.current) return;
+  if (!region || !state.current) return;
   pushHistory();
   const x = clamp(Number(els.coordX.value) || 0, 0, state.current.width - 1);
   const y = clamp(Number(els.coordY.value) || 0, 0, state.current.height - 1);
@@ -693,7 +741,7 @@ function updateSelectedRectangle() {
 }
 
 function deleteSelected() {
-  if (!state.selectedId || selectedRegion()?.locked) return;
+  if (!state.selectedId) return;
   const index = state.regions.findIndex((region) => region.id === state.selectedId);
   if (index < 0) return;
   pushHistory();
@@ -799,7 +847,6 @@ async function saveAnnotation() {
         missing_fields: [...state.missingFields],
       }),
     });
-    state.savedImages.add(savedImageKey(state.current.img_id));
     setDirty(false);
     clearDraft();
     showToast(`Đã lưu ${payload.anno_num} vùng vào CSV`);
@@ -958,9 +1005,9 @@ function applyModeUi(mode) {
   els.rotationFilterOption.hidden = mode === "review";
   els.rotationFilterOption.disabled = mode === "review";
   if (mode === "review" && ["flagged", "rotation_pending"].includes(els.statusFilter.value)) els.statusFilter.value = "all";
-  els.openWorkspace.textContent = `Mở phiên đánh nhãn ${mode === "train" ? "Train" : "Validation"}`;
+  els.openWorkspace.textContent = `Mở ${mode === "train" ? "Train" : "Validation"}`;
   els.workspaceHint.textContent = mode === "train"
-    ? "CSV rỗng sẽ tạo dòng cho từng ảnh. Nhãn hóa đơn đã có được khóa; các nhãn còn thiếu có thể gán mới."
+    ? "CSV rỗng sẽ tạo dòng cho từng ảnh. Có thể sửa, xóa và bổ sung mọi nhãn trong CSV train."
     : "Gán đủ nhãn hóa đơn và mặt hàng; dữ liệu ghi trực tiếp vào CSV validation.";
   updateCategoryAvailability();
   setCategory(mode === "train" ? "ITEM_NAME" : "SELLER", false);
@@ -1003,7 +1050,6 @@ els.svg.addEventListener("pointerdown", (event) => {
   const regionId = event.target.dataset?.regionId;
   if (regionId) {
     selectRegion(regionId);
-    if (selectedRegion()?.locked) return;
     pushHistory();
     state.pointer = {
       type: "move",
@@ -1024,6 +1070,48 @@ els.svg.addEventListener("pointerdown", (event) => {
   els.draftRect.setAttribute("visibility", "visible");
   renderInspector();
 });
+
+els.viewport.addEventListener("wheel", (event) => {
+  if (!state.current || !event.ctrlKey) return;
+  event.preventDefault();
+  const factor = Math.exp(-event.deltaY * .002);
+  zoomAt(state.zoom * factor, event.clientX, event.clientY);
+}, { passive: false });
+
+els.viewport.addEventListener("contextmenu", (event) => {
+  if (state.current) event.preventDefault();
+});
+
+els.viewport.addEventListener("pointerdown", (event) => {
+  if (!state.current || event.button !== 2) return;
+  event.preventDefault();
+  els.viewport.setPointerCapture(event.pointerId);
+  state.pan = {
+    pointerId: event.pointerId,
+    startX: event.clientX,
+    startY: event.clientY,
+    scrollLeft: els.viewport.scrollLeft,
+    scrollTop: els.viewport.scrollTop,
+  };
+  els.viewport.classList.add("is-panning");
+});
+
+els.viewport.addEventListener("pointermove", (event) => {
+  if (!state.pan || state.pan.pointerId !== event.pointerId) return;
+  event.preventDefault();
+  els.viewport.scrollLeft = state.pan.scrollLeft - (event.clientX - state.pan.startX);
+  els.viewport.scrollTop = state.pan.scrollTop - (event.clientY - state.pan.startY);
+});
+
+function stopPanning(event) {
+  if (!state.pan || (event.pointerId != null && state.pan.pointerId !== event.pointerId)) return;
+  state.pan = null;
+  els.viewport.classList.remove("is-panning");
+}
+
+els.viewport.addEventListener("pointerup", stopPanning);
+els.viewport.addEventListener("pointercancel", stopPanning);
+els.viewport.addEventListener("lostpointercapture", stopPanning);
 
 els.svg.addEventListener("pointermove", (event) => {
   if (!state.pointer || !state.current) return;
@@ -1103,14 +1191,14 @@ els.categoryGrid.addEventListener("click", (event) => {
 
 els.regionText.addEventListener("input", () => {
   const region = selectedRegion();
-  if (!region || region.locked) return;
+  if (!region) return;
   region.text = els.regionText.value;
   setDirty(true);
   renderRegions();
   renderRegionListOnly();
 });
 els.regionText.addEventListener("focus", () => {
-  if (selectedRegion() && !selectedRegion().locked) pushHistory();
+  if (selectedRegion()) pushHistory();
 }, { once: false });
 
 els.lineItemId.addEventListener("change", () => {
@@ -1168,12 +1256,18 @@ els.statusFilter.addEventListener("change", () => { renderImageList(); validateC
 els.tabs.forEach((tab) => tab.addEventListener("click", () => switchMode(tab.dataset.mode)));
 els.rotateLeft.addEventListener("click", () => rotateView(-90));
 els.rotateRight.addEventListener("click", () => rotateView(90));
-els.zoomIn.addEventListener("click", () => { state.zoom = Math.min(4, state.zoom * 1.2); applyZoom(); });
-els.zoomOut.addEventListener("click", () => { state.zoom = Math.max(.35, state.zoom / 1.2); applyZoom(); });
+els.zoomIn.addEventListener("click", () => zoomAt(state.zoom * 1.2));
+els.zoomOut.addEventListener("click", () => zoomAt(state.zoom / 1.2));
 els.fitImage.addEventListener("click", fitImage);
+els.toggleLabels.addEventListener("click", toggleRegionLabels);
 
 window.addEventListener("keydown", (event) => {
   const editingText = ["INPUT", "TEXTAREA"].includes(document.activeElement.tagName);
+  if (!editingText && event.key.toLowerCase() === "h") {
+    event.preventDefault();
+    toggleRegionLabels();
+    return;
+  }
   if ((event.ctrlKey || event.metaKey) && !editingText && event.key.toLowerCase() === "z") {
     event.preventDefault();
     if (event.shiftKey) redoEdit(); else undoEdit();
