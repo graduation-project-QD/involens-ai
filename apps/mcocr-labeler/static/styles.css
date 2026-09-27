@@ -241,6 +241,20 @@ input:focus, textarea:focus, select:focus { border-color: var(--forest-2); box-s
 .stage-toolbar p { margin: 4px 0 0; color: var(--muted); font-size: 11px; }
 .toolbar-actions { display: flex; align-items: center; justify-content: flex-end; flex-wrap: wrap; gap: 6px; }
 .zoom-label { min-width: 56px; text-align: center; font-size: 10px; color: var(--muted); }
+.fine-rotate-button {
+  min-width: 38px; height: 34px; padding: 0 7px; border: 1px solid var(--line); border-radius: 8px;
+  background: white; color: var(--ink); font-size: 10px; font-weight: 800; cursor: pointer;
+}
+.rotation-input {
+  display: inline-flex; align-items: center; height: 34px; padding: 0 7px;
+  border: 1px solid var(--line); border-radius: 8px; background: white; color: var(--muted); font-size: 10px;
+}
+.rotation-input:focus-within { border-color: var(--forest); box-shadow: 0 0 0 2px rgba(20, 77, 58, .12); }
+.rotation-input input {
+  width: 35px; padding: 0; border: 0; outline: 0; background: transparent;
+  color: var(--ink); text-align: right; font: inherit; font-weight: 800;
+}
+.rotation-input input::-webkit-inner-spin-button { margin: 0; }
 .canvas-viewport { flex: 1; overflow: auto; padding: 28px; overscroll-behavior: contain; }
 .canvas-viewport.is-panning, .canvas-viewport.is-panning #annotationLayer { cursor: grabbing; user-select: none; }
 .canvas-frame { position: relative; margin: auto; line-height: 0; }
@@ -249,11 +263,8 @@ input:focus, textarea:focus, select:focus { border-color: var(--forest-2); box-s
 #annotationLayer { position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible; touch-action: none; cursor: crosshair; }
 .region-polygon { vector-effect: non-scaling-stroke; stroke-width: 2.5; fill-opacity: .16; cursor: pointer; }
 .region-polygon.selected { stroke-width: 4; fill-opacity: .24; }
-.region-label-bg { rx: 3; pointer-events: none; opacity: .9; }
-.region-label { fill: white; font-size: 12px; font-weight: 850; pointer-events: none; }
-.region-label-full { display: none; }
-.region-group:hover .region-label-compact, .region-group.is-selected .region-label-compact { display: none; }
-.region-group:hover .region-label-full, .region-group.is-selected .region-label-full { display: block; }
+.region-label-bg { rx: 2; pointer-events: none; opacity: .88; }
+.region-label { fill: white; font-size: 9px; font-weight: 850; pointer-events: none; }
 #regionLayer.labels-hidden .region-label-bg, #regionLayer.labels-hidden .region-label { display: none; }
 .draft-region { fill: rgba(201,240,90,.17); stroke: var(--lime); stroke-width: 3; stroke-dasharray: 8 5; vector-effect: non-scaling-stroke; }
 .empty-stage { flex: 1; display: grid; place-content: center; text-align: center; color: #d7d5cd; }

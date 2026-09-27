@@ -348,16 +348,18 @@ class AnnotationCoreTests(unittest.TestCase):
                 self.assertEqual(server.workspace_rotations(info), {"receipt.jpg": 0})
                 server.set_workspace_rotation("train", "receipt.jpg", 270)
                 self.assertEqual(server.workspace_rotations(info), {"receipt.jpg": 270})
+                server.set_workspace_rotation("train", "receipt.jpg", 357)
+                self.assertEqual(server.workspace_rotations(info), {"receipt.jpg": 357})
                 image = server.list_workspace_images("train")[0]
                 self.assertTrue(image["rotation_confirmed"])
-                self.assertEqual(image["rotation_to_upright"], 270)
+                self.assertEqual(image["rotation_to_upright"], 357)
         finally:
             server.WORKSPACE_CONFIG = original_config
             server.BACKUP_DIR = original_backup_dir
 
-    def test_workspace_rotation_rejects_non_quarter_turn(self) -> None:
+    def test_workspace_rotation_rejects_out_of_range_angle(self) -> None:
         with self.assertRaises(server.ApiError):
-            server.set_workspace_rotation("train", "receipt.jpg", 45)
+            server.set_workspace_rotation("train", "receipt.jpg", 360)
 
     def test_completeness_accepts_explicitly_missing_fields(self) -> None:
         regions = [{"label": "ITEM_NAME", "line_item_id": 1}]

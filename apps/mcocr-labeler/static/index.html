@@ -19,7 +19,6 @@
     <div class="mode-tab-group">
       <button class="mode-tab active" data-mode="train">01 · Đánh nhãn Train</button>
       <button class="mode-tab" data-mode="val">02 · Đánh nhãn Validation</button>
-      <button class="mode-tab" data-mode="review">03 · Kiểm tra nhãn LLM</button>
     </div>
 
     <section id="workspaceImport" class="top-import" aria-label="Mở dữ liệu đánh nhãn">
@@ -35,17 +34,6 @@
       <p id="workspaceHint" class="visually-hidden">CSV rỗng sẽ được tạo dòng nhãn từ thư mục ảnh. CSV đã có dữ liệu phải khớp tên ảnh.</p>
     </section>
 
-    <section id="reviewImport" class="top-import hidden" aria-label="Nhập dữ liệu kiểm tra nhãn">
-      <label class="top-import-field" for="reviewCsv">
-        <span class="field-label">CSV cần kiểm tra</span>
-        <input id="reviewCsv" class="file-input" type="file" accept=".csv,text/csv">
-      </label>
-      <label class="top-import-field" for="reviewImageDir">
-        <span class="field-label">Thư mục ảnh trên máy</span>
-        <input id="reviewImageDir" class="text-input" type="text" value="D:\graduation-project-2\dataset_hoadon\val_images\val_images">
-      </label>
-      <button id="importReview" class="button primary top-import-action">Nhập kiểm tra</button>
-    </section>
   </nav>
 
   <main class="workspace">
@@ -73,7 +61,7 @@
         <span><i class="item-status empty"></i>Chưa có nhãn</span>
         <span><i class="item-status saved"></i>Đã có dữ liệu CSV</span>
         <span><i class="item-status dirty"></i>Chưa lưu thay đổi</span>
-        <span><i class="item-status checked"></i>Đã hoàn tất/kiểm tra</span>
+        <span><i class="item-status checked"></i>Đã hoàn tất</span>
         <span><b>🚩</b>Ảnh khó đọc</span>
         <span><i class="item-status missing"></i>Thiếu file ảnh</span>
       </div>
@@ -90,7 +78,12 @@
           <button id="undoAction" class="icon-button" title="Hoàn tác (Ctrl+Z)" disabled>↩</button>
           <button id="redoAction" class="icon-button" title="Làm lại (Ctrl+Y)" disabled>↪</button>
           <button id="rotateLeft" class="icon-button" title="Xoay hiển thị 90° sang trái">↶</button>
-          <span id="rotationLabel" class="zoom-label">0°</span>
+          <button id="fineRotateLeft" class="fine-rotate-button" title="Xoay tinh chỉnh 1° sang trái">−1°</button>
+          <label class="rotation-input" title="Nhập góc xoay theo chiều kim đồng hồ từ 0 đến 359°">
+            <input id="rotationAngle" type="number" min="0" max="359" step="1" value="0" aria-label="Góc xoay theo chiều kim đồng hồ">
+            <span>°</span>
+          </label>
+          <button id="fineRotateRight" class="fine-rotate-button" title="Xoay tinh chỉnh 1° sang phải">+1°</button>
           <button id="rotateRight" class="icon-button" title="Xoay hiển thị 90° sang phải">↷</button>
           <button id="zoomOut" class="icon-button" title="Thu nhỏ">−</button>
           <span id="zoomLabel" class="zoom-label">Vừa khung</span>
@@ -111,7 +104,7 @@
             <img id="receiptImage" alt="Ảnh hóa đơn đang gán nhãn" draggable="false">
             <svg id="annotationLayer" xmlns="http://www.w3.org/2000/svg" aria-label="Lớp annotation">
               <g id="regionLayer"></g>
-              <rect id="draftRect" class="draft-region" visibility="hidden"></rect>
+              <polygon id="draftRect" class="draft-region" visibility="hidden"></polygon>
             </svg>
           </div>
         </div>
@@ -122,7 +115,7 @@
         <span><kbd>Ctrl</kbd> + <kbd>Lăn chuột</kbd> zoom</span>
         <span><kbd>Chuột phải</kbd> kéo ảnh</span>
         <span><kbd>H</kbd> ẩn/hiện nhãn</span>
-        <span><kbd>↶ ↷</kbd> chỉ xoay hiển thị</span>
+        <span><kbd>±1° / ↶ ↷</kbd> chỉ xoay hiển thị</span>
         <span><kbd>Delete</kbd> xóa vùng</span>
         <span><kbd>Ctrl</kbd> + <kbd>S</kbd> lưu</span>
       </div>

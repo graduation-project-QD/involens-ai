@@ -39,14 +39,10 @@ const $ = (selector) => document.querySelector(selector);
 const els = {
   tabs: [...document.querySelectorAll(".mode-tab")],
   workspaceImport: $("#workspaceImport"),
-  reviewImport: $("#reviewImport"),
   workspaceCsvPath: $("#workspaceCsvPath"),
   workspaceImageDir: $("#workspaceImageDir"),
   openWorkspace: $("#openWorkspace"),
   workspaceHint: $("#workspaceHint"),
-  reviewCsv: $("#reviewCsv"),
-  reviewImageDir: $("#reviewImageDir"),
-  importReview: $("#importReview"),
   refreshList: $("#refreshList"),
   listTitle: $("#listTitle"),
   listCount: $("#listCount"),
@@ -70,7 +66,9 @@ const els = {
   zoomLabel: $("#zoomLabel"),
   rotateLeft: $("#rotateLeft"),
   rotateRight: $("#rotateRight"),
-  rotationLabel: $("#rotationLabel"),
+  fineRotateLeft: $("#fineRotateLeft"),
+  fineRotateRight: $("#fineRotateRight"),
+  rotationAngle: $("#rotationAngle"),
   undoAction: $("#undoAction"),
   redoAction: $("#redoAction"),
   rotationPanel: $("#rotationPanel"),
@@ -244,10 +242,8 @@ async function loadState(selectName = null) {
     state.csvPath = payload.csv_path || "";
     state.rotationCsvPath = payload.rotation_csv_path || "";
     state.missingFieldsPath = payload.missing_fields_path || "";
-    if (state.mode !== "review") {
-      els.workspaceCsvPath.value = payload.workspace?.csv_path || els.workspaceCsvPath.value;
-      els.workspaceImageDir.value = payload.workspace?.image_directory || els.workspaceImageDir.value;
-    }
+    els.workspaceCsvPath.value = payload.workspace?.csv_path || els.workspaceCsvPath.value;
+    els.workspaceImageDir.value = payload.workspace?.image_directory || els.workspaceImageDir.value;
     els.csvPath.textContent = state.csvPath ? `Lưu tại: ${state.csvPath}` : "Chưa có phiên CSV đang hoạt động.";
     renderImageList();
     if (selectName) {
@@ -303,7 +299,7 @@ function renderImageList() {
       : hasUnsavedChanges
         ? "Có thay đổi chưa lưu"
       : image.checked
-        ? (state.mode === "review" ? "Đã kiểm tra" : "Đã hoàn tất")
+        ? "Đã hoàn tất"
       : image.annotated
         ? "Đã có dữ liệu trong CSV"
         : "Chưa có vùng nhãn";
@@ -311,7 +307,7 @@ function renderImageList() {
       <span class="image-number">${String(index + 1).padStart(3, "0")}</span>
       <span class="image-copy">
         <span class="image-name" title="${escapeHtml(image.img_id)}">${escapeHtml(image.img_id)}</span>
-        <span class="image-size">${image.width || "?"} × ${image.height || "?"} · ${image.anno_num || 0} vùng${state.mode === "review" ? "" : image.rotation_confirmed ? ` · hướng ${image.rotation_to_upright}°` : " · chưa xác nhận hướng"}</span>
+        <span class="image-size">${image.width || "?"} × ${image.height || "?"} · ${image.anno_num || 0} vùng${image.rotation_confirmed ? ` · hướng ${image.rotation_to_upright}°` : " · chưa xác nhận hướng"}</span>
       </span>
       <span class="item-flag" title="Ảnh khó đọc">${image.flagged ? "🚩" : ""}</span>
       <span class="item-status ${statusClass}" title="${statusTitle}"></span>`;
@@ -393,10 +389,8 @@ function fitImage() {
   if (!state.current) return;
   const availableWidth = Math.max(100, els.viewport.clientWidth - 56);
   const availableHeight = Math.max(100, els.viewport.clientHeight - 56);
-  const quarterTurn = state.rotation % 180 !== 0;
-  const orientedWidth = quarterTurn ? state.current.height : state.current.width;
-  const orientedHeight = quarterTurn ? state.current.width : state.current.height;
-  state.baseScale = Math.min(availableWidth / orientedWidth, availableHeight / orientedHeight, 1);
+  const geometry = rotationGeometry(state.current.width, state.current.height, state.rotation);
+  state.baseScale = Math.min(availableWidth / geometry.width, availableHeight / geometry.height, 1);
   state.zoom = 1;
   applyZoom();
 }
@@ -406,21 +400,20 @@ function applyZoom() {
   const scale = state.baseScale * state.zoom;
   const width = Math.round(state.current.width * scale);
   const height = Math.round(state.current.height * scale);
-  const quarterTurn = state.rotation % 180 !== 0;
-  els.frame.style.width = `${quarterTurn ? height : width}px`;
-  els.frame.style.height = `${quarterTurn ? width : height}px`;
+  const geometry = rotationGeometry(width, height, state.rotation);
+  els.frame.style.width = `${Math.ceil(geometry.width)}px`;
+  els.frame.style.height = `${Math.ceil(geometry.height)}px`;
   els.surface.style.width = `${width}px`;
   els.surface.style.height = `${height}px`;
   els.image.style.width = `${width}px`;
   els.image.style.height = `${height}px`;
   els.svg.style.width = `${width}px`;
   els.svg.style.height = `${height}px`;
-  if (state.rotation === 90) els.surface.style.transform = `translate(${height}px, 0) rotate(90deg)`;
-  else if (state.rotation === 180) els.surface.style.transform = `translate(${width}px, ${height}px) rotate(180deg)`;
-  else if (state.rotation === 270) els.surface.style.transform = `translate(0, ${width}px) rotate(-90deg)`;
-  else els.surface.style.transform = "none";
+  els.surface.style.transform = state.rotation === 0
+    ? "none"
+    : `translate(${-geometry.minX}px, ${-geometry.minY}px) rotate(${state.rotation}deg)`;
   els.zoomLabel.textContent = `${Math.round(scale * 100)}%`;
-  els.rotationLabel.textContent = `${state.rotation}°`;
+  els.rotationAngle.value = state.rotation;
   renderRotationControl();
 }
 
@@ -447,17 +440,15 @@ function zoomAt(nextZoom, clientX = null, clientY = null) {
 
 function updateImageMeta() {
   if (!state.current) return;
-  const orientation = state.mode === "review"
-    ? ""
-    : state.current.rotation_confirmed
-      ? ` · hướng: ${state.current.rotation_to_upright}° đã xác nhận`
-      : " · hướng: chưa xác nhận";
+  const orientation = state.current.rotation_confirmed
+    ? ` · hướng: ${state.current.rotation_to_upright}° đã xác nhận`
+    : " · hướng: chưa xác nhận";
   els.imageMeta.textContent = `${state.current.width} × ${state.current.height} px · ${state.regions.length} vùng · quality: ${state.current.anno_image_quality || "trống"}${orientation}${state.current.flagged ? " · 🚩 ảnh khó đọc" : ""}`;
 }
 
 function renderRotationControl() {
-  const available = Boolean(state.current) && state.mode !== "review";
-  els.rotationPanel.classList.toggle("hidden", state.mode === "review");
+  const available = Boolean(state.current);
+  els.rotationPanel.classList.remove("hidden");
   els.confirmRotation.disabled = !available;
   els.confirmRotation.textContent = `Xác nhận chiều đọc: ${state.rotation}°`;
   els.rotationPath.textContent = state.rotationCsvPath ? `Lưu tại: ${state.rotationCsvPath}` : "File góc xoay sẽ được tạo cạnh CSV nhãn.";
@@ -476,38 +467,80 @@ function renderRotationControl() {
   }
 }
 
-function svgPoint(event) {
+function normalizeRotation(value) {
+  const parsed = Number(value);
+  if (!Number.isFinite(parsed)) return state.rotation;
+  return ((Math.round(parsed) % 360) + 360) % 360;
+}
+
+function rotationGeometry(width, height, rotation) {
+  const radians = rotation * Math.PI / 180;
+  const cos = Math.cos(radians);
+  const sin = Math.sin(radians);
+  const corners = [
+    [0, 0],
+    [width, 0],
+    [width, height],
+    [0, height],
+  ].map(([x, y]) => [x * cos - y * sin, x * sin + y * cos]);
+  const xs = corners.map(([x]) => x);
+  const ys = corners.map(([, y]) => y);
+  const minX = Math.min(...xs);
+  const minY = Math.min(...ys);
+  const maxX = Math.max(...xs);
+  const maxY = Math.max(...ys);
+  return { minX, minY, width: maxX - minX, height: maxY - minY, cos, sin };
+}
+
+function framePoint(event) {
   const bounds = els.frame.getBoundingClientRect();
+  return {
+    x: clamp(event.clientX - bounds.left, 0, bounds.width),
+    y: clamp(event.clientY - bounds.top, 0, bounds.height),
+  };
+}
+
+function originalPointFromDisplay(displayPoint) {
   const renderedWidth = Number.parseFloat(els.surface.style.width) || state.current.width;
   const renderedHeight = Number.parseFloat(els.surface.style.height) || state.current.height;
   const scaleX = renderedWidth / state.current.width;
   const scaleY = renderedHeight / state.current.height;
-  const displayX = clamp(event.clientX - bounds.left, 0, bounds.width);
-  const displayY = clamp(event.clientY - bounds.top, 0, bounds.height);
-  let x;
-  let y;
-  if (state.rotation === 90) {
-    x = displayY / scaleX;
-    y = state.current.height - displayX / scaleY;
-  } else if (state.rotation === 180) {
-    x = state.current.width - displayX / scaleX;
-    y = state.current.height - displayY / scaleY;
-  } else if (state.rotation === 270) {
-    x = state.current.width - displayY / scaleX;
-    y = displayX / scaleY;
-  } else {
-    x = displayX / scaleX;
-    y = displayY / scaleY;
-  }
+  const geometry = rotationGeometry(renderedWidth, renderedHeight, state.rotation);
+  const rotatedX = displayPoint.x + geometry.minX;
+  const rotatedY = displayPoint.y + geometry.minY;
+  const sourceX = rotatedX * geometry.cos + rotatedY * geometry.sin;
+  const sourceY = -rotatedX * geometry.sin + rotatedY * geometry.cos;
   return {
-    x: clamp(x, 0, state.current.width),
-    y: clamp(y, 0, state.current.height),
+    x: clamp(sourceX / scaleX, 0, state.current.width),
+    y: clamp(sourceY / scaleY, 0, state.current.height),
   };
+}
+
+function svgPoint(event) { return originalPointFromDisplay(framePoint(event)); }
+
+function displayRectanglePoints(start, end) {
+  const left = Math.min(start.x, end.x);
+  const top = Math.min(start.y, end.y);
+  const right = Math.max(start.x, end.x);
+  const bottom = Math.max(start.y, end.y);
+  return [
+    originalPointFromDisplay({ x: left, y: top }),
+    originalPointFromDisplay({ x: right, y: top }),
+    originalPointFromDisplay({ x: right, y: bottom }),
+    originalPointFromDisplay({ x: left, y: bottom }),
+  ].flatMap(({ x, y }) => [round(x), round(y)]);
 }
 
 function rotateView(delta) {
   if (!state.current) return;
-  state.rotation = (state.rotation + delta + 360) % 360;
+  state.rotation = normalizeRotation(state.rotation + delta);
+  state.rotationsByImage.set(`${state.mode}:${state.current.img_id}`, state.rotation);
+  fitImage();
+}
+
+function setRotationFromInput() {
+  if (!state.current) return;
+  state.rotation = normalizeRotation(els.rotationAngle.value);
   state.rotationsByImage.set(`${state.mode}:${state.current.img_id}`, state.rotation);
   fitImage();
 }
@@ -561,42 +594,28 @@ function renderRegions() {
     const [x, y] = bboxFromPoints(region.segmentation);
     const itemSuffix = isLineItemLabel(region.label) ? ` · L${region.line_item_id ?? "?"}` : "";
     const labelText = `${index + 1} · ${region.label}${itemSuffix}`;
-    const labelY = Math.max(0, y - 18);
     const compactText = `${index + 1}`;
-    const compactWidth = Math.max(18, compactText.length * 8 + 8);
-    const fullWidth = Math.max(62, labelText.length * 7.2 + 10);
+    const compactWidth = Math.max(13, compactText.length * 5.5 + 6);
+    const labelX = x - compactWidth - 3;
+    const labelY = y;
 
     const compactRect = document.createElementNS("http://www.w3.org/2000/svg", "rect");
-    compactRect.setAttribute("x", x);
+    compactRect.setAttribute("x", labelX);
     compactRect.setAttribute("y", labelY);
     compactRect.setAttribute("width", compactWidth);
-    compactRect.setAttribute("height", 18);
+    compactRect.setAttribute("height", 14);
     compactRect.setAttribute("fill", regionColor(region));
     compactRect.setAttribute("class", "region-label-bg region-label-compact");
 
     const compactLabel = document.createElementNS("http://www.w3.org/2000/svg", "text");
-    compactLabel.setAttribute("x", x + 4);
-    compactLabel.setAttribute("y", labelY + 13);
+    compactLabel.setAttribute("x", labelX + 3);
+    compactLabel.setAttribute("y", labelY + 10);
     compactLabel.setAttribute("class", "region-label region-label-compact");
     compactLabel.textContent = compactText;
 
-    const fullRect = document.createElementNS("http://www.w3.org/2000/svg", "rect");
-    fullRect.setAttribute("x", x);
-    fullRect.setAttribute("y", labelY);
-    fullRect.setAttribute("width", fullWidth);
-    fullRect.setAttribute("height", 18);
-    fullRect.setAttribute("fill", regionColor(region));
-    fullRect.setAttribute("class", "region-label-bg region-label-full");
-
-    const fullLabel = document.createElementNS("http://www.w3.org/2000/svg", "text");
-    fullLabel.setAttribute("x", x + 4);
-    fullLabel.setAttribute("y", labelY + 13);
-    fullLabel.setAttribute("class", "region-label region-label-full");
-    fullLabel.textContent = labelText;
-
     const title = document.createElementNS("http://www.w3.org/2000/svg", "title");
     title.textContent = labelText;
-    group.append(polygon, compactRect, compactLabel, fullRect, fullLabel, title);
+    group.append(polygon, compactRect, compactLabel, title);
     els.regionLayer.appendChild(group);
   });
 }
@@ -640,9 +659,9 @@ function renderMissingFieldControl() {
   const active = state.missingFields.has(key);
   const hasRegion = state.regions.some((region) => region.label === state.category
     && (!isLineItemLabel(state.category) || Number(region.line_item_id) === state.lineItemId));
-  const unavailable = !state.current || state.mode === "review";
-  els.toggleMissingField.classList.toggle("hidden", state.mode === "review");
-  els.missingFieldHint.classList.toggle("hidden", state.mode === "review");
+  const unavailable = !state.current;
+  els.toggleMissingField.classList.remove("hidden");
+  els.missingFieldHint.classList.remove("hidden");
   els.toggleMissingField.disabled = unavailable || (hasRegion && !active);
   els.toggleMissingField.classList.toggle("active", active);
   els.toggleMissingField.textContent = active ? "Bỏ đánh dấu: trường không xuất hiện" : "Trường này không xuất hiện";
@@ -656,7 +675,7 @@ function renderMissingFieldControl() {
 }
 
 function toggleMissingField() {
-  if (!state.current || state.mode === "review") return;
+  if (!state.current) return;
   const key = currentMissingFieldKey();
   pushHistory();
   if (state.missingFields.has(key)) state.missingFields.delete(key);
@@ -752,7 +771,7 @@ function deleteSelected() {
 }
 
 function completenessIssues() {
-  if (!state.current || state.mode === "review") return [];
+  if (!state.current) return [];
   const issues = [];
   const documentLabels = ["SELLER", "ADDRESS", "TIMESTAMP", "TOTAL_COST"];
   const itemLabels = ["ITEM_NAME", "QUANTITY", "UNIT_PRICE", "LINE_TOTAL"];
@@ -788,8 +807,8 @@ function validateCurrent() {
   els.save.disabled = true;
   els.saveAndNext.disabled = true;
   els.markChecked.disabled = true;
-  els.flagImage.disabled = !state.current || state.mode === "review";
-  els.confirmRotation.disabled = !state.current || state.mode === "review";
+  els.flagImage.disabled = !state.current;
+  els.confirmRotation.disabled = !state.current;
   els.flagImage.textContent = state.current?.flagged ? "Bỏ cờ ảnh này" : "🚩 Gắn cờ ảnh khó đọc";
   els.flagImage.classList.toggle("active", Boolean(state.current?.flagged));
   els.validation.className = "validation-message";
@@ -817,7 +836,7 @@ function validateCurrent() {
     return false;
   }
   const issues = completenessIssues();
-  const orientationPending = state.mode !== "review" && !state.current.rotation_confirmed;
+  const orientationPending = !state.current.rotation_confirmed;
   if (issues.length) {
     els.validation.textContent = `Chưa đủ nhãn: ${issues.slice(0, 3).join("; ")}${issues.length > 3 ? `; và ${issues.length - 3} lỗi khác` : ""}`;
     els.validation.classList.add("error");
@@ -877,7 +896,7 @@ async function saveAndNext() {
 async function markChecked() {
   if (state.dirty) await saveAnnotation();
   if (state.dirty || !state.current) return;
-  if (state.mode !== "review" && !state.current.rotation_confirmed) {
+  if (!state.current.rotation_confirmed) {
     showToast("Hãy xoay ảnh đúng chiều và xác nhận chiều đọc trước", true);
     return;
   }
@@ -887,12 +906,11 @@ async function markChecked() {
     return;
   }
   try {
-    const endpoint = state.mode === "review" ? "/api/review/check" : "/api/workspace/check";
-    await api(endpoint, {
+    await api("/api/workspace/check", {
       method: "POST",
       body: JSON.stringify({ mode: state.mode, img_id: state.current.img_id, checked: true }),
     });
-    showToast(state.mode === "review" ? "Đã đánh dấu ảnh là đã kiểm tra" : "Đã đánh dấu ảnh là hoàn tất");
+    showToast("Đã đánh dấu ảnh là hoàn tất");
     await loadState(state.current.img_id);
   } catch (error) {
     showToast(error.message, true);
@@ -900,7 +918,7 @@ async function markChecked() {
 }
 
 async function toggleFlag() {
-  if (!state.current || state.mode === "review") return;
+  if (!state.current) return;
   const flagged = !state.current.flagged;
   try {
     const result = await api("/api/workspace/flag", {
@@ -920,7 +938,7 @@ async function toggleFlag() {
 }
 
 async function confirmRotation() {
-  if (!state.current || state.mode === "review") return;
+  if (!state.current) return;
   try {
     const result = await api("/api/workspace/rotation", {
       method: "POST",
@@ -967,51 +985,26 @@ async function openWorkspace() {
   }
 }
 
-async function importReview() {
-  const file = els.reviewCsv.files[0];
-  if (!file) {
-    showToast("Hãy chọn file CSV cần kiểm tra", true);
-    return;
-  }
-  try {
-    const result = await api("/api/review/import", {
-      method: "POST",
-      body: JSON.stringify({
-        name: file.name,
-        csv_text: await file.text(),
-        source_directory: els.reviewImageDir.value.trim(),
-      }),
-    });
-    showToast(`Đã nhập ${result.rows} dòng · thiếu ${result.missing_images} ảnh`);
-    await loadState();
-  } catch (error) {
-    showToast(error.message, true);
-  }
-}
-
 function applyModeUi(mode) {
   els.tabs.forEach((tab) => tab.classList.toggle("active", tab.dataset.mode === mode));
-  els.workspaceImport.classList.toggle("hidden", mode === "review");
-  els.reviewImport.classList.toggle("hidden", mode !== "review");
   els.exportCsv.href = `/api/export?mode=${mode}`;
-  els.listTitle.textContent = mode === "review" ? "Ảnh cần kiểm tra" : `Ảnh ${mode === "train" ? "train" : "validation"}`;
-  els.statusFilter.options[1].textContent = mode === "review" ? "Chưa kiểm tra" : "Chưa hoàn tất";
-  els.statusFilter.options[2].textContent = mode === "review" ? "Đã kiểm tra" : "Đã hoàn tất";
-  els.markChecked.textContent = mode === "review" ? "Đánh dấu đã kiểm tra" : "Đánh dấu hoàn tất";
-  els.flagImage.classList.toggle("hidden", mode === "review");
-  els.rotationPanel.classList.toggle("hidden", mode === "review");
-  els.flagFilterOption.hidden = mode === "review";
-  els.flagFilterOption.disabled = mode === "review";
-  els.rotationFilterOption.hidden = mode === "review";
-  els.rotationFilterOption.disabled = mode === "review";
-  if (mode === "review" && ["flagged", "rotation_pending"].includes(els.statusFilter.value)) els.statusFilter.value = "all";
+  els.listTitle.textContent = `Ảnh ${mode === "train" ? "train" : "validation"}`;
+  els.statusFilter.options[1].textContent = "Chưa hoàn tất";
+  els.statusFilter.options[2].textContent = "Đã hoàn tất";
+  els.markChecked.textContent = "Đánh dấu hoàn tất";
+  els.flagImage.classList.remove("hidden");
+  els.rotationPanel.classList.remove("hidden");
+  els.flagFilterOption.hidden = false;
+  els.flagFilterOption.disabled = false;
+  els.rotationFilterOption.hidden = false;
+  els.rotationFilterOption.disabled = false;
   els.openWorkspace.textContent = `Mở ${mode === "train" ? "Train" : "Validation"}`;
   els.workspaceHint.textContent = mode === "train"
     ? "CSV rỗng sẽ tạo dòng cho từng ảnh. Có thể sửa, xóa và bổ sung mọi nhãn trong CSV train."
     : "Gán đủ nhãn hóa đơn và mặt hàng; dữ liệu ghi trực tiếp vào CSV validation.";
   updateCategoryAvailability();
   setCategory(mode === "train" ? "ITEM_NAME" : "SELLER", false);
-  els.currentName.textContent = mode === "review" ? "Nhập CSV hoặc chọn ảnh cần kiểm tra" : "Mở CSV và thư mục ảnh để bắt đầu";
+  els.currentName.textContent = "Mở CSV và thư mục ảnh để bắt đầu";
   renderRotationControl();
 }
 
@@ -1047,6 +1040,7 @@ els.svg.addEventListener("pointerdown", (event) => {
   event.preventDefault();
   els.svg.setPointerCapture(event.pointerId);
   const point = svgPoint(event);
+  const displayPoint = framePoint(event);
   const regionId = event.target.dataset?.regionId;
   if (regionId) {
     selectRegion(regionId);
@@ -1062,11 +1056,15 @@ els.svg.addEventListener("pointerdown", (event) => {
   }
   pushHistory();
   state.selectedId = null;
-  state.pointer = { type: "draw", start: point, current: point, historyPushed: true };
-  els.draftRect.setAttribute("x", point.x);
-  els.draftRect.setAttribute("y", point.y);
-  els.draftRect.setAttribute("width", 0);
-  els.draftRect.setAttribute("height", 0);
+  state.pointer = {
+    type: "draw",
+    start: point,
+    current: point,
+    startDisplay: displayPoint,
+    currentDisplay: displayPoint,
+    historyPushed: true,
+  };
+  els.draftRect.setAttribute("points", `${point.x},${point.y} ${point.x},${point.y} ${point.x},${point.y} ${point.x},${point.y}`);
   els.draftRect.setAttribute("visibility", "visible");
   renderInspector();
 });
@@ -1118,12 +1116,11 @@ els.svg.addEventListener("pointermove", (event) => {
   const point = svgPoint(event);
   if (state.pointer.type === "draw") {
     state.pointer.current = point;
-    const x = Math.min(state.pointer.start.x, point.x);
-    const y = Math.min(state.pointer.start.y, point.y);
-    els.draftRect.setAttribute("x", x);
-    els.draftRect.setAttribute("y", y);
-    els.draftRect.setAttribute("width", Math.abs(point.x - state.pointer.start.x));
-    els.draftRect.setAttribute("height", Math.abs(point.y - state.pointer.start.y));
+    state.pointer.currentDisplay = framePoint(event);
+    const points = displayRectanglePoints(state.pointer.startDisplay, state.pointer.currentDisplay);
+    const pairs = [];
+    for (let i = 0; i < points.length; i += 2) pairs.push(`${points[i]},${points[i + 1]}`);
+    els.draftRect.setAttribute("points", pairs.join(" "));
     return;
   }
   if (state.pointer.type === "move") {
@@ -1152,24 +1149,24 @@ els.svg.addEventListener("pointerup", (event) => {
     renderAll();
     return;
   }
-  const end = svgPoint(event);
-  const x = Math.min(pointer.start.x, end.x);
-  const y = Math.min(pointer.start.y, end.y);
-  const width = Math.abs(end.x - pointer.start.x);
-  const height = Math.abs(end.y - pointer.start.y);
-  if (width < 4 || height < 4) {
+  const endDisplay = framePoint(event);
+  const displayWidth = Math.abs(endDisplay.x - pointer.startDisplay.x);
+  const displayHeight = Math.abs(endDisplay.y - pointer.startDisplay.y);
+  if (displayWidth < 4 || displayHeight < 4) {
     if (pointer.historyPushed) state.undoStack.pop();
     refreshHistoryButtons();
     renderAll();
     return;
   }
+  const segmentation = displayRectanglePoints(pointer.startDisplay, endDisplay);
+  const bbox = bboxFromPoints(segmentation);
   const region = {
     id: `region-${crypto.randomUUID?.() || Date.now()}`,
     category_id: LABELS[state.category].id,
     label: state.category,
     text: "",
-    segmentation: rectanglePoints(x, y, width, height),
-    bbox: [round(x), round(y), round(width), round(height)],
+    segmentation,
+    bbox,
     line_item_id: isLineItemLabel(state.category) ? state.lineItemId : null,
   };
   state.missingFields.delete(currentMissingFieldKey());
@@ -1249,13 +1246,22 @@ els.previousImage.addEventListener("click", () => navigateImage(-1));
 els.nextImage.addEventListener("click", () => navigateImage(1));
 els.saveAndNext.addEventListener("click", saveAndNext);
 els.openWorkspace.addEventListener("click", openWorkspace);
-els.importReview.addEventListener("click", importReview);
 els.refreshList.addEventListener("click", () => loadState(state.current?.img_id));
 els.imageSearch.addEventListener("input", () => { renderImageList(); validateCurrent(); });
 els.statusFilter.addEventListener("change", () => { renderImageList(); validateCurrent(); });
 els.tabs.forEach((tab) => tab.addEventListener("click", () => switchMode(tab.dataset.mode)));
 els.rotateLeft.addEventListener("click", () => rotateView(-90));
 els.rotateRight.addEventListener("click", () => rotateView(90));
+els.fineRotateLeft.addEventListener("click", () => rotateView(-1));
+els.fineRotateRight.addEventListener("click", () => rotateView(1));
+els.rotationAngle.addEventListener("change", setRotationFromInput);
+els.rotationAngle.addEventListener("keydown", (event) => {
+  if (event.key === "Enter") {
+    event.preventDefault();
+    setRotationFromInput();
+    els.rotationAngle.blur();
+  }
+});
 els.zoomIn.addEventListener("click", () => zoomAt(state.zoom * 1.2));
 els.zoomOut.addEventListener("click", () => zoomAt(state.zoom / 1.2));
 els.fitImage.addEventListener("click", fitImage);

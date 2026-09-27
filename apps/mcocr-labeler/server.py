@@ -10,6 +10,7 @@ import mimetypes
 import os
 import re
 import shutil
+import socket
 import threading
 import time
 from datetime import datetime, timezone
@@ -27,8 +28,6 @@ STATIC_DIR = APP_ROOT / "static"
 DATA_DIR = APP_ROOT / "data"
 UPLOAD_DIR = DATA_DIR / "images"
 BACKUP_DIR = DATA_DIR / "backups"
-REVIEW_DIR = DATA_DIR / "review_sessions"
-CURRENT_REVIEW = REVIEW_DIR / "current.json"
 WORKSPACE_CONFIG = DATA_DIR / "annotation_workspaces.json"
 DEFAULT_IMAGE_DIR = PROJECT_ROOT / "dataset_hoadon" / "val_images" / "val_images"
 
@@ -67,8 +66,19 @@ class ApiError(Exception):
         self.message = message
 
 
+class ExclusiveThreadingHTTPServer(ThreadingHTTPServer):
+    """Prevent multiple labeler backends from sharing the same local port."""
+
+    allow_reuse_address = False
+
+    def server_bind(self) -> None:
+        if os.name == "nt" and hasattr(socket, "SO_EXCLUSIVEADDRUSE"):
+            self.socket.setsockopt(socket.SOL_SOCKET, socket.SO_EXCLUSIVEADDRUSE, 1)
+        super().server_bind()
+
+
 def ensure_storage() -> None:
-    for directory in (DATA_DIR, UPLOAD_DIR, BACKUP_DIR, REVIEW_DIR):
+    for directory in (DATA_DIR, UPLOAD_DIR, BACKUP_DIR):
         directory.mkdir(parents=True, exist_ok=True)
 
 
@@ -376,17 +386,6 @@ def regions_for_save(mode: str, existing: dict[str, str] | None, submitted: list
     return submitted
 
 
-def current_review_info() -> dict | None:
-    if not CURRENT_REVIEW.exists():
-        return None
-    try:
-        info = json.loads(CURRENT_REVIEW.read_text(encoding="utf-8"))
-    except (OSError, json.JSONDecodeError):
-        return None
-    working = Path(info.get("working_csv", ""))
-    return info if working.is_file() else None
-
-
 def workspace_configs() -> dict[str, dict]:
     if not WORKSPACE_CONFIG.exists():
         return {}
@@ -431,11 +430,6 @@ def annotation_csv(mode: str) -> Path:
         if not info:
             raise ApiError(HTTPStatus.NOT_FOUND, f"Chưa mở phiên đánh nhãn {mode}")
         return Path(info["csv_path"])
-    if mode == "review":
-        info = current_review_info()
-        if not info:
-            raise ApiError(HTTPStatus.NOT_FOUND, "Chưa có phiên kiểm tra CSV")
-        return Path(info["working_csv"])
     raise ApiError(HTTPStatus.BAD_REQUEST, "Chế độ không hợp lệ")
 
 
@@ -445,18 +439,11 @@ def image_roots(mode: str | None = None) -> list[Path]:
         info = workspace_info(mode)
         if info:
             roots.append(Path(info["image_directory"]))
-    elif mode == "review":
-        info = current_review_info()
-        if info and info.get("source_directory"):
-            roots.append(Path(info["source_directory"]))
     else:
         for workspace_mode in ("train", "val"):
             info = workspace_info(workspace_mode)
             if info:
                 roots.append(Path(info["image_directory"]))
-        info = current_review_info()
-        if info and info.get("source_directory"):
-            roots.append(Path(info["source_directory"]))
         roots.extend([UPLOAD_DIR, DEFAULT_IMAGE_DIR])
     return list(dict.fromkeys(roots))
 
@@ -493,30 +480,6 @@ def list_workspace_images(mode: str) -> list[dict]:
                 "flagged": row["img_id"] in flagged,
                 "rotation_confirmed": row["img_id"] in rotations,
                 "rotation_to_upright": rotations.get(row["img_id"]),
-                "missing_image": path is None,
-            }
-        )
-    return result
-
-
-def list_review_images() -> list[dict]:
-    info = current_review_info()
-    if not info:
-        return []
-    checked = set(info.get("checked", []))
-    result = []
-    for row in read_rows(Path(info["working_csv"])):
-        path = find_image(row["img_id"], "review")
-        dimensions = image_dimensions(path) if path else (None, None)
-        result.append(
-            {
-                "img_id": row["img_id"],
-                "width": dimensions[0],
-                "height": dimensions[1],
-                "annotated": int(row["anno_num"] or 0) > 0,
-                "anno_num": int(row["anno_num"] or 0),
-                "checked": row["img_id"] in checked,
-                "flagged": False,
                 "missing_image": path is None,
             }
         )
@@ -690,7 +653,7 @@ def workspace_rotations(info: dict) -> dict[str, int]:
                     rotation = int(str(row.get("rotation_to_upright", "")).strip())
                 except ValueError:
                     continue
-                if img_id and rotation in {0, 90, 180, 270}:
+                if img_id and 0 <= rotation < 360:
                     result[img_id] = rotation
             return result
     except (OSError, csv.Error):
@@ -709,8 +672,8 @@ def encode_rotations(rotations: dict[str, int]) -> bytes:
 def set_workspace_rotation(mode: str, img_id: str, rotation: int) -> tuple[int, Path]:
     if mode not in {"train", "val"}:
         raise ApiError(HTTPStatus.BAD_REQUEST, "Góc xoay chỉ áp dụng cho train hoặc validation")
-    if rotation not in {0, 90, 180, 270}:
-        raise ApiError(HTTPStatus.BAD_REQUEST, "Góc xoay phải là 0, 90, 180 hoặc 270")
+    if not 0 <= rotation < 360:
+        raise ApiError(HTTPStatus.BAD_REQUEST, "Góc xoay phải là số nguyên từ 0 đến 359")
     info = workspace_info(mode)
     if not info:
         raise ApiError(HTTPStatus.NOT_FOUND, f"Chưa mở phiên đánh nhãn {mode}")
@@ -858,9 +821,6 @@ class RequestHandler(BaseHTTPRequestHandler):
             if mode in {"train", "val"}:
                 info = workspace_info(mode)
                 images = list_workspace_images(mode)
-            elif mode == "review":
-                info = current_review_info()
-                images = list_review_images()
             else:
                 raise ApiError(HTTPStatus.BAD_REQUEST, "Chế độ không hợp lệ")
             self.send_json(
@@ -872,7 +832,6 @@ class RequestHandler(BaseHTTPRequestHandler):
                     "workspace": info if mode in {"train", "val"} else None,
                     "rotation_csv_path": str(workspace_rotation_path(info)) if mode in {"train", "val"} and info else None,
                     "missing_fields_path": str(workspace_missing_fields_path(info)) if mode in {"train", "val"} and info else None,
-                    "review": info if mode == "review" else None,
                 },
             )
             return
@@ -993,54 +952,6 @@ class RequestHandler(BaseHTTPRequestHandler):
             width, height = image_dimensions(target)
             self.send_json(HTTPStatus.CREATED, {"status": "created", "img_id": name, "width": width, "height": height})
             return
-        if parsed.path == "/api/review/import":
-            name = Path(str(body.get("name", "import.csv"))).name
-            csv_text = str(body.get("csv_text", ""))
-            source_directory = str(body.get("source_directory", "")).strip()
-            if source_directory:
-                source_path = Path(source_directory).expanduser().resolve()
-                if not source_path.is_dir():
-                    raise ApiError(HTTPStatus.BAD_REQUEST, "Thư mục ảnh không tồn tại")
-                source_directory = str(source_path)
-            rows = parse_csv_text(csv_text)
-            session_id = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
-            session_dir = REVIEW_DIR / session_id
-            counter = 1
-            while session_dir.exists():
-                session_dir = REVIEW_DIR / f"{session_id}-{counter}"
-                counter += 1
-            session_dir.mkdir(parents=True)
-            original = session_dir / "original.csv"
-            working = session_dir / "reviewed.csv"
-            atomic_write(original, csv_text.lstrip("\ufeff").encode("utf-8"), make_backup=False)
-            atomic_write(working, encode_rows(rows), make_backup=False)
-            info = {
-                "session_id": session_dir.name,
-                "source_name": name,
-                "source_directory": source_directory,
-                "original_csv": str(original),
-                "working_csv": str(working),
-                "checked": [],
-                "created_at": datetime.now(timezone.utc).isoformat(),
-            }
-            atomic_write(CURRENT_REVIEW, json_bytes(info), make_backup=False)
-            missing = sum(1 for row in rows if find_image(row["img_id"], "review") is None)
-            self.send_json(HTTPStatus.CREATED, {"session": info, "rows": len(rows), "missing_images": missing})
-            return
-        if parsed.path == "/api/review/check":
-            info = current_review_info()
-            if not info:
-                raise ApiError(HTTPStatus.NOT_FOUND, "Chưa có phiên kiểm tra")
-            img_id = str(body.get("img_id", ""))
-            checked = set(info.get("checked", []))
-            if body.get("checked", True):
-                checked.add(img_id)
-            else:
-                checked.discard(img_id)
-            info["checked"] = sorted(checked)
-            atomic_write(CURRENT_REVIEW, json_bytes(info), make_backup=False)
-            self.send_json(HTTPStatus.OK, {"checked": img_id in checked})
-            return
         raise ApiError(HTTPStatus.NOT_FOUND, "Endpoint không tồn tại")
 
     def handle_put(self) -> None:
@@ -1088,8 +999,14 @@ class RequestHandler(BaseHTTPRequestHandler):
 def main() -> None:
     ensure_storage()
     host = "127.0.0.1"
-    port = 8765
-    server = ThreadingHTTPServer((host, port), RequestHandler)
+    port = int(os.environ.get("MCOCR_LABELER_PORT", "8766"))
+    try:
+        server = ExclusiveThreadingHTTPServer((host, port), RequestHandler)
+    except OSError as exc:
+        raise SystemExit(
+            f"Không thể mở http://{host}:{port}. "
+            "Ứng dụng có thể đang chạy trong một cửa sổ PowerShell khác."
+        ) from exc
     print(f"MC-OCR Label Studio: http://{host}:{port}")
     print("Direct train/validation workspaces write to the selected CSV paths.")
     try:
