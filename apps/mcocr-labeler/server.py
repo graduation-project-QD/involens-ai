@@ -410,6 +410,9 @@ def workspace_info(mode: str) -> dict | None:
 def save_workspace(mode: str, csv_path: Path, image_directory: Path) -> dict:
     configs = workspace_configs()
     previous = configs.get(mode, {}) if isinstance(configs.get(mode), dict) else {}
+    # Migrate the outgoing workspace before replacing the active selection.
+    if previous.get("csv_path"):
+        persist_workspace_completed(previous, workspace_completed_ids(previous))
     info = {
         "mode": mode,
         "csv_path": str(csv_path),
@@ -419,9 +422,42 @@ def save_workspace(mode: str, csv_path: Path, image_directory: Path) -> dict:
         else [],
         "opened_at": datetime.now(timezone.utc).isoformat(),
     }
+    info["completed"] = sorted(workspace_completed_ids(info))
+    persist_workspace_completed(info, set(info["completed"]))
     configs[mode] = info
-    atomic_write(WORKSPACE_CONFIG, json_bytes(configs), make_backup=False)
+    atomic_write(WORKSPACE_CONFIG, json_bytes(configs))
     return info
+
+
+def workspace_completed_path(info: dict) -> Path:
+    csv_path = Path(info["csv_path"])
+    return csv_path.with_name(f"{csv_path.stem}.completed.json")
+
+
+def workspace_completed_ids(info: dict) -> set[str]:
+    path = workspace_completed_path(info)
+    if not path.exists():
+        return set(info.get("completed", []))
+    try:
+        payload = json.loads(path.read_text(encoding="utf-8"))
+        values = payload["completed_images"]
+        if not isinstance(values, list) or not all(isinstance(value, str) for value in values):
+            raise ValueError("Invalid completed_images")
+    except (OSError, ValueError, KeyError, TypeError) as exc:
+        # Do not silently replace an unreadable progress file with an empty list.
+        raise ApiError(HTTPStatus.INTERNAL_SERVER_ERROR, f"Không đọc được trạng thái hoàn tất: {path}") from exc
+    return set(values)
+
+
+def persist_workspace_completed(info: dict, completed: set[str]) -> None:
+    path = workspace_completed_path(info)
+    if path.exists() and workspace_completed_ids(info) == completed:
+        return
+    atomic_write(path, json_bytes({
+        "version": 1,
+        "completed_images": sorted(completed),
+        "updated_at": datetime.now(timezone.utc).isoformat(),
+    }))
 
 
 def annotation_csv(mode: str) -> Path:
@@ -462,7 +498,7 @@ def list_workspace_images(mode: str) -> list[dict]:
     info = workspace_info(mode)
     if not info:
         return []
-    completed = set(info.get("completed", []))
+    completed = workspace_completed_ids(info)
     flagged = workspace_flagged_ids(info)
     rotations = workspace_rotations(info)
     result = []
@@ -737,15 +773,16 @@ def set_workspace_completed(mode: str, img_id: str, checked: bool) -> bool:
             raise ApiError(HTTPStatus.BAD_REQUEST, "Nhãn chưa hoàn chỉnh: " + "; ".join(issues[:6]))
         if img_id not in workspace_rotations(info):
             raise ApiError(HTTPStatus.BAD_REQUEST, "Ảnh chưa xác nhận chiều đọc")
-    completed = set(info.get("completed", []))
+    completed = workspace_completed_ids(info)
     if checked:
         completed.add(img_id)
     else:
         completed.discard(img_id)
+    persist_workspace_completed(info, completed)
     configs = workspace_configs()
     info["completed"] = sorted(completed)
     configs[mode] = info
-    atomic_write(WORKSPACE_CONFIG, json_bytes(configs), make_backup=False)
+    atomic_write(WORKSPACE_CONFIG, json_bytes(configs))
     return img_id in completed
 
 
@@ -799,7 +836,8 @@ class RequestHandler(BaseHTTPRequestHandler):
 
     def do_POST(self) -> None:
         try:
-            self.handle_post()
+            with WRITE_LOCK:
+                self.handle_post()
         except ApiError as exc:
             self.send_json(exc.status, {"error": exc.message})
         except Exception as exc:

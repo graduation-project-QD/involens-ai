@@ -1,5 +1,12 @@
 # Tóm tắt thay đổi giao diện ngày 26/09/2026
 
+## Cập nhật ngày 30/09/2026
+
+- Chuyển ảnh sẽ cuộn thanh bên phải lên đầu; lưu nhãn giữ nguyên zoom và không kéo giao diện về ảnh cũ khi người dùng đã chuyển ảnh.
+- Sửa lỗi mất dấu hoàn tất khi đổi CSV: lưu trạng thái riêng trong `<tên-csv>.completed.json`, tự chuyển trạng thái từ cấu hình phiên cũ và tạo bản sao lưu khi cập nhật.
+- Khôi phục 200 dấu hoàn tất Train từ bản trạng thái lúc 22:00, giữ 1 dấu mới: tổng cộng 201 ảnh. Nội dung CSV nhãn không thay đổi.
+- Kiểm tra backend: 21/21 bài đạt, bao gồm chuyển CSV rồi mở lại, khôi phục từ file trạng thái khi mất cấu hình phiên và bảo vệ file trạng thái bị lỗi.
+
 - Bổ sung kiểm tra các trường bắt buộc trước khi đánh dấu hoàn tất; hỗ trợ đánh dấu trường thực sự không xuất hiện trên hóa đơn.
 - Thêm Undo/Redo, tự động lưu bản nháp và khôi phục dữ liệu chưa lưu.
 - Thêm nút chuyển ảnh trước/sau, **Lưu và sang ảnh tiếp theo** cùng các phím tắt thao tác nhanh.

@@ -274,7 +274,7 @@ input:focus, textarea:focus, select:focus { border-color: var(--forest-2); box-s
 .stage-footer { min-height: 35px; display: flex; align-items: center; gap: 14px; padding: 0 14px; background: #262521; color: #9f9d95; font-size: 10px; white-space: nowrap; overflow-x: auto; }
 kbd { padding: 2px 5px; border: 1px solid #5e5c56; border-radius: 4px; background: #3c3b36; color: #e8e6de; }
 
-.inspector { overflow-y: auto; }
+.inspector { overflow-y: auto; overflow-anchor: none; scroll-behavior: auto; }
 .category-card, .region-editor, .regions-section, .save-panel { padding: 15px; border-bottom: 1px solid var(--line); }
 .id-badge, .count-badge { padding: 3px 7px; border-radius: 99px; background: #eceae3; color: var(--muted); font-size: 10px; }
 .category-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 7px; margin-top: 11px; }

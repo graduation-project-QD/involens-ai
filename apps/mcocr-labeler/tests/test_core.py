@@ -410,5 +410,70 @@ class AnnotationCoreTests(unittest.TestCase):
             server.BACKUP_DIR = original_backup_dir
 
 
+class CompletionPersistenceTests(unittest.TestCase):
+    def setUp(self) -> None:
+        self.temporary = tempfile.TemporaryDirectory()
+        self.addCleanup(self.temporary.cleanup)
+        self.root = Path(self.temporary.name)
+        from unittest.mock import patch
+        patcher = patch.multiple(
+            server,
+            WORKSPACE_CONFIG=self.root / "workspaces.json",
+            BACKUP_DIR=self.root / "backups",
+        )
+        patcher.start()
+        self.addCleanup(patcher.stop)
+        self.images = self.root / "images"
+        self.images.mkdir()
+        server.Image.new("RGB", (20, 30), "white").save(self.images / "receipt.jpg")
+        self.csv_a = self.root / "a.csv"
+        self.csv_b = self.root / "b.csv"
+        row = server.regions_to_row("receipt.jpg", [], 20, 30)
+        server.write_rows(self.csv_a, [row])
+        server.write_rows(self.csv_b, [row])
+
+    def test_legacy_completion_survives_workspace_switch_and_config_loss(self) -> None:
+        info = server.save_workspace("train", self.csv_a, self.images)
+        # Simulate a pre-migration installation with progress only in config.
+        server.workspace_completed_path(info).unlink()
+        info["completed"] = ["receipt.jpg"]
+        server.WORKSPACE_CONFIG.write_bytes(server.json_bytes({"train": info}))
+        server.save_workspace("train", self.csv_b, self.images)
+        self.assertFalse(server.list_workspace_images("train")[0]["checked"])
+        server.save_workspace("train", self.csv_a, self.images)
+        self.assertTrue(server.list_workspace_images("train")[0]["checked"])
+        server.WORKSPACE_CONFIG.unlink()
+        server.save_workspace("train", self.csv_a, self.images)
+        self.assertTrue(server.list_workspace_images("train")[0]["checked"])
+
+    def test_completion_and_uncheck_are_persisted_beside_csv(self) -> None:
+        row = server.regions_to_row("receipt.jpg", [{
+            "label": "ITEM_NAME", "text": "Tea", "line_item_id": 1,
+            "segmentation": [1, 1, 10, 1, 10, 5, 1, 5],
+        }], 20, 30)
+        server.write_rows(self.csv_a, [row])
+        info = server.save_workspace("train", self.csv_a, self.images)
+        server.set_workspace_missing_fields("train", "receipt.jpg", [
+            "QUANTITY:1", "UNIT_PRICE:1", "LINE_TOTAL:1",
+        ])
+        server.set_workspace_rotation("train", "receipt.jpg", 0)
+        server.set_workspace_completed("train", "receipt.jpg", True)
+        self.assertEqual(server.workspace_completed_ids(info), {"receipt.jpg"})
+        server.set_workspace_completed("train", "receipt.jpg", False)
+        server.save_workspace("train", self.csv_b, self.images)
+        server.save_workspace("train", self.csv_a, self.images)
+        self.assertFalse(server.list_workspace_images("train")[0]["checked"])
+        self.assertTrue(list(server.BACKUP_DIR.glob("a.completed.*.bak")))
+
+    def test_corrupt_progress_is_not_overwritten(self) -> None:
+        info = server.save_workspace("train", self.csv_a, self.images)
+        path = server.workspace_completed_path(info)
+        path.write_text("corrupt", encoding="utf-8")
+        with self.assertRaises(server.ApiError):
+            server.save_workspace("train", self.csv_b, self.images)
+        self.assertEqual(path.read_text(encoding="utf-8"), "corrupt")
+        self.assertEqual(server.workspace_info("train")["csv_path"], str(self.csv_a))
+
+
 if __name__ == "__main__":
     unittest.main()
