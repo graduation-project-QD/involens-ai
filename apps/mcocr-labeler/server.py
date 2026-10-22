@@ -504,11 +504,23 @@ def open_workspace(mode: str, csv_value: str, directory_value: str) -> tuple[dic
 
     rows = read_rows(csv_path)
     csv_names = {row["img_id"] for row in rows}
-    image_names = {
-        path.name
-        for path in image_directory.iterdir()
-        if path.is_file() and path.suffix.lower() in IMAGE_SUFFIXES
-    }
+
+    def image_names_in(directory: Path) -> set[str]:
+        return {
+            path.name
+            for path in directory.iterdir()
+            if path.is_file() and path.suffix.lower() in IMAGE_SUFFIXES
+        }
+
+    image_names = image_names_in(image_directory)
+    if not image_names:
+        # ZIP downloads commonly wrap the image folder in another folder.
+        children = [path for path in image_directory.iterdir() if path.is_dir()]
+        if len(children) == 1:
+            nested_names = image_names_in(children[0])
+            if nested_names:
+                image_directory = children[0]
+                image_names = nested_names
     if csv_path.stat().st_size == 0:
         if not image_names:
             raise ApiError(HTTPStatus.BAD_REQUEST, "Thư mục ảnh không có ảnh được hỗ trợ")

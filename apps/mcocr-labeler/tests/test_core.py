@@ -258,6 +258,36 @@ class AnnotationCoreTests(unittest.TestCase):
         finally:
             server.WORKSPACE_CONFIG = original_config
 
+    def test_open_workspace_resolves_single_nested_image_directory(self) -> None:
+        from unittest.mock import patch
+
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            outer = root / "val_images"
+            nested = outer / "val_images"
+            nested.mkdir(parents=True)
+            (nested / "receipt.jpg").touch()
+            csv_path = root / "labels.csv"
+            csv_path.write_bytes(server.encode_rows([{
+                "img_id": "receipt.jpg", "anno_polygons": "[]",
+                "anno_texts": "", "anno_labels": "", "anno_num": "0",
+                "anno_image_quality": "", "anno_line_item_ids": "[]",
+            }]))
+            original_csv = csv_path.read_bytes()
+            with patch.object(server, "WORKSPACE_CONFIG", root / "workspaces.json"):
+                info, count = server.open_workspace("val", str(csv_path), str(outer))
+                self.assertEqual(count, 1)
+                self.assertEqual(Path(info["image_directory"]), nested)
+                self.assertEqual(server.find_image("receipt.jpg", "val"), nested / "receipt.jpg")
+                self.assertEqual(csv_path.read_bytes(), original_csv)
+                (nested / "receipt.jpg").unlink()
+                (nested / "wrong.jpg").touch()
+                with self.assertRaises(server.ApiError):
+                    server.open_workspace("val", str(csv_path), str(outer))
+                (outer / "another_folder").mkdir()
+                with self.assertRaises(server.ApiError):
+                    server.open_workspace("val", str(csv_path), str(outer))
+
     def test_open_workspace_initializes_empty_csv_from_images(self) -> None:
         original_config = server.WORKSPACE_CONFIG
         try:
