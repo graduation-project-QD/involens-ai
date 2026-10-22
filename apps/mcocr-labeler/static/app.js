@@ -33,11 +33,15 @@ const state = {
   redoStack: [],
   lineItemId: 1,
   loadRequestId: 0,
+  imageRequestId: 0,
+  editorSessionId: 0,
+  editRevision: 0,
 };
 
 const $ = (selector) => document.querySelector(selector);
 const els = {
   tabs: [...document.querySelectorAll(".mode-tab")],
+  inspector: $(".inspector"),
   workspaceImport: $("#workspaceImport"),
   workspaceCsvPath: $("#workspaceCsvPath"),
   workspaceImageDir: $("#workspaceImageDir"),
@@ -108,6 +112,29 @@ const els = {
   toast: $("#toast"),
 };
 
+function restoreInspectorScroll(scrollTop) {
+  if (!els.inspector) return;
+  const restore = () => { els.inspector.scrollTop = scrollTop; };
+  restore();
+  requestAnimationFrame(() => {
+    restore();
+    requestAnimationFrame(restore);
+  });
+}
+
+let inspectorPointerScrollTop = null;
+els.inspector?.addEventListener("pointerdown", () => {
+  inspectorPointerScrollTop = els.inspector.scrollTop;
+});
+els.inspector?.addEventListener("click", (event) => {
+  const control = event.target.closest("button, a");
+  if (inspectorPointerScrollTop == null) return;
+  const scrollTop = inspectorPointerScrollTop;
+  inspectorPointerScrollTop = null;
+  control?.blur();
+  restoreInspectorScroll(scrollTop);
+});
+
 async function api(url, options = {}) {
   const response = await fetch(url, {
     ...options,
@@ -127,19 +154,45 @@ function showToast(message, isError = false) {
   showToast.timer = setTimeout(() => els.toast.classList.remove("visible"), 3000);
 }
 
-function setDirty(value) {
+function setDirty(value, { refreshImageList = true, validate = true } = {}) {
+  if (value) state.editRevision += 1;
   state.dirty = value;
   els.saveState.classList.toggle("dirty", value);
   els.saveState.classList.remove("error");
   els.saveState.querySelector("span:last-child").textContent = value ? "Có thay đổi chưa lưu" : "Đã đồng bộ";
   if (value) scheduleDraftSave();
-  renderImageList();
-  validateCurrent();
+  if (refreshImageList) renderImageList();
+  else updateCurrentImageDirtyIndicator(value);
+  if (validate) validateCurrent();
+}
+
+function updateCurrentImageDirtyIndicator(value) {
+  const activeItem = els.imageList.querySelector(".image-item.active");
+  const status = activeItem?.querySelector(".item-status");
+  if (!status) return;
+  status.classList.remove("empty", "saved", "dirty", "checked", "missing");
+  if (value) {
+    status.classList.add("dirty");
+    status.title = "Có thay đổi chưa lưu";
+    return;
+  }
+  const statusClass = state.current?.missing_image
+    ? "missing"
+    : state.current?.checked
+      ? "checked"
+      : state.current?.annotated
+        ? "saved"
+        : "empty";
+  status.classList.add(statusClass);
+}
+
+function draftStorageKeyFor(mode, csvPath, imgId) {
+  if (!mode || !csvPath || !imgId) return null;
+  return `mcocr-labeler:draft:${mode}:${csvPath}:${imgId}`;
 }
 
 function draftStorageKey() {
-  if (!state.current || !state.csvPath) return null;
-  return `mcocr-labeler:draft:${state.mode}:${state.csvPath}:${state.current.img_id}`;
+  return draftStorageKeyFor(state.mode, state.csvPath, state.current?.img_id);
 }
 
 function scheduleDraftSave() {
@@ -177,6 +230,21 @@ function clearDraft() {
   const key = draftStorageKey();
   if (key) localStorage.removeItem(key);
   els.draftStatus.textContent = "Bản nháp tự động: đã đồng bộ với CSV";
+}
+
+function clearMatchingDraft(saveContext) {
+  const key = draftStorageKeyFor(saveContext.mode, saveContext.csvPath, saveContext.imgId);
+  if (!key) return;
+  try {
+    const draft = JSON.parse(localStorage.getItem(key) || "null");
+    if (!draft) return;
+    const sameRegions = JSON.stringify(draft.regions) === JSON.stringify(saveContext.regions);
+    const sameMissingFields = JSON.stringify([...(draft.missing_fields || [])].sort())
+      === JSON.stringify([...saveContext.missingFields].sort());
+    if (sameRegions && sameMissingFields) localStorage.removeItem(key);
+  } catch (_) {
+    // A malformed draft is left untouched so it can be inspected manually.
+  }
 }
 
 function editorSnapshot() {
@@ -323,13 +391,18 @@ function escapeHtml(text) {
 }
 
 async function selectImage(image, force = false) {
+  const requestId = ++state.imageRequestId;
+  const requestedMode = state.mode;
   if (state.dirty && !force) saveDraftNow();
   if (image.missing_image) {
     showToast(`Không tìm thấy ảnh ${image.img_id}. Hãy kiểm tra thư mục ảnh.`, true);
     return;
   }
   try {
-    const annotation = await api(`/api/annotation?mode=${state.mode}&img_id=${encodeURIComponent(image.img_id)}`);
+    const annotation = await api(`/api/annotation?mode=${requestedMode}&img_id=${encodeURIComponent(image.img_id)}`);
+    if (requestId !== state.imageRequestId || requestedMode !== state.mode) return;
+    state.editorSessionId += 1;
+    state.editRevision = 0;
     state.current = {
       ...image,
       width: annotation.width,
@@ -352,7 +425,7 @@ async function selectImage(image, force = false) {
       .filter((region) => isLineItemLabel(region.label))
       .map((region) => positiveInteger(region.line_item_id, 0));
     state.lineItemId = Math.max(1, ...existingItemIds);
-    const rotationKey = `${state.mode}:${image.img_id}`;
+    const rotationKey = `${requestedMode}:${image.img_id}`;
     state.rotation = state.rotationsByImage.has(rotationKey)
       ? state.rotationsByImage.get(rotationKey)
       : (image.rotation_confirmed ? image.rotation_to_upright : 0);
@@ -371,16 +444,26 @@ async function selectImage(image, force = false) {
     updateImageMeta();
     els.emptyStage.classList.add("hidden");
     els.viewport.classList.remove("hidden");
-    els.image.src = `/api/image/${encodeURIComponent(image.img_id)}?mode=${state.mode}&v=${Date.now()}`;
+    const imageUrl = `/api/image/${encodeURIComponent(image.img_id)}?mode=${requestedMode}&v=${Date.now()}`;
     await new Promise((resolve, reject) => {
-      els.image.onload = resolve;
-      els.image.onerror = reject;
+      const cleanup = () => {
+        els.image.removeEventListener("load", handleLoad);
+        els.image.removeEventListener("error", handleError);
+      };
+      const handleLoad = () => { cleanup(); resolve(); };
+      const handleError = () => { cleanup(); reject(new Error(`Không thể tải ảnh ${image.img_id}`)); };
+      els.image.addEventListener("load", handleLoad);
+      els.image.addEventListener("error", handleError);
+      els.image.src = imageUrl;
     });
+    if (requestId !== state.imageRequestId || requestedMode !== state.mode) return;
     els.svg.setAttribute("viewBox", `0 0 ${annotation.width} ${annotation.height}`);
     fitImage();
     renderAll();
+    els.inspector.scrollTop = 0;
     if (draft) showToast("Đã khôi phục bản nháp chưa lưu của ảnh này");
   } catch (error) {
+    if (requestId !== state.imageRequestId || requestedMode !== state.mode) return;
     showToast(error.message, true);
   }
 }
@@ -854,26 +937,59 @@ function validateCurrent() {
 
 async function saveAnnotation() {
   if (!validateCurrent()) return false;
+  const saveContext = {
+    mode: state.mode,
+    csvPath: state.csvPath,
+    imgId: state.current.img_id,
+    width: state.current.width,
+    height: state.current.height,
+    regions: structuredClone(state.regions),
+    missingFields: [...state.missingFields],
+    editorSessionId: state.editorSessionId,
+    editRevision: state.editRevision,
+  };
   try {
     const payload = await api("/api/annotation", {
       method: "PUT",
       body: JSON.stringify({
-        mode: state.mode,
-        img_id: state.current.img_id,
-        width: state.current.width,
-        height: state.current.height,
-        regions: state.regions,
-        missing_fields: [...state.missingFields],
+        mode: saveContext.mode,
+        img_id: saveContext.imgId,
+        width: saveContext.width,
+        height: saveContext.height,
+        regions: saveContext.regions,
+        missing_fields: saveContext.missingFields,
       }),
     });
-    setDirty(false);
-    clearDraft();
-    showToast(`Đã lưu ${payload.anno_num} vùng vào CSV`);
-    await loadState(state.current.img_id);
+    const savedImage = state.mode === saveContext.mode
+      ? state.images.find((image) => image.img_id === saveContext.imgId)
+      : null;
+    if (savedImage) {
+      savedImage.annotated = payload.anno_num > 0;
+      savedImage.anno_num = payload.anno_num;
+    }
+    const sameEditor = state.mode === saveContext.mode
+      && state.current?.img_id === saveContext.imgId
+      && state.editorSessionId === saveContext.editorSessionId;
+    const unchangedSinceSave = sameEditor && state.editRevision === saveContext.editRevision;
+    if (unchangedSinceSave) {
+      if (state.current) {
+        state.current.annotated = payload.anno_num > 0;
+        state.current.anno_num = payload.anno_num;
+      }
+      setDirty(false);
+      clearDraft();
+    } else {
+      clearMatchingDraft(saveContext);
+      renderImageList();
+    }
+    showToast(`Đã lưu ${payload.anno_num} vùng của ${saveContext.imgId}`);
     return true;
   } catch (error) {
     showToast(error.message, true);
-    setFailure("Lưu thất bại");
+    const sameEditor = state.mode === saveContext.mode
+      && state.current?.img_id === saveContext.imgId
+      && state.editorSessionId === saveContext.editorSessionId;
+    if (sameEditor) setFailure("Lưu thất bại");
     return false;
   }
 }
@@ -939,6 +1055,7 @@ async function toggleFlag() {
 
 async function confirmRotation() {
   if (!state.current) return;
+  const inspectorScrollTop = els.inspector?.scrollTop ?? 0;
   try {
     const result = await api("/api/workspace/rotation", {
       method: "POST",
@@ -963,6 +1080,8 @@ async function confirmRotation() {
     showToast(`Đã lưu chiều đọc ${result.rotation_to_upright}°`);
   } catch (error) {
     showToast(error.message, true);
+  } finally {
+    restoreInspectorScroll(inspectorScrollTop);
   }
 }
 
@@ -1013,6 +1132,7 @@ async function switchMode(mode) {
   if (state.dirty) saveDraftNow();
   state.mode = mode;
   state.loadRequestId += 1;
+  state.imageRequestId += 1;
   state.images = [];
   state.csvPath = "";
   state.rotationCsvPath = "";
@@ -1190,9 +1310,12 @@ els.regionText.addEventListener("input", () => {
   const region = selectedRegion();
   if (!region) return;
   region.text = els.regionText.value;
-  setDirty(true);
-  renderRegions();
-  renderRegionListOnly();
+  setDirty(true, { refreshImageList: false, validate: false });
+  const regionIndex = state.regions.indexOf(region);
+  const regionRow = els.regionList.children[regionIndex];
+  const regionText = regionRow?.querySelector("span");
+  if (regionText) regionText.textContent = region.text || "Chưa nhập nội dung";
+  scheduleTextValidation();
 });
 els.regionText.addEventListener("focus", () => {
   if (selectedRegion()) pushHistory();
@@ -1231,6 +1354,11 @@ function renderRegionListOnly() {
     item.querySelector("span").textContent = region.text || "Chưa nhập nội dung";
   });
   validateCurrent();
+}
+
+function scheduleTextValidation() {
+  clearTimeout(scheduleTextValidation.timer);
+  scheduleTextValidation.timer = setTimeout(validateCurrent, 120);
 }
 
 [els.coordX, els.coordY, els.coordW, els.coordH].forEach((input) => input.addEventListener("change", updateSelectedRectangle));

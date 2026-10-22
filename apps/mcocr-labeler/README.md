@@ -33,6 +33,7 @@ python server.py
 - Hard-to-read image flags: `<csv-name>.flagged.json`, stored beside the selected train/validation CSV
 - Confirmed reading orientation: `mcocr_train_rotation.csv` or `mcocr_val_rotation.csv`, stored beside the selected annotation CSV
 - Fields explicitly absent from a receipt: `<csv-name>.missing_fields.json`, stored beside the selected annotation CSV
+- Completion marks: `<csv-name>.completed.json`, stored beside each CSV and preserved when switching workspaces. Existing marks in `data/annotation_workspaces.json` are migrated automatically. Keep this sidecar when moving the annotation CSV; changes are backed up in `data/backups`.
 - Unsaved per-image drafts: browser local storage; restored automatically after refresh or reopening the app
 - Automatic CSV backups: `data/backups/`
 
