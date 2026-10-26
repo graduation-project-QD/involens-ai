@@ -2,7 +2,7 @@ import os
 
 
 # Connection settings shared with the Spring application.
-RABBITMQ_HOST = os.getenv("SPRING_RABBITMQ_HOST", "localhost")
+RABBITMQ_HOST = os.getenv("SPRING_RABBITMQ_HOST", "13.239.112.70")
 RABBITMQ_PORT = int(os.getenv("SPRING_RABBITMQ_PORT", "5672"))
 RABBITMQ_USERNAME = os.getenv("SPRING_RABBITMQ_USERNAME", "involens")
 RABBITMQ_PASSWORD = os.getenv("SPRING_RABBITMQ_PASSWORD", "involens_rabbit_local_2026")
