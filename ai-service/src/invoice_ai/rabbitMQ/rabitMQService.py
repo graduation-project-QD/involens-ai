@@ -84,11 +84,6 @@ hàm này  dùng để nhận message từ rabbitMQ,
 khi có hàm xử lý chỉ import vào gọi hàm xử lý trong hàm này là đc nhé 
 """
 def receive_messages() -> None:
-    """Map request JSON to a DTO and log its fields before acknowledging.
-
-    Failed decoding, mapping or logging requeues the message. Consumption
-    remains continuous and the connection closes when the function exits.
-    """
     logger.info("Starting RabbitMQ request message consumption.")
     if not config.RABBITMQ_ENABLED:
         logger.error("Cannot consume: RabbitMQ integration is disabled.")
