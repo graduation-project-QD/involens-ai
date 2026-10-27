@@ -1,8 +1,48 @@
+# 0. Revision v2 (2026-10-11)
+
+Bản v1 (2026-09-20) được lưu tại `docs/ai_implementation_plan_v1_backup_2026-10-11.md`. Revision này cập nhật kế hoạch theo dữ liệu nhóm tự gán nhãn và ba quyết định phạm vi của người dùng. Khi một đoạn cũ còn sót mâu thuẫn với mục 0, **mục 0 là nguồn chuẩn**. Kế hoạch thực thi từng bước (B1–B11) nằm ở `docs/ke_hoach_ocr_layoutxlm_2026-10-10.md`.
+
+## Quyết định phạm vi đã chốt (người dùng, 2026-10-11)
+
+| ID | Quyết định | Hệ quả chính |
+|---|---|---|
+| D1 | **Đưa dòng hàng (line items) vào phạm vi MVP.** Tên trường theo nhãn đã gán: cấp hóa đơn `SELLER, ADDRESS, TIMESTAMP, TOTAL_COST`; dòng hàng `ITEM_NAME, QUANTITY, UNIT_PRICE, LINE_TOTAL` (JSON viết thường: `seller, address, timestamp, total_cost, item_name, quantity, unit_price, line_total`) | 17 nhãn BIO; gom dòng hàng ở hậu xử lý; contract API v2 (cần B xác nhận); thêm chuẩn hóa và metric cho dòng hàng |
+| D2 | **VietOCR là lõi của MVP**: PaddleOCR chỉ detection, VietOCR recognition (fine-tune trên crop GT của train) | A.2 không còn là extension; recognition của PaddleOCR chỉ là số tham khảo CER |
+| D3 | **Rule baseline có thêm luật đơn giản cho dòng hàng** | Baseline đủ 4 trường cấp hóa đơn + dòng hàng, cùng OCR/gom nhóm/chuẩn hóa với LayoutXLM |
+
+## Thay đổi so với v1
+
+| Mục | v1 | v2 |
+|---|---|---|
+| Dữ liệu (§8, T01/T04) | Nhãn gốc MC-OCR, 4 trường, loader T04 | `dataset_hoadon/dataset_merge`: nhóm tự gán 8 nhãn + `line_item_id`, góc xoay, trường không xuất hiện; 1.368 ảnh sau khi loại 123 ảnh khó đọc. Loader `invoice_ai/kie/data.py` |
+| Split (§8.3, T06) | 70/15/15 (`t06_v1`) | **80/10/10**: train 1.094 / val 138 / test 136 (`dataset_split_80_10_10`, seed 42); gom ảnh cùng hóa đơn theo nội dung (21 nhóm), phân tầng theo cửa hàng. `t06_v1` không còn dùng cho KIE |
+| Tiền xử lý (§9, T07) | Orientation/deskew tắt, ±5° | **Bật** theo bằng chứng B4: đúng hướng 100% (train/val), MAE 0,46°, khử nghiêng tới ±20°, kiểm tra lật 180°. Train dùng ảnh thẳng theo góc GT (`dataset_upright_v1`); val/test dùng góc tự đoán |
+| OCR (§10–11, T10–T11) | PaddleOCR det+rec `vi`; CER toàn trang nếu có GT | PaddleOCR det (tune recall theo nhãn) + VietOCR rec. Chỉ có transcript cho vùng có nhãn → đo recall detection theo nhãn và CER trên crop GT. Cache T10 cũ (241 ảnh, rec latin, ảnh chưa xoay) không dùng |
+| KIE data (§13, T15–T16) | 9 nhãn, box chung theo dòng | 17 nhãn; box word theo vị trí ký tự; BIO theo từng box GT; ngưỡng 0,5/0,2; oracle view. T15 đã có code (`kie/bio.py`) |
+| Hậu xử lý (§15, T17) | Ghép company/address | + gom dòng hàng (neo LINE_TOTAL + DP; 98,4% ảnh test đúng toàn bộ khi dùng box GT). Đã có code (`kie/grouping.py`) |
+| Train (§14, T18) | LR 2e-5, ≤ 15 epoch, 1 seed; chọn theo macro F1 4 trường | LR 3e-5 (thử 2e-5/5e-5), ≤ 40 epoch, early stopping, 3 seed cho cấu hình chốt; chọn checkpoint theo trung bình macro F1 trường hóa đơn và F1 dòng hàng |
+| Thí nghiệm (§18) | E01–E05 | E1 det + VietOCR gốc; E2 det + VietOCR fine-tune; E3 oracle; baseline luật trên cùng OCR của E2; SROIE chỉ 4 trường hóa đơn |
+
+## Trạng thái thực hiện (2026-10-11)
+
+| Bước (kế hoạch mới) | Task v1 tương ứng | Trạng thái |
+|---|---|---|
+| Rà soát/sửa nhãn | T04 (thay thế) | ✅ `experiments/reports/label_audit_2026-10-10/` |
+| B1 split 80/10/10 | T06 (thay thế) | ✅ |
+| B3 ảnh thẳng train/val | T07 | ✅ `dataset_hoadon/dataset_upright_v1` |
+| B4 tự xoay | T07 | ✅ `experiments/reports/orientation_v1_2026-10-10/` |
+| Gán BIO (code + pilot) | T15 | 🔄 code xong, chờ OCR mới |
+| Gom nhóm trường + dòng hàng | T17 | 🔄 gom nhóm xong; còn BIO repair/ghép span từ dự đoán |
+| B5 tune detector | T10/T11 | ✅ `experiments/reports/detection_v1_2026-10-11/`: `C1920_b0.2_t0.15` (cắt nền, cạnh dài 1920, ngưỡng 0,2/0,15); val QUANTITY 91,6%, 99,75% sau suy luận `line_total/unit_price`; nhãn khác 98,7–100% |
+| B7 VietOCR fine-tune | mới (D2) | ⏳ cần GPU |
+| B8–B11 BIO, tokenize, train, giải mã | T15–T18 | ⏳ |
+| Rule baseline (D3) | T13 | ⏳ |
+
 # 1. Project Understanding
 
 ## Mục tiêu và cơ sở lập kế hoạch
 
-MEMBER A triển khai AI cho hệ thống Intelligent Document Processing: nhận ảnh/PDF receipt, OCR, trích xuất company/address/date/total, chuẩn hóa và trả confidence để Backend validation và human review. MVP dùng **PaddleOCR + LayoutXLM fine-tuned** và có baseline PaddleOCR + keyword/regex/rule. Kế hoạch này chỉ thiết kế, không chứa code triển khai.
+MEMBER A triển khai AI cho hệ thống Intelligent Document Processing: nhận ảnh/PDF receipt, OCR, trích xuất 4 trường cấp hóa đơn (seller/address/timestamp/total_cost) và các dòng hàng (item_name/quantity/unit_price/line_total), chuẩn hóa và trả confidence để Backend validation và human review. MVP dùng **PaddleOCR detection + VietOCR recognition + LayoutXLM fine-tuned** và có baseline cùng OCR + keyword/regex/rule (v2, mục 0). Kế hoạch này chỉ thiết kế, không chứa code triển khai.
 
 Nguồn chính là `Invoice_IDP_Pipeline_v1_huong-ban-dau_+_phan-mo-rong.docx`, đã đọc toàn bộ mục 0–13, phần mở rộng A–D, các bảng, header/footer và comment. Không dùng các DOCX tên gần giống để thay thế. Ký hiệu **D§** chỉ mục trong DOCX; **DA.n/DC** chỉ phần mở rộng; **Cmt** chỉ comment. Yêu cầu người dùng trong file văn bản đi kèm quyết định phạm vi đầu ra và chọn LayoutXLM. Comment trong DOCX là góp ý cần phân tích, không tự động thành nhiệm vụ mới. DOCX gốc không bị sửa.
 
@@ -19,8 +59,8 @@ Dataset manifest/split cố định; OCR cache và CER/WER; baseline; LayoutXLM 
 | Hạng mục | Trách nhiệm A | Căn cứ và ranh giới |
 |---|---|---|
 | MC-OCR 2021, SROIE | Inspection, thống kê, fixed split, loader, mapping, processed data | D§6, §9; QA label cùng B trong Week 1–2 |
-| Preprocessing, PaddleOCR | Chuẩn bị ảnh, OCR adapter, text/polygon/bbox/confidence, CER/WER | D§2.2, §9, §12.1; không train OCR từ đầu |
-| Rule baseline | Company/address/date/total từ OCR, đánh giá đối chứng | D§2.2, §9 |
+| Preprocessing, OCR | Chuẩn bị ảnh, xoay/khử nghiêng, PaddleOCR detection, VietOCR recognition (fine-tune trên crop GT train), text/polygon/bbox/confidence, recall detection và CER | D§2.2, §9, §12.1; v2 D2; không train OCR từ đầu |
+| Rule baseline | 4 trường cấp hóa đơn + luật đơn giản cho dòng hàng, đánh giá đối chứng | D§2.2, §9; v2 D3 |
 | LayoutXLM | Conversion, alignment, fine-tune, chọn checkpoint, inference/reconstruction | Người dùng yêu cầu; mâu thuẫn tên ở D§2.2 được giữ trong mục 4 |
 | Normalization/confidence | Raw/normalized, date/VND, warnings, field score, threshold cơ bản | D§2.2, §9, §12.2 |
 | Evaluation | OCR/KIE riêng, field P/R/F1/EM, attribution, GT-OCR diagnostic nếu khả thi | D§12.1 |
@@ -30,14 +70,14 @@ Dataset manifest/split cố định; OCR cache và CER/WER; baseline; LayoutXLM 
 
 **B sở hữu:** Spring Boot, PostgreSQL/Flyway, MinIO/S3, upload công khai, RabbitMQ/worker, state machine/retry/idempotency, persistence, validation nghiệp vụ, review/edit/approve/reject, audit, toàn bộ frontend/dashboard. A hỗ trợ fixtures, lỗi AI, semantics confidence và latency. Không giao A viết Review UI chỉ vì Week 5 ghi như vậy.
 
-Ngoài scope: line items, nhiều loại chứng từ, tích hợp ERP cụ thể, fraud/signature/tax authority, Kubernetes, train OCR foundation, production multilingual. CORD/FUNSD chỉ tham khảo; không lập nhánh train bắt buộc. Khảo sát thị trường trong Cmt thuộc thảo luận báo cáo chung, không phải module AI hay task implementation mới.
+Ngoài scope: nhiều loại chứng từ, tích hợp ERP cụ thể, fraud/signature/tax authority, Kubernetes, train OCR foundation, production multilingual. CORD/FUNSD chỉ tham khảo; không lập nhánh train bắt buộc. Khảo sát thị trường trong Cmt thuộc thảo luận báo cáo chung, không phải module AI hay task implementation mới.
 
 # 3. MVP vs Extension
 
 | MVP phải có | Sau MVP | Chuẩn bị sớm không chặn MVP |
 |---|---|---|
-| MC-OCR train/val/test, OCR CER/WER, rule baseline, LayoutXLM, 4 fields | A.1 ensemble theo field | Interface extractor và output chung |
-| PaddleOCR cố định | A.2 VietOCR vs PaddleOCR | Lưu OCR cache, thông tin crop và phiên bản |
+| Dataset tự gán nhãn train/val/test 80/10/10, recall detection + CER recognition, rule baseline (hóa đơn + dòng hàng), LayoutXLM, 8 nhãn + dòng hàng | A.1 ensemble theo field | Interface extractor và output chung |
+| PaddleOCR detection + VietOCR recognition cố định (v2 D2) | A.2 (đã chuyển vào MVP theo D2) | Lưu OCR cache, thông tin crop và phiên bản |
 | Một model KIE chính | A.3 LiLT + PhoBERT | Version hóa tokenizer/label map/processed data |
 | Score field và threshold cơ bản trên validation; báo cáo điểm threshold cố định | A.4 đường cong sâu từ operational logs, calibration nếu cần | Giữ confidence, model version, liên kết corrections phía B |
 | Evaluation MC-OCR và kế hoạch benchmark SROIE | A.5 wild labeling/evaluation | Thu thập ảnh cùng B từ Week 1–2 |
@@ -54,7 +94,7 @@ MVP gate: inference thật end-to-end, raw/normalized/confidence/warnings đúng
 | Q02 — D§9 vs Week 5 | WBS giao A AI, B frontend; Week 5 giao A Review UI | Mất thời gian train/evaluation | A làm warnings/error analysis/integration; B làm UI; timeline mục 22 là đề xuất điều chỉnh công khai |
 | Q03 — D§9 và Week 6 | Week 6 nhiều task software, không ghi AI owner; Week 8–12 nói A hỗ trợ | Dễ biến thời gian trống thành frontend | A dùng Week 6 kiểm thử AI, threshold, SROIE; B giữ software |
 | Q04 — D§1.3/§6/§9 | SROIE vừa được giao vừa có điều kiện thời gian | Tiêu chí nghiệm thu khác nhau | A/B chốt chế độ benchmark ở T02; phân biệt prepared, executed, deferred |
-| Q05 — D§0/§2 | 4–6 fields nhưng chỉ định nghĩa rõ 4 | Thiếu labels/metrics/schema cho field 5–6 | Freeze 4 field; thêm field là thay đổi scope có mapping/GT riêng |
+| Q05 — D§0/§2 | 4–6 fields nhưng chỉ định nghĩa rõ 4 | Thiếu labels/metrics/schema cho field 5–6 | **v2:** 4 trường cấp hóa đơn + 4 trường dòng hàng (D1), có GT riêng từ dataset tự gán nhãn |
 | Q06 — D§6.5 | Nói GT có sẵn, chưa chỉ file, alignment và coverage | Có thể không đủ supervision line/token hoặc OCR toàn trang | T01/T04 kiểm tra thực tải; không đo OCR toàn trang bằng chuỗi 4 field |
 | Q07 — D§6.1–6.2 | SROIE nêu 600/400; bản phân phối có thể khác | Báo cáo sai N/split | Lấy số từ manifest thực, giữ official split của bản dùng; không ép N từ overview |
 | Q08 — D§3.4 vs §8/§11 | Output dictionary `value` khác envelope `fields`; thiếu raw/normalized/warning/version | B không persist/map nhất quán | Contract đề xuất mục 19; freeze trước service, Shared T03 |
@@ -66,7 +106,9 @@ MVP gate: inference thật end-to-end, raw/normalized/confidence/warnings đúng
 | Q14 — D§10 Week 3–4 | Conversion+fine-tune tuần 3, evaluation+API tuần 4 phụ thuộc GT/runtime chưa kiểm chứng | Timeline lạc quan | Đặt gates dữ liệu/runtime Week 1–2; training nhỏ trước full; dành Week 5–6 sửa lỗi, không thêm extension |
 | Q15 — DC | Ví dụ chống trùng `document_id + attempt` chưa giải thích retry logic | Mỗi attempt khác nhau vẫn có thể tạo nhiều kết quả nghiệp vụ | B định nghĩa logical job + model/input version và atomic persistence; A echo identifiers, không tự sửa DB |
 | Q16 — D§12 | Không có target F1/CER/latency/review residual cụ thể | Không thể hứa pass quality/SLA bằng số tự đặt | A/B chốt mục tiêu sau baseline validation, trước test; báo cáo thực tế dù không thắng baseline |
-| Q17 — DA.2/DA.3 | VietOCR recognition cần detector/crop; LiLT+PhoBERT không bảo đảm ghép checkpoint trực tiếp | So sánh không công bằng, phát sinh R&D | Chỉ extension; feasibility gate và protocol riêng |
+| Q17 — DA.2/DA.3 | VietOCR recognition cần detector/crop; LiLT+PhoBERT không bảo đảm ghép checkpoint trực tiếp | So sánh không công bằng, phát sinh R&D | **v2:** VietOCR vào MVP (D2), dùng crop từ PaddleOCR detection; LiLT+PhoBERT vẫn là extension |
+| Q18 — dataset tự gán nhãn vs §2/contract v1 | Dataset có dòng hàng trong khi v1 để line items ngoài scope | Contract/metric/chuẩn hóa thiếu | **Đã chốt D1:** dòng hàng vào MVP; contract v2 cần B xác nhận |
+| Q19 — nhãn chỉ phủ 8 loại trường | Chữ ngoài box GT chưa được gán nhãn riêng | Quy tắc O của §8.2 | **v2:** nhãn phủ toàn bộ các vùng thuộc 8 loại trường (đã rà soát), nên chữ OCR ngoài box GT gán O; trường không có trên hóa đơn ghi trong `missing_fields.json` |
 
 Các comment về tên đề tài, thị trường, worker, model, augmentation và confidence đã được xem xét. Không xem comment là yêu cầu xây thêm tính năng. Q01 đã có quyết định model từ người dùng; Q02 đã có ranh giới scope. Q06, Q11–13 và Q16 vẫn cần bằng chứng hoặc chốt khi triển khai.
 
@@ -74,13 +116,15 @@ Các comment về tên đề tài, thị trường, worker, model, augmentation 
 
 ```mermaid
 flowchart LR
-  A[Worker gửi Image/PDF] --> B[Decode/render và preprocessing]
-  B --> C[PaddleOCR]
-  C --> D[Text polygon bbox OCR score]
-  B --> E[Ảnh cho visual encoder]
-  D --> F[LayoutXLM KIE]
+  A[Worker gửi Image/PDF] --> B[Decode/render, EXIF]
+  B --> B2[Tự xoay 0/90/180/270 + kiểm tra lật + khử nghiêng]
+  B2 --> C[PaddleOCR detection]
+  C --> C2[VietOCR recognition trên crop]
+  C2 --> D[Text polygon bbox OCR score]
+  B2 --> E[Ảnh cho visual encoder]
+  D --> F[LayoutXLM KIE 17 nhãn BIO]
   E --> F
-  F --> G[Token entity field reconstruction]
+  F --> G[Ghép span + gom trường và dòng hàng]
   G --> H[Normalization]
   H --> I[Field confidence và warnings]
   I --> J[FastAPI response]
@@ -95,10 +139,11 @@ LayoutXLM cần cả ảnh, text và layout; không chỉ truyền text/bbox. C�
 | Intake — A | Bytes, MIME, request IDs | DocumentInput; bytes+metadata | Shared request contract | MIME giả, quá size, corrupt | Tỷ lệ reject đúng, decode latency |
 | PDF render — A | PDF bytes | Một PageImage, raster RGB, page index, DPI | Renderer đã pin | Password, nhiều trang, resource limit | Page coverage, render ms |
 | Preprocess — A | PageImage | RGB image, W/H, transform và inverse | OpenCV/Pillow | Cắt chữ, xoay sai, bbox lệch | Transform tests, delta CER/WER val |
-| OCR — A | Ảnh đã xử lý | OCRPage JSON; lines/text/polygon/bbox/score | PaddleOCR model/version | Miss, substitution, segmentation | CER/WER theo coverage GT, latency |
+| Orientation — A | Ảnh đã decode | Góc xoay theo chiều kim đồng hồ + ảnh thẳng + transform | PP-LCNet doc_ori, PP-OCRv5 det, rec cho kiểm tra lật | Lật 180°, nghiêng lớn | % đúng hướng, MAE góc (B4) |
+| OCR — A | Ảnh đã xoay thẳng | OCRPage JSON; lines/text/polygon/bbox/score | PaddleOCR detection + VietOCR recognition, version pin | Miss, substitution, segmentation | Recall detection theo nhãn, CER trên crop GT, latency |
 | Representation — A | OCRPage + ảnh | Units, normalized boxes, tensors, word IDs | Mapping/tokenizer | Token/box lệch, overflow | Coverage, valid boxes, orphan tokens |
 | KIE — A | Image tensor + token tensors | BIO predictions, probabilities, unit IDs | LayoutXLM checkpoint | Sai label, OOM, domain shift | Entity P/R/F1, peak VRAM |
-| Reconstruction — A | BIO/unit geometry | FieldCandidate với raw text/evidence | Quy tắc order/merge | Ghép nhầm dòng, nhiều candidate | Raw field EM, boundary error |
+| Reconstruction — A | BIO/unit geometry | FieldCandidate (4 trường) + danh sách dòng hàng, raw text/evidence | Thứ tự đọc; gom dòng hàng neo LINE_TOTAL + DP | Ghép nhầm dòng/món, nhiều candidate | Raw field EM, item exact/pair F1 |
 | Normalize — A | Candidate + locale | Nullable normalized string + warning | Rules đã version | Ngày/tiền mơ hồ, invalid | Normalized EM, parse validity |
 | Confidence — A | OCR/KIE evidence + reconstruction | Score [0,1], method, component scores, flags | Policy freeze val | Score cao nhưng sai | Residual error, coverage tại threshold |
 | API response — A | Field results | UTF-8 JSON v1 | Pydantic/OpenAPI đề xuất | NaN, thiếu field, mismatch version | Contract tests, p50/p95 AI |
@@ -113,11 +158,11 @@ LayoutXLM cần cả ảnh, text và layout; không chỉ truyền text/bbox. C�
 | DocumentRecord | dataset/version, document_id, image_path/hash, group_id, split, locale, annotation_source | Một receipt gốc nằm đúng một split |
 | PageImage | page_index=0, image, width, height, original_width/height, transform_id, forward/inverse transform | Tọa độ phải ghi rõ original hay processed |
 | GTLine | line_id, transcript nullable, polygon_px, bbox_xyxy_px, semantic_label nullable, entity_id nullable, annotation_status | `unlabeled` khác `O`; không giả định transcript/label luôn đủ |
-| GTFields | Bốn field, raw GT, annotation status, canonical GT nếu có thể chuẩn hóa | Missing GT khác GT rỗng |
+| GTFields | Bốn trường cấp hóa đơn + danh sách dòng hàng (`line_item_id`), raw GT nối theo thứ tự đọc, annotation status, canonical GT nếu có thể chuẩn hóa | Missing GT khác GT rỗng; trường không xuất hiện lấy từ `missing_fields.json` |
 | OCRLine | line_id, reading_order, text, polygon_px, bbox_xyxy_px, ocr_confidence | Score null nếu engine không cung cấp; text giữ Unicode/dấu |
 | KIEUnit | unit_id, parent_line_id, text, char offsets, box_1000, source=gt/ocr, label hoặc ignore, alignment_status | Unit và ảnh cùng coordinate frame |
 | EncodedWindow | doc/window IDs, input_ids, attention_mask, bbox, image input, labels khi train, word_ids/global unit IDs, ownership mask | Mỗi unit có một window sở hữu khi loss/reconstruct |
-| FieldResult | field, raw_value, normalized_value, confidence, warning[], evidence[], status, confidence_details | Có đúng 4 field; không hallucinate field thiếu |
+| FieldResult | field, raw_value, normalized_value, confidence, warning[], evidence[], status, confidence_details | Có đúng 4 trường cấp hóa đơn; dòng hàng là danh sách riêng, mỗi món 4 FieldResult; không hallucinate field thiếu |
 
 Dataset conversion dùng canonical records rồi mới adapter LayoutXLM. OCR cache bất biến theo image hash + preprocess version + OCR model/config. Prediction lưu cùng checkpoint hash, split hash, dataset version và normalization/confidence version. Không cache chỉ bằng filename.
 
@@ -131,10 +176,10 @@ Offline training được dùng GT để tạo labels. Online inference tuyệt 
 ai-service/
   src/invoice_ai/
     datasets/          # canonical schema, mcocr/sroie loaders, mapping
-    preprocessing/     # decode, PDF render, image transforms
-    ocr/               # PaddleOCR adapter, ordering, cache interface
+    preprocessing/     # decode, PDF render, image transforms, orientation (B4)
+    ocr/               # PaddleOCR detection, VietOCR recognition, ordering, cache interface
     baseline/          # keyword, regex, field candidate rules
-    kie/               # units, alignment, encoding, train, decode, reconstruction
+    kie/               # data (loader dataset tự gán nhãn), bio (alignment/BIO), grouping (trường + dòng hàng), encoding, train, decode
     normalization/     # company, address, date, total, warnings
     confidence/        # aggregation và policy MVP
     evaluation/        # OCR, entity/field metrics, attribution
@@ -172,6 +217,15 @@ Không commit ảnh/raw data, secrets, cache lớn hoặc checkpoint vào Git; g
 
 # 8. Dataset Plan
 
+## 8.0 Dataset tự gán nhãn (v2, nguồn chuẩn cho KIE)
+
+- Ảnh MC-OCR, nhãn do nhóm gán bằng `apps/mcocr-labeler`, ghép hai member ngày 08/10/2026 thành `dataset_hoadon/dataset_merge`; loại 123 ảnh khó đọc (09/10); sửa 8 nhóm `line_item_id` dùng trùng, 1 box TOTAL_COST sai, 1 ảnh thiếu góc (10/10).
+- 1.368 ảnh, 21.805 box, 8 nhãn: SELLER, ADDRESS, TIMESTAMP, TOTAL_COST, ITEM_NAME, QUANTITY, UNIT_PRICE, LINE_TOTAL. Mỗi box là polygon + text; các box cùng `line_item_id` là một món. Kèm góc xoay xác nhận (độ, chiều kim đồng hồ) và danh sách trường không xuất hiện.
+- Nhãn phủ toàn bộ vùng thuộc 8 loại trường; chữ còn lại trên hóa đơn không có transcript GT.
+- Vấn đề đã biết: tiền tố "ĐC:"/"Ngày bán:" không nhất quán (xử lý bằng gán O khi tạo BIO); 86% box SELLER ở val trùng text với train (báo riêng nhóm cửa hàng chưa có trong train).
+
+Mục 8.1–8.4 bên dưới giữ thiết kế v1 cho nhãn gốc MC-OCR/SROIE; với KIE dùng 8.0 và split v2 ở 8.3.
+
 ## 8.1 MC-OCR và mức chắc chắn của dữ liệu
 
 Theo D§6.5: receipt Việt Nam chụp điện thoại, hơn 2.000 ảnh, hơn 50 người đóng góp; có text-line annotation, polygon/bbox, transcript, semantic labels và quality score. Đây là mô tả bộ gốc, **không phải thống kê bản local**. Workspace hiện có thư mục `dataset_hoadon/FUNDS`; chưa xác minh đó là dataset nào và không dùng nó thay MC-OCR/SROIE.
@@ -196,7 +250,23 @@ Tên alias dưới đây là mapping thiết kế có điều kiện. [Mô tả 
 
 Chuỗi date có cả giờ được giữ nguyên ở raw; MVP normalized chỉ ngày. Không thêm field timestamp riêng. Label 5–6 nếu có giữ metadata và loại khỏi target MVP, không mất thông tin nguồn.
 
+**Mapping v2 (dataset tự gán nhãn, D1):** tên trường dùng đúng nhãn đã gán; không đổi sang company/date/total.
+
+| Nhãn | Trường JSON | Cấp | BIO |
+|---|---|---|---|
+| SELLER | seller | hóa đơn | B/I-SELLER |
+| ADDRESS | address | hóa đơn | B/I-ADDRESS |
+| TIMESTAMP | timestamp | hóa đơn | B/I-TIMESTAMP |
+| TOTAL_COST | total_cost | hóa đơn | B/I-TOTAL_COST |
+| ITEM_NAME | item_name | dòng hàng | B/I-ITEM_NAME |
+| QUANTITY | quantity | dòng hàng | B/I-QUANTITY |
+| UNIT_PRICE | unit_price | dòng hàng | B/I-UNIT_PRICE |
+| LINE_TOTAL | line_total | dòng hàng | B/I-LINE_TOTAL |
+| chữ OCR ngoài mọi box GT | – | – | O (Q19) |
+
 ## 8.3 Fixed split và chống leakage
+
+**Split v2 (nguồn chuẩn cho KIE):** `dataset_hoadon/dataset_split_80_10_10`, script `invoice_ai/datasets/resplit_merge.py`, seed 42: train 1.094 / val 138 / test 136. Ảnh cùng hóa đơn (cùng chữ số TIMESTAMP và TOTAL_COST; nếu thiếu giờ thì trùng cả tên món) luôn cùng tập: 21 nhóm, 0 nhóm vắt ngang. Không gom theo hash ảnh vì hóa đơn khác nhau cùng mẫu và nền cho hash gần trùng. Phân tầng theo cửa hàng (≥ 20 ảnh là tầng riêng). Test có 6 ảnh, val 9 ảnh thuộc cửa hàng chưa có trong train. Đoạn dưới là thiết kế v1.
 
 Đề xuất seed **42** cho split/training; giữ riêng run seed nếu sau này lặp thí nghiệm. Nếu có official test đủ GT: giữ nguyên, tách 15% nhóm của official train làm validation. Nếu official test không có GT công khai: giữ nó ngoài đánh giá local, chia phần labeled dùng được **70/15/15 train/validation/test theo nhóm receipt**, công bố đây là local split. Không bịa số lượng tuyệt đối trước inspection. Tỷ lệ xấp xỉ do grouping; lưu actual counts và lý do sai lệch.
 
@@ -224,16 +294,18 @@ Giữ split của distribution tải, tách validation từ train theo group see
 |---|---|---|
 | Decode/EXIF | Áp EXIF đúng một lần, chuẩn hóa ảnh RGB | PNG alpha, ảnh CMYK, EXIF 90/180°, corrupt |
 | Resize | Giữ aspect; ngưỡng initial cạnh dài 2.000 px, chọn lại trên val | Chữ nhỏ mất nét; lưu scale, so CER/WER |
-| Deskew | Bật chỉ khi estimator đáng tin, giới hạn thử ±5° | Low-confidence giữ ảnh và warning; tránh cắt góc |
-| Orientation | Thử module Paddle phù hợp version; không xoay mù theo aspect | Fixtures 0/90/180/270; ghi rotation |
+| Deskew | **v2: bật.** Góc trung vị (trọng số độ dài) của box detection; < 1° giữ nguyên, > 20° bỏ qua | B4: MAE 0,45° train / 0,46° val so với góc GT; canvas mở rộng, không cắt góc |
+| Orientation | **v2: bật.** `PP-LCNet_x1_0_doc_ori` + kiểm tra lật 180° bằng điểm nhận dạng 3 dòng dài nhất | B4: đúng hướng 100% train (1.094) và val (138); model phân loại một mình 98,99%/99,28%, mọi lỗi là lật 180° |
 | Contrast/grayscale | Mặc định off; ablation nhỏ trên val trước bật | Không biến gray thành thiếu channel visual input |
 | PDF | Render trang 1 theo policy một trang, đề xuất 200 DPI, có pixel cap | Reject nhiều trang; không bỏ trang im lặng |
+
+**v2:** ảnh train/val cho OCR và KIE được xoay thẳng theo góc GT (`dataset_hoadon/dataset_upright_v1`, polygon xoay cùng ma trận); test không dùng góc GT, đi qua module tự xoay.
 
 Augmentation train đề xuất: xoay nhẹ ±3°, brightness factor 0,8–1,2, blur nhẹ; xác suất mỗi phép 0,2, chọn qua validation nhỏ. Đây là điểm khởi đầu, không phải thông số từ DOCX. Transform hình học áp cùng polygon/bbox, loại crop cắt entity; photometric không đổi bbox. Nếu train trên OCR-derived text, rerun OCR cho ảnh augmented khi muốn mô phỏng lỗi OCR; nếu giữ text GT thì ghi rõ chỉ visual/geometric augmentation, không tuyên bố OCR robustness. Không tạo augmented val/test.
 
 # 10. PaddleOCR Plan
 
-PaddleOCR là OCR duy nhất chạy trong MVP. Chọn recognition có hỗ trợ tiếng Việt; tài liệu [PaddleOCR multilingual](https://paddlepaddle.github.io/PaddleOCR/v2.10.0/en/ppocr/blog/multi_languages.html) liệt kê mã `vi`. Đây không phải cam kết mọi major version có cùng API/checkpoint; T05/T10 phải pin PaddleOCR, PaddlePaddle, model detection/recognition/orientation, dictionary, language và checksum sau smoke test.
+**v2 (D2):** PaddleOCR chỉ làm **detection**; **VietOCR** làm recognition trên crop nắn phối cảnh từ box detection (padding dọc 10–20% để giữ dấu), fine-tune trên crop GT của train, chọn trên val. Đo trên 10 ảnh val (CPU 6 luồng): detection 0,9 giây/ảnh; recognition của PaddleOCR (`latin_PP-OCRv5_mobile_rec`, `PP-OCRv6_medium_rec`) mất dấu tiếng Việt nặng nên chỉ giữ làm số CER tham khảo. Detector tune `limit_side_len`/`box_thresh`/`unclip_ratio` theo recall từng nhãn (ưu tiên QUANTITY). **Kết quả B5:** PaddleOCR mặc định thu nhỏ ảnh còn cạnh dài 960 px; cấu hình chốt `C1920_b0.2_t0.15` (`configs/ocr/detection_v1.json`). CER tham khảo trên crop GT val: `PP-OCRv6_medium_rec` 9,5%, `latin_PP-OCRv5_mobile_rec` 14,2%; đây là mốc VietOCR phải vượt. Đoạn dưới là thiết kế v1. PaddleOCR là OCR duy nhất chạy trong MVP (v1). Chọn recognition có hỗ trợ tiếng Việt; tài liệu [PaddleOCR multilingual](https://paddlepaddle.github.io/PaddleOCR/v2.10.0/en/ppocr/blog/multi_languages.html) liệt kê mã `vi`. Đây không phải cam kết mọi major version có cùng API/checkpoint; T05/T10 phải pin PaddleOCR, PaddlePaddle, model detection/recognition/orientation, dictionary, language và checksum sau smoke test.
 
 Adapter nhận PageImage, trả OCRPage gồm line text, polygon, bbox xyxy, recognition score và reading order. Không gọi score recognition là detection confidence. Engine không trả một score thì để null và ghi semantics. Bỏ qua OCR nội bộ của processor KIE, tránh thay PaddleOCR bằng Tesseract ngầm.
 
@@ -254,6 +326,8 @@ Hai bản text comparison: strict sau Unicode NFC và line-ending chuẩn; norma
 | Recognition-only | OCR recognizer trên GT polygon crops với cùng crop rule | Chẩn đoán recognition; không gọi là end-to-end OCR |
 | Field-region OCR | Chỉ vùng có transcript gold, báo số ảnh/vùng và coverage | Fallback minh bạch khi thiếu full-page GT; không đại diện toàn trang |
 
+**v2:** dataset chỉ có transcript cho vùng thuộc 8 nhãn, nên không có full-page GT. Chỉ số OCR chính: (1) **recall detection theo nhãn**: vùng GT có ít nhất một word OCR phủ ≥ 50% diện tích word; (2) **CER recognition-only** trên crop GT theo nhãn (PaddleOCR rec tham khảo, VietOCR gốc, VietOCR fine-tune); (3) tỉ lệ vùng GT ghép được khi tạo BIO.
+
 Tạo fixtures edit distance biết trước, dấu tiếng Việt, dòng đảo thứ tự, OCR rỗng, GT rỗng, extra detection, split/merge. Báo CER/WER riêng MC-OCR/SROIE, strict/normalized, N và excluded/unavailable counts. Không dùng OCR prediction làm GT. OCR miss vẫn phải làm giảm recall KIE end-to-end.
 
 # 12. Rule-Based Baseline
@@ -266,14 +340,15 @@ Mục đích là đối chứng dễ tái lập với LayoutXLM, dùng đúng c�
 | address | OCR lines + adjacency | Tìm tín hiệu ĐC/địa chỉ/số/đường/phường/quận; ghép dòng liền nhau hợp lý | Candidate có tín hiệu address mạnh nhất, nếu thiếu thì null | Multiline raw, boundaries | Address F1/EM, boundary errors |
 | date | Text + regex + locale | Tìm DD/MM/YYYY hoặc separator tương đương gần ngày/date; parse lịch thật | Candidate ngày hợp lệ duy nhất; nhiều ngày thì priority context rồi warning | Raw date string, warnings | Date EM, ambiguity/invalid rates |
 | total | Keyword + geometry + amount candidates | Ưu tiên tổng thanh toán/tổng cộng/thành tiền theo thứ tự đã freeze; lấy số cùng dòng/phía phải hoặc dòng kế; tránh tiền khách đưa/tiền thừa/subtotal | Chỉ dùng amount gần cuối với context hợp lệ, không chọn max toàn trang; không rõ thì null | Raw amount, rule/evidence | Total EM/F1, wrong-total cases |
+| dòng hàng (v2, D3) | OCR lines + geometry | Vùng hàng hóa giữa dòng tiêu đề bảng ("Tên hàng", "SL", "Đơn giá", "Thành tiền"…) và dòng tổng; trong mỗi dòng: số cuối bên phải → line_total, số trước → unit_price, số nhỏ → quantity, kiểm tra `quantity × unit_price ≈ line_total` để đổi vai; phần chữ → item_name; bỏ dòng mã vạch (8–13 chữ số), "Giá gốc", VAT, giảm giá; gom món bằng `kie/grouping.py` | Không tìm thấy tiêu đề bảng → dùng vùng giữa địa chỉ/ngày và dòng tổng; không có số → không tạo món | Danh sách món, evidence | Item exact, pair F1, F1 từng trường dòng hàng |
 
-Rule keyword aliases và tie-break được học/chốt bằng train/val, không ghi nhớ tên cửa hàng test. Nếu hai candidate đồng hạng, chọn theo order cố định và gắn `MULTIPLE_CANDIDATES`. Rule score là heuristic, không xác suất calibrated. Không so trực tiếp score rule và score LayoutXLM để ensemble MVP. Lưu baseline predictions riêng model=`paddleocr_rules_mcocr_v1`.
+Rule keyword aliases và tie-break được học/chốt bằng train/val, không ghi nhớ tên cửa hàng test. Nếu hai candidate đồng hạng, chọn theo order cố định và gắn `MULTIPLE_CANDIDATES`. Rule score là heuristic, không xác suất calibrated. Không so trực tiếp score rule và score LayoutXLM để ensemble MVP. Lưu baseline predictions riêng model=`paddleocr_rules_mcocr_v1`. **v2:** baseline dùng cùng OCR (PaddleOCR det + VietOCR fine-tune) với E2, tên `ocr_rules_mcocr_v2`.
 
 # 13. LayoutXLM Dataset Preparation
 
 ## Representation và supervision
 
-Đề xuất MVP dùng **đơn vị tách theo khoảng trắng trong từng OCR/GT line**, giữ `parent_line_id` và character offsets. Nếu không có word box, các units trong một line dùng chung line bbox; ghi `box_granularity=line`, không giả vờ đó là word-level geometry. Cách này đơn giản, nhất quán train/infer; chất lượng giới hạn khi một dòng chứa nhiều loại thông tin phải được đo. Word localization tốt hơn chỉ làm nếu dữ liệu/engine thật sự cung cấp.
+**v2 (đã triển khai trong `kie/bio.py`, báo cáo `experiments/reports/kie_bio_pilot_2026-10-10/`):** unit là word tách theo khoảng trắng, token dạng `Ngày:15/08/2020` tách tại dấu ":" sau chữ cái; box word ước lượng theo vị trí ký tự trên quad của dòng OCR (thay quy ước box chung theo dòng). Mỗi box GT là một entity: word đầu `B-`, các word sau `I-`; word thuộc box GT phủ ≥ 50% diện tích word, 20–50% → ignore (−100), còn lại O. Tiền tố "ĐC:"/"Ngày bán:" trong ADDRESS/TIMESTAMP gán O. Word lạc chen giữa một box làm phần sau thành `B-` mới để chuỗi luôn hợp lệ. Bản `oracle` giữ word OCR nền (O) và thay vùng GT bằng text + box GT (dùng cho E3). Điều kiện trước khi train: ≥ 95% vùng GT ghép được cho mọi nhãn, ignore < 2%. Pilot trên cache cũ: 94,8% vùng ghép được, QUANTITY 72%. Đoạn dưới là thiết kế v1. Đề xuất MVP dùng **đơn vị tách theo khoảng trắng trong từng OCR/GT line**, giữ `parent_line_id` và character offsets. Nếu không có word box, các units trong một line dùng chung line bbox; ghi `box_granularity=line`, không giả vờ đó là word-level geometry. Cách này đơn giản, nhất quán train/infer; chất lượng giới hạn khi một dòng chứa nhiều loại thông tin phải được đo. Word localization tốt hơn chỉ làm nếu dữ liệu/engine thật sự cung cấp.
 
 GT line semantic label chỉ được truyền xuống units khi label áp toàn dòng hoặc field value đã được align thành span. Dòng chứa keyword và value cần giữ đúng chính sách annotation: tag whole annotated entity hay value span được xác minh, không tự gán mọi token là value. Đề xuất output raw bám entity span; reconstruction có thể bỏ prefix field theo rule đã freeze và luôn giữ evidence text gốc.
 
@@ -287,11 +362,11 @@ Chọn tokenizer/processor từ `microsoft/layoutxlm-base`, pin revision. Theo [
 
 Chuẩn hóa bbox xyxy pixel thành integer [0,1000] theo width/height của ảnh đang dùng: x'=floor(1000*x/W), y'=floor(1000*y/H); kiểm tra thứ tự và clip sai số biên nhỏ, quarantine hình học sai lớn. Giữ polygon gốc để overlay, không dùng tọa độ đã normalize để crop. Quy ước ảnh/bbox và external OCR tham khảo [LayoutLMv2 input contract](https://huggingface.co/docs/transformers/v4.40.0/model_doc/layoutlmv2); runtime compatibility vẫn là gate thực nghiệm.
 
-Label map MVP 9 nhãn: O, B/I-COMPANY, B/I-ADDRESS, B/I-DATE, B/I-TOTAL. BIO phù hợp sau khi entity boundaries đã được xác minh. Có line label mà chưa có entity ID thì không tự nối mọi dòng cùng class thành một entity; định nghĩa/QA grouping liền kề trước conversion.
+**v2: label map 17 nhãn:** O + B/I × (SELLER, ADDRESS, TIMESTAMP, TOTAL_COST, ITEM_NAME, QUANTITY, UNIT_PRICE, LINE_TOTAL). Dòng nhiều box (địa chỉ, tên hàng nhiều dòng, ngày + giờ) không nối bằng I- mà gom ở hậu xử lý: 62/70 tên hàng nhiều dòng bị QUANTITY/UNIT_PRICE/LINE_TOTAL chen giữa theo thứ tự đọc. (v1: Label map MVP 9 nhãn: O, B/I-COMPANY, B/I-ADDRESS, B/I-DATE, B/I-TOTAL.) BIO phù hợp sau khi entity boundaries đã được xác minh. Có line label mà chưa có entity ID thì không tự nối mọi dòng cùng class thành một entity; định nghĩa/QA grouping liền kề trước conversion.
 
 Subword alignment: loss chỉ ở subword đầu của mỗi unit; subwords tiếp theo, special tokens, padding và ambiguous labels dùng ignore index -100. Inference lấy logits của subword đầu để quay lại unit; không đếm lặp score theo độ dài subword. Lưu word_ids/global_unit_ids để kiểm tra round-trip.
 
-Long sequences: đề xuất max 512 tokens gồm special tokens, điều chỉnh theo config thật; cửa sổ overlap mục tiêu 64 tokens, cắt ở unit boundary. Mỗi unit được gán owner window nơi unit ở gần giữa nhất, tie chọn window trước. Chỉ owner chịu loss và cung cấp inference prediction; ghép lại full unit order rồi BIO decode, tránh mất entity băng qua ranh giới. Unit đơn vượt capacity phải chia có mapping char offsets hoặc quarantine có lý do; không truncate im lặng. Đo unit/entity coverage và duplicate count.
+Long sequences: đề xuất max 512 tokens gồm special tokens, điều chỉnh theo config thật; cửa sổ overlap mục tiêu **128 tokens (v2; v1 là 64)**, cắt ở unit boundary. Mỗi unit được gán owner window nơi unit ở gần giữa nhất, tie chọn window trước. Chỉ owner chịu loss và cung cấp inference prediction; ghép lại full unit order rồi BIO decode, tránh mất entity băng qua ranh giới. Unit đơn vượt capacity phải chia có mapping char offsets hoặc quarantine có lý do; không truncate im lặng. Đo unit/entity coverage và duplicate count.
 
 # 14. LayoutXLM Training
 
@@ -299,9 +374,9 @@ Backbone MVP là [Microsoft LayoutXLM base](https://huggingface.co/microsoft/lay
 
 Training target là **rented GPU instance theo giờ**; máy local chỉ phục vụ chuẩn bị dữ liệu, code và quản lý artifacts, không được dùng để kết luận khả năng train. T05 dựng môi trường Linux tái lập trên cấu hình GPU thuê dự kiến dùng cho T18 và kiểm tra CUDA, PyTorch/torchvision, Transformers, tokenizer/visual-backbone dependencies, PaddlePaddle và PaddleOCR. Đây là một smoke test ngắn trên một cấu hình đã chọn, không phải benchmark nhiều loại GPU. Nếu Paddle và Torch tranh VRAM, thử Paddle CPU + KIE GPU trong cùng runtime trước khi đề xuất service mới. Không mặc định dependency latest hay Python 3.11+ chạy được chỉ từ D§7.
 
-Cấu hình khởi điểm đề xuất: seed 42; AdamW; learning rate 2e-5; weight decay 0,01; batch vật lý 1–2 theo VRAM, effective batch 8 qua accumulation; tối đa 15 epochs; warmup 10% steps; gradient clip 1,0; early stopping patience 3 epochs. Mixed precision chỉ bật sau smoke test phù hợp phần cứng. Đây là search starting point, không phải kết quả tối ưu đã đo.
+Cấu hình khởi điểm đề xuất (**v2**): seed 42; AdamW; learning rate 3e-5 (thử thêm 2e-5 và 5e-5); weight decay 0,01; batch vật lý theo VRAM (T05 đo được 1–2 ở 128 token, cần đo lại ở 512), effective batch 8 qua accumulation; tối đa 40 epochs; warmup 10% steps; gradient clip 1,0; early stopping patience 5 epochs theo metric chọn checkpoint; cấu hình chốt chạy 3 seed và báo trung bình ± độ lệch chuẩn. Mixed precision chỉ bật sau smoke test phù hợp phần cứng. Đây là search starting point, không phải kết quả tối ưu đã đo.
 
-Loop: kiểm tra 1 batch forward/backward → overfit 8–16 train receipts → full train → mỗi epoch evaluate validation bằng OCR-view như deployment → reconstruction → raw field metrics. Chọn checkpoint theo **macro field F1 strict raw** của 4 field, tie-break raw document EM, tiếp theo epoch sớm hơn. Entity F1 dùng diagnostic, không thay metric end-to-end bằng một số đẹp hơn. Nếu sử dụng normalized score phụ thì normalization version phải freeze và ghi rõ.
+Loop: kiểm tra 1 batch forward/backward → overfit 8–16 train receipts → full train → mỗi epoch evaluate validation bằng OCR-view như deployment → reconstruction → raw field metrics. Chọn checkpoint theo **trung bình của macro field F1 strict raw (4 trường cấp hóa đơn) và F1 dòng hàng ở mức món** (v2), tie-break raw document EM, tiếp theo epoch sớm hơn. Entity F1 dùng diagnostic, không thay metric end-to-end bằng một số đẹp hơn. Nếu sử dụng normalized score phụ thì normalization version phải freeze và ghi rõ.
 
 Thử nghiệm MVP giới hạn: cấu hình khởi điểm; một thay đổi LR (1e-5 hoặc 5e-5 theo loss/val); augmentation on/off nếu còn thời gian. Không chọn bằng test. Khi OOM: giảm physical batch/sequence-window batch, tăng accumulation; không cắt mất nội dung để qua test. Nếu baseline tốt hơn, báo kết quả và attribution; không đổi model trái yêu cầu.
 
@@ -311,9 +386,9 @@ Artifacts mỗi run: processed dataset/split hash, label map, tokenizer/processo
 
 Load bundle một lần lúc startup, kiểm tra checksums/label map/config; readiness chỉ true sau warmup. Nhận canonical OCRPage+image → tạo units/windows giống train → model eval/no-gradient → unit probabilities → ghép owner windows → BIO decode → reconstruct fields. Không bật dropout inference, không tải model từ mạng mỗi request.
 
-BIO repair đề xuất: I-X sau O/đầu chuỗi/class khác thành B-X và ghi diagnostic; không đổi class để khớp keyword. Entity là đoạn liên tục theo global unit order; geometry giới hạn việc nối qua vùng xa hoặc block khác. Với company/address, ghép các entity cùng field liền kề khi cùng block và không có target khác xen vào, theo rule đã QA. Với date/total, parse candidate rồi chọn candidate có context/score hợp lệ theo tie-break đã freeze; giữ warning khi không duy nhất. Không ghép tất cả số tiền thành một field.
+**v2:** gom nhóm bằng `kie/grouping.py`: trường cấp hóa đơn nối các span cùng nhãn theo thứ tự đọc (TOTAL_COST nhiều ứng viên giữ span score cao nhất); dòng hàng dùng LINE_TOTAL làm neo, căn QUANTITY/UNIT_PRICE theo thứ tự dọc bằng DP với độ lệch trung vị, chia các dòng tên hàng thành đoạn liên tiếp theo neo, phạt dòng bắt đầu bằng chữ thường hoặc "(" khi làm dòng đầu món. Trên box GT: 98,6% ảnh val / 98,4% ảnh test gom đúng toàn bộ món (`experiments/reports/kie_grouping_v1_2026-10-10/`). Hậu xử lý có ràng buộc: kiểm tra `quantity × unit_price ≈ line_total` để gắn cờ; khi detector bỏ sót QUANTITY (chủ yếu chữ số "1" đứng một mình) mà có unit_price và line_total thì suy ra `quantity = line_total / unit_price`, cờ `QUANTITY_INFERRED`. BIO repair đề xuất: I-X sau O/đầu chuỗi/class khác thành B-X và ghi diagnostic; không đổi class để khớp keyword. Entity là đoạn liên tục theo global unit order; geometry giới hạn việc nối qua vùng xa hoặc block khác. Với company/address, ghép các entity cùng field liền kề khi cùng block và không có target khác xen vào, theo rule đã QA. Với date/total, parse candidate rồi chọn candidate có context/score hợp lệ theo tie-break đã freeze; giữ warning khi không duy nhất. Không ghép tất cả số tiền thành một field.
 
-`raw_value` lấy từ character offsets trong OCR lines của candidate cuối, giữ dấu và line breaks; `evidence.text` giữ toàn vùng OCR nếu có bỏ prefix. `normalized_value` do module sau tạo, không ghi đè raw. Missing field trả null/null và status missing. Multiple candidates lưu evidence/diagnostic, không làm response có hai field cùng tên. Field reconstruction score/flags theo mục 17. Trả đúng 4 entries theo order company,address,date,total.
+`raw_value` lấy từ character offsets trong OCR lines của candidate cuối, giữ dấu và line breaks; `evidence.text` giữ toàn vùng OCR nếu có bỏ prefix. `normalized_value` do module sau tạo, không ghi đè raw. Missing field trả null/null và status missing. Multiple candidates lưu evidence/diagnostic, không làm response có hai field cùng tên. Field reconstruction score/flags theo mục 17. Trả đúng 4 entries theo order seller, address, timestamp, total_cost và danh sách `line_items` (v2).
 
 # 16. Normalization
 
@@ -325,6 +400,8 @@ Normalization là deterministic, version hóa, dùng chung cho baseline/KIE và 
 | address | Các dòng OCR với newline | NFC, trim; join dòng bằng một space, giữ số nhà/dấu địa danh | Ghép nhiều địa chỉ → MULTIPLE_CANDIDATES; không suy diễn địa chỉ thiếu |
 | date | Ví dụ `08/09/2026`, hoặc timestamp nguồn | `2026-09-08` theo vi-VN/DD/MM/YYYY khi locale xác định; bỏ giờ chỉ ở normalized | AMBIGUOUS_DATE nếu thiếu ngữ cảnh xác nhận; invalid/unresolved → null |
 | total | Ví dụ `125.000 đ` | Chuỗi decimal `125000`, currency VND khi có context đáng tin | AMBIGUOUS_AMOUNT/INVALID_AMOUNT; không trả float mất chính xác |
+
+**v2 bổ sung:** `seller`/`address` bỏ tiền tố "ĐC:", "Địa chỉ:" khi chuẩn hóa nhưng giữ ở raw; `timestamp` normalized ngày ISO, nếu có giờ thì đề xuất `YYYY-MM-DDTHH:MM` (cần chốt trong contract v2); `total_cost`, `unit_price`, `line_total` theo quy tắc total (chấp nhận số âm cho món trả hàng); `quantity` là chuỗi decimal, chấp nhận số lẻ ("0,49", "1,00" → "1"), không suy đơn vị tính.
 
 Date: kiểm tra ngày tháng thật, leap year, day/month range. `24/08/2026` → `2026-08-24`; `31/02/2026` → null + INVALID_DATE. `08/09/2026` với vi-VN được parse DD/MM, giữ raw; nếu locale không rõ, không tự chuyển MM/DD, normalized null hoặc candidate vi-VN kèm warning theo contract đã chốt. Kế hoạch MVP chọn **null khi locale chưa xác định và có hai diễn giải hợp lệ**. Năm 2 chữ số không tự chọn century; thiếu năm hoặc xung đột nhiều ngày → warning/review. Timestamp có giờ không làm mở rộng target MVP.
 
@@ -339,6 +416,8 @@ Không có cơ sở trong DOCX để gọi một tổng có trọng số OCR+KIE
 **Đề xuất MVP:** `confidence` là minimum KIE probability của predicted BIO label trên mỗi unit được chọn cho field, tính một lần/unit sau window merge. Ghi `confidence_method=kie_min_unit_v1`, `calibrated=false`; đây là score xếp hạng bảo thủ, không phải xác suất correctness. Rationale: đơn giản, không cần học trọng số hoặc giả định hai nguồn độc lập. Nhược điểm length bias phải được báo bằng bins độ dài.
 
 OCR và reconstruction vẫn tham gia quyết định review: lưu `ocr_min` trên distinct evidence lines, `kie_min` như trên, `reconstruction_status` (unique/ambiguous/missing/repaired) và normalization warnings. **Không gộp số OCR/KIE bằng công thức tự đặt.** Eligibility mô phỏng yêu cầu score KIE ≥ tau, OCR score có và ≥ tau_ocr, reconstruction unique, normalized hợp lệ và không có warning blocking. Threshold OCR/KIE lựa chọn trên val; thiếu component → review, không fill score 1.
+
+**v2:** mỗi trường của dòng hàng dùng cùng phương pháp `kie_min_unit_v1`; confidence của món là min các trường có mặt, kèm cờ `ARITHMETIC_MISMATCH` khi `quantity × unit_price` lệch `line_total`.
 
 Missing field dùng confidence 0 như sentinel chính sách, status=missing, không hiểu là calibrated probability. Field có text nhưng normalize invalid vẫn giữ KIE score và warning; không đặt confidence cao hơn vì parse thành công. Rule baseline dùng method `rule_heuristic_v1` và báo riêng, không áp chung threshold score với LayoutXLM.
 
@@ -357,6 +436,10 @@ OCR dùng mục 11. KIE token/entity evaluation chỉ trên labels gold phù h�
 Final field strict metric: mỗi document-field là một slot; đúng non-empty GT value → TP; prediction non-empty sai → FP và nếu GT có value thì thêm FN; GT có mà thiếu prediction → FN; GT thực sự không có và prediction có → FP. Cả hai trống không cộng TP, nhưng có thể đúng slot EM. Missing annotation bị mask và phải công bố denominator, khác annotated absent. P/R/F1 có zero-division policy ghi rõ (đề xuất 0 với class có support nhưng không dự đoán; N/A khi không thể đánh giá).
 
 Raw field EM đối chiếu sau NFC + trim/collapse whitespace đã freeze, giữ dấu/case; thêm strict-preserve-whitespace diagnostic nếu cần. Normalized field EM theo GT canonical rubric; ghi rõ date/amount unresolved không phải normalized match. Document EM = tất cả 4 field đúng trên tập có đủ 4 GT statuses; báo subset size. Báo raw và normalized riêng, không gọi normalized EM là raw EM. Macro F1 trung bình 4 field, micro aggregate counts. Không dùng token accuracy bị O áp đảo làm tiêu chí chính.
+
+**v2 bổ sung metric dòng hàng:** món đúng khi đủ cả 4 trường đúng (item exact P/R), pair F1 của việc gom box thành món, F1 từng trường dòng hàng. Giá trị GT của trường nhiều box nối theo **thứ tự đọc**, không theo thứ tự box trong CSV. Báo riêng nhóm ảnh thuộc cửa hàng chưa có trong train.
+
+**Thí nghiệm v2** (thay E01–E04 cho KIE): **E1** PaddleOCR det + VietOCR gốc → LayoutXLM; **E2** PaddleOCR det + VietOCR fine-tune → LayoutXLM (cấu hình chính); **E3** oracle (text + box GT cho vùng có nhãn, OCR nền thật) → LayoutXLM, để quy lỗi OCR hay KIE; **baseline luật** trên OCR của E2. E05 SROIE giữ nguyên, chỉ 4 trường cấp hóa đơn.
 
 | Experiment | Input → extractor | Mục đích | Split/artifacts |
 |---|---|---|---|
@@ -387,7 +470,7 @@ Final report gồm dataset counts, protocol, OCR metrics, per-field P/R/F1/EM, m
 
 # 19. FastAPI Contract
 
-Các quyết định đã được người dùng chốt cho v1 được ghi tại `docs/ai_contract_v1_decisions.md` và là nguồn chuẩn: `POST /v1/extract`; JPG/PNG/PDF; một hóa đơn/một trang; reject PDF nhiều trang; 10 MiB/20 MP; locale `vi-VN`; bốn field company/address/date/total; missing dùng null; confidence là KIE score [0,1] nhưng không phải xác suất đúng; human review bắt buộc; không auto approve/line-items/VAT/subtotal; AI không ghi DB; Backend retry; lưu model/pipeline version. Phần còn lại dưới đây vẫn là **schema đề xuất cần Shared freeze tại T03**, chưa phải API đang chạy. API sync nội bộ; async workflow thuộc B. Health/readiness/model-info vẫn là đề xuất bên cạnh endpoint extract đã chốt.
+**v2 (D1, chờ B xác nhận):** response có 4 trường cấp hóa đơn `seller, address, timestamp, total_cost` và danh sách `line_items`, mỗi món có `item_name, quantity, unit_price, line_total` cùng cấu trúc FieldResult (bản mẫu: `thanh_cong.json`, `that_bai.json` ở thư mục gốc). Các mục "không line-items" và tên company/date/total trong contract v1 bị thay thế khi contract v2 được chốt. Các quyết định đã được người dùng chốt cho v1 được ghi tại `docs/ai_contract_v1_decisions.md` và là nguồn chuẩn: `POST /v1/extract`; JPG/PNG/PDF; một hóa đơn/một trang; reject PDF nhiều trang; 10 MiB/20 MP; locale `vi-VN`; bốn field company/address/date/total; missing dùng null; confidence là KIE score [0,1] nhưng không phải xác suất đúng; human review bắt buộc; không auto approve/line-items/VAT/subtotal; AI không ghi DB; Backend retry; lưu model/pipeline version. Phần còn lại dưới đây vẫn là **schema đề xuất cần Shared freeze tại T03**, chưa phải API đang chạy. API sync nội bộ; async workflow thuộc B. Health/readiness/model-info vẫn là đề xuất bên cạnh endpoint extract đã chốt.
 
 ## Request
 
@@ -534,7 +617,7 @@ Mọi task hoàn tất phải có input/output kiểm chứng, artifact version 
 
 ## T04 — Canonical loaders, field mapping và QA labels
 
-**Trạng thái 2026-09-19:** `COMPLETED_WITH_QUARANTINE`. Đã xuất `t04_v1`: MC-OCR 1.152 accepted/3 quarantine, SROIE 971 accepted/2 quarantine; verification đạt `PASS`. Năm document bị loại được đóng gói riêng tại `experiments/data/quarantine/t04_v1/` và không xuất hiện trong canonical data accepted. Báo cáo: `experiments/reports/t04_dataset_conversion.md`; manifest tái lập: `experiments/manifests/t04_canonical_dataset_manifest.json`. T04 không tạo split mới và không normalize field value.
+**v2 (2026-10-11):** với KIE, loader T04 được thay bằng `invoice_ai/kie/data.py` đọc dataset tự gán nhãn (mục 8.0). **Trạng thái 2026-09-19:** `COMPLETED_WITH_QUARANTINE`. Đã xuất `t04_v1`: MC-OCR 1.152 accepted/3 quarantine, SROIE 971 accepted/2 quarantine; verification đạt `PASS`. Năm document bị loại được đóng gói riêng tại `experiments/data/quarantine/t04_v1/` và không xuất hiện trong canonical data accepted. Báo cáo: `experiments/reports/t04_dataset_conversion.md`; manifest tái lập: `experiments/manifests/t04_canonical_dataset_manifest.json`. T04 không tạo split mới và không normalize field value.
 
 - **Objective:** tạo adapter MC-OCR/SROIE → canonical records (§6/§8).
 - **Why it is needed:** downstream dùng một representation, giữ distinction missing/unlabeled/O.
@@ -566,7 +649,7 @@ Mọi task hoàn tất phải có input/output kiểm chứng, artifact version 
 
 ## T06 — Fixed split và leakage audit
 
-**Trạng thái 2026-09-19:** `COMPLETED_WITH_DUPLICATE_DISCLOSURES`. Đã freeze `t06_v1` bằng seed 42: MC-OCR 806/173/173; SROIE adapted-development 526/93 và giữ nguyên 345 accepted official-test documents. Verification deterministic/leakage đạt `PASS`; 5 document T04 quarantine không nằm trong split. Báo cáo: `experiments/reports/t06_split_audit.md`; manifest: `experiments/splits/t06_v1/manifest.json`.
+**v2 (2026-10-11):** split KIE thay bằng `dataset_split_80_10_10` (mục 8.3). **Trạng thái 2026-09-19:** `COMPLETED_WITH_DUPLICATE_DISCLOSURES`. Đã freeze `t06_v1` bằng seed 42: MC-OCR 806/173/173; SROIE adapted-development 526/93 và giữ nguyên 345 accepted official-test documents. Verification deterministic/leakage đạt `PASS`; 5 document T04 quarantine không nằm trong split. Báo cáo: `experiments/reports/t06_split_audit.md`; manifest: `experiments/splits/t06_v1/manifest.json`.
 
 - **Objective:** tạo manifests train/val/test bất biến theo §8.3.
 - **Why it is needed:** mọi phép so sánh cần cùng test độc lập.
@@ -582,7 +665,7 @@ Mọi task hoàn tất phải có input/output kiểm chứng, artifact version 
 
 ## T07 — Image preprocessing và transform bookkeeping
 
-**Trạng thái 2026-09-20:** `COMPLETED — PASS`. Pipeline `t07_preprocess_v1` đã freeze EXIF→RGB→resize giữ tỷ lệ 2.000 px và transform chain thuận/nghịch. Audit 266 validation documents đạt 266/266 PASS, max geometry round-trip error `9,095e-13` px. Tám ảnh SROIE vượt 20 MP chỉ được xử lý ở chế độ dataset nội bộ; API request vẫn reject đúng contract T03. Deskew/orientation inference/contrast tiếp tục off đến khi T10 có CER/WER evidence. Báo cáo: `experiments/reports/t07_preprocessing.md`.
+**v2 (2026-10-11):** orientation + kiểm tra lật + deskew đã bật theo bằng chứng B4 (`invoice_ai/preprocessing/orientation.py`); ảnh thẳng train/val ở `dataset_upright_v1`. **Trạng thái 2026-09-20:** `COMPLETED — PASS`. Pipeline `t07_preprocess_v1` đã freeze EXIF→RGB→resize giữ tỷ lệ 2.000 px và transform chain thuận/nghịch. Audit 266 validation documents đạt 266/266 PASS, max geometry round-trip error `9,095e-13` px. Tám ảnh SROIE vượt 20 MP chỉ được xử lý ở chế độ dataset nội bộ; API request vẫn reject đúng contract T03. Deskew/orientation inference/contrast tiếp tục off đến khi T10 có CER/WER evidence. Báo cáo: `experiments/reports/t07_preprocessing.md`.
 
 - **Objective:** pipeline ảnh deterministic theo §9.
 - **Why it is needed:** OCR và KIE phải dùng layout cùng coordinate frame.
@@ -642,7 +725,7 @@ Mọi task hoàn tất phải có input/output kiểm chứng, artifact version 
 - **Metrics:** latency, empty rate, line counts; accuracy đo T11.
 - **Artifacts produced:** OCR manifest, train/val cache, model checksums, adapter tests.
 
-**Trạng thái 2026-09-20:** `IN PROGRESS — PAUSED BY USER`. Adapter/config/model manifest đã được dựng và 6 focused tests PASS. Đã lưu cache cho 251/1.598 train/validation records (241 content-addressed entries do một số records dùng cùng image hash), tất cả 241 entries có trạng thái `OK`, 0 cache file lỗi; còn 1.347 records. Tiến độ nằm tại `experiments/manifests/t10_progress_checkpoint.json` và cache tại `experiments/runs/ocr_v1/cache/`. Khi tiếp tục, runner 6 shard đọc lại cache và chỉ inference phần còn thiếu. T10 chưa được đánh dấu hoàn tất; T11 chưa bắt đầu.
+**v2 (2026-10-11):** cache T10 không dùng cho KIE (rec latin mất dấu, ảnh chưa xoay, split cũ). Làm lại thành B5 (tune PaddleOCR detection trên tập con train, chốt trên toàn train, báo cáo val) + B7 (VietOCR). **Trạng thái 2026-09-20:** `IN PROGRESS — PAUSED BY USER`. Adapter/config/model manifest đã được dựng và 6 focused tests PASS. Đã lưu cache cho 251/1.598 train/validation records (241 content-addressed entries do một số records dùng cùng image hash), tất cả 241 entries có trạng thái `OK`, 0 cache file lỗi; còn 1.347 records. Tiến độ nằm tại `experiments/manifests/t10_progress_checkpoint.json` và cache tại `experiments/runs/ocr_v1/cache/`. Khi tiếp tục, runner 6 shard đọc lại cache và chỉ inference phần còn thiếu. T10 chưa được đánh dấu hoàn tất; T11 chưa bắt đầu.
 
 ## T11 — OCR evaluator và validation report
 
@@ -676,6 +759,8 @@ Mọi task hoàn tất phải có input/output kiểm chứng, artifact version 
 
 ## T13 — Rule baseline cho 4 field
 
+**v2:** thêm luật đơn giản cho dòng hàng (D3, mục 12); dùng OCR của E2.
+
 - **Objective:** đối chứng deterministic theo §12.
 - **Why it is needed:** đo đóng góp LayoutXLM so baseline rẻ.
 - **Input:** T10 cache, T04 field GT, T12 normalization.
@@ -706,6 +791,8 @@ Mọi task hoàn tất phải có input/output kiểm chứng, artifact version 
 
 ## T15 — GT/OCR alignment và KIE units
 
+**Trạng thái v2 (2026-10-11):** `IN PROGRESS`. Code alignment/BIO/oracle xong (`kie/bio.py`, `kie/build_bio.py`, 17 unit test); pilot trên cache cũ đạt 94,8% vùng ghép được. Chờ OCR mới (B5/B7) để sinh dữ liệu train.
+
 - **Objective:** tạo KIE training records có supervision rõ (§13).
 - **Why it is needed:** LayoutXLM không học trực tiếp từ field strings không align.
 - **Input:** T04 gold/weak data, T10 cache, T06 splits.
@@ -733,6 +820,8 @@ Mọi task hoàn tất phải có input/output kiểm chứng, artifact version 
 - **Artifacts produced:** encoder config/hash, processed windows, label/tokenizer manifests, test fixtures.
 
 ## T17 — KIE decode và field reconstruction
+
+**Trạng thái v2 (2026-10-11):** `IN PROGRESS`. Gom trường và dòng hàng xong (`kie/grouping.py`, đánh giá trên box GT); còn ghép span từ dự đoán BIO và trace evidence.
 
 - **Objective:** predictions units → entities → final fields có evidence (§15).
 - **Why it is needed:** val checkpoint selection cần field output giống inference thật.
@@ -904,11 +993,11 @@ Mọi task hoàn tất phải có input/output kiểm chứng, artifact version 
 
 Đường chính: **T01 → T04 → T06 → T07 → T10 → T11 → T13 → T15 → T05 → T16 → T17 → T18 → T19 → T20 → T21 → T22 → T24 → T26**. T05 vẫn thuộc critical path và là gate runtime bắt buộc trước T16/T18. Một số mũi tên thể hiện thứ tự bàn giao mong muốn, không phải tất cả là dependency code; dependencies chi tiết trong từng task là nguồn chính xác.
 
-**Thứ tự thực thi hiện tại:** T05, T06, T07, T08, T09, T12 và T14 đã hoàn tất; runtime, image-coordinate và PDF-intake gates đã mở. Tiếp tục đường chính với T10 → T11 → T13 → T15, rồi T16/T17/T18. T18 provision lại môi trường từ dependency lock/runtime manifest của T05 để tiny/full training. T03 contract bắt đầu Week 1, không chờ fine-tune. T12 normalization và T14 evaluator đã được xây sớm để baseline/checkpoint selection nhất quán, dù normalization trong runtime nằm sau reconstruction. T23 container vẫn là nhánh bắt buộc trước full integration và dùng deployment target riêng được Shared chọn. T02/T25 là nhánh SROIE có gate thời gian/GT. T08 đã verified nhưng vẫn disabled cho T10 baseline; chỉ bật sau ablation, nên không chặn first train. T28 collection và A.1–A.5 evaluation không là dependency của MVP.
+**Thứ tự thực thi v2 (2026-10-11):** rà soát nhãn → split 80/10/10 → ảnh thẳng → tự xoay (đã xong) → B5 tune PaddleOCR detection → B7 VietOCR fine-tune (GPU) → B8 BIO → B9 tokenize → B10 train E1/E2/E3 (GPU) → B11 giải mã + gom nhóm + phân tích lỗi trên val → baseline luật → T19–T26 như cũ. Chi tiết: `docs/ke_hoach_ocr_layoutxlm_2026-10-10.md`. Đoạn sau là thứ tự v1. **Thứ tự thực thi hiện tại:** T05, T06, T07, T08, T09, T12 và T14 đã hoàn tất; runtime, image-coordinate và PDF-intake gates đã mở. Tiếp tục đường chính với T10 → T11 → T13 → T15, rồi T16/T17/T18. T18 provision lại môi trường từ dependency lock/runtime manifest của T05 để tiny/full training. T03 contract bắt đầu Week 1, không chờ fine-tune. T12 normalization và T14 evaluator đã được xây sớm để baseline/checkpoint selection nhất quán, dù normalization trong runtime nằm sau reconstruction. T23 container vẫn là nhánh bắt buộc trước full integration và dùng deployment target riêng được Shared chọn. T02/T25 là nhánh SROIE có gate thời gian/GT. T08 đã verified nhưng vẫn disabled cho T10 baseline; chỉ bật sau ablation, nên không chặn first train. T28 collection và A.1–A.5 evaluation không là dependency của MVP.
 
 # 22. Week 1-7 Timeline
 
-Timeline dưới đây là **đề xuất của kế hoạch này**, ghi rõ khác biệt với D§10; không sửa timeline DOCX. Ước lượng lịch phụ thuộc dữ liệu, khả năng thuê GPU theo giờ và B có interface sẵn. Một tuần làm việc đề xuất tối đa khoảng 5 ngày công A; QA/integration/report nhỏ tính trong đó, không giả định full-time vô hạn. Giảm số lượt tuning trước khi giảm yêu cầu evaluation/contract. **Điều chỉnh trạng thái hiện tại:** T05 đã PASS sau T06/T12/T14. Không cần giữ rented GPU liên tục; T18 thuê lại instance tương đương từ runtime manifest và dependency lock.
+**v2:** lịch tuần dưới đây được lập ngày 2026-09-20 và đã lệch so với tiến độ thực; thứ tự công việc hiện hành theo các bước B1–B11 ở mục 0 và `docs/ke_hoach_ocr_layoutxlm_2026-10-10.md`. Timeline dưới đây là **đề xuất của kế hoạch này**, ghi rõ khác biệt với D§10; không sửa timeline DOCX. Ước lượng lịch phụ thuộc dữ liệu, khả năng thuê GPU theo giờ và B có interface sẵn. Một tuần làm việc đề xuất tối đa khoảng 5 ngày công A; QA/integration/report nhỏ tính trong đó, không giả định full-time vô hạn. Giảm số lượt tuning trước khi giảm yêu cầu evaluation/contract. **Điều chỉnh trạng thái hiện tại:** T05 đã PASS sau T06/T12/T14. Không cần giữ rented GPU liên tục; T18 thuê lại instance tương đương từ runtime manifest và dependency lock.
 
 | Week | Tasks A và milestone | Dependency/Shared | Gate và khác biệt với DOCX |
 |---|---|---|---|
@@ -941,7 +1030,7 @@ Chỉ bắt đầu implementation/evaluation các mục sau khi gate T26+T24 pas
 | ID | Objective và steps đề xuất | Input / dependency | Output và acceptance | Tests/metrics | Priority/risk |
 |---|---|---|---|---|---|
 | A.1 Ensemble theo field | Thiết kế PhoBERT cho seller/address, regex date, model nhỏ cho total; chọn candidate theo strategy; freeze trên train/val | MVP datasets/splits/evaluator; QA supervision từng submodel | `experiments/extensions/ensemble/`; predictions model_name riêng; bảng rules/ensemble/LayoutXLM cùng test/protocol | Field P/R/F1/EM, latency; same data và no-test-tuning tests | Sau MVP, effort trung bình/cao; không mặc định cộng scores khác thang |
-| A.2 VietOCR vs PaddleOCR | So recognizer cùng GT crops; nếu so pipeline dùng cùng detector/crop/ordering, chỉ đổi recognizer | Gold OCR/crop coverage và detector/cache MVP | `extensions/ocr_comparison/`; CER/WER recognition-only và full pipeline nếu khả thi, ghi rõ track | Cùng crops/preprocess, crop geometry, Unicode, latency, miss coverage | Có thể làm sớm trong extension; không thay OCR online |
+| A.2 VietOCR vs PaddleOCR (**v2: đã chuyển vào MVP theo D2**; bảng CER vẫn báo PaddleOCR rec làm tham khảo) | So recognizer cùng GT crops; nếu so pipeline dùng cùng detector/crop/ordering, chỉ đổi recognizer | Gold OCR/crop coverage và detector/cache MVP | `extensions/ocr_comparison/`; CER/WER recognition-only và full pipeline nếu khả thi, ghi rõ track | Cùng crops/preprocess, crop geometry, Unicode, latency, miss coverage | Có thể làm sớm trong extension; không thay OCR online |
 | A.3 LiLT + PhoBERT | Feasibility tokenizer/embedding/config/layout pretrained weights trước; sau đó conversion/train/decode theo canonical adapter | Gold/weak supervision và compute; MVP baseline frozen | `extensions/lilt_phobert/`; compatible model report hoặc feasibility failure; checkpoint riêng nếu chạy được | Alignment/load/backward/reload, field P/R/F1/EM và training budget ngang mức báo cáo | R&D rủi ro cao; không coi ghép checkpoint là thao tác chắc chắn |
 | A.4 Confidence curve từ operational logs | Join model outputs/corrections theo document/model; xác minh final reviewed labels; sweep threshold/plot residual vs review/auto-pass giả lập | B lưu versions/corrections từ MVP; đủ nhãn review; không dùng chỉ corrected samples | `extensions/confidence/`; curves, sample N, confidence interval/selection-bias note; calibration chỉ khi dữ liệu đủ | Review/coverage/residual denominators; unchanged nhưng chưa review không tự coi đúng | Ưu tiên nếu logs đủ; không bật auto-approve thật |
 | A.5 Wild labeled evaluation | T28 intake → label 4 fields theo rubric, double-check ambiguity → freeze receipt groups → evaluate pipeline frozen | Khoảng 150–300 ảnh mục tiêu DA.5; A/B thời gian gán nhãn, provenance | `extensions/wild/`; labels, QA agreement, frozen manifest và OOD report | Field P/R/F1/EM, quality strata, failure rate; CER/WER chỉ nếu có transcript GT bổ sung | Thu ảnh sớm; labeling/eval sau MVP; không tune trên wild test |
@@ -970,19 +1059,24 @@ Số lượng model comparisons: rules + LayoutXLM + ensemble + LiLT có thể t
 | Metrics/latency target chưa chốt | Q16 còn mở | Không có quality/SLA acceptance rõ | Chốt sau validation baseline trước test; giữ measured vs target tách biệt |
 | SROIE domain/locale khác | Raw tốt nhưng normalized sai | Comparison không công bằng | Locale protocol trước scoring, report zero-shot riêng, không VND mặc định |
 | Extension chiếm lịch MVP | T18/T24 chưa xong nhưng train model thứ hai | Không đạt E2E Week 7 | T26 gate; chỉ collection sớm, giới hạn tuning |
+| Detector bỏ sót số nhỏ (v2) | Pilot: QUANTITY chỉ 72% vùng ghép được | Mất quantity, gom dòng hàng sai | Tune `limit_side_len`/`box_thresh`/`unclip_ratio` theo recall QUANTITY (B5); gate ≥ 95% trước khi train |
+| Rò rỉ theo mẫu cửa hàng (v2) | 86% box SELLER ở val trùng text với train | Điểm lạc quan | Báo riêng nhóm cửa hàng chưa có trong train; split phân tầng theo cửa hàng |
+| Nhãn không nhất quán (v2) | Tiền tố "ĐC:" lúc có lúc không; thứ tự box trong CSV không theo thứ tự đọc | Nhãn nhiễu, EM sai | Gán O cho tiền tố khi tạo BIO; GT nối theo thứ tự đọc |
+| VietOCR fine-tune không đạt (v2) | CER val không giảm so với VietOCR gốc | E2 không tốt hơn E1 | Báo trung thực; kiểm tra crop/padding, augmentation; giữ E1 |
+| Máy thuê Windows (v2) | detectron2 không có bản cài sẵn cho Windows | Không train được LayoutXLM | Ưu tiên Ubuntu; smoke test khoảng 30 phút trước khi tải dữ liệu |
 | Thiếu provenance/quyền dùng dataset như D§6 lưu ý | Source/terms chưa xác minh | Không thể phát hành lại data như dự kiến | Ghi nguồn và trạng thái quyền theo release; không rehost raw data/checkpoint tùy tiện; không tự gửi đăng ký thay nhóm |
 
 # 26. Assumptions
 
 | ID | Assumption/decision đề xuất | Cách xác minh và hạn chót | Nếu không đúng |
 |---|---|---|---|
-| S01 | MVP LayoutXLM là quyết định người dùng, 4 fields | Ghi trong T03 Week 1–2 | Q01 cần đồng bộ tài liệu ở task riêng, không tự đổi model |
+| S01 | MVP LayoutXLM là quyết định người dùng; **v2:** 4 trường cấp hóa đơn + dòng hàng (D1), OCR = PaddleOCR det + VietOCR rec (D2) | Ghi trong T03 Week 1–2 | Q01 cần đồng bộ tài liệu ở task riêng, không tự đổi model |
 | S02 | Có thể lấy MC-OCR labeled phục vụ đồ án | T01 Week 1 | Dataset acquisition/GT là blocker có owner; không dùng FUNSD thế chỗ |
 | S03 | MC-OCR đủ line/span GT chưa được chứng minh | T04 Week 1–2 | Weak-label branch + QA; field metrics và OCR coverage đúng mức; bổ sung GT task nếu thiếu |
-| S04 | Seed42, group split70/15/15 nếu không có official gold test | T06 Week 2 | Giữ official split nếu có; công bố actual ratio/count |
+| S04 | Seed42; **v2:** split 80/10/10 trên dataset tự gán nhãn, gom ảnh cùng hóa đơn, phân tầng cửa hàng (v1: group split70/15/15) | T06 Week 2 | Giữ official split nếu có; công bố actual ratio/count |
 | S05 | GPU cho fine-tune LayoutXLM được thuê theo giờ; máy local không phải training target; T05 đã PASS trên EzyCloudX RTX 5060 Ti | T18 xác nhận reprovision từ T05 lock và resume checkpoint | Điều chỉnh lịch thuê/runtime/cost theo kết quả, giữ LayoutXLM; không suy kết luận training từ máy local |
 | S06 | PDF một hóa đơn/một trang, reject nhiều trang, giới hạn 10 MiB/20 MP đã chốt; 200 DPI/deadline 60s vẫn là budget đề xuất | T03/T09/T23 | Version contract nếu đổi; cách tính 20 MP cho PDF và timeout còn phải freeze |
-| S07 | Word units dùng shared line bbox khi thiếu word geometry | T15/T16 Week 3 | Dùng geometry thật nếu có; không invent word bbox |
+| S07 | **v2:** box word ước lượng theo vị trí ký tự trên quad của dòng OCR (v1: shared line bbox) | T15/T16 Week 3 | Dùng geometry thật nếu có; không invent word bbox |
 | S08 | `vi-VN` đã chốt cho API v1; currency vẫn phải có context và chưa được chốt thành field response | T03/T12 | SROIE offline benchmark dùng profile riêng; không đổi contract v1 ngầm |
 | S09 | `kie_min_unit_v1` là heuristic chưa calibrated | T19 Week 4–5 | Giữ review nếu validation không đủ; calibration để extension |
 | S10 | B cung cấp worker/Compose endpoint và idempotent persistence | T03/T24, integration Week 5–6 | Test interface bằng fixture, ghi E2E pending đến khi backend thật có |
@@ -1009,13 +1103,17 @@ Các checkbox là điều kiện cần kiểm khi **implementation sau này**, k
 - [ ] Model KIE chính là LayoutXLM; manifest/model name/API không còn nhập nhằng LayoutLMv3.
 - [ ] A/B thống nhất scope theo WBS; A không nhận Review UI ngoài phân công Shared.
 - [ ] MC-OCR actual inventory/source/coverage/label dictionary được xác minh; không giả annotation format.
-- [ ] Mapping company/address/date/total được QA; unknown/unlabeled khác O và missing GT khác absent.
+- [ ] Mapping 8 nhãn (seller/address/timestamp/total_cost + item_name/quantity/unit_price/line_total) được QA; quy tắc O cho chữ ngoài box GT ghi rõ; missing GT khác absent.
+- [x] Split 80/10/10 v2 có seed/manifest, ảnh cùng hóa đơn không vắt ngang tập.
+- [x] Tự xoay ảnh đạt đúng hướng ≥ 98% và MAE ≤ 1° trên val.
+- [ ] PaddleOCR detection đạt recall ≥ 95% cho mọi nhãn trên val; VietOCR fine-tune có CER theo nhãn trên val.
+- [ ] Dòng hàng: gom món, chuẩn hóa quantity/unit_price/line_total và metric item exact/pair F1 có denominator.
 - [ ] Fixed seed/split manifests có hash; duplicate groups không qua split; test không dùng tune.
 - [ ] SROIE loader/protocol có artifact; benchmark executed hoặc deferred có lý do rõ.
 - [ ] Image/PDF limits/one-page policy được Shared chốt; transforms/bbox round-trip đúng.
 - [ ] PaddleOCR Vietnamese model/version/config pin; OCR cache có provenance.
 - [ ] CER/WER có gold, denominator, strict/normalized protocol và annotation coverage công khai.
-- [ ] Rule baseline đủ 4 fields, có deterministic fallback/evidence, cùng OCR/normalization với KIE.
+- [ ] Rule baseline đủ 4 trường cấp hóa đơn + dòng hàng, có deterministic fallback/evidence, cùng OCR/gom nhóm/normalization với KIE.
 - [ ] KIE units, BIO, subword ignore masks, normalized boxes và long-window coverage được test.
 - [x] LayoutXLM forward/backward/save/reload trên rented GPU environment đã pass; runtime manifest/dependency lock/checksum đã lưu local.
 - [ ] T18 resume được từ checkpoint persistent có optimizer/scheduler state; checkpoint selection chỉ dùng validation.
@@ -1023,7 +1121,7 @@ Các checkbox là điều kiện cần kiểm khi **implementation sau này**, k
 - [ ] Normalization vi-VN/date/VND giữ raw; ambiguous/invalid có warning và policy rõ.
 - [ ] Confidence có method/version, chưa calibrated được ghi rõ; OCR/reconstruction signals không bị bỏ qua.
 - [ ] Threshold được chọn trên validation; simulated review/residual khác actual human-review rate.
-- [ ] Test P/R/F1/EM cho từng field, micro/macro và document EM có support/denominators.
+- [ ] Test P/R/F1/EM cho từng field (gồm trường dòng hàng), micro/macro, item exact và document EM có support/denominators.
 - [ ] Error attribution gồm OCR miss/substitution/segmentation, KIE label/boundary, reconstruction, normalization, ambiguous date.
 - [ ] GT-OCR experiment có paired subset hoặc ghi rõ vì sao chưa khả thi.
 - [ ] FastAPI response/model version/raw/normalized/confidence/warnings/error/retryable đúng contract.
