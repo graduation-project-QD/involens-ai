@@ -1,0 +1,224 @@
+{
+  "grouping_version": "kie_grouping_v1",
+  "dataset": "..\\dataset_hoadon\\dataset_merge",
+  "splits": {
+    "train": {
+      "line_items_anchored": {
+        "overall": {
+          "images": 991,
+          "image_exact_rate": 0.9839,
+          "gt_items": 2801,
+          "pred_items": 2800,
+          "item_exact_recall": 0.9829,
+          "item_exact_precision": 0.9832,
+          "pair_precision": 0.9934,
+          "pair_recall": 0.9937,
+          "pair_f1": 0.9935
+        },
+        "by_layout": {
+          "anchored": {
+            "images": 991,
+            "image_exact_rate": 0.9839,
+            "gt_items": 2801,
+            "pred_items": 2800,
+            "item_exact_recall": 0.9829,
+            "item_exact_precision": 0.9832,
+            "pair_precision": 0.9934,
+            "pair_recall": 0.9937,
+            "pair_f1": 0.9935
+          }
+        }
+      },
+      "line_items_row_walk": {
+        "overall": {
+          "images": 991,
+          "image_exact_rate": 0.9687,
+          "gt_items": 2801,
+          "pred_items": 2817,
+          "item_exact_recall": 0.9682,
+          "item_exact_precision": 0.9627,
+          "pair_precision": 0.9899,
+          "pair_recall": 0.9867,
+          "pair_f1": 0.9883
+        },
+        "by_layout": {
+          "stacked": {
+            "images": 761,
+            "image_exact_rate": 0.9816,
+            "gt_items": 2106,
+            "pred_items": 2117,
+            "item_exact_recall": 0.9786,
+            "item_exact_precision": 0.9735,
+            "pair_precision": 0.9939,
+            "pair_recall": 0.9909,
+            "pair_f1": 0.9924
+          },
+          "inline": {
+            "images": 230,
+            "image_exact_rate": 0.9261,
+            "gt_items": 695,
+            "pred_items": 700,
+            "item_exact_recall": 0.9367,
+            "item_exact_precision": 0.93,
+            "pair_precision": 0.9787,
+            "pair_recall": 0.9747,
+            "pair_f1": 0.9767
+          }
+        }
+      },
+      "line_items_baseline_one_row_one_item": {
+        "overall": {
+          "images": 991,
+          "image_exact_rate": 0.1635,
+          "gt_items": 2801,
+          "pred_items": 5080,
+          "item_exact_recall": 0.2064,
+          "item_exact_precision": 0.1138,
+          "pair_precision": 0.9956,
+          "pair_recall": 0.5921,
+          "pair_f1": 0.7426
+        },
+        "by_layout": {
+          "rows": {
+            "images": 991,
+            "image_exact_rate": 0.1635,
+            "gt_items": 2801,
+            "pred_items": 5080,
+            "item_exact_recall": 0.2064,
+            "item_exact_precision": 0.1138,
+            "pair_precision": 0.9956,
+            "pair_recall": 0.5921,
+            "pair_f1": 0.7426
+          }
+        }
+      },
+      "document_field_order": {
+        "SELLER": {
+          "multi_box_fields": 96,
+          "same_as_annotation_order": 0.7708
+        },
+        "ADDRESS": {
+          "multi_box_fields": 457,
+          "same_as_annotation_order": 0.8818
+        },
+        "TIMESTAMP": {
+          "multi_box_fields": 75,
+          "same_as_annotation_order": 0.88
+        },
+        "TOTAL_COST": {
+          "multi_box_fields": 0,
+          "same_as_annotation_order": null
+        }
+      }
+    },
+    "val": {
+      "line_items_anchored": {
+        "overall": {
+          "images": 324,
+          "image_exact_rate": 0.9815,
+          "gt_items": 939,
+          "pred_items": 940,
+          "item_exact_recall": 0.9798,
+          "item_exact_precision": 0.9787,
+          "pair_precision": 0.9925,
+          "pair_recall": 0.9915,
+          "pair_f1": 0.992
+        },
+        "by_layout": {
+          "anchored": {
+            "images": 324,
+            "image_exact_rate": 0.9815,
+            "gt_items": 939,
+            "pred_items": 940,
+            "item_exact_recall": 0.9798,
+            "item_exact_precision": 0.9787,
+            "pair_precision": 0.9925,
+            "pair_recall": 0.9915,
+            "pair_f1": 0.992
+          }
+        }
+      },
+      "line_items_row_walk": {
+        "overall": {
+          "images": 324,
+          "image_exact_rate": 0.9568,
+          "gt_items": 939,
+          "pred_items": 948,
+          "item_exact_recall": 0.967,
+          "item_exact_precision": 0.9578,
+          "pair_precision": 0.99,
+          "pair_recall": 0.9825,
+          "pair_f1": 0.9862
+        },
+        "by_layout": {
+          "inline": {
+            "images": 68,
+            "image_exact_rate": 0.8824,
+            "gt_items": 190,
+            "pred_items": 194,
+            "item_exact_recall": 0.9263,
+            "item_exact_precision": 0.9072,
+            "pair_precision": 0.9819,
+            "pair_recall": 0.9707,
+            "pair_f1": 0.9763
+          },
+          "stacked": {
+            "images": 256,
+            "image_exact_rate": 0.9766,
+            "gt_items": 749,
+            "pred_items": 754,
+            "item_exact_recall": 0.9773,
+            "item_exact_precision": 0.9708,
+            "pair_precision": 0.9922,
+            "pair_recall": 0.9857,
+            "pair_f1": 0.9889
+          }
+        }
+      },
+      "line_items_baseline_one_row_one_item": {
+        "overall": {
+          "images": 324,
+          "image_exact_rate": 0.1389,
+          "gt_items": 939,
+          "pred_items": 1768,
+          "item_exact_recall": 0.1555,
+          "item_exact_precision": 0.0826,
+          "pair_precision": 0.9975,
+          "pair_recall": 0.5626,
+          "pair_f1": 0.7194
+        },
+        "by_layout": {
+          "rows": {
+            "images": 324,
+            "image_exact_rate": 0.1389,
+            "gt_items": 939,
+            "pred_items": 1768,
+            "item_exact_recall": 0.1555,
+            "item_exact_precision": 0.0826,
+            "pair_precision": 0.9975,
+            "pair_recall": 0.5626,
+            "pair_f1": 0.7194
+          }
+        }
+      },
+      "document_field_order": {
+        "SELLER": {
+          "multi_box_fields": 34,
+          "same_as_annotation_order": 0.7941
+        },
+        "ADDRESS": {
+          "multi_box_fields": 157,
+          "same_as_annotation_order": 0.4904
+        },
+        "TIMESTAMP": {
+          "multi_box_fields": 27,
+          "same_as_annotation_order": 0.2593
+        },
+        "TOTAL_COST": {
+          "multi_box_fields": 0,
+          "same_as_annotation_order": null
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "epoch": 17,
+  "scores": {
+    "SELLER": {
+      "precision": 0.9744,
+      "recall": 0.987,
+      "f1": 0.9806,
+      "support": 154
+    },
+    "ADDRESS": {
+      "precision": 0.9844,
+      "recall": 0.962,
+      "f1": 0.9731,
+      "support": 263
+    },
+    "TIMESTAMP": {
+      "precision": 0.958,
+      "recall": 0.9928,
+      "f1": 0.9751,
+      "support": 138
+    },
+    "TOTAL_COST": {
+      "precision": 0.9265,
+      "recall": 0.9265,
+      "f1": 0.9265,
+      "support": 136
+    },
+    "ITEM_NAME": {
+      "precision": 0.9953,
+      "recall": 0.9882,
+      "f1": 0.9917,
+      "support": 425
+    },
+    "QUANTITY": {
+      "precision": 0.9975,
+      "recall": 0.9951,
+      "f1": 0.9963,
+      "support": 406
+    },
+    "UNIT_PRICE": {
+      "precision": 0.995,
+      "recall": 0.9975,
+      "f1": 0.9963,
+      "support": 403
+    },
+    "LINE_TOTAL": {
+      "precision": 0.9902,
+      "recall": 0.9926,
+      "f1": 0.9914,
+      "support": 406
+    },
+    "micro": {
+      "precision": 0.9858,
+      "recall": 0.9854,
+      "f1": 0.9856,
+      "support": 2331
+    }
+  }
+}

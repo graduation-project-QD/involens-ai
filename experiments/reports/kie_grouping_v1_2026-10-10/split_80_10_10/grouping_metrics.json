@@ -1,0 +1,333 @@
+{
+  "grouping_version": "kie_grouping_v1",
+  "dataset": "..\\dataset_hoadon\\dataset_split_80_10_10",
+  "splits": {
+    "train": {
+      "line_items_anchored": {
+        "overall": {
+          "images": 1052,
+          "image_exact_rate": 0.9829,
+          "gt_items": 2970,
+          "pred_items": 2970,
+          "item_exact_recall": 0.9825,
+          "item_exact_precision": 0.9825,
+          "pair_precision": 0.9934,
+          "pair_recall": 0.9934,
+          "pair_f1": 0.9934
+        },
+        "by_layout": {
+          "anchored": {
+            "images": 1052,
+            "image_exact_rate": 0.9829,
+            "gt_items": 2970,
+            "pred_items": 2970,
+            "item_exact_recall": 0.9825,
+            "item_exact_precision": 0.9825,
+            "pair_precision": 0.9934,
+            "pair_recall": 0.9934,
+            "pair_f1": 0.9934
+          }
+        }
+      },
+      "line_items_row_walk": {
+        "overall": {
+          "images": 1052,
+          "image_exact_rate": 0.962,
+          "gt_items": 2970,
+          "pred_items": 2995,
+          "item_exact_recall": 0.965,
+          "item_exact_precision": 0.9569,
+          "pair_precision": 0.9892,
+          "pair_recall": 0.9836,
+          "pair_f1": 0.9864
+        },
+        "by_layout": {
+          "stacked": {
+            "images": 813,
+            "image_exact_rate": 0.9754,
+            "gt_items": 2255,
+            "pred_items": 2271,
+            "item_exact_recall": 0.9725,
+            "item_exact_precision": 0.9657,
+            "pair_precision": 0.9917,
+            "pair_recall": 0.9867,
+            "pair_f1": 0.9892
+          },
+          "inline": {
+            "images": 239,
+            "image_exact_rate": 0.9163,
+            "gt_items": 715,
+            "pred_items": 724,
+            "item_exact_recall": 0.9413,
+            "item_exact_precision": 0.9296,
+            "pair_precision": 0.9817,
+            "pair_recall": 0.9741,
+            "pair_f1": 0.9779
+          }
+        }
+      },
+      "line_items_baseline_one_row_one_item": {
+        "overall": {
+          "images": 1052,
+          "image_exact_rate": 0.1625,
+          "gt_items": 2970,
+          "pred_items": 5418,
+          "item_exact_recall": 0.2044,
+          "item_exact_precision": 0.112,
+          "pair_precision": 0.996,
+          "pair_recall": 0.5875,
+          "pair_f1": 0.7391
+        },
+        "by_layout": {
+          "rows": {
+            "images": 1052,
+            "image_exact_rate": 0.1625,
+            "gt_items": 2970,
+            "pred_items": 5418,
+            "item_exact_recall": 0.2044,
+            "item_exact_precision": 0.112,
+            "pair_precision": 0.996,
+            "pair_recall": 0.5875,
+            "pair_f1": 0.7391
+          }
+        }
+      },
+      "document_field_order": {
+        "SELLER": {
+          "multi_box_fields": 103,
+          "same_as_annotation_order": 0.7767
+        },
+        "ADDRESS": {
+          "multi_box_fields": 488,
+          "same_as_annotation_order": 0.7705
+        },
+        "TIMESTAMP": {
+          "multi_box_fields": 82,
+          "same_as_annotation_order": 0.7561
+        },
+        "TOTAL_COST": {
+          "multi_box_fields": 0,
+          "same_as_annotation_order": null
+        }
+      }
+    },
+    "val": {
+      "line_items_anchored": {
+        "overall": {
+          "images": 138,
+          "image_exact_rate": 0.9855,
+          "gt_items": 407,
+          "pred_items": 407,
+          "item_exact_recall": 0.9828,
+          "item_exact_precision": 0.9828,
+          "pair_precision": 0.9936,
+          "pair_recall": 0.9936,
+          "pair_f1": 0.9936
+        },
+        "by_layout": {
+          "anchored": {
+            "images": 138,
+            "image_exact_rate": 0.9855,
+            "gt_items": 407,
+            "pred_items": 407,
+            "item_exact_recall": 0.9828,
+            "item_exact_precision": 0.9828,
+            "pair_precision": 0.9936,
+            "pair_recall": 0.9936,
+            "pair_f1": 0.9936
+          }
+        }
+      },
+      "line_items_row_walk": {
+        "overall": {
+          "images": 138,
+          "image_exact_rate": 0.9855,
+          "gt_items": 407,
+          "pred_items": 407,
+          "item_exact_recall": 0.9803,
+          "item_exact_precision": 0.9803,
+          "pair_precision": 0.9936,
+          "pair_recall": 0.9952,
+          "pair_f1": 0.9944
+        },
+        "by_layout": {
+          "stacked": {
+            "images": 106,
+            "image_exact_rate": 1.0,
+            "gt_items": 315,
+            "pred_items": 315,
+            "item_exact_recall": 1.0,
+            "item_exact_precision": 1.0,
+            "pair_precision": 1.0,
+            "pair_recall": 1.0,
+            "pair_f1": 1.0
+          },
+          "inline": {
+            "images": 32,
+            "image_exact_rate": 0.9375,
+            "gt_items": 92,
+            "pred_items": 92,
+            "item_exact_recall": 0.913,
+            "item_exact_precision": 0.913,
+            "pair_precision": 0.9743,
+            "pair_recall": 0.9806,
+            "pair_f1": 0.9774
+          }
+        }
+      },
+      "line_items_baseline_one_row_one_item": {
+        "overall": {
+          "images": 138,
+          "image_exact_rate": 0.1304,
+          "gt_items": 407,
+          "pred_items": 766,
+          "item_exact_recall": 0.1327,
+          "item_exact_precision": 0.0705,
+          "pair_precision": 1.0,
+          "pair_recall": 0.5644,
+          "pair_f1": 0.7216
+        },
+        "by_layout": {
+          "rows": {
+            "images": 138,
+            "image_exact_rate": 0.1304,
+            "gt_items": 407,
+            "pred_items": 766,
+            "item_exact_recall": 0.1327,
+            "item_exact_precision": 0.0705,
+            "pair_precision": 1.0,
+            "pair_recall": 0.5644,
+            "pair_f1": 0.7216
+          }
+        }
+      },
+      "document_field_order": {
+        "SELLER": {
+          "multi_box_fields": 16,
+          "same_as_annotation_order": 0.8125
+        },
+        "ADDRESS": {
+          "multi_box_fields": 63,
+          "same_as_annotation_order": 0.8571
+        },
+        "TIMESTAMP": {
+          "multi_box_fields": 3,
+          "same_as_annotation_order": 1.0
+        },
+        "TOTAL_COST": {
+          "multi_box_fields": 0,
+          "same_as_annotation_order": null
+        }
+      }
+    },
+    "test": {
+      "line_items_anchored": {
+        "overall": {
+          "images": 125,
+          "image_exact_rate": 0.984,
+          "gt_items": 363,
+          "pred_items": 363,
+          "item_exact_recall": 0.978,
+          "item_exact_precision": 0.978,
+          "pair_precision": 0.9905,
+          "pair_recall": 0.9905,
+          "pair_f1": 0.9905
+        },
+        "by_layout": {
+          "anchored": {
+            "images": 125,
+            "image_exact_rate": 0.984,
+            "gt_items": 363,
+            "pred_items": 363,
+            "item_exact_recall": 0.978,
+            "item_exact_precision": 0.978,
+            "pair_precision": 0.9905,
+            "pair_recall": 0.9905,
+            "pair_f1": 0.9905
+          }
+        }
+      },
+      "line_items_row_walk": {
+        "overall": {
+          "images": 125,
+          "image_exact_rate": 0.976,
+          "gt_items": 363,
+          "pred_items": 363,
+          "item_exact_recall": 0.978,
+          "item_exact_precision": 0.978,
+          "pair_precision": 0.9919,
+          "pair_recall": 0.9914,
+          "pair_f1": 0.9916
+        },
+        "by_layout": {
+          "stacked": {
+            "images": 98,
+            "image_exact_rate": 1.0,
+            "gt_items": 285,
+            "pred_items": 285,
+            "item_exact_recall": 1.0,
+            "item_exact_precision": 1.0,
+            "pair_precision": 1.0,
+            "pair_recall": 1.0,
+            "pair_f1": 1.0
+          },
+          "inline": {
+            "images": 27,
+            "image_exact_rate": 0.8889,
+            "gt_items": 78,
+            "pred_items": 78,
+            "item_exact_recall": 0.8974,
+            "item_exact_precision": 0.8974,
+            "pair_precision": 0.965,
+            "pair_recall": 0.9631,
+            "pair_f1": 0.964
+          }
+        }
+      },
+      "line_items_baseline_one_row_one_item": {
+        "overall": {
+          "images": 125,
+          "image_exact_rate": 0.144,
+          "gt_items": 363,
+          "pred_items": 664,
+          "item_exact_recall": 0.1736,
+          "item_exact_precision": 0.0949,
+          "pair_precision": 0.9924,
+          "pair_recall": 0.5842,
+          "pair_f1": 0.7355
+        },
+        "by_layout": {
+          "rows": {
+            "images": 125,
+            "image_exact_rate": 0.144,
+            "gt_items": 363,
+            "pred_items": 664,
+            "item_exact_recall": 0.1736,
+            "item_exact_precision": 0.0949,
+            "pair_precision": 0.9924,
+            "pair_recall": 0.5842,
+            "pair_f1": 0.7355
+          }
+        }
+      },
+      "document_field_order": {
+        "SELLER": {
+          "multi_box_fields": 11,
+          "same_as_annotation_order": 0.7273
+        },
+        "ADDRESS": {
+          "multi_box_fields": 63,
+          "same_as_annotation_order": 0.7937
+        },
+        "TIMESTAMP": {
+          "multi_box_fields": 17,
+          "same_as_annotation_order": 0.4706
+        },
+        "TOTAL_COST": {
+          "multi_box_fields": 0,
+          "same_as_annotation_order": null
+        }
+      }
+    }
+  }
+}
