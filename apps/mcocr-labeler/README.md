@@ -39,7 +39,7 @@ python server.py
 
 Stopping the localhost server does not delete these files. The `data/` directory is ignored by Git because it can contain working state and backups.
 
-An empty CSV is initialized with one unannotated row per image when opening a direct workspace. For a nonempty CSV, the app requires its `img_id` values and image filenames to match exactly. Saving updates the existing `img_id` row and creates a backup before replacing the CSV. Existing `anno_image_quality` values are preserved.
+An empty CSV is initialized with one unannotated row per image when opening a direct workspace. If the selected directory contains no supported images and has exactly one subdirectory containing images (as with nested ZIP extraction folders), the app opens that subdirectory and stores its path. For a nonempty CSV, the app requires its `img_id` values and image filenames to match exactly. Saving updates the existing `img_id` row and creates a backup before replacing the CSV. Existing `anno_image_quality` values are preserved.
 
 ## Assigned train/validation workflow
 

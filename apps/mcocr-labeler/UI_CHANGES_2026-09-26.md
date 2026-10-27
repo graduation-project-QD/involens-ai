@@ -44,3 +44,4 @@ Các thao tác zoom, kéo, xoay và ẩn badge chỉ thay đổi cách hiển th
 - Đã xác nhận lưu thành công góc `357°` và đọc lại đúng từ file rotation CSV.
 - JavaScript và Python đã vượt qua kiểm tra cú pháp.
 - Toàn bộ 18 bài kiểm tra backend đều đạt.
+adad
