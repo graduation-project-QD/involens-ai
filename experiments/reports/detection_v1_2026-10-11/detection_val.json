@@ -1,0 +1,157 @@
+{
+  "tuning_version": "detection_tuning_v1",
+  "split": "val",
+  "images": 138,
+  "subset": 0,
+  "selection": "max min-label recall, then mean label recall, then speed",
+  "ranking": [
+    "C1920_b0.2_t0.15",
+    "L960"
+  ],
+  "configs": {
+    "C1920_b0.2_t0.15": {
+      "config": {
+        "name": "C1920_b0.2_t0.15",
+        "resize_long": 1920,
+        "box_thresh": 0.2,
+        "unclip_ratio": 1.5,
+        "crop": true,
+        "thresh": 0.15,
+        "model": "PP-OCRv5_mobile_det",
+        "crop_from_self": false
+      },
+      "images": 138,
+      "min_label_recall": 0.9163,
+      "mean_label_recall": 0.9874,
+      "overall_recall": 0.9841,
+      "merged_rate": 0.006,
+      "images_cropped": 112,
+      "gt_inside_crop": 0.9996,
+      "mean_boxes": 43.0,
+      "mean_seconds": 3.385,
+      "by_label": {
+        "SELLER": {
+          "regions": 154,
+          "recall": 0.987,
+          "merged_rate": 0.0065
+        },
+        "ADDRESS": {
+          "regions": 263,
+          "recall": 0.9962,
+          "merged_rate": 0.0076
+        },
+        "TIMESTAMP": {
+          "regions": 138,
+          "recall": 1.0,
+          "merged_rate": 0.0
+        },
+        "TOTAL_COST": {
+          "regions": 136,
+          "recall": 1.0,
+          "merged_rate": 0.0
+        },
+        "ITEM_NAME": {
+          "regions": 425,
+          "recall": 1.0,
+          "merged_rate": 0.0024
+        },
+        "QUANTITY": {
+          "regions": 406,
+          "recall": 0.9163,
+          "merged_rate": 0.0123
+        },
+        "UNIT_PRICE": {
+          "regions": 403,
+          "recall": 1.0,
+          "merged_rate": 0.0124
+        },
+        "LINE_TOTAL": {
+          "regions": 406,
+          "recall": 1.0,
+          "merged_rate": 0.0
+        }
+      },
+      "quantity_with_inference": {
+        "items_with_quantity": 406,
+        "detected": 372,
+        "inferred_correct": 33,
+        "inferred_wrong": 0,
+        "not_recoverable": 1,
+        "detection_rate": 0.9163,
+        "with_inference_rate": 0.9975
+      }
+    },
+    "L960": {
+      "config": {
+        "name": "L960",
+        "resize_long": 960,
+        "box_thresh": 0.6,
+        "unclip_ratio": 1.5,
+        "crop": false,
+        "thresh": 0.3,
+        "model": "PP-OCRv5_mobile_det",
+        "crop_from_self": false
+      },
+      "images": 138,
+      "min_label_recall": 0.6798,
+      "mean_label_recall": 0.9511,
+      "overall_recall": 0.9356,
+      "merged_rate": 0.0043,
+      "images_cropped": 0,
+      "gt_inside_crop": 1.0,
+      "mean_boxes": 41.7,
+      "mean_seconds": 0.901,
+      "by_label": {
+        "SELLER": {
+          "regions": 154,
+          "recall": 0.987,
+          "merged_rate": 0.0065
+        },
+        "ADDRESS": {
+          "regions": 263,
+          "recall": 0.9582,
+          "merged_rate": 0.0038
+        },
+        "TIMESTAMP": {
+          "regions": 138,
+          "recall": 1.0,
+          "merged_rate": 0.0
+        },
+        "TOTAL_COST": {
+          "regions": 136,
+          "recall": 1.0,
+          "merged_rate": 0.0
+        },
+        "ITEM_NAME": {
+          "regions": 425,
+          "recall": 0.9835,
+          "merged_rate": 0.0024
+        },
+        "QUANTITY": {
+          "regions": 406,
+          "recall": 0.6798,
+          "merged_rate": 0.0099
+        },
+        "UNIT_PRICE": {
+          "regions": 403,
+          "recall": 1.0,
+          "merged_rate": 0.0074
+        },
+        "LINE_TOTAL": {
+          "regions": 406,
+          "recall": 1.0,
+          "merged_rate": 0.0
+        }
+      },
+      "quantity_with_inference": {
+        "items_with_quantity": 406,
+        "detected": 276,
+        "inferred_correct": 127,
+        "inferred_wrong": 0,
+        "not_recoverable": 3,
+        "detection_rate": 0.6798,
+        "with_inference_rate": 0.9926
+      }
+    }
+  }
+}

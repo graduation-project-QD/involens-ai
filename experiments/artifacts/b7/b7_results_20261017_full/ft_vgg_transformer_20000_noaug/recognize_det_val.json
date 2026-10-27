@@ -1,0 +1,8 @@
+{
+  "finetune_version": "vietocr_finetune_v1",
+  "model": "vgg_transformer",
+  "weights": "/home/ezycloudx-admin/b7/ai-service/../runs_b7/ft_vgg_transformer_20000_noaug/weights.pth",
+  "split": "val",
+  "crops": 5932,
+  "seconds_per_crop": 0.1194
+}

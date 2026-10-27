@@ -1,0 +1,3 @@
+﻿config,images,min_label_recall,mean_label_recall,merged_rate,gt_inside_crop,mean_seconds,recall_SELLER,recall_ADDRESS,recall_TIMESTAMP,recall_TOTAL_COST,recall_ITEM_NAME,recall_QUANTITY,recall_UNIT_PRICE,recall_LINE_TOTAL
+C1920_b0.2_t0.15,138,0.9163,0.9874,0.006,0.9996,3.385,0.987,0.9962,1.0,1.0,1.0,0.9163,1.0,1.0
+L960,138,0.6798,0.9511,0.0043,1.0,0.901,0.987,0.9582,1.0,1.0,0.9835,0.6798,1.0,1.0
