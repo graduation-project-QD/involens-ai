@@ -67,6 +67,6 @@ Region labels use small numbered badges positioned beside the left edge of each 
 
 **Xác nhận chiều đọc** stores the current browser angle in the separate rotation metadata CSV. A confirmed `0` is distinct from an image that has not been checked. This metadata is intended for a later preprocessing script that rotates image files and transforms all annotation coordinates together.
 
-The editor keeps up to 50 Undo/Redo states per open image. Unsaved work is also debounced into browser local storage and restored automatically; a successful CSV save removes that draft. Navigation supports **Ảnh trước**, **Ảnh tiếp**, and **Lưu và sang ảnh tiếp theo**. Shortcuts: `Ctrl+Z`, `Ctrl+Y`, `Ctrl+S`, `Ctrl+Shift+S`, `Alt+Left`, and `Alt+Right`. Use the **Chưa xác nhận chiều đọc** filter to audit orientation metadata before finishing an assignment.
+The editor keeps up to 50 Undo/Redo states per open image. Unsaved work is also debounced into browser local storage and restored automatically; a successful CSV save removes that draft. Shortcuts: `Ctrl+Z`, `Ctrl+Y`, and `Ctrl+S`. Use the **Chưa xác nhận chiều đọc** filter to audit orientation metadata before finishing an assignment.
 
 For one product row, choose its `line_item_id`, then draw `ITEM_NAME`, `QUANTITY`, `UNIT_PRICE`, and `LINE_TOTAL`. Use **Dòng kế tiếp** before starting the next product row.

@@ -1,5 +1,10 @@
 # Tóm tắt thay đổi giao diện ngày 26/09/2026
 
+## Cập nhật ngày 04/10/2026
+
+- Loại bỏ các nút **Lưu và sang ảnh tiếp theo**, **Ảnh trước** và **Ảnh tiếp** theo luồng gán nhãn hiện tại.
+- Loại bỏ các phím tắt đi kèm `Ctrl+Shift+S`, `Alt+Left` và `Alt+Right`; `Ctrl+S` vẫn dùng để lưu ảnh hiện tại.
+
 ## Cập nhật ngày 30/09/2026
 
 - Chuyển ảnh sẽ cuộn thanh bên phải lên đầu; lưu nhãn giữ nguyên zoom và không kéo giao diện về ảnh cũ khi người dùng đã chuyển ảnh.
