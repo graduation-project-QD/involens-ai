@@ -12,14 +12,14 @@ logger = logging.getLogger(__name__)
 
 @dataclass(frozen=True)
 class requestDTO:
-    """Document identifier and object storage key supplied by the sender."""
+    """Document identifier and signed object storage URL supplied by the sender."""
 
     id: str
-    file_name: str
+    url: str
 
     @classmethod
     def from_json(cls, message: str) -> requestDTO:
-        """Map id and fileName from JSON, ignoring additional fields.
+        """Map id and url from JSON, ignoring additional fields.
 
         Both fields must be present, non-null and different from an empty
         string. Values are preserved without UUID validation or normalization.
@@ -32,12 +32,12 @@ class requestDTO:
                 logger.error("Request JSON must be an object.")
                 raise ValueError("Request JSON must be an object")
 
-            for name in ("id", "fileName"):
+            for name in ("id", "url"):
                 if payload.get(name) is None or payload[name] == "":
                     logger.error("Request field must be present and non-empty: %s", name)
                     raise ValueError(f"Required request field is missing, null or empty: {name}")
 
-            request = cls(id=payload["id"], file_name=payload["fileName"])
+            request = cls(id=payload["id"], url=payload["url"])
         except (TypeError, ValueError) as error:
             logger.error("Request JSON mapping failed (%s).", type(error).__name__)
             raise

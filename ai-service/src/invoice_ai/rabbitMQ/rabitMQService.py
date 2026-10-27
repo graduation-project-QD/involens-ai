@@ -84,6 +84,7 @@ hàm này  dùng để nhận message từ rabbitMQ,
 khi có hàm xử lý chỉ import vào gọi hàm xử lý trong hàm này là đc nhé 
 """
 def receive_messages() -> None:
+    """Consume document IDs and signed URLs, acknowledging mapped requests or requeuing failures."""
     logger.info("Starting RabbitMQ request message consumption.")
     if not config.RABBITMQ_ENABLED:
         logger.error("Cannot consume: RabbitMQ integration is disabled.")
@@ -104,9 +105,8 @@ def receive_messages() -> None:
                     message = body.decode("utf-8")
                     request = requestDTO.from_json(message)
                     logger.info(
-                        "Received RabbitMQ request: id=%s, fileName=%s",
+                        "Received RabbitMQ request: id=%s",
                         request.id,
-                        request.file_name,
                     )
                     #gọi hàm xử lý message tiếp ở đây nhé
                 except Exception as error:
