@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-07",
+  "verified_at_utc": "2026-10-07T05:33:33.475082+00:00",
+  "reviewed_images": 13,
+  "ledger_sha256": "6f81244b90bf974dab43938a1c06badccb74662f2e32d1e7d77808e28a33f71f",
+  "planned_rows_sha256": "e19b0509a53e0f23fd895c8557602342311e5ba3f373267479403a36180629ab",
+  "visual_rechecks": [
+    {
+      "directory": "qa",
+      "pages_inspected": 20,
+      "tiles": 180
+    },
+    {
+      "directory": "qa_final",
+      "pages_inspected": 10,
+      "tiles": 84
+    },
+    {
+      "directory": "qa_last",
+      "pages_inspected": 4,
+      "tiles": 32
+    },
+    {
+      "directory": "qa_date",
+      "pages_inspected": 1,
+      "tiles": 1
+    }
+  ],
+  "limitations": "Mất mực trên timestamp ảnh #238 và một phần chữ ảnh #373: ghi trong báo cáo để duyệt, không khôi phục bằng suy diễn; không đánh dấu hoàn tất."
+}

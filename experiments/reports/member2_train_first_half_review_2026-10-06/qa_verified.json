@@ -1,0 +1,6 @@
+{
+  "reviewed_images": 282,
+  "visual_qa": "All 503 changed/additional region crops plus 144 regions on image 109 reviewed; corrected risky crops rechecked.",
+  "ledger_sha256": "326c7756ac3046f2c626c05a318c1567e1075cb26152c1c1fa1785d53d755eb9",
+  "planned_rows_sha256": "46f7f3110dc5e5771ea13efbf09dfc54ba1406adfbcd0728a502860911c96ddc"
+}

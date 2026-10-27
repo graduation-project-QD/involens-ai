@@ -1,0 +1,81 @@
+{
+  "date": "2026-10-06",
+  "images": 1546,
+  "manifest_rows": 1546,
+  "manifest_matches_current_images": true,
+  "byte_identical": {
+    "unique_images": 1491,
+    "duplicate_groups": 53,
+    "images_in_duplicate_groups": 108,
+    "redundant_copies": 55,
+    "cross_train_val_groups": 20,
+    "cross_train_val_images": 40,
+    "cross_train_val_val_images": 20,
+    "cross_member_groups": 0,
+    "partitions": {
+      "member_1/train": {
+        "images": 577,
+        "unique_images": 559,
+        "duplicate_groups": 16,
+        "redundant_copies": 18
+      },
+      "member_1/val": {
+        "images": 195,
+        "unique_images": 195,
+        "duplicate_groups": 0,
+        "redundant_copies": 0
+      },
+      "member_2/train": {
+        "images": 578,
+        "unique_images": 563,
+        "duplicate_groups": 15,
+        "redundant_copies": 15
+      },
+      "member_2/val": {
+        "images": 196,
+        "unique_images": 194,
+        "duplicate_groups": 2,
+        "redundant_copies": 2
+      }
+    }
+  },
+  "decoded_pixel_identical": {
+    "unique_images": 1491,
+    "duplicate_groups": 53,
+    "images_in_duplicate_groups": 108,
+    "redundant_copies": 55,
+    "cross_train_val_groups": 20,
+    "cross_train_val_images": 40,
+    "cross_train_val_val_images": 20,
+    "cross_member_groups": 0,
+    "partitions": {
+      "member_1/train": {
+        "images": 577,
+        "unique_images": 559,
+        "duplicate_groups": 16,
+        "redundant_copies": 18
+      },
+      "member_1/val": {
+        "images": 195,
+        "unique_images": 195,
+        "duplicate_groups": 0,
+        "redundant_copies": 0
+      },
+      "member_2/train": {
+        "images": 578,
+        "unique_images": 563,
+        "duplicate_groups": 15,
+        "redundant_copies": 15
+      },
+      "member_2/val": {
+        "images": 196,
+        "unique_images": 194,
+        "duplicate_groups": 2,
+        "redundant_copies": 2
+      }
+    }
+  },
+  "decode_errors": [],
+  "manifest_mismatches": [],
+  "scope": "All four current member folders and their active CSV IDs. No dataset or annotations changed. Near duplicates from different compression, crop, scale or rotation are not classified by this audit."
+}

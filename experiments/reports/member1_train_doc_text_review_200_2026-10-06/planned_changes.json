@@ -1,0 +1,2892 @@
+[
+  {
+    "position": 3,
+    "img_id": "mcocr_public_145013aedmq.jpg",
+    "original_region": 2,
+    "action": "text",
+    "label": "ADDRESS",
+    "old_text": "VM + QNH 590 Trần Phú",
+    "new_text": "VM+ QNH 590 Trần Phú",
+    "reason": "Bỏ khoảng trắng chèn giữa VM và dấu +; khớp chữ in."
+  },
+  {
+    "position": 3,
+    "img_id": "mcocr_public_145013aedmq.jpg",
+    "original_region": 3,
+    "action": "text",
+    "label": "ADDRESS",
+    "old_text": "Số 590 Trần Phú.P.Cẩm Thuy",
+    "new_text": "Số 590 Trần Phú, P. Cẩm Thủy",
+    "reason": "Khôi phục dấu phẩy và khoảng trắng giữa hai phần địa chỉ đọc rõ."
+  },
+  {
+    "position": 3,
+    "img_id": "mcocr_public_145013aedmq.jpg",
+    "original_region": 4,
+    "action": "text",
+    "label": "ADDRESS",
+    "old_text": "TP.Cẩm Phả, Quảng Ninh",
+    "new_text": "TP. Cẩm Phả, Quảng Ninh",
+    "reason": "Giữ dấu chấm và khoảng trắng sau TP như chữ in."
+  },
+  {
+    "position": 9,
+    "img_id": "mcocr_public_145013atlmq.jpg",
+    "original_region": 4,
+    "action": "text",
+    "label": "TIMESTAMP",
+    "old_text": "16/08/2020 - 17:18",
+    "new_text": "16/08/2020-17:18",
+    "reason": "Dấu nối in liền ngày và giờ; bỏ khoảng trắng tự thêm."
+  },
+  {
+    "position": 12,
+    "img_id": "mcocr_public_145013avtwc.jpg",
+    "original_region": 1,
+    "action": "text",
+    "label": "TIMESTAMP",
+    "old_text": "NGÀY HỆ THỐNG:13/08/2020 22:07",
+    "new_text": "13/08/2020 22:07",
+    "reason": "TIMESTAMP lấy giá trị ngày giờ; bỏ chữ mô tả NGÀY HỆ THỐNG."
+  },
+  {
+    "position": 12,
+    "img_id": "mcocr_public_145013avtwc.jpg",
+    "original_region": 2,
+    "action": "remove_wrong_region",
+    "label": "TOTAL_COST",
+    "old_text": "Tổng Tiền",
+    "new_text": "",
+    "reason": "Bỏ box chữ mô tả Tổng Tiền, không phải giá trị TOTAL_COST."
+  },
+  {
+    "position": 14,
+    "img_id": "mcocr_public_145013azaup.jpg",
+    "original_region": 4,
+    "action": "text",
+    "label": "TIMESTAMP",
+    "old_text": "12/08/2020 - 12:22",
+    "new_text": "12/08/2020-12:22",
+    "reason": "Dấu nối in liền ngày và giờ; bỏ khoảng trắng tự thêm."
+  },
+  {
+    "position": 15,
+    "img_id": "mcocr_public_145013bchvc.jpg",
+    "original_region": 3,
+    "action": "text",
+    "label": "TOTAL_COST",
+    "old_text": "84,000đ",
+    "new_text": "84.000đ",
+    "reason": "Tiền in dấu chấm phân cách hàng nghìn, không phải dấu phẩy."
+  },
+  {
+    "position": 17,
+    "img_id": "mcocr_public_145013bdnvs.jpg",
+    "original_region": 4,
+    "action": "text",
+    "label": "TIMESTAMP",
+    "old_text": "13/08/2020 - 17:35",
+    "new_text": "13/08/2020-17:35",
+    "reason": "Dấu nối in liền ngày và giờ."
+  },
+  {
+    "position": 18,
+    "img_id": "mcocr_public_145013bfddt.jpg",
+    "original_region": 3,
+    "action": "text",
+    "label": "ADDRESS",
+    "old_text": "Số 10804062 Đường Trần Phú",
+    "new_text": "Số 1060-1062 Đường Trần Phú",
+    "reason": "Số nhà bị chép nhầm thành 10804062; ảnh đọc rõ 1060-1062."
+  },
+  {
+    "position": 21,
+    "img_id": "mcocr_public_145013blbqm.jpg",
+    "original_region": 4,
+    "action": "text",
+    "label": "TIMESTAMP",
+    "old_text": "09/08/2020 - 20:46",
+    "new_text": "09/08/2020-20:46",
+    "reason": "Dấu nối in liền ngày và giờ."
+  },
+  {
+    "position": 22,
+    "img_id": "mcocr_public_145013borvc.jpg",
+    "original_region": 1,
+    "action": "text",
+    "label": "SELLER",
+    "old_text": "THE COFFEE HQUSE",
+    "new_text": "THE COFFEE HOUSE",
+    "reason": "HOUSE bị chép nhầm chữ O thành Q."
+  },
+  {
+    "position": 22,
+    "img_id": "mcocr_public_145013borvc.jpg",
+    "original_region": 2,
+    "action": "text",
+    "label": "ADDRESS",
+    "old_text": "403 Phan Huy Ich, P.14.Q.Gò vấp",
+    "new_text": "403 Phan Huy Ích, P.14, Q.Gò Vấp",
+    "reason": "Bổ sung dấu Í và dấu chấm/phẩy đọc rõ trên địa chỉ."
+  },
+  {
+    "position": 22,
+    "img_id": "mcocr_public_145013borvc.jpg",
+    "original_region": 3,
+    "action": "text",
+    "label": "TOTAL_COST",
+    "old_text": "10101000",
+    "new_text": "101 000",
+    "reason": "Số tiền in 101 000, text cũ 10101000 có số thừa."
+  },
+  {
+    "position": 22,
+    "img_id": "mcocr_public_145013borvc.jpg",
+    "original_region": 4,
+    "action": "text",
+    "label": "TIMESTAMP",
+    "old_text": "01.10.2020 09:14",
+    "new_text": "01.10.2020 09.14",
+    "reason": "Ảnh dùng dấu chấm giữa giờ/phút; không phải dấu hai chấm."
+  },
+  {
+    "position": 23,
+    "img_id": "mcocr_public_145013bpcpt.jpg",
+    "original_region": 2,
+    "action": "text",
+    "label": "ADDRESS",
+    "old_text": "VM + QNH 590 Trần Phú",
+    "new_text": "VM+ QNH 590 Trần Phú",
+    "reason": "Bỏ khoảng trắng chèn trong VM+."
+  },
+  {
+    "position": 23,
+    "img_id": "mcocr_public_145013bpcpt.jpg",
+    "original_region": 3,
+    "action": "text",
+    "label": "ADDRESS",
+    "old_text": "Số 590 Trần Phú P. Cẩm Thủy",
+    "new_text": "Số 590 Trần Phú, P. Cẩm Thủy",
+    "reason": "Dấu phân cách sau Trần Phú trên ảnh là dấu phẩy."
+  },
+  {
+    "position": 24,
+    "img_id": "mcocr_public_145013bsywa.jpg",
+    "original_region": 4,
+    "action": "text",
+    "label": "TIMESTAMP",
+    "old_text": "12/08/2020 - 08:08:03",
+    "new_text": "12/08/2020-08:03",
+    "reason": "Ảnh in 08:03, text cũ 08:08:03 thêm một thành phần 08."
+  },
+  {
+    "position": 25,
+    "img_id": "mcocr_public_145013bvmvl.jpg",
+    "original_region": 4,
+    "action": "text",
+    "label": "TIMESTAMP",
+    "old_text": "16/08/2020 21:18",
+    "new_text": "16/08/2020-21:18",
+    "reason": "Giữ dấu nối giữa ngày và giờ đúng ảnh."
+  },
+  {
+    "position": 28,
+    "img_id": "mcocr_public_145013bynnh.jpg",
+    "original_region": 3,
+    "action": "text",
+    "label": "TOTAL_COST",
+    "old_text": "210,000 210,000",
+    "new_text": "210,000",
+    "reason": "Text bị lặp 210,000 hai lần, ảnh chỉ có một số tiền."
+  },
+  {
+    "position": 29,
+    "img_id": "mcocr_public_145013cawuf.jpg",
+    "original_region": 3,
+    "action": "text",
+    "label": "TIMESTAMP",
+    "old_text": "31.032019",
+    "new_text": "31.03.2019",
+    "reason": "Thiếu dấu chấm giữa tháng và năm."
+  },
+  {
+    "position": 31,
+    "img_id": "mcocr_public_145013cgpoh.jpg",
+    "original_region": 3,
+    "action": "text",
+    "label": "ADDRESS",
+    "old_text": "TỔ 7, PHẠM MINH TIẾN A, P.CÂ",
+    "new_text": "TỔ 7 KHU MINH TIẾN A,P.CẨ",
+    "reason": "Text cũ PHẠM MINH TIẾN không khớp chữ KHU MINH TIẾN trên ảnh; giữ đoạn cuối bị cắt P.CẨ."
+  },
+  {
+    "position": 31,
+    "img_id": "mcocr_public_145013cgpoh.jpg",
+    "original_region": 5,
+    "action": "text",
+    "label": "TIMESTAMP",
+    "old_text": "12/03/2020 22:06:51",
+    "new_text": "12/08/2020 22:06:51",
+    "reason": "Tháng in là 08, text cũ chép nhầm thành 03."
+  },
+  {
+    "position": 31,
+    "img_id": "mcocr_public_145013cgpoh.jpg",
+    "original_region": 7,
+    "action": "remove_wrong_region",
+    "label": "TOTAL_COST",
+    "old_text": "01 01",
+    "new_text": "",
+    "reason": "Bỏ box chữ mô tả và số lượng giao dịch gán nhầm TOTAL_COST; giữ giá trị tiền đã có."
+  },
+  {
+    "position": 31,
+    "img_id": "mcocr_public_145013cgpoh.jpg",
+    "original_region": 6,
+    "action": "remove_wrong_region",
+    "label": "TOTAL_COST",
+    "old_text": "TẠI QUẦY",
+    "new_text": "",
+    "reason": "Bỏ box chữ mô tả và số lượng giao dịch gán nhầm TOTAL_COST; giữ giá trị tiền đã có."
+  },
+  {
+    "position": 31,
+    "img_id": "mcocr_public_145013cgpoh.jpg",
+    "original_region": 4,
+    "action": "remove_wrong_region",
+    "label": "TIMESTAMP",
+    "old_text": "THỜI GIA",
+    "new_text": "",
+    "reason": "Bỏ box chữ mô tả và số lượng giao dịch gán nhầm TOTAL_COST; giữ giá trị tiền đã có."
+  },
+  {
+    "position": 31,
+    "img_id": "mcocr_public_145013cgpoh.jpg",
+    "original_region": 2,
+    "action": "remove_wrong_region",
+    "label": "ADDRESS",
+    "old_text": "ĐỊA CHỈ:",
+    "new_text": "",
+    "reason": "Bỏ box chữ mô tả và số lượng giao dịch gán nhầm TOTAL_COST; giữ giá trị tiền đã có."
+  },
+  {
+    "position": 31,
+    "img_id": "mcocr_public_145013cgpoh.jpg",
+    "original_region": 1,
+    "action": "remove_wrong_region",
+    "label": "SELLER",
+    "old_text": "TÊN ĐẠI LÝ:",
+    "new_text": "",
+    "reason": "Bỏ box chữ mô tả và số lượng giao dịch gán nhầm TOTAL_COST; giữ giá trị tiền đã có."
+  },
+  {
+    "position": 31,
+    "img_id": "mcocr_public_145013cgpoh.jpg",
+    "original_region": "",
+    "action": "replace_value_region",
+    "label": "SELLER",
+    "old_text": "",
+    "new_text": "VINMART",
+    "reason": "Tên đại lý VINMART đọc rõ; Payoo là đơn vị thanh toán, không phải SELLER."
+  },
+  {
+    "position": 32,
+    "img_id": "mcocr_public_145013cixex.jpg",
+    "original_region": 4,
+    "action": "text",
+    "label": "TIMESTAMP",
+    "old_text": "17/08/2020 - 17:28",
+    "new_text": "17/08/2020-17:28",
+    "reason": "Dấu nối in liền ngày và giờ."
+  },
+  {
+    "position": 33,
+    "img_id": "mcocr_public_145013ckcsv.jpg",
+    "original_region": 4,
+    "action": "text",
+    "label": "TIMESTAMP",
+    "old_text": "11/08/2020 - 21:19",
+    "new_text": "11/08/2020-21:19",
+    "reason": "Giữ dấu nối giữa ngày và giờ như ảnh."
+  },
+  {
+    "position": 34,
+    "img_id": "mcocr_public_145013ckwpd.jpg",
+    "original_region": 2,
+    "action": "text",
+    "label": "ADDRESS",
+    "old_text": "VM + QNH 1060-1062 Trần Phú",
+    "new_text": "VM+ QNH 1060-1062 Trần Phú",
+    "reason": "Bỏ khoảng trắng chèn trong VM+."
+  },
+  {
+    "position": 37,
+    "img_id": "mcocr_public_145013cllbf.jpg",
+    "original_region": 1,
+    "action": "text",
+    "label": "ADDRESS",
+    "old_text": "Lục Quân - Xã Cổ Đông - thị xã Sơn Tây",
+    "new_text": "Lục Quân - Xã Cổ Đông - Thị xã Sơn Tây",
+    "reason": "Ảnh viết hoa Thị; giữ đúng chữ in."
+  },
+  {
+    "position": 37,
+    "img_id": "mcocr_public_145013cllbf.jpg",
+    "original_region": 2,
+    "action": "text",
+    "label": "TOTAL_COST",
+    "old_text": "253.000 253.000",
+    "new_text": "253.000",
+    "reason": "Text cũ lặp số tiền hai lần, ảnh chỉ có 253.000."
+  },
+  {
+    "position": 37,
+    "img_id": "mcocr_public_145013cllbf.jpg",
+    "original_region": 3,
+    "action": "text",
+    "label": "TIMESTAMP",
+    "old_text": "09:03 13/07/2020",
+    "new_text": "09:03, 13/07/2020",
+    "reason": "Giữa giờ và ngày có dấu phẩy trên ảnh."
+  },
+  {
+    "position": 42,
+    "img_id": "mcocr_public_145013dcdmv.jpg",
+    "original_region": 1,
+    "action": "text",
+    "label": "SELLER",
+    "old_text": "PHO MO",
+    "new_text": "PHỐ MỎ",
+    "reason": "Dấu tiếng Việt trên tên cửa hàng đọc được; text cũ bỏ dấu."
+  },
+  {
+    "position": 42,
+    "img_id": "mcocr_public_145013dcdmv.jpg",
+    "original_region": 2,
+    "action": "text",
+    "label": "ADDRESS",
+    "old_text": "Tổ 7 Khu Tân Lập 4-P.Cẩm Thủy",
+    "new_text": "Tổ 7 khu Tân Lập 4 - P.Cẩm Thủy -",
+    "reason": "Giữ chữ thường khu và dấu nối đọc được trên ảnh."
+  },
+  {
+    "position": 42,
+    "img_id": "mcocr_public_145013dcdmv.jpg",
+    "original_region": 3,
+    "action": "text",
+    "label": "ADDRESS",
+    "old_text": "Tp Cẩm Phả - Quảng Ninh",
+    "new_text": "Tp.Cẩm Phả - Quảng Ninh",
+    "reason": "Ảnh có dấu chấm sau Tp."
+  },
+  {
+    "position": 42,
+    "img_id": "mcocr_public_145013dcdmv.jpg",
+    "original_region": 4,
+    "action": "text",
+    "label": "TIMESTAMP",
+    "old_text": "09/08/2020 22:00",
+    "new_text": "09 / 08 / 2020 - 22 : 00",
+    "reason": "Giữ thứ tự và dấu phân cách in trên phiếu."
+  },
+  {
+    "position": 43,
+    "img_id": "mcocr_public_145013dcqda.jpg",
+    "original_region": 3,
+    "action": "text",
+    "label": "ADDRESS",
+    "old_text": "Tổ 8, Khu 3B P.Cẩm Trung",
+    "new_text": "Tổ 8, Khu 3B, P. Cẩm Trung",
+    "reason": "Bổ sung dấu phẩy phân tách Khu 3B và P. Cẩm Trung."
+  },
+  {
+    "position": 43,
+    "img_id": "mcocr_public_145013dcqda.jpg",
+    "original_region": 4,
+    "action": "text",
+    "label": "ADDRESS",
+    "old_text": "TP.Cẩm Phả, T.Quảng Ninh",
+    "new_text": "TP. Cẩm Phả, T. Quảng Ninh",
+    "reason": "Khoảng trắng sau dấu chấm khớp chữ in."
+  },
+  {
+    "position": 44,
+    "img_id": "mcocr_public_145013ddcph.jpg",
+    "original_region": 12,
+    "action": "text",
+    "label": "TIMESTAMP",
+    "old_text": "11/08/2020 08:06",
+    "new_text": "11/08/2020-08:06",
+    "reason": "Ngày và giờ có dấu nối trên ảnh."
+  },
+  {
+    "position": 45,
+    "img_id": "mcocr_public_145013dhzmu.jpg",
+    "original_region": 1,
+    "action": "remove_wrong_region",
+    "label": "TOTAL_COST",
+    "old_text": "Tổng thanh toán",
+    "new_text": "",
+    "reason": "Báo cáo POS/ca: box chứa chữ Tổng thanh toán, không phải số tiền của hóa đơn."
+  },
+  {
+    "position": 45,
+    "img_id": "mcocr_public_145013dhzmu.jpg",
+    "original_region": "",
+    "action": "replace_value_region",
+    "label": "TOTAL_COST",
+    "old_text": "",
+    "new_text": "4.814.466",
+    "reason": "Giá trị in cùng dòng Tổng thanh toán đọc được trên báo cáo."
+  },
+  {
+    "position": 46,
+    "img_id": "mcocr_public_145013dnwxv.jpg",
+    "original_region": 4,
+    "action": "text",
+    "label": "TIMESTAMP",
+    "old_text": "16/08/2020 - 17:38",
+    "new_text": "16/08/2020-17:36",
+    "reason": "Phút in là 36, text cũ chép nhầm thành 38."
+  },
+  {
+    "position": 47,
+    "img_id": "mcocr_public_145013dsaix.jpg",
+    "original_region": 3,
+    "action": "text",
+    "label": "SELLER",
+    "old_text": "V09 - 336 Võ Văn Ngân Q TD",
+    "new_text": "Y09 - 336 Võ Văn Ngân Q.TD",
+    "reason": "Chữ đầu là Y, text cũ chép thành V."
+  },
+  {
+    "position": 47,
+    "img_id": "mcocr_public_145013dsaix.jpg",
+    "original_region": 4,
+    "action": "text",
+    "label": "ADDRESS",
+    "old_text": "Y09 -336 Vô Văn Ngân Q.TD",
+    "new_text": "Y09 - 336 Võ Văn Ngân Q.TD",
+    "reason": "Giữ dấu nối và khoảng trắng in trên địa chỉ."
+  },
+  {
+    "position": 48,
+    "img_id": "mcocr_public_145013dwbmu.jpg",
+    "original_region": 3,
+    "action": "text",
+    "label": "ADDRESS",
+    "old_text": "Số 10604082 Đường Trần Phú",
+    "new_text": "Số 1060-1062 Đường Trần Phú",
+    "reason": "Số nhà chép sai thành 10604082; sửa theo ảnh 1060-1062."
+  },
+  {
+    "position": 49,
+    "img_id": "mcocr_public_145013dylla.jpg",
+    "original_region": 2,
+    "action": "text",
+    "label": "ADDRESS",
+    "old_text": "VM+ QNH Tổ 7, khu Minh Tiến A",
+    "new_text": "VM+ QNH Tổ 7, Khu Minh Tiến A",
+    "reason": "Ảnh viết hoa Khu."
+  },
+  {
+    "position": 49,
+    "img_id": "mcocr_public_145013dylla.jpg",
+    "original_region": 5,
+    "action": "remove_wrong_region",
+    "label": "TOTAL_COST",
+    "old_text": "TỔNG TIỀN PHẢI T.TOÁN",
+    "new_text": "",
+    "reason": "Bỏ box mô tả TỔNG TIỀN PHẢI T.TOÁN; đã có box số tiền 42.904."
+  },
+  {
+    "position": 50,
+    "img_id": "mcocr_public_145013egelf.jpg",
+    "original_region": 1,
+    "action": "text",
+    "label": "SELLER",
+    "old_text": "Vincommerce",
+    "new_text": "VinCommerce",
+    "reason": "Giữ chữ C viết hoa trong logo VinCommerce."
+  },
+  {
+    "position": 53,
+    "img_id": "mcocr_public_145013eygxv.jpg",
+    "original_region": 3,
+    "action": "text",
+    "label": "TOTAL_COST",
+    "old_text": "46,000 46,000",
+    "new_text": "46,000",
+    "reason": "Bỏ số tiền bị lặp; ảnh chỉ in một 46,000."
+  },
+  {
+    "position": 54,
+    "img_id": "mcocr_public_145013famty.jpg",
+    "original_region": 4,
+    "action": "text",
+    "label": "TIMESTAMP",
+    "old_text": "15/08/2020 08:42",
+    "new_text": "15/08/2020-08:42",
+    "reason": "Ngày và giờ có dấu nối trên ảnh."
+  },
+  {
+    "position": 57,
+    "img_id": "mcocr_public_145013fiibr.jpg",
+    "original_region": 3,
+    "action": "remove_wrong_region",
+    "label": "TOTAL_COST",
+    "old_text": "Tổng",
+    "new_text": "",
+    "reason": "Bỏ chữ mô tả Tổng gán vào TOTAL_COST; giữ giá trị 421,000đ."
+  },
+  {
+    "position": 61,
+    "img_id": "mcocr_public_145013fxcgs.jpg",
+    "original_region": 2,
+    "action": "text",
+    "label": "ADDRESS",
+    "old_text": "VM + QNH Dự án quỹ đất đường sắt",
+    "new_text": "VM+ QNH Dự án quỹ đất đường sắt",
+    "reason": "Bỏ khoảng trắng chèn trong VM+."
+  },
+  {
+    "position": 61,
+    "img_id": "mcocr_public_145013fxcgs.jpg",
+    "original_region": 4,
+    "action": "text",
+    "label": "ADDRESS",
+    "old_text": "P.Cẩm Sơn, TP.Cẩm Phả, T.QN",
+    "new_text": "P. Cẩm Sơn, TP. Cẩm Phả, T. QN",
+    "reason": "Giữ khoảng trắng sau dấu chấm đọc được trên ảnh."
+  },
+  {
+    "position": 64,
+    "img_id": "mcocr_public_145013gxbkt.jpg",
+    "original_region": 3,
+    "action": "text",
+    "label": "ADDRESS",
+    "old_text": "104 Trần Phú phường Cám Tây - Thành phố Cẩm",
+    "new_text": "104 Trần Phú - phường Cẩm Tây - Thành phố Cẩm",
+    "reason": "Text thiếu dấu nối sau Trần Phú."
+  },
+  {
+    "position": 65,
+    "img_id": "mcocr_public_145013hfchp.jpg",
+    "original_region": 3,
+    "action": "text",
+    "label": "ADDRESS",
+    "old_text": "Số 86 Đường Trần Phú, P.Cẩm Tây",
+    "new_text": "Số 86 Đường Trần Phú, P. Cẩm Tây",
+    "reason": "Giữ khoảng trắng sau P. như chữ in."
+  },
+  {
+    "position": 65,
+    "img_id": "mcocr_public_145013hfchp.jpg",
+    "original_region": 4,
+    "action": "text",
+    "label": "ADDRESS",
+    "old_text": "TP Cẩm Phả, T.Quảng Ninh",
+    "new_text": "TP Cẩm Phả, T. Quảng Ninh.",
+    "reason": "Giữ dấu chấm cuối dòng và khoảng trắng sau T."
+  },
+  {
+    "position": 66,
+    "img_id": "mcocr_public_145013hfxkr.jpg",
+    "original_region": 1,
+    "action": "text",
+    "label": "SELLER",
+    "old_text": "MINIMART ANANAN",
+    "new_text": "MINIMART ANAN",
+    "reason": "Text cũ ANANAN thừa AN so với logo ANAN."
+  },
+  {
+    "position": 66,
+    "img_id": "mcocr_public_145013hfxkr.jpg",
+    "original_region": 4,
+    "action": "text",
+    "label": "TIMESTAMP",
+    "old_text": "16/08/2020 - 16:22",
+    "new_text": "16/08/2020-16:22",
+    "reason": "Dấu nối in liền ngày và giờ."
+  },
+  {
+    "position": 67,
+    "img_id": "mcocr_public_145013hgrpn.jpg",
+    "original_region": 1,
+    "action": "text",
+    "label": "SELLER",
+    "old_text": "SCTC cổ THỎ 104 TRẦN PHÚ - CẨM",
+    "new_text": "SCTC CÔ THỎ 104 TRẦN PHÚ - CẨM",
+    "reason": "Khôi phục chữ hoa CÔ; dấu hỏi trên THỎ được giữ như ảnh."
+  },
+  {
+    "position": 70,
+    "img_id": "mcocr_public_145013iadlw.jpg",
+    "original_region": 3,
+    "action": "text",
+    "label": "ADDRESS",
+    "old_text": "Tang 1, SH42 - Toa K3, Cong trinh chung cu",
+    "new_text": "Tang 1,SH42 - Toa K3,Cong trinh chung cu",
+    "reason": "Địa chỉ trên ảnh in không dấu; không tự thêm dấu Tầng/Tòa/Công."
+  },
+  {
+    "position": 70,
+    "img_id": "mcocr_public_145013iadlw.jpg",
+    "original_region": 5,
+    "action": "text",
+    "label": "ADDRESS",
+    "old_text": "Da an Dau tu xay dung Khu nha o Hi Brand",
+    "new_text": "Du an Dau tu xay dung Khu nha o Hi Brand",
+    "reason": "Chữ đầu trên ảnh là Du an, không phải Da an."
+  },
+  {
+    "position": 70,
+    "img_id": "mcocr_public_145013iadlw.jpg",
+    "original_region": 7,
+    "action": "text",
+    "label": "ADDRESS",
+    "old_text": "P. Phu La, Q. Ha Dong, Tp Ha Moi",
+    "new_text": "P. Phu La, Q. Ha Dong, Tp Ha Noi",
+    "reason": "Chữ cuối là Noi, không phải Moi."
+  },
+  {
+    "position": 71,
+    "img_id": "mcocr_public_145013iesjs.jpg",
+    "original_region": 3,
+    "action": "text",
+    "label": "ADDRESS",
+    "old_text": "Số 86 Đường Trần Phú, P.Cẩm Tây",
+    "new_text": "Số 86 Đường Trần Phú, P. Cẩm Tây",
+    "reason": "Giữ khoảng trắng sau P. như chữ in."
+  },
+  {
+    "position": 71,
+    "img_id": "mcocr_public_145013iesjs.jpg",
+    "original_region": 4,
+    "action": "text",
+    "label": "ADDRESS",
+    "old_text": "TP. Cẩm Phả, T.Quảng Ninh",
+    "new_text": "TP Cẩm Phả, T. Quảng Ninh.",
+    "reason": "Giữ dấu chấm cuối dòng và khoảng trắng sau T."
+  },
+  {
+    "position": 71,
+    "img_id": "mcocr_public_145013iesjs.jpg",
+    "original_region": 5,
+    "action": "text",
+    "label": "TIMESTAMP",
+    "old_text": "Ngày bán: 09/08/2020 13:05",
+    "new_text": "09/08/2020 13:05",
+    "reason": "Bỏ chữ mô tả Ngày bán khỏi giá trị TIMESTAMP."
+  },
+  {
+    "position": 71,
+    "img_id": "mcocr_public_145013iesjs.jpg",
+    "original_region": 6,
+    "action": "remove_wrong_region",
+    "label": "TOTAL_COST",
+    "old_text": "TỔNG TIỀN PHẢI T.TOÁN",
+    "new_text": "",
+    "reason": "Bỏ box chữ TỔNG TIỀN PHẢI T.TOÁN gán TOTAL_COST; giữ box giá trị 13.000."
+  },
+  {
+    "position": 73,
+    "img_id": "mcocr_public_145013ihpxr.jpg",
+    "original_region": 28,
+    "action": "text",
+    "label": "TOTAL_COST",
+    "old_text": "171,000",
+    "new_text": "171.000",
+    "reason": "Trên ảnh tiền dùng dấu chấm, text cũ dùng dấu phẩy."
+  },
+  {
+    "position": 74,
+    "img_id": "mcocr_public_145013ilier.jpg",
+    "original_region": 2,
+    "action": "text",
+    "label": "ADDRESS",
+    "old_text": "Thôn Phú Thuỵ, xã Phú Thị, Huyện Gia Lâm, TP Hà Nội",
+    "new_text": "Thôn Phú Thụy, Xã Phú Thị, Huyện Gia Lâm, TP Hà Nội",
+    "reason": "Ảnh viết hoa Xã."
+  },
+  {
+    "position": 75,
+    "img_id": "mcocr_public_145013ipoka.jpg",
+    "original_region": 3,
+    "action": "text",
+    "label": "TOTAL_COST",
+    "old_text": "50000",
+    "new_text": "50 000",
+    "reason": "Giữ khoảng trắng phân cách số tiền in trên ảnh."
+  },
+  {
+    "position": 77,
+    "img_id": "mcocr_public_145013itqit.jpg",
+    "original_region": 2,
+    "action": "text",
+    "label": "ADDRESS",
+    "old_text": "VM + QNH 690 Trần Phú",
+    "new_text": "VM+ QNH 590 Trần Phú",
+    "reason": "Số nhà đầu dòng là 590, không phải 690."
+  },
+  {
+    "position": 77,
+    "img_id": "mcocr_public_145013itqit.jpg",
+    "original_region": 3,
+    "action": "text",
+    "label": "ADDRESS",
+    "old_text": "Số 590 Trần Phú P. Cẩm Thuỷ",
+    "new_text": "Số 590 Trần Phú, P. Cẩm Thủy",
+    "reason": "Thiếu dấu phẩy sau Trần Phú trong text cũ."
+  },
+  {
+    "position": 79,
+    "img_id": "mcocr_public_145013iyqnr.jpg",
+    "original_region": 3,
+    "action": "text",
+    "label": "ADDRESS",
+    "old_text": "Tổ 8 KHU 3B, P.CAM TRUNG",
+    "new_text": "TỔ 8 KHU 3B,P.CẨM TRUNG,T",
+    "reason": "Giữ đúng chữ hoa và đoạn cuối bị cắt trên địa chỉ."
+  },
+  {
+    "position": 79,
+    "img_id": "mcocr_public_145013iyqnr.jpg",
+    "original_region": 4,
+    "action": "text",
+    "label": "TIMESTAMP",
+    "old_text": "NGÀY : 12/08/2020",
+    "new_text": "12/08/2020",
+    "reason": "Bỏ chữ mô tả NGÀY khỏi giá trị TIMESTAMP."
+  },
+  {
+    "position": 79,
+    "img_id": "mcocr_public_145013iyqnr.jpg",
+    "original_region": 2,
+    "action": "remove_wrong_region",
+    "label": "ADDRESS",
+    "old_text": "Dia Chi",
+    "new_text": "",
+    "reason": "Bỏ box chữ mô tả tên đại lý/địa chỉ; giữ số tổng đã gán."
+  },
+  {
+    "position": 79,
+    "img_id": "mcocr_public_145013iyqnr.jpg",
+    "original_region": 1,
+    "action": "remove_wrong_region",
+    "label": "SELLER",
+    "old_text": "TÊN ĐẠI LÝ:",
+    "new_text": "",
+    "reason": "Bỏ box chữ mô tả tên đại lý/địa chỉ; giữ số tổng đã gán."
+  },
+  {
+    "position": 79,
+    "img_id": "mcocr_public_145013iyqnr.jpg",
+    "original_region": "",
+    "action": "replace_value_region",
+    "label": "SELLER",
+    "old_text": "",
+    "new_text": "VINMART",
+    "reason": "Gán tên đại lý VINMART đọc được trên phiếu; bỏ chữ mô tả TÊN ĐẠI LÝ."
+  },
+  {
+    "position": 81,
+    "img_id": "mcocr_public_145013jgdys.jpg",
+    "original_region": 2,
+    "action": "text",
+    "label": "ADDRESS",
+    "old_text": "VM +QNH 590 Trần Phú",
+    "new_text": "VM+ QNH 590 Trần Phú",
+    "reason": "Bỏ khoảng trắng chèn trong VM+."
+  },
+  {
+    "position": 81,
+    "img_id": "mcocr_public_145013jgdys.jpg",
+    "original_region": 3,
+    "action": "text",
+    "label": "ADDRESS",
+    "old_text": "Số 590 Trần Phú, P.Cẩm Thuỷ",
+    "new_text": "Số 590 Trần Phú, P. Cẩm Thủy",
+    "reason": "Giữ khoảng trắng sau P. trên địa chỉ."
+  },
+  {
+    "position": 81,
+    "img_id": "mcocr_public_145013jgdys.jpg",
+    "original_region": 4,
+    "action": "text",
+    "label": "ADDRESS",
+    "old_text": "TP.Cẩm Phả, Quảng Ninh",
+    "new_text": "TP. Cẩm Phả, Quảng Ninh",
+    "reason": "Giữ khoảng trắng sau TP."
+  },
+  {
+    "position": 82,
+    "img_id": "mcocr_public_145013jiksh.jpg",
+    "original_region": 3,
+    "action": "text",
+    "label": "ADDRESS",
+    "old_text": "TP.Cẩm Phả, T.Quảng Ninh",
+    "new_text": "TP. Cẩm Phả, T. Quảng Ninh",
+    "reason": "Giữ khoảng trắng sau các dấu chấm viết tắt."
+  },
+  {
+    "position": 84,
+    "img_id": "mcocr_public_145013joykg.jpg",
+    "original_region": 8,
+    "action": "text",
+    "label": "TIMESTAMP",
+    "old_text": "12/08/2020 - 13:22",
+    "new_text": "12/08/2020-13:22",
+    "reason": "Ngày và giờ có dấu nối trên ảnh."
+  },
+  {
+    "position": 85,
+    "img_id": "mcocr_public_145013jyghf.jpg",
+    "original_region": 1,
+    "action": "text",
+    "label": "SELLER",
+    "old_text": "MINIMART ANANAN",
+    "new_text": "MINIMART ANAN",
+    "reason": "Tên cũ ANANAN thừa AN so với tên trên ảnh."
+  },
+  {
+    "position": 85,
+    "img_id": "mcocr_public_145013jyghf.jpg",
+    "original_region": 4,
+    "action": "text",
+    "label": "TIMESTAMP",
+    "old_text": "09/08/2020 - 16:30",
+    "new_text": "09/08/2020-16:30",
+    "reason": "Dấu nối in liền ngày và giờ."
+  },
+  {
+    "position": 86,
+    "img_id": "mcocr_public_145013kgaqa.jpg",
+    "original_region": 3,
+    "action": "text",
+    "label": "ADDRESS",
+    "old_text": "DA khu DCLB cọc 6,P.Cẩm Sơn",
+    "new_text": "DA khu ĐCLB cọc 6, P. Cẩm Sơn",
+    "reason": "Khôi phục dấu Đ trong ĐCLB đọc được, giữ khoảng trắng."
+  },
+  {
+    "position": 87,
+    "img_id": "mcocr_public_145013kwckq.jpg",
+    "original_region": 2,
+    "action": "text",
+    "label": "ADDRESS",
+    "old_text": "Tổ 7 khu Tân Lập 4 - P. Cẩm Thủy",
+    "new_text": "Tổ 7 khu Tân Lập 4 - P.Cẩm Thủy -",
+    "reason": "Giữ dấu nối cuối dòng trên ảnh."
+  },
+  {
+    "position": 87,
+    "img_id": "mcocr_public_145013kwckq.jpg",
+    "original_region": 3,
+    "action": "text",
+    "label": "ADDRESS",
+    "old_text": "Tp Cẩm Phả - Quảng Ninh",
+    "new_text": "Tp.Cẩm Phả - Quảng Ninh",
+    "reason": "Ảnh có dấu chấm sau Tp."
+  },
+  {
+    "position": 87,
+    "img_id": "mcocr_public_145013kwckq.jpg",
+    "original_region": 4,
+    "action": "text",
+    "label": "TIMESTAMP",
+    "old_text": "13/08/2020 - 18:46",
+    "new_text": "13 / 08 / 2020 - 18 : 46",
+    "reason": "Giữ dấu phân cách in trên phiếu."
+  },
+  {
+    "position": 90,
+    "img_id": "mcocr_public_145013laizk.jpg",
+    "original_region": 3,
+    "action": "text",
+    "label": "ADDRESS",
+    "old_text": "DA khu DCLB cọc 6, P. Cẩm Sơn",
+    "new_text": "DA khu ĐCLB cọc 6, P. Cẩm Sơn",
+    "reason": "Giữ dấu Đ trong ĐCLB đọc được trên ảnh."
+  },
+  {
+    "position": 91,
+    "img_id": "mcocr_public_145013lbslf.jpg",
+    "original_region": 4,
+    "action": "text",
+    "label": "TIMESTAMP",
+    "old_text": "16/08/2020 - 18:38",
+    "new_text": "16/08/2020-18:36",
+    "reason": "Phút in là 36, text cũ chép nhầm thành 38."
+  },
+  {
+    "position": 93,
+    "img_id": "mcocr_public_145013lkqkg.jpg",
+    "original_region": 3,
+    "action": "text",
+    "label": "ADDRESS",
+    "old_text": "Tổ 7, khu Minh Tiến A",
+    "new_text": "Tổ 7, Khu Minh Tiến A",
+    "reason": "Ảnh viết hoa Khu."
+  },
+  {
+    "position": 96,
+    "img_id": "mcocr_public_145013lrksq.jpg",
+    "original_region": 2,
+    "action": "text",
+    "label": "TIMESTAMP",
+    "old_text": "Date print: 31/1/2020",
+    "new_text": "31/1/2020",
+    "reason": "Bỏ mô tả Date print khỏi giá trị ngày."
+  },
+  {
+    "position": 96,
+    "img_id": "mcocr_public_145013lrksq.jpg",
+    "original_region": 1,
+    "action": "remove_wrong_region",
+    "label": "TOTAL_COST",
+    "old_text": "Tổng tiền thanh toasn (Grand Total) CND",
+    "new_text": "",
+    "reason": "Box cũ chứa mô tả Grand Total; thay bằng số tiền VND thực tế."
+  },
+  {
+    "position": 96,
+    "img_id": "mcocr_public_145013lrksq.jpg",
+    "original_region": "",
+    "action": "replace_value_region",
+    "label": "TOTAL_COST",
+    "old_text": "",
+    "new_text": "11,280,000",
+    "reason": "Tổng tiền VND là 11,280,000; không lấy số dư 0 hay giá trị quy đổi USD."
+  },
+  {
+    "position": 97,
+    "img_id": "mcocr_public_145013luuro.jpg",
+    "original_region": 3,
+    "action": "text",
+    "label": "ADDRESS",
+    "old_text": "Số 38 Đường Trần Phú, P. Cẩm Tây",
+    "new_text": "Số 86 Đường Trần Phú, P. Cẩm Tây",
+    "reason": "Số nhà đọc rõ 86, text cũ chép thành 38."
+  },
+  {
+    "position": 97,
+    "img_id": "mcocr_public_145013luuro.jpg",
+    "original_region": 4,
+    "action": "text",
+    "label": "ADDRESS",
+    "old_text": "TP Cẩm Phả, T.Quảng Ninh",
+    "new_text": "TP Cẩm Phả, T. Quảng Ninh.",
+    "reason": "Giữ dấu chấm cuối dòng và khoảng trắng sau T."
+  },
+  {
+    "position": 98,
+    "img_id": "mcocr_public_145013lxdbt.jpg",
+    "original_region": 3,
+    "action": "text",
+    "label": "TOTAL_COST",
+    "old_text": "104,000d",
+    "new_text": "104.000đ",
+    "reason": "Ảnh in dấu chấm phân cách hàng nghìn, text cũ dùng dấu phẩy."
+  },
+  {
+    "position": 99,
+    "img_id": "mcocr_public_145013lxunp.jpg",
+    "original_region": 2,
+    "action": "text",
+    "label": "ADDRESS",
+    "old_text": "VM+QNH 10604062 Trần Phú",
+    "new_text": "VM+ QNH 1060-1062 Trần Phú",
+    "reason": "Khôi phục dấu nối số nhà 1060-1062."
+  },
+  {
+    "position": 99,
+    "img_id": "mcocr_public_145013lxunp.jpg",
+    "original_region": 3,
+    "action": "text",
+    "label": "ADDRESS",
+    "old_text": "Số 10604062 Duong Trần Phú",
+    "new_text": "Số 1060-1062 Đường Trần Phú",
+    "reason": "Khôi phục dấu nối số nhà và dấu Đ trong Đường."
+  },
+  {
+    "position": 100,
+    "img_id": "mcocr_public_145013mbytl.jpg",
+    "original_region": 4,
+    "action": "text",
+    "label": "TIMESTAMP",
+    "old_text": "12/08/2020 - 13:24",
+    "new_text": "12/08/2020-13:24",
+    "reason": "Giữ dấu nối giữa ngày và giờ như ảnh."
+  },
+  {
+    "position": 101,
+    "img_id": "mcocr_public_145013mctzs.jpg",
+    "original_region": 2,
+    "action": "text",
+    "label": "ADDRESS",
+    "old_text": "VM+ CNH Tổ 7, Khu Minh Tiến A",
+    "new_text": "VM+ QNH Tổ 7, Khu Minh Tiến A",
+    "reason": "Tên địa bàn là QNH, không phải CNH."
+  },
+  {
+    "position": 101,
+    "img_id": "mcocr_public_145013mctzs.jpg",
+    "original_region": 3,
+    "action": "text",
+    "label": "ADDRESS",
+    "old_text": "Toor 7.Khu Minh Tiến A",
+    "new_text": "Tổ 7, Khu Minh Tiến A",
+    "reason": "Toor là lỗi gõ, ảnh đọc rõ Tổ; dùng dấu phẩy sau số 7."
+  },
+  {
+    "position": 102,
+    "img_id": "mcocr_public_145013msokr.jpg",
+    "original_region": 43,
+    "action": "text",
+    "label": "TIMESTAMP",
+    "old_text": "11/08/2020 - 17:57",
+    "new_text": "11/08/2020-17:57",
+    "reason": "Dấu nối in liền ngày và giờ."
+  },
+  {
+    "position": 103,
+    "img_id": "mcocr_public_145013mwcaz.jpg",
+    "original_region": 1,
+    "action": "text",
+    "label": "TIMESTAMP",
+    "old_text": "NGÀY KINH DOANH : 09/08/2020",
+    "new_text": "09/08/2020",
+    "reason": "Bỏ mô tả NGÀY KINH DOANH khỏi giá trị ngày."
+  },
+  {
+    "position": 103,
+    "img_id": "mcocr_public_145013mwcaz.jpg",
+    "original_region": 2,
+    "action": "remove_wrong_region",
+    "label": "TOTAL_COST",
+    "old_text": "Tổng thanh toán",
+    "new_text": "",
+    "reason": "Báo cáo POS/ca: box mô tả Tổng thanh toán không phải giá trị TOTAL_COST."
+  },
+  {
+    "position": 105,
+    "img_id": "mcocr_public_145013nfkiq.jpg",
+    "original_region": 1,
+    "action": "text",
+    "label": "SELLER",
+    "old_text": "SCTC cổ THỎ 104 TRẦN PHÚ - CẨM",
+    "new_text": "SCTC CÔ THỎ 104 TRẦN PHÚ - CẨM",
+    "reason": "Khôi phục chữ hoa CÔ và dấu hỏi trên THỎ đọc được."
+  },
+  {
+    "position": 106,
+    "img_id": "mcocr_public_145013niqeq.jpg",
+    "original_region": 1,
+    "action": "text",
+    "label": "SELLER",
+    "old_text": "Vincommerce",
+    "new_text": "VinCommerce",
+    "reason": "Giữ chữ C viết hoa trên logo."
+  },
+  {
+    "position": 106,
+    "img_id": "mcocr_public_145013niqeq.jpg",
+    "original_region": 2,
+    "action": "text",
+    "label": "ADDRESS",
+    "old_text": "VM + QNH 590 Trần Phú",
+    "new_text": "VM+ QNH 590 Trần Phú",
+    "reason": "VM+ được in liền."
+  },
+  {
+    "position": 106,
+    "img_id": "mcocr_public_145013niqeq.jpg",
+    "original_region": 3,
+    "action": "text",
+    "label": "ADDRESS",
+    "old_text": "Số 590 Trần Phú, P.Cẩm Thuỷ",
+    "new_text": "Số 590 Trần Phú, P. Cẩm Thủy",
+    "reason": "Giữ khoảng trắng sau P."
+  },
+  {
+    "position": 106,
+    "img_id": "mcocr_public_145013niqeq.jpg",
+    "original_region": 5,
+    "action": "text",
+    "label": "TOTAL_COST",
+    "old_text": "60,500",
+    "new_text": "60.502",
+    "reason": "Số tiền đọc là 60.502, không phải 60,500."
+  },
+  {
+    "position": 107,
+    "img_id": "mcocr_public_145013nnlba.jpg",
+    "original_region": 2,
+    "action": "text",
+    "label": "ADDRESS",
+    "old_text": "VM+QNH Dự án KDC lấn biên cọc 6",
+    "new_text": "VM+ QNH Dự án KDC lấn biển cọc 6",
+    "reason": "Giữ khoảng trắng sau VM+."
+  },
+  {
+    "position": 107,
+    "img_id": "mcocr_public_145013nnlba.jpg",
+    "original_region": 3,
+    "action": "text",
+    "label": "ADDRESS",
+    "old_text": "DA khu DCLB cọc 6, P. Cẩm Sơn",
+    "new_text": "DA khu ĐCLB cọc 6, P. Cẩm Sơn",
+    "reason": "Khôi phục chữ Đ đọc được."
+  },
+  {
+    "position": 107,
+    "img_id": "mcocr_public_145013nnlba.jpg",
+    "original_region": 4,
+    "action": "text",
+    "label": "ADDRESS",
+    "old_text": "TP. Cẩm Phả, T.Quảng Ninh",
+    "new_text": "TP. Cẩm Phả, T. Quảng Ninh",
+    "reason": "Giữ khoảng trắng sau T."
+  },
+  {
+    "position": 108,
+    "img_id": "mcocr_public_145013nsktd.jpg",
+    "original_region": 4,
+    "action": "text",
+    "label": "ADDRESS",
+    "old_text": "P.Cẩm Sơn, TP. Cẩm Phả, T.QN",
+    "new_text": "P. Cẩm Sơn, TP. Cẩm Phả, T. QN",
+    "reason": "Giữ khoảng trắng theo chữ in."
+  },
+  {
+    "position": 109,
+    "img_id": "mcocr_public_145013nsnnh.jpg",
+    "original_region": 6,
+    "action": "text",
+    "label": "TIMESTAMP",
+    "old_text": "/05/2020",
+    "new_text": "12/05/2020",
+    "reason": "Khôi phục ngày 12 nhìn thấy trước /05/2020."
+  },
+  {
+    "position": 109,
+    "img_id": "mcocr_public_145013nsnnh.jpg",
+    "original_region": 9,
+    "action": "remove_wrong_region",
+    "label": "TOTAL_COST",
+    "old_text": "Tổng cộng:",
+    "new_text": "",
+    "reason": "Bỏ box chỉ chứa chữ mô tả TÊN ĐẠI LÝ/NGÀY/GIỜ/TỔNG CỘNG; giữ giá trị tương ứng."
+  },
+  {
+    "position": 109,
+    "img_id": "mcocr_public_145013nsnnh.jpg",
+    "original_region": 7,
+    "action": "remove_wrong_region",
+    "label": "TIMESTAMP",
+    "old_text": "GIÁ:",
+    "new_text": "",
+    "reason": "Bỏ box chỉ chứa chữ mô tả TÊN ĐẠI LÝ/NGÀY/GIỜ/TỔNG CỘNG; giữ giá trị tương ứng."
+  },
+  {
+    "position": 109,
+    "img_id": "mcocr_public_145013nsnnh.jpg",
+    "original_region": 5,
+    "action": "remove_wrong_region",
+    "label": "TIMESTAMP",
+    "old_text": "Nam",
+    "new_text": "",
+    "reason": "Bỏ box chỉ chứa chữ mô tả TÊN ĐẠI LÝ/NGÀY/GIỜ/TỔNG CỘNG; giữ giá trị tương ứng."
+  },
+  {
+    "position": 109,
+    "img_id": "mcocr_public_145013nsnnh.jpg",
+    "original_region": 1,
+    "action": "remove_wrong_region",
+    "label": "SELLER",
+    "old_text": "TÊN ĐẠI LÝ:",
+    "new_text": "",
+    "reason": "Bỏ box chỉ chứa chữ mô tả TÊN ĐẠI LÝ/NGÀY/GIỜ/TỔNG CỘNG; giữ giá trị tương ứng."
+  },
+  {
+    "position": 110,
+    "img_id": "mcocr_public_145013nvoah.jpg",
+    "original_region": 3,
+    "action": "text",
+    "label": "TIMESTAMP",
+    "old_text": "Ngày: 16/08/2020 - 09:39",
+    "new_text": "16/08/2020-09:39",
+    "reason": "Lấy giá trị ngày giờ, giữ dấu nối in liền."
+  },
+  {
+    "position": 111,
+    "img_id": "mcocr_public_145013nwksx.jpg",
+    "original_region": 1,
+    "action": "text",
+    "label": "TIMESTAMP",
+    "old_text": "Ngày: 09/08/2020-17",
+    "new_text": "09/08/2020-17:",
+    "reason": "Bỏ Ngày; giữ phần giờ còn nhìn thấy trước mép giấy bị cắt."
+  },
+  {
+    "position": 111,
+    "img_id": "mcocr_public_145013nwksx.jpg",
+    "original_region": 3,
+    "action": "text",
+    "label": "TOTAL_COST",
+    "old_text": "93.500",
+    "new_text": "93,500",
+    "reason": "Giữ dấu phẩy phân cách số tiền in trên ảnh."
+  },
+  {
+    "position": 111,
+    "img_id": "mcocr_public_145013nwksx.jpg",
+    "original_region": 2,
+    "action": "remove_wrong_region",
+    "label": "TOTAL_COST",
+    "old_text": "Tổng công (đã gồm VAT)",
+    "new_text": "",
+    "reason": "Box Tổng cộng là mô tả; giữ box số 93,500."
+  },
+  {
+    "position": 112,
+    "img_id": "mcocr_public_145013ohrly.jpg",
+    "original_region": 1,
+    "action": "text",
+    "label": "SELLER",
+    "old_text": "THE COFFEE HQUSE",
+    "new_text": "THE COFFEE HOUSE",
+    "reason": "HOUSE bị gõ nhầm thành HQUSE."
+  },
+  {
+    "position": 112,
+    "img_id": "mcocr_public_145013ohrly.jpg",
+    "original_region": 2,
+    "action": "text",
+    "label": "ADDRESS",
+    "old_text": "14B1 Ngô Tất Tổ, Q Bình Thanh",
+    "new_text": "14B1 Ngô Tất Tố, Q.Bình Thạnh",
+    "reason": "Tất Tố bị chép sai thành Tổ; khôi phục dấu địa chỉ."
+  },
+  {
+    "position": 113,
+    "img_id": "mcocr_public_145013onyrj.jpg",
+    "original_region": 2,
+    "action": "text",
+    "label": "ADDRESS",
+    "old_text": "ĐC: 212 Đường Trần Phú - Cẩm Phả",
+    "new_text": "ĐC: 212 Đường Trần Phú-Cẩm Phả",
+    "reason": "Giữ dấu nối liền như chữ in."
+  },
+  {
+    "position": 114,
+    "img_id": "mcocr_public_145013otehh.jpg",
+    "original_region": 2,
+    "action": "text",
+    "label": "ADDRESS",
+    "old_text": "Vin+ QNH Tổ 8. Khu 38 Cẩm Trung",
+    "new_text": "VM+ QNH Tổ 8 Khu 3B Cẩm Trung",
+    "reason": "Chữ đầu là VM+, cuối khu là B, không phải số 8."
+  },
+  {
+    "position": 114,
+    "img_id": "mcocr_public_145013otehh.jpg",
+    "original_region": 3,
+    "action": "text",
+    "label": "ADDRESS",
+    "old_text": "Tổ 8, Khu 2B, P. Cẩm Tung",
+    "new_text": "Tổ 8, Khu 3B, P. Cẩm Trung",
+    "reason": "Khu 3B bị chép thành 2B."
+  },
+  {
+    "position": 114,
+    "img_id": "mcocr_public_145013otehh.jpg",
+    "original_region": 4,
+    "action": "text",
+    "label": "ADDRESS",
+    "old_text": "TP. Cẩm Phả, T.Quảng Ninh",
+    "new_text": "TP. Cẩm Phả, T. Quảng Ninh",
+    "reason": "Giữ khoảng trắng sau T."
+  },
+  {
+    "position": 115,
+    "img_id": "mcocr_public_145013otqcx.jpg",
+    "original_region": 12,
+    "action": "text",
+    "label": "TIMESTAMP",
+    "old_text": "13/08/2020 01:42",
+    "new_text": "13/08/2020-01:42",
+    "reason": "Khôi phục dấu nối giữa ngày và giờ."
+  },
+  {
+    "position": 116,
+    "img_id": "mcocr_public_145013ozjnr.jpg",
+    "original_region": 4,
+    "action": "text",
+    "label": "TIMESTAMP",
+    "old_text": "12/08/2020 - 16:22",
+    "new_text": "12/08/2020-16:22",
+    "reason": "Dấu nối được in liền."
+  },
+  {
+    "position": 117,
+    "img_id": "mcocr_public_145013pbggg.jpg",
+    "original_region": 2,
+    "action": "text",
+    "label": "ADDRESS",
+    "old_text": "VM + QNH 1060-1062 Trần Phú",
+    "new_text": "VM+ QNH 1060-1062 Trần Phú",
+    "reason": "VM+ được in liền."
+  },
+  {
+    "position": 118,
+    "img_id": "mcocr_public_145013pedoz.jpg",
+    "original_region": 2,
+    "action": "text",
+    "label": "SELLER",
+    "old_text": "5156 VINMART",
+    "new_text": "5156-VINMART",
+    "reason": "Khôi phục dấu nối trong tên đại lý."
+  },
+  {
+    "position": 118,
+    "img_id": "mcocr_public_145013pedoz.jpg",
+    "original_region": 3,
+    "action": "text",
+    "label": "ADDRESS",
+    "old_text": "5156 TỔ 7 MINH TIẾN A",
+    "new_text": "5156-TỔ 7 MINH TIẾN A",
+    "reason": "Khôi phục dấu nối và giữ chữ in hoa."
+  },
+  {
+    "position": 118,
+    "img_id": "mcocr_public_145013pedoz.jpg",
+    "original_region": 4,
+    "action": "text",
+    "label": "ADDRESS",
+    "old_text": "CẨM BÌNH, CẨM PHẢ QN",
+    "new_text": "CẨM BÌNH CẨM PHẢ QN",
+    "reason": "Ảnh không có dấu phẩy sau CẨM BÌNH."
+  },
+  {
+    "position": 118,
+    "img_id": "mcocr_public_145013pedoz.jpg",
+    "original_region": 11,
+    "action": "text",
+    "label": "TOTAL_COST",
+    "old_text": "VMD1, 528, 279",
+    "new_text": "VND1,528,279",
+    "reason": "Tiền tệ là VND, không phải VMD; dấu phẩy in liền số."
+  },
+  {
+    "position": 118,
+    "img_id": "mcocr_public_145013pedoz.jpg",
+    "original_region": 10,
+    "action": "remove_wrong_region",
+    "label": "TOTAL_COST",
+    "old_text": "3",
+    "new_text": "",
+    "reason": "Bỏ box chữ mô tả và số lượng giao dịch gán nhầm TOTAL_COST; giữ giá trị tiền."
+  },
+  {
+    "position": 118,
+    "img_id": "mcocr_public_145013pedoz.jpg",
+    "original_region": 9,
+    "action": "remove_wrong_region",
+    "label": "TOTAL_COST",
+    "old_text": "TỔNG:",
+    "new_text": "",
+    "reason": "Bỏ box chữ mô tả và số lượng giao dịch gán nhầm TOTAL_COST; giữ giá trị tiền."
+  },
+  {
+    "position": 118,
+    "img_id": "mcocr_public_145013pedoz.jpg",
+    "original_region": 7,
+    "action": "remove_wrong_region",
+    "label": "TIMESTAMP",
+    "old_text": "GIỜ:",
+    "new_text": "",
+    "reason": "Bỏ box chữ mô tả và số lượng giao dịch gán nhầm TOTAL_COST; giữ giá trị tiền."
+  },
+  {
+    "position": 118,
+    "img_id": "mcocr_public_145013pedoz.jpg",
+    "original_region": 5,
+    "action": "remove_wrong_region",
+    "label": "TIMESTAMP",
+    "old_text": "NAM",
+    "new_text": "",
+    "reason": "Bỏ box chữ mô tả và số lượng giao dịch gán nhầm TOTAL_COST; giữ giá trị tiền."
+  },
+  {
+    "position": 118,
+    "img_id": "mcocr_public_145013pedoz.jpg",
+    "original_region": 1,
+    "action": "remove_wrong_region",
+    "label": "SELLER",
+    "old_text": "TIỀN ĐẠI LÝ:",
+    "new_text": "",
+    "reason": "Bỏ box chữ mô tả và số lượng giao dịch gán nhầm TOTAL_COST; giữ giá trị tiền."
+  },
+  {
+    "position": 122,
+    "img_id": "mcocr_public_145013puwmb.jpg",
+    "original_region": 2,
+    "action": "text",
+    "label": "SELLER",
+    "old_text": "VGH_VINMART_4939_VMQNH",
+    "new_text": "VGR_VINMART_4939_VMQNH",
+    "reason": "Mã đại lý in VGR, không phải VGH."
+  },
+  {
+    "position": 122,
+    "img_id": "mcocr_public_145013puwmb.jpg",
+    "original_region": 11,
+    "action": "text",
+    "label": "TOTAL_COST",
+    "old_text": "VND 419,339",
+    "new_text": "VND419,339",
+    "reason": "VND được in liền số tiền."
+  },
+  {
+    "position": 122,
+    "img_id": "mcocr_public_145013puwmb.jpg",
+    "original_region": 10,
+    "action": "remove_wrong_region",
+    "label": "TOTAL_COST",
+    "old_text": "TỔNG CỘNG",
+    "new_text": "",
+    "reason": "Bỏ box chữ mô tả; giữ giá trị seller/address/ngày/giờ/tổng tiền."
+  },
+  {
+    "position": 122,
+    "img_id": "mcocr_public_145013puwmb.jpg",
+    "original_region": 8,
+    "action": "remove_wrong_region",
+    "label": "TIMESTAMP",
+    "old_text": "600đ",
+    "new_text": "",
+    "reason": "Bỏ box chữ mô tả; giữ giá trị seller/address/ngày/giờ/tổng tiền."
+  },
+  {
+    "position": 122,
+    "img_id": "mcocr_public_145013puwmb.jpg",
+    "original_region": 6,
+    "action": "remove_wrong_region",
+    "label": "TIMESTAMP",
+    "old_text": "NGÀY",
+    "new_text": "",
+    "reason": "Bỏ box chữ mô tả; giữ giá trị seller/address/ngày/giờ/tổng tiền."
+  },
+  {
+    "position": 122,
+    "img_id": "mcocr_public_145013puwmb.jpg",
+    "original_region": 3,
+    "action": "remove_wrong_region",
+    "label": "ADDRESS",
+    "old_text": "ĐỊA CHỈ ĐẠI LÝ:",
+    "new_text": "",
+    "reason": "Bỏ box chữ mô tả; giữ giá trị seller/address/ngày/giờ/tổng tiền."
+  },
+  {
+    "position": 122,
+    "img_id": "mcocr_public_145013puwmb.jpg",
+    "original_region": 1,
+    "action": "remove_wrong_region",
+    "label": "SELLER",
+    "old_text": "TÊN ĐẠI LÝ",
+    "new_text": "",
+    "reason": "Bỏ box chữ mô tả; giữ giá trị seller/address/ngày/giờ/tổng tiền."
+  },
+  {
+    "position": 123,
+    "img_id": "mcocr_public_145013qigez.jpg",
+    "original_region": 28,
+    "action": "text",
+    "label": "TIMESTAMP",
+    "old_text": "15/08/2020 07:53",
+    "new_text": "15/08/2020-07:53",
+    "reason": "Khôi phục dấu nối giữa ngày và giờ."
+  },
+  {
+    "position": 124,
+    "img_id": "mcocr_public_145013qiyft.jpg",
+    "original_region": 3,
+    "action": "text",
+    "label": "ADDRESS",
+    "old_text": "DA khu DCLB coc 6,P.Cẩm Sơn",
+    "new_text": "DA khu ĐCLB cọc 6, P. Cẩm Sơn",
+    "reason": "Khôi phục chữ Đ và khoảng trắng đọc được."
+  },
+  {
+    "position": 124,
+    "img_id": "mcocr_public_145013qiyft.jpg",
+    "original_region": 4,
+    "action": "text",
+    "label": "ADDRESS",
+    "old_text": "TP. Cẩm Phả, T.Quảng Ninh",
+    "new_text": "TP. Cẩm Phả, T. Quảng Ninh",
+    "reason": "Giữ khoảng trắng sau các dấu chấm viết tắt."
+  },
+  {
+    "position": 125,
+    "img_id": "mcocr_public_145013qmuqc.jpg",
+    "original_region": 2,
+    "action": "text",
+    "label": "ADDRESS",
+    "old_text": "VM+QNH Tổ 8 Khu 38 Cẩm Trung",
+    "new_text": "VM+ QNH Tổ 8 Khu 3B Cẩm Trung",
+    "reason": "Khu 3B bị chép thành 38."
+  },
+  {
+    "position": 125,
+    "img_id": "mcocr_public_145013qmuqc.jpg",
+    "original_region": 4,
+    "action": "text",
+    "label": "ADDRESS",
+    "old_text": "TP. Cẩm Phả, T.Quảng Ninh",
+    "new_text": "TP. Cẩm Phả, T. Quảng Ninh",
+    "reason": "Giữ khoảng trắng sau T."
+  },
+  {
+    "position": 126,
+    "img_id": "mcocr_public_145013qrpce.jpg",
+    "original_region": 9,
+    "action": "text",
+    "label": "TOTAL_COST",
+    "old_text": "549.885 D",
+    "new_text": "549.885 Đ",
+    "reason": "Ảnh in chữ Đ sau số tiền."
+  },
+  {
+    "position": 126,
+    "img_id": "mcocr_public_145013qrpce.jpg",
+    "original_region": 8,
+    "action": "remove_wrong_region",
+    "label": "TOTAL_COST",
+    "old_text": "04 04",
+    "new_text": "",
+    "reason": "Bỏ mô tả và số lượng giao dịch gán nhầm TOTAL_COST; giữ giá trị tiền."
+  },
+  {
+    "position": 126,
+    "img_id": "mcocr_public_145013qrpce.jpg",
+    "original_region": 7,
+    "action": "remove_wrong_region",
+    "label": "TOTAL_COST",
+    "old_text": "TAI QUAY",
+    "new_text": "",
+    "reason": "Bỏ mô tả và số lượng giao dịch gán nhầm TOTAL_COST; giữ giá trị tiền."
+  },
+  {
+    "position": 126,
+    "img_id": "mcocr_public_145013qrpce.jpg",
+    "original_region": 5,
+    "action": "remove_wrong_region",
+    "label": "TIMESTAMP",
+    "old_text": "THỜI GIAN",
+    "new_text": "",
+    "reason": "Bỏ mô tả và số lượng giao dịch gán nhầm TOTAL_COST; giữ giá trị tiền."
+  },
+  {
+    "position": 126,
+    "img_id": "mcocr_public_145013qrpce.jpg",
+    "original_region": 3,
+    "action": "remove_wrong_region",
+    "label": "ADDRESS",
+    "old_text": "Địa chỉ:",
+    "new_text": "",
+    "reason": "Bỏ mô tả và số lượng giao dịch gán nhầm TOTAL_COST; giữ giá trị tiền."
+  },
+  {
+    "position": 126,
+    "img_id": "mcocr_public_145013qrpce.jpg",
+    "original_region": 1,
+    "action": "remove_wrong_region",
+    "label": "SELLER",
+    "old_text": "TÊN ĐẠI LÝ",
+    "new_text": "",
+    "reason": "Bỏ mô tả và số lượng giao dịch gán nhầm TOTAL_COST; giữ giá trị tiền."
+  },
+  {
+    "position": 128,
+    "img_id": "mcocr_public_145013qwmeo.jpg",
+    "original_region": 2,
+    "action": "text",
+    "label": "SELLER",
+    "old_text": "VM + HNI 32 Láng Trung",
+    "new_text": "VM+ HNI 32 Láng Trung",
+    "reason": "VM+ được in liền."
+  },
+  {
+    "position": 128,
+    "img_id": "mcocr_public_145013qwmeo.jpg",
+    "original_region": 3,
+    "action": "text",
+    "label": "ADDRESS",
+    "old_text": "Số 32 ngõ Láng Trung, P.Láng Hạ",
+    "new_text": "Số 32 ngõ Láng Trung, P. Láng Hạ",
+    "reason": "Khôi phục khoảng trắng sau P."
+  },
+  {
+    "position": 129,
+    "img_id": "mcocr_public_145013ramij.jpg",
+    "original_region": 8,
+    "action": "text",
+    "label": "TIMESTAMP",
+    "old_text": "10/08/2020 - 18:27",
+    "new_text": "10/08/2020-18:27",
+    "reason": "Dấu nối in liền ngày giờ."
+  },
+  {
+    "position": 131,
+    "img_id": "mcocr_public_145013rfcrv.jpg",
+    "original_region": 4,
+    "action": "text",
+    "label": "TIMESTAMP",
+    "old_text": "16/08/2020 08:46",
+    "new_text": "16/08/2020-08:46",
+    "reason": "Khôi phục dấu nối giữa ngày giờ."
+  },
+  {
+    "position": 133,
+    "img_id": "mcocr_public_145013rnpjm.jpg",
+    "original_region": 4,
+    "action": "text",
+    "label": "ADDRESS",
+    "old_text": "TP.Cẩm Phả, Quảng Ninh",
+    "new_text": "TP. Cẩm Phả, Quảng Ninh",
+    "reason": "Giữ khoảng trắng sau TP."
+  },
+  {
+    "position": 134,
+    "img_id": "mcocr_public_145013rqfec.jpg",
+    "original_region": 2,
+    "action": "text",
+    "label": "ADDRESS",
+    "old_text": "VM+QNH Tổ 7, Khu Minh Tiến A",
+    "new_text": "VM+ QNH Tổ 7, Khu Minh Tiến A",
+    "reason": "Giữ khoảng trắng sau VM+."
+  },
+  {
+    "position": 134,
+    "img_id": "mcocr_public_145013rqfec.jpg",
+    "original_region": 3,
+    "action": "text",
+    "label": "ADDRESS",
+    "old_text": "Tổ 7, Khu Hình Tiến A",
+    "new_text": "Tổ 7, Khu Minh Tiến A",
+    "reason": "Tên khu Minh bị gõ nhầm thành Hinh."
+  },
+  {
+    "position": 135,
+    "img_id": "mcocr_public_145013rrmow.jpg",
+    "original_region": 4,
+    "action": "text",
+    "label": "TIMESTAMP",
+    "old_text": "10-04/2020",
+    "new_text": "10-08-2020",
+    "reason": "Tháng in là 08, text cũ là 04."
+  },
+  {
+    "position": 136,
+    "img_id": "mcocr_public_145013rywqy.jpg",
+    "original_region": 1,
+    "action": "text",
+    "label": "ADDRESS",
+    "old_text": "Tổ 7 khu Tân Lập 4 - P.Cẩm Thủy",
+    "new_text": "Tổ 7 khu Tân Lập 4 - P.Cẩm Thủy -",
+    "reason": "Giữ dấu nối cuối dòng."
+  },
+  {
+    "position": 136,
+    "img_id": "mcocr_public_145013rywqy.jpg",
+    "original_region": 2,
+    "action": "text",
+    "label": "ADDRESS",
+    "old_text": "Tp. Cẩm Phả - Quảng Ninh",
+    "new_text": "Tp.Cẩm Phả - Quảng Ninh",
+    "reason": "Khôi phục dấu chấm sau Tp."
+  },
+  {
+    "position": 136,
+    "img_id": "mcocr_public_145013rywqy.jpg",
+    "original_region": 3,
+    "action": "text",
+    "label": "TIMESTAMP",
+    "old_text": "13/08/2020 - 20:16",
+    "new_text": "13 / 08 / 2020 - 20 : 16",
+    "reason": "Giữ phân cách chữ in trên ảnh."
+  },
+  {
+    "position": 136,
+    "img_id": "mcocr_public_145013rywqy.jpg",
+    "original_region": 4,
+    "action": "remove_wrong_region",
+    "label": "TOTAL_COST",
+    "old_text": "Tổng cộng:",
+    "new_text": "",
+    "reason": "Tổng cộng là mô tả; giữ box số 10,000."
+  },
+  {
+    "position": 137,
+    "img_id": "mcocr_public_145013sagoy.jpg",
+    "original_region": 4,
+    "action": "text",
+    "label": "TIMESTAMP",
+    "old_text": "16/08/2020 - 19:35",
+    "new_text": "16/08/2020-19:35",
+    "reason": "Dấu nối in liền ngày giờ."
+  },
+  {
+    "position": 138,
+    "img_id": "mcocr_public_145013satyz.jpg",
+    "original_region": 2,
+    "action": "text",
+    "label": "ADDRESS",
+    "old_text": "VM QNH Tổ 7 , Khu Minh Tiến A",
+    "new_text": "VM+ QNH Tổ 7, Khu Minh Tiến A",
+    "reason": "Text cũ thiếu dấu + sau VM."
+  },
+  {
+    "position": 138,
+    "img_id": "mcocr_public_145013satyz.jpg",
+    "original_region": 4,
+    "action": "text",
+    "label": "ADDRESS",
+    "old_text": "P.Cẩm Bình, TP.Cẩm Phả, QNH",
+    "new_text": "P. Cẩm Bình, TP. Cẩm Phả, QNH",
+    "reason": "Giữ khoảng trắng sau dấu chấm viết tắt."
+  },
+  {
+    "position": 138,
+    "img_id": "mcocr_public_145013satyz.jpg",
+    "original_region": 5,
+    "action": "text",
+    "label": "TIMESTAMP",
+    "old_text": "Ngày: 14/08/2020",
+    "new_text": "14/08/2020",
+    "reason": "Bỏ mô tả Ngày khỏi giá trị."
+  },
+  {
+    "position": 138,
+    "img_id": "mcocr_public_145013satyz.jpg",
+    "original_region": 6,
+    "action": "text",
+    "label": "TIMESTAMP",
+    "old_text": "Thời gian: 17:09",
+    "new_text": "17:09",
+    "reason": "Bỏ mô tả Thời gian khỏi giá trị."
+  },
+  {
+    "position": 140,
+    "img_id": "mcocr_public_145013sbvwi.jpg",
+    "original_region": 2,
+    "action": "text",
+    "label": "ADDRESS",
+    "old_text": "Tổ 7 khu Tân Lập 4 - P.Cẩm Thủy",
+    "new_text": "Tổ 7 khu Tân Lập 4 - P.Cẩm Thủy -",
+    "reason": "Giữ dấu nối cuối dòng."
+  },
+  {
+    "position": 140,
+    "img_id": "mcocr_public_145013sbvwi.jpg",
+    "original_region": 3,
+    "action": "text",
+    "label": "ADDRESS",
+    "old_text": "Tp. Cẩm Phả - Quảng Ninh",
+    "new_text": "Tp.Cẩm Phả - Quảng Ninh",
+    "reason": "Khôi phục dấu chấm sau Tp."
+  },
+  {
+    "position": 140,
+    "img_id": "mcocr_public_145013sbvwi.jpg",
+    "original_region": 4,
+    "action": "text",
+    "label": "TIMESTAMP",
+    "old_text": "13/08/2020 - 20 : 34",
+    "new_text": "13 / 08 / 2020 - 20 : 34",
+    "reason": "Giữ phân cách in trên ảnh."
+  },
+  {
+    "position": 140,
+    "img_id": "mcocr_public_145013sbvwi.jpg",
+    "original_region": 5,
+    "action": "remove_wrong_region",
+    "label": "TOTAL_COST",
+    "old_text": "Tổng cộng:",
+    "new_text": "",
+    "reason": "Tổng cộng là mô tả; giữ box số 15,000."
+  },
+  {
+    "position": 141,
+    "img_id": "mcocr_public_145013scuxn.jpg",
+    "original_region": 2,
+    "action": "text",
+    "label": "ADDRESS",
+    "old_text": "VM + HNI 32 Láng Trung",
+    "new_text": "VM+ HNI 32 Láng Trung",
+    "reason": "VM+ in liền."
+  },
+  {
+    "position": 142,
+    "img_id": "mcocr_public_145013seqfm.jpg",
+    "original_region": 1,
+    "action": "text",
+    "label": "SELLER",
+    "old_text": "THE COFFEE H9USE",
+    "new_text": "THE COFFEE HOUSE",
+    "reason": "Chữ O bị chép nhầm thành số 9."
+  },
+  {
+    "position": 142,
+    "img_id": "mcocr_public_145013seqfm.jpg",
+    "original_region": 3,
+    "action": "text",
+    "label": "TOTAL_COST",
+    "old_text": "49000",
+    "new_text": "49 000",
+    "reason": "Giữ khoảng trắng phân cách hàng nghìn."
+  },
+  {
+    "position": 142,
+    "img_id": "mcocr_public_145013seqfm.jpg",
+    "original_region": 4,
+    "action": "text",
+    "label": "TIMESTAMP",
+    "old_text": "02:10:2020 11.49",
+    "new_text": "02.10.2020 11.49",
+    "reason": "Ngày dùng dấu chấm, không phải dấu hai chấm."
+  },
+  {
+    "position": 143,
+    "img_id": "mcocr_public_145013shcxo.jpg",
+    "original_region": 2,
+    "action": "text",
+    "label": "SELLER",
+    "old_text": "VGH VINMART 4587 VMQNH",
+    "new_text": "VGR_VINMART_4587_VMQNH",
+    "reason": "Khôi phục dấu gạch dưới và mã VGR đọc được."
+  },
+  {
+    "position": 143,
+    "img_id": "mcocr_public_145013shcxo.jpg",
+    "original_region": 5,
+    "action": "text",
+    "label": "ADDRESS",
+    "old_text": "CAM HÀ QUANG NINH",
+    "new_text": "CAM PHA QUANG NINH",
+    "reason": "Ảnh in không dấu; chữ PHA bị chép thành HÁ."
+  },
+  {
+    "position": 143,
+    "img_id": "mcocr_public_145013shcxo.jpg",
+    "original_region": 9,
+    "action": "text",
+    "label": "TIMESTAMP",
+    "old_text": "10:20:20:49",
+    "new_text": "10:20:49",
+    "reason": "Giờ bị lặp đoạn 20 trong text cũ."
+  },
+  {
+    "position": 143,
+    "img_id": "mcocr_public_145013shcxo.jpg",
+    "original_region": 11,
+    "action": "text",
+    "label": "TOTAL_COST",
+    "old_text": "UHD341.100",
+    "new_text": "VND341,100",
+    "reason": "Tiền tệ in là VND và số tiền dùng dấu phẩy."
+  },
+  {
+    "position": 143,
+    "img_id": "mcocr_public_145013shcxo.jpg",
+    "original_region": 10,
+    "action": "remove_wrong_region",
+    "label": "TOTAL_COST",
+    "old_text": "TỔNG CÔNG:",
+    "new_text": "",
+    "reason": "Bỏ box chỉ chứa chữ mô tả; giữ các giá trị tương ứng."
+  },
+  {
+    "position": 143,
+    "img_id": "mcocr_public_145013shcxo.jpg",
+    "original_region": 8,
+    "action": "remove_wrong_region",
+    "label": "TIMESTAMP",
+    "old_text": "GIỜ",
+    "new_text": "",
+    "reason": "Bỏ box chỉ chứa chữ mô tả; giữ các giá trị tương ứng."
+  },
+  {
+    "position": 143,
+    "img_id": "mcocr_public_145013shcxo.jpg",
+    "original_region": 6,
+    "action": "remove_wrong_region",
+    "label": "TIMESTAMP",
+    "old_text": "Nam",
+    "new_text": "",
+    "reason": "Bỏ box chỉ chứa chữ mô tả; giữ các giá trị tương ứng."
+  },
+  {
+    "position": 143,
+    "img_id": "mcocr_public_145013shcxo.jpg",
+    "original_region": 3,
+    "action": "remove_wrong_region",
+    "label": "ADDRESS",
+    "old_text": "ĐỊA CHỈ ĐẠI LÝ:",
+    "new_text": "",
+    "reason": "Bỏ box chỉ chứa chữ mô tả; giữ các giá trị tương ứng."
+  },
+  {
+    "position": 143,
+    "img_id": "mcocr_public_145013shcxo.jpg",
+    "original_region": 1,
+    "action": "remove_wrong_region",
+    "label": "SELLER",
+    "old_text": "TÊN ĐẠI LÝ",
+    "new_text": "",
+    "reason": "Bỏ box chỉ chứa chữ mô tả; giữ các giá trị tương ứng."
+  },
+  {
+    "position": 144,
+    "img_id": "mcocr_public_145013shecj.jpg",
+    "original_region": 2,
+    "action": "text",
+    "label": "ADDRESS",
+    "old_text": "NHÀ - ONH 10504062 Trần Phú",
+    "new_text": "VM+ QNH 1060-1062 Trần Phú",
+    "reason": "Khôi phục VM+ QNH và số nhà 1060-1062."
+  },
+  {
+    "position": 144,
+    "img_id": "mcocr_public_145013shecj.jpg",
+    "original_region": 3,
+    "action": "text",
+    "label": "ADDRESS",
+    "old_text": "Số 10604062 Đường Trần Phú",
+    "new_text": "Số 1060-1062 Đường Trần Phú",
+    "reason": "Khôi phục dấu nối số nhà."
+  },
+  {
+    "position": 144,
+    "img_id": "mcocr_public_145013shecj.jpg",
+    "original_region": 4,
+    "action": "text",
+    "label": "ADDRESS",
+    "old_text": "TP.Cẩm Phả, Quảng Ninh",
+    "new_text": "TP. Cẩm Phả, Quảng Ninh",
+    "reason": "Giữ khoảng trắng sau TP."
+  },
+  {
+    "position": 145,
+    "img_id": "mcocr_public_145013snoxg.jpg",
+    "original_region": 2,
+    "action": "text",
+    "label": "ADDRESS",
+    "old_text": "403 Phan Huy Ích, P.14, QGò Vấp",
+    "new_text": "403 Phan Huy Ích, P.14, Q.Gò Vấp",
+    "reason": "Khôi phục dấu chấm sau Q."
+  },
+  {
+    "position": 145,
+    "img_id": "mcocr_public_145013snoxg.jpg",
+    "original_region": 3,
+    "action": "text",
+    "label": "TOTAL_COST",
+    "old_text": "38000",
+    "new_text": "38 000",
+    "reason": "Giữ khoảng trắng phân cách tiền."
+  },
+  {
+    "position": 146,
+    "img_id": "mcocr_public_145013sommy.jpg",
+    "original_region": 4,
+    "action": "text",
+    "label": "TIMESTAMP",
+    "old_text": "16/08/2020 - 11:42",
+    "new_text": "16/08/2020-11:42",
+    "reason": "Dấu nối in liền ngày giờ."
+  },
+  {
+    "position": 147,
+    "img_id": "mcocr_public_145013srvjw.jpg",
+    "original_region": 2,
+    "action": "text",
+    "label": "ADDRESS",
+    "old_text": "VM+QNH 1060-1062 Trần Phú",
+    "new_text": "VM+ QNH 1060-1062 Trần Phú",
+    "reason": "Giữ khoảng trắng sau VM+."
+  },
+  {
+    "position": 147,
+    "img_id": "mcocr_public_145013srvjw.jpg",
+    "original_region": 3,
+    "action": "text",
+    "label": "ADDRESS",
+    "old_text": "Số 10604062 Đường Trần Phú",
+    "new_text": "Số 1060-1062 Đường Trần Phú",
+    "reason": "Khôi phục dấu nối số nhà."
+  },
+  {
+    "position": 148,
+    "img_id": "mcocr_public_145013sscqf.jpg",
+    "original_region": 4,
+    "action": "text",
+    "label": "TIMESTAMP",
+    "old_text": "16/08/2020 - 18:13",
+    "new_text": "16/08/2020-18:13",
+    "reason": "Dấu nối in liền ngày giờ."
+  },
+  {
+    "position": 151,
+    "img_id": "mcocr_public_145013tcvim.jpg",
+    "original_region": 41,
+    "action": "text",
+    "label": "TIMESTAMP",
+    "old_text": "12/08/2020 - 14:33",
+    "new_text": "12/08/2020-14:33",
+    "reason": "Dấu nối in liền ngày giờ."
+  },
+  {
+    "position": 151,
+    "img_id": "mcocr_public_145013tcvim.jpg",
+    "original_region": 3,
+    "action": "remove_wrong_region",
+    "label": "TOTAL_COST",
+    "old_text": "Tổng cộng:",
+    "new_text": "",
+    "reason": "Box Tổng cộng là mô tả; giữ giá trị 562,000."
+  },
+  {
+    "position": 152,
+    "img_id": "mcocr_public_145013tifph.jpg",
+    "original_region": 1,
+    "action": "text",
+    "label": "SELLER",
+    "old_text": "saigon co.op co.op Food HN THE K-PARK",
+    "new_text": "Saigon Co.op Co.op Food HN THE K-PARK",
+    "reason": "Khôi phục chữ hoa và dấu chấm in trong tên Co.op."
+  },
+  {
+    "position": 152,
+    "img_id": "mcocr_public_145013tifph.jpg",
+    "original_region": 3,
+    "action": "text",
+    "label": "ADDRESS",
+    "old_text": "Tang 1, SH42 - Toa K3, Cong trinh chung cu",
+    "new_text": "Tang 1,SH42 - Toa K3,Cong trinh chung cu",
+    "reason": "Giữ dấu phân cách và khoảng trắng đọc được trên ảnh."
+  },
+  {
+    "position": 153,
+    "img_id": "mcocr_public_145013tnlbk.jpg",
+    "original_region": 3,
+    "action": "text",
+    "label": "ADDRESS",
+    "old_text": "VM+ QNH Tổ 7, khu Minh Tiến A",
+    "new_text": "VM+ QNH Tổ 7, Khu Minh Tiến A",
+    "reason": "Ảnh viết hoa Khu."
+  },
+  {
+    "position": 153,
+    "img_id": "mcocr_public_145013tnlbk.jpg",
+    "original_region": 5,
+    "action": "text",
+    "label": "ADDRESS",
+    "old_text": "Đ. Cẩm Bình, TP. Cẩm Phả, QNH",
+    "new_text": "P. Cẩm Bình, TP. Cẩm Phả, QNH",
+    "reason": "Chữ đầu là P., text cũ chép thành Đ."
+  },
+  {
+    "position": 154,
+    "img_id": "mcocr_public_145013uexmk.jpg",
+    "original_region": 8,
+    "action": "remove_wrong_region",
+    "label": "TOTAL_COST",
+    "old_text": "02 02",
+    "new_text": "",
+    "reason": "Bỏ mô tả và số lượng giao dịch gán nhầm TOTAL_COST; giữ giá trị tiền."
+  },
+  {
+    "position": 154,
+    "img_id": "mcocr_public_145013uexmk.jpg",
+    "original_region": 7,
+    "action": "remove_wrong_region",
+    "label": "TOTAL_COST",
+    "old_text": "TẠI QUẦY",
+    "new_text": "",
+    "reason": "Bỏ mô tả và số lượng giao dịch gán nhầm TOTAL_COST; giữ giá trị tiền."
+  },
+  {
+    "position": 154,
+    "img_id": "mcocr_public_145013uexmk.jpg",
+    "original_region": 5,
+    "action": "remove_wrong_region",
+    "label": "TIMESTAMP",
+    "old_text": "THỜI GIAN",
+    "new_text": "",
+    "reason": "Bỏ mô tả và số lượng giao dịch gán nhầm TOTAL_COST; giữ giá trị tiền."
+  },
+  {
+    "position": 154,
+    "img_id": "mcocr_public_145013uexmk.jpg",
+    "original_region": 3,
+    "action": "remove_wrong_region",
+    "label": "ADDRESS",
+    "old_text": "ĐỊA CHỈ",
+    "new_text": "",
+    "reason": "Bỏ mô tả và số lượng giao dịch gán nhầm TOTAL_COST; giữ giá trị tiền."
+  },
+  {
+    "position": 154,
+    "img_id": "mcocr_public_145013uexmk.jpg",
+    "original_region": 1,
+    "action": "remove_wrong_region",
+    "label": "SELLER",
+    "old_text": "TÊN ĐẠI LÝ:",
+    "new_text": "",
+    "reason": "Bỏ mô tả và số lượng giao dịch gán nhầm TOTAL_COST; giữ giá trị tiền."
+  },
+  {
+    "position": 155,
+    "img_id": "mcocr_public_145013unjxn.jpg",
+    "original_region": 6,
+    "action": "text",
+    "label": "TIMESTAMP",
+    "old_text": "10/05/2020",
+    "new_text": "10/08/2020",
+    "reason": "Tháng in là 08, text cũ là 05."
+  },
+  {
+    "position": 158,
+    "img_id": "mcocr_public_145013utfgs.jpg",
+    "original_region": 2,
+    "action": "text",
+    "label": "ADDRESS",
+    "old_text": "Tổ 7 khu Tân Lập 4 - P . Cẩm Thủy",
+    "new_text": "Tổ 7 khu Tân Lập 4 - P.Cẩm Thủy -",
+    "reason": "Giữ dấu nối cuối dòng."
+  },
+  {
+    "position": 158,
+    "img_id": "mcocr_public_145013utfgs.jpg",
+    "original_region": 3,
+    "action": "text",
+    "label": "TIMESTAMP",
+    "old_text": "13/08/2020- 20 14",
+    "new_text": "13 / 08 / 2020 - 20 : 14",
+    "reason": "Khôi phục dấu hai chấm trong giờ, giữ phân cách in."
+  },
+  {
+    "position": 158,
+    "img_id": "mcocr_public_145013utfgs.jpg",
+    "original_region": 4,
+    "action": "text",
+    "label": "ADDRESS",
+    "old_text": "Tp Cẩm Phả - Quảng Ninh",
+    "new_text": "Tp.Cẩm Phả - Quảng Ninh",
+    "reason": "Khôi phục dấu chấm sau Tp."
+  },
+  {
+    "position": 158,
+    "img_id": "mcocr_public_145013utfgs.jpg",
+    "original_region": 5,
+    "action": "remove_wrong_region",
+    "label": "TOTAL_COST",
+    "old_text": "Tổng cộng:",
+    "new_text": "",
+    "reason": "Box Tổng cộng là mô tả; giữ số tiền 70,000."
+  },
+  {
+    "position": 159,
+    "img_id": "mcocr_public_145013vbjnr.jpg",
+    "original_region": 3,
+    "action": "remove_wrong_region",
+    "label": "TIMESTAMP",
+    "old_text": "Ngày",
+    "new_text": "",
+    "reason": "Text cũ không khớp vùng: seller là tên nhà sách; total/date phải lấy giá trị."
+  },
+  {
+    "position": 159,
+    "img_id": "mcocr_public_145013vbjnr.jpg",
+    "original_region": 2,
+    "action": "remove_wrong_region",
+    "label": "TOTAL_COST",
+    "old_text": "Phải thu khách hàng:",
+    "new_text": "",
+    "reason": "Text cũ không khớp vùng: seller là tên nhà sách; total/date phải lấy giá trị."
+  },
+  {
+    "position": 159,
+    "img_id": "mcocr_public_145013vbjnr.jpg",
+    "original_region": 1,
+    "action": "remove_wrong_region",
+    "label": "SELLER",
+    "old_text": "Tax invoice will be issued within same day",
+    "new_text": "",
+    "reason": "Text cũ không khớp vùng: seller là tên nhà sách; total/date phải lấy giá trị."
+  },
+  {
+    "position": 159,
+    "img_id": "mcocr_public_145013vbjnr.jpg",
+    "original_region": "",
+    "action": "replace_value_region",
+    "label": "SELLER",
+    "old_text": "",
+    "new_text": "NHA SACH THANH NGHIA TP.HCM",
+    "reason": "Tên nhà sách đọc được; text cũ là câu tiếng Anh không có trên ảnh."
+  },
+  {
+    "position": 159,
+    "img_id": "mcocr_public_145013vbjnr.jpg",
+    "original_region": "",
+    "action": "replace_value_region",
+    "label": "TOTAL_COST",
+    "old_text": "",
+    "new_text": "24,000",
+    "reason": "Lấy tiền Phai thu khach hang, không lấy tiền khách trả hay trả lại."
+  },
+  {
+    "position": 159,
+    "img_id": "mcocr_public_145013vbjnr.jpg",
+    "original_region": "",
+    "action": "replace_value_region",
+    "label": "TIMESTAMP",
+    "old_text": "",
+    "new_text": "20/12/2018",
+    "reason": "Lấy ngày in bên cạnh Ngay thay cho text chỉ có Ngày."
+  },
+  {
+    "position": 159,
+    "img_id": "mcocr_public_145013vbjnr.jpg",
+    "original_region": "",
+    "action": "replace_value_region",
+    "label": "TIMESTAMP",
+    "old_text": "",
+    "new_text": "09:56:16",
+    "reason": "Giờ in rõ trong cùng dòng thời điểm hóa đơn."
+  },
+  {
+    "position": 160,
+    "img_id": "mcocr_public_145013vmzzn.jpg",
+    "original_region": 2,
+    "action": "text",
+    "label": "ADDRESS",
+    "old_text": "ĐC: 212 Đường Trần Phú - Cẩm Phả",
+    "new_text": "ĐC: 212 Đường Trần Phú-Cẩm Phả",
+    "reason": "Giữ dấu nối liền trên ảnh."
+  },
+  {
+    "position": 162,
+    "img_id": "mcocr_public_145013vviou.jpg",
+    "original_region": 3,
+    "action": "text",
+    "label": "ADDRESS",
+    "old_text": "Tổ 7, khu Minh Tiến A",
+    "new_text": "Tổ 7, Khu Minh Tiến A",
+    "reason": "Giữ chữ hoa Khu."
+  },
+  {
+    "position": 162,
+    "img_id": "mcocr_public_145013vviou.jpg",
+    "original_region": 4,
+    "action": "text",
+    "label": "ADDRESS",
+    "old_text": "P Cẩm Bình. Tp. Cẩm Phả. QNH",
+    "new_text": "P. Cẩm Bình, TP. Cẩm Phả, QNH",
+    "reason": "Khôi phục các dấu chấm và phẩy theo ảnh."
+  },
+  {
+    "position": 163,
+    "img_id": "mcocr_public_145013wacye.jpg",
+    "original_region": 1,
+    "action": "text",
+    "label": "SELLER",
+    "old_text": "Laha Cafe",
+    "new_text": "LahaCafé",
+    "reason": "Logo in liền LahaCafé và có dấu sắc trên é."
+  },
+  {
+    "position": 163,
+    "img_id": "mcocr_public_145013wacye.jpg",
+    "original_region": 3,
+    "action": "text",
+    "label": "TIMESTAMP",
+    "old_text": "09.10.2C20",
+    "new_text": "09.10.2020",
+    "reason": "Số 0 của năm bị gõ thành chữ C."
+  },
+  {
+    "position": 163,
+    "img_id": "mcocr_public_145013wacye.jpg",
+    "original_region": 2,
+    "action": "remove_wrong_region",
+    "label": "SELLER",
+    "old_text": "JUST GOOP COFFEE",
+    "new_text": "",
+    "reason": "JUST GOOD COFFEE là khẩu hiệu, không phải tên seller; giữ LahaCafé."
+  },
+  {
+    "position": 164,
+    "img_id": "mcocr_public_145013wdcqs.jpg",
+    "original_region": 1,
+    "action": "text",
+    "label": "SELLER",
+    "old_text": "mart",
+    "new_text": "beemart",
+    "reason": "Khôi phục phần bee còn đọc được trước mart."
+  },
+  {
+    "position": 164,
+    "img_id": "mcocr_public_145013wdcqs.jpg",
+    "original_region": 4,
+    "action": "text",
+    "label": "TOTAL_COST",
+    "old_text": "268000",
+    "new_text": "268,000",
+    "reason": "Khôi phục dấu phẩy phân cách tiền."
+  },
+  {
+    "position": 165,
+    "img_id": "mcocr_public_145013wgrej.jpg",
+    "original_region": 3,
+    "action": "text",
+    "label": "ADDRESS",
+    "old_text": "Tang 1,SH42 - Toa K3, Cong trinh chung cu",
+    "new_text": "Tang 1,SH42 - Toa K3,Cong trinh chung cu",
+    "reason": "Giữ dấu phân cách đọc được, không chuẩn hóa thành dấu khác."
+  },
+  {
+    "position": 166,
+    "img_id": "mcocr_public_145013wjnhn.jpg",
+    "original_region": 3,
+    "action": "text",
+    "label": "TIMESTAMP",
+    "old_text": "10/08/2020 - 11:",
+    "new_text": "10/08/2020-11:",
+    "reason": "Dấu nối in liền; phần phút bị cắt khỏi giấy, không suy đoán."
+  },
+  {
+    "position": 167,
+    "img_id": "mcocr_public_145013wokiq.jpg",
+    "original_region": 3,
+    "action": "text",
+    "label": "ADDRESS",
+    "old_text": "Tang 1, SH 42 Toa K3 cong trinh chung cu",
+    "new_text": "Tang 1,SH42 - Toa K3,Cong trinh chung cu",
+    "reason": "Khôi phục dấu phẩy và dấu nối trên ảnh."
+  },
+  {
+    "position": 167,
+    "img_id": "mcocr_public_145013wokiq.jpg",
+    "original_region": 7,
+    "action": "text",
+    "label": "ADDRESS",
+    "old_text": "tai khu do thi moi Van Phu,",
+    "new_text": "tai Khu do thi moi Van Phu,",
+    "reason": "Giữ chữ hoa Khu."
+  },
+  {
+    "position": 168,
+    "img_id": "mcocr_public_145013wrunk.jpg",
+    "original_region": 2,
+    "action": "text",
+    "label": "ADDRESS",
+    "old_text": "Tổ 7, khu Minh Tiến A",
+    "new_text": "Tổ 7, Khu Minh Tiến A",
+    "reason": "Giữ chữ hoa Khu."
+  },
+  {
+    "position": 168,
+    "img_id": "mcocr_public_145013wrunk.jpg",
+    "original_region": 3,
+    "action": "text",
+    "label": "ADDRESS",
+    "old_text": "P. Cẩm Bình. TP. Cẩm Phả. QNH",
+    "new_text": "P. Cẩm Bình, TP. Cẩm Phả, QNH",
+    "reason": "Khôi phục dấu phẩy và chữ hoa TP."
+  },
+  {
+    "position": 168,
+    "img_id": "mcocr_public_145013wrunk.jpg",
+    "original_region": 4,
+    "action": "text",
+    "label": "ADDRESS",
+    "old_text": "VM+ QNH Tổ 7,Khu Minh Tiến A",
+    "new_text": "VM+ QNH Tổ 7, Khu Minh Tiến A",
+    "reason": "Khôi phục khoảng trắng và chữ hoa Khu."
+  },
+  {
+    "position": 169,
+    "img_id": "mcocr_public_145013xafsi.jpg",
+    "original_region": 2,
+    "action": "text",
+    "label": "ADDRESS",
+    "old_text": "VM : QNH Dự án KDC lấn biển cọc 6",
+    "new_text": "VM+ QNH Dự án KDC lấn biển cọc 6",
+    "reason": "Text cũ dùng dấu hai chấm thay cho +."
+  },
+  {
+    "position": 169,
+    "img_id": "mcocr_public_145013xafsi.jpg",
+    "original_region": 3,
+    "action": "text",
+    "label": "ADDRESS",
+    "old_text": "DA khu DCLB cọc 6, P.Cẩm Sơn",
+    "new_text": "DA khu ĐCLB cọc 6, P. Cẩm Sơn",
+    "reason": "Khôi phục Đ và khoảng trắng đọc được."
+  },
+  {
+    "position": 169,
+    "img_id": "mcocr_public_145013xafsi.jpg",
+    "original_region": 4,
+    "action": "text",
+    "label": "ADDRESS",
+    "old_text": "TP . Cẩm Phả, T. Quảng Ninh",
+    "new_text": "TP. Cẩm Phả, T. Quảng Ninh",
+    "reason": "Dấu chấm in liền TP."
+  },
+  {
+    "position": 169,
+    "img_id": "mcocr_public_145013xafsi.jpg",
+    "original_region": 5,
+    "action": "text",
+    "label": "TIMESTAMP",
+    "old_text": "Ngày : 14/08/2020",
+    "new_text": "14/08/2020",
+    "reason": "Bỏ mô tả Ngày khỏi giá trị."
+  },
+  {
+    "position": 169,
+    "img_id": "mcocr_public_145013xafsi.jpg",
+    "original_region": 6,
+    "action": "text",
+    "label": "TIMESTAMP",
+    "old_text": "Thời gian: 21:37",
+    "new_text": "21:37",
+    "reason": "Bỏ mô tả Thời gian khỏi giá trị."
+  },
+  {
+    "position": 170,
+    "img_id": "mcocr_public_145013xaojq.jpg",
+    "original_region": 2,
+    "action": "text",
+    "label": "ADDRESS",
+    "old_text": "ĐC: 212 Đường Trần Phú - Cẩm Phả",
+    "new_text": "ĐC: 212 Đường Trần Phú-Cẩm Phả",
+    "reason": "Dấu nối được in liền."
+  },
+  {
+    "position": 171,
+    "img_id": "mcocr_public_145013xczvp.jpg",
+    "original_region": 2,
+    "action": "text",
+    "label": "TOTAL_COST",
+    "old_text": "124.000",
+    "new_text": "124,000",
+    "reason": "Tiền dùng dấu phẩy, không phải dấu chấm."
+  },
+  {
+    "position": 171,
+    "img_id": "mcocr_public_145013xczvp.jpg",
+    "original_region": 3,
+    "action": "text",
+    "label": "TIMESTAMP",
+    "old_text": "15/08/2020 - 16:53",
+    "new_text": "15/08/2020-16:53",
+    "reason": "Dấu nối in liền ngày giờ."
+  },
+  {
+    "position": 172,
+    "img_id": "mcocr_public_145013xyaln.jpg",
+    "original_region": 2,
+    "action": "text",
+    "label": "ADDRESS",
+    "old_text": "VM+QNH Dự án KDC lấn biển cọc 6",
+    "new_text": "VM+ QNH Dự án KDC lấn biển cọc 6",
+    "reason": "Giữ khoảng trắng sau VM+."
+  },
+  {
+    "position": 172,
+    "img_id": "mcocr_public_145013xyaln.jpg",
+    "original_region": 3,
+    "action": "text",
+    "label": "ADDRESS",
+    "old_text": "DA khu DCLB coc 6,P.Cẩm Sơn",
+    "new_text": "DA khu ĐCLB cọc 6, P. Cẩm Sơn",
+    "reason": "Khôi phục Đ và khoảng trắng đọc được."
+  },
+  {
+    "position": 172,
+    "img_id": "mcocr_public_145013xyaln.jpg",
+    "original_region": 4,
+    "action": "text",
+    "label": "ADDRESS",
+    "old_text": "TP. Cẩm Phả, T.Quảng Ninh",
+    "new_text": "TP. Cẩm Phả, T. Quảng Ninh",
+    "reason": "Giữ khoảng trắng sau T."
+  },
+  {
+    "position": 173,
+    "img_id": "mcocr_public_145013ycbtn.jpg",
+    "original_region": 3,
+    "action": "text",
+    "label": "ADDRESS",
+    "old_text": "Số 86 Đường Trần Phú P. Cẩm Tây",
+    "new_text": "Số 86 Đường Trần Phú, P. Cẩm Tây",
+    "reason": "Khôi phục dấu phẩy trước P."
+  },
+  {
+    "position": 173,
+    "img_id": "mcocr_public_145013ycbtn.jpg",
+    "original_region": 4,
+    "action": "text",
+    "label": "ADDRESS",
+    "old_text": "TP Cẩm Phả, T.Quảng Ninh",
+    "new_text": "TP Cẩm Phả, T. Quảng Ninh.",
+    "reason": "Giữ khoảng trắng và dấu chấm cuối dòng."
+  },
+  {
+    "position": 174,
+    "img_id": "mcocr_public_145013yewns.jpg",
+    "original_region": 2,
+    "action": "text",
+    "label": "ADDRESS",
+    "old_text": "VM+QNH Tổ 8 Khu 3B Cẩm Trung",
+    "new_text": "VM+ QNH Tổ 8 Khu 3B Cẩm Trung",
+    "reason": "Giữ khoảng trắng sau VM+."
+  },
+  {
+    "position": 176,
+    "img_id": "mcocr_public_145013ykdsv.jpg",
+    "original_region": 1,
+    "action": "text",
+    "label": "SELLER",
+    "old_text": "SCTC CÔ THỒ 104 TRẦN PHÚ - CẨM",
+    "new_text": "SCTC CÔ THỎ 104 TRẦN PHÚ - CẨM",
+    "reason": "Dấu trên THỎ là dấu hỏi, không phải huyền."
+  },
+  {
+    "position": 178,
+    "img_id": "mcocr_public_145013ywtjf.jpg",
+    "original_region": 20,
+    "action": "text",
+    "label": "TIMESTAMP",
+    "old_text": "16/08/2020 - 16:47",
+    "new_text": "16/08/2020-16:47",
+    "reason": "Dấu nối in liền ngày giờ."
+  },
+  {
+    "position": 180,
+    "img_id": "mcocr_public_145013zhiwi.jpg",
+    "original_region": 1,
+    "action": "text",
+    "label": "SELLER",
+    "old_text": "PHÚC LONG",
+    "new_text": "PHUC LONG",
+    "reason": "Logo in không dấu, giữ đúng chữ trên ảnh."
+  },
+  {
+    "position": 180,
+    "img_id": "mcocr_public_145013zhiwi.jpg",
+    "original_region": 3,
+    "action": "text",
+    "label": "ADDRESS",
+    "old_text": "42 TRAN CAO VAN, P.6 Q.3, Tp. HCM",
+    "new_text": "42 TRAN CAO VAN, P. 6 Q. 3, Tp. HCM",
+    "reason": "Giữ khoảng trắng và dấu phân cách theo chữ in."
+  },
+  {
+    "position": 181,
+    "img_id": "mcocr_public_145013zpqsi.jpg",
+    "original_region": 2,
+    "action": "text",
+    "label": "ADDRESS",
+    "old_text": "VM+QNH Tổ 7, Khu Minh Tiến A",
+    "new_text": "VM+ QNH Tổ 7, Khu Minh Tiến A",
+    "reason": "Giữ khoảng trắng sau VM+."
+  },
+  {
+    "position": 181,
+    "img_id": "mcocr_public_145013zpqsi.jpg",
+    "original_region": 3,
+    "action": "text",
+    "label": "ADDRESS",
+    "old_text": "Tổ 7. Khu Minh Tiến A",
+    "new_text": "Tổ 7, Khu Minh Tiến A",
+    "reason": "Text cũ dùng dấu chấm thay dấu phẩy sau 7."
+  },
+  {
+    "position": 182,
+    "img_id": "mcocr_public_145013zrrly.jpg",
+    "original_region": 3,
+    "action": "text",
+    "label": "ADDRESS",
+    "old_text": "Số 483, Tổ 8, Khu Diêm Thuỷ",
+    "new_text": "Số 483, Tổ 86, Khu Diêm Thủy",
+    "reason": "Tổ là 86, text cũ thiếu số 6."
+  },
+  {
+    "position": 183,
+    "img_id": "mcocr_public_145014acbrl.jpg",
+    "original_region": 4,
+    "action": "text",
+    "label": "TIMESTAMP",
+    "old_text": "13/08/2020 - 16:51",
+    "new_text": "13/08/2020-16:51",
+    "reason": "Dấu nối in liền ngày giờ."
+  },
+  {
+    "position": 184,
+    "img_id": "mcocr_public_145014aclha.jpg",
+    "original_region": 4,
+    "action": "text",
+    "label": "TIMESTAMP",
+    "old_text": "11/08/2020 - 15:40",
+    "new_text": "11/08/2020-15:40",
+    "reason": "Dấu nối in liền ngày giờ."
+  },
+  {
+    "position": 185,
+    "img_id": "mcocr_public_145014aglyp.jpg",
+    "original_region": 12,
+    "action": "text",
+    "label": "TIMESTAMP",
+    "old_text": "17/08/2020 - 17:22",
+    "new_text": "17/08/2020-17:22",
+    "reason": "Dấu nối in liền ngày giờ."
+  },
+  {
+    "position": 186,
+    "img_id": "mcocr_public_145014ahsfe.jpg",
+    "original_region": 5,
+    "action": "text",
+    "label": "TIMESTAMP",
+    "old_text": "Ngày: 09/08/2020",
+    "new_text": "09/08/2020",
+    "reason": "Bỏ mô tả Ngày khỏi giá trị."
+  },
+  {
+    "position": 186,
+    "img_id": "mcocr_public_145014ahsfe.jpg",
+    "original_region": 6,
+    "action": "text",
+    "label": "TIMESTAMP",
+    "old_text": "Thời gian: 20:08",
+    "new_text": "20:08",
+    "reason": "Bỏ mô tả Thời gian khỏi giá trị."
+  },
+  {
+    "position": 187,
+    "img_id": "mcocr_public_145014aixgf.jpg",
+    "original_region": 2,
+    "action": "text",
+    "label": "ADDRESS",
+    "old_text": "ĐC: 212 Đường Trần Phú - Cẩm Phả",
+    "new_text": "ĐC: 212 Đường Trần Phú-Cẩm Phả",
+    "reason": "Dấu nối in liền địa chỉ."
+  },
+  {
+    "position": 189,
+    "img_id": "mcocr_public_145014ajgqu.jpg",
+    "original_region": 2,
+    "action": "text",
+    "label": "ADDRESS",
+    "old_text": "Tổ 7 khu Tân Lập 4 - P.Cẩm Thủy",
+    "new_text": "Tổ 7 khu Tân Lập 4 - P.Cẩm Thủy -",
+    "reason": "Giữ dấu nối cuối dòng."
+  },
+  {
+    "position": 189,
+    "img_id": "mcocr_public_145014ajgqu.jpg",
+    "original_region": 4,
+    "action": "text",
+    "label": "TOTAL_COST",
+    "old_text": "84.000",
+    "new_text": "84,000",
+    "reason": "Tiền in dấu phẩy, không phải dấu chấm."
+  },
+  {
+    "position": 189,
+    "img_id": "mcocr_public_145014ajgqu.jpg",
+    "original_region": 13,
+    "action": "text",
+    "label": "TIMESTAMP",
+    "old_text": "11/08/2020 - 22 : 08",
+    "new_text": "11 / 08 / 2020 - 22 : 08",
+    "reason": "Giữ phân cách in trên ảnh."
+  },
+  {
+    "position": 190,
+    "img_id": "mcocr_public_145014ansoe.jpg",
+    "original_region": 16,
+    "action": "text",
+    "label": "TIMESTAMP",
+    "old_text": "17/08/2020 - 15:37",
+    "new_text": "17/08/2020-15:37",
+    "reason": "Dấu nối in liền ngày giờ."
+  },
+  {
+    "position": 191,
+    "img_id": "mcocr_public_145014apodg.jpg",
+    "original_region": 2,
+    "action": "text",
+    "label": "ADDRESS",
+    "old_text": "VM+QNH Dự án KDC lấn biển cọc 6",
+    "new_text": "VM+ QNH Dự án KDC lấn biển cọc 6",
+    "reason": "Giữ khoảng trắng sau VM+."
+  },
+  {
+    "position": 191,
+    "img_id": "mcocr_public_145014apodg.jpg",
+    "original_region": 3,
+    "action": "text",
+    "label": "ADDRESS",
+    "old_text": "DA khu DCLB coc 6,P.Cẩm Sơn",
+    "new_text": "DA khu ĐCLB cọc 6, P. Cẩm Sơn",
+    "reason": "Khôi phục Đ và khoảng trắng đọc được."
+  },
+  {
+    "position": 191,
+    "img_id": "mcocr_public_145014apodg.jpg",
+    "original_region": 4,
+    "action": "text",
+    "label": "ADDRESS",
+    "old_text": "TP. Cẩm Phả, T.Quảng Ninh",
+    "new_text": "TP. Cẩm Phả, T. Quảng Ninh",
+    "reason": "Giữ khoảng trắng sau T."
+  },
+  {
+    "position": 192,
+    "img_id": "mcocr_public_145014aprcw.jpg",
+    "original_region": 1,
+    "action": "text",
+    "label": "TIMESTAMP",
+    "old_text": "NGÀY HỆ THỐNG: 13/08/2020 12:20",
+    "new_text": "13/08/2020 12:20",
+    "reason": "Bỏ mô tả NGÀY HỆ THỐNG khỏi giá trị."
+  },
+  {
+    "position": 192,
+    "img_id": "mcocr_public_145014aprcw.jpg",
+    "original_region": 2,
+    "action": "remove_wrong_region",
+    "label": "TOTAL_COST",
+    "old_text": "Tổng Tiến",
+    "new_text": "",
+    "reason": "Bỏ box mô tả Tổng Tiền; giữ giá trị tiền đã gán."
+  },
+  {
+    "position": 194,
+    "img_id": "mcocr_public_145014avkgm.jpg",
+    "original_region": 2,
+    "action": "text",
+    "label": "ADDRESS",
+    "old_text": "Chợ sửi Phú Thị Gia Lâm",
+    "new_text": "Chợ Sủi Phú Thị Gia Lâm",
+    "reason": "Ảnh viết hoa Sủi."
+  },
+  {
+    "position": 194,
+    "img_id": "mcocr_public_145014avkgm.jpg",
+    "original_region": 12,
+    "action": "text",
+    "label": "TOTAL_COST",
+    "old_text": "15/08/2020 09:05",
+    "new_text": "15/08/2020-09:05",
+    "reason": "Khôi phục dấu nối giữa ngày giờ."
+  },
+  {
+    "position": 194,
+    "img_id": "mcocr_public_145014avkgm.jpg",
+    "original_region": 12,
+    "action": "category",
+    "label": "TIMESTAMP",
+    "old_text": "TOTAL_COST",
+    "new_text": "TIMESTAMP",
+    "reason": "Box ngày giờ bị gán TOTAL_COST; đổi sang TIMESTAMP, giữ nguyên tọa độ."
+  },
+  {
+    "position": 195,
+    "img_id": "mcocr_public_145014avuac.jpg",
+    "original_region": 3,
+    "action": "text",
+    "label": "ADDRESS",
+    "old_text": "Số 483, Tổ 8, Khu Diêm Thủy",
+    "new_text": "Số 483, Tổ 86, Khu Diêm Thủy",
+    "reason": "Tổ là 86, text cũ thiếu số 6."
+  },
+  {
+    "position": 196,
+    "img_id": "mcocr_public_145014awmql.jpg",
+    "original_region": 3,
+    "action": "text",
+    "label": "TIMESTAMP",
+    "old_text": "Thời gian: 08:42:33 - 14/08/2020",
+    "new_text": "08:42:33 - 14/08/2020",
+    "reason": "Bỏ mô tả Thời gian khỏi giá trị."
+  },
+  {
+    "position": 197,
+    "img_id": "mcocr_public_145014awxdd.jpg",
+    "original_region": 4,
+    "action": "text",
+    "label": "ADDRESS",
+    "old_text": "tai khu do thi moi Van Phu,",
+    "new_text": "tai Khu do thi moi Van Phu,",
+    "reason": "Giữ chữ hoa Khu."
+  },
+  {
+    "position": 197,
+    "img_id": "mcocr_public_145014awxdd.jpg",
+    "original_region": 5,
+    "action": "text",
+    "label": "ADDRESS",
+    "old_text": "tang 1,SH42 - Toa K3,Cong trinh chung cu",
+    "new_text": "Tang 1,SH42 - Toa K3,Cong trinh chung cu",
+    "reason": "Giữ chữ hoa Tang và dấu phân cách đọc được."
+  },
+  {
+    "position": 197,
+    "img_id": "mcocr_public_145014awxdd.jpg",
+    "original_region": 6,
+    "action": "text",
+    "label": "ADDRESS",
+    "old_text": "ket hop dich vu tren o dat H-C12 thuoc",
+    "new_text": "ket hop dich vu tren o dat H-CT2 thuoc",
+    "reason": "Mã ô đất H-CT2 bị chép thành H-C12."
+  },
+  {
+    "position": 199,
+    "img_id": "mcocr_public_145014bdeah.jpg",
+    "original_region": 2,
+    "action": "text",
+    "label": "ADDRESS",
+    "old_text": "Tòa nhà C1 - KTX Khu B - PHOG TP.HCM",
+    "new_text": "Tòa nhà C1 - KTX Khu B - ĐHQG TP.HCM",
+    "reason": "ĐHQG bị chép nhầm thành PHOG."
+  },
+  {
+    "position": 200,
+    "img_id": "mcocr_public_145014beisj.jpg",
+    "original_region": 2,
+    "action": "text",
+    "label": "SELLER",
+    "old_text": "satrafoods Nguyễn Văn Quá 2",
+    "new_text": "Satrafoods Nguyễn Văn Quá 2",
+    "reason": "Giữ chữ S viết hoa trên ảnh."
+  },
+  {
+    "position": 200,
+    "img_id": "mcocr_public_145014beisj.jpg",
+    "original_region": 3,
+    "action": "text",
+    "label": "ADDRESS",
+    "old_text": "73/1 KP2 Đường Nguyễn Văn Qua,P.Đông Hưn",
+    "new_text": "73/1 KP2 Đường Nguyễn Văn Qua,P.Đông Hun",
+    "reason": "Địa chỉ in Qua không dấu sắc, giữ phần cuối nhìn thấy."
+  }
+]

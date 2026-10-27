@@ -1,0 +1,34 @@
+{
+  "date": "2026-10-07",
+  "reviewed_images": 13,
+  "positions": [
+    96,
+    138,
+    169,
+    186,
+    238,
+    249,
+    260,
+    327,
+    347,
+    357,
+    373,
+    399,
+    421
+  ],
+  "total_images": 559,
+  "original_regions": 74,
+  "changed_annotation_images": 13,
+  "actions": {
+    "bbox": 70,
+    "add": 110,
+    "text": 25,
+    "delete": 4,
+    "absent": 46
+  },
+  "source_csv_sha256": "624809b12aeb5524f2cc5e77a8ba835f4452449d1a3f08c110b850bd24bd4461",
+  "csv": "D:\\graduation-project-2\\dataset_hoadon\\annotation_assignments_50_50\\member_1\\mcocr_train_df.csv",
+  "backup": "D:\\graduation-project-2\\dataset_hoadon\\annotation_review_backups\\member1_train_unfinished_20261007T053336016348Z",
+  "output_csv_sha256": "1d3756fea3bd668825ca010624c5c23fa6c8e370a300aac4f0d2044dd37501a8",
+  "verification": "PASS: aligned arrays, categories, source-coordinate bounds, product ids, unchanged other 546 rows, quality, original images, completion/flags, rotations, other datasets and workspace config"
+}

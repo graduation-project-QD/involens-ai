@@ -1,0 +1,63 @@
+{
+  "date": "2026-10-08",
+  "total_images": 1491,
+  "skipped_flagged": 123,
+  "checked_images": 1368,
+  "visually_checked_candidates": 53,
+  "changed_images": 46,
+  "added_marks": 136,
+  "changed_files": [
+    "D:\\graduation-project-2\\dataset_hoadon\\annotation_assignments_50_50\\member_1\\mcocr_train_df.missing_fields.json",
+    "D:\\graduation-project-2\\dataset_hoadon\\annotation_assignments_50_50\\member_2\\mcocr_train_df.missing_fields.json"
+  ],
+  "backup": "D:\\graduation-project-2\\dataset_hoadon\\annotation_review_backups\\absence_audit_20261008T154805124278Z",
+  "protected_files_unchanged": 18,
+  "after_stats": [
+    {
+      "member": "member_1",
+      "split": "train",
+      "total": 559,
+      "flagged": 49,
+      "candidates_images": 2,
+      "candidates_fields": {
+        "TOTAL_COST": 1,
+        "ADDRESS": 1
+      },
+      "conflicting_images": 0
+    },
+    {
+      "member": "member_1",
+      "split": "val",
+      "total": 184,
+      "flagged": 13,
+      "candidates_images": 0,
+      "candidates_fields": {},
+      "conflicting_images": 0
+    },
+    {
+      "member": "member_2",
+      "split": "train",
+      "total": 563,
+      "flagged": 45,
+      "candidates_images": 7,
+      "candidates_fields": {
+        "ITEM_NAME": 3,
+        "LINE_TOTAL": 3,
+        "QUANTITY": 2,
+        "TIMESTAMP": 2,
+        "UNIT_PRICE": 1
+      },
+      "conflicting_images": 0
+    },
+    {
+      "member": "member_2",
+      "split": "val",
+      "total": 185,
+      "flagged": 16,
+      "candidates_images": 0,
+      "candidates_fields": {},
+      "conflicting_images": 0
+    }
+  ],
+  "exception_images": 9
+}

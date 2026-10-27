@@ -1,0 +1,290 @@
+﻿position,img_id,original_region,action,label,old_text,new_text,reason
+3,mcocr_public_145013aedmq.jpg,2,text,ADDRESS,VM + QNH 590 Trần Phú,VM+ QNH 590 Trần Phú,Bỏ khoảng trắng chèn giữa VM và dấu +; khớp chữ in.
+3,mcocr_public_145013aedmq.jpg,3,text,ADDRESS,Số 590 Trần Phú.P.Cẩm Thuy,"Số 590 Trần Phú, P. Cẩm Thủy",Khôi phục dấu phẩy và khoảng trắng giữa hai phần địa chỉ đọc rõ.
+3,mcocr_public_145013aedmq.jpg,4,text,ADDRESS,"TP.Cẩm Phả, Quảng Ninh","TP. Cẩm Phả, Quảng Ninh",Giữ dấu chấm và khoảng trắng sau TP như chữ in.
+9,mcocr_public_145013atlmq.jpg,4,text,TIMESTAMP,16/08/2020 - 17:18,16/08/2020-17:18,Dấu nối in liền ngày và giờ; bỏ khoảng trắng tự thêm.
+12,mcocr_public_145013avtwc.jpg,1,text,TIMESTAMP,NGÀY HỆ THỐNG:13/08/2020 22:07,13/08/2020 22:07,TIMESTAMP lấy giá trị ngày giờ; bỏ chữ mô tả NGÀY HỆ THỐNG.
+12,mcocr_public_145013avtwc.jpg,2,remove_wrong_region,TOTAL_COST,Tổng Tiền,,"Bỏ box chữ mô tả Tổng Tiền, không phải giá trị TOTAL_COST."
+14,mcocr_public_145013azaup.jpg,4,text,TIMESTAMP,12/08/2020 - 12:22,12/08/2020-12:22,Dấu nối in liền ngày và giờ; bỏ khoảng trắng tự thêm.
+15,mcocr_public_145013bchvc.jpg,3,text,TOTAL_COST,"84,000đ",84.000đ,"Tiền in dấu chấm phân cách hàng nghìn, không phải dấu phẩy."
+17,mcocr_public_145013bdnvs.jpg,4,text,TIMESTAMP,13/08/2020 - 17:35,13/08/2020-17:35,Dấu nối in liền ngày và giờ.
+18,mcocr_public_145013bfddt.jpg,3,text,ADDRESS,Số 10804062 Đường Trần Phú,Số 1060-1062 Đường Trần Phú,Số nhà bị chép nhầm thành 10804062; ảnh đọc rõ 1060-1062.
+21,mcocr_public_145013blbqm.jpg,4,text,TIMESTAMP,09/08/2020 - 20:46,09/08/2020-20:46,Dấu nối in liền ngày và giờ.
+22,mcocr_public_145013borvc.jpg,1,text,SELLER,THE COFFEE HQUSE,THE COFFEE HOUSE,HOUSE bị chép nhầm chữ O thành Q.
+22,mcocr_public_145013borvc.jpg,2,text,ADDRESS,"403 Phan Huy Ich, P.14.Q.Gò vấp","403 Phan Huy Ích, P.14, Q.Gò Vấp",Bổ sung dấu Í và dấu chấm/phẩy đọc rõ trên địa chỉ.
+22,mcocr_public_145013borvc.jpg,3,text,TOTAL_COST,10101000,101 000,"Số tiền in 101 000, text cũ 10101000 có số thừa."
+22,mcocr_public_145013borvc.jpg,4,text,TIMESTAMP,01.10.2020 09:14,01.10.2020 09.14,Ảnh dùng dấu chấm giữa giờ/phút; không phải dấu hai chấm.
+23,mcocr_public_145013bpcpt.jpg,2,text,ADDRESS,VM + QNH 590 Trần Phú,VM+ QNH 590 Trần Phú,Bỏ khoảng trắng chèn trong VM+.
+23,mcocr_public_145013bpcpt.jpg,3,text,ADDRESS,Số 590 Trần Phú P. Cẩm Thủy,"Số 590 Trần Phú, P. Cẩm Thủy",Dấu phân cách sau Trần Phú trên ảnh là dấu phẩy.
+24,mcocr_public_145013bsywa.jpg,4,text,TIMESTAMP,12/08/2020 - 08:08:03,12/08/2020-08:03,"Ảnh in 08:03, text cũ 08:08:03 thêm một thành phần 08."
+25,mcocr_public_145013bvmvl.jpg,4,text,TIMESTAMP,16/08/2020 21:18,16/08/2020-21:18,Giữ dấu nối giữa ngày và giờ đúng ảnh.
+28,mcocr_public_145013bynnh.jpg,3,text,TOTAL_COST,"210,000 210,000","210,000","Text bị lặp 210,000 hai lần, ảnh chỉ có một số tiền."
+29,mcocr_public_145013cawuf.jpg,3,text,TIMESTAMP,31.032019,31.03.2019,Thiếu dấu chấm giữa tháng và năm.
+31,mcocr_public_145013cgpoh.jpg,3,text,ADDRESS,"TỔ 7, PHẠM MINH TIẾN A, P.CÂ","TỔ 7 KHU MINH TIẾN A,P.CẨ",Text cũ PHẠM MINH TIẾN không khớp chữ KHU MINH TIẾN trên ảnh; giữ đoạn cuối bị cắt P.CẨ.
+31,mcocr_public_145013cgpoh.jpg,5,text,TIMESTAMP,12/03/2020 22:06:51,12/08/2020 22:06:51,"Tháng in là 08, text cũ chép nhầm thành 03."
+31,mcocr_public_145013cgpoh.jpg,7,remove_wrong_region,TOTAL_COST,01 01,,Bỏ box chữ mô tả và số lượng giao dịch gán nhầm TOTAL_COST; giữ giá trị tiền đã có.
+31,mcocr_public_145013cgpoh.jpg,6,remove_wrong_region,TOTAL_COST,TẠI QUẦY,,Bỏ box chữ mô tả và số lượng giao dịch gán nhầm TOTAL_COST; giữ giá trị tiền đã có.
+31,mcocr_public_145013cgpoh.jpg,4,remove_wrong_region,TIMESTAMP,THỜI GIA,,Bỏ box chữ mô tả và số lượng giao dịch gán nhầm TOTAL_COST; giữ giá trị tiền đã có.
+31,mcocr_public_145013cgpoh.jpg,2,remove_wrong_region,ADDRESS,ĐỊA CHỈ:,,Bỏ box chữ mô tả và số lượng giao dịch gán nhầm TOTAL_COST; giữ giá trị tiền đã có.
+31,mcocr_public_145013cgpoh.jpg,1,remove_wrong_region,SELLER,TÊN ĐẠI LÝ:,,Bỏ box chữ mô tả và số lượng giao dịch gán nhầm TOTAL_COST; giữ giá trị tiền đã có.
+31,mcocr_public_145013cgpoh.jpg,,replace_value_region,SELLER,,VINMART,"Tên đại lý VINMART đọc rõ; Payoo là đơn vị thanh toán, không phải SELLER."
+32,mcocr_public_145013cixex.jpg,4,text,TIMESTAMP,17/08/2020 - 17:28,17/08/2020-17:28,Dấu nối in liền ngày và giờ.
+33,mcocr_public_145013ckcsv.jpg,4,text,TIMESTAMP,11/08/2020 - 21:19,11/08/2020-21:19,Giữ dấu nối giữa ngày và giờ như ảnh.
+34,mcocr_public_145013ckwpd.jpg,2,text,ADDRESS,VM + QNH 1060-1062 Trần Phú,VM+ QNH 1060-1062 Trần Phú,Bỏ khoảng trắng chèn trong VM+.
+37,mcocr_public_145013cllbf.jpg,1,text,ADDRESS,Lục Quân - Xã Cổ Đông - thị xã Sơn Tây,Lục Quân - Xã Cổ Đông - Thị xã Sơn Tây,Ảnh viết hoa Thị; giữ đúng chữ in.
+37,mcocr_public_145013cllbf.jpg,2,text,TOTAL_COST,253.000 253.000,253.000,"Text cũ lặp số tiền hai lần, ảnh chỉ có 253.000."
+37,mcocr_public_145013cllbf.jpg,3,text,TIMESTAMP,09:03 13/07/2020,"09:03, 13/07/2020",Giữa giờ và ngày có dấu phẩy trên ảnh.
+42,mcocr_public_145013dcdmv.jpg,1,text,SELLER,PHO MO,PHỐ MỎ,Dấu tiếng Việt trên tên cửa hàng đọc được; text cũ bỏ dấu.
+42,mcocr_public_145013dcdmv.jpg,2,text,ADDRESS,Tổ 7 Khu Tân Lập 4-P.Cẩm Thủy,Tổ 7 khu Tân Lập 4 - P.Cẩm Thủy -,Giữ chữ thường khu và dấu nối đọc được trên ảnh.
+42,mcocr_public_145013dcdmv.jpg,3,text,ADDRESS,Tp Cẩm Phả - Quảng Ninh,Tp.Cẩm Phả - Quảng Ninh,Ảnh có dấu chấm sau Tp.
+42,mcocr_public_145013dcdmv.jpg,4,text,TIMESTAMP,09/08/2020 22:00,09 / 08 / 2020 - 22 : 00,Giữ thứ tự và dấu phân cách in trên phiếu.
+43,mcocr_public_145013dcqda.jpg,3,text,ADDRESS,"Tổ 8, Khu 3B P.Cẩm Trung","Tổ 8, Khu 3B, P. Cẩm Trung",Bổ sung dấu phẩy phân tách Khu 3B và P. Cẩm Trung.
+43,mcocr_public_145013dcqda.jpg,4,text,ADDRESS,"TP.Cẩm Phả, T.Quảng Ninh","TP. Cẩm Phả, T. Quảng Ninh",Khoảng trắng sau dấu chấm khớp chữ in.
+44,mcocr_public_145013ddcph.jpg,12,text,TIMESTAMP,11/08/2020 08:06,11/08/2020-08:06,Ngày và giờ có dấu nối trên ảnh.
+45,mcocr_public_145013dhzmu.jpg,1,remove_wrong_region,TOTAL_COST,Tổng thanh toán,,"Báo cáo POS/ca: box chứa chữ Tổng thanh toán, không phải số tiền của hóa đơn."
+45,mcocr_public_145013dhzmu.jpg,,replace_value_region,TOTAL_COST,,4.814.466,Giá trị in cùng dòng Tổng thanh toán đọc được trên báo cáo.
+46,mcocr_public_145013dnwxv.jpg,4,text,TIMESTAMP,16/08/2020 - 17:38,16/08/2020-17:36,"Phút in là 36, text cũ chép nhầm thành 38."
+47,mcocr_public_145013dsaix.jpg,3,text,SELLER,V09 - 336 Võ Văn Ngân Q TD,Y09 - 336 Võ Văn Ngân Q.TD,"Chữ đầu là Y, text cũ chép thành V."
+47,mcocr_public_145013dsaix.jpg,4,text,ADDRESS,Y09 -336 Vô Văn Ngân Q.TD,Y09 - 336 Võ Văn Ngân Q.TD,Giữ dấu nối và khoảng trắng in trên địa chỉ.
+48,mcocr_public_145013dwbmu.jpg,3,text,ADDRESS,Số 10604082 Đường Trần Phú,Số 1060-1062 Đường Trần Phú,Số nhà chép sai thành 10604082; sửa theo ảnh 1060-1062.
+49,mcocr_public_145013dylla.jpg,2,text,ADDRESS,"VM+ QNH Tổ 7, khu Minh Tiến A","VM+ QNH Tổ 7, Khu Minh Tiến A",Ảnh viết hoa Khu.
+49,mcocr_public_145013dylla.jpg,5,remove_wrong_region,TOTAL_COST,TỔNG TIỀN PHẢI T.TOÁN,,Bỏ box mô tả TỔNG TIỀN PHẢI T.TOÁN; đã có box số tiền 42.904.
+50,mcocr_public_145013egelf.jpg,1,text,SELLER,Vincommerce,VinCommerce,Giữ chữ C viết hoa trong logo VinCommerce.
+53,mcocr_public_145013eygxv.jpg,3,text,TOTAL_COST,"46,000 46,000","46,000","Bỏ số tiền bị lặp; ảnh chỉ in một 46,000."
+54,mcocr_public_145013famty.jpg,4,text,TIMESTAMP,15/08/2020 08:42,15/08/2020-08:42,Ngày và giờ có dấu nối trên ảnh.
+57,mcocr_public_145013fiibr.jpg,3,remove_wrong_region,TOTAL_COST,Tổng,,"Bỏ chữ mô tả Tổng gán vào TOTAL_COST; giữ giá trị 421,000đ."
+61,mcocr_public_145013fxcgs.jpg,2,text,ADDRESS,VM + QNH Dự án quỹ đất đường sắt,VM+ QNH Dự án quỹ đất đường sắt,Bỏ khoảng trắng chèn trong VM+.
+61,mcocr_public_145013fxcgs.jpg,4,text,ADDRESS,"P.Cẩm Sơn, TP.Cẩm Phả, T.QN","P. Cẩm Sơn, TP. Cẩm Phả, T. QN",Giữ khoảng trắng sau dấu chấm đọc được trên ảnh.
+64,mcocr_public_145013gxbkt.jpg,3,text,ADDRESS,104 Trần Phú phường Cám Tây - Thành phố Cẩm,104 Trần Phú - phường Cẩm Tây - Thành phố Cẩm,Text thiếu dấu nối sau Trần Phú.
+65,mcocr_public_145013hfchp.jpg,3,text,ADDRESS,"Số 86 Đường Trần Phú, P.Cẩm Tây","Số 86 Đường Trần Phú, P. Cẩm Tây",Giữ khoảng trắng sau P. như chữ in.
+65,mcocr_public_145013hfchp.jpg,4,text,ADDRESS,"TP Cẩm Phả, T.Quảng Ninh","TP Cẩm Phả, T. Quảng Ninh.",Giữ dấu chấm cuối dòng và khoảng trắng sau T.
+66,mcocr_public_145013hfxkr.jpg,1,text,SELLER,MINIMART ANANAN,MINIMART ANAN,Text cũ ANANAN thừa AN so với logo ANAN.
+66,mcocr_public_145013hfxkr.jpg,4,text,TIMESTAMP,16/08/2020 - 16:22,16/08/2020-16:22,Dấu nối in liền ngày và giờ.
+67,mcocr_public_145013hgrpn.jpg,1,text,SELLER,SCTC cổ THỎ 104 TRẦN PHÚ - CẨM,SCTC CÔ THỎ 104 TRẦN PHÚ - CẨM,Khôi phục chữ hoa CÔ; dấu hỏi trên THỎ được giữ như ảnh.
+70,mcocr_public_145013iadlw.jpg,3,text,ADDRESS,"Tang 1, SH42 - Toa K3, Cong trinh chung cu","Tang 1,SH42 - Toa K3,Cong trinh chung cu",Địa chỉ trên ảnh in không dấu; không tự thêm dấu Tầng/Tòa/Công.
+70,mcocr_public_145013iadlw.jpg,5,text,ADDRESS,Da an Dau tu xay dung Khu nha o Hi Brand,Du an Dau tu xay dung Khu nha o Hi Brand,"Chữ đầu trên ảnh là Du an, không phải Da an."
+70,mcocr_public_145013iadlw.jpg,7,text,ADDRESS,"P. Phu La, Q. Ha Dong, Tp Ha Moi","P. Phu La, Q. Ha Dong, Tp Ha Noi","Chữ cuối là Noi, không phải Moi."
+71,mcocr_public_145013iesjs.jpg,3,text,ADDRESS,"Số 86 Đường Trần Phú, P.Cẩm Tây","Số 86 Đường Trần Phú, P. Cẩm Tây",Giữ khoảng trắng sau P. như chữ in.
+71,mcocr_public_145013iesjs.jpg,4,text,ADDRESS,"TP. Cẩm Phả, T.Quảng Ninh","TP Cẩm Phả, T. Quảng Ninh.",Giữ dấu chấm cuối dòng và khoảng trắng sau T.
+71,mcocr_public_145013iesjs.jpg,5,text,TIMESTAMP,Ngày bán: 09/08/2020 13:05,09/08/2020 13:05,Bỏ chữ mô tả Ngày bán khỏi giá trị TIMESTAMP.
+71,mcocr_public_145013iesjs.jpg,6,remove_wrong_region,TOTAL_COST,TỔNG TIỀN PHẢI T.TOÁN,,Bỏ box chữ TỔNG TIỀN PHẢI T.TOÁN gán TOTAL_COST; giữ box giá trị 13.000.
+73,mcocr_public_145013ihpxr.jpg,28,text,TOTAL_COST,"171,000",171.000,"Trên ảnh tiền dùng dấu chấm, text cũ dùng dấu phẩy."
+74,mcocr_public_145013ilier.jpg,2,text,ADDRESS,"Thôn Phú Thuỵ, xã Phú Thị, Huyện Gia Lâm, TP Hà Nội","Thôn Phú Thụy, Xã Phú Thị, Huyện Gia Lâm, TP Hà Nội",Ảnh viết hoa Xã.
+75,mcocr_public_145013ipoka.jpg,3,text,TOTAL_COST,50000,50 000,Giữ khoảng trắng phân cách số tiền in trên ảnh.
+77,mcocr_public_145013itqit.jpg,2,text,ADDRESS,VM + QNH 690 Trần Phú,VM+ QNH 590 Trần Phú,"Số nhà đầu dòng là 590, không phải 690."
+77,mcocr_public_145013itqit.jpg,3,text,ADDRESS,Số 590 Trần Phú P. Cẩm Thuỷ,"Số 590 Trần Phú, P. Cẩm Thủy",Thiếu dấu phẩy sau Trần Phú trong text cũ.
+79,mcocr_public_145013iyqnr.jpg,3,text,ADDRESS,"Tổ 8 KHU 3B, P.CAM TRUNG","TỔ 8 KHU 3B,P.CẨM TRUNG,T",Giữ đúng chữ hoa và đoạn cuối bị cắt trên địa chỉ.
+79,mcocr_public_145013iyqnr.jpg,4,text,TIMESTAMP,NGÀY : 12/08/2020,12/08/2020,Bỏ chữ mô tả NGÀY khỏi giá trị TIMESTAMP.
+79,mcocr_public_145013iyqnr.jpg,2,remove_wrong_region,ADDRESS,Dia Chi,,Bỏ box chữ mô tả tên đại lý/địa chỉ; giữ số tổng đã gán.
+79,mcocr_public_145013iyqnr.jpg,1,remove_wrong_region,SELLER,TÊN ĐẠI LÝ:,,Bỏ box chữ mô tả tên đại lý/địa chỉ; giữ số tổng đã gán.
+79,mcocr_public_145013iyqnr.jpg,,replace_value_region,SELLER,,VINMART,Gán tên đại lý VINMART đọc được trên phiếu; bỏ chữ mô tả TÊN ĐẠI LÝ.
+81,mcocr_public_145013jgdys.jpg,2,text,ADDRESS,VM +QNH 590 Trần Phú,VM+ QNH 590 Trần Phú,Bỏ khoảng trắng chèn trong VM+.
+81,mcocr_public_145013jgdys.jpg,3,text,ADDRESS,"Số 590 Trần Phú, P.Cẩm Thuỷ","Số 590 Trần Phú, P. Cẩm Thủy",Giữ khoảng trắng sau P. trên địa chỉ.
+81,mcocr_public_145013jgdys.jpg,4,text,ADDRESS,"TP.Cẩm Phả, Quảng Ninh","TP. Cẩm Phả, Quảng Ninh",Giữ khoảng trắng sau TP.
+82,mcocr_public_145013jiksh.jpg,3,text,ADDRESS,"TP.Cẩm Phả, T.Quảng Ninh","TP. Cẩm Phả, T. Quảng Ninh",Giữ khoảng trắng sau các dấu chấm viết tắt.
+84,mcocr_public_145013joykg.jpg,8,text,TIMESTAMP,12/08/2020 - 13:22,12/08/2020-13:22,Ngày và giờ có dấu nối trên ảnh.
+85,mcocr_public_145013jyghf.jpg,1,text,SELLER,MINIMART ANANAN,MINIMART ANAN,Tên cũ ANANAN thừa AN so với tên trên ảnh.
+85,mcocr_public_145013jyghf.jpg,4,text,TIMESTAMP,09/08/2020 - 16:30,09/08/2020-16:30,Dấu nối in liền ngày và giờ.
+86,mcocr_public_145013kgaqa.jpg,3,text,ADDRESS,"DA khu DCLB cọc 6,P.Cẩm Sơn","DA khu ĐCLB cọc 6, P. Cẩm Sơn","Khôi phục dấu Đ trong ĐCLB đọc được, giữ khoảng trắng."
+87,mcocr_public_145013kwckq.jpg,2,text,ADDRESS,Tổ 7 khu Tân Lập 4 - P. Cẩm Thủy,Tổ 7 khu Tân Lập 4 - P.Cẩm Thủy -,Giữ dấu nối cuối dòng trên ảnh.
+87,mcocr_public_145013kwckq.jpg,3,text,ADDRESS,Tp Cẩm Phả - Quảng Ninh,Tp.Cẩm Phả - Quảng Ninh,Ảnh có dấu chấm sau Tp.
+87,mcocr_public_145013kwckq.jpg,4,text,TIMESTAMP,13/08/2020 - 18:46,13 / 08 / 2020 - 18 : 46,Giữ dấu phân cách in trên phiếu.
+90,mcocr_public_145013laizk.jpg,3,text,ADDRESS,"DA khu DCLB cọc 6, P. Cẩm Sơn","DA khu ĐCLB cọc 6, P. Cẩm Sơn",Giữ dấu Đ trong ĐCLB đọc được trên ảnh.
+91,mcocr_public_145013lbslf.jpg,4,text,TIMESTAMP,16/08/2020 - 18:38,16/08/2020-18:36,"Phút in là 36, text cũ chép nhầm thành 38."
+93,mcocr_public_145013lkqkg.jpg,3,text,ADDRESS,"Tổ 7, khu Minh Tiến A","Tổ 7, Khu Minh Tiến A",Ảnh viết hoa Khu.
+96,mcocr_public_145013lrksq.jpg,2,text,TIMESTAMP,Date print: 31/1/2020,31/1/2020,Bỏ mô tả Date print khỏi giá trị ngày.
+96,mcocr_public_145013lrksq.jpg,1,remove_wrong_region,TOTAL_COST,Tổng tiền thanh toasn (Grand Total) CND,,Box cũ chứa mô tả Grand Total; thay bằng số tiền VND thực tế.
+96,mcocr_public_145013lrksq.jpg,,replace_value_region,TOTAL_COST,,"11,280,000","Tổng tiền VND là 11,280,000; không lấy số dư 0 hay giá trị quy đổi USD."
+97,mcocr_public_145013luuro.jpg,3,text,ADDRESS,"Số 38 Đường Trần Phú, P. Cẩm Tây","Số 86 Đường Trần Phú, P. Cẩm Tây","Số nhà đọc rõ 86, text cũ chép thành 38."
+97,mcocr_public_145013luuro.jpg,4,text,ADDRESS,"TP Cẩm Phả, T.Quảng Ninh","TP Cẩm Phả, T. Quảng Ninh.",Giữ dấu chấm cuối dòng và khoảng trắng sau T.
+98,mcocr_public_145013lxdbt.jpg,3,text,TOTAL_COST,"104,000d",104.000đ,"Ảnh in dấu chấm phân cách hàng nghìn, text cũ dùng dấu phẩy."
+99,mcocr_public_145013lxunp.jpg,2,text,ADDRESS,VM+QNH 10604062 Trần Phú,VM+ QNH 1060-1062 Trần Phú,Khôi phục dấu nối số nhà 1060-1062.
+99,mcocr_public_145013lxunp.jpg,3,text,ADDRESS,Số 10604062 Duong Trần Phú,Số 1060-1062 Đường Trần Phú,Khôi phục dấu nối số nhà và dấu Đ trong Đường.
+100,mcocr_public_145013mbytl.jpg,4,text,TIMESTAMP,12/08/2020 - 13:24,12/08/2020-13:24,Giữ dấu nối giữa ngày và giờ như ảnh.
+101,mcocr_public_145013mctzs.jpg,2,text,ADDRESS,"VM+ CNH Tổ 7, Khu Minh Tiến A","VM+ QNH Tổ 7, Khu Minh Tiến A","Tên địa bàn là QNH, không phải CNH."
+101,mcocr_public_145013mctzs.jpg,3,text,ADDRESS,Toor 7.Khu Minh Tiến A,"Tổ 7, Khu Minh Tiến A","Toor là lỗi gõ, ảnh đọc rõ Tổ; dùng dấu phẩy sau số 7."
+102,mcocr_public_145013msokr.jpg,43,text,TIMESTAMP,11/08/2020 - 17:57,11/08/2020-17:57,Dấu nối in liền ngày và giờ.
+103,mcocr_public_145013mwcaz.jpg,1,text,TIMESTAMP,NGÀY KINH DOANH : 09/08/2020,09/08/2020,Bỏ mô tả NGÀY KINH DOANH khỏi giá trị ngày.
+103,mcocr_public_145013mwcaz.jpg,2,remove_wrong_region,TOTAL_COST,Tổng thanh toán,,Báo cáo POS/ca: box mô tả Tổng thanh toán không phải giá trị TOTAL_COST.
+105,mcocr_public_145013nfkiq.jpg,1,text,SELLER,SCTC cổ THỎ 104 TRẦN PHÚ - CẨM,SCTC CÔ THỎ 104 TRẦN PHÚ - CẨM,Khôi phục chữ hoa CÔ và dấu hỏi trên THỎ đọc được.
+106,mcocr_public_145013niqeq.jpg,1,text,SELLER,Vincommerce,VinCommerce,Giữ chữ C viết hoa trên logo.
+106,mcocr_public_145013niqeq.jpg,2,text,ADDRESS,VM + QNH 590 Trần Phú,VM+ QNH 590 Trần Phú,VM+ được in liền.
+106,mcocr_public_145013niqeq.jpg,3,text,ADDRESS,"Số 590 Trần Phú, P.Cẩm Thuỷ","Số 590 Trần Phú, P. Cẩm Thủy",Giữ khoảng trắng sau P.
+106,mcocr_public_145013niqeq.jpg,5,text,TOTAL_COST,"60,500",60.502,"Số tiền đọc là 60.502, không phải 60,500."
+107,mcocr_public_145013nnlba.jpg,2,text,ADDRESS,VM+QNH Dự án KDC lấn biên cọc 6,VM+ QNH Dự án KDC lấn biển cọc 6,Giữ khoảng trắng sau VM+.
+107,mcocr_public_145013nnlba.jpg,3,text,ADDRESS,"DA khu DCLB cọc 6, P. Cẩm Sơn","DA khu ĐCLB cọc 6, P. Cẩm Sơn",Khôi phục chữ Đ đọc được.
+107,mcocr_public_145013nnlba.jpg,4,text,ADDRESS,"TP. Cẩm Phả, T.Quảng Ninh","TP. Cẩm Phả, T. Quảng Ninh",Giữ khoảng trắng sau T.
+108,mcocr_public_145013nsktd.jpg,4,text,ADDRESS,"P.Cẩm Sơn, TP. Cẩm Phả, T.QN","P. Cẩm Sơn, TP. Cẩm Phả, T. QN",Giữ khoảng trắng theo chữ in.
+109,mcocr_public_145013nsnnh.jpg,6,text,TIMESTAMP,/05/2020,12/05/2020,Khôi phục ngày 12 nhìn thấy trước /05/2020.
+109,mcocr_public_145013nsnnh.jpg,9,remove_wrong_region,TOTAL_COST,Tổng cộng:,,Bỏ box chỉ chứa chữ mô tả TÊN ĐẠI LÝ/NGÀY/GIỜ/TỔNG CỘNG; giữ giá trị tương ứng.
+109,mcocr_public_145013nsnnh.jpg,7,remove_wrong_region,TIMESTAMP,GIÁ:,,Bỏ box chỉ chứa chữ mô tả TÊN ĐẠI LÝ/NGÀY/GIỜ/TỔNG CỘNG; giữ giá trị tương ứng.
+109,mcocr_public_145013nsnnh.jpg,5,remove_wrong_region,TIMESTAMP,Nam,,Bỏ box chỉ chứa chữ mô tả TÊN ĐẠI LÝ/NGÀY/GIỜ/TỔNG CỘNG; giữ giá trị tương ứng.
+109,mcocr_public_145013nsnnh.jpg,1,remove_wrong_region,SELLER,TÊN ĐẠI LÝ:,,Bỏ box chỉ chứa chữ mô tả TÊN ĐẠI LÝ/NGÀY/GIỜ/TỔNG CỘNG; giữ giá trị tương ứng.
+110,mcocr_public_145013nvoah.jpg,3,text,TIMESTAMP,Ngày: 16/08/2020 - 09:39,16/08/2020-09:39,"Lấy giá trị ngày giờ, giữ dấu nối in liền."
+111,mcocr_public_145013nwksx.jpg,1,text,TIMESTAMP,Ngày: 09/08/2020-17,09/08/2020-17:,Bỏ Ngày; giữ phần giờ còn nhìn thấy trước mép giấy bị cắt.
+111,mcocr_public_145013nwksx.jpg,3,text,TOTAL_COST,93.500,"93,500",Giữ dấu phẩy phân cách số tiền in trên ảnh.
+111,mcocr_public_145013nwksx.jpg,2,remove_wrong_region,TOTAL_COST,Tổng công (đã gồm VAT),,"Box Tổng cộng là mô tả; giữ box số 93,500."
+112,mcocr_public_145013ohrly.jpg,1,text,SELLER,THE COFFEE HQUSE,THE COFFEE HOUSE,HOUSE bị gõ nhầm thành HQUSE.
+112,mcocr_public_145013ohrly.jpg,2,text,ADDRESS,"14B1 Ngô Tất Tổ, Q Bình Thanh","14B1 Ngô Tất Tố, Q.Bình Thạnh",Tất Tố bị chép sai thành Tổ; khôi phục dấu địa chỉ.
+113,mcocr_public_145013onyrj.jpg,2,text,ADDRESS,ĐC: 212 Đường Trần Phú - Cẩm Phả,ĐC: 212 Đường Trần Phú-Cẩm Phả,Giữ dấu nối liền như chữ in.
+114,mcocr_public_145013otehh.jpg,2,text,ADDRESS,Vin+ QNH Tổ 8. Khu 38 Cẩm Trung,VM+ QNH Tổ 8 Khu 3B Cẩm Trung,"Chữ đầu là VM+, cuối khu là B, không phải số 8."
+114,mcocr_public_145013otehh.jpg,3,text,ADDRESS,"Tổ 8, Khu 2B, P. Cẩm Tung","Tổ 8, Khu 3B, P. Cẩm Trung",Khu 3B bị chép thành 2B.
+114,mcocr_public_145013otehh.jpg,4,text,ADDRESS,"TP. Cẩm Phả, T.Quảng Ninh","TP. Cẩm Phả, T. Quảng Ninh",Giữ khoảng trắng sau T.
+115,mcocr_public_145013otqcx.jpg,12,text,TIMESTAMP,13/08/2020 01:42,13/08/2020-01:42,Khôi phục dấu nối giữa ngày và giờ.
+116,mcocr_public_145013ozjnr.jpg,4,text,TIMESTAMP,12/08/2020 - 16:22,12/08/2020-16:22,Dấu nối được in liền.
+117,mcocr_public_145013pbggg.jpg,2,text,ADDRESS,VM + QNH 1060-1062 Trần Phú,VM+ QNH 1060-1062 Trần Phú,VM+ được in liền.
+118,mcocr_public_145013pedoz.jpg,2,text,SELLER,5156 VINMART,5156-VINMART,Khôi phục dấu nối trong tên đại lý.
+118,mcocr_public_145013pedoz.jpg,3,text,ADDRESS,5156 TỔ 7 MINH TIẾN A,5156-TỔ 7 MINH TIẾN A,Khôi phục dấu nối và giữ chữ in hoa.
+118,mcocr_public_145013pedoz.jpg,4,text,ADDRESS,"CẨM BÌNH, CẨM PHẢ QN",CẨM BÌNH CẨM PHẢ QN,Ảnh không có dấu phẩy sau CẨM BÌNH.
+118,mcocr_public_145013pedoz.jpg,11,text,TOTAL_COST,"VMD1, 528, 279","VND1,528,279","Tiền tệ là VND, không phải VMD; dấu phẩy in liền số."
+118,mcocr_public_145013pedoz.jpg,10,remove_wrong_region,TOTAL_COST,3,,Bỏ box chữ mô tả và số lượng giao dịch gán nhầm TOTAL_COST; giữ giá trị tiền.
+118,mcocr_public_145013pedoz.jpg,9,remove_wrong_region,TOTAL_COST,TỔNG:,,Bỏ box chữ mô tả và số lượng giao dịch gán nhầm TOTAL_COST; giữ giá trị tiền.
+118,mcocr_public_145013pedoz.jpg,7,remove_wrong_region,TIMESTAMP,GIỜ:,,Bỏ box chữ mô tả và số lượng giao dịch gán nhầm TOTAL_COST; giữ giá trị tiền.
+118,mcocr_public_145013pedoz.jpg,5,remove_wrong_region,TIMESTAMP,NAM,,Bỏ box chữ mô tả và số lượng giao dịch gán nhầm TOTAL_COST; giữ giá trị tiền.
+118,mcocr_public_145013pedoz.jpg,1,remove_wrong_region,SELLER,TIỀN ĐẠI LÝ:,,Bỏ box chữ mô tả và số lượng giao dịch gán nhầm TOTAL_COST; giữ giá trị tiền.
+122,mcocr_public_145013puwmb.jpg,2,text,SELLER,VGH_VINMART_4939_VMQNH,VGR_VINMART_4939_VMQNH,"Mã đại lý in VGR, không phải VGH."
+122,mcocr_public_145013puwmb.jpg,11,text,TOTAL_COST,"VND 419,339","VND419,339",VND được in liền số tiền.
+122,mcocr_public_145013puwmb.jpg,10,remove_wrong_region,TOTAL_COST,TỔNG CỘNG,,Bỏ box chữ mô tả; giữ giá trị seller/address/ngày/giờ/tổng tiền.
+122,mcocr_public_145013puwmb.jpg,8,remove_wrong_region,TIMESTAMP,600đ,,Bỏ box chữ mô tả; giữ giá trị seller/address/ngày/giờ/tổng tiền.
+122,mcocr_public_145013puwmb.jpg,6,remove_wrong_region,TIMESTAMP,NGÀY,,Bỏ box chữ mô tả; giữ giá trị seller/address/ngày/giờ/tổng tiền.
+122,mcocr_public_145013puwmb.jpg,3,remove_wrong_region,ADDRESS,ĐỊA CHỈ ĐẠI LÝ:,,Bỏ box chữ mô tả; giữ giá trị seller/address/ngày/giờ/tổng tiền.
+122,mcocr_public_145013puwmb.jpg,1,remove_wrong_region,SELLER,TÊN ĐẠI LÝ,,Bỏ box chữ mô tả; giữ giá trị seller/address/ngày/giờ/tổng tiền.
+123,mcocr_public_145013qigez.jpg,28,text,TIMESTAMP,15/08/2020 07:53,15/08/2020-07:53,Khôi phục dấu nối giữa ngày và giờ.
+124,mcocr_public_145013qiyft.jpg,3,text,ADDRESS,"DA khu DCLB coc 6,P.Cẩm Sơn","DA khu ĐCLB cọc 6, P. Cẩm Sơn",Khôi phục chữ Đ và khoảng trắng đọc được.
+124,mcocr_public_145013qiyft.jpg,4,text,ADDRESS,"TP. Cẩm Phả, T.Quảng Ninh","TP. Cẩm Phả, T. Quảng Ninh",Giữ khoảng trắng sau các dấu chấm viết tắt.
+125,mcocr_public_145013qmuqc.jpg,2,text,ADDRESS,VM+QNH Tổ 8 Khu 38 Cẩm Trung,VM+ QNH Tổ 8 Khu 3B Cẩm Trung,Khu 3B bị chép thành 38.
+125,mcocr_public_145013qmuqc.jpg,4,text,ADDRESS,"TP. Cẩm Phả, T.Quảng Ninh","TP. Cẩm Phả, T. Quảng Ninh",Giữ khoảng trắng sau T.
+126,mcocr_public_145013qrpce.jpg,9,text,TOTAL_COST,549.885 D,549.885 Đ,Ảnh in chữ Đ sau số tiền.
+126,mcocr_public_145013qrpce.jpg,8,remove_wrong_region,TOTAL_COST,04 04,,Bỏ mô tả và số lượng giao dịch gán nhầm TOTAL_COST; giữ giá trị tiền.
+126,mcocr_public_145013qrpce.jpg,7,remove_wrong_region,TOTAL_COST,TAI QUAY,,Bỏ mô tả và số lượng giao dịch gán nhầm TOTAL_COST; giữ giá trị tiền.
+126,mcocr_public_145013qrpce.jpg,5,remove_wrong_region,TIMESTAMP,THỜI GIAN,,Bỏ mô tả và số lượng giao dịch gán nhầm TOTAL_COST; giữ giá trị tiền.
+126,mcocr_public_145013qrpce.jpg,3,remove_wrong_region,ADDRESS,Địa chỉ:,,Bỏ mô tả và số lượng giao dịch gán nhầm TOTAL_COST; giữ giá trị tiền.
+126,mcocr_public_145013qrpce.jpg,1,remove_wrong_region,SELLER,TÊN ĐẠI LÝ,,Bỏ mô tả và số lượng giao dịch gán nhầm TOTAL_COST; giữ giá trị tiền.
+128,mcocr_public_145013qwmeo.jpg,2,text,SELLER,VM + HNI 32 Láng Trung,VM+ HNI 32 Láng Trung,VM+ được in liền.
+128,mcocr_public_145013qwmeo.jpg,3,text,ADDRESS,"Số 32 ngõ Láng Trung, P.Láng Hạ","Số 32 ngõ Láng Trung, P. Láng Hạ",Khôi phục khoảng trắng sau P.
+129,mcocr_public_145013ramij.jpg,8,text,TIMESTAMP,10/08/2020 - 18:27,10/08/2020-18:27,Dấu nối in liền ngày giờ.
+131,mcocr_public_145013rfcrv.jpg,4,text,TIMESTAMP,16/08/2020 08:46,16/08/2020-08:46,Khôi phục dấu nối giữa ngày giờ.
+133,mcocr_public_145013rnpjm.jpg,4,text,ADDRESS,"TP.Cẩm Phả, Quảng Ninh","TP. Cẩm Phả, Quảng Ninh",Giữ khoảng trắng sau TP.
+134,mcocr_public_145013rqfec.jpg,2,text,ADDRESS,"VM+QNH Tổ 7, Khu Minh Tiến A","VM+ QNH Tổ 7, Khu Minh Tiến A",Giữ khoảng trắng sau VM+.
+134,mcocr_public_145013rqfec.jpg,3,text,ADDRESS,"Tổ 7, Khu Hình Tiến A","Tổ 7, Khu Minh Tiến A",Tên khu Minh bị gõ nhầm thành Hinh.
+135,mcocr_public_145013rrmow.jpg,4,text,TIMESTAMP,10-04/2020,10-08-2020,"Tháng in là 08, text cũ là 04."
+136,mcocr_public_145013rywqy.jpg,1,text,ADDRESS,Tổ 7 khu Tân Lập 4 - P.Cẩm Thủy,Tổ 7 khu Tân Lập 4 - P.Cẩm Thủy -,Giữ dấu nối cuối dòng.
+136,mcocr_public_145013rywqy.jpg,2,text,ADDRESS,Tp. Cẩm Phả - Quảng Ninh,Tp.Cẩm Phả - Quảng Ninh,Khôi phục dấu chấm sau Tp.
+136,mcocr_public_145013rywqy.jpg,3,text,TIMESTAMP,13/08/2020 - 20:16,13 / 08 / 2020 - 20 : 16,Giữ phân cách chữ in trên ảnh.
+136,mcocr_public_145013rywqy.jpg,4,remove_wrong_region,TOTAL_COST,Tổng cộng:,,"Tổng cộng là mô tả; giữ box số 10,000."
+137,mcocr_public_145013sagoy.jpg,4,text,TIMESTAMP,16/08/2020 - 19:35,16/08/2020-19:35,Dấu nối in liền ngày giờ.
+138,mcocr_public_145013satyz.jpg,2,text,ADDRESS,"VM QNH Tổ 7 , Khu Minh Tiến A","VM+ QNH Tổ 7, Khu Minh Tiến A",Text cũ thiếu dấu + sau VM.
+138,mcocr_public_145013satyz.jpg,4,text,ADDRESS,"P.Cẩm Bình, TP.Cẩm Phả, QNH","P. Cẩm Bình, TP. Cẩm Phả, QNH",Giữ khoảng trắng sau dấu chấm viết tắt.
+138,mcocr_public_145013satyz.jpg,5,text,TIMESTAMP,Ngày: 14/08/2020,14/08/2020,Bỏ mô tả Ngày khỏi giá trị.
+138,mcocr_public_145013satyz.jpg,6,text,TIMESTAMP,Thời gian: 17:09,17:09,Bỏ mô tả Thời gian khỏi giá trị.
+140,mcocr_public_145013sbvwi.jpg,2,text,ADDRESS,Tổ 7 khu Tân Lập 4 - P.Cẩm Thủy,Tổ 7 khu Tân Lập 4 - P.Cẩm Thủy -,Giữ dấu nối cuối dòng.
+140,mcocr_public_145013sbvwi.jpg,3,text,ADDRESS,Tp. Cẩm Phả - Quảng Ninh,Tp.Cẩm Phả - Quảng Ninh,Khôi phục dấu chấm sau Tp.
+140,mcocr_public_145013sbvwi.jpg,4,text,TIMESTAMP,13/08/2020 - 20 : 34,13 / 08 / 2020 - 20 : 34,Giữ phân cách in trên ảnh.
+140,mcocr_public_145013sbvwi.jpg,5,remove_wrong_region,TOTAL_COST,Tổng cộng:,,"Tổng cộng là mô tả; giữ box số 15,000."
+141,mcocr_public_145013scuxn.jpg,2,text,ADDRESS,VM + HNI 32 Láng Trung,VM+ HNI 32 Láng Trung,VM+ in liền.
+142,mcocr_public_145013seqfm.jpg,1,text,SELLER,THE COFFEE H9USE,THE COFFEE HOUSE,Chữ O bị chép nhầm thành số 9.
+142,mcocr_public_145013seqfm.jpg,3,text,TOTAL_COST,49000,49 000,Giữ khoảng trắng phân cách hàng nghìn.
+142,mcocr_public_145013seqfm.jpg,4,text,TIMESTAMP,02:10:2020 11.49,02.10.2020 11.49,"Ngày dùng dấu chấm, không phải dấu hai chấm."
+143,mcocr_public_145013shcxo.jpg,2,text,SELLER,VGH VINMART 4587 VMQNH,VGR_VINMART_4587_VMQNH,Khôi phục dấu gạch dưới và mã VGR đọc được.
+143,mcocr_public_145013shcxo.jpg,5,text,ADDRESS,CAM HÀ QUANG NINH,CAM PHA QUANG NINH,Ảnh in không dấu; chữ PHA bị chép thành HÁ.
+143,mcocr_public_145013shcxo.jpg,9,text,TIMESTAMP,10:20:20:49,10:20:49,Giờ bị lặp đoạn 20 trong text cũ.
+143,mcocr_public_145013shcxo.jpg,11,text,TOTAL_COST,UHD341.100,"VND341,100",Tiền tệ in là VND và số tiền dùng dấu phẩy.
+143,mcocr_public_145013shcxo.jpg,10,remove_wrong_region,TOTAL_COST,TỔNG CÔNG:,,Bỏ box chỉ chứa chữ mô tả; giữ các giá trị tương ứng.
+143,mcocr_public_145013shcxo.jpg,8,remove_wrong_region,TIMESTAMP,GIỜ,,Bỏ box chỉ chứa chữ mô tả; giữ các giá trị tương ứng.
+143,mcocr_public_145013shcxo.jpg,6,remove_wrong_region,TIMESTAMP,Nam,,Bỏ box chỉ chứa chữ mô tả; giữ các giá trị tương ứng.
+143,mcocr_public_145013shcxo.jpg,3,remove_wrong_region,ADDRESS,ĐỊA CHỈ ĐẠI LÝ:,,Bỏ box chỉ chứa chữ mô tả; giữ các giá trị tương ứng.
+143,mcocr_public_145013shcxo.jpg,1,remove_wrong_region,SELLER,TÊN ĐẠI LÝ,,Bỏ box chỉ chứa chữ mô tả; giữ các giá trị tương ứng.
+144,mcocr_public_145013shecj.jpg,2,text,ADDRESS,NHÀ - ONH 10504062 Trần Phú,VM+ QNH 1060-1062 Trần Phú,Khôi phục VM+ QNH và số nhà 1060-1062.
+144,mcocr_public_145013shecj.jpg,3,text,ADDRESS,Số 10604062 Đường Trần Phú,Số 1060-1062 Đường Trần Phú,Khôi phục dấu nối số nhà.
+144,mcocr_public_145013shecj.jpg,4,text,ADDRESS,"TP.Cẩm Phả, Quảng Ninh","TP. Cẩm Phả, Quảng Ninh",Giữ khoảng trắng sau TP.
+145,mcocr_public_145013snoxg.jpg,2,text,ADDRESS,"403 Phan Huy Ích, P.14, QGò Vấp","403 Phan Huy Ích, P.14, Q.Gò Vấp",Khôi phục dấu chấm sau Q.
+145,mcocr_public_145013snoxg.jpg,3,text,TOTAL_COST,38000,38 000,Giữ khoảng trắng phân cách tiền.
+146,mcocr_public_145013sommy.jpg,4,text,TIMESTAMP,16/08/2020 - 11:42,16/08/2020-11:42,Dấu nối in liền ngày giờ.
+147,mcocr_public_145013srvjw.jpg,2,text,ADDRESS,VM+QNH 1060-1062 Trần Phú,VM+ QNH 1060-1062 Trần Phú,Giữ khoảng trắng sau VM+.
+147,mcocr_public_145013srvjw.jpg,3,text,ADDRESS,Số 10604062 Đường Trần Phú,Số 1060-1062 Đường Trần Phú,Khôi phục dấu nối số nhà.
+148,mcocr_public_145013sscqf.jpg,4,text,TIMESTAMP,16/08/2020 - 18:13,16/08/2020-18:13,Dấu nối in liền ngày giờ.
+151,mcocr_public_145013tcvim.jpg,41,text,TIMESTAMP,12/08/2020 - 14:33,12/08/2020-14:33,Dấu nối in liền ngày giờ.
+151,mcocr_public_145013tcvim.jpg,3,remove_wrong_region,TOTAL_COST,Tổng cộng:,,"Box Tổng cộng là mô tả; giữ giá trị 562,000."
+152,mcocr_public_145013tifph.jpg,1,text,SELLER,saigon co.op co.op Food HN THE K-PARK,Saigon Co.op Co.op Food HN THE K-PARK,Khôi phục chữ hoa và dấu chấm in trong tên Co.op.
+152,mcocr_public_145013tifph.jpg,3,text,ADDRESS,"Tang 1, SH42 - Toa K3, Cong trinh chung cu","Tang 1,SH42 - Toa K3,Cong trinh chung cu",Giữ dấu phân cách và khoảng trắng đọc được trên ảnh.
+153,mcocr_public_145013tnlbk.jpg,3,text,ADDRESS,"VM+ QNH Tổ 7, khu Minh Tiến A","VM+ QNH Tổ 7, Khu Minh Tiến A",Ảnh viết hoa Khu.
+153,mcocr_public_145013tnlbk.jpg,5,text,ADDRESS,"Đ. Cẩm Bình, TP. Cẩm Phả, QNH","P. Cẩm Bình, TP. Cẩm Phả, QNH","Chữ đầu là P., text cũ chép thành Đ."
+154,mcocr_public_145013uexmk.jpg,8,remove_wrong_region,TOTAL_COST,02 02,,Bỏ mô tả và số lượng giao dịch gán nhầm TOTAL_COST; giữ giá trị tiền.
+154,mcocr_public_145013uexmk.jpg,7,remove_wrong_region,TOTAL_COST,TẠI QUẦY,,Bỏ mô tả và số lượng giao dịch gán nhầm TOTAL_COST; giữ giá trị tiền.
+154,mcocr_public_145013uexmk.jpg,5,remove_wrong_region,TIMESTAMP,THỜI GIAN,,Bỏ mô tả và số lượng giao dịch gán nhầm TOTAL_COST; giữ giá trị tiền.
+154,mcocr_public_145013uexmk.jpg,3,remove_wrong_region,ADDRESS,ĐỊA CHỈ,,Bỏ mô tả và số lượng giao dịch gán nhầm TOTAL_COST; giữ giá trị tiền.
+154,mcocr_public_145013uexmk.jpg,1,remove_wrong_region,SELLER,TÊN ĐẠI LÝ:,,Bỏ mô tả và số lượng giao dịch gán nhầm TOTAL_COST; giữ giá trị tiền.
+155,mcocr_public_145013unjxn.jpg,6,text,TIMESTAMP,10/05/2020,10/08/2020,"Tháng in là 08, text cũ là 05."
+158,mcocr_public_145013utfgs.jpg,2,text,ADDRESS,Tổ 7 khu Tân Lập 4 - P . Cẩm Thủy,Tổ 7 khu Tân Lập 4 - P.Cẩm Thủy -,Giữ dấu nối cuối dòng.
+158,mcocr_public_145013utfgs.jpg,3,text,TIMESTAMP,13/08/2020- 20 14,13 / 08 / 2020 - 20 : 14,"Khôi phục dấu hai chấm trong giờ, giữ phân cách in."
+158,mcocr_public_145013utfgs.jpg,4,text,ADDRESS,Tp Cẩm Phả - Quảng Ninh,Tp.Cẩm Phả - Quảng Ninh,Khôi phục dấu chấm sau Tp.
+158,mcocr_public_145013utfgs.jpg,5,remove_wrong_region,TOTAL_COST,Tổng cộng:,,"Box Tổng cộng là mô tả; giữ số tiền 70,000."
+159,mcocr_public_145013vbjnr.jpg,3,remove_wrong_region,TIMESTAMP,Ngày,,Text cũ không khớp vùng: seller là tên nhà sách; total/date phải lấy giá trị.
+159,mcocr_public_145013vbjnr.jpg,2,remove_wrong_region,TOTAL_COST,Phải thu khách hàng:,,Text cũ không khớp vùng: seller là tên nhà sách; total/date phải lấy giá trị.
+159,mcocr_public_145013vbjnr.jpg,1,remove_wrong_region,SELLER,Tax invoice will be issued within same day,,Text cũ không khớp vùng: seller là tên nhà sách; total/date phải lấy giá trị.
+159,mcocr_public_145013vbjnr.jpg,,replace_value_region,SELLER,,NHA SACH THANH NGHIA TP.HCM,Tên nhà sách đọc được; text cũ là câu tiếng Anh không có trên ảnh.
+159,mcocr_public_145013vbjnr.jpg,,replace_value_region,TOTAL_COST,,"24,000","Lấy tiền Phai thu khach hang, không lấy tiền khách trả hay trả lại."
+159,mcocr_public_145013vbjnr.jpg,,replace_value_region,TIMESTAMP,,20/12/2018,Lấy ngày in bên cạnh Ngay thay cho text chỉ có Ngày.
+159,mcocr_public_145013vbjnr.jpg,,replace_value_region,TIMESTAMP,,09:56:16,Giờ in rõ trong cùng dòng thời điểm hóa đơn.
+160,mcocr_public_145013vmzzn.jpg,2,text,ADDRESS,ĐC: 212 Đường Trần Phú - Cẩm Phả,ĐC: 212 Đường Trần Phú-Cẩm Phả,Giữ dấu nối liền trên ảnh.
+162,mcocr_public_145013vviou.jpg,3,text,ADDRESS,"Tổ 7, khu Minh Tiến A","Tổ 7, Khu Minh Tiến A",Giữ chữ hoa Khu.
+162,mcocr_public_145013vviou.jpg,4,text,ADDRESS,P Cẩm Bình. Tp. Cẩm Phả. QNH,"P. Cẩm Bình, TP. Cẩm Phả, QNH",Khôi phục các dấu chấm và phẩy theo ảnh.
+163,mcocr_public_145013wacye.jpg,1,text,SELLER,Laha Cafe,LahaCafé,Logo in liền LahaCafé và có dấu sắc trên é.
+163,mcocr_public_145013wacye.jpg,3,text,TIMESTAMP,09.10.2C20,09.10.2020,Số 0 của năm bị gõ thành chữ C.
+163,mcocr_public_145013wacye.jpg,2,remove_wrong_region,SELLER,JUST GOOP COFFEE,,"JUST GOOD COFFEE là khẩu hiệu, không phải tên seller; giữ LahaCafé."
+164,mcocr_public_145013wdcqs.jpg,1,text,SELLER,mart,beemart,Khôi phục phần bee còn đọc được trước mart.
+164,mcocr_public_145013wdcqs.jpg,4,text,TOTAL_COST,268000,"268,000",Khôi phục dấu phẩy phân cách tiền.
+165,mcocr_public_145013wgrej.jpg,3,text,ADDRESS,"Tang 1,SH42 - Toa K3, Cong trinh chung cu","Tang 1,SH42 - Toa K3,Cong trinh chung cu","Giữ dấu phân cách đọc được, không chuẩn hóa thành dấu khác."
+166,mcocr_public_145013wjnhn.jpg,3,text,TIMESTAMP,10/08/2020 - 11:,10/08/2020-11:,"Dấu nối in liền; phần phút bị cắt khỏi giấy, không suy đoán."
+167,mcocr_public_145013wokiq.jpg,3,text,ADDRESS,"Tang 1, SH 42 Toa K3 cong trinh chung cu","Tang 1,SH42 - Toa K3,Cong trinh chung cu",Khôi phục dấu phẩy và dấu nối trên ảnh.
+167,mcocr_public_145013wokiq.jpg,7,text,ADDRESS,"tai khu do thi moi Van Phu,","tai Khu do thi moi Van Phu,",Giữ chữ hoa Khu.
+168,mcocr_public_145013wrunk.jpg,2,text,ADDRESS,"Tổ 7, khu Minh Tiến A","Tổ 7, Khu Minh Tiến A",Giữ chữ hoa Khu.
+168,mcocr_public_145013wrunk.jpg,3,text,ADDRESS,P. Cẩm Bình. TP. Cẩm Phả. QNH,"P. Cẩm Bình, TP. Cẩm Phả, QNH",Khôi phục dấu phẩy và chữ hoa TP.
+168,mcocr_public_145013wrunk.jpg,4,text,ADDRESS,"VM+ QNH Tổ 7,Khu Minh Tiến A","VM+ QNH Tổ 7, Khu Minh Tiến A",Khôi phục khoảng trắng và chữ hoa Khu.
+169,mcocr_public_145013xafsi.jpg,2,text,ADDRESS,VM : QNH Dự án KDC lấn biển cọc 6,VM+ QNH Dự án KDC lấn biển cọc 6,Text cũ dùng dấu hai chấm thay cho +.
+169,mcocr_public_145013xafsi.jpg,3,text,ADDRESS,"DA khu DCLB cọc 6, P.Cẩm Sơn","DA khu ĐCLB cọc 6, P. Cẩm Sơn",Khôi phục Đ và khoảng trắng đọc được.
+169,mcocr_public_145013xafsi.jpg,4,text,ADDRESS,"TP . Cẩm Phả, T. Quảng Ninh","TP. Cẩm Phả, T. Quảng Ninh",Dấu chấm in liền TP.
+169,mcocr_public_145013xafsi.jpg,5,text,TIMESTAMP,Ngày : 14/08/2020,14/08/2020,Bỏ mô tả Ngày khỏi giá trị.
+169,mcocr_public_145013xafsi.jpg,6,text,TIMESTAMP,Thời gian: 21:37,21:37,Bỏ mô tả Thời gian khỏi giá trị.
+170,mcocr_public_145013xaojq.jpg,2,text,ADDRESS,ĐC: 212 Đường Trần Phú - Cẩm Phả,ĐC: 212 Đường Trần Phú-Cẩm Phả,Dấu nối được in liền.
+171,mcocr_public_145013xczvp.jpg,2,text,TOTAL_COST,124.000,"124,000","Tiền dùng dấu phẩy, không phải dấu chấm."
+171,mcocr_public_145013xczvp.jpg,3,text,TIMESTAMP,15/08/2020 - 16:53,15/08/2020-16:53,Dấu nối in liền ngày giờ.
+172,mcocr_public_145013xyaln.jpg,2,text,ADDRESS,VM+QNH Dự án KDC lấn biển cọc 6,VM+ QNH Dự án KDC lấn biển cọc 6,Giữ khoảng trắng sau VM+.
+172,mcocr_public_145013xyaln.jpg,3,text,ADDRESS,"DA khu DCLB coc 6,P.Cẩm Sơn","DA khu ĐCLB cọc 6, P. Cẩm Sơn",Khôi phục Đ và khoảng trắng đọc được.
+172,mcocr_public_145013xyaln.jpg,4,text,ADDRESS,"TP. Cẩm Phả, T.Quảng Ninh","TP. Cẩm Phả, T. Quảng Ninh",Giữ khoảng trắng sau T.
+173,mcocr_public_145013ycbtn.jpg,3,text,ADDRESS,Số 86 Đường Trần Phú P. Cẩm Tây,"Số 86 Đường Trần Phú, P. Cẩm Tây",Khôi phục dấu phẩy trước P.
+173,mcocr_public_145013ycbtn.jpg,4,text,ADDRESS,"TP Cẩm Phả, T.Quảng Ninh","TP Cẩm Phả, T. Quảng Ninh.",Giữ khoảng trắng và dấu chấm cuối dòng.
+174,mcocr_public_145013yewns.jpg,2,text,ADDRESS,VM+QNH Tổ 8 Khu 3B Cẩm Trung,VM+ QNH Tổ 8 Khu 3B Cẩm Trung,Giữ khoảng trắng sau VM+.
+176,mcocr_public_145013ykdsv.jpg,1,text,SELLER,SCTC CÔ THỒ 104 TRẦN PHÚ - CẨM,SCTC CÔ THỎ 104 TRẦN PHÚ - CẨM,"Dấu trên THỎ là dấu hỏi, không phải huyền."
+178,mcocr_public_145013ywtjf.jpg,20,text,TIMESTAMP,16/08/2020 - 16:47,16/08/2020-16:47,Dấu nối in liền ngày giờ.
+180,mcocr_public_145013zhiwi.jpg,1,text,SELLER,PHÚC LONG,PHUC LONG,"Logo in không dấu, giữ đúng chữ trên ảnh."
+180,mcocr_public_145013zhiwi.jpg,3,text,ADDRESS,"42 TRAN CAO VAN, P.6 Q.3, Tp. HCM","42 TRAN CAO VAN, P. 6 Q. 3, Tp. HCM",Giữ khoảng trắng và dấu phân cách theo chữ in.
+181,mcocr_public_145013zpqsi.jpg,2,text,ADDRESS,"VM+QNH Tổ 7, Khu Minh Tiến A","VM+ QNH Tổ 7, Khu Minh Tiến A",Giữ khoảng trắng sau VM+.
+181,mcocr_public_145013zpqsi.jpg,3,text,ADDRESS,Tổ 7. Khu Minh Tiến A,"Tổ 7, Khu Minh Tiến A",Text cũ dùng dấu chấm thay dấu phẩy sau 7.
+182,mcocr_public_145013zrrly.jpg,3,text,ADDRESS,"Số 483, Tổ 8, Khu Diêm Thuỷ","Số 483, Tổ 86, Khu Diêm Thủy","Tổ là 86, text cũ thiếu số 6."
+183,mcocr_public_145014acbrl.jpg,4,text,TIMESTAMP,13/08/2020 - 16:51,13/08/2020-16:51,Dấu nối in liền ngày giờ.
+184,mcocr_public_145014aclha.jpg,4,text,TIMESTAMP,11/08/2020 - 15:40,11/08/2020-15:40,Dấu nối in liền ngày giờ.
+185,mcocr_public_145014aglyp.jpg,12,text,TIMESTAMP,17/08/2020 - 17:22,17/08/2020-17:22,Dấu nối in liền ngày giờ.
+186,mcocr_public_145014ahsfe.jpg,5,text,TIMESTAMP,Ngày: 09/08/2020,09/08/2020,Bỏ mô tả Ngày khỏi giá trị.
+186,mcocr_public_145014ahsfe.jpg,6,text,TIMESTAMP,Thời gian: 20:08,20:08,Bỏ mô tả Thời gian khỏi giá trị.
+187,mcocr_public_145014aixgf.jpg,2,text,ADDRESS,ĐC: 212 Đường Trần Phú - Cẩm Phả,ĐC: 212 Đường Trần Phú-Cẩm Phả,Dấu nối in liền địa chỉ.
+189,mcocr_public_145014ajgqu.jpg,2,text,ADDRESS,Tổ 7 khu Tân Lập 4 - P.Cẩm Thủy,Tổ 7 khu Tân Lập 4 - P.Cẩm Thủy -,Giữ dấu nối cuối dòng.
+189,mcocr_public_145014ajgqu.jpg,4,text,TOTAL_COST,84.000,"84,000","Tiền in dấu phẩy, không phải dấu chấm."
+189,mcocr_public_145014ajgqu.jpg,13,text,TIMESTAMP,11/08/2020 - 22 : 08,11 / 08 / 2020 - 22 : 08,Giữ phân cách in trên ảnh.
+190,mcocr_public_145014ansoe.jpg,16,text,TIMESTAMP,17/08/2020 - 15:37,17/08/2020-15:37,Dấu nối in liền ngày giờ.
+191,mcocr_public_145014apodg.jpg,2,text,ADDRESS,VM+QNH Dự án KDC lấn biển cọc 6,VM+ QNH Dự án KDC lấn biển cọc 6,Giữ khoảng trắng sau VM+.
+191,mcocr_public_145014apodg.jpg,3,text,ADDRESS,"DA khu DCLB coc 6,P.Cẩm Sơn","DA khu ĐCLB cọc 6, P. Cẩm Sơn",Khôi phục Đ và khoảng trắng đọc được.
+191,mcocr_public_145014apodg.jpg,4,text,ADDRESS,"TP. Cẩm Phả, T.Quảng Ninh","TP. Cẩm Phả, T. Quảng Ninh",Giữ khoảng trắng sau T.
+192,mcocr_public_145014aprcw.jpg,1,text,TIMESTAMP,NGÀY HỆ THỐNG: 13/08/2020 12:20,13/08/2020 12:20,Bỏ mô tả NGÀY HỆ THỐNG khỏi giá trị.
+192,mcocr_public_145014aprcw.jpg,2,remove_wrong_region,TOTAL_COST,Tổng Tiến,,Bỏ box mô tả Tổng Tiền; giữ giá trị tiền đã gán.
+194,mcocr_public_145014avkgm.jpg,2,text,ADDRESS,Chợ sửi Phú Thị Gia Lâm,Chợ Sủi Phú Thị Gia Lâm,Ảnh viết hoa Sủi.
+194,mcocr_public_145014avkgm.jpg,12,text,TOTAL_COST,15/08/2020 09:05,15/08/2020-09:05,Khôi phục dấu nối giữa ngày giờ.
+194,mcocr_public_145014avkgm.jpg,12,category,TIMESTAMP,TOTAL_COST,TIMESTAMP,"Box ngày giờ bị gán TOTAL_COST; đổi sang TIMESTAMP, giữ nguyên tọa độ."
+195,mcocr_public_145014avuac.jpg,3,text,ADDRESS,"Số 483, Tổ 8, Khu Diêm Thủy","Số 483, Tổ 86, Khu Diêm Thủy","Tổ là 86, text cũ thiếu số 6."
+196,mcocr_public_145014awmql.jpg,3,text,TIMESTAMP,Thời gian: 08:42:33 - 14/08/2020,08:42:33 - 14/08/2020,Bỏ mô tả Thời gian khỏi giá trị.
+197,mcocr_public_145014awxdd.jpg,4,text,ADDRESS,"tai khu do thi moi Van Phu,","tai Khu do thi moi Van Phu,",Giữ chữ hoa Khu.
+197,mcocr_public_145014awxdd.jpg,5,text,ADDRESS,"tang 1,SH42 - Toa K3,Cong trinh chung cu","Tang 1,SH42 - Toa K3,Cong trinh chung cu",Giữ chữ hoa Tang và dấu phân cách đọc được.
+197,mcocr_public_145014awxdd.jpg,6,text,ADDRESS,ket hop dich vu tren o dat H-C12 thuoc,ket hop dich vu tren o dat H-CT2 thuoc,Mã ô đất H-CT2 bị chép thành H-C12.
+199,mcocr_public_145014bdeah.jpg,2,text,ADDRESS,Tòa nhà C1 - KTX Khu B - PHOG TP.HCM,Tòa nhà C1 - KTX Khu B - ĐHQG TP.HCM,ĐHQG bị chép nhầm thành PHOG.
+200,mcocr_public_145014beisj.jpg,2,text,SELLER,satrafoods Nguyễn Văn Quá 2,Satrafoods Nguyễn Văn Quá 2,Giữ chữ S viết hoa trên ảnh.
+200,mcocr_public_145014beisj.jpg,3,text,ADDRESS,"73/1 KP2 Đường Nguyễn Văn Qua,P.Đông Hưn","73/1 KP2 Đường Nguyễn Văn Qua,P.Đông Hun","Địa chỉ in Qua không dấu sắc, giữ phần cuối nhìn thấy."

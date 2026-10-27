@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "reviewed_images": 13,
+  "unchanged_other_csv_rows": 546,
+  "protected_files_byte_identical": 161,
+  "completion_flag_rotation_equal_to_initial_snapshot": true,
+  "completed_images": 498,
+  "flagged_images": 48,
+  "reviewed_images_left_uncompleted": 13,
+  "total_reviewed_regions": 180
+}

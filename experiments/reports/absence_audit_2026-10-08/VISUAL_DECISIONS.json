@@ -1,0 +1,778 @@
+[
+  {
+    "card": 1,
+    "member": "member_1",
+    "split": "train",
+    "position": 82,
+    "img_id": "mcocr_public_145013jiksh.jpg",
+    "absent": [],
+    "present": [
+      "TOTAL_COST"
+    ],
+    "note": "Tổng tiền 243.400 có trên ảnh; box tổng tiền bị gán LINE_TOTAL:1."
+  },
+  {
+    "card": 2,
+    "member": "member_1",
+    "split": "train",
+    "position": 238,
+    "img_id": "mcocr_public_145014eamas.jpg",
+    "absent": [
+      "TIMESTAMP"
+    ],
+    "note": "Đã xem crop ảnh gốc: sau Ngày: để trống, không có giá trị ngày/giờ được in."
+  },
+  {
+    "card": 3,
+    "member": "member_1",
+    "split": "train",
+    "position": 315,
+    "img_id": "mcocr_public_145014jcwux.jpg",
+    "absent": [],
+    "present": [
+      "ADDRESS"
+    ],
+    "note": "Địa chỉ 104 Trần Phú - phường Cẩm Tây - Thành phố Cẩm Phả - Quảng Ninh có in, thiếu bbox."
+  },
+  {
+    "card": 4,
+    "member": "member_2",
+    "split": "train",
+    "position": 3,
+    "img_id": "mcocr_public_145013aeriv.jpg",
+    "absent": [
+      "TIMESTAMP"
+    ],
+    "present": [],
+    "unreadable": [],
+    "note": "Đã đối chiếu ảnh: giá trị trường không có trong vùng ảnh."
+  },
+  {
+    "card": 5,
+    "member": "member_2",
+    "split": "train",
+    "position": 15,
+    "img_id": "mcocr_public_145013bybgv.jpg",
+    "absent": [
+      "ITEM_NAME:1",
+      "LINE_TOTAL:1",
+      "QUANTITY:1",
+      "TOTAL_COST",
+      "UNIT_PRICE:1"
+    ],
+    "present": [],
+    "unreadable": [],
+    "note": "Phiếu giao dịch treo không có mặt hàng và tổng tiền; khai báo bốn trường dòng1."
+  },
+  {
+    "card": 6,
+    "member": "member_2",
+    "split": "train",
+    "position": 17,
+    "img_id": "mcocr_public_145013cezfv.jpg",
+    "absent": [
+      "ADDRESS",
+      "TOTAL_COST"
+    ],
+    "present": [],
+    "unreadable": [],
+    "note": "Đã đối chiếu ảnh: giá trị trường không có trong vùng ảnh."
+  },
+  {
+    "card": 7,
+    "member": "member_2",
+    "split": "train",
+    "position": 21,
+    "img_id": "mcocr_public_145013clltn.jpg",
+    "absent": [
+      "TIMESTAMP"
+    ],
+    "present": [],
+    "unreadable": [],
+    "note": "Chỉ có chữ Ngày: ở cuối phiếu, không có giá trị ngày/giờ được in."
+  },
+  {
+    "card": 8,
+    "member": "member_2",
+    "split": "train",
+    "position": 23,
+    "img_id": "mcocr_public_145013cnknh.jpg",
+    "absent": [
+      "TIMESTAMP"
+    ],
+    "present": [],
+    "unreadable": [],
+    "note": "Chỉ có chữ Ngày: ở cuối phiếu, không có giá trị ngày/giờ được in."
+  },
+  {
+    "card": 9,
+    "member": "member_2",
+    "split": "train",
+    "position": 30,
+    "img_id": "mcocr_public_145013cxtop.jpg",
+    "absent": [
+      "ADDRESS"
+    ],
+    "present": [],
+    "unreadable": [],
+    "note": "Đã đối chiếu ảnh: giá trị trường không có trong vùng ảnh."
+  },
+  {
+    "card": 10,
+    "member": "member_2",
+    "split": "train",
+    "position": 39,
+    "img_id": "mcocr_public_145013dxavh.jpg",
+    "absent": [
+      "ITEM_NAME:1",
+      "LINE_TOTAL:1",
+      "QUANTITY:1",
+      "TOTAL_COST",
+      "UNIT_PRICE:1"
+    ],
+    "present": [],
+    "unreadable": [],
+    "note": "Phiếu giao dịch treo không có mặt hàng và tổng tiền; khai báo bốn trường dòng1."
+  },
+  {
+    "card": 11,
+    "member": "member_2",
+    "split": "train",
+    "position": 46,
+    "img_id": "mcocr_public_145013eicdg.jpg",
+    "absent": [
+      "TIMESTAMP"
+    ],
+    "present": [],
+    "unreadable": [],
+    "note": "Đã đối chiếu ảnh: giá trị trường không có trong vùng ảnh."
+  },
+  {
+    "card": 12,
+    "member": "member_2",
+    "split": "train",
+    "position": 55,
+    "img_id": "mcocr_public_145013fskld.jpg",
+    "absent": [
+      "UNIT_PRICE:1",
+      "UNIT_PRICE:2",
+      "UNIT_PRICE:3"
+    ],
+    "present": [],
+    "unreadable": [],
+    "note": "Đã đối chiếu ảnh: giá trị trường không có trong vùng ảnh."
+  },
+  {
+    "card": 13,
+    "member": "member_2",
+    "split": "train",
+    "position": 57,
+    "img_id": "mcocr_public_145013geohx.jpg",
+    "absent": [
+      "QUANTITY:10",
+      "UNIT_PRICE:10"
+    ],
+    "present": [
+      "ITEM_NAME:10",
+      "LINE_TOTAL:4",
+      "LINE_TOTAL:7"
+    ],
+    "note": "Dòng KM không có SL/đơn giá; tên KM bị thiếu nhãn. Box thành tiền nhóm4/7 bị gán UNIT_PRICE."
+  },
+  {
+    "card": 14,
+    "member": "member_2",
+    "split": "train",
+    "position": 59,
+    "img_id": "mcocr_public_145013gguch.jpg",
+    "absent": [
+      "QUANTITY:2",
+      "UNIT_PRICE:2"
+    ],
+    "present": [],
+    "unreadable": [],
+    "note": "Đã đối chiếu ảnh: giá trị trường không có trong vùng ảnh."
+  },
+  {
+    "card": 15,
+    "member": "member_2",
+    "split": "train",
+    "position": 69,
+    "img_id": "mcocr_public_145013idjei.jpg",
+    "absent": [],
+    "present": [
+      "QUANTITY:4"
+    ],
+    "note": "Số lượng Ngòi chì 7004 có in; bbox bị gán nhầm line_item_id=3."
+  },
+  {
+    "card": 16,
+    "member": "member_2",
+    "split": "train",
+    "position": 112,
+    "img_id": "mcocr_public_145013ogxhv.jpg",
+    "absent": [
+      "ADDRESS"
+    ],
+    "present": [],
+    "unreadable": [],
+    "note": "Không in địa chỉ bưu chính; Quầy HN_251 Nguyễn Trãi 1 là mã quầy/chi nhánh."
+  },
+  {
+    "card": 17,
+    "member": "member_2",
+    "split": "train",
+    "position": 121,
+    "img_id": "mcocr_public_145013qikxs.jpg",
+    "absent": [
+      "UNIT_PRICE:1"
+    ],
+    "present": [],
+    "unreadable": [],
+    "note": "Đã đối chiếu ảnh: giá trị trường không có trong vùng ảnh."
+  },
+  {
+    "card": 18,
+    "member": "member_2",
+    "split": "train",
+    "position": 136,
+    "img_id": "mcocr_public_145013sqwxo.jpg",
+    "absent": [
+      "ITEM_NAME:1",
+      "LINE_TOTAL:1",
+      "QUANTITY:1",
+      "TOTAL_COST",
+      "UNIT_PRICE:1"
+    ],
+    "present": [],
+    "unreadable": [],
+    "note": "Phiếu giao dịch treo không có mặt hàng và tổng tiền; khai báo bốn trường dòng1."
+  },
+  {
+    "card": 19,
+    "member": "member_2",
+    "split": "train",
+    "position": 140,
+    "img_id": "mcocr_public_145013tljfn.jpg",
+    "absent": [
+      "ITEM_NAME:1",
+      "LINE_TOTAL:1",
+      "QUANTITY:1",
+      "TOTAL_COST",
+      "UNIT_PRICE:1"
+    ],
+    "present": [],
+    "unreadable": [],
+    "note": "Phiếu giao dịch treo không có mặt hàng và tổng tiền; khai báo bốn trường dòng1."
+  },
+  {
+    "card": 20,
+    "member": "member_2",
+    "split": "train",
+    "position": 166,
+    "img_id": "mcocr_public_145013wwkrv.jpg",
+    "absent": [
+      "ITEM_NAME:1",
+      "LINE_TOTAL:1",
+      "QUANTITY:1",
+      "TOTAL_COST",
+      "UNIT_PRICE:1"
+    ],
+    "present": [],
+    "unreadable": [],
+    "note": "Phiếu giao dịch treo không có mặt hàng và tổng tiền; khai báo bốn trường dòng1."
+  },
+  {
+    "card": 21,
+    "member": "member_2",
+    "split": "train",
+    "position": 176,
+    "img_id": "mcocr_public_145013zcfau.jpg",
+    "absent": [
+      "ITEM_NAME:1",
+      "LINE_TOTAL:1",
+      "QUANTITY:1",
+      "TOTAL_COST",
+      "UNIT_PRICE:1"
+    ],
+    "present": [],
+    "unreadable": [],
+    "note": "Phiếu giao dịch treo không có mặt hàng và tổng tiền; khai báo bốn trường dòng1."
+  },
+  {
+    "card": 22,
+    "member": "member_2",
+    "split": "train",
+    "position": 189,
+    "img_id": "mcocr_public_145014aqymg.jpg",
+    "absent": [
+      "TIMESTAMP"
+    ],
+    "present": [],
+    "unreadable": [],
+    "note": "Đã đối chiếu ảnh: giá trị trường không có trong vùng ảnh."
+  },
+  {
+    "card": 23,
+    "member": "member_2",
+    "split": "train",
+    "position": 195,
+    "img_id": "mcocr_public_145014ayyud.jpg",
+    "absent": [
+      "QUANTITY:1",
+      "UNIT_PRICE:1"
+    ],
+    "present": [],
+    "unreadable": [],
+    "note": "Đã đối chiếu ảnh: giá trị trường không có trong vùng ảnh."
+  },
+  {
+    "card": 24,
+    "member": "member_2",
+    "split": "train",
+    "position": 205,
+    "img_id": "mcocr_public_145014bwelu.jpg",
+    "absent": [
+      "QUANTITY:3",
+      "UNIT_PRICE:3"
+    ],
+    "present": [],
+    "unreadable": [],
+    "note": "Đã đối chiếu ảnh: giá trị trường không có trong vùng ảnh."
+  },
+  {
+    "card": 25,
+    "member": "member_2",
+    "split": "train",
+    "position": 207,
+    "img_id": "mcocr_public_145014cfgjy.jpg",
+    "absent": [
+      "QUANTITY:2",
+      "UNIT_PRICE:2"
+    ],
+    "present": [],
+    "unreadable": [],
+    "note": "Đã đối chiếu ảnh: giá trị trường không có trong vùng ảnh."
+  },
+  {
+    "card": 26,
+    "member": "member_2",
+    "split": "train",
+    "position": 210,
+    "img_id": "mcocr_public_145014ckynq.jpg",
+    "absent": [],
+    "present": [
+      "TIMESTAMP"
+    ],
+    "note": "Có in ngày 10/08/2020-09: ở cuối, giờ bị cắt phần sau."
+  },
+  {
+    "card": 27,
+    "member": "member_2",
+    "split": "train",
+    "position": 219,
+    "img_id": "mcocr_public_145014cuqln.jpg",
+    "absent": [
+      "ITEM_NAME:1",
+      "LINE_TOTAL:1",
+      "QUANTITY:1",
+      "TOTAL_COST",
+      "UNIT_PRICE:1"
+    ],
+    "present": [],
+    "unreadable": [],
+    "note": "Phiếu giao dịch treo không có mặt hàng và tổng tiền; khai báo bốn trường dòng1."
+  },
+  {
+    "card": 28,
+    "member": "member_2",
+    "split": "train",
+    "position": 254,
+    "img_id": "mcocr_public_145014etxsp.jpg",
+    "absent": [
+      "ITEM_NAME:1",
+      "LINE_TOTAL:1",
+      "QUANTITY:1",
+      "TOTAL_COST",
+      "UNIT_PRICE:1"
+    ],
+    "present": [],
+    "unreadable": [],
+    "note": "Phiếu giao dịch treo không có mặt hàng và tổng tiền; khai báo bốn trường dòng1."
+  },
+  {
+    "card": 29,
+    "member": "member_2",
+    "split": "train",
+    "position": 271,
+    "img_id": "mcocr_public_145014fvwak.jpg",
+    "absent": [],
+    "unreadable": [
+      "UNIT_PRICE:6",
+      "LINE_TOTAL:6"
+    ],
+    "note": "Đơn giá/thành tiền mặt hàng6 bị nếp gấp che, không phải không xuất hiện. Không suy ra từ tổng tiền."
+  },
+  {
+    "card": 30,
+    "member": "member_2",
+    "split": "train",
+    "position": 279,
+    "img_id": "mcocr_public_145014gkduf.jpg",
+    "absent": [
+      "QUANTITY:2",
+      "UNIT_PRICE:2"
+    ],
+    "present": [],
+    "unreadable": [],
+    "note": "Đã đối chiếu ảnh: giá trị trường không có trong vùng ảnh."
+  },
+  {
+    "card": 31,
+    "member": "member_2",
+    "split": "train",
+    "position": 320,
+    "img_id": "mcocr_public_145014jkegi.jpg",
+    "absent": [
+      "ITEM_NAME:1",
+      "LINE_TOTAL:1",
+      "QUANTITY:1",
+      "TOTAL_COST",
+      "UNIT_PRICE:1"
+    ],
+    "present": [],
+    "unreadable": [],
+    "note": "Phiếu giao dịch treo không có mặt hàng và tổng tiền; khai báo bốn trường dòng1."
+  },
+  {
+    "card": 32,
+    "member": "member_2",
+    "split": "train",
+    "position": 326,
+    "img_id": "mcocr_public_145014kbcho.jpg",
+    "absent": [
+      "ITEM_NAME:1",
+      "LINE_TOTAL:1",
+      "QUANTITY:1",
+      "TOTAL_COST",
+      "UNIT_PRICE:1"
+    ],
+    "present": [],
+    "unreadable": [],
+    "note": "Phiếu giao dịch treo không có mặt hàng và tổng tiền; khai báo bốn trường dòng1."
+  },
+  {
+    "card": 33,
+    "member": "member_2",
+    "split": "train",
+    "position": 342,
+    "img_id": "mcocr_public_145014lfctk.jpg",
+    "absent": [
+      "ITEM_NAME:1",
+      "LINE_TOTAL:1",
+      "QUANTITY:1",
+      "TOTAL_COST",
+      "UNIT_PRICE:1"
+    ],
+    "present": [],
+    "unreadable": [],
+    "note": "Phiếu giao dịch treo không có mặt hàng và tổng tiền; khai báo bốn trường dòng1."
+  },
+  {
+    "card": 34,
+    "member": "member_2",
+    "split": "train",
+    "position": 349,
+    "img_id": "mcocr_public_145014lqokm.jpg",
+    "absent": [
+      "ITEM_NAME:1",
+      "LINE_TOTAL:1",
+      "QUANTITY:1",
+      "TOTAL_COST",
+      "UNIT_PRICE:1"
+    ],
+    "present": [],
+    "unreadable": [],
+    "note": "Phiếu giao dịch treo không có mặt hàng và tổng tiền; khai báo bốn trường dòng1."
+  },
+  {
+    "card": 35,
+    "member": "member_2",
+    "split": "train",
+    "position": 370,
+    "img_id": "mcocr_public_145014mpsud.jpg",
+    "absent": [
+      "ITEM_NAME:1",
+      "LINE_TOTAL:1",
+      "QUANTITY:1",
+      "TOTAL_COST",
+      "UNIT_PRICE:1"
+    ],
+    "present": [],
+    "unreadable": [],
+    "note": "Phiếu giao dịch treo không có mặt hàng và tổng tiền; khai báo bốn trường dòng1."
+  },
+  {
+    "card": 36,
+    "member": "member_2",
+    "split": "train",
+    "position": 377,
+    "img_id": "mcocr_public_145014ngihg.jpg",
+    "absent": [
+      "QUANTITY:4",
+      "UNIT_PRICE:4",
+      "QUANTITY:6",
+      "UNIT_PRICE:6"
+    ],
+    "present": [
+      "ITEM_NAME:4",
+      "ITEM_NAME:6"
+    ],
+    "note": "Hai dòng KM có tên nhưng thiếu bbox, không in SL và đơn giá."
+  },
+  {
+    "card": 37,
+    "member": "member_2",
+    "split": "train",
+    "position": 386,
+    "img_id": "mcocr_public_145014nsqiz.jpg",
+    "absent": [
+      "ITEM_NAME:1",
+      "LINE_TOTAL:1",
+      "QUANTITY:1",
+      "TOTAL_COST",
+      "UNIT_PRICE:1"
+    ],
+    "present": [],
+    "unreadable": [],
+    "note": "Phiếu giao dịch treo không có mặt hàng và tổng tiền; khai báo bốn trường dòng1."
+  },
+  {
+    "card": 38,
+    "member": "member_2",
+    "split": "train",
+    "position": 389,
+    "img_id": "mcocr_public_145014nwpjb.jpg",
+    "absent": [
+      "TIMESTAMP"
+    ],
+    "present": [],
+    "unreadable": [],
+    "note": "Đã đối chiếu ảnh: giá trị trường không có trong vùng ảnh."
+  },
+  {
+    "card": 39,
+    "member": "member_2",
+    "split": "train",
+    "position": 443,
+    "img_id": "mcocr_public_145014rqund.jpg",
+    "absent": [
+      "TIMESTAMP"
+    ],
+    "present": [],
+    "unreadable": [],
+    "note": "Đã đối chiếu ảnh: giá trị trường không có trong vùng ảnh."
+  },
+  {
+    "card": 40,
+    "member": "member_2",
+    "split": "train",
+    "position": 460,
+    "img_id": "mcocr_public_145014sncle.jpg",
+    "absent": [
+      "UNIT_PRICE:1"
+    ],
+    "present": [],
+    "unreadable": [],
+    "note": "Đã đối chiếu ảnh: giá trị trường không có trong vùng ảnh."
+  },
+  {
+    "card": 41,
+    "member": "member_2",
+    "split": "train",
+    "position": 468,
+    "img_id": "mcocr_public_145014tkueb.jpg",
+    "absent": [
+      "ADDRESS"
+    ],
+    "present": [],
+    "unreadable": [],
+    "note": "Đã đối chiếu ảnh: giá trị trường không có trong vùng ảnh."
+  },
+  {
+    "card": 42,
+    "member": "member_2",
+    "split": "train",
+    "position": 470,
+    "img_id": "mcocr_public_145014tnnoi.jpg",
+    "absent": [
+      "TIMESTAMP"
+    ],
+    "present": [],
+    "unreadable": [],
+    "note": "Đã đối chiếu ảnh: giá trị trường không có trong vùng ảnh."
+  },
+  {
+    "card": 43,
+    "member": "member_2",
+    "split": "train",
+    "position": 475,
+    "img_id": "mcocr_public_145014ttrrd.jpg",
+    "absent": [],
+    "unreadable": [
+      "QUANTITY:1"
+    ],
+    "note": "Giấy rách đúng ô SL, không đọc được số lượng. Không suy đoán từ đơn giá và thành tiền."
+  },
+  {
+    "card": 44,
+    "member": "member_2",
+    "split": "train",
+    "position": 476,
+    "img_id": "mcocr_public_145014tvfga.jpg",
+    "absent": [
+      "ITEM_NAME:1",
+      "LINE_TOTAL:1",
+      "QUANTITY:1",
+      "TOTAL_COST",
+      "UNIT_PRICE:1"
+    ],
+    "present": [],
+    "unreadable": [],
+    "note": "Phiếu giao dịch treo không có mặt hàng và tổng tiền; khai báo bốn trường dòng1."
+  },
+  {
+    "card": 45,
+    "member": "member_2",
+    "split": "train",
+    "position": 477,
+    "img_id": "mcocr_public_145014twoee.jpg",
+    "absent": [
+      "ADDRESS",
+      "SELLER",
+      "TOTAL_COST"
+    ],
+    "present": [],
+    "unreadable": [],
+    "note": "Phiếu chế biến chỉ có món và số lượng; CHẾ BIẾN là tiêu đề phiếu, không phải tên người bán."
+  },
+  {
+    "card": 46,
+    "member": "member_2",
+    "split": "train",
+    "position": 482,
+    "img_id": "mcocr_public_145014uimoq.jpg",
+    "absent": [
+      "ITEM_NAME:1",
+      "LINE_TOTAL:1",
+      "QUANTITY:1",
+      "TOTAL_COST",
+      "UNIT_PRICE:1"
+    ],
+    "present": [],
+    "unreadable": [],
+    "note": "Phiếu giao dịch treo không có mặt hàng và tổng tiền; khai báo bốn trường dòng1."
+  },
+  {
+    "card": 47,
+    "member": "member_2",
+    "split": "train",
+    "position": 491,
+    "img_id": "mcocr_public_145014vitnu.jpg",
+    "absent": [
+      "ITEM_NAME:1",
+      "LINE_TOTAL:1",
+      "QUANTITY:1",
+      "UNIT_PRICE:1"
+    ],
+    "present": [],
+    "unreadable": [],
+    "note": "Phiếu giao dịch treo không có mặt hàng và tổng tiền; khai báo bốn trường dòng1."
+  },
+  {
+    "card": 48,
+    "member": "member_2",
+    "split": "train",
+    "position": 509,
+    "img_id": "mcocr_public_145014woqkn.jpg",
+    "absent": [
+      "ITEM_NAME:1",
+      "LINE_TOTAL:1",
+      "QUANTITY:1",
+      "UNIT_PRICE:1"
+    ],
+    "present": [],
+    "unreadable": [],
+    "note": "Phiếu giao dịch treo không có mặt hàng và tổng tiền; khai báo bốn trường dòng1."
+  },
+  {
+    "card": 49,
+    "member": "member_2",
+    "split": "train",
+    "position": 511,
+    "img_id": "mcocr_public_145014wpplc.jpg",
+    "absent": [
+      "ITEM_NAME:1",
+      "LINE_TOTAL:1",
+      "QUANTITY:1",
+      "UNIT_PRICE:1"
+    ],
+    "present": [],
+    "unreadable": [],
+    "note": "Phiếu giao dịch treo không có mặt hàng và tổng tiền; khai báo bốn trường dòng1."
+  },
+  {
+    "card": 50,
+    "member": "member_2",
+    "split": "train",
+    "position": 513,
+    "img_id": "mcocr_public_145014wscvw.jpg",
+    "absent": [
+      "TIMESTAMP"
+    ],
+    "present": [],
+    "unreadable": [],
+    "note": "Đã đối chiếu ảnh: giá trị trường không có trong vùng ảnh."
+  },
+  {
+    "card": 51,
+    "member": "member_2",
+    "split": "train",
+    "position": 531,
+    "img_id": "mcocr_public_145014xwajt.jpg",
+    "absent": [],
+    "present": [
+      "TIMESTAMP"
+    ],
+    "note": "Có in 10/08/2020-19:43 ở cuối hóa đơn, thiếu bbox."
+  },
+  {
+    "card": 52,
+    "member": "member_2",
+    "split": "train",
+    "position": 545,
+    "img_id": "mcocr_public_145014yrxvd.jpg",
+    "absent": [
+      "TIMESTAMP"
+    ],
+    "present": [],
+    "unreadable": [],
+    "note": "Chỉ có chữ Ngày: ở cuối phiếu, không có giá trị ngày/giờ được in."
+  },
+  {
+    "card": 53,
+    "member": "member_2",
+    "split": "train",
+    "position": 549,
+    "img_id": "mcocr_public_145014yxijr.jpg",
+    "absent": [
+      "ITEM_NAME:1",
+      "LINE_TOTAL:1",
+      "QUANTITY:1",
+      "UNIT_PRICE:1"
+    ],
+    "present": [],
+    "unreadable": [],
+    "note": "Phiếu giao dịch treo không có mặt hàng và tổng tiền; khai báo bốn trường dòng1."
+  }
+]

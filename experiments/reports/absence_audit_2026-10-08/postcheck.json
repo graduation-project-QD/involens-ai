@@ -1,0 +1,18 @@
+{
+  "checked_images": 1368,
+  "line_item_groups": 3787,
+  "declared_absence_keys": 472,
+  "label_counts": {
+    "SELLER": 1490,
+    "ADDRESS": 2553,
+    "TIMESTAMP": 1443,
+    "TOTAL_COST": 1309,
+    "ITEM_NAME": 3900,
+    "QUANTITY": 3712,
+    "LINE_TOTAL": 3730,
+    "UNIT_PRICE": 3668
+  },
+  "structure_issues": [],
+  "remaining_exception_images": 9,
+  "no_unexplained_missing_fields": true
+}

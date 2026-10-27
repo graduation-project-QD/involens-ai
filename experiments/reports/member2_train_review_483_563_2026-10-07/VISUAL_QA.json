@@ -1,0 +1,41 @@
+{
+  "date": "2026-10-07",
+  "verified_at_utc": "2026-10-07T02:49:47.623057+00:00",
+  "ledger_sha256": "c4efbc5adbab5a2692ba56601727503ad50e81a922b98989c904843fefd25bf3",
+  "planned_rows_sha256": "aa07902fdc55ae6e6e972becf33d073b9b0464b131f60dc8a6d1ba1dedddcd42",
+  "initial_images_visually_reviewed": 81,
+  "initial_changed_regions_visually_reviewed": 752,
+  "visual_rechecks": [
+    {
+      "directory": "qa",
+      "pages_inspected": 84,
+      "tiles": 752
+    },
+    {
+      "directory": "qa_final",
+      "pages_inspected": 22,
+      "tiles": 192
+    },
+    {
+      "directory": "qa_padding",
+      "pages_inspected": 10,
+      "tiles": 88
+    },
+    {
+      "directory": "qa_last",
+      "pages_inspected": 2,
+      "tiles": 10
+    },
+    {
+      "directory": "qa_slant",
+      "pages_inspected": 2,
+      "tiles": 10
+    },
+    {
+      "directory": "qa_l89",
+      "pages_inspected": 1,
+      "tiles": 2
+    }
+  ],
+  "limitation": "Vùng mất nét/bị xóa/che và ký tự còn mơ hồ được ghi trong notes để người dùng duyệt, không tự đánh dấu hoàn tất."
+}
