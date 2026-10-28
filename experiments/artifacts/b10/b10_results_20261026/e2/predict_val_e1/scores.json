@@ -1,0 +1,61 @@
+{
+  "split": "val.ocr_pretrained.jsonl",
+  "model": "/home/ezycloudx-admin/b10/ai-service/../runs_b10/e2/best",
+  "seconds_per_document": 0.0114,
+  "scores": {
+    "SELLER": {
+      "precision": 0.9487,
+      "recall": 0.9737,
+      "f1": 0.961,
+      "support": 152
+    },
+    "ADDRESS": {
+      "precision": 0.9651,
+      "recall": 0.9577,
+      "f1": 0.9614,
+      "support": 260
+    },
+    "TIMESTAMP": {
+      "precision": 0.9291,
+      "recall": 0.9493,
+      "f1": 0.9391,
+      "support": 138
+    },
+    "TOTAL_COST": {
+      "precision": 0.8993,
+      "recall": 0.9191,
+      "f1": 0.9091,
+      "support": 136
+    },
+    "ITEM_NAME": {
+      "precision": 0.9719,
+      "recall": 0.9765,
+      "f1": 0.9742,
+      "support": 425
+    },
+    "QUANTITY": {
+      "precision": 0.9945,
+      "recall": 0.989,
+      "f1": 0.9917,
+      "support": 363
+    },
+    "UNIT_PRICE": {
+      "precision": 1.0,
+      "recall": 0.9975,
+      "f1": 0.9988,
+      "support": 403
+    },
+    "LINE_TOTAL": {
+      "precision": 0.9926,
+      "recall": 0.9951,
+      "f1": 0.9938,
+      "support": 406
+    },
+    "micro": {
+      "precision": 0.9747,
+      "recall": 0.9781,
+      "f1": 0.9764,
+      "support": 2283
+    }
+  }
+}

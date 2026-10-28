@@ -1,0 +1,60 @@
+{
+  "split": "val",
+  "predictions": "D:\\graduation-project-2\\experiments\\artifacts\\b7\\b7_results_20261017\\pretrained_vgg_transformer\\predictions_det_val.csv",
+  "by_label": {
+    "SELLER": {
+      "regions": 154,
+      "missed_rate": 0.013,
+      "cer": 0.078,
+      "exact_rate": 0.4675
+    },
+    "ADDRESS": {
+      "regions": 263,
+      "missed_rate": 0.0038,
+      "cer": 0.08,
+      "exact_rate": 0.2281
+    },
+    "TIMESTAMP": {
+      "regions": 138,
+      "missed_rate": 0.0,
+      "cer": 0.0353,
+      "exact_rate": 0.8116
+    },
+    "TOTAL_COST": {
+      "regions": 136,
+      "missed_rate": 0.0,
+      "cer": 0.033,
+      "exact_rate": 0.8162
+    },
+    "ITEM_NAME": {
+      "regions": 425,
+      "missed_rate": 0.0,
+      "cer": 0.0767,
+      "exact_rate": 0.4871
+    },
+    "QUANTITY": {
+      "regions": 406,
+      "missed_rate": 0.0837,
+      "cer": 0.1091,
+      "exact_rate": 0.8818
+    },
+    "UNIT_PRICE": {
+      "regions": 403,
+      "missed_rate": 0.0,
+      "cer": 0.0098,
+      "exact_rate": 0.9479
+    },
+    "LINE_TOTAL": {
+      "regions": 406,
+      "missed_rate": 0.0,
+      "cer": 0.0156,
+      "exact_rate": 0.9039
+    },
+    "ALL": {
+      "regions": 2331,
+      "missed_rate": 0.0159,
+      "cer": 0.0616,
+      "exact_rate": 0.716
+    }
+  }
+}

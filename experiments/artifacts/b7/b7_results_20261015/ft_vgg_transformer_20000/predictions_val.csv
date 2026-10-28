@@ -1,0 +1,2331 @@
+﻿path,label,gt,prediction
+val/mcocr_public_145013aaprl_000.png,SELLER,VinCommerce,VinCommerce
+val/mcocr_public_145013aaprl_001.png,ADDRESS,VM+QNH Dư án quỹ đất đường sắt,VM+ QNH Dự án quỹ đất đường sắt
+val/mcocr_public_145013aaprl_002.png,ADDRESS,DA QĐ dọc tuyến ĐS Tổ 3 Khu 2,DA QĐ dọc tuyến ĐS Tổ 3 Khu 2
+val/mcocr_public_145013aaprl_003.png,ADDRESS,"P. Cẩm Sơn, TP. Cẩm Phả, T.QN","P. Cẩm Sơn, TP. Cẩm Phả, T. QN"
+val/mcocr_public_145013aaprl_004.png,TOTAL_COST,81.302,81.302
+val/mcocr_public_145013aaprl_005.png,TIMESTAMP,14/08/2020 17:23,14/08/2020 17:23
+val/mcocr_public_145013aaprl_006.png,ITEM_NAME,Bơ đặc biệt,Bơ đặc biệt
+val/mcocr_public_145013aaprl_007.png,QUANTITY,1,1
+val/mcocr_public_145013aaprl_008.png,UNIT_PRICE,21.502,21.502
+val/mcocr_public_145013aaprl_009.png,LINE_TOTAL,21.502,21.502
+val/mcocr_public_145013aaprl_010.png,ITEM_NAME,SCU có đường Probi VNM L4 chaix130ml,SCU có đường Probi VNM L4 chaix130ml
+val/mcocr_public_145013aaprl_011.png,QUANTITY,2,2
+val/mcocr_public_145013aaprl_012.png,UNIT_PRICE,34.300,34.300
+val/mcocr_public_145013aaprl_013.png,LINE_TOTAL,68.800,68.600
+val/mcocr_public_145013ahfqj_000.png,SELLER,THỨC COFFEE,THỨC COFFEE
+val/mcocr_public_145013ahfqj_001.png,ADDRESS,"22 Quang Trung, P10, Gò Vấp","22 Quang Trung, P10, Gò Vấp"
+val/mcocr_public_145013ahfqj_002.png,TIMESTAMP,17.03.2019,17.03.2019
+val/mcocr_public_145013ahfqj_003.png,TOTAL_COST,35 000,35 000
+val/mcocr_public_145013ahfqj_004.png,ITEM_NAME,COFFEE WITH MILK,COFFEE WITH MILK
+val/mcocr_public_145013ahfqj_005.png,ITEM_NAME,ICE,ICE
+val/mcocr_public_145013ahfqj_006.png,QUANTITY,"1,00","1,00"
+val/mcocr_public_145013ahfqj_007.png,UNIT_PRICE,35 000,35 000
+val/mcocr_public_145013ahfqj_008.png,LINE_TOTAL,35 000,35 000
+val/mcocr_public_145013bgfxq_000.png,SELLER,NHÀ SÁCH GD-TC CẨM PHẢ,NHÀ SÁCH GD-TC CẨM PHẢ
+val/mcocr_public_145013bgfxq_001.png,ADDRESS,ĐC: 212 Đường Trần Phú-Cẩm Phả,ĐC: 212 Đường Trần Phú-Cẩm Phả
+val/mcocr_public_145013bgfxq_002.png,TOTAL_COST,12.000đ,12.000đ
+val/mcocr_public_145013bgfxq_003.png,TIMESTAMP,9/8/2020 17:48,9/8/2020 17:48
+val/mcocr_public_145013bgfxq_004.png,ITEM_NAME,ruột chì khúc M&G,ruột chì khúc M&G
+val/mcocr_public_145013bgfxq_005.png,QUANTITY,2,2
+val/mcocr_public_145013bgfxq_006.png,UNIT_PRICE,6.000,6.000
+val/mcocr_public_145013bgfxq_007.png,LINE_TOTAL,12.000đ,12.000đ
+val/mcocr_public_145013bvmvl_000.png,SELLER,MINIMART ANAN,MINIMART ANAN
+val/mcocr_public_145013bvmvl_001.png,ADDRESS,Chợ Sủi Phú Thị Gia Lâm,Chợ Sủi Phú Thị Gia Lâm
+val/mcocr_public_145013bvmvl_002.png,TOTAL_COST,"227,040","227,040"
+val/mcocr_public_145013bvmvl_003.png,TIMESTAMP,16/08/2020-21:18,16/08/2020-21:18
+val/mcocr_public_145013bvmvl_004.png,ITEM_NAME,"Sữa kun cam, dâu110ml NT","Sữa kun cam , dâu110ml NT"
+val/mcocr_public_145013bvmvl_005.png,QUANTITY,48,48
+val/mcocr_public_145013bvmvl_006.png,UNIT_PRICE,"3,855","3,855"
+val/mcocr_public_145013bvmvl_007.png,LINE_TOTAL,"185,040","185,040"
+val/mcocr_public_145013bvmvl_008.png,ITEM_NAME,"Sữa đặc ông thọ đỏ, xanh VN NT","Sữa đặc ông thọ đỏ, xanh VN NT"
+val/mcocr_public_145013bvmvl_009.png,QUANTITY,1,1
+val/mcocr_public_145013bvmvl_010.png,UNIT_PRICE,"22,000","22,000"
+val/mcocr_public_145013bvmvl_011.png,LINE_TOTAL,"22,000","22,000"
+val/mcocr_public_145013bvmvl_012.png,ITEM_NAME,Núm vú pigeon trắng NT,Núm vú pigeon trắng NT
+val/mcocr_public_145013bvmvl_013.png,QUANTITY,1,1
+val/mcocr_public_145013bvmvl_014.png,UNIT_PRICE,"20,000","20,000"
+val/mcocr_public_145013bvmvl_015.png,LINE_TOTAL,"20,000","20,000"
+val/mcocr_public_145013cixex_000.png,SELLER,MINIMART ANAN,MINIMART ANAN
+val/mcocr_public_145013cixex_001.png,ADDRESS,Chợ Sủi Phú Thị Thị Gia Lâm,Chợ Sủi Phú Thị Gia Lâm
+val/mcocr_public_145013cixex_002.png,TOTAL_COST,"475,000","475,000"
+val/mcocr_public_145013cixex_003.png,TIMESTAMP,17/08/2020-17:28,17/08/2020-17:28
+val/mcocr_public_145013cixex_004.png,ITEM_NAME,Mì omachi tôm 79g NT,Mì omachi tôm 79g NT
+val/mcocr_public_145013cixex_005.png,QUANTITY,5,5
+val/mcocr_public_145013cixex_006.png,UNIT_PRICE,"6,000","6,000"
+val/mcocr_public_145013cixex_007.png,LINE_TOTAL,"30,000","30,000"
+val/mcocr_public_145013cixex_008.png,ITEM_NAME,bánh trứng mềm belgi túi 24 NT,bánh trứng mềm belgi túi 24 NT
+val/mcocr_public_145013cixex_009.png,QUANTITY,1,1
+val/mcocr_public_145013cixex_010.png,UNIT_PRICE,"24,000","24,000"
+val/mcocr_public_145013cixex_011.png,LINE_TOTAL,"24,000","24,000"
+val/mcocr_public_145013cixex_012.png,ITEM_NAME,bánh cosy túi 576g NT,bánh cosy túi 576g NT
+val/mcocr_public_145013cixex_013.png,QUANTITY,1,1
+val/mcocr_public_145013cixex_014.png,UNIT_PRICE,"47,000","47,000"
+val/mcocr_public_145013cixex_015.png,LINE_TOTAL,"47,000","47,000"
+val/mcocr_public_145013cixex_016.png,ITEM_NAME,tương ớt chinsu chai 500g N0,tương ớt chinsu chai 500g N0
+val/mcocr_public_145013cixex_017.png,QUANTITY,1,1
+val/mcocr_public_145013cixex_018.png,UNIT_PRICE,"20,000","20,000"
+val/mcocr_public_145013cixex_019.png,LINE_TOTAL,"20,000","20,000"
+val/mcocr_public_145013cixex_020.png,ITEM_NAME,Tương ớt chinsu 250g NT,Tương ớt chinsu 250g NT
+val/mcocr_public_145013cixex_021.png,QUANTITY,1,1
+val/mcocr_public_145013cixex_022.png,UNIT_PRICE,"12,000","12,000"
+val/mcocr_public_145013cixex_023.png,LINE_TOTAL,"12,000","12,000"
+val/mcocr_public_145013cixex_024.png,ITEM_NAME,sốt mayonaise aji mayo NT,sốt mayonnaise aji mayo NT
+val/mcocr_public_145013cixex_025.png,QUANTITY,1,1
+val/mcocr_public_145013cixex_026.png,UNIT_PRICE,"30,000","30,000"
+val/mcocr_public_145013cixex_027.png,LINE_TOTAL,"30,000","30,000"
+val/mcocr_public_145013cixex_028.png,ITEM_NAME,Sữa chua Probi VNM 100g NT,Sữa chua Probi VNM 100g NT
+val/mcocr_public_145013cixex_029.png,QUANTITY,48,48
+val/mcocr_public_145013cixex_030.png,UNIT_PRICE,"6,500","6,500"
+val/mcocr_public_145013cixex_031.png,LINE_TOTAL,"312,000","312,000"
+val/mcocr_public_145013clfsp_000.png,SELLER,THE COFFEE HOUSE,THE COFFEE HOUSE
+val/mcocr_public_145013clfsp_001.png,ADDRESS,"403 Phan Huy Ích, P.14, Q.Gò Vấp","403 Phan Huy Ích, P.14, Q.Gò Vấp"
+val/mcocr_public_145013clfsp_002.png,TOTAL_COST,49 000,49 000
+val/mcocr_public_145013clfsp_003.png,TIMESTAMP,01.10.2020 13.18,01.10.2020 13.18
+val/mcocr_public_145013clfsp_004.png,ITEM_NAME,Cà Phê Sữa Đá,Cà Phê Sữa Đá
+val/mcocr_public_145013clfsp_005.png,QUANTITY,1,1
+val/mcocr_public_145013clfsp_006.png,UNIT_PRICE,35 000,35 000
+val/mcocr_public_145013clfsp_007.png,LINE_TOTAL,35 000,35 000
+val/mcocr_public_145013clfsp_008.png,ITEM_NAME,(Vừa),(Vừa)
+val/mcocr_public_145013clfsp_009.png,ITEM_NAME,Bánh Mì Gà Kim,Bánh Mì Gà Kim
+val/mcocr_public_145013clfsp_010.png,QUANTITY,1,1
+val/mcocr_public_145013clfsp_011.png,UNIT_PRICE,32 000,32 000
+val/mcocr_public_145013clfsp_012.png,LINE_TOTAL,32 000,32 000
+val/mcocr_public_145013clfsp_013.png,ITEM_NAME,Quất (Cay),Quất (Cay)
+val/mcocr_public_145013dcqda_000.png,SELLER,VinCommerce,VinCommerce
+val/mcocr_public_145013dcqda_001.png,ADDRESS,VM+ QNH Tổ 8 Khu 3B Cẩm Trung,VM+ QNH Tổ 8 Khu 3B Cẩm Trung
+val/mcocr_public_145013dcqda_002.png,ADDRESS,"Tổ 8, Khu 3B, P. Cẩm Trung","Tổ 8, Khu 3B, P. Cẩm Trung"
+val/mcocr_public_145013dcqda_003.png,ADDRESS,"TP. Cẩm Phả, T. Quảng Ninh","TP. Cẩm Phả, T. Quảng Ninh"
+val/mcocr_public_145013dcqda_004.png,TOTAL_COST,18.000,18.000
+val/mcocr_public_145013dcqda_005.png,TIMESTAMP,12/8/2020 18:20,12/8/2020 18:20
+val/mcocr_public_145013dcqda_006.png,ITEM_NAME,Miến Phú hương vị sườn Acecook gói 58g,Miến Phú hương vị sườn Acecook gói 58g
+val/mcocr_public_145013dcqda_007.png,QUANTITY,2,2
+val/mcocr_public_145013dcqda_008.png,UNIT_PRICE,9.000,9.000
+val/mcocr_public_145013dcqda_009.png,LINE_TOTAL,18.000,18.000
+val/mcocr_public_145013dfzcb_000.png,SELLER,CỬA HÀNG NĂM OÁNH,CỬA HÀNG NĂM OÁNH
+val/mcocr_public_145013dfzcb_001.png,ADDRESS,"Thôn Phú Thuỵ, Xã Phú Thị, Huyện Gia Lâm, TP Hà Nội","Thôn Phú Thụy, Xã Phú Thị, Huyện Gia Lâm, TP Hà Nội"
+val/mcocr_public_145013dfzcb_002.png,TOTAL_COST,"45,000","45,000"
+val/mcocr_public_145013dfzcb_003.png,TIMESTAMP,11/8/2020,11/8/2020
+val/mcocr_public_145013dfzcb_004.png,ITEM_NAME,Bánh Belgi sữa mềm 288g,Bánh Belgi sữa mềm 288g
+val/mcocr_public_145013dfzcb_005.png,QUANTITY,1,1
+val/mcocr_public_145013dfzcb_006.png,UNIT_PRICE,"45,000","45,000"
+val/mcocr_public_145013dfzcb_007.png,LINE_TOTAL,"45,000","45,000"
+val/mcocr_public_145013doybn_000.png,SELLER,NHÀ SÁCH GD-TC CẨM PHẢ,NHÀ SÁCH GD-TC CẨM PHẢ
+val/mcocr_public_145013doybn_001.png,ADDRESS,ĐC: 212 Đường Trần Phú-Cẩm Phả,ĐC: 212 Đường Trần Phú-Cẩm Phả
+val/mcocr_public_145013doybn_002.png,TOTAL_COST,22.000đ,22.000đ
+val/mcocr_public_145013doybn_003.png,ITEM_NAME,5-Luyện tập Tiếng,5-Luyện tập Tiếng
+val/mcocr_public_145013doybn_004.png,TIMESTAMP,9/8/2020 17:56,9/8/2020 17:56
+val/mcocr_public_145013doybn_005.png,QUANTITY,1,1
+val/mcocr_public_145013doybn_006.png,UNIT_PRICE,22.000,22.000
+val/mcocr_public_145013doybn_007.png,LINE_TOTAL,22.000đ,22.000đ
+val/mcocr_public_145013dtobm_000.png,SELLER,VinCommerce,VinCommerce
+val/mcocr_public_145013dtobm_001.png,ADDRESS,VM+ QNH Dự án KDC lấn biển cọc 6,VM+ QNH Dự án KDC lấn biển cọc 6
+val/mcocr_public_145013dtobm_002.png,ADDRESS,"DA khu ĐCLB cọc 6, P. Cẩm Sơn","DA khu ĐCLB cọc 6, P. Cẩm Sơn"
+val/mcocr_public_145013dtobm_003.png,ADDRESS,"TP. Cẩm Phả, T. Quảng Ninh","TP. Cẩm Phả, T. Quảng Ninh"
+val/mcocr_public_145013dtobm_004.png,TOTAL_COST,230.567,230.567
+val/mcocr_public_145013dtobm_005.png,TIMESTAMP,14/08/2020 17:33,14/08/2020 17:33
+val/mcocr_public_145013dtobm_006.png,ITEM_NAME,VMNK Táo Queen NZL PG size 90-120,VMNK Táo Queen NZL PG size 90-120
+val/mcocr_public_145013dtobm_007.png,QUANTITY,1,1
+val/mcocr_public_145013dtobm_008.png,UNIT_PRICE,174.717,174.717
+val/mcocr_public_145013dtobm_009.png,LINE_TOTAL,174.717,174.717
+val/mcocr_public_145013dtobm_010.png,ITEM_NAME,Táo Jazz New Zealand,Táo Jazz New Zealand 1
+val/mcocr_public_145013dtobm_011.png,QUANTITY,1,1
+val/mcocr_public_145013dtobm_012.png,UNIT_PRICE,99.590,99.590
+val/mcocr_public_145013dtobm_013.png,LINE_TOTAL,99.590,99.590
+val/mcocr_public_145013emvhs_000.png,SELLER,CỬA HÀNG NĂM OÁNH,CỬA HÀNG NĂM OÁNH
+val/mcocr_public_145013emvhs_001.png,ADDRESS,"Thôn Phú Thuỵ, Xã Phú Thị, Huyện Gia Lâm, TP Hà Nội","Thôn Phú Thụy, Xã Phú Thị, Huyện Gia Lâm, TP Hà Nội"
+val/mcocr_public_145013emvhs_002.png,TOTAL_COST,"116,000","116,000"
+val/mcocr_public_145013emvhs_003.png,TIMESTAMP,11/8/2020,11/8/2020
+val/mcocr_public_145013emvhs_004.png,ITEM_NAME,NGK Want Dâu 78ml,NGK Want Dậu 78ml
+val/mcocr_public_145013emvhs_005.png,QUANTITY,1,1
+val/mcocr_public_145013emvhs_006.png,UNIT_PRICE,"3,000","3,000"
+val/mcocr_public_145013emvhs_007.png,LINE_TOTAL,"3,000","3,000"
+val/mcocr_public_145013emvhs_008.png,ITEM_NAME,Mỳ 3 mien Tôm chua cay 75g,Mỳ 3 mien Tôm chua cay 75g
+val/mcocr_public_145013emvhs_009.png,QUANTITY,5,5
+val/mcocr_public_145013emvhs_010.png,UNIT_PRICE,"3,200","3,200"
+val/mcocr_public_145013emvhs_011.png,LINE_TOTAL,"16,000","16,000"
+val/mcocr_public_145013emvhs_012.png,ITEM_NAME,Hạt nêm Aji-ngon 2kg,Hạt nêm Aji-ngon 2kg
+val/mcocr_public_145013emvhs_013.png,QUANTITY,1,1
+val/mcocr_public_145013emvhs_014.png,UNIT_PRICE,"97,000","97,000"
+val/mcocr_public_145013emvhs_015.png,LINE_TOTAL,"97,000","97,000"
+val/mcocr_public_145013eygxv_000.png,SELLER,CỬA HÀNG NĂM OÁNH,CỬA HÀNG NĂM OÁNH
+val/mcocr_public_145013eygxv_001.png,ADDRESS,"Thôn Phú Thuỵ, Xã Phú Thị, Huyện Gia Lâm, TP Hà Nội","Thôn Phú Thuỵ, Xã Phú Thị, Huyện Gia Lâm, TP Hà Nội"
+val/mcocr_public_145013eygxv_002.png,TOTAL_COST,"46,000","46,000"
+val/mcocr_public_145013eygxv_003.png,TIMESTAMP,12/8/2020,12/8/2020
+val/mcocr_public_145013eygxv_004.png,ITEM_NAME,BG OMO thông minh 800g,BG OMO thông minh 800g
+val/mcocr_public_145013eygxv_005.png,QUANTITY,1,1
+val/mcocr_public_145013eygxv_006.png,UNIT_PRICE,"30,000","30,000"
+val/mcocr_public_145013eygxv_007.png,LINE_TOTAL,"30,000","30,000"
+val/mcocr_public_145013eygxv_008.png,ITEM_NAME,Xúc xích bò CP 200g,Xúc xích bò CP 200g
+val/mcocr_public_145013eygxv_009.png,QUANTITY,1,1
+val/mcocr_public_145013eygxv_010.png,UNIT_PRICE,"16,000","16,000"
+val/mcocr_public_145013eygxv_011.png,LINE_TOTAL,"16,000","16,000"
+val/mcocr_public_145013fcovi_000.png,SELLER,MINIMART ANAN,MINIMART ANAN
+val/mcocr_public_145013fcovi_001.png,ADDRESS,Chợ Sủi Phú Thị Gia Lâm,Chợ Sủi Phú Thị Gia Lâm
+val/mcocr_public_145013fcovi_002.png,TOTAL_COST,"236,000","236,000"
+val/mcocr_public_145013fcovi_003.png,TIMESTAMP,15/08/2020-18:22,15/08/2020-18:22
+val/mcocr_public_145013fcovi_004.png,ITEM_NAME,Mì omachi sườn 80g NT,Mì omachi sườn 80g NT
+val/mcocr_public_145013fcovi_005.png,QUANTITY,5,5
+val/mcocr_public_145013fcovi_006.png,UNIT_PRICE,"6,000","6,000"
+val/mcocr_public_145013fcovi_007.png,LINE_TOTAL,"30,000","30,000"
+val/mcocr_public_145013fcovi_008.png,ITEM_NAME,KDR colgate ngừa sâu răng NT,"KDR colgate ngừa sâu răng, NT"
+val/mcocr_public_145013fcovi_009.png,QUANTITY,1,1
+val/mcocr_public_145013fcovi_010.png,UNIT_PRICE,"12,000","12,000"
+val/mcocr_public_145013fcovi_011.png,LINE_TOTAL,"12,000","12,000"
+val/mcocr_public_145013fcovi_012.png,ITEM_NAME,Xà bông lai boy bảo vệ 125g NT,Xà bông lai boy bảo vệ 125g NT
+val/mcocr_public_145013fcovi_013.png,QUANTITY,1,1
+val/mcocr_public_145013fcovi_014.png,UNIT_PRICE,"14,000","14,000"
+val/mcocr_public_145013fcovi_015.png,LINE_TOTAL,"14,000","14,000"
+val/mcocr_public_145013fcovi_016.png,ITEM_NAME,Bàn chải colgate chăm sóc n NT,Bản chải colgate chăm sóc n NT
+val/mcocr_public_145013fcovi_017.png,QUANTITY,4,4
+val/mcocr_public_145013fcovi_018.png,UNIT_PRICE,"15,000","15,000"
+val/mcocr_public_145013fcovi_019.png,LINE_TOTAL,"60,000","60,000"
+val/mcocr_public_145013fcovi_020.png,ITEM_NAME,DG Dove phục hồi 320g NT,DG Dove phục hồi 320g NT
+val/mcocr_public_145013fcovi_021.png,QUANTITY,1,1
+val/mcocr_public_145013fcovi_022.png,UNIT_PRICE,"70,000","70,000"
+val/mcocr_public_145013fcovi_023.png,LINE_TOTAL,"70,000","70,000"
+val/mcocr_public_145013fcovi_024.png,ITEM_NAME,cif xịt lau kính 520ml NT,cif xịt lau kính 520ml NT
+val/mcocr_public_145013fcovi_025.png,QUANTITY,2,2
+val/mcocr_public_145013fcovi_026.png,UNIT_PRICE,"25,000","25,000"
+val/mcocr_public_145013fcovi_027.png,LINE_TOTAL,"50,000","50,000"
+val/mcocr_public_145013fomil_000.png,TOTAL_COST,105.806,105.806
+val/mcocr_public_145013fomil_001.png,ITEM_NAME,CP_Xương ống 500g,CP_Xương ống 500g
+val/mcocr_public_145013fomil_002.png,QUANTITY,4,4
+val/mcocr_public_145013fomil_003.png,UNIT_PRICE,20.000,20.000
+val/mcocr_public_145013fomil_004.png,LINE_TOTAL,80.000,80.000
+val/mcocr_public_145013fomil_005.png,ITEM_NAME,Xà lách lolo xanh L1 Vineco,Xà lách lolo xanh L1 Vineco
+val/mcocr_public_145013fomil_006.png,QUANTITY,1,1
+val/mcocr_public_145013fomil_007.png,UNIT_PRICE,"25,806",25.806
+val/mcocr_public_145013fomil_008.png,LINE_TOTAL,25.806,25.806
+val/mcocr_public_145013fxcgs_000.png,SELLER,VinCommerce,VinCommerce
+val/mcocr_public_145013fxcgs_001.png,ADDRESS,VM+ QNH Dự án quỹ đất đường sắt,VM+ QNH Dự án quỹ đất đường sắt
+val/mcocr_public_145013fxcgs_002.png,ADDRESS,DA QĐ doc tuyến ĐS Tổ 3 Khu 2,DA QĐ dọc tuyến ĐS Tổ 3 Khu 2
+val/mcocr_public_145013fxcgs_003.png,ADDRESS,"P. Cẩm Sơn, TP. Cẩm Phả, T. QN","P. Cẩm Sơn, TP. Cẩm Phả, T. QN"
+val/mcocr_public_145013fxcgs_004.png,TOTAL_COST,30.900,30.900
+val/mcocr_public_145013fxcgs_005.png,TIMESTAMP,15/08/2020 11:41,15/08/2020 11:41
+val/mcocr_public_145013fxcgs_006.png,ITEM_NAME,Xương ức gà CP 1KG,Xương ức gà CP 1KG
+val/mcocr_public_145013fxcgs_007.png,QUANTITY,1,1
+val/mcocr_public_145013fxcgs_008.png,UNIT_PRICE,30.900,30.900
+val/mcocr_public_145013fxcgs_009.png,LINE_TOTAL,30.900,30.900
+val/mcocr_public_145013haeps_000.png,SELLER,INDOCHINA PLAZA,INDOCHINA PLAZA
+val/mcocr_public_145013haeps_001.png,ADDRESS,"TANG 2,INDOCHINA PLAZA,HANOI","TANG2,INDOCHINA PLAZA,HANOI"
+val/mcocr_public_145013haeps_002.png,TOTAL_COST,"299,000 VNĐ","299,000 VNĐ"
+val/mcocr_public_145013haeps_003.png,TIMESTAMP,13/08/20 - 07:03,13/08/20 - 07:03
+val/mcocr_public_145013haeps_004.png,QUANTITY,1,1
+val/mcocr_public_145013haeps_005.png,UNIT_PRICE,"299,000","299,000"
+val/mcocr_public_145013haeps_006.png,LINE_TOTAL,"299,000 VNĐ","299,000 VNĐ"
+val/mcocr_public_145013haeps_007.png,SELLER,THE BLUES,THE BLUES
+val/mcocr_public_145013hfxkr_000.png,SELLER,MINIMART ANAN,MINIMART ANAN
+val/mcocr_public_145013hfxkr_001.png,ADDRESS,Chợ Sủi Phú Thị Gia Lâm,Chợ Sủi Phú Thị Gia Lâm
+val/mcocr_public_145013hfxkr_002.png,TOTAL_COST,"311,016","311,016"
+val/mcocr_public_145013hfxkr_003.png,TIMESTAMP,16/08/2020-16:22,16/08/2020-16:22
+val/mcocr_public_145013hfxkr_004.png,ITEM_NAME,scu men sống prob 130ml NT,scu men sống prob 130ml NT
+val/mcocr_public_145013hfxkr_005.png,QUANTITY,8,8
+val/mcocr_public_145013hfxkr_006.png,UNIT_PRICE,"7,500","7,500"
+val/mcocr_public_145013hfxkr_007.png,LINE_TOTAL,"60,000","60,000"
+val/mcocr_public_145013hfxkr_008.png,ITEM_NAME,"kem tràng tiền sầu riêng, x NT","kem tràng tiền sầu riêng, x NT"
+val/mcocr_public_145013hfxkr_009.png,QUANTITY,10,10
+val/mcocr_public_145013hfxkr_010.png,UNIT_PRICE,"5,500","5,500"
+val/mcocr_public_145013hfxkr_011.png,LINE_TOTAL,"55,000","55,000"
+val/mcocr_public_145013hfxkr_012.png,ITEM_NAME,Nước Lavie 500ml NT,Nước Lavie 500ml NT
+val/mcocr_public_145013hfxkr_013.png,QUANTITY,24,24
+val/mcocr_public_145013hfxkr_014.png,UNIT_PRICE,"3,334","3,334"
+val/mcocr_public_145013hfxkr_015.png,LINE_TOTAL,"80,016","80,016"
+val/mcocr_public_145013hfxkr_016.png,ITEM_NAME,Thuốc là Thăng Long mềm NT,Thuốc lá Thăng Long mềm NT
+val/mcocr_public_145013hfxkr_017.png,QUANTITY,10,10
+val/mcocr_public_145013hfxkr_018.png,UNIT_PRICE,"8,300","8,300"
+val/mcocr_public_145013hfxkr_019.png,LINE_TOTAL,"83,000","83,000"
+val/mcocr_public_145013hfxkr_020.png,ITEM_NAME,Thuốc là thăng l NT,Thuốc lá thăng l NT
+val/mcocr_public_145013hfxkr_021.png,QUANTITY,3,3
+val/mcocr_public_145013hfxkr_022.png,UNIT_PRICE,"11,000","11,000"
+val/mcocr_public_145013hfxkr_023.png,LINE_TOTAL,"33,000","33,000"
+val/mcocr_public_145013hopjk_000.png,SELLER,VinCommerce,VinCommerce
+val/mcocr_public_145013hopjk_001.png,ADDRESS,"VM+ QNH Tổ 7, Khu Minh Tiến A","VM+ QNH Tổ 7, Khu Minh Tiến A"
+val/mcocr_public_145013hopjk_002.png,ADDRESS,"Tổ 7, Khu Minh Tiến A","Tổ 7, Khu Minh Tiến A"
+val/mcocr_public_145013hopjk_003.png,ADDRESS,"P.Cẩm Bình, TP. Cẩm Phả, QNH","P. Cẩm Bình, TP. Cẩm Phả, QNH"
+val/mcocr_public_145013hopjk_004.png,TOTAL_COST,51.500,51.500
+val/mcocr_public_145013hopjk_005.png,TIMESTAMP,14/08/2020 11:16,14/08/2020 11:16
+val/mcocr_public_145013hopjk_006.png,ITEM_NAME,CP_Bắp giò heo không xương 300g,CP_Bắp giò heo không xương 300g
+val/mcocr_public_145013hopjk_007.png,QUANTITY,1,1
+val/mcocr_public_145013hopjk_008.png,UNIT_PRICE,51.500,51.500
+val/mcocr_public_145013hopjk_009.png,LINE_TOTAL,51.500,51.500
+val/mcocr_public_145013iblsz_000.png,SELLER,MINIMART ANAN,MINIMART ANAN
+val/mcocr_public_145013iblsz_001.png,ADDRESS,Chợ Sủi Phú Thị Gia Lâm,Chợ Sủi Phú Thị Gia Lâm
+val/mcocr_public_145013iblsz_002.png,TOTAL_COST,"101,000","101,000"
+val/mcocr_public_145013iblsz_003.png,TIMESTAMP,17/08/2020-14:33,17/08/2020-14:33
+val/mcocr_public_145013iblsz_004.png,QUANTITY,1,1
+val/mcocr_public_145013iblsz_005.png,UNIT_PRICE,"13,000","13,000"
+val/mcocr_public_145013iblsz_006.png,LINE_TOTAL,"13,000","13,000"
+val/mcocr_public_145013iblsz_007.png,QUANTITY,1,1
+val/mcocr_public_145013iblsz_008.png,UNIT_PRICE,"35,000","35,000"
+val/mcocr_public_145013iblsz_009.png,LINE_TOTAL,"35,000","35,000"
+val/mcocr_public_145013iblsz_010.png,QUANTITY,1,1
+val/mcocr_public_145013iblsz_011.png,UNIT_PRICE,"53,000","53,000"
+val/mcocr_public_145013iblsz_012.png,LINE_TOTAL,"53,000","53,000"
+val/mcocr_public_145013iblsz_013.png,ITEM_NAME,Bánh gạo one one ngọt 150g NT,Bánh gạo one one ngọt 150g NT
+val/mcocr_public_145013iblsz_014.png,ITEM_NAME,Bánh Cosy KD 432g NT,Bánh Cosy KD 432g NT
+val/mcocr_public_145013iblsz_015.png,ITEM_NAME,ngũ cốc việt đài gạo lứt ca N0,ngũ cốc việt đài gạo lút ca N0
+val/mcocr_public_145013inxnt_000.png,SELLER,MINIMART ANAN,MINIMART ANAN
+val/mcocr_public_145013inxnt_001.png,ADDRESS,Chợ Sủi Phú Thị Gia Lâm,Chợ Sủi Phú Thị Gia Lâm
+val/mcocr_public_145013inxnt_002.png,TOTAL_COST,"229,000","229,000"
+val/mcocr_public_145013inxnt_003.png,ITEM_NAME,xả vải comfort nước hoa túi NT,xả vải comfort nước hoa túi NT
+val/mcocr_public_145013inxnt_004.png,QUANTITY,1,1
+val/mcocr_public_145013inxnt_005.png,UNIT_PRICE,"86,000","86,000"
+val/mcocr_public_145013inxnt_006.png,LINE_TOTAL,"86,000","86,000"
+val/mcocr_public_145013inxnt_007.png,ITEM_NAME,Dầu cái lan 1 L NT,Dầu cái lân 1 L NT
+val/mcocr_public_145013inxnt_008.png,QUANTITY,1,1
+val/mcocr_public_145013inxnt_009.png,UNIT_PRICE,"25,000","25,000"
+val/mcocr_public_145013inxnt_010.png,LINE_TOTAL,"25,000","25,000"
+val/mcocr_public_145013inxnt_011.png,ITEM_NAME,Tương ớt chinsu 250g NT,Tương ớt chinsu 250g NT
+val/mcocr_public_145013inxnt_012.png,QUANTITY,1,1
+val/mcocr_public_145013inxnt_013.png,UNIT_PRICE,"12,000","12,000"
+val/mcocr_public_145013inxnt_014.png,LINE_TOTAL,"12,000","12,000"
+val/mcocr_public_145013inxnt_015.png,ITEM_NAME,Mắm nam ngư 500ml NT,Mắm nam ngư 500ml NT
+val/mcocr_public_145013inxnt_016.png,QUANTITY,1,1
+val/mcocr_public_145013inxnt_017.png,UNIT_PRICE,"23,000","23,000"
+val/mcocr_public_145013inxnt_018.png,LINE_TOTAL,"23,000","23,000"
+val/mcocr_public_145013inxnt_019.png,ITEM_NAME,Xà bông Enchanteur NT,Xà bông Enchanteur NT
+val/mcocr_public_145013inxnt_020.png,QUANTITY,1,1
+val/mcocr_public_145013inxnt_021.png,UNIT_PRICE,"16,000","16,000"
+val/mcocr_public_145013inxnt_022.png,LINE_TOTAL,"16,000","16,000"
+val/mcocr_public_145013inxnt_023.png,QUANTITY,1,1
+val/mcocr_public_145013inxnt_024.png,UNIT_PRICE,"31,000","31,000"
+val/mcocr_public_145013inxnt_025.png,LINE_TOTAL,"31,000","31,000"
+val/mcocr_public_145013inxnt_026.png,QUANTITY,1,1
+val/mcocr_public_145013inxnt_027.png,UNIT_PRICE,"36,000","36,000"
+val/mcocr_public_145013inxnt_028.png,LINE_TOTAL,"36,000","36,000"
+val/mcocr_public_145013inxnt_029.png,TIMESTAMP,13/08/2020-16:52,13/08/2020-16:52
+val/mcocr_public_145013inxnt_030.png,ITEM_NAME,hạt nêm knor nấm hương gói N0,hạt nêm knor nấm hương gói N0
+val/mcocr_public_145013inxnt_031.png,ITEM_NAME,Mì chính ajinomoto 454g NT,Mì chính ajnomoto 454g NT
+val/mcocr_public_145013itqit_000.png,SELLER,VinCommerce,VinCommerce
+val/mcocr_public_145013itqit_001.png,ADDRESS,VM+ QNH 590 Trần Phú,VM+ QNH 590 Trần Phú
+val/mcocr_public_145013itqit_002.png,ADDRESS,"Số 590 Trần Phú, P. Cẩm Thủy","Số 590 Trần Phú, P. Cẩm Thủy"
+val/mcocr_public_145013itqit_003.png,ADDRESS,"TP. Cẩm Phả, Quảng Ninh","TP. Cẩm Phả, Quảng Ninh"
+val/mcocr_public_145013itqit_004.png,TIMESTAMP,15/08/2020 09:54,15/08/2020 09:54
+val/mcocr_public_145013itqit_005.png,TOTAL_COST,91.674,91.674
+val/mcocr_public_145013itqit_006.png,ITEM_NAME,Cải ngồng (cải ngọt bông) DL L1 Vineco,Cải ngồng (cải ngọt bông) DL L1 Vineco
+val/mcocr_public_145013itqit_007.png,QUANTITY,1,1
+val/mcocr_public_145013itqit_008.png,UNIT_PRICE,19.474,19.474
+val/mcocr_public_145013itqit_009.png,LINE_TOTAL,19.474,19.474
+val/mcocr_public_145013itqit_010.png,ITEM_NAME,LIFEBUOY NRT BV vượt trội 10 túi 45G,LIFEBUOY NRT BV vượt trội 10 túi 450G
+val/mcocr_public_145013itqit_011.png,QUANTITY,1,1
+val/mcocr_public_145013itqit_012.png,UNIT_PRICE,53.000,53.000
+val/mcocr_public_145013itqit_013.png,LINE_TOTAL,53.000,53.000
+val/mcocr_public_145013itqit_014.png,ITEM_NAME,HẢI CHÂU Bột canh Hải Châu gói 190g,HẢI CHÂU Bột canh Hải Châu gói 190g
+val/mcocr_public_145013itqit_015.png,QUANTITY,3,3
+val/mcocr_public_145013itqit_016.png,UNIT_PRICE,4.100,4.100
+val/mcocr_public_145013itqit_017.png,LINE_TOTAL,12.300,12.300
+val/mcocr_public_145013itqit_018.png,ITEM_NAME,VIFON Bột canh gói 200g,VIFON Bột canh gói 200g
+val/mcocr_public_145013itqit_019.png,QUANTITY,3,3
+val/mcocr_public_145013itqit_020.png,UNIT_PRICE,5.100,5.100
+val/mcocr_public_145013itqit_021.png,LINE_TOTAL,15.300,15.300
+val/mcocr_public_145013iulwh_000.png,SELLER,SIỀU THỊ MINH LOAN,SIÊU THỊ MINH LOAN
+val/mcocr_public_145013iulwh_001.png,ADDRESS,TT101 CC 12 Tầng - Ngõ 25 Vũ Ngọc Phan,TT101 CC 12 Tầng - Ngõ 25 Vũ Ngọc Phan
+val/mcocr_public_145013iulwh_002.png,TIMESTAMP,28/06/2020 20:59:17,28/06/2020 20:59:17
+val/mcocr_public_145013iulwh_003.png,TOTAL_COST,"188,350","188,350"
+val/mcocr_public_145013iulwh_004.png,ITEM_NAME,NRC Thái túi kẹp 3,NRC Thái túi kẹp 3
+val/mcocr_public_145013iulwh_005.png,QUANTITY,1,1
+val/mcocr_public_145013iulwh_006.png,UNIT_PRICE,"45,000","45,000"
+val/mcocr_public_145013iulwh_007.png,LINE_TOTAL,"45,000","45,000"
+val/mcocr_public_145013iulwh_008.png,ITEM_NAME,Banh Bao JACHUN HQ 180g,Banh Bao JACHUN HQ 180g
+val/mcocr_public_145013iulwh_009.png,QUANTITY,1,1
+val/mcocr_public_145013iulwh_010.png,UNIT_PRICE,"45,000","45,000"
+val/mcocr_public_145013iulwh_011.png,LINE_TOTAL,"45,000","45,000"
+val/mcocr_public_145013iulwh_012.png,ITEM_NAME,Nuoc gao TH 300ml,Nuoc gao TH 300ml
+val/mcocr_public_145013iulwh_013.png,QUANTITY,1,1
+val/mcocr_public_145013iulwh_014.png,UNIT_PRICE,"13,000","13,000"
+val/mcocr_public_145013iulwh_015.png,LINE_TOTAL,"13,000","13,000"
+val/mcocr_public_145013iulwh_016.png,ITEM_NAME,Tay Bon Cau WIM Trang Sang,Tay Bon Cau WIM Trang Sang
+val/mcocr_public_145013iulwh_017.png,QUANTITY,1,1
+val/mcocr_public_145013iulwh_018.png,UNIT_PRICE,"33,000","33,000"
+val/mcocr_public_145013iulwh_019.png,LINE_TOTAL,"33,000","33,000"
+val/mcocr_public_145013iulwh_020.png,ITEM_NAME,Đậu cô ve,Đậu cô ve
+val/mcocr_public_145013iulwh_021.png,QUANTITY,0.39,0.39
+val/mcocr_public_145013iulwh_022.png,UNIT_PRICE,"25,000","25,000"
+val/mcocr_public_145013iulwh_023.png,LINE_TOTAL,"9,750","9,750"
+val/mcocr_public_145013iulwh_024.png,ITEM_NAME,Dua chuột bao tử,Dua chuột bao tử
+val/mcocr_public_145013iulwh_025.png,QUANTITY,1.42,1.42
+val/mcocr_public_145013iulwh_026.png,UNIT_PRICE,"30,000","30,000"
+val/mcocr_public_145013iulwh_027.png,LINE_TOTAL,"42,600","42,600"
+val/mcocr_public_145013kcxya_000.png,SELLER,VinCommerce,VinCommerce
+val/mcocr_public_145013kcxya_001.png,TIMESTAMP,10/8/2020 16:04,10/8/2020 16:04
+val/mcocr_public_145013kcxya_002.png,TOTAL_COST,33.100,33.100
+val/mcocr_public_145013kcxya_003.png,ITEM_NAME,Sữa TTT Vinamilk có đường hộp 1L,Sữa TTT Vinamilk có đường hộp 1L
+val/mcocr_public_145013kcxya_004.png,QUANTITY,1,1
+val/mcocr_public_145013kcxya_005.png,UNIT_PRICE,33.100,33.100
+val/mcocr_public_145013kcxya_006.png,LINE_TOTAL,33.100,33.100
+val/mcocr_public_145013kcxya_007.png,ADDRESS,VM+ QNH 112 Thanh Niên,VM+ QNH 112 Thanh Niên
+val/mcocr_public_145013kcxya_008.png,ADDRESS,"Số 112 Thanh Niên, P. Cẩm Thành","Số 112 Thanh Niên, P. Cẩm Thành"
+val/mcocr_public_145013kcxya_009.png,ADDRESS,"TP. Cẩm Phả, Quảng Ninh","TP. Cẩm Phả, Quảng Ninh"
+val/mcocr_public_145013mctzs_000.png,SELLER,VinCommerce,VinCommerce
+val/mcocr_public_145013mctzs_001.png,ADDRESS,"VM+ QNH Tổ 7, Khu Minh Tiến A","VM+ QNH Tổ 7, Khu Minh Tiến A"
+val/mcocr_public_145013mctzs_002.png,ADDRESS,"Tổ 7, Khu Minh Tiến A","Tổ 7, Khu Minh Tiến A"
+val/mcocr_public_145013mctzs_003.png,ADDRESS,"P.Cẩm Bình, TP. Cẩm Phả, QNH","P. Cẩm Bình, TP. Cẩm Phả, QNH"
+val/mcocr_public_145013mctzs_004.png,TOTAL_COST,9.500,9.500
+val/mcocr_public_145013mctzs_005.png,TIMESTAMP,13/08/2020 20:04,13/08/2020 20:04
+val/mcocr_public_145013mctzs_006.png,ITEM_NAME,Nước tăng lực NO.1 Pet 330ml T24,Nước tăng lực No.1 Pet 330ml T24
+val/mcocr_public_145013mctzs_007.png,QUANTITY,1,1
+val/mcocr_public_145013mctzs_008.png,UNIT_PRICE,9.500,9.500
+val/mcocr_public_145013mctzs_009.png,LINE_TOTAL,9.500,9.500
+val/mcocr_public_145013moepq_000.png,SELLER,CỬA HÀNG NĂM OÁNH,CỬA HÀNG NĂM OÁNH
+val/mcocr_public_145013moepq_001.png,ADDRESS,"Thôn Phú Thụy, Xã Phú Thị, Huyện Gia Lâm, TP Hà Nội","Thôn Phú Thụy, Xã Phú Thị, Huyện Gia Lâm, TP Hà Nội"
+val/mcocr_public_145013moepq_002.png,TOTAL_COST,"54,000","54,000"
+val/mcocr_public_145013moepq_003.png,ITEM_NAME,STTT không đường VNM 180ml,STTT không đường VNM 180ml
+val/mcocr_public_145013moepq_004.png,QUANTITY,8,8
+val/mcocr_public_145013moepq_005.png,UNIT_PRICE,"6,750","6,750"
+val/mcocr_public_145013moepq_006.png,LINE_TOTAL,"54,000","54,000"
+val/mcocr_public_145013moepq_007.png,TIMESTAMP,11/8/2020,11/8/2020
+val/mcocr_public_145013mqmzy_000.png,SELLER,VinCommerce,VinCommerce
+val/mcocr_public_145013mqmzy_001.png,ADDRESS,VM+ QNH Dự án KDC lấn biển cọc 6,VM+ QNH Dự án KDC lấn biển cọc 6
+val/mcocr_public_145013mqmzy_002.png,ADDRESS,"DA khu ĐCLB cọc 6, P. Cẩm Sơn","DA khu DCLB cọc 6, P. Cẩm Sơn"
+val/mcocr_public_145013mqmzy_003.png,ADDRESS,"TP. Cẩm Phả, T. Quảng Ninh","TP. Cẩm Phả, T. Quảng Ninh"
+val/mcocr_public_145013mqmzy_004.png,TOTAL_COST,10.000,10.000
+val/mcocr_public_145013mqmzy_005.png,ITEM_NAME,Bánh mỳ Paket BẢO NGỌC 108g,Bánh mỳ Paket Bảo Ngọc 108g
+val/mcocr_public_145013mqmzy_006.png,QUANTITY,1,1
+val/mcocr_public_145013mqmzy_007.png,UNIT_PRICE,10.000,10.000
+val/mcocr_public_145013mqmzy_008.png,LINE_TOTAL,10.000,10.000
+val/mcocr_public_145013mqmzy_009.png,TIMESTAMP,14/08/2020 21:43,14/08/2020 21:43
+val/mcocr_public_145013nkpao_000.png,SELLER,VinCommerce,VinCommerce
+val/mcocr_public_145013nkpao_001.png,ADDRESS,VM+ QNH 112 Thanh Niên,VM+ QNH 112 Thanh Niên
+val/mcocr_public_145013nkpao_002.png,ADDRESS,"TP. Cẩm Phả, Quảng Ninh","TP. Cẩm Phả, Quảng Ninh"
+val/mcocr_public_145013nkpao_003.png,ADDRESS,"Số 112 Thanh Niên, P. Cẩm Thành","Số 112 Thanh Niên, P. Cẩm Thành"
+val/mcocr_public_145013nkpao_004.png,TOTAL_COST,25.500,25.500
+val/mcocr_public_145013nkpao_005.png,TIMESTAMP,15/08/2020 09:16,15/08/2020 09:16
+val/mcocr_public_145013nkpao_006.png,ITEM_NAME,TRIDENT Kẹo gum kĐ trái cây 26.6g (T144),TRIDENT Kẹo gum KĐ trái cây 26.6g (T144)
+val/mcocr_public_145013nkpao_007.png,QUANTITY,1,1
+val/mcocr_public_145013nkpao_008.png,UNIT_PRICE,25.500,25.500
+val/mcocr_public_145013nkpao_009.png,LINE_TOTAL,25.500,25.500
+val/mcocr_public_145013qlpau_000.png,TOTAL_COST,20.000,20.000
+val/mcocr_public_145013qlpau_001.png,ADDRESS,VM+ QNH 112 Thanh Niên,VM+ QNH 112 Thanh Niên
+val/mcocr_public_145013qlpau_002.png,ADDRESS,"Số 112 Thanh Niên, P. Cẩm Thành","Số 112 Thanh Niên, P. Cẩm Thành"
+val/mcocr_public_145013qlpau_003.png,ADDRESS,"TP Cẩm Phả, Quảng Ninh","TP. Cẩm Phả, Quảng Ninh"
+val/mcocr_public_145013qlpau_004.png,SELLER,VinCommerce,VinCommerce
+val/mcocr_public_145013qlpau_005.png,ITEM_NAME,WALL'S CHOCOLUV 135ML T20,WALL'S CHOCOLUV 135ML T20
+val/mcocr_public_145013qlpau_006.png,QUANTITY,1,1
+val/mcocr_public_145013qlpau_007.png,UNIT_PRICE,20.000,20.000
+val/mcocr_public_145013qlpau_008.png,LINE_TOTAL,20.000,20.000
+val/mcocr_public_145013qlpau_009.png,TIMESTAMP,11/8/2020 20:58,11/8/2020 20:58
+val/mcocr_public_145013rhwvu_000.png,SELLER,MINIMART ANAN,MINIMART ANAN
+val/mcocr_public_145013rhwvu_001.png,ADDRESS,Chợ Sủi Phú Thị Gia Lâm,Chợ Sủi Phú Thị Gia Lâm
+val/mcocr_public_145013rhwvu_002.png,TOTAL_COST,"47,000","47,000"
+val/mcocr_public_145013rhwvu_003.png,ITEM_NAME,khăn ướt cool wipes gói 10 N0,khăn ướt cool wipes gói 10 N0
+val/mcocr_public_145013rhwvu_004.png,QUANTITY,1,1
+val/mcocr_public_145013rhwvu_005.png,UNIT_PRICE,"7,000","7,000"
+val/mcocr_public_145013rhwvu_006.png,LINE_TOTAL,"7,000","7,000"
+val/mcocr_public_145013rhwvu_007.png,ITEM_NAME,Xúc xích Everyday hạ long NT,Xúc xích Everyday hạ long NT
+val/mcocr_public_145013rhwvu_008.png,QUANTITY,1,1
+val/mcocr_public_145013rhwvu_009.png,UNIT_PRICE,"25,000","25,000"
+val/mcocr_public_145013rhwvu_010.png,LINE_TOTAL,"25,000","25,000"
+val/mcocr_public_145013rhwvu_011.png,ITEM_NAME,"Nước Sprite 1,5l NT","Nước Sprite 1,5l NT"
+val/mcocr_public_145013rhwvu_012.png,QUANTITY,1,1
+val/mcocr_public_145013rhwvu_013.png,UNIT_PRICE,"15,000","15,000"
+val/mcocr_public_145013rhwvu_014.png,LINE_TOTAL,"15,000","15,000"
+val/mcocr_public_145013rhwvu_015.png,TIMESTAMP,10/08/2020-14:28,10/08/2020-14:28
+val/mcocr_public_145013sscqf_000.png,SELLER,MINIMART ANAN,MINIMART ANAN
+val/mcocr_public_145013sscqf_001.png,ADDRESS,Chợ Sủi Phú Thị Gia Lâm,Chợ Sủi Phú Thị Gia Lâm
+val/mcocr_public_145013sscqf_002.png,TOTAL_COST,"231,996","231,996"
+val/mcocr_public_145013sscqf_003.png,TIMESTAMP,16/08/2020-18:13,16/08/2020-18:13
+val/mcocr_public_145013sscqf_004.png,ITEM_NAME,xúc xích cp 10c NT,xúc xích cp 10c NT
+val/mcocr_public_145013sscqf_005.png,QUANTITY,1,1
+val/mcocr_public_145013sscqf_006.png,UNIT_PRICE,"32,000","32,000"
+val/mcocr_public_145013sscqf_007.png,LINE_TOTAL,"32,000","32,000"
+val/mcocr_public_145013sscqf_008.png,ITEM_NAME,Bia 333 NT,Bia 333 NT
+val/mcocr_public_145013sscqf_009.png,QUANTITY,2,2
+val/mcocr_public_145013sscqf_010.png,UNIT_PRICE,"10,500","10,500"
+val/mcocr_public_145013sscqf_011.png,LINE_TOTAL,"21,000","21,000"
+val/mcocr_public_145013sscqf_012.png,ITEM_NAME,"DG tresemme đỏ, đen 650g NT","DG tresemme đỏ, đen 650g NT"
+val/mcocr_public_145013sscqf_013.png,QUANTITY,1,1
+val/mcocr_public_145013sscqf_014.png,UNIT_PRICE,"148,000","148,000"
+val/mcocr_public_145013sscqf_015.png,LINE_TOTAL,"148,000","148,000"
+val/mcocr_public_145013sscqf_016.png,ITEM_NAME,Nước C2 trà xanh 360ml NT,Nước C2 trà xanh 360ml NT
+val/mcocr_public_145013sscqf_017.png,QUANTITY,6,6
+val/mcocr_public_145013sscqf_018.png,UNIT_PRICE,"5,166","5,166"
+val/mcocr_public_145013sscqf_019.png,LINE_TOTAL,"30,996","30,996"
+val/mcocr_public_145013tnlbk_000.png,TOTAL_COST,24.700,24.700
+val/mcocr_public_145013tnlbk_001.png,SELLER,VinCommerce,VinCommerce
+val/mcocr_public_145013tnlbk_002.png,ADDRESS,"VM+ QNH Tổ 7, Khu Minh Tiến A","VM+ QNH Tổ 7, Khu Minh Tiến A"
+val/mcocr_public_145013tnlbk_003.png,ADDRESS,"Tổ 7, Khu Minh Tiến A","Tổ 7, Khu Minh Tiến A"
+val/mcocr_public_145013tnlbk_004.png,ADDRESS,"P. Cẩm Bình, TP. Cẩm Phả, QNH","P. Cẩm Bình, TP. Cẩm Phả, QNH"
+val/mcocr_public_145013tnlbk_005.png,TIMESTAMP,9/8/2020 21:25,9/8/2020 21:25
+val/mcocr_public_145013tnlbk_006.png,ITEM_NAME,LUCKLADY Khăn ướt vệ sinh 10tờ cí mùi,LUCKLADY Khăn ướt vệ sinh 10tờ có mùi
+val/mcocr_public_145013tnlbk_007.png,QUANTITY,1,1
+val/mcocr_public_145013tnlbk_008.png,UNIT_PRICE,7.800,7.800
+val/mcocr_public_145013tnlbk_009.png,LINE_TOTAL,7.800,7.800
+val/mcocr_public_145013tnlbk_010.png,ITEM_NAME,VMG - ường tinh luyện 1kg,VMG - ường tinh luyện 1kg
+val/mcocr_public_145013tnlbk_011.png,QUANTITY,1,1
+val/mcocr_public_145013tnlbk_012.png,UNIT_PRICE,21.500,21.500
+val/mcocr_public_145013tnlbk_013.png,LINE_TOTAL,21.500,21.500
+val/mcocr_public_145013vnlnm_000.png,SELLER,Phúc Anh Minimimart,Phúc Anh Minimart
+val/mcocr_public_145013vnlnm_001.png,ADDRESS,248 Cổ Bi - Gia Lâm - Hà Nội,248 Cổ Bi - Gia Lâm - Hà Nội
+val/mcocr_public_145013vnlnm_002.png,TOTAL_COST,"44,000","44,000"
+val/mcocr_public_145013vnlnm_003.png,TIMESTAMP,26-06-2020,26-06-2020
+val/mcocr_public_145013vnlnm_004.png,ITEM_NAME,SC Vinamilk có đường 100g,SC Vinamilk có đường 100g
+val/mcocr_public_145013vnlnm_005.png,QUANTITY,2,2
+val/mcocr_public_145013vnlnm_006.png,UNIT_PRICE,"22,000","22,000"
+val/mcocr_public_145013vnlnm_007.png,LINE_TOTAL,"44,000","44,000"
+val/mcocr_public_145013vtqrc_000.png,ADDRESS,VM+ QNH Số 483 Tổ 66 Khu Diêm Thủy,VM+ QNH Số 463 Tổ 66 Khu Diêm Thủy
+val/mcocr_public_145013vtqrc_001.png,ADDRESS,"Số 483, Tổ 66, Khu Diêm Thủy","Số 463, Tổ 66, Khu Diêm Thủy"
+val/mcocr_public_145013vtqrc_002.png,ADDRESS,"P. Cẩm Đông, TP. Cẩm Phả","P. Cẩm Đông, TP. Cẩm Phả"
+val/mcocr_public_145013vtqrc_003.png,TOTAL_COST,40.900,40.900
+val/mcocr_public_145013vtqrc_004.png,ITEM_NAME,OREO Bánh quy kem scl 137g/133g (T24),OREO Bánh quy kem Scl 137g/133g (T24)
+val/mcocr_public_145013vtqrc_005.png,QUANTITY,1,1
+val/mcocr_public_145013vtqrc_006.png,UNIT_PRICE,16.000,16.000
+val/mcocr_public_145013vtqrc_007.png,LINE_TOTAL,16.000,16.000
+val/mcocr_public_145013vtqrc_008.png,ITEM_NAME,HARIBO Kẹo xốp C.Pink & White 70g (T24),HARIBO Kẹo xốp C.Pink & White 70g (T24)
+val/mcocr_public_145013vtqrc_009.png,QUANTITY,1,1
+val/mcocr_public_145013vtqrc_010.png,UNIT_PRICE,24.900,24.900
+val/mcocr_public_145013vtqrc_011.png,LINE_TOTAL,24.900,24.900
+val/mcocr_public_145013vtqrc_012.png,TIMESTAMP,15/08/2020 07:22,15/08/2020 07:22
+val/mcocr_public_145013vtqrc_013.png,SELLER,VinCommerce,VinCommerce
+val/mcocr_public_145013wdcqs_000.png,SELLER,beemart,beemart
+val/mcocr_public_145013wdcqs_001.png,ADDRESS,"Số 5 ngõ 26 Nguyễn Khánh Toàn, Cầu Giấy, Hà Nội","Số 5 ngõ 26 Nguyên Khánh Toàn, Câu Giấy, Hà Nội"
+val/mcocr_public_145013wdcqs_002.png,TIMESTAMP,15/08/2020 12:55,15/08/2020 - 12:55
+val/mcocr_public_145013wdcqs_003.png,TOTAL_COST,"268,000","268,000"
+val/mcocr_public_145013wdcqs_004.png,ITEM_NAME,Túi bắt kem cỡ to 10c,Túi bát kem cớ to 10c
+val/mcocr_public_145013wdcqs_005.png,QUANTITY,1,1
+val/mcocr_public_145013wdcqs_006.png,UNIT_PRICE,"5,000","5,000"
+val/mcocr_public_145013wdcqs_007.png,LINE_TOTAL,"5,000","5,000"
+val/mcocr_public_145013wdcqs_008.png,ITEM_NAME,Khuôn ramenkin trắng lớn,Khuôn ramenkin tráng lớn
+val/mcocr_public_145013wdcqs_009.png,QUANTITY,4,4
+val/mcocr_public_145013wdcqs_010.png,UNIT_PRICE,"25,000","25,000"
+val/mcocr_public_145013wdcqs_011.png,LINE_TOTAL,"100,000","100,000"
+val/mcocr_public_145013wdcqs_012.png,ITEM_NAME,Kem tươi whipping cream hiệu Anchor - hộp 1L,Kem tươi whipping cream hiệu Anchor - hộp 1L
+val/mcocr_public_145013wdcqs_013.png,QUANTITY,1,1
+val/mcocr_public_145013wdcqs_014.png,UNIT_PRICE,"143,000","143,000"
+val/mcocr_public_145013wdcqs_015.png,LINE_TOTAL,"143,000","143,000"
+val/mcocr_public_145013wdcqs_016.png,ITEM_NAME,Giấy nén Eufood cuộn nhỏ (30cm x 5m),Giấy nên Eufood cuộn nhó (30cm x 5m)
+val/mcocr_public_145013wdcqs_017.png,QUANTITY,1,1
+val/mcocr_public_145013wdcqs_018.png,UNIT_PRICE,"20,000","20,000"
+val/mcocr_public_145013wdcqs_019.png,LINE_TOTAL,"20,000","20,000"
+val/mcocr_public_145013wgrej_000.png,SELLER,Saigon Co.op,Saigon Co.op
+val/mcocr_public_145013wgrej_001.png,SELLER,Co.op Food HN THE K-PARK,Co.op Food HN THE K-PARK
+val/mcocr_public_145013wgrej_002.png,ADDRESS,"Tang 1,SH42 - Toa K3,Cong trinh chung cu","Tang 1,SH42 - Toa K3,Cong trinh chung cu"
+val/mcocr_public_145013wgrej_003.png,ADDRESS,ket hop đich vu tren o dat H-CT2 thuoc,ket hop dich vu tren o dat H-CT2 thuoc
+val/mcocr_public_145013wgrej_004.png,ADDRESS,Du an Dau tu xay dung Khu nha o Hi Brand,Du an Dau tu xay dung Khu nha o Hi Brand
+val/mcocr_public_145013wgrej_005.png,ADDRESS,"tai Khu do thi moi Van Phu,","tai Khu do thi moi Van Phu,"
+val/mcocr_public_145013wgrej_006.png,ADDRESS,"P. Phu La, Q. Ha Dong, Tp Ha Noi","P. Phu La, Q. Ha Dong, Tp Ha Noi"
+val/mcocr_public_145013wgrej_007.png,TOTAL_COST,"29,300.00","29,300.00"
+val/mcocr_public_145013wgrej_008.png,TIMESTAMP,19/09/20199 18:00:35,19/09/2019 18:00:35
+val/mcocr_public_145013wgrej_009.png,ITEM_NAME,Snack muc Tinten TAO.otng,Snack muc Tinten TAO.otng
+val/mcocr_public_145013wgrej_010.png,QUANTITY,1,1
+val/mcocr_public_145013wgrej_011.png,UNIT_PRICE,"23,000.00","23,000.00"
+val/mcocr_public_145013wgrej_012.png,LINE_TOTAL,"23,000.00","23,000.00"
+val/mcocr_public_145013wgrej_013.png,ITEM_NAME,Bot tamkho c.gion Aji-Qui,Bot tamkho c.gion Aji-Qui
+val/mcocr_public_145013wgrej_014.png,QUANTITY,1,1
+val/mcocr_public_145013wgrej_015.png,UNIT_PRICE,"6,300.00","6,300.00"
+val/mcocr_public_145013wgrej_016.png,LINE_TOTAL,"6,300.00","6,300.00"
+val/mcocr_public_145013zlljn_000.png,ADDRESS,"403 Phan Huy Ích, P.14, Q.Gò Vấp","403 Phan Huy Ích, P.14, Q.Gò Vấp"
+val/mcocr_public_145013zlljn_001.png,SELLER,THE COFFEE HOUSE,THE COFFEE HOUSE
+val/mcocr_public_145013zlljn_002.png,TOTAL_COST,59 000,59 000
+val/mcocr_public_145013zlljn_003.png,ITEM_NAME,Oolong Vải Như Ý,Oolong Vài Nhưỷ
+val/mcocr_public_145013zlljn_004.png,QUANTITY,1,1
+val/mcocr_public_145013zlljn_005.png,UNIT_PRICE,59 000,59 0007
+val/mcocr_public_145013zlljn_006.png,LINE_TOTAL,59 000,59 000
+val/mcocr_public_145013zlljn_007.png,TIMESTAMP,01.10.2020 09.04,01.10.2020 09.04
+val/mcocr_public_145013zlljn_008.png,ITEM_NAME,#NAME?,#NAME?
+val/mcocr_public_145014aclha_000.png,SELLER,MINIMART ANAN,MINIMART ANAN
+val/mcocr_public_145014aclha_001.png,ADDRESS,Chợ Sủi Phú Thị Gia Lâm,Chợ Sủi Phú Thị Gia Lâm
+val/mcocr_public_145014aclha_002.png,TOTAL_COST,"66,000","66,000"
+val/mcocr_public_145014aclha_003.png,TIMESTAMP,11/08/2020-15:40,11/08/2020-15:40
+val/mcocr_public_145014aclha_004.png,ITEM_NAME,Sữa đàn bò ít đường VNM 180 NT,Sữa đàn bò ít đường VNM 180 NT
+val/mcocr_public_145014aclha_005.png,QUANTITY,8,8
+val/mcocr_public_145014aclha_006.png,UNIT_PRICE,"7,000","7,000"
+val/mcocr_public_145014aclha_007.png,LINE_TOTAL,"56,000","56,000"
+val/mcocr_public_145014aclha_008.png,ITEM_NAME,Sữa chua Mộc Châu 100g NT,Sữa chua Mộc Châu 100g NT
+val/mcocr_public_145014aclha_009.png,QUANTITY,2,2
+val/mcocr_public_145014aclha_010.png,UNIT_PRICE,"5,000","5,000"
+val/mcocr_public_145014aclha_011.png,LINE_TOTAL,"10,000","10,000"
+val/mcocr_public_145014ancat_000.png,SELLER,SCTC CỔ THỎ 104 TRẦN PHÚ - CẨM,SCTC CÔ THỎ 104 TRẦN PHÚ - CẨM
+val/mcocr_public_145014ancat_001.png,SELLER,PHẢ,PHẢ
+val/mcocr_public_145014ancat_002.png,ADDRESS,104 Trần Phú - phường Cẩm Tây - Thành phố Cẩm,104 Trần Phú - phường Cẩm Tây - Thành phố Cẩm
+val/mcocr_public_145014ancat_003.png,ADDRESS,Phả - Quảng Ninh,Phả - Quảng Ninh
+val/mcocr_public_145014ancat_004.png,TOTAL_COST,155.000đ,155.000đ
+val/mcocr_public_145014ancat_005.png,ITEM_NAME,Sữa chua kiwi,Sữa chua kiwi
+val/mcocr_public_145014ancat_006.png,QUANTITY,2,2
+val/mcocr_public_145014ancat_007.png,UNIT_PRICE,35.000,35.000
+val/mcocr_public_145014ancat_008.png,LINE_TOTAL,70.000,70.000
+val/mcocr_public_145014ancat_009.png,ITEM_NAME,Sữa chua việt,Sữa chua việt
+val/mcocr_public_145014ancat_010.png,QUANTITY,1,1
+val/mcocr_public_145014ancat_011.png,UNIT_PRICE,35.000,35.000
+val/mcocr_public_145014ancat_012.png,LINE_TOTAL,35.000,35.000
+val/mcocr_public_145014ancat_013.png,ITEM_NAME,Nha đam,Nha đam
+val/mcocr_public_145014ancat_014.png,QUANTITY,1,1
+val/mcocr_public_145014ancat_015.png,UNIT_PRICE,10.000,10.000
+val/mcocr_public_145014ancat_016.png,LINE_TOTAL,10.000,10.000
+val/mcocr_public_145014ancat_017.png,ITEM_NAME,Trân châu,Trân châu
+val/mcocr_public_145014ancat_018.png,QUANTITY,1,1
+val/mcocr_public_145014ancat_019.png,UNIT_PRICE,10.000,10.000
+val/mcocr_public_145014ancat_020.png,LINE_TOTAL,10.000,10.000
+val/mcocr_public_145014ancat_021.png,ITEM_NAME,Sữa chua nha,Sữa chua nha
+val/mcocr_public_145014ancat_022.png,QUANTITY,1,1
+val/mcocr_public_145014ancat_023.png,UNIT_PRICE,30.000,30.000
+val/mcocr_public_145014ancat_024.png,LINE_TOTAL,30.000,30.000
+val/mcocr_public_145014ancat_025.png,TIMESTAMP,10/08/2020 (07:35 CH - 07:35 CH),10/08/2020 (07:35 CH - 07:35 CH)
+val/mcocr_public_145014ancat_026.png,ITEM_NAME,quất,quất
+val/mcocr_public_145014ancat_027.png,ITEM_NAME,đường đen,đường đen
+val/mcocr_public_145014ancat_028.png,ITEM_NAME,đam,đam
+val/mcocr_public_145014atzjl_000.png,SELLER,NHÀ SÁCH GD-TC CẨM PHẢ,NHÀ SÁCH GD-TC CẨM PHẢ
+val/mcocr_public_145014atzjl_001.png,ADDRESS,ĐC: 212 Đường Trần Phú-Cẩm Phả,ĐC: 212 Đường Trần Phú-Cẩm Phả
+val/mcocr_public_145014atzjl_002.png,TOTAL_COST,27.000đ,27.000đ
+val/mcocr_public_145014atzjl_003.png,ITEM_NAME,Bọc vở Decan,Bậc vở Decan
+val/mcocr_public_145014atzjl_004.png,QUANTITY,1,1
+val/mcocr_public_145014atzjl_005.png,UNIT_PRICE,27.000,27.000
+val/mcocr_public_145014atzjl_006.png,LINE_TOTAL,27.000đ,27.000đ
+val/mcocr_public_145014atzjl_007.png,TIMESTAMP,19:53:57 - 14/08/2020,19:53:57 - 14/08/2020
+val/mcocr_public_145014avuac_000.png,SELLER,VinCommerce,VinCommerce
+val/mcocr_public_145014avuac_001.png,ADDRESS,VM+ QNH Số 463 Tổ 66 Khu Diêm Thuỷ,VM+ QNH Số 463 Tổ 66 Khu Diêm Thủy
+val/mcocr_public_145014avuac_002.png,ADDRESS,"Số 483, Tổ 86, Khu Diêm Thủy","Số 463, Tổ 68, Khu Diêm Thủy"
+val/mcocr_public_145014avuac_003.png,ADDRESS,"P. Cẩm Đông, TP. Cẩm Phả","P. Cẩm Đông, TP. Cẩm Phả"
+val/mcocr_public_145014avuac_004.png,TOTAL_COST,22.000,22.000
+val/mcocr_public_145014avuac_005.png,ITEM_NAME,Unclejax bắp rang vi bơ 80gt56,Unclejax bắp rang vi bơ 80gt56
+val/mcocr_public_145014avuac_006.png,QUANTITY,1,1
+val/mcocr_public_145014avuac_007.png,UNIT_PRICE,22.000,22.000
+val/mcocr_public_145014avuac_008.png,LINE_TOTAL,22.000,22.000
+val/mcocr_public_145014avuac_009.png,TIMESTAMP,15/08/2020 11:07,15/08/2020 11:07
+val/mcocr_public_145014awxdd_000.png,SELLER,Saigon Co.op,Saigon Co.op
+val/mcocr_public_145014awxdd_001.png,SELLER,Co.op Food HN THE K-PARK,Co.op Food HN THE K-PARK
+val/mcocr_public_145014awxdd_002.png,ADDRESS,"P. Phu La, Q. Ha Dong, Tp Ha Noi","P. Phu La, Q. Ha Dong, Tp Ha Noi"
+val/mcocr_public_145014awxdd_003.png,ADDRESS,"tai Khu do thi moi Van Phu,","tai Khu do thi moi Van Phu,"
+val/mcocr_public_145014awxdd_004.png,ADDRESS,"Tang 1,SH42 - Toa K3,Cong trinh chung cu","Tang 1,SH42 - Toa K3,Cong trinh chung cu"
+val/mcocr_public_145014awxdd_005.png,ADDRESS,ket hop dich vu tren o dat H-CT2 thuoc,ket hop dich vu tren o dat H-CT2 thuoc
+val/mcocr_public_145014awxdd_006.png,ADDRESS,Du an Dau tu xay dung Khu nha o Hi Brand,Du an Dau tu xay dung Khu nha o Hi Brand
+val/mcocr_public_145014awxdd_007.png,TIMESTAMP,19/09/2019 18:15:14,19/09/2019 18:15:14
+val/mcocr_public_145014awxdd_008.png,ITEM_NAME,Bap sieu ngot kg,Bap sieu ngot kg
+val/mcocr_public_145014awxdd_009.png,QUANTITY,0.374,0.374
+val/mcocr_public_145014awxdd_010.png,UNIT_PRICE,"34,600.00","34,600.00"
+val/mcocr_public_145014awxdd_011.png,LINE_TOTAL,"12,940.40","12,940.40"
+val/mcocr_public_145014awxdd_012.png,ITEM_NAME,Thom trai con vo,Thom trai con vo
+val/mcocr_public_145014awxdd_013.png,QUANTITY,1,1
+val/mcocr_public_145014awxdd_014.png,UNIT_PRICE,"16,500.00","16,500.00"
+val/mcocr_public_145014awxdd_015.png,LINE_TOTAL,"16,500.00","16,500.00"
+val/mcocr_public_145014awxdd_016.png,ITEM_NAME,Sa tuoi kg,Sa tuoi kg
+val/mcocr_public_145014awxdd_017.png,QUANTITY,0.08,0.08
+val/mcocr_public_145014awxdd_018.png,UNIT_PRICE,"26,000.00","26,000.00"
+val/mcocr_public_145014awxdd_019.png,LINE_TOTAL,"2,080.00","2,080.00"
+val/mcocr_public_145014awxdd_020.png,ITEM_NAME,Dau hu trang,Dau hu trang
+val/mcocr_public_145014awxdd_021.png,QUANTITY,2,2
+val/mcocr_public_145014awxdd_022.png,UNIT_PRICE,"5,000","5,000.00"
+val/mcocr_public_145014awxdd_023.png,LINE_TOTAL,"10,000.00","10,000.00"
+val/mcocr_public_145014awxdd_024.png,TOTAL_COST,"41,520.40","41,520.40"
+val/mcocr_public_145014bcbgu_000.png,SELLER,co.opmart,co.opmart
+val/mcocr_public_145014bcbgu_001.png,ADDRESS,"188 Hau Giang, P.6, Q.6, TpHCM","188 Hau Giang, P.6, Q.6, TpHCM"
+val/mcocr_public_145014bcbgu_002.png,QUANTITY,2,2
+val/mcocr_public_145014bcbgu_003.png,UNIT_PRICE,"141,900.00","141,900.00"
+val/mcocr_public_145014bcbgu_004.png,LINE_TOTAL,"283,800.00","283,800.00"
+val/mcocr_public_145014bcbgu_005.png,QUANTITY,2,2
+val/mcocr_public_145014bcbgu_006.png,UNIT_PRICE,"141,900.00","141,900.00"
+val/mcocr_public_145014bcbgu_007.png,LINE_TOTAL,"283,800.00","283,800.00"
+val/mcocr_public_145014bcbgu_008.png,QUANTITY,1,1
+val/mcocr_public_145014bcbgu_009.png,UNIT_PRICE,"158,700.00","158,700.00"
+val/mcocr_public_145014bcbgu_010.png,LINE_TOTAL,"158,700.00","158,700.00"
+val/mcocr_public_145014bcbgu_011.png,ITEM_NAME,KDR CloseUp bac ha 230g,KDR CloseUp bac ha 230g
+val/mcocr_public_145014bcbgu_012.png,QUANTITY,6,6
+val/mcocr_public_145014bcbgu_013.png,UNIT_PRICE,"36,500.00","36,500.00"
+val/mcocr_public_145014bcbgu_014.png,LINE_TOTAL,"219,000.00","219,000.00"
+val/mcocr_public_145014bcbgu_015.png,TOTAL_COST,"945,300.00","945,300.00"
+val/mcocr_public_145014bcbgu_016.png,TIMESTAMP,21/08/2020 10:12:09,21/05/2020 10:12:09
+val/mcocr_public_145014bcbgu_017.png,SELLER,Co.opMart HAU GIANG,Co.opMart HAU GIANG
+val/mcocr_public_145014bcbgu_018.png,ITEM_NAME,DG ROM.classic vitB5-650g,DG ROM.classic vitB5-650g
+val/mcocr_public_145014bcbgu_019.png,ITEM_NAME,DG Tresemme gay rung640/6,DG Tresemme gay rung640/6
+val/mcocr_public_145014bcbgu_020.png,ITEM_NAME,DX Tresemme t kho k.vaone,DX Tresemme t.kho k.vaone
+val/mcocr_public_145014bqglf_000.png,TOTAL_COST,166.404,166.404
+val/mcocr_public_145014bqglf_001.png,ADDRESS,VMH+QNH 112 Thanh Niên,VM+ QNH 112 Thanh Niên
+val/mcocr_public_145014bqglf_002.png,ADDRESS,Số 112 Thanh Niên. P. Cẩm Thành,"Số 112 Thanh Niên, P. Cẩm Thành"
+val/mcocr_public_145014bqglf_003.png,ADDRESS,"Tp. Cẩm Phả, Quảng Ninh","TP. Cẩm Phả, Quảng Ninh"
+val/mcocr_public_145014bqglf_004.png,SELLER,VinCommerce,VinCommerce
+val/mcocr_public_145014bqglf_005.png,TIMESTAMP,9/8/2020 19:09,9/8/2020 19:09
+val/mcocr_public_145014bqglf_006.png,ITEM_NAME,Dưa Hâu Sài Gòn L1 MB,Dưa hấu Sài Gòn L1 MB
+val/mcocr_public_145014bqglf_007.png,QUANTITY,1,1
+val/mcocr_public_145014bqglf_008.png,UNIT_PRICE,66.990,66.990
+val/mcocr_public_145014bqglf_009.png,LINE_TOTAL,66.990,66.990
+val/mcocr_public_145014bqglf_010.png,ITEM_NAME,MEIZAN Dầu đậu nành chai 1L,MEIZAN Dầu đậu nành chai 1L
+val/mcocr_public_145014bqglf_011.png,QUANTITY,1,1
+val/mcocr_public_145014bqglf_012.png,UNIT_PRICE,42.500,42.500
+val/mcocr_public_145014bqglf_013.png,LINE_TOTAL,42.500,42.500
+val/mcocr_public_145014bqglf_014.png,ITEM_NAME,Hạt hướng dương vị dừa Cha Cheer G130g,Hạt hướng dương vị dừa Cha Cheer G130g
+val/mcocr_public_145014bqglf_015.png,QUANTITY,1,1
+val/mcocr_public_145014bqglf_016.png,UNIT_PRICE,24.900,24.900
+val/mcocr_public_145014bqglf_017.png,LINE_TOTAL,24.900,24.900
+val/mcocr_public_145014bqglf_018.png,ITEM_NAME,Mít quả,"Mít,quả"
+val/mcocr_public_145014bqglf_019.png,UNIT_PRICE,45.656,45.656
+val/mcocr_public_145014bqglf_020.png,QUANTITY,1,1
+val/mcocr_public_145014bqglf_021.png,LINE_TOTAL,45.656,45.656
+val/mcocr_public_145014btewf_000.png,SELLER,Tiệm trà,Tiệm trà
+val/mcocr_public_145014btewf_001.png,SELLER,Thanh,Thanh
+val/mcocr_public_145014btewf_002.png,SELLER,Xuân,Xuân
+val/mcocr_public_145014btewf_003.png,ADDRESS,"244/23a Huỳnh Văn Bánh, P.11, Q.PN","244/23a Huỳnh Văn Bánh, P.11, Q.PN"
+val/mcocr_public_145014btewf_004.png,TIMESTAMP,30.09.2020 20.45,30.09.2020 20.45
+val/mcocr_public_145014btewf_005.png,TOTAL_COST,70 200,70 200
+val/mcocr_public_145014btewf_006.png,ITEM_NAME,Choco Sữa,Choco Sữa
+val/mcocr_public_145014btewf_007.png,QUANTITY,1,1
+val/mcocr_public_145014btewf_008.png,UNIT_PRICE,39 000,39 000
+val/mcocr_public_145014btewf_009.png,LINE_TOTAL,39 000,39 000
+val/mcocr_public_145014btewf_010.png,ITEM_NAME,Sữa Dâu Machiato,Sữa Dâu Machiato
+val/mcocr_public_145014btewf_011.png,QUANTITY,1,1
+val/mcocr_public_145014btewf_012.png,UNIT_PRICE,39 000,39 000
+val/mcocr_public_145014btewf_013.png,LINE_TOTAL,39 000,39 000
+val/mcocr_public_145014bzkaq_000.png,SELLER,VinCommerce,VinCommerce
+val/mcocr_public_145014bzkaq_001.png,TIMESTAMP,15/08/2020 11:16,15/08/2020 11:16
+val/mcocr_public_145014bzkaq_002.png,ADDRESS,"VM+ QNH Tổ 7, Khu Minh Tiến A","VM+ QNH Tổ 7, Khu Minh Tiến A"
+val/mcocr_public_145014bzkaq_003.png,ADDRESS,"Tổ4 7, Khu Minh Tiến A","Tổ 7, Khu Minh Tiến A"
+val/mcocr_public_145014bzkaq_004.png,ADDRESS,"P. Cẩm Bình, TP. Cẩm Pha, QNH","P. Cẩm Bình, TP. Cẩm Phả, QNH"
+val/mcocr_public_145014bzkaq_005.png,TOTAL_COST,267.728,267.728
+val/mcocr_public_145014bzkaq_006.png,ITEM_NAME,Cải xanh (cải canh) L1 Vineco,Cải xanh (cải canh) L1 Vineco
+val/mcocr_public_145014bzkaq_007.png,QUANTITY,1,1
+val/mcocr_public_145014bzkaq_008.png,UNIT_PRICE,9.428,9.428
+val/mcocr_public_145014bzkaq_009.png,LINE_TOTAL,9.428,9.428
+val/mcocr_public_145014bzkaq_010.png,ITEM_NAME,ARGO Rong biển trộn cơm Argo gói 50g T30,ARGO Rong biển trộn cơm Argo gói 50g T30
+val/mcocr_public_145014bzkaq_011.png,QUANTITY,1,1
+val/mcocr_public_145014bzkaq_012.png,UNIT_PRICE,58.900,58.900
+val/mcocr_public_145014bzkaq_013.png,LINE_TOTAL,58.900,58.900
+val/mcocr_public_145014bzkaq_014.png,ITEM_NAME,MIWON Rong biển giòn trộn gia vị 50g T20,MIWON Rong biển giòn trộn gia vị 50g T20
+val/mcocr_public_145014bzkaq_015.png,QUANTITY,1,1
+val/mcocr_public_145014bzkaq_016.png,UNIT_PRICE,47.500,47.500
+val/mcocr_public_145014bzkaq_017.png,LINE_TOTAL,47.500,47.500
+val/mcocr_public_145014bzkaq_018.png,ITEM_NAME,CP_Thịt heo xay 300g,CP_Thịt heo xay 300g
+val/mcocr_public_145014bzkaq_019.png,QUANTITY,1,1
+val/mcocr_public_145014bzkaq_020.png,UNIT_PRICE,49.500,49.500
+val/mcocr_public_145014bzkaq_021.png,LINE_TOTAL,49.500,49.500
+val/mcocr_public_145014bzkaq_022.png,ITEM_NAME,Tim gà CP 500g,Tim gà CP 500g
+val/mcocr_public_145014bzkaq_023.png,QUANTITY,1,1
+val/mcocr_public_145014bzkaq_024.png,UNIT_PRICE,75.900,75.900
+val/mcocr_public_145014bzkaq_025.png,LINE_TOTAL,75.900,75.900
+val/mcocr_public_145014bzkaq_026.png,ITEM_NAME,SLIDE Snack k.tây tự nhiên 75g (T28),SLIDE Snack k.tây tự nhiên 75g (T28)
+val/mcocr_public_145014bzkaq_027.png,QUANTITY,1,1
+val/mcocr_public_145014bzkaq_028.png,UNIT_PRICE,26.500,26.500
+val/mcocr_public_145014bzkaq_029.png,LINE_TOTAL,26.500,26.500
+val/mcocr_public_145014cbbmj_000.png,SELLER,MINIMART ANAN,MINIMART ANAN
+val/mcocr_public_145014cbbmj_001.png,ADDRESS,Chợ Sủi Phú Thị Gia Lâm,Chợ Sủi Phú Thị Gia Lâm
+val/mcocr_public_145014cbbmj_002.png,TOTAL_COST,"77,000","77,000"
+val/mcocr_public_145014cbbmj_003.png,TIMESTAMP,12/08/2020-12:56,12/08/2020-12:56
+val/mcocr_public_145014cbbmj_004.png,ITEM_NAME,kem tràng tiền mít tố nữ NT,kem tràng tiền mít tố nữ NT
+val/mcocr_public_145014cbbmj_005.png,QUANTITY,10,10
+val/mcocr_public_145014cbbmj_006.png,UNIT_PRICE,"3,500","3,500"
+val/mcocr_public_145014cbbmj_007.png,LINE_TOTAL,"35,000","35,000"
+val/mcocr_public_145014cbbmj_008.png,ITEM_NAME,Sữa chua đường VNM 100g,Sữa chua đường VNM 100g NT
+val/mcocr_public_145014cbbmj_009.png,QUANTITY,8,8
+val/mcocr_public_145014cbbmj_010.png,UNIT_PRICE,"5,520","5,250"
+val/mcocr_public_145014cbbmj_011.png,LINE_TOTAL,"42,000","42,000"
+val/mcocr_public_145014ccyis_000.png,SELLER,MINIMART ANAN,MINIMART ANAN
+val/mcocr_public_145014ccyis_001.png,ADDRESS,Chợ Sủi Phú Thị Gia Lâm,Chợ Sủi Phú Thị Gia Lâm
+val/mcocr_public_145014ccyis_002.png,TOTAL_COST,"40,000","40,000"
+val/mcocr_public_145014ccyis_003.png,ITEM_NAME,Thuốc là Thăng Long mềm NT,Thuốc lá Thăng Long mềm NT
+val/mcocr_public_145014ccyis_004.png,QUANTITY,1,1
+val/mcocr_public_145014ccyis_005.png,UNIT_PRICE,"8,500","8,500"
+val/mcocr_public_145014ccyis_006.png,LINE_TOTAL,"8,500","8,500"
+val/mcocr_public_145014ccyis_007.png,ITEM_NAME,Kẹo chew gói nhỏ các loại 1 NT,Kẹo chew gói nhỏ các loại 1 NT
+val/mcocr_public_145014ccyis_008.png,QUANTITY,1,1
+val/mcocr_public_145014ccyis_009.png,UNIT_PRICE,"6,000","6,000"
+val/mcocr_public_145014ccyis_010.png,LINE_TOTAL,"6,000","6,000"
+val/mcocr_public_145014ccyis_011.png,ITEM_NAME,bánh quy mứt hỗn hợp bisla N0,bánh quy mứt hỗn hợp bisla N0
+val/mcocr_public_145014ccyis_012.png,QUANTITY,1,1
+val/mcocr_public_145014ccyis_013.png,UNIT_PRICE,"20,000","20,000"
+val/mcocr_public_145014ccyis_014.png,LINE_TOTAL,"20,000","20,000"
+val/mcocr_public_145014ccyis_015.png,ITEM_NAME,bánh kem xốp đại phát N0,bánh kem xốp đại phát N0
+val/mcocr_public_145014ccyis_016.png,QUANTITY,1,1
+val/mcocr_public_145014ccyis_017.png,UNIT_PRICE,"5,500","5,500"
+val/mcocr_public_145014ccyis_018.png,LINE_TOTAL,"5,500","5,500"
+val/mcocr_public_145014ccyis_019.png,TIMESTAMP,17/08/2020 09:59,17/08/2020-09:59
+val/mcocr_public_145014cpzwm_000.png,SELLER,PHẢ,PHẢ
+val/mcocr_public_145014cpzwm_001.png,ITEM_NAME,Sữa chua dâu,Sữa chua dâu
+val/mcocr_public_145014cpzwm_002.png,QUANTITY,1,1
+val/mcocr_public_145014cpzwm_003.png,UNIT_PRICE,35.000,35.000
+val/mcocr_public_145014cpzwm_004.png,LINE_TOTAL,35.000,35.000
+val/mcocr_public_145014cpzwm_005.png,ITEM_NAME,sữa chua trân,sữa chua trân
+val/mcocr_public_145014cpzwm_006.png,QUANTITY,1,1
+val/mcocr_public_145014cpzwm_007.png,UNIT_PRICE,25.000,25.000
+val/mcocr_public_145014cpzwm_008.png,LINE_TOTAL,25.000,25.000
+val/mcocr_public_145014cpzwm_009.png,ITEM_NAME,Sữa chua,Sữa chua
+val/mcocr_public_145014cpzwm_010.png,QUANTITY,1,1
+val/mcocr_public_145014cpzwm_011.png,UNIT_PRICE,25.000,25.000
+val/mcocr_public_145014cpzwm_012.png,LINE_TOTAL,25.000,25.000
+val/mcocr_public_145014cpzwm_013.png,TIMESTAMP,10/08/2020 (07:48CH-07:48CH),10/08/2020 (07:48 CH - 07:48 CH)
+val/mcocr_public_145014cpzwm_014.png,TOTAL_COST,85.000đ,85.000đ
+val/mcocr_public_145014cpzwm_015.png,SELLER,SCTC CÔ THỎ 104 TRẦN PHÚ - CẨM,SCTC CÔ THỎ 104 TRẦN PHÚ - CẨM
+val/mcocr_public_145014cpzwm_016.png,ADDRESS,104 Trần Phú - phường Cẩm Tây - Thành phố Cẩm,104 Trần Phú - phường Cẩm Tây - Thành phố Cẩm
+val/mcocr_public_145014cpzwm_017.png,ADDRESS,Phả - Quảng Ninh,Phả - Quảng Ninh
+val/mcocr_public_145014cpzwm_018.png,ITEM_NAME,châu Cô Thỏ,châu Cô Thỏ
+val/mcocr_public_145014cpzwm_019.png,ITEM_NAME,matcha,matcha
+val/mcocr_public_145014dkivp_000.png,SELLER,NHÀ SÁCH GD-TC CẨM PHẢ,NHÀ SÁCH GD-TC CẨM PHẢ
+val/mcocr_public_145014dkivp_001.png,ADDRESS,ĐC: 212 Đường Trần Phú-Cẩm Phả,ĐC: 212 Đường Trần Phú-Cẩm Phả
+val/mcocr_public_145014dkivp_002.png,TOTAL_COST,76.000đ,76.000đ
+val/mcocr_public_145014dkivp_003.png,ITEM_NAME,Vở kẻ ngang 80 tr,Vở kẻ ngang 80 tr
+val/mcocr_public_145014dkivp_004.png,QUANTITY,1,1
+val/mcocr_public_145014dkivp_005.png,UNIT_PRICE,11.000,11.000
+val/mcocr_public_145014dkivp_006.png,LINE_TOTAL,11.000đ,11.000đ
+val/mcocr_public_145014dkivp_007.png,ITEM_NAME,Vở kẻ ngang,Vở kẻ ngang
+val/mcocr_public_145014dkivp_008.png,QUANTITY,2,2
+val/mcocr_public_145014dkivp_009.png,UNIT_PRICE,7.000,7.000
+val/mcocr_public_145014dkivp_010.png,LINE_TOTAL,14.000đ,14.000đ
+val/mcocr_public_145014dkivp_011.png,ITEM_NAME,Lịch sử 10,Lịch sử 10
+val/mcocr_public_145014dkivp_012.png,QUANTITY,1,1
+val/mcocr_public_145014dkivp_013.png,UNIT_PRICE,15.000,15.000
+val/mcocr_public_145014dkivp_014.png,LINE_TOTAL,15.000đ,15.000đ
+val/mcocr_public_145014dkivp_015.png,ITEM_NAME,Địa lí 10,Địa lí 10
+val/mcocr_public_145014dkivp_016.png,QUANTITY,1,1
+val/mcocr_public_145014dkivp_017.png,UNIT_PRICE,14.000,14.000
+val/mcocr_public_145014dkivp_018.png,LINE_TOTAL,14.000đ,14.000đ
+val/mcocr_public_145014dkivp_019.png,ITEM_NAME,Tiếng Anh 10,Tiếng Anh 10
+val/mcocr_public_145014dkivp_020.png,QUANTITY,1,1
+val/mcocr_public_145014dkivp_021.png,UNIT_PRICE,15.000,15.000
+val/mcocr_public_145014dkivp_022.png,LINE_TOTAL,15.000đ,15.000đ
+val/mcocr_public_145014dkivp_023.png,ITEM_NAME,GDCD 10,GDCD 10
+val/mcocr_public_145014dkivp_024.png,QUANTITY,1,1
+val/mcocr_public_145014dkivp_025.png,UNIT_PRICE,7.000,7.000
+val/mcocr_public_145014dkivp_026.png,LINE_TOTAL,7.000đ,7.000đ
+val/mcocr_public_145014dkivp_027.png,TIMESTAMP,20:08:01 - 14/08/2020,20:08:01 - 14/08/2020
+val/mcocr_public_145014dztik_000.png,SELLER,MINIMART ANAN,MINIMART ANAN
+val/mcocr_public_145014dztik_001.png,ADDRESS,Chợ Sủi Phú Thị Gia Lâm,Chợ Sủi Phú Thị Gia Lâm
+val/mcocr_public_145014dztik_002.png,TOTAL_COST,"147,000","147,000"
+val/mcocr_public_145014dztik_003.png,TIMESTAMP,13/08/2020 - 16:41,13/08/2020-16:41
+val/mcocr_public_145014dztik_004.png,ITEM_NAME,cafe hòa tan g7 hộp 20 gói NT,cafe hòa tan g7 hộp 20 gói NT
+val/mcocr_public_145014dztik_005.png,QUANTITY,1,1
+val/mcocr_public_145014dztik_006.png,UNIT_PRICE,"38,000","38,000"
+val/mcocr_public_145014dztik_007.png,LINE_TOTAL,"38,000","38,000"
+val/mcocr_public_145014dztik_008.png,ITEM_NAME,bánh cosy túi 576g NT,bánh cosy túi 576g NT
+val/mcocr_public_145014dztik_009.png,QUANTITY,1,1
+val/mcocr_public_145014dztik_010.png,UNIT_PRICE,"47,000","47,000"
+val/mcocr_public_145014dztik_011.png,LINE_TOTAL,"47,000","47,000"
+val/mcocr_public_145014dztik_012.png,ITEM_NAME,tương ớt chinsu chai 500g N0,tương ớt chinsu chai 500g N0
+val/mcocr_public_145014dztik_013.png,QUANTITY,1,1
+val/mcocr_public_145014dztik_014.png,UNIT_PRICE,"20,000","20,000"
+val/mcocr_public_145014dztik_015.png,LINE_TOTAL,"20,000","20,000"
+val/mcocr_public_145014dztik_016.png,ITEM_NAME,Dầu neptune 1L NT,Dầu Neptune 1L NT
+val/mcocr_public_145014dztik_017.png,QUANTITY,1,1
+val/mcocr_public_145014dztik_018.png,UNIT_PRICE,"42,000","42,000"
+val/mcocr_public_145014dztik_019.png,LINE_TOTAL,"42,000","42,000"
+val/mcocr_public_145014eamas_000.png,SELLER,SIEU THI BACH HOA TONG HOP,BIEU THI BACH HOA TONG HOP
+val/mcocr_public_145014eamas_001.png,ADDRESS,Số 5 Cẩm Tây - Cẩm Phả - QN,Bố 5 Cẩm Tây - Cẩm Phả - QN
+val/mcocr_public_145014eamas_002.png,TOTAL_COST,"518,900","518,900"
+val/mcocr_public_145014eamas_003.png,ITEM_NAME,Nước giặt Siby hương ngàn hoa can tím NT,Nước giột Biuhy hương ngân hoa can tim NT
+val/mcocr_public_145014eamas_004.png,QUANTITY,1,1
+val/mcocr_public_145014eamas_005.png,UNIT_PRICE,"168,000","168,000"
+val/mcocr_public_145014eamas_006.png,LINE_TOTAL,"168,000","168,000"
+val/mcocr_public_145014eamas_007.png,ITEM_NAME,Bia Hà Nội lon 330ml T24(vàng) NT,Bia Hà Nội lon 330ml T24(vàng) NT
+val/mcocr_public_145014eamas_008.png,QUANTITY,5,6
+val/mcocr_public_145014eamas_009.png,UNIT_PRICE,"11,000","11,000"
+val/mcocr_public_145014eamas_010.png,LINE_TOTAL,"55,000","55,000"
+val/mcocr_public_145014eamas_011.png,ITEM_NAME,Pate gan Hạ Long 170g T2,Fate gan Ha Long 170g T2
+val/mcocr_public_145014eamas_012.png,QUANTITY,3,3
+val/mcocr_public_145014eamas_013.png,UNIT_PRICE,"22,500","22,500"
+val/mcocr_public_145014eamas_014.png,LINE_TOTAL,"67,500","67,500"
+val/mcocr_public_145014eamas_015.png,ITEM_NAME,Pate gan hảo vị Mai Vàng Vissan 150g T2,Pate gan hảo vị Mai Vàng Vissan 150g T2
+val/mcocr_public_145014eamas_016.png,QUANTITY,2,2
+val/mcocr_public_145014eamas_017.png,UNIT_PRICE,"15,000","15,000"
+val/mcocr_public_145014eamas_018.png,LINE_TOTAL,"30,000","30,000"
+val/mcocr_public_145014eamas_019.png,ITEM_NAME,Bột canh Vifon 200g T40 T2,Bột canh Vifon 200g 740 T2
+val/mcocr_public_145014eamas_020.png,QUANTITY,2,2
+val/mcocr_public_145014eamas_021.png,UNIT_PRICE,"4,200","4,200"
+val/mcocr_public_145014eamas_022.png,LINE_TOTAL,"8,400","8,400"
+val/mcocr_public_145014eamas_023.png,ITEM_NAME,Hạt nêm chay Knorr nấm hương 380g/16 T2,Hạt nêm chay Knorr nấm hương 380g/16T2
+val/mcocr_public_145014eamas_024.png,QUANTITY,1,1
+val/mcocr_public_145014eamas_025.png,UNIT_PRICE,"30,000","30,000"
+val/mcocr_public_145014eamas_026.png,LINE_TOTAL,"30,000","30,000"
+val/mcocr_public_145014eamas_027.png,ITEM_NAME,Muối hạt sạch DH 999-1Kg/30 gói NT,Muối hạt sạch DH 999-1kg/30 gói NT
+val/mcocr_public_145014eamas_028.png,QUANTITY,1,1
+val/mcocr_public_145014eamas_029.png,UNIT_PRICE,"8,000","8,000"
+val/mcocr_public_145014eamas_030.png,LINE_TOTAL,"8,000","8,000"
+val/mcocr_public_145014eamas_031.png,ITEM_NAME,Bộ cốc TT lùn tròn CB001 NT,Bộ cốc TT lùn trơn CB001 NT
+val/mcocr_public_145014eamas_032.png,QUANTITY,3,3
+val/mcocr_public_145014eamas_033.png,UNIT_PRICE,"45,000","45,000"
+val/mcocr_public_145014eamas_034.png,LINE_TOTAL,"135,000","135,000"
+val/mcocr_public_145014eamas_035.png,ITEM_NAME,Hộp đựng kim chỉ 601 NT,Hộp đựng kim chỉ 601 NT
+val/mcocr_public_145014eamas_036.png,QUANTITY,1,1
+val/mcocr_public_145014eamas_037.png,UNIT_PRICE,"17,000","17,000"
+val/mcocr_public_145014eamas_038.png,LINE_TOTAL,"17,000","17,000"
+val/mcocr_public_145014ebdtm_000.png,SELLER,MINIMART ANAN,MINIMART ANAN
+val/mcocr_public_145014ebdtm_001.png,ADDRESS,Chợ Sủi Phú Thị Gia Lâm,Chợ Sủi Phú Thị Gia Lâm
+val/mcocr_public_145014ebdtm_002.png,TOTAL_COST,"249,000","249,000"
+val/mcocr_public_145014ebdtm_003.png,ITEM_NAME,NRT Lai boy 500ml NT,NRT Lai boy 500ml NT
+val/mcocr_public_145014ebdtm_004.png,QUANTITY,2,2
+val/mcocr_public_145014ebdtm_005.png,UNIT_PRICE,"60,000","60,000"
+val/mcocr_public_145014ebdtm_006.png,LINE_TOTAL,"120,000","120,000"
+val/mcocr_public_145014ebdtm_007.png,ITEM_NAME,Bánh OREO 137g NT,Bánh OREO 137g NT
+val/mcocr_public_145014ebdtm_008.png,QUANTITY,3,3
+val/mcocr_public_145014ebdtm_009.png,UNIT_PRICE,"13,000","13,000"
+val/mcocr_public_145014ebdtm_010.png,LINE_TOTAL,"39,000","39,000"
+val/mcocr_public_145014ebdtm_011.png,ITEM_NAME,milo to 180ml NT,milo to 180ml NT
+val/mcocr_public_145014ebdtm_012.png,QUANTITY,4,4
+val/mcocr_public_145014ebdtm_013.png,UNIT_PRICE,"6,500","6,500"
+val/mcocr_public_145014ebdtm_014.png,LINE_TOTAL,"26,000","26,000"
+val/mcocr_public_145014ebdtm_015.png,ITEM_NAME,Mắm nam ngư 750ml NT,Mắm nam ngư 750ml NT
+val/mcocr_public_145014ebdtm_016.png,QUANTITY,2,2
+val/mcocr_public_145014ebdtm_017.png,UNIT_PRICE,"32,000","32,000"
+val/mcocr_public_145014ebdtm_018.png,LINE_TOTAL,"64,000","64,000"
+val/mcocr_public_145014ebdtm_019.png,TIMESTAMP,11/08/2020-16:42,11/08/2020-16:42
+val/mcocr_public_145014ebrwa_000.png,SELLER,MINIMART ANAN,MINIMART ANAN
+val/mcocr_public_145014ebrwa_001.png,ADDRESS,Chợ Sủi Phú Thị Gia Lâm,Chợ Sủi Phú Thị Gia Lâm
+val/mcocr_public_145014ebrwa_002.png,TOTAL_COST,"78,500","78,500"
+val/mcocr_public_145014ebrwa_003.png,ITEM_NAME,NLS Gift hương Lily 1 lit NT,NLS Gift hương Lily 1lit NT
+val/mcocr_public_145014ebrwa_004.png,QUANTITY,1,1
+val/mcocr_public_145014ebrwa_005.png,UNIT_PRICE,"23,000","23,000"
+val/mcocr_public_145014ebrwa_006.png,LINE_TOTAL,"23,000","23,000"
+val/mcocr_public_145014ebrwa_007.png,ITEM_NAME,Sữa CGHL đường 110ml NT,Sữa CGHL đường 110ml NT
+val/mcocr_public_145014ebrwa_008.png,QUANTITY,8,8
+val/mcocr_public_145014ebrwa_009.png,UNIT_PRICE,"4,750","4,750"
+val/mcocr_public_145014ebrwa_010.png,LINE_TOTAL,"38,000","38,000"
+val/mcocr_public_145014ebrwa_011.png,ITEM_NAME,Bột canh hải châu 190g NT,Bột canh hải châu 190g NT
+val/mcocr_public_145014ebrwa_012.png,QUANTITY,5,5
+val/mcocr_public_145014ebrwa_013.png,UNIT_PRICE,"3,5000","3,500"
+val/mcocr_public_145014ebrwa_014.png,LINE_TOTAL,"17,500","17,500"
+val/mcocr_public_145014ebrwa_015.png,TIMESTAMP,10/08/2020-19:50,10/08/2020-19:50
+val/mcocr_public_145014edrhv_000.png,ADDRESS,"53 Thuỵ Khuê, Quận Tây Hồ, Thành phố Hà Nội","153 Thuỷ Khuế, Quận Tây Hồ, Thành phố Hà Nội"
+val/mcocr_public_145014edrhv_001.png,TIMESTAMP,15/08/2020 12:44,15-08-2020 12:44
+val/mcocr_public_145014edrhv_002.png,TOTAL_COST,"886,000đ","886,000đ"
+val/mcocr_public_145014edrhv_003.png,SELLER,Nhà Hàng Aozora Sushi,Nhà Hàng Aozora Sushi
+val/mcocr_public_145014edrhv_004.png,ITEM_NAME,Miso Súp,Miso Súp
+val/mcocr_public_145014edrhv_005.png,QUANTITY,4,4
+val/mcocr_public_145014edrhv_006.png,UNIT_PRICE,"18,000","18,000"
+val/mcocr_public_145014edrhv_007.png,LINE_TOTAL,"72,000","72,000"
+val/mcocr_public_145014edrhv_008.png,ITEM_NAME,bánh xèo thịt heo,bánh xèo thịt heo
+val/mcocr_public_145014edrhv_009.png,QUANTITY,1,1
+val/mcocr_public_145014edrhv_010.png,UNIT_PRICE,"69,000","69,000"
+val/mcocr_public_145014edrhv_011.png,LINE_TOTAL,"69,000","69,000"
+val/mcocr_public_145014edrhv_012.png,ITEM_NAME,Set 29,Set 29
+val/mcocr_public_145014edrhv_013.png,QUANTITY,1,1
+val/mcocr_public_145014edrhv_014.png,UNIT_PRICE,"439,000","439,000"
+val/mcocr_public_145014edrhv_015.png,LINE_TOTAL,"439,000","439,000"
+val/mcocr_public_145014edrhv_016.png,ITEM_NAME,Trà,Trà
+val/mcocr_public_145014edrhv_017.png,QUANTITY,1,1
+val/mcocr_public_145014edrhv_018.png,UNIT_PRICE,"6,000","6,000"
+val/mcocr_public_145014edrhv_019.png,LINE_TOTAL,"6,000","6,000"
+val/mcocr_public_145014edrhv_020.png,ITEM_NAME,riệu soju vị hoa quả 360ml,riệu soju vị hoa quả 360ml
+val/mcocr_public_145014edrhv_021.png,QUANTITY,1,1
+val/mcocr_public_145014edrhv_022.png,UNIT_PRICE,"109,000","109,000"
+val/mcocr_public_145014edrhv_023.png,LINE_TOTAL,"109,000","109,000"
+val/mcocr_public_145014edrhv_024.png,ITEM_NAME,Shochu TENSONKURIN,Shochu TENSONKURIN
+val/mcocr_public_145014edrhv_025.png,QUANTITY,1,1
+val/mcocr_public_145014edrhv_026.png,UNIT_PRICE,"169,000","169,000"
+val/mcocr_public_145014edrhv_027.png,LINE_TOTAL,"169,000","169,000"
+val/mcocr_public_145014edrhv_028.png,ITEM_NAME,Nước Chanh Dây,Nước Chanh Dây
+val/mcocr_public_145014edrhv_029.png,QUANTITY,1,1
+val/mcocr_public_145014edrhv_030.png,UNIT_PRICE,"22,000","22,000"
+val/mcocr_public_145014edrhv_031.png,LINE_TOTAL,"22,000","22,000"
+val/mcocr_public_145014emexr_000.png,SELLER,Nhà Hàng Aozora Sushi,Nhà Hàng Aozora Sushi
+val/mcocr_public_145014emexr_001.png,ADDRESS,"HSa Thuy Khuê, Quận Tây Hồ, Thành phố Hà Nội","153 Thuỷ Khuê, Quận Tây Hồ, Thành phố Hà Nội"
+val/mcocr_public_145014emexr_002.png,TIMESTAMP,14-08-2020 20:53,14-08-2020 20:53
+val/mcocr_public_145014emexr_003.png,TIMESTAMP,14-08-2020 21:31,14-08-2020 21:31
+val/mcocr_public_145014emexr_004.png,TOTAL_COST,"328,000đ","328,000đ"
+val/mcocr_public_145014emexr_005.png,ITEM_NAME,cơm chien hải sản,cơm chien hải sản
+val/mcocr_public_145014emexr_006.png,QUANTITY,1,1
+val/mcocr_public_145014emexr_007.png,UNIT_PRICE,"99,000","99,000"
+val/mcocr_public_145014emexr_008.png,LINE_TOTAL,"99,000","99,000"
+val/mcocr_public_145014emexr_009.png,ITEM_NAME,Salad Trứng Cua,Salad Trứng Cua
+val/mcocr_public_145014emexr_010.png,UNIT_PRICE,"59,000","59,000"
+val/mcocr_public_145014emexr_011.png,QUANTITY,1,1
+val/mcocr_public_145014emexr_012.png,LINE_TOTAL,"59,000","59,000"
+val/mcocr_public_145014emexr_013.png,ITEM_NAME,thit heo chien xù,thịt heo chien xù
+val/mcocr_public_145014emexr_014.png,QUANTITY,1,1
+val/mcocr_public_145014emexr_015.png,UNIT_PRICE,"69,000","69,000"
+val/mcocr_public_145014emexr_016.png,LINE_TOTAL,"69,000","69,000"
+val/mcocr_public_145014emexr_017.png,ITEM_NAME,Súp Tôm,Súp Tôm
+val/mcocr_public_145014emexr_018.png,QUANTITY,1,1
+val/mcocr_public_145014emexr_019.png,UNIT_PRICE,"20,000","20,000"
+val/mcocr_public_145014emexr_020.png,LINE_TOTAL,"20,000","20,000"
+val/mcocr_public_145014emexr_021.png,ITEM_NAME,Trà,Trà
+val/mcocr_public_145014emexr_022.png,QUANTITY,2,2
+val/mcocr_public_145014emexr_023.png,UNIT_PRICE,"6,000","6,000"
+val/mcocr_public_145014emexr_024.png,LINE_TOTAL,"12,000","12,000"
+val/mcocr_public_145014emexr_025.png,ITEM_NAME,cơm rang trứng ốp,cơm rang trứng ốp
+val/mcocr_public_145014emexr_026.png,QUANTITY,1,1
+val/mcocr_public_145014emexr_027.png,UNIT_PRICE,"69,000","69,000"
+val/mcocr_public_145014emexr_028.png,LINE_TOTAL,"69,000","69,000"
+val/mcocr_public_145014epano_000.png,SELLER,VinCommerce,VinCommerce
+val/mcocr_public_145014epano_001.png,ADDRESS,VM+QNH 112 Thanh Niên,VM+ QNH 112 Thanh Niên
+val/mcocr_public_145014epano_002.png,ADDRESS,"Số 112 Thanh Hóa, P. Cẩm Thành","Số 112 Thanh Niên, P. Cẩm Thành"
+val/mcocr_public_145014epano_003.png,ADDRESS,"TP.Cẩm Phả, Quảng Ninh","TP. Cẩm Phả, Quảng Ninh"
+val/mcocr_public_145014epano_004.png,TOTAL_COST,122.000,122.000
+val/mcocr_public_145014epano_005.png,TIMESTAMP,12/8/2020 9:07,12/8/2020 9:07
+val/mcocr_public_145014epano_006.png,ITEM_NAME,Nước uống Aquafina T24 chaix355ml,Nước uống Aquafina T24 chaix355ml
+val/mcocr_public_145014epano_007.png,QUANTITY,1,1
+val/mcocr_public_145014epano_008.png,UNIT_PRICE,98.000,98.000
+val/mcocr_public_145014epano_009.png,LINE_TOTAL,98.000,98.000
+val/mcocr_public_145014epano_010.png,ITEM_NAME,Nước uống Aquafina T4 5L,Nước uống Aquafina T4 chaix5L
+val/mcocr_public_145014epano_011.png,QUANTITY,1,1
+val/mcocr_public_145014epano_012.png,UNIT_PRICE,24.000,24.000
+val/mcocr_public_145014epano_013.png,LINE_TOTAL,24.000,24.000
+val/mcocr_public_145014esieu_000.png,SELLER,VinCommerce,VinCommerce
+val/mcocr_public_145014esieu_001.png,ADDRESS,"VM+ HCM CC The Manor 1, 91 Ng.H.Cảnh","VM+ HCM CC The Manor 1,91 Ng.HCánh"
+val/mcocr_public_145014esieu_002.png,ADDRESS,"91 Nguyễn Hữu Cảnh, Phường 22,","91 Nguyễn Hữu Cánh, Phường 22"
+val/mcocr_public_145014esieu_003.png,ADDRESS,"Q.Bình Thạnh, TP.HCM","Q.Bình Thạnh, TP.HCM"
+val/mcocr_public_145014esieu_004.png,TOTAL_COST,235.932,235.932
+val/mcocr_public_145014esieu_005.png,ITEM_NAME,Bơ đậu phộng mịn Golden Farm lọ 170g,Bơ đậu phộng min Golden Farm lọ 170g
+val/mcocr_public_145014esieu_006.png,QUANTITY,1,1
+val/mcocr_public_145014esieu_007.png,UNIT_PRICE,33.700,33.700
+val/mcocr_public_145014esieu_008.png,LINE_TOTAL,33.700,33.700
+val/mcocr_public_145014esieu_009.png,ITEM_NAME,Trứng gà V.Food loại 1 hộp 6 quả x60g,Trứng gà V.Food loại 1 hộp 6 quảx60g
+val/mcocr_public_145014esieu_010.png,QUANTITY,1,1
+val/mcocr_public_145014esieu_011.png,UNIT_PRICE,18.200,18.200
+val/mcocr_public_145014esieu_012.png,LINE_TOTAL,18.200,18.200
+val/mcocr_public_145014esieu_013.png,ITEM_NAME,Bơ lạt (nhạt) Anchor vỉ 10 hộpx10g,Bơ lạt (nhạt) Anchor vỉ 10 hộpx10g
+val/mcocr_public_145014esieu_014.png,QUANTITY,1,1
+val/mcocr_public_145014esieu_015.png,UNIT_PRICE,29.600,29.600
+val/mcocr_public_145014esieu_016.png,LINE_TOTAL,29.600,29.600
+val/mcocr_public_145014esieu_017.png,ITEM_NAME,Rau muống,Rau muống
+val/mcocr_public_145014esieu_018.png,QUANTITY,1,1
+val/mcocr_public_145014esieu_019.png,UNIT_PRICE,12.532,12.532
+val/mcocr_public_145014esieu_020.png,LINE_TOTAL,12.532,12.532
+val/mcocr_public_145014esieu_021.png,ITEM_NAME,3F Đùi Góc Tư 500gr,3F Đùi Góc Tư 500gr
+val/mcocr_public_145014esieu_022.png,QUANTITY,1,1
+val/mcocr_public_145014esieu_023.png,UNIT_PRICE,39.000,39.000
+val/mcocr_public_145014esieu_024.png,LINE_TOTAL,39.000,39.000
+val/mcocr_public_145014esieu_025.png,ITEM_NAME,3F Cánh Gà 500gr,3F Cánh Gà 500gr
+val/mcocr_public_145014esieu_026.png,QUANTITY,1,1
+val/mcocr_public_145014esieu_027.png,UNIT_PRICE,49.900,49.900
+val/mcocr_public_145014esieu_028.png,LINE_TOTAL,49.900,49.900
+val/mcocr_public_145014esieu_029.png,ITEM_NAME,Nescafe 3.1 đậm đà hài hòa 17gr x20 gói,Nescafe 3.1 đậm đà hài hoà 17gr x20 gói
+val/mcocr_public_145014esieu_030.png,QUANTITY,1,1
+val/mcocr_public_145014esieu_031.png,UNIT_PRICE,53.000,53.000
+val/mcocr_public_145014esieu_032.png,LINE_TOTAL,53.000,53.000
+val/mcocr_public_145014esieu_033.png,TIMESTAMP,12/8/2020 17:12,12/8/2020 17:12
+val/mcocr_public_145014evbnu_000.png,SELLER,CỬA HÀNG NĂM OÁNH,CỬA HÀNG NĂM OÁNH
+val/mcocr_public_145014evbnu_001.png,ADDRESS,"Thôn Phú Thụy, Xã Phú Thị, Huyện Gia Lâm, TP Hà Nội","Thôn Phú Thuỵ, Xã Phú Thị, Huyện Gia Lâm, TP Hà Nội"
+val/mcocr_public_145014evbnu_002.png,TOTAL_COST,"22,000","22,000"
+val/mcocr_public_145014evbnu_003.png,ITEM_NAME,Hạt nêm Neptune 380g,Hạt nêm Neptune 380g
+val/mcocr_public_145014evbnu_004.png,QUANTITY,1,1
+val/mcocr_public_145014evbnu_005.png,UNIT_PRICE,"22,000","22,000"
+val/mcocr_public_145014evbnu_006.png,LINE_TOTAL,"22,000","22,000"
+val/mcocr_public_145014evbnu_007.png,TIMESTAMP,11/8/2020,11/8/2020
+val/mcocr_public_145014ewmyb_000.png,SELLER,VinCommerce,VinCommerce
+val/mcocr_public_145014ewmyb_001.png,ADDRESS,VM+ QNH 88 Trần Phú,VM+ QNH 86 Trần Phú
+val/mcocr_public_145014ewmyb_002.png,ADDRESS,"Số 86 Đường Trần Phú, P.Cẩm Tây","Số 86 Đường Trần Phú, P.Cẩm Tây"
+val/mcocr_public_145014ewmyb_003.png,ADDRESS,TP Cẩm Phả T Quảng Ninh,"TP Cẩm Phả, T. Quảng Ninh."
+val/mcocr_public_145014ewmyb_004.png,TOTAL_COST,208.728,208.728
+val/mcocr_public_145014ewmyb_005.png,TIMESTAMP,8/8/2020 17:20,8/8/2020 17:20
+val/mcocr_public_145014ewmyb_006.png,ITEM_NAME,Dưa hấu không hạt,Dưa hấu không hạt
+val/mcocr_public_145014ewmyb_007.png,QUANTITY,1,1
+val/mcocr_public_145014ewmyb_008.png,UNIT_PRICE,88.805,88.605
+val/mcocr_public_145014ewmyb_009.png,LINE_TOTAL,88.805,88.605
+val/mcocr_public_145014ewmyb_010.png,ITEM_NAME,Táo Fuji Nam Phi ỏ,Táo Fuji Nam Phi Ỏ
+val/mcocr_public_145014ewmyb_011.png,QUANTITY,1,1
+val/mcocr_public_145014ewmyb_012.png,UNIT_PRICE,30.996,30.996
+val/mcocr_public_145014ewmyb_013.png,LINE_TOTAL,30.996,30.996
+val/mcocr_public_145014ewmyb_014.png,ITEM_NAME,Táo Ambrosia New Zealand,Táo Ambrosia New Zealand
+val/mcocr_public_145014ewmyb_015.png,QUANTITY,1,1
+val/mcocr_public_145014ewmyb_016.png,UNIT_PRICE,50.848,50.848
+val/mcocr_public_145014ewmyb_017.png,LINE_TOTAL,50.848,50.848
+val/mcocr_public_145014ewmyb_018.png,ITEM_NAME,SCU m.sống h.dâu Probi VNM L5 Chaix65ml,SCU m.sống h.dâu Probi VNM L5 chaix65ml
+val/mcocr_public_145014ewmyb_019.png,QUANTITY,1,1
+val/mcocr_public_145014ewmyb_020.png,UNIT_PRICE,24.700,24.700
+val/mcocr_public_145014ewmyb_021.png,LINE_TOTAL,24.700,24.700
+val/mcocr_public_145014ewmyb_022.png,ITEM_NAME,Sữa chua lên men Yakult 65ml,Sữa uống lên men Yakult 65ml
+val/mcocr_public_145014ewmyb_023.png,QUANTITY,1,1
+val/mcocr_public_145014ewmyb_024.png,UNIT_PRICE,24.600,24.600
+val/mcocr_public_145014ewmyb_025.png,LINE_TOTAL,24.600,24.600
+val/mcocr_public_145014fcvez_000.png,SELLER,VinCommerce,VinCommerce
+val/mcocr_public_145014fcvez_001.png,ADDRESS,"VM+ QNH Tổ 7, Khu Minh Tiến A",VM+ QNH Tổ 7 Khu Minh Tiến A
+val/mcocr_public_145014fcvez_002.png,ADDRESS,"Tổ 7, Khu Minh Tiến A","Tổ 7, Khu Minh Tiến A"
+val/mcocr_public_145014fcvez_003.png,ADDRESS,"P. Cẩm Bình, TP. Cẩm Phả, QNH","P. Cẩm Bình, TP. Cẩm Phả, QNH"
+val/mcocr_public_145014fcvez_004.png,TOTAL_COST,55.400,55.400
+val/mcocr_public_145014fcvez_005.png,ITEM_NAME,BIBIGO Rong biển Bibigo truyền thống 5g,BIBIGO Rong biển Bibigo truyền thống 5g
+val/mcocr_public_145014fcvez_006.png,QUANTITY,1,1
+val/mcocr_public_145014fcvez_007.png,UNIT_PRICE,11.500,11.500
+val/mcocr_public_145014fcvez_008.png,LINE_TOTAL,11.500,11.500
+val/mcocr_public_145014fcvez_009.png,ITEM_NAME,BIBIGO Rong biển ăn liền Bibigo BBQ 5g,BIBIGO Rong biển ăn liền Bibigo BBB0 5g
+val/mcocr_public_145014fcvez_010.png,QUANTITY,1,1
+val/mcocr_public_145014fcvez_011.png,UNIT_PRICE,11.500,11.500
+val/mcocr_public_145014fcvez_012.png,LINE_TOTAL,11.500,11.500
+val/mcocr_public_145014fcvez_013.png,ITEM_NAME,Kẹo sáo Corris Nhật vị nho 8 viên/ vỉ,Kẹo sáo Corris Nhật vị nho 8 viên/vỉ
+val/mcocr_public_145014fcvez_014.png,QUANTITY,1,1
+val/mcocr_public_145014fcvez_015.png,UNIT_PRICE,21.400,21.400
+val/mcocr_public_145014fcvez_016.png,LINE_TOTAL,21.400,21.400
+val/mcocr_public_145014fcvez_017.png,ITEM_NAME,Xúc xích bò Vissan gói 90g,Xúc xích bò Vissan gói 90g
+val/mcocr_public_145014fcvez_018.png,QUANTITY,1,1
+val/mcocr_public_145014fcvez_019.png,UNIT_PRICE,11.000,11.000
+val/mcocr_public_145014fcvez_020.png,LINE_TOTAL,11.000,11.000
+val/mcocr_public_145014fcvez_021.png,TIMESTAMP,14/08/2020 16:32,14/08/2020 16:32
+val/mcocr_public_145014fdjhi_000.png,SELLER,VinCommerce,VinCommerce
+val/mcocr_public_145014fdjhi_001.png,ADDRESS,VM+ QNH 86 Trần Phú,VM+ QNH 86 Trần Phú
+val/mcocr_public_145014fdjhi_002.png,ADDRESS,"Số 86 Đường Trần Phú, P. Cẩm Tây","Số 86 Đường Trần Phú, P. Cẩm Tây"
+val/mcocr_public_145014fdjhi_003.png,ADDRESS,"TP Cẩm Phả, T. Quảng Ninh.","TP Cẩm Phả, T. Quảng Ninh."
+val/mcocr_public_145014fdjhi_004.png,TOTAL_COST,112.534,112.534
+val/mcocr_public_145014fdjhi_005.png,ITEM_NAME,Lê đỏ Nam phi,Lê đỏ Nam phi
+val/mcocr_public_145014fdjhi_006.png,QUANTITY,1,1
+val/mcocr_public_145014fdjhi_007.png,UNIT_PRICE,61.366,61.366
+val/mcocr_public_145014fdjhi_008.png,LINE_TOTAL,61.366,61.366
+val/mcocr_public_145014fdjhi_009.png,ITEM_NAME,Táo Fuji Nam Phi ổ,Táo Fuji Nam Phi Ỏ
+val/mcocr_public_145014fdjhi_010.png,QUANTITY,1,1
+val/mcocr_public_145014fdjhi_011.png,UNIT_PRICE,51.168,51.168
+val/mcocr_public_145014fdjhi_012.png,LINE_TOTAL,51.168,51.168
+val/mcocr_public_145014fdjhi_013.png,TIMESTAMP,8/8/2020 21:36,8/8/2020 21:36
+val/mcocr_public_145014fgfzb_000.png,SELLER,MINIMART ANAN,MINIMART ANAN
+val/mcocr_public_145014fgfzb_001.png,ADDRESS,Chợ Sủi Phú Thị Gia Lâm,Chợ Sủi Phú Thị Gia Lâm
+val/mcocr_public_145014fgfzb_002.png,TOTAL_COST,"60,000","60,000"
+val/mcocr_public_145014fgfzb_003.png,ITEM_NAME,Sữa VNM không đường 1Lit NT,Sữa VNM không đường 1Lit NT
+val/mcocr_public_145014fgfzb_004.png,QUANTITY,2,2
+val/mcocr_public_145014fgfzb_005.png,UNIT_PRICE,"30,000","30,000"
+val/mcocr_public_145014fgfzb_006.png,LINE_TOTAL,"60,000","60,000"
+val/mcocr_public_145014fgfzb_007.png,TIMESTAMP,11/08/2020-18:10,11/08/2020-18:10
+val/mcocr_public_145014fhfxn_000.png,SELLER,NHÀ SÁCH GD-TC CẨM PHẢ,NHÀ SÁCH GD-TC CẨM PHẢ
+val/mcocr_public_145014fhfxn_001.png,ADDRESS,ĐC: 212 Đường Trần Phú-Cẩm Phả,ĐC: 212 Đường Trần Phú-Cẩm Phả
+val/mcocr_public_145014fhfxn_002.png,TOTAL_COST,20.000đ,20.000đ
+val/mcocr_public_145014fhfxn_003.png,TIMESTAMP,08:02:24 - 14/08/2020,08:02:24 - 14/08/2020
+val/mcocr_public_145014fhfxn_004.png,ITEM_NAME,Vở kẻ ngang,Vở kẻ ngang
+val/mcocr_public_145014fhfxn_005.png,QUANTITY,1,1
+val/mcocr_public_145014fhfxn_006.png,UNIT_PRICE,20.000,20.000
+val/mcocr_public_145014fhfxn_007.png,LINE_TOTAL,20.000đ,20.000đ
+val/mcocr_public_145014fvjus_000.png,TOTAL_COST,76.000,76.000
+val/mcocr_public_145014fvjus_001.png,ADDRESS,"VM+ QNH Tổ 7, Khu Minh Tiến A","VM+ QNH Tổ 7, Khu Minh Tiến A"
+val/mcocr_public_145014fvjus_002.png,ADDRESS,"Tổ 7, khu Minh Tiến A","Tổ 7, Khu Minh Tiến A"
+val/mcocr_public_145014fvjus_003.png,ADDRESS,"P Cẩm Bình, TP Cẩm Pha, QNH","P. Cẩm Bình, TP. Cẩm Phả, QNH"
+val/mcocr_public_145014fvjus_004.png,SELLER,VinCommerce,VinCommerce
+val/mcocr_public_145014fvjus_005.png,TIMESTAMP,8/8/2020 21:11,8/8/2020 21:11
+val/mcocr_public_145014fvjus_006.png,ITEM_NAME,Sữa TTT TH True Milk ít đường gói 220ml,Sữa TTT TH True Milk ít đường gói 220ml
+val/mcocr_public_145014fvjus_007.png,QUANTITY,10,10
+val/mcocr_public_145014fvjus_008.png,UNIT_PRICE,7.600,7.600
+val/mcocr_public_145014fvjus_009.png,LINE_TOTAL,76.000,76.000
+val/mcocr_public_145014fvwak_000.png,SELLER,co.opmart,co.opmart
+val/mcocr_public_145014fvwak_001.png,SELLER,Co.opMart NGUYEN DINH CHIEU,Co.opMart NGUYEN DINH CHIEU
+val/mcocr_public_145014fvwak_002.png,TIMESTAMP,21/05/2020 9:13:55,21/05/2020 9:13:55
+val/mcocr_public_145014fvwak_003.png,ITEM_NAME,Nuoc tra bi dao WONDERFA,Nuoc tra bi dao WONDER-A
+val/mcocr_public_145014fvwak_004.png,QUANTITY,12,12
+val/mcocr_public_145014fvwak_005.png,UNIT_PRICE,"6,500.00","6,500.00"
+val/mcocr_public_145014fvwak_006.png,LINE_TOTAL,"78,000.00","78,000.00"
+val/mcocr_public_145014fvwak_007.png,ITEM_NAME,K.uot Agi k.mui 100M,K.uot Agi k.mui 100M
+val/mcocr_public_145014fvwak_008.png,QUANTITY,3,3
+val/mcocr_public_145014fvwak_009.png,UNIT_PRICE,"40,900.00","40,900.00"
+val/mcocr_public_145014fvwak_010.png,LINE_TOTAL,"122,700.00","122,700.00"
+val/mcocr_public_145014fvwak_011.png,ITEM_NAME,KGiay PULPPY supreme 2 lop,KGiay PULPPY supreme 2lop
+val/mcocr_public_145014fvwak_012.png,QUANTITY,3,3
+val/mcocr_public_145014fvwak_013.png,UNIT_PRICE,"16,800.00","16,800.00"
+val/mcocr_public_145014fvwak_014.png,LINE_TOTAL,"50,400.00","50,400.00"
+val/mcocr_public_145014fvwak_015.png,ITEM_NAME,KDR CloseUp bac ha 230g,KDR CloseUp bac ha 230g
+val/mcocr_public_145014fvwak_016.png,QUANTITY,1,1
+val/mcocr_public_145014fvwak_017.png,UNIT_PRICE,"36,500.00","36,500.00"
+val/mcocr_public_145014fvwak_018.png,LINE_TOTAL,"36,500.00","36,500.00"
+val/mcocr_public_145014fvwak_019.png,ITEM_NAME,KDR CLoseUp bac ha 230g,KDR CloseUp bac ha 230g
+val/mcocr_public_145014fvwak_020.png,QUANTITY,1,1
+val/mcocr_public_145014fvwak_021.png,UNIT_PRICE,"36,500.00","36,500.00"
+val/mcocr_public_145014fvwak_022.png,LINE_TOTAL,"36,500.00","36,500.00"
+val/mcocr_public_145014fvwak_023.png,TOTAL_COST,"565,600.00","565,600.00"
+val/mcocr_public_145014fvwak_024.png,ADDRESS,168 Nguyen Dinh Chieu Q.3,168 Nguyen Dinh Chieu Q.3
+val/mcocr_public_145014fvwak_025.png,ITEM_NAME,Q.lut giay nu L(5cai),"O,lut giay ho t(Sca1)"
+val/mcocr_public_145014fvwak_026.png,QUANTITY,1,1
+val/mcocr_public_145014gkduf_000.png,SELLER,VinCommerce,VinCommerce
+val/mcocr_public_145014gkduf_001.png,ADDRESS,VM+ QNH 590 Trần Phú,VM+ QNH 590 Trần Phú
+val/mcocr_public_145014gkduf_002.png,ADDRESS,"Số 590 Trần Phú, P. Cẩm Thủy","Số 590 Trần Phú, P. Cẩm Thủy"
+val/mcocr_public_145014gkduf_003.png,ADDRESS,"TP. Cẩm Phả, Quảng Ninh","TP. Cẩm Phả, Quảng Ninh"
+val/mcocr_public_145014gkduf_004.png,TOTAL_COST,48.000,48.000
+val/mcocr_public_145014gkduf_005.png,ITEM_NAME,CP_Nem thịt đặc biệt 500g,CP_NEM thịt đặc biệt 500g
+val/mcocr_public_145014gkduf_006.png,QUANTITY,1,1
+val/mcocr_public_145014gkduf_007.png,UNIT_PRICE,60.000,60.000
+val/mcocr_public_145014gkduf_008.png,LINE_TOTAL,60.000,60.000
+val/mcocr_public_145014gkduf_009.png,ITEM_NAME,KM,KM
+val/mcocr_public_145014gkduf_010.png,LINE_TOTAL,-12.000,-12.000
+val/mcocr_public_145014gkduf_011.png,TIMESTAMP,15/08/2020 09:36,15/08/2020 09:36
+val/mcocr_public_145014gniax_000.png,SELLER,VinCommerce,VinCommerce
+val/mcocr_public_145014gniax_001.png,ADDRESS,VN+ QNH 1060-1062 Trần Phú,VM+ QNH 1060-1062 Trần Phú
+val/mcocr_public_145014gniax_002.png,ADDRESS,Số 10404062 Đường Trần Phú,Số 1060-1062 Đường Trần Phú
+val/mcocr_public_145014gniax_003.png,ADDRESS,"TP. Cẩm Phả, Quảng Ninh","TP. Cẩm Phả, Quảng Ninh"
+val/mcocr_public_145014gniax_004.png,TOTAL_COST,151.825,151.825
+val/mcocr_public_145014gniax_005.png,TIMESTAMP,13/08/2020 19:37,13/08/2020 19:37
+val/mcocr_public_145014gniax_006.png,ITEM_NAME,Chuối vàng,Chuối vàng
+val/mcocr_public_145014gniax_007.png,QUANTITY,1,1
+val/mcocr_public_145014gniax_008.png,UNIT_PRICE,42.525,42.525
+val/mcocr_public_145014gniax_009.png,LINE_TOTAL,42.525,42.525
+val/mcocr_public_145014gniax_010.png,ITEM_NAME,OLIVOILÀ Dầu ôliu Extra Virgin chai250ml,OLIVOILA Dầu Ôliu Extra Virgin chai250ml
+val/mcocr_public_145014gniax_011.png,QUANTITY,1,1
+val/mcocr_public_145014gniax_012.png,UNIT_PRICE,93.900,93.900
+val/mcocr_public_145014gniax_013.png,LINE_TOTAL,93.900,93.900
+val/mcocr_public_145014gniax_014.png,ITEM_NAME,KEWPIE Nước chấm mè rang chai 180ml,KEWPIE Nước chấm mè rang chai 180ml
+val/mcocr_public_145014gniax_015.png,QUANTITY,1,1
+val/mcocr_public_145014gniax_016.png,UNIT_PRICE,23.500,23.500
+val/mcocr_public_145014gniax_017.png,LINE_TOTAL,23.500,23.500
+val/mcocr_public_145014hcsva_000.png,SELLER,MINIMART ANAN,MINIMART ANAN
+val/mcocr_public_145014hcsva_001.png,ADDRESS,Chợ Sủi Phú Thị Gia Lâm,Chợ Sủi Phú Thị Gia Lâm
+val/mcocr_public_145014hcsva_002.png,TIMESTAMP,16/08/2020-19:57,16/08/2020-19:57
+val/mcocr_public_145014hcsva_003.png,TOTAL_COST,"479,000","479,000"
+val/mcocr_public_145014hcsva_004.png,ITEM_NAME,Váng sữa Monte 1 cốc NT,Váng sữa Monte 1 cốc NT
+val/mcocr_public_145014hcsva_005.png,QUANTITY,4,4
+val/mcocr_public_145014hcsva_006.png,UNIT_PRICE,"13,250","13,250"
+val/mcocr_public_145014hcsva_007.png,LINE_TOTAL,"53,000","53,000"
+val/mcocr_public_145014hcsva_008.png,ITEM_NAME,bột chiên giòn ajiquich 210 NT,bột chiên giòn ajiquich 210 NT
+val/mcocr_public_145014hcsva_009.png,QUANTITY,1,1
+val/mcocr_public_145014hcsva_010.png,UNIT_PRICE,"26,000","26,000"
+val/mcocr_public_145014hcsva_011.png,LINE_TOTAL,"26,000","26,000"
+val/mcocr_public_145014hcsva_012.png,ITEM_NAME,bánh trứng tươi chà bông ka N0,bánh trứng tươi chà bông ka N0
+val/mcocr_public_145014hcsva_013.png,QUANTITY,1,1
+val/mcocr_public_145014hcsva_014.png,UNIT_PRICE,"30,000","30,000"
+val/mcocr_public_145014hcsva_015.png,LINE_TOTAL,"30,000","30,000"
+val/mcocr_public_145014hcsva_016.png,ITEM_NAME,bánh nabati gói 145g N0,bánh nabati gói 145g N0
+val/mcocr_public_145014hcsva_017.png,QUANTITY,1,1
+val/mcocr_public_145014hcsva_018.png,UNIT_PRICE,"10,000","10,000"
+val/mcocr_public_145014hcsva_019.png,LINE_TOTAL,"10,000","10,000"
+val/mcocr_public_145014hcsva_020.png,ITEM_NAME,sữa bột optimum gold 3 900g NT,sữa bột optimum gold 3 900g NT
+val/mcocr_public_145014hcsva_021.png,QUANTITY,1,1
+val/mcocr_public_145014hcsva_022.png,UNIT_PRICE,"360,000","360,000"
+val/mcocr_public_145014hcsva_023.png,LINE_TOTAL,"360,000","360,000"
+val/mcocr_public_145014hdevu_000.png,SELLER,SCTC cô THỎ 104 TRẦN PHÚ - CẨM,SCTC CÔ THỎ 104 TRẦN PHÚ - CẨM
+val/mcocr_public_145014hdevu_001.png,SELLER,PHÀ,PHẢ
+val/mcocr_public_145014hdevu_002.png,ADDRESS,104 Trần Phú - phường Cẩm Tây - Thành phố Cẩm,104 Trần Phú - phường Cẩm Tây - Thành phố Cẩm
+val/mcocr_public_145014hdevu_003.png,ADDRESS,Phả - Quảng Ninh,Phả - Quảng Ninh
+val/mcocr_public_145014hdevu_004.png,TOTAL_COST,105.000đ,105.000đ
+val/mcocr_public_145014hdevu_005.png,TIMESTAMP,10/8/2020,10/8/2020
+val/mcocr_public_145014hdevu_006.png,ITEM_NAME,Sữa chua nha,Sữa chua nha
+val/mcocr_public_145014hdevu_007.png,ITEM_NAME,đam,đam
+val/mcocr_public_145014hdevu_008.png,QUANTITY,2,2
+val/mcocr_public_145014hdevu_009.png,UNIT_PRICE,30.000,30.000
+val/mcocr_public_145014hdevu_010.png,LINE_TOTAL,60.000,60.000
+val/mcocr_public_145014hdevu_011.png,ITEM_NAME,Bò khô,Bò khô
+val/mcocr_public_145014hdevu_012.png,QUANTITY,1,1
+val/mcocr_public_145014hdevu_013.png,UNIT_PRICE,45.000,45.000
+val/mcocr_public_145014hdevu_014.png,LINE_TOTAL,45.000,45.000
+val/mcocr_public_145014iidaa_000.png,SELLER,VinCommerce,VinCommerce
+val/mcocr_public_145014iidaa_001.png,ADDRESS,VM+ QNH 86 Trần Phú,VM+ QNH 86 Trần Phú
+val/mcocr_public_145014iidaa_002.png,ADDRESS,"Số 86 Đường Trần Phú, P. Cẩm Tây","Số 86 Đường Trần Phú, P. Cẩm Tây"
+val/mcocr_public_145014iidaa_003.png,ADDRESS,"TP Cẩm Phả, T. Quảng Ninh","TP Cẩm Phả, T. Quảng Ninh."
+val/mcocr_public_145014iidaa_004.png,TOTAL_COST,51.500,51.500
+val/mcocr_public_145014iidaa_005.png,QUANTITY,1,1
+val/mcocr_public_145014iidaa_006.png,UNIT_PRICE,51.500,51.500
+val/mcocr_public_145014iidaa_007.png,LINE_TOTAL,51.500,51.500
+val/mcocr_public_145014iidaa_008.png,TIMESTAMP,9/8/2020 9:57,9/8/2020 9:57
+val/mcocr_public_145014iidaa_009.png,ITEM_NAME,CP_Bắp giò heo không xương 300g,CP_Bắp giò heo không xương 300g
+val/mcocr_public_145014ikibc_000.png,SELLER,CỬA HÀNG NĂM OÁNH,CỬA HÀNG NĂM OÁNH
+val/mcocr_public_145014ikibc_001.png,ADDRESS,"Thôi Phú Thụy, Xã Phú Thị, Huyện Gia Lâm, TP Hà Nội","Thôn Phú Thụy, Xã Phú Thị, Huyện Gia Lâm, TP Hà Nội"
+val/mcocr_public_145014ikibc_002.png,TOTAL_COST,"19,900","19,900"
+val/mcocr_public_145014ikibc_003.png,TIMESTAMP,11/8/2020,11/8/2020
+val/mcocr_public_145014ikibc_004.png,ITEM_NAME,Mỳ kokomi Tôm chua cay mới 65g,Mỳ kokomi Tôm chua cay mới 65g
+val/mcocr_public_145014ikibc_005.png,QUANTITY,1,1
+val/mcocr_public_145014ikibc_006.png,UNIT_PRICE,"2,300","2,300"
+val/mcocr_public_145014ikibc_007.png,LINE_TOTAL,"2,300","2,300"
+val/mcocr_public_145014ikibc_008.png,ITEM_NAME,Mỳ 3 mien Tôm chua cay 75g,Mỳ 3 mien Tôm chua cay 75g
+val/mcocr_public_145014ikibc_009.png,QUANTITY,2,2
+val/mcocr_public_145014ikibc_010.png,UNIT_PRICE,"3,200","3,200"
+val/mcocr_public_145014ikibc_011.png,LINE_TOTAL,"6,400","6,400"
+val/mcocr_public_145014ikibc_012.png,ITEM_NAME,Mỳ cung đình SH,Mỳ cung đình SH
+val/mcocr_public_145014ikibc_013.png,QUANTITY,2,2
+val/mcocr_public_145014ikibc_014.png,UNIT_PRICE,"5,600","5,600"
+val/mcocr_public_145014ikibc_015.png,LINE_TOTAL,"11,200","11,200"
+val/mcocr_public_145014ivclx_000.png,SELLER,THE COFFEE HOUSE,THE COFFEE HOUSE
+val/mcocr_public_145014ivclx_001.png,ADDRESS,"403 Phan Huy Ích, P.14, Q.Gò Vấp","403 Phan Huy Ích, P.14, Q.Gò Vấp"
+val/mcocr_public_145014ivclx_002.png,TOTAL_COST,87 000,87 000
+val/mcocr_public_145014ivclx_003.png,ITEM_NAME,Trà Sữa Mắc Ca,Trà Sữa Mắc Ca
+val/mcocr_public_145014ivclx_004.png,QUANTITY,1,1
+val/mcocr_public_145014ivclx_005.png,UNIT_PRICE,45 000,45 000
+val/mcocr_public_145014ivclx_006.png,LINE_TOTAL,45 000,45 000
+val/mcocr_public_145014ivclx_007.png,ITEM_NAME,#NAME?,#NAME?
+val/mcocr_public_145014ivclx_008.png,QUANTITY,1,1
+val/mcocr_public_145014ivclx_009.png,UNIT_PRICE,10 000,10 000
+val/mcocr_public_145014ivclx_010.png,LINE_TOTAL,10 000,10 000
+val/mcocr_public_145014ivclx_011.png,ITEM_NAME,Bánh Mì Chà Bông,Bánh Mì Chà Bông
+val/mcocr_public_145014ivclx_012.png,QUANTITY,1,1
+val/mcocr_public_145014ivclx_013.png,UNIT_PRICE,32 000,32 000
+val/mcocr_public_145014ivclx_014.png,LINE_TOTAL,32 000,32 000
+val/mcocr_public_145014ivclx_015.png,TIMESTAMP,02.10.2020 14.43,02.10.2020 14.43
+val/mcocr_public_145014ivclx_016.png,ITEM_NAME,Trân Châu Trắng,Trân Châu Trắng
+val/mcocr_public_145014ivclx_017.png,ITEM_NAME,(Nhỏ),(Nhỏ)
+val/mcocr_public_145014ivclx_018.png,ITEM_NAME,trắng,trắng
+val/mcocr_public_145014ivclx_019.png,ITEM_NAME,Phô Mai,Phô Mai
+val/mcocr_public_145014jhuyg_000.png,SELLER,MINIMART ANAN,MINIMART ANAN
+val/mcocr_public_145014jhuyg_001.png,ADDRESS,Chợ Sủi Phú Thị Gia Lâm,Chợ Sủi Phú Thị Gia Lâm
+val/mcocr_public_145014jhuyg_002.png,TIMESTAMP,11/08/2020-16:02,11/08/2020-16:02
+val/mcocr_public_145014jhuyg_003.png,TOTAL_COST,"86,000","86,000"
+val/mcocr_public_145014jhuyg_004.png,ITEM_NAME,Bim bim Oishi 48g NT,Bim bim Oishi 48g NT
+val/mcocr_public_145014jhuyg_005.png,QUANTITY,2,2
+val/mcocr_public_145014jhuyg_006.png,UNIT_PRICE,"4,000","4,000"
+val/mcocr_public_145014jhuyg_007.png,LINE_TOTAL,"8,000","8,000"
+val/mcocr_public_145014jhuyg_008.png,ITEM_NAME,Sữa Mộc Châu đường 180ml NT,Sữa Mộc Châu đường 180ml NT
+val/mcocr_public_145014jhuyg_009.png,QUANTITY,12,12
+val/mcocr_public_145014jhuyg_010.png,UNIT_PRICE,"6,500","6,500"
+val/mcocr_public_145014jhuyg_011.png,LINE_TOTAL,"78,000","78,000"
+val/mcocr_public_145014jixhn_000.png,SELLER,MINIMART ANAN,MINIMART ANAN
+val/mcocr_public_145014jixhn_001.png,ADDRESS,Chợ Sủi Phú Thị Gia Lâm,Chợ Sủi Phú Thị Gia Lâm
+val/mcocr_public_145014jixhn_002.png,TOTAL_COST,"76,000","76,000"
+val/mcocr_public_145014jixhn_003.png,ITEM_NAME,kdr ps baking soda hương th N0,kdr ps baking soda hương th N0
+val/mcocr_public_145014jixhn_004.png,QUANTITY,1,1
+val/mcocr_public_145014jixhn_005.png,UNIT_PRICE,"30,000","30,000"
+val/mcocr_public_145014jixhn_006.png,LINE_TOTAL,"30,000","30,000"
+val/mcocr_public_145014jixhn_007.png,ITEM_NAME,Nước tẩy toilet Gift 700ml NT,Nước tẩy toilet Gift 700ml NT
+val/mcocr_public_145014jixhn_008.png,QUANTITY,2,2
+val/mcocr_public_145014jixhn_009.png,UNIT_PRICE,"23,000","23,000"
+val/mcocr_public_145014jixhn_010.png,LINE_TOTAL,"46,000","46,000"
+val/mcocr_public_145014jixhn_011.png,TIMESTAMP,15/08/2020 - 19:07,15/08/2020-19:07
+val/mcocr_public_145014kupdx_000.png,SELLER,MINIMART ANAN,MINIMART ANAN
+val/mcocr_public_145014kupdx_001.png,ADDRESS,Chợ Sủi Phú Thị Gia Lâm,Chợ Sủi Phú Thị Gia Lâm
+val/mcocr_public_145014kupdx_002.png,TOTAL_COST,"77,000","77,000"
+val/mcocr_public_145014kupdx_003.png,ITEM_NAME,Bánh pháp Tràng An 275g NT,Bánh pháp Tràng An 275g NT
+val/mcocr_public_145014kupdx_004.png,QUANTITY,2,2
+val/mcocr_public_145014kupdx_005.png,UNIT_PRICE,"25,000","25,000"
+val/mcocr_public_145014kupdx_006.png,LINE_TOTAL,"50,000","50,000"
+val/mcocr_public_145014kupdx_007.png,ITEM_NAME,Bánh tipo túi 220g NT,Bánh tipo túi 220g NT
+val/mcocr_public_145014kupdx_008.png,QUANTITY,1,1
+val/mcocr_public_145014kupdx_009.png,UNIT_PRICE,"27,000","27,000"
+val/mcocr_public_145014kupdx_010.png,LINE_TOTAL,"27,000","27,000"
+val/mcocr_public_145014kupdx_011.png,TIMESTAMP,12/08/2020 - 14:57,12/08/2020-14:57
+val/mcocr_public_145014kuxpu_000.png,SELLER,PHÓ MỎ,PHỐ MỎ
+val/mcocr_public_145014kuxpu_001.png,ADDRESS,Tp. Cẩm Phả - Quảng Ninh,Tp.Cẩm Phả - Quảng Ninh
+val/mcocr_public_145014kuxpu_002.png,ADDRESS,Tổ 7 khu Tân Lập 4 - P Cẩm Thủy,Tổ 7 khu Tân Lập 4 - P.Cẩm Thủy -
+val/mcocr_public_145014kuxpu_003.png,TIMESTAMP,11/08/2020 - 20:49,11 / 08 / 2020 - 20 : 49
+val/mcocr_public_145014kuxpu_004.png,TOTAL_COST,"80,000","80,000"
+val/mcocr_public_145014kuxpu_005.png,ITEM_NAME,Sữa chua Chanh leo Trân châu trắng,Sữa chua Chanh leo Trân châu trắng
+val/mcocr_public_145014kuxpu_006.png,QUANTITY,1,1
+val/mcocr_public_145014kuxpu_007.png,UNIT_PRICE,"30,000",30.000
+val/mcocr_public_145014kuxpu_008.png,LINE_TOTAL,"30,000","30,000"
+val/mcocr_public_145014kuxpu_009.png,ITEM_NAME,Sữa chua việt quất,Sữa chua việt quất
+val/mcocr_public_145014kuxpu_010.png,QUANTITY,1,1
+val/mcocr_public_145014kuxpu_011.png,UNIT_PRICE,"25,000","25,000"
+val/mcocr_public_145014kuxpu_012.png,LINE_TOTAL,"25,000","25,000"
+val/mcocr_public_145014kuxpu_013.png,ITEM_NAME,Sữa Chua Trân Châu,Sữa Chua Trân Châu
+val/mcocr_public_145014kuxpu_014.png,QUANTITY,1,1
+val/mcocr_public_145014kuxpu_015.png,UNIT_PRICE,"25,000","25,000"
+val/mcocr_public_145014kuxpu_016.png,LINE_TOTAL,"25,000",25.000
+val/mcocr_public_145014kzoxh_000.png,SELLER,VinCommerce,VinCommerce
+val/mcocr_public_145014kzoxh_001.png,ADDRESS,"VM+ QNH Tổ 7, khu Minh Tiến A","VM+ QNH Tổ 7, Khu Minh Tiến A"
+val/mcocr_public_145014kzoxh_002.png,ADDRESS,"Tổ 7, khu Minh Tiến A","Tổ 7, Khu Minh Tiến A"
+val/mcocr_public_145014kzoxh_003.png,ADDRESS,"P. Cẩm Bình, Tp. Cẩm Phả, QNH","P. Cẩm Bình, TP. Cẩm Phả, QNH"
+val/mcocr_public_145014kzoxh_004.png,TOTAL_COST,23.500,23.500
+val/mcocr_public_145014kzoxh_005.png,TIMESTAMP,12/8/2020 13:42,12/8/2020 13:42
+val/mcocr_public_145014kzoxh_006.png,ITEM_NAME,ÔNG THỌ VNM SD đỏ 380gr T48,ÔNG THỌ VNM SD đỏ 380gr T48
+val/mcocr_public_145014kzoxh_007.png,QUANTITY,1,1
+val/mcocr_public_145014kzoxh_008.png,UNIT_PRICE,23.500,23.500
+val/mcocr_public_145014kzoxh_009.png,LINE_TOTAL,23.500,23.500
+val/mcocr_public_145014lohnm_000.png,SELLER,NHÀ SÁCH GD-TC CẨM PHẢ,NHÀ SÁCH GD-TC CẨM PHẢ
+val/mcocr_public_145014lohnm_001.png,ADDRESS,212 Đường Trần Phú-Cẩm Phả,212 Đường Trần Phú-Cẩm Phả
+val/mcocr_public_145014lohnm_002.png,TOTAL_COST,8.000đ,8.000đ
+val/mcocr_public_145014lohnm_003.png,TIMESTAMP,10:14:07 - 13/08/2020,10:14:07 - 13/08/2020
+val/mcocr_public_145014lohnm_004.png,ITEM_NAME,Bút bảng TL to,Bút bảng TL to
+val/mcocr_public_145014lohnm_005.png,QUANTITY,1,1
+val/mcocr_public_145014lohnm_006.png,UNIT_PRICE,8.000,8.000
+val/mcocr_public_145014lohnm_007.png,LINE_TOTAL,8.000đ,8.000đ
+val/mcocr_public_145014mgasx_000.png,SELLER,Co.op mart,CO.OPmart
+val/mcocr_public_145014mgasx_001.png,ADDRESS,Co.opMart,Co.opMart
+val/mcocr_public_145014mgasx_002.png,ADDRESS,NGUYEN DINH CHIEU,NGUYEN DINH CHIEU
+val/mcocr_public_145014mgasx_003.png,ADDRESS,168 Nguyen,168 Nguyen
+val/mcocr_public_145014mgasx_004.png,ADDRESS,Đinh Chiêu,Dinh Chieu
+val/mcocr_public_145014mgasx_005.png,ADDRESS,0.3,0.3
+val/mcocr_public_145014mgasx_006.png,TOTAL_COST,"880,400.00","880,400.00"
+val/mcocr_public_145014mgasx_007.png,TIMESTAMP,21/05/2020 16:44:18,21/05/2020 16:44:18
+val/mcocr_public_145014mgasx_008.png,ITEM_NAME,Kem Wall's Soco H.Nhan 75,Kem Wall's Soco H.Nhan 75
+val/mcocr_public_145014mgasx_009.png,QUANTITY,1,1
+val/mcocr_public_145014mgasx_010.png,UNIT_PRICE,"103,500.00","103,500.00"
+val/mcocr_public_145014mgasx_011.png,LINE_TOTAL,"103,500.00","103,500.00"
+val/mcocr_public_145014mgasx_012.png,ITEM_NAME,Ha cao VISSAN 250g,Ha cao VISSAN 250g
+val/mcocr_public_145014mgasx_013.png,QUANTITY,1,1
+val/mcocr_public_145014mgasx_014.png,UNIT_PRICE,"23,300.00","23,300.00"
+val/mcocr_public_145014mgasx_015.png,LINE_TOTAL,"23,300.00","23,300.00"
+val/mcocr_public_145014mgasx_016.png,ITEM_NAME,Ha cao VISSAN 250g,Ha cao VISSAN 250g
+val/mcocr_public_145014mgasx_017.png,QUANTITY,1,1
+val/mcocr_public_145014mgasx_018.png,UNIT_PRICE,"23,300.00","23,300.00"
+val/mcocr_public_145014mgasx_019.png,LINE_TOTAL,"23,300.00","23,300.00"
+val/mcocr_public_145014mgasx_020.png,ITEM_NAME,Xuc xich trung muoi G FED,Xuc xich trung muoi G FED
+val/mcocr_public_145014mgasx_021.png,QUANTITY,1,1
+val/mcocr_public_145014mgasx_022.png,UNIT_PRICE,"38,000.00","38,000.00"
+val/mcocr_public_145014mgasx_023.png,LINE_TOTAL,"38,000.00","38,000.00"
+val/mcocr_public_145014mgasx_024.png,ITEM_NAME,Lap xuong tuoi LC 500g,Lap xuong tuoi LC 500g
+val/mcocr_public_145014mgasx_025.png,QUANTITY,1,1
+val/mcocr_public_145014mgasx_026.png,UNIT_PRICE,"127,800.00","127,800.00"
+val/mcocr_public_145014mgasx_027.png,LINE_TOTAL,"127,800.00","127,800.00"
+val/mcocr_public_145014mgasx_028.png,ITEM_NAME,SCU TH Yogurt caramen 170,SCU TH Yogurt caramen 170
+val/mcocr_public_145014mgasx_029.png,QUANTITY,1,1
+val/mcocr_public_145014mgasx_030.png,UNIT_PRICE,"11,500.00","11,500.00"
+val/mcocr_public_145014mgasx_031.png,LINE_TOTAL,"11,500.00","11,500.00"
+val/mcocr_public_145014mgasx_032.png,ITEM_NAME,Banh da cua HOANGGIA 120g,Banh da cua HOANGGIA 120g
+val/mcocr_public_145014mgasx_033.png,QUANTITY,5,5
+val/mcocr_public_145014mgasx_034.png,UNIT_PRICE,"18,400.00","18,400.00"
+val/mcocr_public_145014mgasx_035.png,LINE_TOTAL,"92,000.00","92,000.00"
+val/mcocr_public_145014mgasx_036.png,ITEM_NAME,DG CLEASR m1 bha skhoai630,DG CLEAR ml bha skhoai630
+val/mcocr_public_145014mgasx_037.png,QUANTITY,1,1
+val/mcocr_public_145014mgasx_038.png,UNIT_PRICE,"152,000.00","152,000.00"
+val/mcocr_public_145014mgasx_039.png,LINE_TOTAL,"152,000.00","152,000.00"
+val/mcocr_public_145014mgasx_040.png,ITEM_NAME,KX/DXDoveOXYMOISTUREdtbb,KX/DXDove OXYMOISTUREdtbi
+val/mcocr_public_145014mgasx_041.png,QUANTITY,1,1
+val/mcocr_public_145014mgasx_042.png,UNIT_PRICE,"83,000.00","83,000.00"
+val/mcocr_public_145014mgasx_043.png,LINE_TOTAL,"83,000.00","83,000.00"
+val/mcocr_public_145014mgasx_044.png,ITEM_NAME,KDR CloseUp Bacha230g+BCD,KDR CloseUp Bacha230g+BCD
+val/mcocr_public_145014mgasx_045.png,QUANTITY,1,1
+val/mcocr_public_145014mgasx_046.png,UNIT_PRICE,"84,000.00","84,000.00"
+val/mcocr_public_145014mgasx_047.png,LINE_TOTAL,"84,000.00","84,000.00"
+val/mcocr_public_145014mgasx_048.png,ITEM_NAME,Kem cat da NGHIA D-555,Kem cat da NGHIA D-555
+val/mcocr_public_145014mgasx_049.png,QUANTITY,1,1
+val/mcocr_public_145014mgasx_050.png,UNIT_PRICE,"82,000.00","82,000.00"
+val/mcocr_public_145014mgasx_051.png,LINE_TOTAL,"82,000.00","82,000.00"
+val/mcocr_public_145014mgasx_052.png,ITEM_NAME,XB Coast Classic 113g,XB Coast Classic 113g
+val/mcocr_public_145014mgasx_053.png,QUANTITY,3,3
+val/mcocr_public_145014mgasx_054.png,UNIT_PRICE,"20,000.00","20,000.00"
+val/mcocr_public_145014mgasx_055.png,LINE_TOTAL,"60,000.00","60,000.00"
+val/mcocr_public_145014mnwlg_000.png,SELLER,PHÓ MỎ,PHỐ MỎ
+val/mcocr_public_145014mnwlg_001.png,ADDRESS,Tổ 7 khu Tân Lập 4 - P. Cẩm Thuỷ-,Tổ 7 khu Tân Lập 4 - P.Cẩm Thủy -
+val/mcocr_public_145014mnwlg_002.png,ADDRESS,Tp.Cẩm Phả - Quảng Ninh,Tp.Cẩm Phả - Quảng Ninh
+val/mcocr_public_145014mnwlg_003.png,TIMESTAMP,13/08/2020 - 21:20,13 / 08 / 2020 - 21 : 20
+val/mcocr_public_145014mnwlg_004.png,TOTAL_COST,"135,000","135,000"
+val/mcocr_public_145014mnwlg_005.png,ITEM_NAME,Hồng trà,Hồng trà
+val/mcocr_public_145014mnwlg_006.png,QUANTITY,1,1
+val/mcocr_public_145014mnwlg_007.png,UNIT_PRICE,25.000,25.000
+val/mcocr_public_145014mnwlg_008.png,LINE_TOTAL,"25,000","25,000"
+val/mcocr_public_145014mnwlg_009.png,ITEM_NAME,Trà sữa Socola,Trà sữa Socola
+val/mcocr_public_145014mnwlg_010.png,QUANTITY,1,1
+val/mcocr_public_145014mnwlg_011.png,UNIT_PRICE,"25,000",25.000
+val/mcocr_public_145014mnwlg_012.png,LINE_TOTAL,"25,000","25,000"
+val/mcocr_public_145014mnwlg_013.png,ITEM_NAME,Trà sữa Việt quất,Trà sữa Việt quất
+val/mcocr_public_145014mnwlg_014.png,QUANTITY,1,1
+val/mcocr_public_145014mnwlg_015.png,UNIT_PRICE,"25,000",25.000
+val/mcocr_public_145014mnwlg_016.png,LINE_TOTAL,"25,000","25,000"
+val/mcocr_public_145014mnwlg_017.png,ITEM_NAME,Nem rán (bé),Nem rán (bé)
+val/mcocr_public_145014mnwlg_018.png,QUANTITY,1,1
+val/mcocr_public_145014mnwlg_019.png,UNIT_PRICE,30.000,30.000
+val/mcocr_public_145014mnwlg_020.png,LINE_TOTAL,30.000,"30,000"
+val/mcocr_public_145014mnwlg_021.png,ITEM_NAME,Viên hải sản,Viên hải sản
+val/mcocr_public_145014mnwlg_022.png,QUANTITY,1,1
+val/mcocr_public_145014mnwlg_023.png,UNIT_PRICE,30.000,"30,000"
+val/mcocr_public_145014mnwlg_024.png,LINE_TOTAL,30.000,30.000
+val/mcocr_public_145014mthgu_000.png,SELLER,VinCommertce,VinCommerce
+val/mcocr_public_145014mthgu_001.png,ADDRESS,VM+QNH 112 Thanh Niên,VM+QNH 112 Thanh Niên
+val/mcocr_public_145014mthgu_002.png,ADDRESS,"Số 112 Thanh Niên, P.Cẩm Thành","Số 112 Thanh Niên, P. Cẩm Thành"
+val/mcocr_public_145014mthgu_003.png,ADDRESS,"TP. Cẩm Phả, Quảng Ninh","TP. Cẩm Phả, Quảng Ninh"
+val/mcocr_public_145014mthgu_004.png,TOTAL_COST,3.000,3.000
+val/mcocr_public_145014mthgu_005.png,TIMESTAMP,12/8/2020 15:11,12/8/2020 15:11
+val/mcocr_public_145014mthgu_006.png,ITEM_NAME,HỮU NGHỊ Lương khô CaCao 70g,HỮU NGHỊ Lương Khô Cacao 70g
+val/mcocr_public_145014mthgu_007.png,QUANTITY,1,1
+val/mcocr_public_145014mthgu_008.png,UNIT_PRICE,3.000,3.000
+val/mcocr_public_145014mthgu_009.png,LINE_TOTAL,3.000,3.000
+val/mcocr_public_145014nhvqt_000.png,SELLER,Nhà Hàng Aozora Sushi,Nhà Hàng Aozora Sushi
+val/mcocr_public_145014nhvqt_001.png,ADDRESS,"153 Thuy Khuê, Quận Tây Hồ,","153 Thuỵ Khuê, Quận Tây Hồ, T"
+val/mcocr_public_145014nhvqt_002.png,ADDRESS,Thành phố Hà Nội,Thành phố Hà Nội
+val/mcocr_public_145014nhvqt_003.png,TIMESTAMP,14-08-2020 20:39,14-08-2020 20:39
+val/mcocr_public_145014nhvqt_004.png,TIMESTAMP,14-08-2020 21:56,14-08-2020 21:56
+val/mcocr_public_145014nhvqt_005.png,TOTAL_COST,"1,430,000đ","1,430,000đ"
+val/mcocr_public_145014nhvqt_006.png,ITEM_NAME,riệu gạo jangsoo makgeolii,riệu gạo jangsoo makgeoli
+val/mcocr_public_145014nhvqt_007.png,QUANTITY,1,1
+val/mcocr_public_145014nhvqt_008.png,UNIT_PRICE,"89,000","89,000"
+val/mcocr_public_145014nhvqt_009.png,LINE_TOTAL,"89,000","89,000"
+val/mcocr_public_145014nhvqt_010.png,ITEM_NAME,Nước Khoáng,Nước Khoáng
+val/mcocr_public_145014nhvqt_011.png,UNIT_PRICE,"12,000","12,000"
+val/mcocr_public_145014nhvqt_012.png,QUANTITY,4,4
+val/mcocr_public_145014nhvqt_013.png,LINE_TOTAL,"48,000","48,000"
+val/mcocr_public_145014nhvqt_014.png,ITEM_NAME,Cuộn Cá Hồi,Cuộn Cá Hồi
+val/mcocr_public_145014nhvqt_015.png,UNIT_PRICE,"42,000","42,000"
+val/mcocr_public_145014nhvqt_016.png,LINE_TOTAL,"84,000","84,000"
+val/mcocr_public_145014nhvqt_017.png,QUANTITY,2,2
+val/mcocr_public_145014nhvqt_018.png,ITEM_NAME,Lẩu Thập Cẩm 2n,Lẩu Thập Cẩm 2n
+val/mcocr_public_145014nhvqt_019.png,QUANTITY,2,2
+val/mcocr_public_145014nhvqt_020.png,UNIT_PRICE,"339,000","339,000"
+val/mcocr_public_145014nhvqt_021.png,LINE_TOTAL,"678,000","678,000"
+val/mcocr_public_145014nhvqt_022.png,ITEM_NAME,Nước Cam Chai,Nước Cam Chai
+val/mcocr_public_145014nhvqt_023.png,UNIT_PRICE,"18,000","18,000"
+val/mcocr_public_145014nhvqt_024.png,QUANTITY,4,4
+val/mcocr_public_145014nhvqt_025.png,LINE_TOTAL,"72,000","72,000"
+val/mcocr_public_145014nhvqt_026.png,ITEM_NAME,đĩa bạch thuộc,đĩa bạch thuộc
+val/mcocr_public_145014nhvqt_027.png,QUANTITY,1,1
+val/mcocr_public_145014nhvqt_028.png,UNIT_PRICE,"180,000","180,000"
+val/mcocr_public_145014nhvqt_029.png,LINE_TOTAL,"180,000","180,000"
+val/mcocr_public_145014nhvqt_030.png,ITEM_NAME,Sườn Non Lợn,Sườn Non Lợn
+val/mcocr_public_145014nhvqt_031.png,QUANTITY,1,1
+val/mcocr_public_145014nhvqt_032.png,UNIT_PRICE,"110,000","110,000"
+val/mcocr_public_145014nhvqt_033.png,LINE_TOTAL,"110,000","110,000"
+val/mcocr_public_145014nhvqt_034.png,ITEM_NAME,cuận tôm sốt maiyoinese,cuận tôm sốt maiyonese
+val/mcocr_public_145014nhvqt_035.png,QUANTITY,1,1
+val/mcocr_public_145014nhvqt_036.png,UNIT_PRICE,"39,000","39,000"
+val/mcocr_public_145014nhvqt_037.png,LINE_TOTAL,"39,000","39,000"
+val/mcocr_public_145014nhvqt_038.png,ITEM_NAME,Cơm Cuộn Salad Cá Ngừ Đặc,Cơm Cuộn Salad Cá Ngừ Đặc
+val/mcocr_public_145014nhvqt_039.png,QUANTITY,1,1
+val/mcocr_public_145014nhvqt_040.png,UNIT_PRICE,"72,000","72,000"
+val/mcocr_public_145014nhvqt_041.png,LINE_TOTAL,"72,000","72,000"
+val/mcocr_public_145014nhvqt_042.png,ITEM_NAME,Mỳ Tôm,Mỳ Tôm
+val/mcocr_public_145014nhvqt_043.png,QUANTITY,7,7
+val/mcocr_public_145014nhvqt_044.png,UNIT_PRICE,"6,000","6,000"
+val/mcocr_public_145014nhvqt_045.png,LINE_TOTAL,"42,000","42,000"
+val/mcocr_public_145014nhvqt_046.png,ITEM_NAME,riệu soju vị hoa quả 360ml.,riệu soju vị hoa quả 360ml.
+val/mcocr_public_145014nhvqt_047.png,QUANTITY,2,2
+val/mcocr_public_145014nhvqt_048.png,UNIT_PRICE,"109,000","109,000"
+val/mcocr_public_145014nhvqt_049.png,LINE_TOTAL,"218,000","218,000"
+val/mcocr_public_145014nhvqt_050.png,ITEM_NAME,váng đậu chiên,váng đậu chiên
+val/mcocr_public_145014nhvqt_051.png,UNIT_PRICE,"25,000","25,000"
+val/mcocr_public_145014nhvqt_052.png,QUANTITY,2,2
+val/mcocr_public_145014nhvqt_053.png,LINE_TOTAL,"50,000","50,000"
+val/mcocr_public_145014nhvqt_054.png,ITEM_NAME,6%(350ml),6%(350ml)
+val/mcocr_public_145014nhvqt_055.png,ITEM_NAME,Biệt(8 miếng),Biệt(8 miếng)
+val/mcocr_public_145014nhvqt_056.png,ITEM_NAME,13%,13%
+val/mcocr_public_145014nsrnp_000.png,TOTAL_COST,20.000,"20,000"
+val/mcocr_public_145014nsrnp_001.png,TIMESTAMP,09?08/2020 19:,09/08/2020-19:
+val/mcocr_public_145014nsrnp_002.png,ITEM_NAME,Bánh gato hoa quả 200g - TTP NT,Bánh gato hóa quả 200g - TTP NT
+val/mcocr_public_145014nsrnp_003.png,QUANTITY,1,1
+val/mcocr_public_145014nsrnp_004.png,UNIT_PRICE,"20,000","20,000"
+val/mcocr_public_145014nsrnp_005.png,LINE_TOTAL,"20,000","20,000"
+val/mcocr_public_145014ohtbh_000.png,SELLER,VinCommerce,VinCommerce
+val/mcocr_public_145014ohtbh_001.png,ADDRESS,VM+ QNH 112 Thanh Niên,VM+ QNH 112 Thanh Niên
+val/mcocr_public_145014ohtbh_002.png,ADDRESS,"Số 112 Thanh Niên, P. Cẩm Thành","Số 112 Thanh Niên, P. Cẩm Thành"
+val/mcocr_public_145014ohtbh_003.png,ADDRESS,"TP. Cẩm Phả, Quảng Ninh","TP. Cẩm Phả, Quảng Ninh"
+val/mcocr_public_145014ohtbh_004.png,TOTAL_COST,47.500,47.500
+val/mcocr_public_145014ohtbh_005.png,ITEM_NAME,MIWON Rong biển giòn trộn gia vị 50g T20,MIWON Rong biển giòn trộn gia vị 50g T20
+val/mcocr_public_145014ohtbh_006.png,QUANTITY,1,1
+val/mcocr_public_145014ohtbh_007.png,UNIT_PRICE,47.500,47.500
+val/mcocr_public_145014ohtbh_008.png,LINE_TOTAL,47.500,47.500
+val/mcocr_public_145014ohtbh_009.png,TIMESTAMP,9/8/2020 18:21,9/8/2020 18:21
+val/mcocr_public_145014oiwct_000.png,SELLER,NHÀ SÁCH GD-TC CẨM PHẢ,NHÀ SÁCH GD-TC CẨM PHẢ
+val/mcocr_public_145014oiwct_001.png,TOTAL_COST,20.000đ,20.000đ
+val/mcocr_public_145014oiwct_002.png,ITEM_NAME,Bộ Hồ sơ,Bộ Hồ sơ
+val/mcocr_public_145014oiwct_003.png,QUANTITY,4,4
+val/mcocr_public_145014oiwct_004.png,UNIT_PRICE,5.000,5.000
+val/mcocr_public_145014oiwct_005.png,LINE_TOTAL,20.000đ,20.000đ
+val/mcocr_public_145014oiwct_006.png,TIMESTAMP,09:06:32 - 14/08/2020,09:06:32 - 14/08/2020
+val/mcocr_public_145014oiwct_007.png,ADDRESS,212 Đường Trần Phú-Cẩm Phả,212 Đường Trần Phú-Cẩm Phả
+val/mcocr_public_145014qcesc_000.png,SELLER,MINIMART ANAN,MINIMART ANAN
+val/mcocr_public_145014qcesc_001.png,ADDRESS,Chợ Sủi Phú Thị Gia Lâm,Chợ Sủi Phú Thị Gia Lâm
+val/mcocr_public_145014qcesc_002.png,TOTAL_COST,"548,000","548,000"
+val/mcocr_public_145014qcesc_003.png,ITEM_NAME,Bim bim Swing 30g NT,Bim bim Swing 30g NT
+val/mcocr_public_145014qcesc_004.png,QUANTITY,2,2
+val/mcocr_public_145014qcesc_005.png,UNIT_PRICE,"6,000","6,000"
+val/mcocr_public_145014qcesc_006.png,LINE_TOTAL,"12,000","12,000"
+val/mcocr_public_145014qcesc_007.png,ITEM_NAME,Bim bim Ostar các vị 30g NT,Bim bim Ostar các vị 30g NT
+val/mcocr_public_145014qcesc_008.png,QUANTITY,1,1
+val/mcocr_public_145014qcesc_009.png,UNIT_PRICE,"6,000","6,000"
+val/mcocr_public_145014qcesc_010.png,LINE_TOTAL,"6,000","6,000"
+val/mcocr_public_145014qcesc_011.png,ITEM_NAME,Xúc xích Everyday hạ long NT,Xúc xích Everyday hạ long NT
+val/mcocr_public_145014qcesc_012.png,QUANTITY,1,1
+val/mcocr_public_145014qcesc_013.png,UNIT_PRICE,"25,000","25,000"
+val/mcocr_public_145014qcesc_014.png,LINE_TOTAL,"25,000","25,000"
+val/mcocr_public_145014qcesc_015.png,ITEM_NAME,Thuốc là thăng l NT,Thuốc lá thăngl NT
+val/mcocr_public_145014qcesc_016.png,QUANTITY,1,1
+val/mcocr_public_145014qcesc_017.png,UNIT_PRICE,"11,000","11,000"
+val/mcocr_public_145014qcesc_018.png,LINE_TOTAL,"11,000","11,000"
+val/mcocr_public_145014qcesc_019.png,ITEM_NAME,Sữa chua nha dam 100g NT,Sữa chua nha đam 100g NT
+val/mcocr_public_145014qcesc_020.png,QUANTITY,3,3
+val/mcocr_public_145014qcesc_021.png,UNIT_PRICE,"7,000","7,000"
+val/mcocr_public_145014qcesc_022.png,LINE_TOTAL,"21,000","21,000"
+val/mcocr_public_145014qcesc_023.png,ITEM_NAME,Nước tẩy toilet Gift700ml NT,Nước tẩy toilet Gift 700ml NT
+val/mcocr_public_145014qcesc_024.png,UNIT_PRICE,"23,000","23,000"
+val/mcocr_public_145014qcesc_025.png,LINE_TOTAL,"23,000","23,000"
+val/mcocr_public_145014qcesc_026.png,ITEM_NAME,"xúc xích cp 8, 10 dài NT","xúc xích cp 8, 10 dài NT"
+val/mcocr_public_145014qcesc_027.png,QUANTITY,10,10
+val/mcocr_public_145014qcesc_028.png,UNIT_PRICE,"45,000","45,000"
+val/mcocr_public_145014qcesc_029.png,LINE_TOTAL,"450,000","450,000"
+val/mcocr_public_145014qcesc_030.png,TIMESTAMP,15/08/2020 - 14:36,15/08/2020-14:36
+val/mcocr_public_145014qcesc_031.png,QUANTITY,1,1
+val/mcocr_public_145014qodwj_000.png,SELLER,VinCommerce,VinCommerce
+val/mcocr_public_145014qodwj_001.png,ADDRESS,NM+ QNH Số 463 Tổ 66 Khu Diêm Thuỷ,VM+ QNH Số 463 Tổ 66 Khu Diêm Thủy
+val/mcocr_public_145014qodwj_002.png,ADDRESS,"Số 463, Tổ 66, Khu Diêm Thuy","Số 463, Tổ 66, Khu Diêm Thủy"
+val/mcocr_public_145014qodwj_003.png,ADDRESS,"P.Câm Đông, TP>Câm Pha","P. Cẩm Đông, TP. Cẩm Phả"
+val/mcocr_public_145014qodwj_004.png,TOTAL_COST,9.000,9.000
+val/mcocr_public_145014qodwj_005.png,TIMESTAMP,15/08/2020 07:22,15/08/2020 07:22
+val/mcocr_public_145014qodwj_006.png,ITEM_NAME,Bánh sừng bò bauli Moonfils Socola 47g,Bánh sừng bò Bauli Moonfils Socola 47g
+val/mcocr_public_145014qodwj_007.png,QUANTITY,1,1
+val/mcocr_public_145014qodwj_008.png,UNIT_PRICE,9.000,9.000
+val/mcocr_public_145014qodwj_009.png,LINE_TOTAL,9.000,9.000
+val/mcocr_public_145014qozsl_000.png,ADDRESS,212 Đường Trần Phú-Cẩm Phả,212 Đường Trần Phú-Cẩm Phả
+val/mcocr_public_145014qozsl_001.png,TOTAL_COST,100.000đ,100.000đ
+val/mcocr_public_145014qozsl_002.png,ITEM_NAME,Vở kẻ ngang,Vở kẻ ngang
+val/mcocr_public_145014qozsl_003.png,QUANTITY,10,10
+val/mcocr_public_145014qozsl_004.png,UNIT_PRICE,10.000,10.000
+val/mcocr_public_145014qozsl_005.png,LINE_TOTAL,100.000đ,100.000đ
+val/mcocr_public_145014qozsl_006.png,TIMESTAMP,11/8/2020 9:23,11/8/2020 9:23
+val/mcocr_public_145014qozsl_007.png,SELLER,NHÀ SÁCH GD-TC CẨM PHẢ,NHÀ SÁCH GD-TC CẨM PHẢ
+val/mcocr_public_145014quwvb_000.png,TOTAL_COST,"18,200.00","18,200.00"
+val/mcocr_public_145014quwvb_001.png,ADDRESS,"Tang 1,SH42 - Toa K3,Cong trinh chung cu","Tang 1,SH42 - Toa K3,Cong trinh chung cu"
+val/mcocr_public_145014quwvb_002.png,ADDRESS,Du an Dau tu xay dung Khu nha o Hi Brand,Du an Dau tu xay dung Khu nha o Hi Brand
+val/mcocr_public_145014quwvb_003.png,ADDRESS,"tai Khu do thi moi Van Phu,","tai Khu do thi moi Van Phu,"
+val/mcocr_public_145014quwvb_004.png,ADDRESS,"P. Phu La, Q.Ha Dong, Tp Ha Noi","P. Phu La, Q. Ha Dong, Tp Ha Noi"
+val/mcocr_public_145014quwvb_005.png,SELLER,Saigon Co.op,Saigon Co.op
+val/mcocr_public_145014quwvb_006.png,SELLER,Co.op Food HN THE K-PARK,Co.op Food HN THE K-PARK
+val/mcocr_public_145014quwvb_007.png,ITEM_NAME,Banh sua kem trung 90g-BM,Banh sua kem trung 90g-DM
+val/mcocr_public_145014quwvb_008.png,QUANTITY,1,1
+val/mcocr_public_145014quwvb_009.png,UNIT_PRICE,"9,900.00","9,900.00"
+val/mcocr_public_145014quwvb_010.png,LINE_TOTAL,"9,900.00","9,900.00"
+val/mcocr_public_145014quwvb_011.png,ITEM_NAME,Tra den Lipton chanh lon3,Tra den Lipton chanh lon3
+val/mcocr_public_145014quwvb_012.png,QUANTITY,1,1
+val/mcocr_public_145014quwvb_013.png,UNIT_PRICE,"8,300.00","8,300.00"
+val/mcocr_public_145014quwvb_014.png,LINE_TOTAL,"8,300.00","8,300.00"
+val/mcocr_public_145014quwvb_015.png,TIMESTAMP,23/09/2019 9:10:04,23/09/2019 9:10:04
+val/mcocr_public_145014quwvb_016.png,ADDRESS,ket hop dich vu tren o dat H-CT2 thuoc,ket hop dich vu tren o dat H-CT2 thuoc
+val/mcocr_public_145014ruiqd_000.png,SELLER,VinCommerce,VinCommerce
+val/mcocr_public_145014ruiqd_001.png,ADDRESS,VM+ QNH 86 Trần Phú,VM+ QNH 86 Trần Phú
+val/mcocr_public_145014ruiqd_002.png,ADDRESS,"Số 86 Đường Trần Phú, P. Cẩm Tây","Số 86 Đường Trần Phú, P. Cẩm Tây"
+val/mcocr_public_145014ruiqd_003.png,ADDRESS,"TP. Cẩm Phả, T. Quảng Ninh","TP Cẩm Phả, T. Quảng Ninh."
+val/mcocr_public_145014ruiqd_004.png,TOTAL_COST,52.830,52.830
+val/mcocr_public_145014ruiqd_005.png,ITEM_NAME,CP_Giò sống 200g,CP_Giò sống 200g
+val/mcocr_public_145014ruiqd_006.png,QUANTITY,1,1
+val/mcocr_public_145014ruiqd_007.png,UNIT_PRICE,35.500,35.500
+val/mcocr_public_145014ruiqd_008.png,LINE_TOTAL,35.500,35.500
+val/mcocr_public_145014ruiqd_009.png,ITEM_NAME,Cải thảo,Cải thảo
+val/mcocr_public_145014ruiqd_010.png,QUANTITY,1,1
+val/mcocr_public_145014ruiqd_011.png,UNIT_PRICE,17.330,17.330
+val/mcocr_public_145014ruiqd_012.png,LINE_TOTAL,17.330,17.330
+val/mcocr_public_145014ruiqd_013.png,TIMESTAMP,9/8/2020 20:25,9/8/2020 20:25
+val/mcocr_public_145014rvbhf_000.png,TOTAL_COST,"24,500.00","24,500.00"
+val/mcocr_public_145014rvbhf_001.png,ADDRESS,"Tang 1, SH42- Toa K3, cong trinh chung cu","Tang 1,SH42 - Toa K3,Cong trinh chung cung"
+val/mcocr_public_145014rvbhf_002.png,ADDRESS,ket hop dich vu tren o dat H- CT2 thuoc,ket hop dich vu tren o dat H-CT2 thuoc
+val/mcocr_public_145014rvbhf_003.png,ADDRESS,Du an Dau tu xay dung khu nha o Hi Brand,Du an Dau tu xay dung Khu nha o Hi Brand
+val/mcocr_public_145014rvbhf_004.png,ADDRESS,tại khu do thi moi Van Phu,"tai Khu do thi moi Van Phu,"
+val/mcocr_public_145014rvbhf_005.png,ADDRESS,"P. Phu La, Q. Ha Dong, Tp Ha Noi","P. Phu La, Q. Ha Dong, Tp Ha Noi"
+val/mcocr_public_145014rvbhf_006.png,SELLER,Saigon Co.op,Saigon Co.op
+val/mcocr_public_145014rvbhf_007.png,SELLER,Co.op Food HN THE K-PARK,Co.op Food HN THE K-PARK
+val/mcocr_public_145014rvbhf_008.png,TIMESTAMP,23/09/2019 9:34:16,23/09/2019 9:34:16
+val/mcocr_public_145014rvbhf_009.png,ITEM_NAME,Bong lan cuon 100g-BM990,Bong lan cuon 100g-DM990
+val/mcocr_public_145014rvbhf_010.png,QUANTITY,1,1
+val/mcocr_public_145014rvbhf_011.png,UNIT_PRICE,"9,900.00","9,900.00"
+val/mcocr_public_145014rvbhf_012.png,LINE_TOTAL,"9,900.00","9,900.00"
+val/mcocr_public_145014rvbhf_013.png,ITEM_NAME,Bngot AJIMONOTO 140g,Bngot AJINOMOTO 140g
+val/mcocr_public_145014rvbhf_014.png,QUANTITY,1,1
+val/mcocr_public_145014rvbhf_015.png,UNIT_PRICE,"10,000.00","10,000.00"
+val/mcocr_public_145014rvbhf_016.png,LINE_TOTAL,"10,000.00","10,000.00"
+val/mcocr_public_145014rvbhf_017.png,ITEM_NAME,Bot canh Iot HAICHAU 190g,Bot canh lot HAICHAU 190g
+val/mcocr_public_145014rvbhf_018.png,QUANTITY,1,1
+val/mcocr_public_145014rvbhf_019.png,UNIT_PRICE,"4,600.00","4,600.00"
+val/mcocr_public_145014rvbhf_020.png,LINE_TOTAL,"4,600.00","4,600.00"
+val/mcocr_public_145014sncle_000.png,SELLER,Cty LD TNHH KFC Viet Nam,Cty LD TNHH KFC Viet Nam
+val/mcocr_public_145014sncle_002.png,TIMESTAMP,8/15/2020 19:12,8/15/2020 19:12
+val/mcocr_public_145014sncle_003.png,TOTAL_COST,"51,000",Total
+val/mcocr_public_145014sncle_004.png,ITEM_NAME,ZINGER BURGER E,ZINGER BURGER E
+val/mcocr_public_145014sncle_005.png,LINE_TOTAL,"51,000","51,000"
+val/mcocr_public_145014sncle_006.png,SELLER,KFC BIG C VINH,KFC BIG C VINH
+val/mcocr_public_145014sncle_007.png,ADDRESS,"So 2, Quang Trung, TP Vinh, Nghe","So 2, Quang Trung, TP Vinh, Nghe"
+val/mcocr_public_145014sncle_008.png,QUANTITY,1,1
+val/mcocr_public_145014sqltv_000.png,SELLER,CỬA HÀNG NĂM OÁNH,CỬA HÀNG NĂM OÁNH
+val/mcocr_public_145014sqltv_001.png,ADDRESS,"Thôn Phú Thụy, Xã Phú Thị, Huyện Gia Lâm, TP Hà Nội","Thôn Phú Thụy, Xã Phú Thị, Huyện Gia Lâm, TP Hà Nội"
+val/mcocr_public_145014sqltv_002.png,TIMESTAMP,11/8/2020,11/8/2020
+val/mcocr_public_145014sqltv_003.png,TOTAL_COST,"89,000","89,000"
+val/mcocr_public_145014sqltv_004.png,ITEM_NAME,Đường tinh luyện xuất khẩu 1kg,Đường tinh luyện xuất khẩu 1kg
+val/mcocr_public_145014sqltv_005.png,QUANTITY,1,1
+val/mcocr_public_145014sqltv_006.png,UNIT_PRICE,"14,000","14,000"
+val/mcocr_public_145014sqltv_007.png,LINE_TOTAL,"14,000","14,000"
+val/mcocr_public_145014sqltv_008.png,ITEM_NAME,"Mỳ Omachi sườn,bò","Mỳ Omachi sườn,bò"
+val/mcocr_public_145014sqltv_009.png,QUANTITY,5,5
+val/mcocr_public_145014sqltv_010.png,UNIT_PRICE,"5,800","5,800"
+val/mcocr_public_145014sqltv_011.png,LINE_TOTAL,"29,000","29,000"
+val/mcocr_public_145014sqltv_012.png,ITEM_NAME,Mắm Nam ngư 750ml,Mấm Nam ngư 750ml
+val/mcocr_public_145014sqltv_013.png,QUANTITY,1,1
+val/mcocr_public_145014sqltv_014.png,UNIT_PRICE,"34,000","34,000"
+val/mcocr_public_145014sqltv_015.png,LINE_TOTAL,"34,000","34,000"
+val/mcocr_public_145014sqltv_016.png,ITEM_NAME,Dấm gạo trung thành 500ml,Dấm gạo trung thành 500ml
+val/mcocr_public_145014sqltv_017.png,QUANTITY,1,1
+val/mcocr_public_145014sqltv_018.png,UNIT_PRICE,"12,000","12,000"
+val/mcocr_public_145014sqltv_019.png,LINE_TOTAL,"12,000","12,000"
+val/mcocr_public_145014vtyrp_000.png,SELLER,PHỐ MỎ,PHỐ MỎ
+val/mcocr_public_145014vtyrp_001.png,ADDRESS,Tổ 7 khu Tân Lập 4 - P.Cẩm Thủy -,Tổ 7 khu Tân Lập 4 - P.Cẩm Thủy -
+val/mcocr_public_145014vtyrp_002.png,ADDRESS,Tp.Cẩm Phả - Quảng Ninh,Tp.Cẩm Phả - Quảng Ninh
+val/mcocr_public_145014vtyrp_003.png,TIMESTAMP,11 / 08 / 2020 - 22 : 19,11 / 08 / 2020 - 22:19
+val/mcocr_public_145014vtyrp_004.png,TOTAL_COST,"10,000","10,000"
+val/mcocr_public_145014vtyrp_005.png,ITEM_NAME,Trà chanh,Trà chanh
+val/mcocr_public_145014vtyrp_006.png,QUANTITY,1,1
+val/mcocr_public_145014vtyrp_007.png,UNIT_PRICE,"10,000","10,000"
+val/mcocr_public_145014vtyrp_008.png,LINE_TOTAL,"10,000","10,000"
+val/mcocr_public_145014wbhzq_000.png,SELLER,MINIMART ANAN,MINIMART ANAN
+val/mcocr_public_145014wbhzq_001.png,ADDRESS,Chợ Sủi Phú Thị Gia Lâm,Chợ Sủi Phú Thị Gia Lâm
+val/mcocr_public_145014wbhzq_002.png,TIMESTAMP,10/08/2020-17:30,10/08/2020-17:30
+val/mcocr_public_145014wbhzq_003.png,ITEM_NAME,bánh danisa 681g NT,bánh daniea 681g NT
+val/mcocr_public_145014wbhzq_004.png,QUANTITY,1,1
+val/mcocr_public_145014wbhzq_005.png,UNIT_PRICE,"175,000","175,000"
+val/mcocr_public_145014wbhzq_006.png,LINE_TOTAL,"175,000","175,000"
+val/mcocr_public_145014wbhzq_007.png,TOTAL_COST,"175,000","178,000"
+val/mcocr_public_145014xkqax_000.png,SELLER,VinCommerce,VinCommerce
+val/mcocr_public_145014xkqax_001.png,ADDRESS,VM+QNH 112 Thanh Niên,VM+ QNH 112 Thanh Niên
+val/mcocr_public_145014xkqax_002.png,ADDRESS,"Số 112 Thanh Niên, P. Cẩm Thành","Số 112 Thanh Niên, P. Cẩm Thành"
+val/mcocr_public_145014xkqax_003.png,ADDRESS,"TP. Cẩm Phả, Quảng Ninh","TP. Cẩm Phả, Quảng Ninh"
+val/mcocr_public_145014xkqax_004.png,TIMESTAMP,14/08/2020 09:03,14/08/2020 09:03
+val/mcocr_public_145014xkqax_005.png,TOTAL_COST,49.500,49.500
+val/mcocr_public_145014xkqax_006.png,ITEM_NAME,CP_Thịt heo xay 300g,CP_Thịt heo xay-300g
+val/mcocr_public_145014xkqax_007.png,QUANTITY,1,1
+val/mcocr_public_145014xkqax_008.png,UNIT_PRICE,49.500,49.500
+val/mcocr_public_145014xkqax_009.png,LINE_TOTAL,49.500,49.500
+val/mcocr_public_145014xsefn_000.png,SELLER,VinCommerce,VinCommerce
+val/mcocr_public_145014xsefn_001.png,ADDRESS,"VM+ QNH Tổ 7, Khu Minh Tiến A","VM+ QNH Tổ 7, Khu Minh Tiến A"
+val/mcocr_public_145014xsefn_002.png,ADDRESS,"Tổ 7, Khu Minh Tiến A","Tổ 7, Khu Minh Tiến A"
+val/mcocr_public_145014xsefn_003.png,ADDRESS,"P. Cẩm Bình, TP. Cẩm Phả, QNH","P. Cẩm Bình, TP. Cẩm Phả, QNH"
+val/mcocr_public_145014xsefn_004.png,TOTAL_COST,103.235,103.235
+val/mcocr_public_145014xsefn_005.png,ITEM_NAME,CP_Thịt vai heo 300g,CP_Thịt vai heo 300g
+val/mcocr_public_145014xsefn_006.png,QUANTITY,1,1
+val/mcocr_public_145014xsefn_007.png,UNIT_PRICE,45.500,45.500
+val/mcocr_public_145014xsefn_008.png,LINE_TOTAL,45.500,45.500
+val/mcocr_public_145014xsefn_009.png,ITEM_NAME,B.bao nhân t.cẩm Phú Mỹ Bakery G100g,B.bao nhân t.cẩm Phú Mỹ Bakery G100g
+val/mcocr_public_145014xsefn_010.png,QUANTITY,2,2
+val/mcocr_public_145014xsefn_011.png,UNIT_PRICE,10.100,10.100
+val/mcocr_public_145014xsefn_012.png,LINE_TOTAL,20.200,20.200
+val/mcocr_public_145014xsefn_013.png,ITEM_NAME,URC Hồng trà C2 vị đào 500/455ml T24,URC Hồng trà C2 vị đào 500/455ml T24
+val/mcocr_public_145014xsefn_014.png,QUANTITY,1,1
+val/mcocr_public_145014xsefn_015.png,UNIT_PRICE,9.000,9.000
+val/mcocr_public_145014xsefn_016.png,LINE_TOTAL,9.000,9.000
+val/mcocr_public_145014xsefn_017.png,ITEM_NAME,VMNK Táo Ruby star NZL PG Size 90-120,VMNK Táo Ruby star NZL PG size 90-120
+val/mcocr_public_145014xsefn_018.png,QUANTITY,1,1
+val/mcocr_public_145014xsefn_019.png,UNIT_PRICE,41.990,41.990
+val/mcocr_public_145014xsefn_020.png,LINE_TOTAL,41.990,41.990
+val/mcocr_public_145014xsefn_021.png,TIMESTAMP,14/08/2020 16:16,14/08/2020 16:16
+val/mcocr_public_145014xxiyx_000.png,SELLER,CỬA HÀNG NĂM OÁNH,CỬA HÀNG NĂM OÁNH
+val/mcocr_public_145014xxiyx_001.png,ADDRESS,"Thôn Phú Thuỵ, Xã Phú Thị, Huyện Gia Lâm, TP Hà Nội","Thôn Phú Thuỵ, Xã Phú Thị, Huyện Gia Lâm, TP Hà Nội"
+val/mcocr_public_145014xxiyx_002.png,TIMESTAMP,12/8/2020,12/8/2020
+val/mcocr_public_145014xxiyx_003.png,TOTAL_COST,"91,000","91,000"
+val/mcocr_public_145014xxiyx_004.png,ITEM_NAME,Xuc xích CP 10 cây,Xuc xich CP10 cây
+val/mcocr_public_145014xxiyx_005.png,QUANTITY,1,1
+val/mcocr_public_145014xxiyx_006.png,UNIT_PRICE,"46,000","46,000"
+val/mcocr_public_145014xxiyx_007.png,LINE_TOTAL,"46,000","46,000"
+val/mcocr_public_145014xxiyx_008.png,ITEM_NAME,Ngu coc dinh ng 500g,Ngu coc dinh duong 500g
+val/mcocr_public_145014xxiyx_009.png,QUANTITY,1,1
+val/mcocr_public_145014xxiyx_010.png,UNIT_PRICE,"45,000","45,000"
+val/mcocr_public_145014xxiyx_011.png,LINE_TOTAL,"45,000","45,000"
+val/mcocr_public_145014xzfyh_000.png,SELLER,VinCommerce,VinCommerce
+val/mcocr_public_145014xzfyh_001.png,ADDRESS,"VM+ QNH Tổ 7, khu Minh Tiến A","VM+ QNH Tổ 7, Khu Minh Tiến A"
+val/mcocr_public_145014xzfyh_002.png,ADDRESS,"Tổ 7, Khu Minh Tiến A",Tổ 7. Khu Minh Tiến A
+val/mcocr_public_145014xzfyh_003.png,ADDRESS,P. Cẩm Bình. TP. Cẩm Phả. QNH,"P. Cẩm Bình, TP. Cẩm Phả, QNH"
+val/mcocr_public_145014xzfyh_004.png,TIMESTAMP,9/8/2020 9:28,9/8/2020 9:28
+val/mcocr_public_145014xzfyh_005.png,TOTAL_COST,240.700,240.700
+val/mcocr_public_145014xzfyh_006.png,ITEM_NAME,Pate thịt heo Vissan hộp 170g,Pate thịt heo Vissan hộp 170g
+val/mcocr_public_145014xzfyh_007.png,QUANTITY,1,1
+val/mcocr_public_145014xzfyh_008.png,UNIT_PRICE,28.500,28.500
+val/mcocr_public_145014xzfyh_009.png,LINE_TOTAL,28.500,28.500
+val/mcocr_public_145014xzfyh_010.png,ITEM_NAME,SCA Vinamilk trái cây 100g,SCA Vinamilk trái cây 100g
+val/mcocr_public_145014xzfyh_011.png,QUANTITY,4,4
+val/mcocr_public_145014xzfyh_012.png,UNIT_PRICE,7.300,7.300
+val/mcocr_public_145014xzfyh_013.png,LINE_TOTAL,29.200,29.200
+val/mcocr_public_145014xzfyh_014.png,ITEM_NAME,CP_Thịt heo xay 300g,CP_Thịt heo xay 300g
+val/mcocr_public_145014xzfyh_015.png,QUANTITY,1,1
+val/mcocr_public_145014xzfyh_016.png,UNIT_PRICE,49.500,49.500
+val/mcocr_public_145014xzfyh_017.png,LINE_TOTAL,49.500,49.500
+val/mcocr_public_145014xzfyh_018.png,ITEM_NAME,CP_Sườn non heo 300g,CP_Sườn non heo 300g
+val/mcocr_public_145014xzfyh_019.png,QUANTITY,1,1
+val/mcocr_public_145014xzfyh_020.png,UNIT_PRICE,74.500,74.500
+val/mcocr_public_145014xzfyh_021.png,LINE_TOTAL,74.500,74.500
+val/mcocr_public_145014xzfyh_022.png,ITEM_NAME,DYKANKA Dầu ăn hướng dương chai 1L,DYKANKA Dầu ăn hướng dương chai 1L
+val/mcocr_public_145014xzfyh_023.png,QUANTITY,1,1
+val/mcocr_public_145014xzfyh_024.png,UNIT_PRICE,59.000,59.000
+val/mcocr_public_145014xzfyh_025.png,LINE_TOTAL,59.000,59.000
+val/mcocr_public_145014ymhqd_000.png,SELLER,VinCommerce,VinCommerce
+val/mcocr_public_145014ymhqd_001.png,ADDRESS,VM+QNH 1060-1062 Trần Phú,VM+ QNH 1060-1062 Trần Phú
+val/mcocr_public_145014ymhqd_002.png,ADDRESS,Số 1060-1062 Đường Trần Phú,Số 1060-1062 Đường Trần Phú
+val/mcocr_public_145014ymhqd_003.png,ADDRESS,"TP.Cẩm Phả, Quảng Ninh","TP. Cẩm Phả, Quảng Ninh"
+val/mcocr_public_145014ymhqd_004.png,TIMESTAMP,14/08/2020 07:37,14/08/2020 07:37
+val/mcocr_public_145014ymhqd_005.png,TOTAL_COST,26.500,26.500
+val/mcocr_public_145014ymhqd_006.png,ITEM_NAME,Cóc dầm chua ngọt Miền Tây 500 g,Cóc dẩm chua ngọt Miền Tây 500 g
+val/mcocr_public_145014ymhqd_007.png,QUANTITY,1,1
+val/mcocr_public_145014ymhqd_008.png,UNIT_PRICE,26.500,26.500
+val/mcocr_public_145014ymhqd_009.png,LINE_TOTAL,26.500,26.500
+val/mcocr_public_145014zbpki_000.png,SELLER,PHỐ MỎ,PHỐ MỎ
+val/mcocr_public_145014zbpki_001.png,ADDRESS,Tổ 7 khu Tân Lập 4 - P.Cẩm Thủy,Tổ 7 khu Tân Lập 4 - P.Cẩm Thủy -
+val/mcocr_public_145014zbpki_002.png,ADDRESS,Tp. Cẩm Phả - Quảng Ninh,Tp.Cẩm Phả - Quảng Ninh
+val/mcocr_public_145014zbpki_003.png,TIMESTAMP,13 / 08 / 2020 - 20: 25,13 / 08 / 2020 - 20:25
+val/mcocr_public_145014zbpki_004.png,TOTAL_COST,"60,000","60,000"
+val/mcocr_public_145014zbpki_005.png,ITEM_NAME,Trà Chanh Con Cá,Trà Chanh Con Cá
+val/mcocr_public_145014zbpki_006.png,QUANTITY,2,2
+val/mcocr_public_145014zbpki_007.png,UNIT_PRICE,"15,000",15.000
+val/mcocr_public_145014zbpki_008.png,LINE_TOTAL,"30,000","30,000"
+val/mcocr_public_145014zbpki_009.png,ITEM_NAME,Trà chanh nha đam,Trà chanh nha đam
+val/mcocr_public_145014zbpki_010.png,QUANTITY,2,2
+val/mcocr_public_145014zbpki_011.png,UNIT_PRICE,"15,000","15,000"
+val/mcocr_public_145014zbpki_012.png,LINE_TOTAL,"30,000","30,000"
+val/mcocr_public_145014zkhdi_000.png,SELLER,MINIMART ANAN,MINIMART ANAN
+val/mcocr_public_145014zkhdi_001.png,ADDRESS,Chợ Sủi Phú Thị Gia Lâm,Chợ Sủi Phú Thị Gia Lâm
+val/mcocr_public_145014zkhdi_002.png,TIMESTAMP,11/08/2020-21:20,11/08/2020-21:20
+val/mcocr_public_145014zkhdi_003.png,TOTAL_COST,"243,000","243,000"
+val/mcocr_public_145014zkhdi_004.png,ITEM_NAME,BVS kao mỏng cánh NT,BVS kao mỏng cánh NT
+val/mcocr_public_145014zkhdi_005.png,QUANTITY,6,6
+val/mcocr_public_145014zkhdi_006.png,UNIT_PRICE,"16,000","16,000"
+val/mcocr_public_145014zkhdi_007.png,LINE_TOTAL,"96,000","96,000"
+val/mcocr_public_145014zkhdi_008.png,ITEM_NAME,mì omachi bò hầm nấu gói 10 N0,mì ômachi bò hầm nấu gói 10 N0
+val/mcocr_public_145014zkhdi_009.png,QUANTITY,5,5
+val/mcocr_public_145014zkhdi_010.png,UNIT_PRICE,"10,000","10,000"
+val/mcocr_public_145014zkhdi_011.png,LINE_TOTAL,"50,000","50,000"
+val/mcocr_public_145014zkhdi_012.png,ITEM_NAME,Mì omachi sườn 80g NT,Mì romachi sườn 80g NT
+val/mcocr_public_145014zkhdi_013.png,QUANTITY,5,5
+val/mcocr_public_145014zkhdi_014.png,UNIT_PRICE,"6,000","6,000"
+val/mcocr_public_145014zkhdi_015.png,LINE_TOTAL,"30,000","50,000"
+val/mcocr_public_145014zkhdi_016.png,ITEM_NAME,bánh mì sandwich bảo ngọc 2 N0,bánh mì sándwich bảo ngọc 2 N0
+val/mcocr_public_145014zkhdi_017.png,QUANTITY,1,1
+val/mcocr_public_145014zkhdi_018.png,UNIT_PRICE,"12,000","12,000"
+val/mcocr_public_145014zkhdi_019.png,LINE_TOTAL,"12,000","12,000"
+val/mcocr_public_145014zkhdi_020.png,ITEM_NAME,Hộp thịt lợn xay HL 170g NT,Hộp thịt lợn xay HL 170g NT
+val/mcocr_public_145014zkhdi_021.png,QUANTITY,1,1
+val/mcocr_public_145014zkhdi_022.png,UNIT_PRICE,"25,000","25,000"
+val/mcocr_public_145014zkhdi_023.png,LINE_TOTAL,"25,000","25,000"
+val/mcocr_public_145014zkhdi_024.png,ITEM_NAME,pate thịt heo vissan N0,pate thịt heo vissan N0
+val/mcocr_public_145014zkhdi_025.png,QUANTITY,1,1
+val/mcocr_public_145014zkhdi_026.png,UNIT_PRICE,"30,000","30,000"
+val/mcocr_public_145014zkhdi_027.png,LINE_TOTAL,"30,000","30,000"
+val/mcocr_public_145014zppme_000.png,SELLER,Co.op Food HN THE K-PARK,Co.op Food HN THE K-PARK
+val/mcocr_public_145014zppme_001.png,TOTAL_COST,"55,300.00","55,300.00"
+val/mcocr_public_145014zppme_002.png,ITEM_NAME,Hanh la Mien Bac Kg,Hanh la Mien Bac Kg
+val/mcocr_public_145014zppme_003.png,QUANTITY,0.15,0.15
+val/mcocr_public_145014zppme_004.png,UNIT_PRICE,"48,000.00","48,000.00"
+val/mcocr_public_145014zppme_005.png,LINE_TOTAL,"7,200.00","7,200.00"
+val/mcocr_public_145014zppme_006.png,ITEM_NAME,Bun khuong Huy 500g,Bun khuong Huy 500g
+val/mcocr_public_145014zppme_007.png,QUANTITY,2,2
+val/mcocr_public_145014zppme_008.png,UNIT_PRICE,"9,500.00","9,500.00"
+val/mcocr_public_145014zppme_009.png,LINE_TOTAL,"19,000.00","19,000.00"
+val/mcocr_public_145014zppme_010.png,ITEM_NAME,Nam huong 3D 40g,Nam huong 3D 40g
+val/mcocr_public_145014zppme_011.png,QUANTITY,1,1
+val/mcocr_public_145014zppme_012.png,UNIT_PRICE,"23,300.00","23,300.00"
+val/mcocr_public_145014zppme_013.png,LINE_TOTAL,"23,300.00","23,300.00"
+val/mcocr_public_145014zppme_014.png,ITEM_NAME,Chao VIFON vi ga co thit,Chao VIFON vi ga co thit
+val/mcocr_public_145014zppme_015.png,LINE_TOTAL,"5,800.00","5,800.00"
+val/mcocr_public_145014zppme_016.png,QUANTITY,1,1
+val/mcocr_public_145014zppme_017.png,UNIT_PRICE,"5,800.00","5,800.00"
+val/mcocr_public_145014zppme_018.png,SELLER,Saigon Co.op,Saigon Co.op
+val/mcocr_public_145014zppme_019.png,ADDRESS,"Tang 1,SH42 - Toa K3,Cong trinh chung cu","Tang 1,SH42 - Toa K3,Cong trinh chung cu"
+val/mcocr_public_145014zppme_020.png,ADDRESS,ket hop dich vu tren o dat H-CT2 thuoc,ket hop dich vu tren o dat H-CT2 thuoc
+val/mcocr_public_145014zppme_021.png,ADDRESS,Du an Dau tu xay dung Khu nha o Hi Brand,Du an Dau tu xay dung Khu nha o Hi Brand
+val/mcocr_public_145014zppme_022.png,ADDRESS,"tai Khu do thi moi Van Phu,","tai Khu do thi moi Van Phu,"
+val/mcocr_public_145014zppme_023.png,ADDRESS,"P. Phu La, Q. Ha Dong, Tp Ha Noi","P. Phu La, Q. Ha Dong, Tp Ha Noi"
+val/mcocr_public_145014zppme_024.png,TIMESTAMP,20/09/2019 15:02:49,20/09/2019 15:02:49
+val/mcocr_public_145014zvjqh_000.png,SELLER,CỬA HÀNG TỰ CHỌN ANH GIANG,CỬA HÀNG TỰ CHỌN ANH GIANG
+val/mcocr_public_145014zvjqh_001.png,ADDRESS,Phú Thị - Gia Lâm - Hà Nội,Phú Thị - Gia Lâm - Hà Nội
+val/mcocr_public_145014zvjqh_002.png,TIMESTAMP,13/8/2020 : 5:51:28 PM,13/8/2020:5:51:28 PM
+val/mcocr_public_145014zvjqh_003.png,TOTAL_COST,"278,000","278,000"
+val/mcocr_public_145014zvjqh_004.png,ITEM_NAME,Muoi Tinh Sach 250 g,Muoi Tinh Sach 250g
+val/mcocr_public_145014zvjqh_005.png,QUANTITY,1,1
+val/mcocr_public_145014zvjqh_006.png,UNIT_PRICE,"3,000","3,000"
+val/mcocr_public_145014zvjqh_007.png,LINE_TOTAL,"3,000","3,000"
+val/mcocr_public_145014zvjqh_008.png,ITEM_NAME,Bột canh i ốt Hải Châu,Bột canhi ốt Hải Châu
+val/mcocr_public_145014zvjqh_009.png,QUANTITY,2,2
+val/mcocr_public_145014zvjqh_010.png,UNIT_PRICE,"3,500","3,500"
+val/mcocr_public_145014zvjqh_011.png,LINE_TOTAL,"7,000","7,000"
+val/mcocr_public_145014zvjqh_012.png,ITEM_NAME,Mi Chinh AJI-NO-MOTO 400G,Mi Chinh AJ-NO-MOTO 400G
+val/mcocr_public_145014zvjqh_013.png,QUANTITY,1,1
+val/mcocr_public_145014zvjqh_014.png,UNIT_PRICE,"30,000","30,000"
+val/mcocr_public_145014zvjqh_015.png,LINE_TOTAL,"30,000","30,000"
+val/mcocr_public_145014zvjqh_016.png,ITEM_NAME,Giay VS POSY 6 cuon,Giay VS POSY 6 cuon
+val/mcocr_public_145014zvjqh_017.png,QUANTITY,1,1
+val/mcocr_public_145014zvjqh_018.png,UNIT_PRICE,"48,000","48,000"
+val/mcocr_public_145014zvjqh_019.png,LINE_TOTAL,"48,000","48,000"
+val/mcocr_public_145014zvjqh_020.png,QUANTITY,2,2
+val/mcocr_public_145014zvjqh_021.png,UNIT_PRICE,"95,000","95,000"
+val/mcocr_public_145014zvjqh_022.png,LINE_TOTAL,"190,000","190,000"
+val/mcocr_public_145014zvjqh_023.png,ITEM_NAME,Simply Dau Gao Nguyen Chat 2,Simply Dau Gao Nguyen Chat 2
+val/mcocr_public_145014zvjqh_024.png,ITEM_NAME,Lít,Lít
+val/mcocr_val_145114cijwj_000.png,SELLER,MINIMART ANAN,MINIMART ANAN
+val/mcocr_val_145114cijwj_001.png,ADDRESS,Chợ Sủi Phú Thị Gia Lâm,Chợ Sủi Phú Thị Gia Lâm
+val/mcocr_val_145114cijwj_002.png,TIMESTAMP,13/08/2020-08:52,13/08/2020-08:52
+val/mcocr_val_145114cijwj_003.png,TOTAL_COST,"56,000","56,000"
+val/mcocr_val_145114cijwj_004.png,ITEM_NAME,xúc xích cp 10c NT,xúc xích cp 10c NT
+val/mcocr_val_145114cijwj_005.png,QUANTITY,1,1
+val/mcocr_val_145114cijwj_006.png,UNIT_PRICE,"32,000","32,000"
+val/mcocr_val_145114cijwj_007.png,LINE_TOTAL,"32,000","32,000"
+val/mcocr_val_145114cijwj_008.png,ITEM_NAME,SĐN fami hộp 200ml N0,SĐN fami hộp 200ml N0
+val/mcocr_val_145114cijwj_009.png,QUANTITY,6,6
+val/mcocr_val_145114cijwj_010.png,UNIT_PRICE,"4,000","4,000"
+val/mcocr_val_145114cijwj_011.png,LINE_TOTAL,"24,000","24,000"
+val/mcocr_val_145114qjftu_000.png,SELLER,NHÀ SÁCH GD-TC CẨM PHẢ,NHÀ SÁCH GD-TC CẨM PHẢ
+val/mcocr_val_145114qjftu_001.png,ADDRESS,212 Đường Trần Phú-Cẩm Phả,212 Đường Trần Phú-Cẩm Phả
+val/mcocr_val_145114qjftu_002.png,TIMESTAMP,10:12:25 - 15/08/2020,10:12:25 - 15/08/2020
+val/mcocr_val_145114qjftu_003.png,TOTAL_COST,20.000đ,20.000đ
+val/mcocr_val_145114qjftu_004.png,ITEM_NAME,VPP Loại 20K,VPP Loại 20K
+val/mcocr_val_145114qjftu_005.png,QUANTITY,1,1
+val/mcocr_val_145114qjftu_006.png,UNIT_PRICE,20.000,20.000
+val/mcocr_val_145114qjftu_007.png,LINE_TOTAL,20.000đ,20.000đ
+val/mcocr_val_145115acweu_000.png,SELLER,MINIMART ANAN,MINIMART ANAN
+val/mcocr_val_145115acweu_001.png,ADDRESS,Chợ Sủi Phú Thị Gia Lâm,Chợ Sủi Phú Thị Gia Lâm
+val/mcocr_val_145115acweu_002.png,ITEM_NAME,Ovatine hộp 180ml NT,Ovatine hộp 180ml NT
+val/mcocr_val_145115acweu_003.png,QUANTITY,4,4
+val/mcocr_val_145115acweu_004.png,UNIT_PRICE,"6,250","6,250"
+val/mcocr_val_145115acweu_005.png,LINE_TOTAL,"25,000","25,000"
+val/mcocr_val_145115acweu_006.png,ITEM_NAME,Knorr thịt kho NT,Knorr thịt kho NT
+val/mcocr_val_145115acweu_007.png,QUANTITY,1,1
+val/mcocr_val_145115acweu_008.png,UNIT_PRICE,"5,000","5,000"
+val/mcocr_val_145115acweu_009.png,LINE_TOTAL,"5,000","5,000"
+val/mcocr_val_145115acweu_010.png,ITEM_NAME,Bột canh hải châu 190g NT,Bột canh hải châu 190g NT
+val/mcocr_val_145115acweu_011.png,QUANTITY,5,5
+val/mcocr_val_145115acweu_012.png,UNIT_PRICE,"3,500","3,500"
+val/mcocr_val_145115acweu_013.png,LINE_TOTAL,"17,500","17,500"
+val/mcocr_val_145115acweu_014.png,ITEM_NAME,Muối tinh NT,Muối tinh NT
+val/mcocr_val_145115acweu_015.png,QUANTITY,2,2
+val/mcocr_val_145115acweu_016.png,UNIT_PRICE,"3,000","3,000"
+val/mcocr_val_145115acweu_017.png,LINE_TOTAL,"6,000","6,000"
+val/mcocr_val_145115acweu_018.png,ITEM_NAME,"NRC Mỹ Hảo chanh 1,6L NT","NRC Mỹ Hảo chanh 1,6L NT"
+val/mcocr_val_145115acweu_019.png,QUANTITY,1,1
+val/mcocr_val_145115acweu_020.png,UNIT_PRICE,"28,000","28,000"
+val/mcocr_val_145115acweu_021.png,LINE_TOTAL,"28,000","28,000"
+val/mcocr_val_145115acweu_022.png,ITEM_NAME,Mì kokomi Tôm gà NT,Mì kokomi Tôm gà NT
+val/mcocr_val_145115acweu_023.png,QUANTITY,30,30
+val/mcocr_val_145115acweu_024.png,UNIT_PRICE,"2,133","2,133"
+val/mcocr_val_145115acweu_025.png,LINE_TOTAL,"63,990","63,990"
+val/mcocr_val_145115bcojo_000.png,SELLER,NHÀ SÁCH GD-TC CẨM PHẢ,NHÀ SÁCH GD-TC CẨM PHẢ
+val/mcocr_val_145115bcojo_001.png,ADDRESS,212 Đường Trần Phú-Cẩm Phả,212 Đường Trần Phú-Cẩm Phả
+val/mcocr_val_145115bcojo_002.png,TIMESTAMP,10:24:08 - 13/08/2020,10:24:08 - 13/08/2020
+val/mcocr_val_145115bcojo_003.png,TOTAL_COST,13.000đ,13.000đ
+val/mcocr_val_145115bcojo_004.png,ITEM_NAME,Tiếng việt 2/1,Tiếng việt 2/1
+val/mcocr_val_145115bcojo_005.png,QUANTITY,1,1
+val/mcocr_val_145115bcojo_006.png,UNIT_PRICE,13.000,13.000
+val/mcocr_val_145115bcojo_007.png,LINE_TOTAL,13.000đ,13.000đ
+val/mcocr_val_145115bdssz_000.png,SELLER,VinCommerce,VinCommerce
+val/mcocr_val_145115bdssz_001.png,ADDRESS,Số 1060-1062 Đường Trần Phú,Số 1060-1062 Đường Trần Phú
+val/mcocr_val_145115bdssz_002.png,ADDRESS,"TP. Cẩm Phả, Quảng Ninh","TP. Cẩm Phả, Quảng Ninh"
+val/mcocr_val_145115bdssz_003.png,TIMESTAMP,13/08/2020 20:59,13/08/2020 20:59
+val/mcocr_val_145115bdssz_004.png,TOTAL_COST,80.000,80.000
+val/mcocr_val_145115bdssz_005.png,ITEM_NAME,OREO Bánh quy vani 29.4/28.5g(T24),OREO Bánh quy vani 29.4/28.5g(T24)
+val/mcocr_val_145115bdssz_006.png,QUANTITY,1,1
+val/mcocr_val_145115bdssz_007.png,UNIT_PRICE,34.500,34.500
+val/mcocr_val_145115bdssz_008.png,LINE_TOTAL,34.500,34.500
+val/mcocr_val_145115bdssz_009.png,ITEM_NAME,SLIDE snack k.tây phô mai 160g(T14),SLIDE Snack k.tây phô mai 160g(T14)
+val/mcocr_val_145115bdssz_010.png,QUANTITY,1,1
+val/mcocr_val_145115bdssz_011.png,UNIT_PRICE,45.500,45.500
+val/mcocr_val_145115bdssz_012.png,LINE_TOTAL,45.500,45.500
+val/mcocr_val_145115bdssz_013.png,ADDRESS,VM+ QNH 1060-1062 Trần Phú,VM+ QNH 1060-1062 Trần Phú
+val/mcocr_val_145115buhji_000.png,SELLER,MINIMART ANAN,MINIMART ANAN
+val/mcocr_val_145115buhji_001.png,ADDRESS,Chợ Sủi Phú Thị Gia Lâm,Chợ Sủi Phú Thị Gia Lâm
+val/mcocr_val_145115buhji_002.png,TIMESTAMP,10/08/2020-16:57,10/08/2020-16:57
+val/mcocr_val_145115buhji_003.png,TOTAL_COST,"79,000","79,000"
+val/mcocr_val_145115buhji_004.png,ITEM_NAME,kem merino kool đậu N0,kem merino kool dâu N0
+val/mcocr_val_145115buhji_005.png,QUANTITY,10,10
+val/mcocr_val_145115buhji_006.png,UNIT_PRICE,"7,000","7,000"
+val/mcocr_val_145115buhji_007.png,LINE_TOTAL,"70,000","70,000"
+val/mcocr_val_145115buhji_008.png,ITEM_NAME,xúc xích visan trộn N0,xúc xích visan tròn N0
+val/mcocr_val_145115buhji_009.png,QUANTITY,1,1
+val/mcocr_val_145115buhji_010.png,UNIT_PRICE,"9,000","9,000"
+val/mcocr_val_145115buhji_011.png,LINE_TOTAL,"9,000","9,000"
+val/mcocr_val_145115cgoeo_000.png,SELLER,MINIMART ANAN,MINIMART ANAN
+val/mcocr_val_145115cgoeo_001.png,ADDRESS,Chợ Sủi Phú Thị Gia Lâm,Chợ Sủi Phú Thị Gia Lâm
+val/mcocr_val_145115cgoeo_002.png,TIMESTAMP,16/08/2020-16:25,16/08/2020-16:25
+val/mcocr_val_145115cgoeo_003.png,TOTAL_COST,"83,000","83,000"
+val/mcocr_val_145115cgoeo_004.png,ITEM_NAME,"Kem merino Ly cốm , sữa d?a NT","Kem merino Ly cốm ,sữa dừa NT"
+val/mcocr_val_145115cgoeo_005.png,QUANTITY,1,1
+val/mcocr_val_145115cgoeo_006.png,UNIT_PRICE,"9,000","9,000"
+val/mcocr_val_145115cgoeo_007.png,LINE_TOTAL,"9,000","9,000"
+val/mcocr_val_145115cgoeo_008.png,ITEM_NAME,kem ly trà sữa trân châu N0,kem ly trà sữa trân châu N0
+val/mcocr_val_145115cgoeo_009.png,QUANTITY,1,1
+val/mcocr_val_145115cgoeo_010.png,UNIT_PRICE,"7,000","7,000"
+val/mcocr_val_145115cgoeo_011.png,LINE_TOTAL,"7,000","7,000"
+val/mcocr_val_145115cgoeo_012.png,ITEM_NAME,Kem ốc merino quế vani NT,Kem ốc merino qué vani NT
+val/mcocr_val_145115cgoeo_013.png,QUANTITY,1,1
+val/mcocr_val_145115cgoeo_014.png,UNIT_PRICE,"14,000","14,000"
+val/mcocr_val_145115cgoeo_015.png,LINE_TOTAL,"14,000","14,000"
+val/mcocr_val_145115cgoeo_016.png,ITEM_NAME,Kem ốc Merino Vani sôcôla NT,Kem ốc Merino Vani sôcôla NT
+val/mcocr_val_145115cgoeo_017.png,QUANTITY,1,1
+val/mcocr_val_145115cgoeo_018.png,UNIT_PRICE,"14,000","14,000"
+val/mcocr_val_145115cgoeo_019.png,LINE_TOTAL,"14,000","14,000"
+val/mcocr_val_145115cgoeo_020.png,ITEM_NAME,Mì hảohảo 75g NT,Mì hảohảo 75g NT
+val/mcocr_val_145115cgoeo_021.png,QUANTITY,3,3
+val/mcocr_val_145115cgoeo_022.png,UNIT_PRICE,"3,500","3,500"
+val/mcocr_val_145115cgoeo_023.png,LINE_TOTAL,"10,500","10,500"
+val/mcocr_val_145115cgoeo_024.png,ITEM_NAME,Phở vifon bò NT,Phở vifon bò NT
+val/mcocr_val_145115cgoeo_025.png,QUANTITY,3,3
+val/mcocr_val_145115cgoeo_026.png,UNIT_PRICE,"5,500","5,500"
+val/mcocr_val_145115cgoeo_027.png,LINE_TOTAL,"16,500","16,500"
+val/mcocr_val_145115cgoeo_028.png,ITEM_NAME,bin con thỏ 1 đôi NT,bin con thỏ 1 đôi NT
+val/mcocr_val_145115cgoeo_029.png,QUANTITY,4,4
+val/mcocr_val_145115cgoeo_030.png,UNIT_PRICE,"3,000","3,000"
+val/mcocr_val_145115cgoeo_031.png,LINE_TOTAL,"12,000","12,000"
+val/mcocr_val_145115emzeo_000.png,ADDRESS,"244/23a Huỳnh Văn Bánh, P.11, Q.PN","244/23a Huỳnh Văn Bánh, P.11, Q.PN"
+val/mcocr_val_145115emzeo_001.png,TIMESTAMP,04.10.2020 16.47,04.10.2020 16.47
+val/mcocr_val_145115emzeo_002.png,TOTAL_COST,39 000,39 000
+val/mcocr_val_145115emzeo_003.png,ITEM_NAME,Sữa Tươi Đường Thốt Nốt,Sữa Tươi Đường Thốt Nốt
+val/mcocr_val_145115emzeo_004.png,QUANTITY,1,1
+val/mcocr_val_145115emzeo_005.png,UNIT_PRICE,39 000,39 000
+val/mcocr_val_145115emzeo_006.png,LINE_TOTAL,39 000,39 000
+val/mcocr_val_145115emzeo_007.png,ITEM_NAME,Trà Cam Quế,Trà Cam Quê
+val/mcocr_val_145115emzeo_008.png,QUANTITY,1,1
+val/mcocr_val_145115emzeo_009.png,UNIT_PRICE,39 000,39 000
+val/mcocr_val_145115emzeo_010.png,LINE_TOTAL,39 000,39 000
+val/mcocr_val_145115emzeo_011.png,SELLER,Tiệm trà,Tiệm trà
+val/mcocr_val_145115emzeo_012.png,SELLER,Thanh,Thanh
+val/mcocr_val_145115emzeo_013.png,SELLER,Xuân,Xuân
+val/mcocr_val_145115fgfau_000.png,SELLER,MINIMART ANAN,MINIMART ANAN
+val/mcocr_val_145115fgfau_001.png,ADDRESS,Chợ Sủi Phú Thị Gia Lâm,Chợ Sủi Phú Thị Gia Lâm
+val/mcocr_val_145115fgfau_002.png,TIMESTAMP,16/08/2020-17:28,16/08/2020-17:28
+val/mcocr_val_145115fgfau_003.png,TOTAL_COST,"64,000","64,000"
+val/mcocr_val_145115fgfau_004.png,ITEM_NAME,bánh mì kđ piza N0,bánh mì kđ piza N0
+val/mcocr_val_145115fgfau_005.png,QUANTITY,1,1
+val/mcocr_val_145115fgfau_006.png,UNIT_PRICE,"10,000","10,000"
+val/mcocr_val_145115fgfau_007.png,LINE_TOTAL,"10,000","10,000"
+val/mcocr_val_145115fgfau_008.png,ITEM_NAME,Sữa đàn bò VNM dâu 180ml NT,Sữa đàn bò VNM dâu 180ml NT
+val/mcocr_val_145115fgfau_009.png,QUANTITY,8,8
+val/mcocr_val_145115fgfau_010.png,UNIT_PRICE,"6,750","6,750"
+val/mcocr_val_145115fgfau_011.png,LINE_TOTAL,"54,000","54,000"
+val/mcocr_val_145115gzvde_000.png,SELLER,MINIMART ANAN,MINIMART ANAN
+val/mcocr_val_145115gzvde_001.png,ADDRESS,Chợ Sủi Phú Thị Gia Lâm,Chợ Sủi Phú Thị Gia Lâm
+val/mcocr_val_145115gzvde_002.png,TIMESTAMP,17/08/2020-08:21,17/08/2020-08:21
+val/mcocr_val_145115gzvde_003.png,TOTAL_COST,"132,000","132,000"
+val/mcocr_val_145115gzvde_004.png,ITEM_NAME,BVS Libera 8p NT,BVS Libera 8p NT
+val/mcocr_val_145115gzvde_005.png,QUANTITY,6,6
+val/mcocr_val_145115gzvde_006.png,UNIT_PRICE,"7,500","7,500"
+val/mcocr_val_145115gzvde_007.png,LINE_TOTAL,"45,000","45,000"
+val/mcocr_val_145115gzvde_008.png,ITEM_NAME,BVS Diana dày ko cánh 8p NT,BVS Diana dày ko cánh 8p NT
+val/mcocr_val_145115gzvde_009.png,QUANTITY,6,6
+val/mcocr_val_145115gzvde_010.png,UNIT_PRICE,"14,500","14,500"
+val/mcocr_val_145115gzvde_011.png,LINE_TOTAL,"87,000","87,000"
+val/mcocr_val_145115ialuk_000.png,SELLER,VinCommerce,VinCommerce
+val/mcocr_val_145115ialuk_001.png,ADDRESS,"Số 590 Trần Phú, P. Cẩm Thủy","Số 590 Trần Phú, P. Cẩm Thủy"
+val/mcocr_val_145115ialuk_002.png,ADDRESS,"TP. Cẩm Phả, Quảng Ninh","TP. Cẩm Phả, Quảng Ninh"
+val/mcocr_val_145115ialuk_003.png,TIMESTAMP,15/08/2020 10:09,15/08/2020 10:09
+val/mcocr_val_145115ialuk_004.png,TOTAL_COST,214.836,214.836
+val/mcocr_val_145115ialuk_005.png,ITEM_NAME,Ngọn rau lang,Ngọn rau lang
+val/mcocr_val_145115ialuk_006.png,QUANTITY,1,1
+val/mcocr_val_145115ialuk_007.png,UNIT_PRICE,11.044,11.044
+val/mcocr_val_145115ialuk_008.png,LINE_TOTAL,11.044,11.044
+val/mcocr_val_145115ialuk_009.png,ITEM_NAME,Cà chua đỏ DL L1 Vineco,Cà chua đỏ DL L1 Vineco
+val/mcocr_val_145115ialuk_010.png,QUANTITY,1,1
+val/mcocr_val_145115ialuk_011.png,UNIT_PRICE,16.192,16.192
+val/mcocr_val_145115ialuk_012.png,LINE_TOTAL,16.192,16.192
+val/mcocr_val_145115ialuk_013.png,ITEM_NAME,CP_Thịt heo xay 300g,CP_Thịt heo xay 300g
+val/mcocr_val_145115ialuk_014.png,QUANTITY,1,1
+val/mcocr_val_145115ialuk_015.png,UNIT_PRICE,49.500,49.500
+val/mcocr_val_145115ialuk_016.png,LINE_TOTAL,49.500,49.500
+val/mcocr_val_145115ialuk_017.png,ITEM_NAME,Táo Nam Phi túi 3kg,Táo Nam Phi túi 3kg
+val/mcocr_val_145115ialuk_018.png,QUANTITY,1,1
+val/mcocr_val_145115ialuk_019.png,UNIT_PRICE,138.100,138.100
+val/mcocr_val_145115ialuk_020.png,LINE_TOTAL,138.100,138.100
+val/mcocr_val_145115ialuk_021.png,ADDRESS,VM+ QNH 590 Trần Phú,VM+ QNH 590 Trần Phú
+val/mcocr_val_145115jagxw_000.png,SELLER,MINIMART ANAN,MINIMART ANAN
+val/mcocr_val_145115jagxw_001.png,ADDRESS,Chợ Sủi Phú Thị Gia Lâm,Chợ Sủi Phú Thị Gia Lâm
+val/mcocr_val_145115jagxw_002.png,TIMESTAMP,12/08/2020-12:32,12/08/2020-12:32
+val/mcocr_val_145115jagxw_003.png,TOTAL_COST,"62,000","62,000"
+val/mcocr_val_145115jagxw_004.png,ITEM_NAME,chả viên hải sản rau củ gói N0,chả viên hải sản rau củ gói N0
+val/mcocr_val_145115jagxw_005.png,QUANTITY,1,1
+val/mcocr_val_145115jagxw_006.png,UNIT_PRICE,"32,000","32,000"
+val/mcocr_val_145115jagxw_007.png,LINE_TOTAL,"32,000","32,000"
+val/mcocr_val_145115jagxw_008.png,ITEM_NAME,bánh trứng tươi chà bông ka N0,bánh trứng tươi chà bông ka N0
+val/mcocr_val_145115jagxw_009.png,QUANTITY,1,1
+val/mcocr_val_145115jagxw_010.png,UNIT_PRICE,"30,000","30,000"
+val/mcocr_val_145115jagxw_011.png,LINE_TOTAL,"30,000","30,000"
+val/mcocr_val_145115kenle_000.png,SELLER,SCTC CÔ THÔ 104 TRẦN PHÚ - CẨM,SCTC CÔ THỎ 104 TRẦN PHÚ - CẨM
+val/mcocr_val_145115kenle_001.png,SELLER,PHẢ,PHẢ
+val/mcocr_val_145115kenle_002.png,ADDRESS,104 Trần Phú - phường Cẩm Tây - Thành phố Cẩm,104 Trần Phú - phường Cẩm Tây - Thành phố Cẩm
+val/mcocr_val_145115kenle_003.png,ADDRESS,Phả - Quảng Ninh,Phả - Quảng Ninh
+val/mcocr_val_145115kenle_004.png,TIMESTAMP,10/08/2020 (09:11 CH - 09:11 CH),10/08/2020 (09:11 CH - 09:11 CH)
+val/mcocr_val_145115kenle_005.png,TOTAL_COST,50.000đ,50.000đ
+val/mcocr_val_145115kenle_006.png,ITEM_NAME,Sữa chua trân,sữa chua trân
+val/mcocr_val_145115kenle_007.png,ITEM_NAME,châu Cô Thô,châu Cô Thỏ
+val/mcocr_val_145115kenle_008.png,QUANTITY,2,2
+val/mcocr_val_145115kenle_009.png,UNIT_PRICE,25.000,25.000
+val/mcocr_val_145115kenle_010.png,LINE_TOTAL,50.000,50.000
+val/mcocr_val_145115knxyy_000.png,SELLER,SIÊU THỊ BÁCH HOÁ TỔNG HỢP,SIEU THI BACH HOA TONG HOP
+val/mcocr_val_145115knxyy_001.png,ADDRESS,Số 5 Cẩm Tây - Cẩm Phả - QN,Số 5 Cẩm Tây - Cẩm Phả - QN
+val/mcocr_val_145115knxyy_002.png,TIMESTAMP,10/08/2020-10:,10/08/2020-10:
+val/mcocr_val_145115knxyy_003.png,TOTAL_COST,"15,800","15,800"
+val/mcocr_val_145115knxyy_004.png,ITEM_NAME,Nước giải khát có gaz - 7UP 1.5L T12 T2,Nước giải khát có gaz - 7UP1.5L T12 T2
+val/mcocr_val_145115knxyy_005.png,QUANTITY,1,1
+val/mcocr_val_145115knxyy_006.png,UNIT_PRICE,"15,800","15,800"
+val/mcocr_val_145115knxyy_007.png,LINE_TOTAL,"15,800","15,800"
+val/mcocr_val_145115mvstz_000.png,SELLER,MINIMART ANAN,MINIMART ANAN
+val/mcocr_val_145115mvstz_001.png,ADDRESS,Chợ Sủi Phú Thị Gia Lâm,Chợ Sủi Phú Thị Gia Lâm
+val/mcocr_val_145115mvstz_002.png,TIMESTAMP,13/08/2020-02:58,13/08/2020-02:58
+val/mcocr_val_145115mvstz_003.png,TOTAL_COST,"138,000","138,000"
+val/mcocr_val_145115mvstz_004.png,ITEM_NAME,"Mì chính ajingon 1,8kg NT","Mì chính ajingon 1,8kg NT"
+val/mcocr_val_145115mvstz_005.png,QUANTITY,1,1
+val/mcocr_val_145115mvstz_006.png,UNIT_PRICE,"102,000","102,000"
+val/mcocr_val_145115mvstz_007.png,LINE_TOTAL,"102,000","102,000"
+val/mcocr_val_145115mvstz_008.png,ITEM_NAME,hạt nêm chinsu gói 1kg N0,hạt nêm chinsu gói 1kg N0
+val/mcocr_val_145115mvstz_009.png,QUANTITY,1,1
+val/mcocr_val_145115mvstz_010.png,UNIT_PRICE,"36,000","36,000"
+val/mcocr_val_145115mvstz_011.png,LINE_TOTAL,"36,000","36,000"
+val/mcocr_val_145115npqic_000.png,SELLER,VinCommerce,VinCommerce
+val/mcocr_val_145115npqic_001.png,ADDRESS,"Tổ 7, Khu Minh Tiến A","Tổ 7, Khu Minh Tiến A"
+val/mcocr_val_145115npqic_002.png,ADDRESS,"P. Cẩm Bình, TP. Cẩm Phả, QNH","P. Cẩm Bình, TP. Cẩm Phả, QNH"
+val/mcocr_val_145115npqic_003.png,TIMESTAMP,9/8/2020 16:19,9/8/2020 16:19
+val/mcocr_val_145115npqic_004.png,TOTAL_COST,49.500,49.500
+val/mcocr_val_145115npqic_005.png,ITEM_NAME,CP_Thịt heo xay 300g,CP_Thịt heo xay 300g
+val/mcocr_val_145115npqic_006.png,QUANTITY,1,1
+val/mcocr_val_145115npqic_007.png,UNIT_PRICE,49.500,49.500
+val/mcocr_val_145115npqic_008.png,LINE_TOTAL,49.500,49.500
+val/mcocr_val_145115npqic_009.png,ADDRESS,"VM+ QNH Tổ 7, Khu Minh Tiến A","VM+ QNH Tổ 7, Khu Minh Tiến A"
+val/mcocr_val_145115ousyl_000.png,SELLER,MINIMART ANAN,MINIMART ANAN
+val/mcocr_val_145115ousyl_001.png,ADDRESS,Chợ Sủi Phú Thị Gia Lâm,Chợ Sủi Phú Thị Gia Lâm
+val/mcocr_val_145115ousyl_002.png,TIMESTAMP,12/08/2020-14:45,12/08/2020-14:45
+val/mcocr_val_145115ousyl_003.png,TOTAL_COST,"106,000","106,000"
+val/mcocr_val_145115ousyl_004.png,ITEM_NAME,Mì cung đình lẩu tôm cay 80 NT,Mì cung đình lẩu tôm cay 80 NT
+val/mcocr_val_145115ousyl_005.png,QUANTITY,2,2
+val/mcocr_val_145115ousyl_006.png,UNIT_PRICE,"6,000","6,000"
+val/mcocr_val_145115ousyl_007.png,LINE_TOTAL,"12,000","12,000"
+val/mcocr_val_145115ousyl_008.png,ITEM_NAME,Xúc xích Bông mai 115g NT,Xúc xích Bông mai 115g NT
+val/mcocr_val_145115ousyl_009.png,QUANTITY,2,2
+val/mcocr_val_145115ousyl_010.png,UNIT_PRICE,"9,000","9,000"
+val/mcocr_val_145115ousyl_011.png,LINE_TOTAL,"18,000","18,000"
+val/mcocr_val_145115ousyl_012.png,ITEM_NAME,SCU cam VNM 180ml NT,SCU cam VNM 180ml NT
+val/mcocr_val_145115ousyl_013.png,QUANTITY,4,4
+val/mcocr_val_145115ousyl_014.png,UNIT_PRICE,"6,250","6,250"
+val/mcocr_val_145115ousyl_015.png,LINE_TOTAL,"25,000","25,000"
+val/mcocr_val_145115ousyl_016.png,ITEM_NAME,SCU dâu VNM 180ml NT,SCU dâu VNM 180ml NT
+val/mcocr_val_145115ousyl_017.png,QUANTITY,4,4
+val/mcocr_val_145115ousyl_018.png,UNIT_PRICE,"6,250","6,250"
+val/mcocr_val_145115ousyl_019.png,LINE_TOTAL,"25,000","25,000"
+val/mcocr_val_145115ousyl_020.png,ITEM_NAME,Sữa chua nha đam 100g NT,Sữa chua nha đam 100g NT
+val/mcocr_val_145115ousyl_021.png,QUANTITY,4,4
+val/mcocr_val_145115ousyl_022.png,UNIT_PRICE,"6,500","6,500"
+val/mcocr_val_145115ousyl_023.png,LINE_TOTAL,"26,000","26,000"
+val/mcocr_val_145115oycsy_000.png,SELLER,PHỐ MỎ,PHÓ MỎ
+val/mcocr_val_145115oycsy_001.png,ADDRESS,Tổ 7 khu Tân Lập 4 - P. Cẩm Thủy -,Tổ 7 khu Tân Lập 4 - P.Cẩm Thủy -
+val/mcocr_val_145115oycsy_002.png,ADDRESS,Tp.Cẩm Phả - Quảng Ninh,Tp.Cẩm Phả - Quảng Ninh
+val/mcocr_val_145115oycsy_003.png,TIMESTAMP,13 / 08 / 2020 - 20:01,13 / 08 / 2020 - 20:01
+val/mcocr_val_145115oycsy_004.png,TOTAL_COST,"90,000","90,000"
+val/mcocr_val_145115oycsy_005.png,ITEM_NAME,Coffee nâu,Coffee nâu
+val/mcocr_val_145115oycsy_006.png,QUANTITY,1,1
+val/mcocr_val_145115oycsy_007.png,UNIT_PRICE,"20,000","20,000"
+val/mcocr_val_145115oycsy_008.png,LINE_TOTAL,"20,000","20,000"
+val/mcocr_val_145115oycsy_009.png,ITEM_NAME,Coffee đen,Coffee đen
+val/mcocr_val_145115oycsy_010.png,QUANTITY,1,1
+val/mcocr_val_145115oycsy_011.png,UNIT_PRICE,"20,000","20,000"
+val/mcocr_val_145115oycsy_012.png,LINE_TOTAL,"20,000","20,000"
+val/mcocr_val_145115oycsy_013.png,ITEM_NAME,Trà sữa khoai môn,Trà sữa khoai môn
+val/mcocr_val_145115oycsy_014.png,QUANTITY,2,2
+val/mcocr_val_145115oycsy_015.png,UNIT_PRICE,"25,000","25,000"
+val/mcocr_val_145115oycsy_016.png,LINE_TOTAL,"50,000","50,000"
+val/mcocr_val_145115pqgzl_000.png,SELLER,VinCommerce,VinCommerce
+val/mcocr_val_145115pqgzl_001.png,ADDRESS,VM+ QNH 112 Thanh Niên,VM+ QNH 112 Thanh Niên
+val/mcocr_val_145115pqgzl_002.png,ADDRESS,"Số 112 Thanh Niên, P. Cẩm Thành","Số 112 Thanh Niên, P.Cẩm Thành"
+val/mcocr_val_145115pqgzl_003.png,ADDRESS,"TP. Cẩm Phả, Quảng Ninh","TP. Cẩm Phả, Quảng Ninh"
+val/mcocr_val_145115pqgzl_004.png,TIMESTAMP,7/8/2020 10:11,7/8/2020 10:11
+val/mcocr_val_145115pqgzl_005.png,TOTAL_COST,23.500,23.500
+val/mcocr_val_145115pqgzl_006.png,ITEM_NAME,Nước tăng lực Red bull Thái 250ml,Nước tăng lực Red bull Thái 250ml
+val/mcocr_val_145115pqgzl_007.png,QUANTITY,1,1
+val/mcocr_val_145115pqgzl_008.png,UNIT_PRICE,12.500,12.500
+val/mcocr_val_145115pqgzl_009.png,LINE_TOTAL,12.500,12.500
+val/mcocr_val_145115pqgzl_010.png,ITEM_NAME,NO1: Trà Dr Thanh pet 500/455ml T24,No1: Trà Dr Thanh pet 500/455ml T24
+val/mcocr_val_145115pqgzl_011.png,QUANTITY,1,1
+val/mcocr_val_145115pqgzl_012.png,UNIT_PRICE,11.000,11.000
+val/mcocr_val_145115pqgzl_013.png,LINE_TOTAL,11.000,11.000
+val/mcocr_val_145115prqdp_000.png,SELLER,MINIMART ANAN,MINIMART ANAN
+val/mcocr_val_145115prqdp_001.png,ADDRESS,Chợ Sủi Phú Thị Gia Lâm,Chợ Sủi Phú Thị Gia Lâm
+val/mcocr_val_145115prqdp_002.png,TIMESTAMP,16/08/2020-15:21,16/08/2020-15:21
+val/mcocr_val_145115prqdp_003.png,TOTAL_COST,"22,000","22,000"
+val/mcocr_val_145115prqdp_004.png,ITEM_NAME,Thuốc lá Thăng Long mềm NT,Thuốc lá Thăng Long mềm NT
+val/mcocr_val_145115prqdp_005.png,QUANTITY,2,2
+val/mcocr_val_145115prqdp_006.png,UNIT_PRICE,"8,500","8,500"
+val/mcocr_val_145115prqdp_007.png,LINE_TOTAL,"17,000","17,000"
+val/mcocr_val_145115prqdp_008.png,ITEM_NAME,"Kẹo sugus nho, cam NT","Kẹo sugus nho, cam NT"
+val/mcocr_val_145115prqdp_009.png,QUANTITY,1,1
+val/mcocr_val_145115prqdp_010.png,UNIT_PRICE,"5,000","5,000"
+val/mcocr_val_145115prqdp_011.png,LINE_TOTAL,"5,000","5,000"
+val/mcocr_val_145115puijt_000.png,SELLER,VinCommerce,VinCommerce
+val/mcocr_val_145115puijt_001.png,ADDRESS,VM+ QNH Dự án quỹ đất đường sắt,VM+ QNH Dự án quỹ đất đường sắt
+val/mcocr_val_145115puijt_002.png,ADDRESS,DA QĐ dọc tuyến ĐS Tổ 3 Khu 2,DA QĐ dọc tuyến ĐS Tổ 3 Khu 2
+val/mcocr_val_145115puijt_003.png,ADDRESS,"P. Cẩm Sơn, TP. Cẩm Phả, T. QN","P. Cẩm Sơn, TP. Cẩm Phả, T. QN"
+val/mcocr_val_145115puijt_004.png,TIMESTAMP,15/08/2020 11:15,15/08/2020 11:15
+val/mcocr_val_145115puijt_005.png,TOTAL_COST,12.320,12.320
+val/mcocr_val_145115puijt_006.png,ITEM_NAME,Chanh có hạt,Chanh có hạt
+val/mcocr_val_145115puijt_007.png,QUANTITY,1,1
+val/mcocr_val_145115puijt_008.png,UNIT_PRICE,12.320,12.320
+val/mcocr_val_145115puijt_009.png,LINE_TOTAL,12.320,12.320
+val/mcocr_val_145115qolwv_000.png,SELLER,co.opSmile,co.op smile
+val/mcocr_val_145115qolwv_001.png,SELLER,CO.OPSMILE,CO.OPSMILE
+val/mcocr_val_145115qolwv_002.png,ADDRESS,A1 KHU B KTX DAI HOC QUOC GIA,#NAME?
+val/mcocr_val_145115qolwv_003.png,ADDRESS,"Toa nha A1, Ky tuc xa khu B, Khu pho Tan Hoa,","Toa nha A1, Ky tuc xa khu B, Khu pho Tan Hoa,"
+val/mcocr_val_145115qolwv_004.png,ADDRESS,"Phuong Dong Hoa, Thi xa Di An, Tinh Binh Duong","Phuong Dong Hoa, Thị xa Di An, Tỉnh Bình Dương"
+val/mcocr_val_145115qolwv_005.png,TIMESTAMP,21/07/2020,21/07/2020
+val/mcocr_val_145115qolwv_006.png,TIMESTAMP,21:25:23,21:25:23
+val/mcocr_val_145115qolwv_007.png,TOTAL_COST,40.500,40.500
+val/mcocr_val_145115qolwv_008.png,ITEM_NAME,Mi CUNG DINH tom ch.cay 80g,Mi CUNG DINH tom ch.cay 80g
+val/mcocr_val_145115qolwv_009.png,QUANTITY,2,2
+val/mcocr_val_145115qolwv_010.png,UNIT_PRICE,7.000,7.000
+val/mcocr_val_145115qolwv_011.png,LINE_TOTAL,14.000,14.000
+val/mcocr_val_145115qolwv_012.png,ITEM_NAME,XXich bo VISS.4cayx40g,XXich bo VISS.4cayx40g
+val/mcocr_val_145115qolwv_013.png,QUANTITY,1,1
+val/mcocr_val_145115qolwv_014.png,UNIT_PRICE,18.000,18.000
+val/mcocr_val_145115qolwv_015.png,LINE_TOTAL,18.000,18.000
+val/mcocr_val_145115qolwv_016.png,ITEM_NAME,Nuoc TEPPYcam327ml,Nước TEPPYcam327ml
+val/mcocr_val_145115qolwv_017.png,QUANTITY,1,1
+val/mcocr_val_145115qolwv_018.png,UNIT_PRICE,8.500,8.500
+val/mcocr_val_145115qolwv_019.png,LINE_TOTAL,8.500,8.500
+val/mcocr_val_145115sjryb_000.png,SELLER,MINIMART ANAN,MINIMART ANAN
+val/mcocr_val_145115sjryb_001.png,ADDRESS,Chợ Sủi Phú Thị Gia Lâm,Chợ Sủi Phú Thị Gia Lâm
+val/mcocr_val_145115sjryb_002.png,TIMESTAMP,12/08/2020-13:12,12/08/2020-13:12
+val/mcocr_val_145115sjryb_003.png,TOTAL_COST,"184,000","184,000"
+val/mcocr_val_145115sjryb_004.png,ITEM_NAME,milo to 180ml NT,milo to 180ml NT
+val/mcocr_val_145115sjryb_005.png,QUANTITY,12,12
+val/mcocr_val_145115sjryb_006.png,UNIT_PRICE,"6,500","6,500"
+val/mcocr_val_145115sjryb_007.png,LINE_TOTAL,"78,000","78,000"
+val/mcocr_val_145115sjryb_008.png,ITEM_NAME,sữa CGHL cao khỏe 180ml NT,sữa CGHL cao khỏe 180ml NT
+val/mcocr_val_145115sjryb_009.png,QUANTITY,8,8
+val/mcocr_val_145115sjryb_010.png,UNIT_PRICE,"6,500","6,500"
+val/mcocr_val_145115sjryb_011.png,LINE_TOTAL,"52,000","52,000"
+val/mcocr_val_145115sjryb_012.png,ITEM_NAME,Sữa CGHL đường 180ml NT,1856 Sữa CGHL đường 180ml NT
+val/mcocr_val_145115sjryb_013.png,QUANTITY,8,8
+val/mcocr_val_145115sjryb_014.png,UNIT_PRICE,"6,750","6,750"
+val/mcocr_val_145115sjryb_015.png,LINE_TOTAL,"54,000","54,000"
+val/mcocr_val_145115snubu_000.png,SELLER,NHÀ SÁCH GD-TC CẨM PHẢ,NHÀ SÁCH GD-TC CẨM PHẢ
+val/mcocr_val_145115snubu_001.png,ADDRESS,212 Đường Trần Phú-Cẩm Phả,212 Đường Trần Phú-Cẩm Phả
+val/mcocr_val_145115snubu_002.png,TIMESTAMP,16:38:26 - 14/08/2020,16:38:26 - 14/08/2020
+val/mcocr_val_145115snubu_003.png,TOTAL_COST,18.000đ,18.000đ
+val/mcocr_val_145115snubu_004.png,ITEM_NAME,Tập tô màu,Tập tô màu
+val/mcocr_val_145115snubu_005.png,QUANTITY,1,1
+val/mcocr_val_145115snubu_006.png,UNIT_PRICE,18.000,18.000
+val/mcocr_val_145115snubu_007.png,LINE_TOTAL,18.000đ,18.000đ
+val/mcocr_val_145115tijka_000.png,SELLER,MINIMART ANAN,MINIMART ANAN
+val/mcocr_val_145115tijka_001.png,ADDRESS,Chợ Sủi Phú Thị Gia Lâm,Chợ Sủi Phú Thị Gia Lâm
+val/mcocr_val_145115tijka_002.png,TIMESTAMP,12/08/2020-15:13,12/08/2020-15:13
+val/mcocr_val_145115tijka_003.png,ITEM_NAME,dầu simply gạo 1l N0,dầu simply gạo lỉ N0
+val/mcocr_val_145115tijka_004.png,QUANTITY,1,1
+val/mcocr_val_145115tijka_005.png,UNIT_PRICE,"50,000","50,000"
+val/mcocr_val_145115tijka_006.png,LINE_TOTAL,"50,000","50,000"
+val/mcocr_val_145115tijka_007.png,ITEM_NAME,gvs Bolides 6 cuộn NT,gvs Bolides 6 cuộn NT
+val/mcocr_val_145115tijka_008.png,QUANTITY,1,1
+val/mcocr_val_145115tijka_009.png,UNIT_PRICE,"38,000","38,000"
+val/mcocr_val_145115tijka_010.png,LINE_TOTAL,"38,000","38,000"
+val/mcocr_val_145115uprww_000.png,SELLER,VinCommerce,VinCommerce
+val/mcocr_val_145115uprww_001.png,ADDRESS,VM+ QNH 86 Trần Phú,VM+ QNH 86 Trần Phú
+val/mcocr_val_145115uprww_002.png,ADDRESS,"Số 86 Đường Trần Phú, P. Cẩm Tây","Số 86 Đường Trần Phú, P. Cẩm Tây"
+val/mcocr_val_145115uprww_003.png,ADDRESS,"TP Cẩm Phả, T. Quảng Ninh.","TP Cẩm Phả, T. Quảng Ninh."
+val/mcocr_val_145115uprww_004.png,TIMESTAMP,10/8/2020 10:19,10/8/2020 10:19
+val/mcocr_val_145115uprww_005.png,TOTAL_COST,19.950,19.950
+val/mcocr_val_145115uprww_006.png,ITEM_NAME,Giá đỗ L1 Vineco,Giá đỗ L1 Vineco
+val/mcocr_val_145115uprww_007.png,QUANTITY,1,1
+val/mcocr_val_145115uprww_008.png,UNIT_PRICE,6.950,6.950
+val/mcocr_val_145115uprww_009.png,LINE_TOTAL,6.950,6.950
+val/mcocr_val_145115uprww_010.png,ITEM_NAME,Nấm kim châm VN 150g,Nấm kim châm VN 150g
+val/mcocr_val_145115uprww_011.png,QUANTITY,1,1
+val/mcocr_val_145115uprww_012.png,UNIT_PRICE,13.000,13.000
+val/mcocr_val_145115uprww_013.png,LINE_TOTAL,13.000,13.000
+val/mcocr_val_145115uvjbp_000.png,SELLER,MINIMART ANAN,MINIMART ANAN
+val/mcocr_val_145115uvjbp_001.png,ADDRESS,Chợ Sủi Phú Thị Gia Lâm,Chợ Sủi Phú Thị Gia Lâm
+val/mcocr_val_145115uvjbp_002.png,TIMESTAMP,13/08/2020-20:16,13/08/2020-20:16
+val/mcocr_val_145115uvjbp_003.png,TOTAL_COST,"92,000","92,000"
+val/mcocr_val_145115uvjbp_004.png,ITEM_NAME,Nước tẩy toilet okay NT,Nước tẩy toilet okay NT
+val/mcocr_val_145115uvjbp_005.png,QUANTITY,1,1
+val/mcocr_val_145115uvjbp_006.png,UNIT_PRICE,"30,000","30,000"
+val/mcocr_val_145115uvjbp_007.png,LINE_TOTAL,"30,000","30,000"
+val/mcocr_val_145115uvjbp_008.png,ITEM_NAME,kẹo thạch zai zai đức hạnh N0,kẹo thạch zai zai đức hạnh N0
+val/mcocr_val_145115uvjbp_009.png,QUANTITY,1,1
+val/mcocr_val_145115uvjbp_010.png,UNIT_PRICE,"23,000","23,000"
+val/mcocr_val_145115uvjbp_011.png,LINE_TOTAL,"23,000","23,000"
+val/mcocr_val_145115uvjbp_012.png,ITEM_NAME,Bánh Custas 2p NT,Bánh Custas 2p NT
+val/mcocr_val_145115uvjbp_013.png,QUANTITY,2,2
+val/mcocr_val_145115uvjbp_014.png,UNIT_PRICE,"9,000","9,000"
+val/mcocr_val_145115uvjbp_015.png,LINE_TOTAL,"18,000","18,000"
+val/mcocr_val_145115uvjbp_016.png,ITEM_NAME,bánh trứng tipo 48g NT,bánh trứng tipo 48g NT
+val/mcocr_val_145115uvjbp_017.png,QUANTITY,2,2
+val/mcocr_val_145115uvjbp_018.png,UNIT_PRICE,"6,000","6,000"
+val/mcocr_val_145115uvjbp_019.png,LINE_TOTAL,"12,000","12,000"
+val/mcocr_val_145115uvjbp_020.png,ITEM_NAME,chocopie 2cai NT,chocopie 2cái NT
+val/mcocr_val_145115uvjbp_021.png,QUANTITY,1,1
+val/mcocr_val_145115uvjbp_022.png,UNIT_PRICE,"9,000","9,000"
+val/mcocr_val_145115uvjbp_023.png,LINE_TOTAL,"9,000","9,000"
+val/mcocr_val_145115uxvup_000.png,SELLER,MINIMART ANAN,MINIMART ANAN
+val/mcocr_val_145115uxvup_001.png,ADDRESS,Chợ Sủi Phú Thị Gia Lâm,Chợ Sủi Phú Thị Gia Lâm
+val/mcocr_val_145115uxvup_002.png,TIMESTAMP,10/08/2020-18:15,10/08/2020-18:15
+val/mcocr_val_145115uxvup_003.png,TOTAL_COST,"120,000","120,000"
+val/mcocr_val_145115uxvup_004.png,ITEM_NAME,Bánh mì tươi sữa và siêu mềm NT,Bánh mì tươi sữa và siêu mề NT
+val/mcocr_val_145115uxvup_005.png,QUANTITY,5,5
+val/mcocr_val_145115uxvup_006.png,UNIT_PRICE,"6,000","6,000"
+val/mcocr_val_145115uxvup_007.png,LINE_TOTAL,"30,000","30,000"
+val/mcocr_val_145115uxvup_008.png,ITEM_NAME,"comfort trắng túi 1,6L NT","comfort trắng túi 1,6L NT"
+val/mcocr_val_145115uxvup_009.png,QUANTITY,1,1
+val/mcocr_val_145115uxvup_010.png,UNIT_PRICE,"90,000","90,000"
+val/mcocr_val_145115uxvup_011.png,LINE_TOTAL,"90,000","90,000"
+val/mcocr_val_145115vbeyk_000.png,ADDRESS,212 Đường Trần Phú-Cẩm Phả,212 Đường Trần Phú-Cẩm Phả
+val/mcocr_val_145115vbeyk_001.png,TIMESTAMP,11/8/2020 9:42,11/8/2020 9:42
+val/mcocr_val_145115vbeyk_002.png,TOTAL_COST,79.500đ,79.500đ
+val/mcocr_val_145115vbeyk_003.png,ITEM_NAME,Tủ sách bé vào lớp,Tử sách bé vào lớp
+val/mcocr_val_145115vbeyk_004.png,QUANTITY,1,1
+val/mcocr_val_145115vbeyk_005.png,UNIT_PRICE,11.000,11.000
+val/mcocr_val_145115vbeyk_006.png,LINE_TOTAL,11.000đ,11.000đ
+val/mcocr_val_145115vbeyk_007.png,ITEM_NAME,Mai em vào lớp,Mai em vào lớp
+val/mcocr_val_145115vbeyk_008.png,QUANTITY,1,1
+val/mcocr_val_145115vbeyk_009.png,UNIT_PRICE,11.000,11.000
+val/mcocr_val_145115vbeyk_010.png,LINE_TOTAL,11.000đ,11.000đ
+val/mcocr_val_145115vbeyk_011.png,ITEM_NAME,Tủ sách bé vào lớp,Tủ sách bé vào lớp
+val/mcocr_val_145115vbeyk_012.png,QUANTITY,1,1
+val/mcocr_val_145115vbeyk_013.png,UNIT_PRICE,10.000,10.000
+val/mcocr_val_145115vbeyk_014.png,LINE_TOTAL,10.000đ,10.000đ
+val/mcocr_val_145115vbeyk_015.png,ITEM_NAME,Bé học toán dành,Bé học toán dành
+val/mcocr_val_145115vbeyk_016.png,QUANTITY,1,1
+val/mcocr_val_145115vbeyk_017.png,UNIT_PRICE,17.000,17.000
+val/mcocr_val_145115vbeyk_018.png,LINE_TOTAL,17.000đ,17.000đ
+val/mcocr_val_145115vbeyk_019.png,ITEM_NAME,VBT toán 3/1,VBT toán 3/1
+val/mcocr_val_145115vbeyk_020.png,QUANTITY,1,1
+val/mcocr_val_145115vbeyk_021.png,UNIT_PRICE,10.500,10.500
+val/mcocr_val_145115vbeyk_022.png,LINE_TOTAL,10.500đ,10.500đ
+val/mcocr_val_145115vbeyk_023.png,ITEM_NAME,Bút bi TL-023,Bút bi TL-023
+val/mcocr_val_145115vbeyk_024.png,QUANTITY,2,2
+val/mcocr_val_145115vbeyk_025.png,UNIT_PRICE,4.000,4.000
+val/mcocr_val_145115vbeyk_026.png,LINE_TOTAL,8.000đ,8.000đ
+val/mcocr_val_145115vbeyk_027.png,ITEM_NAME,Bút bi PO-BP101,Bút bi PO-BP101
+val/mcocr_val_145115vbeyk_028.png,QUANTITY,3,3
+val/mcocr_val_145115vbeyk_029.png,UNIT_PRICE,4.000,4.000
+val/mcocr_val_145115vbeyk_030.png,LINE_TOTAL,12.000đ,12.000đ
+val/mcocr_val_145115vbeyk_031.png,SELLER,NHÀ SÁCH GD-TC CẨM PHẢ,NHÀ SÁCH GD-TC CẨM PHẢ
+val/mcocr_val_145115vmgii_000.png,SELLER,VinCommerce,VinCommerce
+val/mcocr_val_145115vmgii_001.png,ADDRESS,Số 1060-1062 Đường Trần Phú,Số 1060-1062 Đường Trần Phú
+val/mcocr_val_145115vmgii_002.png,ADDRESS,"TP. Cẩm Phả, Quảng Ninh","TP. Cẩm Phả, Quảng Ninh"
+val/mcocr_val_145115vmgii_003.png,TIMESTAMP,15/08/2020 09:31,15/08/2020 09:31
+val/mcocr_val_145115vmgii_004.png,TOTAL_COST,6.000,6.000
+val/mcocr_val_145115vmgii_005.png,ITEM_NAME,SCA không đường Vinamilk hộp 100g,SCA không đường Vinamilk hộp 100g
+val/mcocr_val_145115vmgii_006.png,QUANTITY,1,1
+val/mcocr_val_145115vmgii_007.png,UNIT_PRICE,6.000,6.000
+val/mcocr_val_145115vmgii_008.png,LINE_TOTAL,6.000,6.000
+val/mcocr_val_145115vmgii_009.png,ADDRESS,VM+ QNH 1060-1062 Trần Phú,VM+ QNH 1060-1062 Trần Phú
+val/mcocr_val_145115xkwvm_000.png,SELLER,VinCommerce,VinCommerce
+val/mcocr_val_145115xkwvm_001.png,ADDRESS,VinMart VINCOM SKYLAKE,VinMart VINCOM SKYLAKE
+val/mcocr_val_145115xkwvm_002.png,ADDRESS,1 TTTM Vincom Plaza Skylake,1TTTM Vincom Plaza Skylake
+val/mcocr_val_145115xkwvm_003.png,ADDRESS,"P. Mỹ Đình I, Q. Nam Từ Liêm, HN","P. Mỹ Đình 1, Q. Nam Từ Liêm, HN"
+val/mcocr_val_145115xkwvm_004.png,TIMESTAMP,30/08/2020 17:24,30/08/2020 17:24
+val/mcocr_val_145115xkwvm_005.png,TOTAL_COST,639.250,639.250
+val/mcocr_val_145115xkwvm_006.png,ITEM_NAME,Dưa chuột (dưa leo) L1 Vineco,Dưa chuột (dưa leo) L1 Vineco
+val/mcocr_val_145115xkwvm_007.png,QUANTITY,1,1
+val/mcocr_val_145115xkwvm_008.png,UNIT_PRICE,14.628,14.628
+val/mcocr_val_145115xkwvm_009.png,LINE_TOTAL,14.628,14.628
+val/mcocr_val_145115xkwvm_010.png,ITEM_NAME,VMNK Táo Braeburn NZL PG Size 90-120,VMNK Táo Braeburn NZL PG size 90-120
+val/mcocr_val_145115xkwvm_011.png,QUANTITY,1,1
+val/mcocr_val_145115xkwvm_012.png,UNIT_PRICE,64.750,64.750
+val/mcocr_val_145115xkwvm_013.png,LINE_TOTAL,64.750,64.750
+val/mcocr_val_145115xkwvm_014.png,ITEM_NAME,Cải xanh (cải canh) L1 Vineco,Cải xanh (cải canh) L1 Vineco
+val/mcocr_val_145115xkwvm_015.png,QUANTITY,1,1
+val/mcocr_val_145115xkwvm_016.png,UNIT_PRICE,20.205,20.205
+val/mcocr_val_145115xkwvm_017.png,LINE_TOTAL,20.205,20.205
+val/mcocr_val_145115xkwvm_018.png,ITEM_NAME,NẤM SÒ YẾN,Nấm Sò YếN
+val/mcocr_val_145115xkwvm_019.png,QUANTITY,1,1
+val/mcocr_val_145115xkwvm_020.png,UNIT_PRICE,32.000,32.000
+val/mcocr_val_145115xkwvm_021.png,LINE_TOTAL,32.000,32.000
+val/mcocr_val_145115xkwvm_022.png,ITEM_NAME,SCA nha đam Vinamilk hộp 100g,SCA nha đam Vinamilk hộp 100g
+val/mcocr_val_145115xkwvm_023.png,QUANTITY,4,4
+val/mcocr_val_145115xkwvm_024.png,UNIT_PRICE,7.300,7.300
+val/mcocr_val_145115xkwvm_025.png,LINE_TOTAL,29.200,29.200
+val/mcocr_val_145115xkwvm_026.png,ITEM_NAME,Sữa TTT TH True Milk có đường hộp 1L,Sữa TTT TH True Milk có đường hộp 1L
+val/mcocr_val_145115xkwvm_027.png,QUANTITY,1,1
+val/mcocr_val_145115xkwvm_028.png,UNIT_PRICE,35.500,35.500
+val/mcocr_val_145115xkwvm_029.png,LINE_TOTAL,35.500,35.500
+val/mcocr_val_145115xkwvm_030.png,ITEM_NAME,MML_Nạc vai heo (S),MML_Nạc vai heo (S)
+val/mcocr_val_145115xkwvm_031.png,QUANTITY,1,1
+val/mcocr_val_145115xkwvm_032.png,UNIT_PRICE,53.265,53.265
+val/mcocr_val_145115xkwvm_033.png,LINE_TOTAL,53.265,53.265
+val/mcocr_val_145115xkwvm_034.png,ITEM_NAME,Cánh gà công nghiệp CP,Cánh gà công nghiệp CP
+val/mcocr_val_145115xkwvm_035.png,QUANTITY,1,1
+val/mcocr_val_145115xkwvm_036.png,UNIT_PRICE,38.676,38.676
+val/mcocr_val_145115xkwvm_037.png,LINE_TOTAL,38.676,38.676
+val/mcocr_val_145115xkwvm_038.png,ITEM_NAME,Thịt bê rút xương HN,Thịt bê rút xương HN
+val/mcocr_val_145115xkwvm_039.png,QUANTITY,1,1
+val/mcocr_val_145115xkwvm_040.png,UNIT_PRICE,71.258,71.258
+val/mcocr_val_145115xkwvm_041.png,LINE_TOTAL,71.258,71.258
+val/mcocr_val_145115xkwvm_042.png,ITEM_NAME,"ARIEL Nước giặt k.mùi ẩm mốc túi 2,15kg","ARIEL Nước giặt k.mùi ẩm mốc túi 2,15kg"
+val/mcocr_val_145115xkwvm_043.png,QUANTITY,1,1
+val/mcocr_val_145115xkwvm_044.png,UNIT_PRICE,139.000,139.000
+val/mcocr_val_145115xkwvm_045.png,LINE_TOTAL,139.000,139.000
+val/mcocr_val_145115xkwvm_046.png,ITEM_NAME,TRESEMME Dầu gội keratin smooth 340g,TRESEMME DầU gối keratin smooth 340g
+val/mcocr_val_145115xkwvm_047.png,QUANTITY,1,1
+val/mcocr_val_145115xkwvm_048.png,UNIT_PRICE,119.500,319.500
+val/mcocr_val_145115xkwvm_049.png,LINE_TOTAL,119.500,119.500
+val/mcocr_val_145115xkwvm_050.png,ITEM_NAME,TRESEMME Dầu xả keratin smooth 340g,TRESEMME Dầu Xả keratin smứnth 340g
+val/mcocr_val_145115xkwvm_051.png,QUANTITY,1,1
+val/mcocr_val_145115xkwvm_052.png,UNIT_PRICE,119.500,119.500
+val/mcocr_val_145115xkwvm_053.png,LINE_TOTAL,119.500,119.500
+val/mcocr_val_145115yfbua_000.png,SELLER,VinCommerce,VinCommerce
+val/mcocr_val_145115yfbua_001.png,ADDRESS,"VM+ QNH Tổ 7, Khu Minh Tiến A","VM+ QNH Tổ 7, Khu Minh Tiến A"
+val/mcocr_val_145115yfbua_002.png,ADDRESS,"Tổ 7, Khu Minh Tiến A","Tổ 7, Khu Minh Tiến A"
+val/mcocr_val_145115yfbua_003.png,ADDRESS,"P. Cẩm Bình, TP. Cẩm Phả, QNH","P. Cẩm Bình, TP. Cẩm Phả, QNH"
+val/mcocr_val_145115yfbua_004.png,TIMESTAMP,13/08/2020 18:49,13/08/2020 18:49
+val/mcocr_val_145115yfbua_005.png,TOTAL_COST,148.400,148.400
+val/mcocr_val_145115yfbua_006.png,ITEM_NAME,K.tây đ.lạnh dạng sợi nhỏ A.Lutosa 1kg,K.tây đ.lạnh dạng sợi nhỏ A.Lutosa 1kg
+val/mcocr_val_145115yfbua_007.png,QUANTITY,1,1
+val/mcocr_val_145115yfbua_008.png,UNIT_PRICE,89.000,89.000
+val/mcocr_val_145115yfbua_009.png,LINE_TOTAL,89.000,89.000
+val/mcocr_val_145115yfbua_010.png,ITEM_NAME,ậu hũ non Bibigo Ông Kim's 250gr,ậu hũ non Bibigo Ông Kim's 250gr
+val/mcocr_val_145115yfbua_011.png,QUANTITY,2,2
+val/mcocr_val_145115yfbua_012.png,UNIT_PRICE,12.500,12.500
+val/mcocr_val_145115yfbua_013.png,LINE_TOTAL,25.000,25.000
+val/mcocr_val_145115yfbua_014.png,ITEM_NAME,CP_Nạc dăm heo (Nạc vai) 300g,CP_Nạc dăm heo (Nạc vai) 300g
+val/mcocr_val_145115yfbua_015.png,QUANTITY,1,1
+val/mcocr_val_145115yfbua_016.png,UNIT_PRICE,55.500,55.500
+val/mcocr_val_145115yfbua_017.png,LINE_TOTAL,55.500,55.500
+val/mcocr_val_145115ysuvc_000.png,SELLER,VinCommerce,VinCommerce
+val/mcocr_val_145115ysuvc_001.png,ADDRESS,"VM+ QNH Tổ 7, Khu Minh Tiến A","VM+ QNH Tổ 7, Khu Minh Tiến A"
+val/mcocr_val_145115ysuvc_002.png,ADDRESS,"Tổ 7, Khu Minh Tiến A","Tổ 7, Khu Minh Tiến A"
+val/mcocr_val_145115ysuvc_003.png,ADDRESS,"P. Cẩm Bình, TP. Cẩm Phả, QNH","P. Cẩm Bình, TP. Cẩm Phả, QNH"
+val/mcocr_val_145115ysuvc_004.png,TIMESTAMP,9/8/2020 21:57,9/8/2020 21:57
+val/mcocr_val_145115ysuvc_005.png,TOTAL_COST,45.400,45.400
+val/mcocr_val_145115ysuvc_006.png,ITEM_NAME,Sữa TTT Dalat Milk có đường hộp 450ml,Sữa TTT Dalat Milk có đường hộp 450ml
+val/mcocr_val_145115ysuvc_007.png,QUANTITY,2,2
+val/mcocr_val_145115ysuvc_008.png,UNIT_PRICE,22.700,22.700
+val/mcocr_val_145115ysuvc_009.png,LINE_TOTAL,45.400,45.400
+val/mcocr_val_145115zqplz_000.png,SELLER,VinCommerce,VinCommerce
+val/mcocr_val_145115zqplz_001.png,ADDRESS,VM+ HNI 32 Láng Trung,VM+ HNI 32 Láng Trung
+val/mcocr_val_145115zqplz_002.png,ADDRESS,"Số 32 ngõ Láng Trung, P. Láng Hạ","Số 32 ngõ Láng Trung, P. Láng Hà"
+val/mcocr_val_145115zqplz_003.png,ADDRESS,"Q. Đống Đa, Hà Nội","Q.Đống Đa, Hà Nội"
+val/mcocr_val_145115zqplz_004.png,TIMESTAMP,4/8/2020 19:44,4/8/2020 19:44
+val/mcocr_val_145115zqplz_005.png,TOTAL_COST,184.887,184.887
+val/mcocr_val_145115zqplz_006.png,QUANTITY,1,1
+val/mcocr_val_145115zqplz_007.png,UNIT_PRICE,61.960,C1.950
+val/mcocr_val_145115zqplz_008.png,LINE_TOTAL,61.960,61.960
+val/mcocr_val_145115zqplz_009.png,QUANTITY,1,1
+val/mcocr_val_145115zqplz_010.png,UNIT_PRICE,58.862,58.862
+val/mcocr_val_145115zqplz_011.png,LINE_TOTAL,58.862,58.862
+val/mcocr_val_145115zqplz_012.png,QUANTITY,1,1
+val/mcocr_val_145115zqplz_013.png,LINE_TOTAL,15.296,15.296
+val/mcocr_val_145115zqplz_014.png,QUANTITY,1,1
+val/mcocr_val_145115zqplz_015.png,UNIT_PRICE,57.877,57.877
+val/mcocr_val_145115zqplz_016.png,LINE_TOTAL,57.877,57.877
+val/mcocr_val_145115zqplz_017.png,ITEM_NAME,VMNK Táo Pink Lady New Zealand,VMNK Táo Pink Lady New Zealand 6
+val/mcocr_val_145115zqplz_018.png,ITEM_NAME,Cải chíp (cải thìa) DL L1 Vineco,Cải chíp (cải thìa) DL L1 Vineco
+val/mcocr_val_145115zqplz_019.png,ITEM_NAME,MML_Nạc thăn heo (S),MMI_Nạc thăn heo (S)
+val/mcocr_val_145115zqplz_020.png,ITEM_NAME,MML_Nạc thăn heo (S),MML_Nạc thăn heo (S)

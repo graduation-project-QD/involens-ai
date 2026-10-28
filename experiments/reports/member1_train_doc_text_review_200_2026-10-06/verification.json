@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-06",
+  "reviewed_images": 200,
+  "reviewed_original_doc_regions": 990,
+  "changed_images": 138,
+  "actions": {
+    "text": 227,
+    "remove_wrong_region": 53,
+    "replace_value_region": 8,
+    "category": 1
+  },
+  "text_changes_by_field": {
+    "ADDRESS": 122,
+    "TIMESTAMP": 64,
+    "TOTAL_COST": 20,
+    "SELLER": 21
+  },
+  "rows_before": 559,
+  "rows_after": 559,
+  "csv": "D:\\graduation-project-2\\dataset_hoadon\\annotation_assignments_50_50\\member_1\\mcocr_train_df.csv",
+  "source_csv_sha256": "c2e459facbc3adeb1a312bfe7ad0295e9cab02de3612406367192743162cc729",
+  "backup": "D:\\graduation-project-2\\dataset_hoadon\\annotation_review_backups\\member1_train_doc_texts_200_20261006T091628333371Z",
+  "output_csv_sha256": "624809b12aeb5524f2cc5e77a8ba835f4452449d1a3f08c110b850bd24bd4461",
+  "verification": "PASS: unchanged item regions, rows after 200, images, completion, flags, rotations, other workspaces and config"
+}

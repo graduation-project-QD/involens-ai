@@ -1,0 +1,60 @@
+{
+  "split": "val",
+  "predictions": "..\\experiments\\artifacts\\b7\\b7_results_20261017_full\\ft_vgg_transformer_20000_bundled\\predictions_det_all.csv",
+  "by_label": {
+    "SELLER": {
+      "regions": 154,
+      "missed_rate": 0.013,
+      "cer": 0.0243,
+      "exact_rate": 0.8701
+    },
+    "ADDRESS": {
+      "regions": 263,
+      "missed_rate": 0.0038,
+      "cer": 0.0229,
+      "exact_rate": 0.6996
+    },
+    "TIMESTAMP": {
+      "regions": 138,
+      "missed_rate": 0.0,
+      "cer": 0.0183,
+      "exact_rate": 0.8768
+    },
+    "TOTAL_COST": {
+      "regions": 136,
+      "missed_rate": 0.0,
+      "cer": 0.0077,
+      "exact_rate": 0.9853
+    },
+    "ITEM_NAME": {
+      "regions": 425,
+      "missed_rate": 0.0,
+      "cer": 0.016,
+      "exact_rate": 0.7812
+    },
+    "QUANTITY": {
+      "regions": 406,
+      "missed_rate": 0.0837,
+      "cer": 0.1114,
+      "exact_rate": 0.8793
+    },
+    "UNIT_PRICE": {
+      "regions": 403,
+      "missed_rate": 0.0,
+      "cer": 0.0061,
+      "exact_rate": 0.9677
+    },
+    "LINE_TOTAL": {
+      "regions": 406,
+      "missed_rate": 0.0,
+      "cer": 0.0023,
+      "exact_rate": 0.9852
+    },
+    "ALL": {
+      "regions": 2331,
+      "missed_rate": 0.0159,
+      "cer": 0.0178,
+      "exact_rate": 0.8803
+    }
+  }
+}

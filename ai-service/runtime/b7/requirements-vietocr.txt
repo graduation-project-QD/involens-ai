@@ -1,0 +1,22 @@
+# B7 VietOCR environment.
+# 1) Install torch/torchvision from the index matching the GPU first
+#    (RTX 50xx: https://download.pytorch.org/whl/cu129; local smoke test: .../whl/cpu).
+# 2) pip install -r requirements-vietocr.txt
+# 3) pip install --no-deps vietocr==0.3.13
+# vietocr 0.3.13 pins gdown==4.4.0 (its wheel builds empty with recent setuptools) and imgaug 0.4.0
+# needs NumPy 1.x, hence --no-deps for vietocr and the explicit, mutually compatible pins below.
+numpy==1.26.4
+scipy==1.13.1
+scikit-image==0.24.0
+tifffile==2024.8.30
+imageio==2.35.1
+opencv-python-headless==4.10.0.84
+albumentations==1.4.2
+imgaug==0.4.0
+einops==0.2.0
+gdown==4.7.3
+prefetch_generator==1.0.3
+lmdb==1.5.1
+pillow==10.2.0
+pyyaml>=6.0
+requests>=2.31

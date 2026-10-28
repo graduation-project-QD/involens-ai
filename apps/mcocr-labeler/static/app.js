@@ -101,9 +101,6 @@ const els = {
   validation: $("#validationMessage"),
   flagImage: $("#flagImage"),
   save: $("#saveAnnotation"),
-  saveAndNext: $("#saveAndNext"),
-  previousImage: $("#previousImage"),
-  nextImage: $("#nextImage"),
   draftStatus: $("#draftStatus"),
   markChecked: $("#markChecked"),
   exportCsv: $("#exportCsv"),
@@ -888,17 +885,12 @@ function completenessIssues() {
 
 function validateCurrent() {
   els.save.disabled = true;
-  els.saveAndNext.disabled = true;
   els.markChecked.disabled = true;
   els.flagImage.disabled = !state.current;
   els.confirmRotation.disabled = !state.current;
   els.flagImage.textContent = state.current?.flagged ? "Bỏ cờ ảnh này" : "🚩 Gắn cờ ảnh khó đọc";
   els.flagImage.classList.toggle("active", Boolean(state.current?.flagged));
   els.validation.className = "validation-message";
-  const navigationImages = filteredImages();
-  const currentIndex = state.current ? navigationImages.findIndex((image) => image.img_id === state.current.img_id) : -1;
-  els.previousImage.disabled = !state.current || !navigationImages.length || currentIndex === 0;
-  els.nextImage.disabled = !state.current || !navigationImages.length || currentIndex === navigationImages.length - 1;
   if (!state.current) {
     els.validation.textContent = "Hãy chọn một ảnh.";
     return false;
@@ -930,7 +922,6 @@ function validateCurrent() {
     els.validation.classList.add("ok");
   }
   els.save.disabled = false;
-  els.saveAndNext.disabled = false;
   els.markChecked.disabled = orientationPending || issues.length > 0;
   return true;
 }
@@ -992,21 +983,6 @@ async function saveAnnotation() {
     if (sameEditor) setFailure("Lưu thất bại");
     return false;
   }
-}
-
-async function navigateImage(delta, force = true) {
-  if (!state.current) return;
-  saveDraftNow();
-  const navigationImages = filteredImages();
-  const index = navigationImages.findIndex((image) => image.img_id === state.current.img_id);
-  const next = index < 0
-    ? (delta > 0 ? navigationImages[0] : navigationImages[navigationImages.length - 1])
-    : navigationImages[index + delta];
-  if (next) await selectImage(next, force);
-}
-
-async function saveAndNext() {
-  if (await saveAnnotation()) await navigateImage(1, true);
 }
 
 async function markChecked() {
@@ -1370,9 +1346,6 @@ els.confirmRotation.addEventListener("click", confirmRotation);
 els.toggleMissingField.addEventListener("click", toggleMissingField);
 els.undoAction.addEventListener("click", undoEdit);
 els.redoAction.addEventListener("click", redoEdit);
-els.previousImage.addEventListener("click", () => navigateImage(-1));
-els.nextImage.addEventListener("click", () => navigateImage(1));
-els.saveAndNext.addEventListener("click", saveAndNext);
 els.openWorkspace.addEventListener("click", openWorkspace);
 els.refreshList.addEventListener("click", () => loadState(state.current?.img_id));
 els.imageSearch.addEventListener("input", () => { renderImageList(); validateCurrent(); });
@@ -1412,19 +1385,9 @@ window.addEventListener("keydown", (event) => {
     redoEdit();
     return;
   }
-  if (event.altKey && event.key === "ArrowLeft") {
-    event.preventDefault();
-    navigateImage(-1);
-    return;
-  }
-  if (event.altKey && event.key === "ArrowRight") {
-    event.preventDefault();
-    navigateImage(1);
-    return;
-  }
   if ((event.ctrlKey || event.metaKey) && event.key.toLowerCase() === "s") {
     event.preventDefault();
-    if (event.shiftKey) saveAndNext(); else saveAnnotation();
+    saveAnnotation();
     return;
   }
   if (event.key === "Delete" && !["INPUT", "TEXTAREA"].includes(document.activeElement.tagName)) deleteSelected();

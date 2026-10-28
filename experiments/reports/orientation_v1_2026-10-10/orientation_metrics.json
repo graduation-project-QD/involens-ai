@@ -1,0 +1,83 @@
+{
+  "orientation_version": "orientation_v1",
+  "splits": {
+    "train": {
+      "images": 1094,
+      "coarse_accuracy": 1.0,
+      "coarse_by_gt_class": {
+        "0": {
+          "images": 1031,
+          "coarse_accuracy": 1.0
+        },
+        "90": {
+          "images": 45,
+          "coarse_accuracy": 1.0
+        },
+        "180": {
+          "images": 5,
+          "coarse_accuracy": 1.0
+        },
+        "270": {
+          "images": 13,
+          "coarse_accuracy": 1.0
+        }
+      },
+      "error_with_deskew_on_coarse_correct": {
+        "mae": 0.446,
+        "median": 0.0,
+        "within_1deg": 0.7925,
+        "within_2deg": 0.9753
+      },
+      "error_coarse_only_on_coarse_correct": {
+        "mae": 0.773,
+        "median": 0.0,
+        "within_1deg": 0.7806,
+        "within_2deg": 0.8967
+      },
+      "mean_seconds_classify_detect": 0.851,
+      "mean_seconds_flip_check": 1.928,
+      "coarse_errors": []
+    },
+    "val": {
+      "images": 138,
+      "coarse_accuracy": 1.0,
+      "coarse_by_gt_class": {
+        "0": {
+          "images": 130,
+          "coarse_accuracy": 1.0
+        },
+        "90": {
+          "images": 6,
+          "coarse_accuracy": 1.0
+        },
+        "270": {
+          "images": 2,
+          "coarse_accuracy": 1.0
+        }
+      },
+      "error_with_deskew_on_coarse_correct": {
+        "mae": 0.461,
+        "median": 0.085,
+        "within_1deg": 0.8116,
+        "within_2deg": 0.9783
+      },
+      "error_coarse_only_on_coarse_correct": {
+        "mae": 0.899,
+        "median": 0.0,
+        "within_1deg": 0.7319,
+        "within_2deg": 0.8768
+      },
+      "mean_seconds_classify_detect": 8.219,
+      "mean_seconds_flip_check": 1.688,
+      "coarse_errors": []
+    }
+  },
+  "params": {
+    "min_aspect": 2.0,
+    "min_length_px": 30.0,
+    "min_boxes": 3,
+    "max_abs_skew": 20.0,
+    "min_abs_skew": 1.0,
+    "flip_margin": 0.1
+  }
+}

@@ -1,0 +1,10 @@
+﻿member,split,position,img_id,status,fields,reason
+member_1,train,82,mcocr_public_145013jiksh.jpg,present_but_unannotated,TOTAL_COST,Tổng tiền 243.400 có trên ảnh; box tổng tiền bị gán LINE_TOTAL:1.
+member_1,train,315,mcocr_public_145014jcwux.jpg,present_but_unannotated,ADDRESS,"Địa chỉ 104 Trần Phú - phường Cẩm Tây - Thành phố Cẩm Phả - Quảng Ninh có in, thiếu bbox."
+member_2,train,57,mcocr_public_145013geohx.jpg,present_but_unannotated,ITEM_NAME:10 | LINE_TOTAL:4 | LINE_TOTAL:7,Dòng KM không có SL/đơn giá; tên KM bị thiếu nhãn. Box thành tiền nhóm4/7 bị gán UNIT_PRICE.
+member_2,train,69,mcocr_public_145013idjei.jpg,present_but_unannotated,QUANTITY:4,Số lượng Ngòi chì 7004 có in; bbox bị gán nhầm line_item_id=3.
+member_2,train,210,mcocr_public_145014ckynq.jpg,present_but_unannotated,TIMESTAMP,"Có in ngày 10/08/2020-09: ở cuối, giờ bị cắt phần sau."
+member_2,train,271,mcocr_public_145014fvwak.jpg,unreadable_value,UNIT_PRICE:6 | LINE_TOTAL:6,"Đơn giá/thành tiền mặt hàng6 bị nếp gấp che, không phải không xuất hiện. Không suy ra từ tổng tiền."
+member_2,train,377,mcocr_public_145014ngihg.jpg,present_but_unannotated,ITEM_NAME:4 | ITEM_NAME:6,"Hai dòng KM có tên nhưng thiếu bbox, không in SL và đơn giá."
+member_2,train,475,mcocr_public_145014ttrrd.jpg,unreadable_value,QUANTITY:1,"Giấy rách đúng ô SL, không đọc được số lượng. Không suy đoán từ đơn giá và thành tiền."
+member_2,train,531,mcocr_public_145014xwajt.jpg,present_but_unannotated,TIMESTAMP,"Có in 10/08/2020-19:43 ở cuối hóa đơn, thiếu bbox."

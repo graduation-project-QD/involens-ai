@@ -1,0 +1,32 @@
+{
+  "schema_version": "detection_config_v1",
+  "detection_version": "det_c1920_b0.2_t0.15_v1",
+  "chosen_on": "train (1,094 images, B5 round 2, 2026-10-11)",
+  "report": "experiments/reports/detection_v1_2026-10-11/README.md",
+  "model": {
+    "name": "PP-OCRv5_mobile_det",
+    "device": "cpu",
+    "enable_mkldnn": false
+  },
+  "input": {
+    "frame": "upright image (after orientation + deskew)",
+    "limit_type": "resize_long",
+    "limit_side_len": 1920
+  },
+  "postprocess": {
+    "thresh": 0.15,
+    "box_thresh": 0.2,
+    "unclip_ratio": 1.5
+  },
+  "background_crop": {
+    "enabled": true,
+    "source": "detection boxes at PaddleOCR default size (resize_long 960, thresh 0.3, box_thresh 0.6); online this is the orientation (B4) detection pass",
+    "min_score": 0.5,
+    "min_height_px": 6,
+    "min_boxes": 5,
+    "link_gap_text_heights": 6.0,
+    "margin_text_heights": 2.5,
+    "max_area_ratio": 0.85
+  },
+  "quantity_fallback": "post-processing infers quantity = line_total / unit_price when QUANTITY is missing (flag QUANTITY_INFERRED)"
+}

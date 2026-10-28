@@ -1,0 +1,44 @@
+{
+  "date": "2026-10-06",
+  "status": "applied_and_verified",
+  "removed": 55,
+  "remaining": 1491,
+  "train": 1122,
+  "val": 369,
+  "partitions": [
+    {
+      "member": "member_1",
+      "split": "train",
+      "before": 577,
+      "removed": 18,
+      "after": 559
+    },
+    {
+      "member": "member_1",
+      "split": "val",
+      "before": 195,
+      "removed": 11,
+      "after": 184
+    },
+    {
+      "member": "member_2",
+      "split": "train",
+      "before": 578,
+      "removed": 15,
+      "after": 563
+    },
+    {
+      "member": "member_2",
+      "split": "val",
+      "before": 196,
+      "removed": 11,
+      "after": 185
+    }
+  ],
+  "unique_sha256": 1491,
+  "kept_annotation_rows_unchanged": true,
+  "kept_status_values_unchanged": true,
+  "original_sources_unchanged": true,
+  "status_files_verified": 15,
+  "backup": "D:\\graduation-project-2\\dataset_hoadon\\annotation_dedup_backups\\dedup_20261006T083014217779Z"
+}

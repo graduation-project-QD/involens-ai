@@ -1,0 +1,183 @@
+{
+  "snapshot_local": "2026-10-06T20:08:46+07:00",
+  "base": "D:\\graduation-project-2\\dataset_hoadon\\annotation_assignments_50_50",
+  "parts": [
+    {
+      "member": "member_1",
+      "split": "train",
+      "images": 559,
+      "with_annotations": 558,
+      "flagged": 48,
+      "completed": 498,
+      "stale_flag_ids": [],
+      "regions": 7845,
+      "average_regions": 14.034,
+      "labels": {
+        "SELLER": 587,
+        "ADDRESS": 992,
+        "TIMESTAMP": 593,
+        "TOTAL_COST": 561,
+        "ITEM_NAME": 1339,
+        "QUANTITY": 1263,
+        "LINE_TOTAL": 1275,
+        "UNIT_PRICE": 1235
+      },
+      "with_item_name": 494,
+      "missing_images": 0,
+      "average_annotated_only": 14.0591
+    },
+    {
+      "member": "member_1",
+      "split": "val",
+      "images": 184,
+      "with_annotations": 183,
+      "flagged": 13,
+      "completed": 171,
+      "stale_flag_ids": [],
+      "regions": 2702,
+      "average_regions": 14.6848,
+      "labels": {
+        "SELLER": 206,
+        "ADDRESS": 347,
+        "TIMESTAMP": 203,
+        "TOTAL_COST": 167,
+        "ITEM_NAME": 461,
+        "QUANTITY": 441,
+        "UNIT_PRICE": 436,
+        "LINE_TOTAL": 441
+      },
+      "with_item_name": 163,
+      "missing_images": 0,
+      "average_annotated_only": 14.765
+    },
+    {
+      "member": "member_2",
+      "split": "train",
+      "images": 563,
+      "with_annotations": 563,
+      "flagged": 38,
+      "completed": 0,
+      "stale_flag_ids": [],
+      "regions": 8651,
+      "average_regions": 15.3659,
+      "labels": {
+        "SELLER": 587,
+        "ADDRESS": 988,
+        "TOTAL_COST": 576,
+        "ITEM_NAME": 1546,
+        "QUANTITY": 1431,
+        "UNIT_PRICE": 1416,
+        "LINE_TOTAL": 1491,
+        "TIMESTAMP": 616
+      },
+      "with_item_name": 497,
+      "missing_images": 0,
+      "average_annotated_only": 15.3659
+    },
+    {
+      "member": "member_2",
+      "split": "val",
+      "images": 185,
+      "with_annotations": 185,
+      "flagged": 16,
+      "completed": 169,
+      "stale_flag_ids": [],
+      "regions": 3014,
+      "average_regions": 16.2919,
+      "labels": {
+        "SELLER": 192,
+        "ADDRESS": 344,
+        "TIMESTAMP": 195,
+        "TOTAL_COST": 173,
+        "ITEM_NAME": 544,
+        "QUANTITY": 524,
+        "LINE_TOTAL": 525,
+        "UNIT_PRICE": 517
+      },
+      "with_item_name": 168,
+      "missing_images": 0,
+      "average_annotated_only": 16.2919
+    }
+  ],
+  "total_images": 1491,
+  "annotated_images": 1489,
+  "flagged_images": 115,
+  "images_without_flag": 1376,
+  "completed_images": 838,
+  "total_regions": 22212,
+  "average_regions": 14.8974,
+  "median_regions": 12,
+  "regions_without_flags": 21455,
+  "average_without_flags": 15.5923,
+  "historical_redundant_copies": 55,
+  "historical_duplicate_groups": 53,
+  "historical_images_in_duplicate_groups": 108,
+  "historical_removed_by_split": {
+    "train": 33,
+    "val": 22
+  },
+  "remaining_exact_duplicate_groups": 0,
+  "remaining_redundant_copies": 0,
+  "unique_sha256": 1491,
+  "ratio_80_10_10_all": {
+    "train": 1193,
+    "val": 149,
+    "test": 149
+  },
+  "ratio_80_10_10_without_flags": {
+    "train": 1101,
+    "val": 138,
+    "test": 137
+  },
+  "ratio_70_15_15_all": {
+    "train": 1044,
+    "val": 224,
+    "test": 223
+  },
+  "ratio_70_15_15_without_flags": {
+    "train": 963,
+    "val": 207,
+    "test": 206
+  },
+  "errors": [],
+  "source_hashes": {
+    "D:\\graduation-project-2\\dataset_hoadon\\annotation_assignments_50_50\\member_1\\mcocr_train_df.csv": "624809b12aeb5524f2cc5e77a8ba835f4452449d1a3f08c110b850bd24bd4461",
+    "D:\\graduation-project-2\\dataset_hoadon\\annotation_assignments_50_50\\member_1\\mcocr_train_df.flagged.json": "3cb4e29019971ba776511d7cbd3343bcd2b1f9bc3ded03f3c84f7628a9b45652",
+    "D:\\graduation-project-2\\dataset_hoadon\\annotation_assignments_50_50\\member_1\\mcocr_train_df.completed.json": "09988749e398a0bb53773ae797dfa7430752ae1ddf977018062efcebcf6cc194",
+    "D:\\graduation-project-2\\dataset_hoadon\\annotation_assignments_50_50\\member_1\\mcocr_train_df.missing_fields.json": "736e408db51507171b17259fdad94bc7a5985d605ea4b27b5aeba69ee7b5e6fa",
+    "D:\\graduation-project-2\\dataset_hoadon\\annotation_assignments_50_50\\member_1\\mcocr_val_df.csv": "b6157ea3e03cf579a515d6e19c146fa3c660c9e61bf7d0f546e8c7e5483e599f",
+    "D:\\graduation-project-2\\dataset_hoadon\\annotation_assignments_50_50\\member_1\\mcocr_val_df.flagged.json": "a9c9aab7bc6d3e6e718a2261f183e66c1e3f0cb32fb5073ebab3372d40d3b7f9",
+    "D:\\graduation-project-2\\dataset_hoadon\\annotation_assignments_50_50\\member_1\\mcocr_val_df.completed.json": "97ed5248fc0f14b5b3297f96bfc27e7d066ccb66a0f68d159cde001859c2538e",
+    "D:\\graduation-project-2\\dataset_hoadon\\annotation_assignments_50_50\\member_1\\mcocr_val_df.missing_fields.json": "c372239b973db49ba386bf44f563e9aa2ca3bd74890b17484de952ee93fc7bc5",
+    "D:\\graduation-project-2\\dataset_hoadon\\annotation_assignments_50_50\\member_2\\mcocr_train_df.csv": "58c1be8408b0c21b5a04f8eb7619ca7214025708a27c0ac77f84da8ab5e6fac4",
+    "D:\\graduation-project-2\\dataset_hoadon\\annotation_assignments_50_50\\member_2\\mcocr_train_df.flagged.json": "7071b1835c87367773e6f141dbdab61d914eb23c2bfd10b76e980c8d3be1bf07",
+    "D:\\graduation-project-2\\dataset_hoadon\\annotation_assignments_50_50\\member_2\\mcocr_train_df.completed.json": "f3b8e771f89502693cf823871f1e382036a8353aed73018ad5a76ac9a46840d1",
+    "D:\\graduation-project-2\\dataset_hoadon\\annotation_assignments_50_50\\member_2\\mcocr_train_df.missing_fields.json": "27a60c6372dc3b4897f044ddbe705de80ae9c97de98ffea936d40f55c2a3951d",
+    "D:\\graduation-project-2\\dataset_hoadon\\annotation_assignments_50_50\\member_2\\mcocr_val_df.csv": "dad5082149dfafa881718d3ae3ee84bacf99f005d9020af9419be7e339aabdff",
+    "D:\\graduation-project-2\\dataset_hoadon\\annotation_assignments_50_50\\member_2\\mcocr_val_df.flagged.json": "e83099892fa96e53f2fc8545ba6faf86bb9aa931f66b30e8e69debc1b621abe0",
+    "D:\\graduation-project-2\\dataset_hoadon\\annotation_assignments_50_50\\member_2\\mcocr_val_df.completed.json": "681c68762a5822c59adf2a95b0aad059e3a1698ca539c327f5a3139848dbd715",
+    "D:\\graduation-project-2\\dataset_hoadon\\annotation_assignments_50_50\\member_2\\mcocr_val_df.missing_fields.json": "ddb5eb2a2383dcf375b1e1306f4f76c997dc6e97c49a1aec8ae2015f32d395cc"
+  },
+  "average_annotated_only": 14.9174,
+  "blank_rows": [
+    {
+      "member": "member_1",
+      "split": "train",
+      "img_id": "mcocr_public_145014iwhec.jpg",
+      "regions": 0,
+      "flagged": true,
+      "completed": false,
+      "sha256": "66dd3855b6b17937113a9c4ab69f415feca0c2b8c6351d150d8698b802321f1f"
+    },
+    {
+      "member": "member_1",
+      "split": "val",
+      "img_id": "mcocr_val_145114unyae.jpg",
+      "regions": 0,
+      "flagged": true,
+      "completed": false,
+      "sha256": "05c4a0defe8ee1fecc07ef53c25829e9548b299781d1e61931491a536d0e3fbf"
+    }
+  ],
+  "eligible_annotated_without_flag": 1376
+}

@@ -1,0 +1,60 @@
+{
+  "split": "val",
+  "predictions": "D:\\graduation-project-2\\experiments\\artifacts\\b7\\b7_results_20261017\\ft_vgg_transformer_20000_noaug\\predictions_det_val.csv",
+  "by_label": {
+    "SELLER": {
+      "regions": 154,
+      "missed_rate": 0.013,
+      "cer": 0.0224,
+      "exact_rate": 0.8701
+    },
+    "ADDRESS": {
+      "regions": 263,
+      "missed_rate": 0.0038,
+      "cer": 0.0238,
+      "exact_rate": 0.6882
+    },
+    "TIMESTAMP": {
+      "regions": 138,
+      "missed_rate": 0.0,
+      "cer": 0.0179,
+      "exact_rate": 0.8768
+    },
+    "TOTAL_COST": {
+      "regions": 136,
+      "missed_rate": 0.0,
+      "cer": 0.011,
+      "exact_rate": 0.9632
+    },
+    "ITEM_NAME": {
+      "regions": 425,
+      "missed_rate": 0.0,
+      "cer": 0.0175,
+      "exact_rate": 0.7694
+    },
+    "QUANTITY": {
+      "regions": 406,
+      "missed_rate": 0.0837,
+      "cer": 0.1205,
+      "exact_rate": 0.8695
+    },
+    "UNIT_PRICE": {
+      "regions": 403,
+      "missed_rate": 0.0,
+      "cer": 0.0061,
+      "exact_rate": 0.9677
+    },
+    "LINE_TOTAL": {
+      "regions": 406,
+      "missed_rate": 0.0,
+      "cer": 0.0035,
+      "exact_rate": 0.9778
+    },
+    "ALL": {
+      "regions": 2331,
+      "missed_rate": 0.0159,
+      "cer": 0.0187,
+      "exact_rate": 0.8726
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "finetune_version": "vietocr_finetune_v1",
+  "model": "vgg_transformer",
+  "weights": "/home/ezycloudx-admin/b7/ai-service/../runs_b7/ft_vgg_transformer_20000/weights.pth",
+  "split": "val",
+  "crops": 2330,
+  "beamsearch": false,
+  "seconds_per_crop": 0.0273,
+  "by_label": {
+    "SELLER": {
+      "regions": 154,
+      "cer": 0.0117,
+      "cer_without_diacritics": 0.0056,
+      "exact_rate": 0.9091
+    },
+    "ADDRESS": {
+      "regions": 262,
+      "cer": 0.0181,
+      "cer_without_diacritics": 0.0127,
+      "exact_rate": 0.7176
+    },
+    "TIMESTAMP": {
+      "regions": 138,
+      "cer": 0.0166,
+      "cer_without_diacritics": 0.0166,
+      "exact_rate": 0.8841
+    },
+    "TOTAL_COST": {
+      "regions": 136,
+      "cer": 0.0088,
+      "cer_without_diacritics": 0.0088,
+      "exact_rate": 0.9779
+    },
+    "ITEM_NAME": {
+      "regions": 425,
+      "cer": 0.017,
+      "cer_without_diacritics": 0.0125,
+      "exact_rate": 0.7624
+    },
+    "QUANTITY": {
+      "regions": 406,
+      "cer": 0.0045,
+      "cer_without_diacritics": 0.0045,
+      "exact_rate": 0.9951
+    },
+    "UNIT_PRICE": {
+      "regions": 403,
+      "cer": 0.0069,
+      "cer_without_diacritics": 0.0069,
+      "exact_rate": 0.9677
+    },
+    "LINE_TOTAL": {
+      "regions": 406,
+      "cer": 0.002,
+      "cer_without_diacritics": 0.002,
+      "exact_rate": 0.9877
+    },
+    "ALL": {
+      "regions": 2330,
+      "cer": 0.0141,
+      "cer_without_diacritics": 0.0106,
+      "exact_rate": 0.9021
+    }
+  }
+}

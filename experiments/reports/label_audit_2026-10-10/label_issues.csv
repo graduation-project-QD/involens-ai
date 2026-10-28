@@ -1,0 +1,120 @@
+﻿split,img_id,issue,severity,detail
+train,mcocr_public_145013aqeha.jpg,qty_x_price_ne_line_total,check,#2 2 x 13.400 = 13.400
+train,mcocr_public_145013auohz.jpg,address_prefix_in_box,policy,ĐC: 212 Đường Trần Phú-Cẩm Phả
+train,mcocr_public_145013awcbh.jpg,address_prefix_in_box,policy,ĐC: 212 Đường Trần Phú-Cẩm Phả
+train,mcocr_public_145013bchvc.jpg,address_prefix_in_box,policy,ĐC: 212 Đường Trần Phú - Cẩm Phả
+train,mcocr_public_145013bchvc.jpg,qty_x_price_ne_line_total,check,#2 3 x 6.000 = 18.0000đ
+train,mcocr_public_145013bgfxq.jpg,address_prefix_in_box,policy,ĐC: 212 Đường Trần Phú-Cẩm Phả
+train,mcocr_public_145013byufi.jpg,qty_x_price_ne_line_total,check,"#1 1 x 1,700,000 = 1,360,000"
+train,mcocr_public_145013chgcz.jpg,qty_x_price_ne_line_total,check,#1 -1 x 164.435 = -164.435
+train,mcocr_public_145013cllbf.jpg,line_item_id_reused,fix,"#3 QUANTITY=['1', '10']"
+train,mcocr_public_145013coalz.jpg,address_prefix_in_box,policy,ĐC: 212 Đường Trần Phú - Cẩm Phả
+train,mcocr_public_145013cxcei.jpg,address_prefix_in_box,policy,ĐC: 212 Đường Trần Phú-Cẩm Phả
+train,mcocr_public_145013cxgot.jpg,address_prefix_in_box,policy,ĐC: 212 Đường Trần Phú-Cẩm Phả
+train,mcocr_public_145013doybn.jpg,address_prefix_in_box,policy,ĐC: 212 Đường Trần Phú-Cẩm Phả
+train,mcocr_public_145013euvfm.jpg,line_item_id_reused,fix,"#5 QUANTITY=['2', '1']"
+train,mcocr_public_145013fiibr.jpg,qty_x_price_ne_line_total,check,"#3 24,000 x 1 = 24,000"
+train,mcocr_public_145013fomil.jpg,line_item_id_reused,fix,"#1 QUANTITY=['4', '1']"
+train,mcocr_public_145013fwuow.jpg,address_prefix_in_box,policy,ĐC: 212 Đường Trần Phú-Cẩm Phả
+train,mcocr_public_145013haeps.jpg,line_item_without_name,check,"#1 {'QUANTITY': ['1'], 'UNIT_PRICE': ['299,000'], 'LINE_TOTAL': ['299,000 VNĐ'], 'ITEM_NAME': []}"
+train,mcocr_public_145013hzddg.jpg,address_prefix_in_box,policy,ĐC: 212 Đường Trần Phú - Cẩm Phả
+train,mcocr_public_145013idjei.jpg,address_prefix_in_box,policy,ĐC: 212 Đường Trần Phú-Cẩm Phả
+train,mcocr_public_145013ifdaj.jpg,qty_x_price_ne_line_total,check,"#1 1 x 30,000 = 30,"
+train,mcocr_public_145013kaedt.jpg,address_prefix_in_box,policy,ĐC: 212 Đường Trần Phú-Cẩm Phả
+train,mcocr_public_145013lozjt.jpg,qty_x_price_ne_line_total,check,"#2 4 x 750 = 27,000"
+train,mcocr_public_145013luuro.jpg,line_item_id_reused,fix,"#4 QUANTITY=['1', '1']"
+train,mcocr_public_145013lxdbt.jpg,address_prefix_in_box,policy,ĐC: 212 Đường Trần Phú-Cẩm Phả
+train,mcocr_public_145013lxunp.jpg,qty_x_price_ne_line_total,check,#3 9.000 x 6 = 54.000
+train,mcocr_public_145013njeuf.jpg,address_prefix_in_box,policy,ĐC: 212 Đường Trần Phú-Cẩm Phả
+train,mcocr_public_145013nvoah.jpg,qty_x_price_ne_line_total,check,"#7 1 x 157,000 = 157,00"
+train,mcocr_public_145013nwbcg.jpg,address_prefix_in_box,policy,ĐC: 212 Đường Trần Phú-Cẩm Phả
+train,mcocr_public_145013ogvmp.jpg,address_prefix_in_box,policy,ĐC: 212 Đường Trần Phú - Cẩm Phả
+train,mcocr_public_145013onyrj.jpg,address_prefix_in_box,policy,ĐC: 212 Đường Trần Phú-Cẩm Phả
+train,mcocr_public_145013plnfr.jpg,qty_x_price_ne_line_total,check,"#1 1,00 x 35 000 = 35 0"
+train,mcocr_public_145013syjan.jpg,address_prefix_in_box,policy,ĐC: 212 Đường Trần Phú-Cẩm Phả
+train,mcocr_public_145013tafca.jpg,qty_x_price_ne_line_total,check,#1 3 x 35 000 = 75 000
+train,mcocr_public_145013tcvim.jpg,qty_x_price_ne_line_total,check,"#1 1 x 152,000 = 152,"
+train,mcocr_public_145013unjxn.jpg,line_item_id_reused,fix,"#1 QUANTITY=['1', '1']"
+train,mcocr_public_145013uomce.jpg,address_prefix_in_box,policy,ĐC: 212 Đường Trần Phú-Cẩm Phả
+train,mcocr_public_145013uqtmx.jpg,address_prefix_in_box,policy,ĐC: 212 Đường Trần Phú-Cẩm Phả
+train,mcocr_public_145013utfgs.jpg,qty_x_price_ne_line_total,check,#2 10.000 x 1 = 10.000
+train,mcocr_public_145013vmzzn.jpg,address_prefix_in_box,policy,ĐC: 212 Đường Trần Phú-Cẩm Phả
+train,mcocr_public_145013vpqnu.jpg,address_prefix_in_box,policy,ĐC: 212 Đường Trần Phú-Cẩm Phả
+train,mcocr_public_145013waefm.jpg,address_prefix_in_box,policy,ĐC: 212 Đường Trần Phú-Cẩm Phả
+train,mcocr_public_145013wraxn.jpg,line_item_without_name,check,"#1 {'QUANTITY': ['1'], 'UNIT_PRICE': ['45,000'], 'LINE_TOTAL': ['45,000'], 'ITEM_NAME': []}"
+train,mcocr_public_145013xaojq.jpg,address_prefix_in_box,policy,ĐC: 212 Đường Trần Phú-Cẩm Phả
+train,mcocr_public_145013yjpdv.jpg,address_prefix_in_box,policy,ĐC: 212 Đường Trần Phú-Cẩm Phả
+train,mcocr_public_145013yjpdv.jpg,qty_x_price_ne_line_total,check,#2 -1 x 55.000 = -55.000đ
+train,mcocr_public_145013ywtjf.jpg,qty_x_price_ne_line_total,check,"#1 6 x 6,500 = 52,000"
+train,mcocr_public_145014aixgf.jpg,address_prefix_in_box,policy,ĐC: 212 Đường Trần Phú-Cẩm Phả
+train,mcocr_public_145014anjdg.jpg,line_item_without_name,check,"#4 {'QUANTITY': ['1'], 'UNIT_PRICE': ['21.000'], 'LINE_TOTAL': ['21.000'], 'ITEM_NAME': []}"
+train,mcocr_public_145014atzjl.jpg,address_prefix_in_box,policy,ĐC: 212 Đường Trần Phú-Cẩm Phả
+train,mcocr_public_145014awmql.jpg,address_prefix_in_box,policy,ĐC: 212 Đường Trần Phú-Cẩm Phả
+train,mcocr_public_145014awxdd.jpg,qty_x_price_ne_line_total,check,"#4 2 x 5,000 = 10,000.00"
+train,mcocr_public_145014bdeah.jpg,line_item_id_reused,fix,"#1 QUANTITY=['1', '1', '1']"
+train,mcocr_public_145014bdeah.jpg,line_item_id_reused,fix,"#2 QUANTITY=['1', '1']"
+train,mcocr_public_145014bqglf.jpg,line_item_id_reused,fix,"#2 QUANTITY=['1', '1']"
+train,mcocr_public_145014bqwna.jpg,address_prefix_in_box,policy,ĐC: 212 Đường Trần Phú-Cẩm Phả
+train,mcocr_public_145014cbbmj.jpg,qty_x_price_ne_line_total,check,"#2 8 x 5,520 = 42,000"
+train,mcocr_public_145014cfgdh.jpg,address_prefix_in_box,policy,ĐC: 212 Đường Trần Phú-Cẩm Phả
+train,mcocr_public_145014cmghn.jpg,address_prefix_in_box,policy,ĐC: 212 Đường Trần Phú-Cẩm Phả
+train,mcocr_public_145014cwifi.jpg,address_prefix_in_box,policy,ĐC: 212 Đường Trần Phú - Cẩm Phả
+train,mcocr_public_145014divcp.jpg,qty_x_price_ne_line_total,check,#1 3 x 66. = 199.500
+train,mcocr_public_145014dkivp.jpg,address_prefix_in_box,policy,ĐC: 212 Đường Trần Phú-Cẩm Phả
+train,mcocr_public_145014dypib.jpg,address_prefix_in_box,policy,ĐC: 212 Đường Trần Phú-Cẩm Phả
+train,mcocr_public_145014ebrwa.jpg,qty_x_price_ne_line_total,check,"#3 5 x 3,5000 = 17,500"
+train,mcocr_public_145014ehtue.jpg,qty_x_price_ne_line_total,check,#2 1 x 15.300 = 15.
+train,mcocr_public_145014emepc.jpg,address_prefix_in_box,policy,ĐC: 212 Đường Trần Phú-Cẩm Phả
+train,mcocr_public_145014epafb.jpg,address_prefix_in_box,policy,ĐC: 212 Đường Trần Phú - Cẩm Phả
+train,mcocr_public_145014etnjz.jpg,timestamp_prefix_in_box,policy,Ngày bán: 13/08/2020 17:38
+train,mcocr_public_145014fhfxn.jpg,address_prefix_in_box,policy,ĐC: 212 Đường Trần Phú-Cẩm Phả
+train,mcocr_public_145014foulc.jpg,address_prefix_in_box,policy,ĐC: 212 Đường Trần Phú-Cẩm Phả
+train,mcocr_public_145014ftgca.jpg,address_prefix_in_box,policy,ĐC: 212 Đường Trần Phú - Cẩm Phả
+train,mcocr_public_145014ftvdj.jpg,address_prefix_in_box,policy,ĐC: 212 Đường Trần Phú-Cẩm Phả
+train,mcocr_public_145014fvnus.jpg,qty_x_price_ne_line_total,check,"#3 12 x 3,000 = 48,"
+train,mcocr_public_145014fvrpp.jpg,line_item_without_name,check,"#1 {'QUANTITY': ['1'], 'UNIT_PRICE': ['490,000'], 'LINE_TOTAL': ['490,000'], 'ITEM_NAME': []}"
+train,mcocr_public_145014fvrpp.jpg,line_item_without_name,check,"#2 {'QUANTITY': ['1'], 'UNIT_PRICE': ['0'], 'LINE_TOTAL': ['0'], 'ITEM_NAME': []}"
+train,mcocr_public_145014fzozs.jpg,address_prefix_in_box,policy,ĐC: 212 Đường Trần Phú - Cẩm Phả
+train,mcocr_public_145014fzozs.jpg,qty_x_price_ne_line_total,check,#5 2 x 26. = 52.000đ
+train,mcocr_public_145014gcszj.jpg,address_prefix_in_box,policy,ĐC: 212 Đường Trần Phú-Cẩm Phả
+train,mcocr_public_145014glqgm.jpg,line_item_without_name,check,"#1 {'QUANTITY': ['1,924'], 'UNIT_PRICE': ['25,500'], 'LINE_TOTAL': ['49,062'], 'ITEM_NAME': []}"
+train,mcocr_public_145014gvogn.jpg,address_prefix_in_box,policy,Địa chỉ: 11B Nơ Trang Long - Phường 14
+train,mcocr_public_145014gwllr.jpg,qty_x_price_ne_line_total,check,#3 1 x 9. = 9.400
+train,mcocr_public_145014hngsl.jpg,qty_x_price_ne_line_total,check,#1 -1 x 105.000 = -105.000đ
+train,mcocr_public_145014ihyqu.jpg,address_prefix_in_box,policy,ĐC: 212 Đường Trần Phú - Cẩm Phả
+train,mcocr_public_145014ikozz.jpg,address_prefix_in_box,policy,ĐC: 212 Đường Trần Phú-Cẩm Phả
+train,mcocr_public_145014iqlqw.jpg,address_prefix_in_box,policy,ĐC: 212 Đường Trần Phú-Cẩm Phả
+train,mcocr_public_145014iriei.jpg,qty_x_price_ne_line_total,check,"#4 4 x 15, = 60,000"
+train,mcocr_public_145014iriei.jpg,qty_x_price_ne_line_total,check,"#10 1 x 16,000 = 16,"
+train,mcocr_public_145014jfncf.jpg,address_prefix_in_box,policy,ĐC: 212 Đường Trần Phú-Cẩm Phả
+train,mcocr_public_145014jfyvi.jpg,qty_x_price_ne_line_total,check,#1 -1 x 14.000 = -14.000đ
+train,mcocr_public_145014jizcq.jpg,total_cost_no_digit,fix,VNĐ
+train,mcocr_public_145014jpzwu.jpg,address_prefix_in_box,policy,Địa chỉ: 102C1 Phạm Ngọc Thạch
+train,mcocr_public_145014jvwce.jpg,qty_x_price_ne_line_total,check,"#6 1 x 39,000.00 = 39,000."
+train,mcocr_public_145014jxwwm.jpg,address_prefix_in_box,policy,ĐC: 212 Đường Trần Phú-Cẩm Phả
+train,mcocr_public_145014ldvxl.jpg,address_prefix_in_box,policy,ĐC: 212 Đường Trần Phú-Cẩm Phả
+train,mcocr_public_145014lxhnj.jpg,address_prefix_in_box,policy,ĐC: 212 Đường Trần Phú - Cẩm Phả
+train,mcocr_public_145014msalk.jpg,qty_x_price_ne_line_total,check,"#11 -2 x 99,000 = -198,000"
+train,mcocr_public_145014msalk.jpg,qty_x_price_ne_line_total,check,"#16 -1 x 20,000 = -20,000"
+train,mcocr_public_145014ndurw.jpg,address_prefix_in_box,policy,ĐC: 212 Đường Trần Phú - Cẩm Phả
+train,mcocr_public_145014neytd.jpg,address_prefix_in_box,policy,ĐC: 212 Đường Trần Phú- Cẩm Phả
+train,mcocr_public_145014nkquo.jpg,line_item_without_name,check,"#5 {'QUANTITY': ['3'], 'UNIT_PRICE': ['3,500'], 'LINE_TOTAL': ['10,500'], 'ITEM_NAME': []}"
+train,mcocr_public_145014nxuwg.jpg,timestamp_prefix_in_box,policy,Ngày bán: 14/08/2020 08:17
+train,mcocr_public_145014phbcu.jpg,qty_x_price_ne_line_total,check,"#2 1 x 10,000.00 = 10,000.0"
+train,mcocr_public_145014qcume.jpg,address_prefix_in_box,policy,ĐC: 212 Đường Trần Phú-Cẩm Phả
+train,mcocr_public_145014qlemc.jpg,qty_x_price_ne_line_total,check,"#3 0.294 x 38,000.00 = 10,032.00"
+train,mcocr_public_145014rfvhh.jpg,qty_x_price_ne_line_total,check,#1 -1 x 116.224 = -116.224
+train,mcocr_public_145014rfvhh.jpg,qty_x_price_ne_line_total,check,#2 -1 x 53.524 = -53.524
+train,mcocr_public_145014sftbp.jpg,address_prefix_in_box,policy,ĐC: 212 Đường Trần Phú-Cẩm Phả
+train,mcocr_public_145014wscvw.jpg,line_item_without_name,check,"#3 {'QUANTITY': ['2'], 'UNIT_PRICE': ['3,500'], 'LINE_TOTAL': ['7,000'], 'ITEM_NAME': []}"
+train,mcocr_public_145014xxqwv.jpg,qty_x_price_ne_line_total,check,#1 -1 x 9.000 = -9.000đ
+train,mcocr_public_145014zkxjr.jpg,rotation_missing,fix,
+val,mcocr_val_145115aozns.jpg,qty_x_price_ne_line_total,check,"#2 0.49 x 58,500 = 14,332"
+val,mcocr_val_145115gemfs.jpg,line_item_without_name,check,"#4 {'QUANTITY': ['1'], 'UNIT_PRICE': ['49.500'], 'LINE_TOTAL': ['49.500'], 'ITEM_NAME': []}"
+val,mcocr_val_145115irmak.jpg,line_item_without_name,check,"#1 {'QUANTITY': ['1'], 'UNIT_PRICE': ['45,000'], 'LINE_TOTAL': ['45,000'], 'ITEM_NAME': []}"
+val,mcocr_val_145115jlcvk.jpg,line_item_without_name,check,"#2 {'QUANTITY': ['1'], 'UNIT_PRICE': ['25.000'], 'LINE_TOTAL': ['25.000'], 'ITEM_NAME': []}"
+val,mcocr_val_145115jlcvk.jpg,line_item_without_name,check,"#3 {'QUANTITY': ['1'], 'UNIT_PRICE': ['20.000'], 'LINE_TOTAL': ['20.000'], 'ITEM_NAME': []}"
+val,mcocr_val_145115jlcvk.jpg,line_item_without_name,check,"#4 {'UNIT_PRICE': ['35.000'], 'LINE_TOTAL': ['35.000'], 'QUANTITY': [], 'ITEM_NAME': []}"
+val,mcocr_val_145115uvcfc.jpg,qty_x_price_ne_line_total,check,#5 -1 x 60.000 = -60.000đ
+val,mcocr_val_145115uvcfc.jpg,qty_x_price_ne_line_total,check,#6 -1 x 24.000 = -24.000đ
+val,mcocr_val_145115uvcfc.jpg,qty_x_price_ne_line_total,check,#7 -1 x 42.000 = -42.000đ

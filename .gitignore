@@ -4,6 +4,11 @@
 /experiments/data/raw/
 /experiments/data/processed/**/*.jsonl
 !/experiments/data/processed/**/*_quarantine.jsonl
+# Regenerable OCR caches and LayoutXLM inputs (keep summary/stats JSON)
+/experiments/data/processed/ocr_v2_cache*/
+/experiments/data/processed/ocr_v2_pretrained_cache/
+/experiments/data/processed/layoutxlm_v1/images/
+/experiments/data/processed/layoutxlm_v1/tokenizer/
 
 # Quarantined source documents: keep audit metadata, ignore document binaries
 /experiments/data/quarantine/**/*.jpg

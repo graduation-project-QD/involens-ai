@@ -1,0 +1,47 @@
+﻿member,split,position,img_id,added_missing_fields,added_count,reason
+member_1,train,238,mcocr_public_145014eamas.jpg,TIMESTAMP,1,"Đã xem crop ảnh gốc: sau Ngày: để trống, không có giá trị ngày/giờ được in."
+member_2,train,3,mcocr_public_145013aeriv.jpg,TIMESTAMP,1,Đã đối chiếu ảnh: giá trị trường không có trong vùng ảnh.
+member_2,train,15,mcocr_public_145013bybgv.jpg,ITEM_NAME:1 | LINE_TOTAL:1 | QUANTITY:1 | TOTAL_COST | UNIT_PRICE:1,5,Phiếu giao dịch treo không có mặt hàng và tổng tiền; khai báo bốn trường dòng1.
+member_2,train,17,mcocr_public_145013cezfv.jpg,ADDRESS | TOTAL_COST,2,Đã đối chiếu ảnh: giá trị trường không có trong vùng ảnh.
+member_2,train,21,mcocr_public_145013clltn.jpg,TIMESTAMP,1,"Chỉ có chữ Ngày: ở cuối phiếu, không có giá trị ngày/giờ được in."
+member_2,train,23,mcocr_public_145013cnknh.jpg,TIMESTAMP,1,"Chỉ có chữ Ngày: ở cuối phiếu, không có giá trị ngày/giờ được in."
+member_2,train,30,mcocr_public_145013cxtop.jpg,ADDRESS,1,Đã đối chiếu ảnh: giá trị trường không có trong vùng ảnh.
+member_2,train,39,mcocr_public_145013dxavh.jpg,ITEM_NAME:1 | LINE_TOTAL:1 | QUANTITY:1 | TOTAL_COST | UNIT_PRICE:1,5,Phiếu giao dịch treo không có mặt hàng và tổng tiền; khai báo bốn trường dòng1.
+member_2,train,46,mcocr_public_145013eicdg.jpg,TIMESTAMP,1,Đã đối chiếu ảnh: giá trị trường không có trong vùng ảnh.
+member_2,train,55,mcocr_public_145013fskld.jpg,UNIT_PRICE:1 | UNIT_PRICE:2 | UNIT_PRICE:3,3,Đã đối chiếu ảnh: giá trị trường không có trong vùng ảnh.
+member_2,train,57,mcocr_public_145013geohx.jpg,QUANTITY:10 | UNIT_PRICE:10,2,Dòng KM không có SL/đơn giá; tên KM bị thiếu nhãn. Box thành tiền nhóm4/7 bị gán UNIT_PRICE.
+member_2,train,59,mcocr_public_145013gguch.jpg,QUANTITY:2 | UNIT_PRICE:2,2,Đã đối chiếu ảnh: giá trị trường không có trong vùng ảnh.
+member_2,train,112,mcocr_public_145013ogxhv.jpg,ADDRESS,1,Không in địa chỉ bưu chính; Quầy HN_251 Nguyễn Trãi 1 là mã quầy/chi nhánh.
+member_2,train,121,mcocr_public_145013qikxs.jpg,UNIT_PRICE:1,1,Đã đối chiếu ảnh: giá trị trường không có trong vùng ảnh.
+member_2,train,136,mcocr_public_145013sqwxo.jpg,ITEM_NAME:1 | LINE_TOTAL:1 | QUANTITY:1 | TOTAL_COST | UNIT_PRICE:1,5,Phiếu giao dịch treo không có mặt hàng và tổng tiền; khai báo bốn trường dòng1.
+member_2,train,140,mcocr_public_145013tljfn.jpg,ITEM_NAME:1 | LINE_TOTAL:1 | QUANTITY:1 | TOTAL_COST | UNIT_PRICE:1,5,Phiếu giao dịch treo không có mặt hàng và tổng tiền; khai báo bốn trường dòng1.
+member_2,train,166,mcocr_public_145013wwkrv.jpg,ITEM_NAME:1 | LINE_TOTAL:1 | QUANTITY:1 | TOTAL_COST | UNIT_PRICE:1,5,Phiếu giao dịch treo không có mặt hàng và tổng tiền; khai báo bốn trường dòng1.
+member_2,train,176,mcocr_public_145013zcfau.jpg,ITEM_NAME:1 | LINE_TOTAL:1 | QUANTITY:1 | TOTAL_COST | UNIT_PRICE:1,5,Phiếu giao dịch treo không có mặt hàng và tổng tiền; khai báo bốn trường dòng1.
+member_2,train,189,mcocr_public_145014aqymg.jpg,TIMESTAMP,1,Đã đối chiếu ảnh: giá trị trường không có trong vùng ảnh.
+member_2,train,195,mcocr_public_145014ayyud.jpg,QUANTITY:1 | UNIT_PRICE:1,2,Đã đối chiếu ảnh: giá trị trường không có trong vùng ảnh.
+member_2,train,205,mcocr_public_145014bwelu.jpg,QUANTITY:3 | UNIT_PRICE:3,2,Đã đối chiếu ảnh: giá trị trường không có trong vùng ảnh.
+member_2,train,207,mcocr_public_145014cfgjy.jpg,QUANTITY:2 | UNIT_PRICE:2,2,Đã đối chiếu ảnh: giá trị trường không có trong vùng ảnh.
+member_2,train,219,mcocr_public_145014cuqln.jpg,ITEM_NAME:1 | LINE_TOTAL:1 | QUANTITY:1 | TOTAL_COST | UNIT_PRICE:1,5,Phiếu giao dịch treo không có mặt hàng và tổng tiền; khai báo bốn trường dòng1.
+member_2,train,254,mcocr_public_145014etxsp.jpg,ITEM_NAME:1 | LINE_TOTAL:1 | QUANTITY:1 | TOTAL_COST | UNIT_PRICE:1,5,Phiếu giao dịch treo không có mặt hàng và tổng tiền; khai báo bốn trường dòng1.
+member_2,train,279,mcocr_public_145014gkduf.jpg,QUANTITY:2 | UNIT_PRICE:2,2,Đã đối chiếu ảnh: giá trị trường không có trong vùng ảnh.
+member_2,train,320,mcocr_public_145014jkegi.jpg,ITEM_NAME:1 | LINE_TOTAL:1 | QUANTITY:1 | TOTAL_COST | UNIT_PRICE:1,5,Phiếu giao dịch treo không có mặt hàng và tổng tiền; khai báo bốn trường dòng1.
+member_2,train,326,mcocr_public_145014kbcho.jpg,ITEM_NAME:1 | LINE_TOTAL:1 | QUANTITY:1 | TOTAL_COST | UNIT_PRICE:1,5,Phiếu giao dịch treo không có mặt hàng và tổng tiền; khai báo bốn trường dòng1.
+member_2,train,342,mcocr_public_145014lfctk.jpg,ITEM_NAME:1 | LINE_TOTAL:1 | QUANTITY:1 | TOTAL_COST | UNIT_PRICE:1,5,Phiếu giao dịch treo không có mặt hàng và tổng tiền; khai báo bốn trường dòng1.
+member_2,train,349,mcocr_public_145014lqokm.jpg,ITEM_NAME:1 | LINE_TOTAL:1 | QUANTITY:1 | TOTAL_COST | UNIT_PRICE:1,5,Phiếu giao dịch treo không có mặt hàng và tổng tiền; khai báo bốn trường dòng1.
+member_2,train,370,mcocr_public_145014mpsud.jpg,ITEM_NAME:1 | LINE_TOTAL:1 | QUANTITY:1 | TOTAL_COST | UNIT_PRICE:1,5,Phiếu giao dịch treo không có mặt hàng và tổng tiền; khai báo bốn trường dòng1.
+member_2,train,377,mcocr_public_145014ngihg.jpg,QUANTITY:4 | QUANTITY:6 | UNIT_PRICE:4 | UNIT_PRICE:6,4,"Hai dòng KM có tên nhưng thiếu bbox, không in SL và đơn giá."
+member_2,train,386,mcocr_public_145014nsqiz.jpg,ITEM_NAME:1 | LINE_TOTAL:1 | QUANTITY:1 | TOTAL_COST | UNIT_PRICE:1,5,Phiếu giao dịch treo không có mặt hàng và tổng tiền; khai báo bốn trường dòng1.
+member_2,train,389,mcocr_public_145014nwpjb.jpg,TIMESTAMP,1,Đã đối chiếu ảnh: giá trị trường không có trong vùng ảnh.
+member_2,train,443,mcocr_public_145014rqund.jpg,TIMESTAMP,1,Đã đối chiếu ảnh: giá trị trường không có trong vùng ảnh.
+member_2,train,460,mcocr_public_145014sncle.jpg,UNIT_PRICE:1,1,Đã đối chiếu ảnh: giá trị trường không có trong vùng ảnh.
+member_2,train,468,mcocr_public_145014tkueb.jpg,ADDRESS,1,Đã đối chiếu ảnh: giá trị trường không có trong vùng ảnh.
+member_2,train,470,mcocr_public_145014tnnoi.jpg,TIMESTAMP,1,Đã đối chiếu ảnh: giá trị trường không có trong vùng ảnh.
+member_2,train,476,mcocr_public_145014tvfga.jpg,ITEM_NAME:1 | LINE_TOTAL:1 | QUANTITY:1 | TOTAL_COST | UNIT_PRICE:1,5,Phiếu giao dịch treo không có mặt hàng và tổng tiền; khai báo bốn trường dòng1.
+member_2,train,477,mcocr_public_145014twoee.jpg,ADDRESS | SELLER | TOTAL_COST,3,"Phiếu chế biến chỉ có món và số lượng; CHẾ BIẾN là tiêu đề phiếu, không phải tên người bán."
+member_2,train,482,mcocr_public_145014uimoq.jpg,ITEM_NAME:1 | LINE_TOTAL:1 | QUANTITY:1 | TOTAL_COST | UNIT_PRICE:1,5,Phiếu giao dịch treo không có mặt hàng và tổng tiền; khai báo bốn trường dòng1.
+member_2,train,491,mcocr_public_145014vitnu.jpg,ITEM_NAME:1 | LINE_TOTAL:1 | QUANTITY:1 | UNIT_PRICE:1,4,Phiếu giao dịch treo không có mặt hàng và tổng tiền; khai báo bốn trường dòng1.
+member_2,train,509,mcocr_public_145014woqkn.jpg,ITEM_NAME:1 | LINE_TOTAL:1 | QUANTITY:1 | UNIT_PRICE:1,4,Phiếu giao dịch treo không có mặt hàng và tổng tiền; khai báo bốn trường dòng1.
+member_2,train,511,mcocr_public_145014wpplc.jpg,ITEM_NAME:1 | LINE_TOTAL:1 | QUANTITY:1 | UNIT_PRICE:1,4,Phiếu giao dịch treo không có mặt hàng và tổng tiền; khai báo bốn trường dòng1.
+member_2,train,513,mcocr_public_145014wscvw.jpg,TIMESTAMP,1,Đã đối chiếu ảnh: giá trị trường không có trong vùng ảnh.
+member_2,train,545,mcocr_public_145014yrxvd.jpg,TIMESTAMP,1,"Chỉ có chữ Ngày: ở cuối phiếu, không có giá trị ngày/giờ được in."
+member_2,train,549,mcocr_public_145014yxijr.jpg,ITEM_NAME:1 | LINE_TOTAL:1 | QUANTITY:1 | UNIT_PRICE:1,4,Phiếu giao dịch treo không có mặt hàng và tổng tiền; khai báo bốn trường dòng1.
