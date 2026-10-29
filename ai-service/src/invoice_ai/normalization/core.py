@@ -2,12 +2,15 @@
 
 from __future__ import annotations
 
+import logging
 import re
 import unicodedata
-from dataclasses import asdict, dataclass, field
-from datetime import date
+from dataclasses import asdict, dataclass, field, replace
+from datetime import date, datetime
 from decimal import Decimal, InvalidOperation
 from typing import Any, Literal
+
+logger = logging.getLogger(__name__)
 
 NORMALIZATION_VERSION = "normalization_v1"
 FIELDS = ("company", "address", "date", "total")
@@ -241,3 +244,156 @@ def normalize_fields(raw_fields: dict[str, str | None], locale: str | None = "vi
     if set(raw_fields) != set(FIELDS):
         raise ValueError("raw_fields must contain exactly company, address, date and total")
     return {field_name: normalize_field(field_name, raw_fields[field_name], locale) for field_name in FIELDS}
+
+
+# --- B11: line-item amounts, quantities and full timestamps (normalization of LayoutXLM/OCR output) ---
+
+_OCR_DIGIT_CONFUSIONS = str.maketrans({"O": "0", "o": "0", "D": "0", "l": "1", "I": "1", "|": "1"})
+_NUMERIC_TOKEN_RE = re.compile(r"[\dOoDlI|.,]+")
+_TRAILING_SEPARATOR_RE = re.compile(r"(?<=\d)[.,]+(?=\D*$)")
+_REPEATED_SEPARATOR_DECIMAL_RE = re.compile(
+    r"(?P<integer>[-+]?\d{1,3}(?:(?P<sep>[.,])\d{3})+)(?P=sep)(?P<decimals>\d{2})(?!\d)"
+)
+
+
+def _fix_numeric_ocr(value: str) -> str:
+    """Replaces letters that OCR commonly reads instead of digits (O→0, l/I/|→1) inside number-like tokens.
+
+    Only tokens that already contain a digit are touched, so words such as "Tổng" stay unchanged.
+    """
+    def fix(match: re.Match[str]) -> str:
+        token = match.group(0)
+        return token.translate(_OCR_DIGIT_CONFUSIONS) if any(character.isdigit() for character in token) else token
+
+    fixed = _NUMERIC_TOKEN_RE.sub(fix, value)
+    if fixed != value:
+        logger.debug("Corrected OCR digit confusions in a numeric value")
+    return fixed
+
+
+def normalize_amount(raw_value: str | None, field_name: str = "amount", locale: str | None = "vi-VN") -> NormalizationResult:
+    """Normalizes one money value (total, unit price or line total) to a plain decimal string such as ``"79500"``.
+
+    Extends ``normalize_total`` for OCR output: fixes digit confusions, drops trailing separators ("39,000."),
+    reads grouped amounts whose cent part uses the grouping separator ("36.600.00") and removes zero cents.
+    Negative values (returns) are kept. Several numbers in one value stay ambiguous (no value).
+    """
+    logger.debug("Normalizing amount. field=%s", field_name)
+    missing = _missing_result(field_name, raw_value)
+    if missing is not None:
+        return missing
+    assert raw_value is not None
+    cleaned = _TRAILING_SEPARATOR_RE.sub("", _fix_numeric_ocr(unicodedata.normalize("NFC", raw_value)))
+    cleaned = _REPEATED_SEPARATOR_DECIMAL_RE.sub(
+        lambda m: re.sub(r"[.,]", "", m["integer"]) + ("" if m["decimals"] == "00" else "." + m["decimals"]), cleaned
+    )
+    result = normalize_total(cleaned, locale)
+    normalized = result.normalized_value
+    if normalized is not None and "." in normalized and set(normalized.split(".", 1)[1]) == {"0"}:
+        normalized = normalized.split(".", 1)[0]
+    if result.status != "ok":
+        logger.debug("Amount could not be normalized. field=%s, status=%s", field_name, result.status)
+    return replace(result, field=field_name, raw_value=raw_value, normalized_value=normalized)
+
+
+def normalize_quantity(raw_value: str | None) -> NormalizationResult:
+    """Normalizes a line-item quantity to a decimal string without trailing zeros ("1,00" → "1", "0.670" → "0.67").
+
+    A separator followed by 1–3 digits is a decimal point (receipts print weights such as "0,322" or "10.000").
+    Negative quantities (returns) are kept; anything else is invalid.
+    """
+    logger.debug("Normalizing quantity")
+    missing = _missing_result("quantity", raw_value)
+    if missing is not None:
+        return missing
+    assert raw_value is not None
+    compact = re.sub(r"\s+", "", _fix_numeric_ocr(unicodedata.normalize("NFC", raw_value))).rstrip(".,")
+    if not re.fullmatch(r"[-+]?\d+(?:[.,]\d{1,3})?", compact):
+        logger.debug("Quantity is not a number")
+        return NormalizationResult("quantity", raw_value, None, "invalid", ["INVALID_QUANTITY"])
+    value = Decimal(compact.replace(",", "."))
+    normalized = format(value.normalize(), "f") if value != 0 else "0"
+    return NormalizationResult("quantity", raw_value, normalized, "ok")
+
+
+_TIMESTAMP_DATE_RE = re.compile(
+    r"(?<![\d.,:])(?P<first>\d{1,2})\s*(?P<sep>[./-])\s*(?P<second>\d{1,2})\s*(?P=sep)\s*(?P<year>\d{4}|\d{2})(?!\d)"
+    r"|ng[àa]y\s*(?P<vn_day>\d{1,2})\s*th[áa]ng\s*(?P<vn_month>\d{1,2})\s*n[ăa]m\s*(?P<vn_year>\d{4})"
+    r"|(?<!\d)(?P<iso_year>\d{4})-(?P<iso_month>\d{1,2})-(?P<iso_day>\d{1,2})(?!\d)",
+    re.IGNORECASE,
+)
+_CLOCK_RE = re.compile(
+    r"(?<![\d.:,])(?P<hour>\d{1,2})(?:\s*:\s*|[.h])(?P<minute>\d{2})(?:(?:\s*:\s*|\.)(?P<second>\d{2}))?(?!\d)"
+    r"\s*(?P<meridiem>AM|PM|SA|CH)?",
+    re.IGNORECASE,
+)
+
+
+def _parse_calendar_date(match: re.Match[str]) -> date | None:
+    """Reads a day-first Vietnamese date (numeric, "Ngày d tháng m năm yyyy" or ISO yyyy-mm-dd); falls back to
+    month-first only when day-first is impossible ("8/14/2020")."""
+    for year_group, month_group, day_group in (("vn_year", "vn_month", "vn_day"), ("iso_year", "iso_month", "iso_day")):
+        if match[day_group]:
+            try:
+                return date(int(match[year_group]), int(match[month_group]), int(match[day_group]))
+            except ValueError:
+                return None
+    first, second, year_text = int(match["first"]), int(match["second"]), match["year"]
+    year = int(year_text) + (2000 if len(year_text) == 2 else 0)
+    for day, month in ((first, second), (second, first)):
+        try:
+            return date(year, month, day)
+        except ValueError:
+            continue
+    return None
+
+
+def _parse_clock(match: re.Match[str]) -> tuple[int, int, int] | None:
+    """Reads hh:mm[:ss] with an optional AM/PM or Vietnamese SA/CH marker; returns None for impossible times."""
+    hour, minute, second = int(match["hour"]), int(match["minute"]), int(match["second"] or 0)
+    meridiem = (match["meridiem"] or "").upper()
+    if meridiem in ("PM", "CH") and hour < 12:
+        hour += 12
+    elif meridiem in ("AM", "SA") and hour == 12:
+        hour = 0
+    if hour > 23 or minute > 59 or second > 59:
+        return None
+    return hour, minute, second
+
+
+def normalize_timestamp(raw_value: str | None) -> NormalizationResult:
+    """Normalizes an invoice timestamp to ISO local date-time ``YYYY-MM-DDTHH:MM:SS`` for the backend contract.
+
+    The value may join several labelled boxes in reading order ("13/08/2020 17:39", "19:50:33 - 14/08/2020",
+    "04.10.2020 16.19 04.10.2020 16.21"). The first valid date is used (train GT labels the first or every
+    timestamp when a receipt prints two); the time is the clock reading nearest to that date, preferring the
+    one after it. Without a time the result uses 00:00:00 and the warning ``TIME_NOT_FOUND``.
+    """
+    logger.debug("Normalizing timestamp")
+    missing = _missing_result("timestamp", raw_value)
+    if missing is not None:
+        return missing
+    assert raw_value is not None
+    value = unicodedata.normalize("NFC", raw_value)
+    dates = [(match, parsed) for match in _TIMESTAMP_DATE_RE.finditer(value) if (parsed := _parse_calendar_date(match))]
+    if not dates:
+        logger.debug("Timestamp has no valid date")
+        return NormalizationResult("timestamp", raw_value, None, "invalid", ["INVALID_DATE"])
+    chosen_match, chosen_date = dates[0]
+    without_dates = _TIMESTAMP_DATE_RE.sub(lambda m: " " * len(m.group(0)), value)
+    clocks = [(match, parsed) for match in _CLOCK_RE.finditer(without_dates) if (parsed := _parse_clock(match))]
+    warnings = ["MULTIPLE_DATE_CANDIDATES"] if len(dates) > 1 else []
+    details: dict[str, Any] = {"matched_date": chosen_match.group(0)}
+    hour = minute = second = 0
+    if clocks:
+        def distance(item: tuple[re.Match[str], tuple[int, int, int]]) -> tuple[int, bool]:
+            start, end = item[0].start(), item[0].end()
+            after = start >= chosen_match.end()
+            return (start - chosen_match.end() if after else chosen_match.start() - end, not after)
+
+        clock_match, (hour, minute, second) = min(clocks, key=distance)
+        details["matched_time"] = clock_match.group(0).strip()
+    else:
+        warnings.append("TIME_NOT_FOUND")
+    normalized = datetime(chosen_date.year, chosen_date.month, chosen_date.day, hour, minute, second).isoformat()
+    return NormalizationResult("timestamp", raw_value, normalized, "ok", warnings, details=details)

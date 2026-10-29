@@ -1,0 +1,57 @@
+{
+  "split": "train",
+  "documents": 1094,
+  "normalizer_coverage": {
+    "seller": {
+      "ok": 1075
+    },
+    "address": {
+      "ok": 1075
+    },
+    "timestamp": {
+      "ok": 1070,
+      "failed": 5
+    },
+    "total_cost": {
+      "ok": 1046,
+      "failed": 2
+    },
+    "item_name": {
+      "ok": 2959
+    },
+    "quantity": {
+      "ok": 2944
+    },
+    "line_total": {
+      "ok": 2959
+    },
+    "unit_price": {
+      "ok": 2900
+    }
+  },
+  "normalizer_failures": {
+    "timestamp": [
+      "21.04.201",
+      "08:11.2020 09.09",
+      "11:35:49 11:35:49",
+      "2020",
+      "Aug 13, 2020 02:17 PM"
+    ],
+    "total_cost": [
+      "08.11.2020 09.23",
+      "10.800 10.800"
+    ]
+  },
+  "quantity_inference_on_gt": {
+    "correct": 2865,
+    "wrong": 15,
+    "not_inferred": 15,
+    "would_fill_absent_gt_quantity": 4
+  },
+  "multiple_dates": {
+    "all": 8,
+    "first_only": 8,
+    "last_only": 6,
+    "mixed": 1
+  }
+}
