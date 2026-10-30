@@ -1,14 +1,18 @@
 from __future__ import annotations
 
 import http.server
+import io
 import json
 import threading
 import unittest
+from pathlib import Path
 from types import SimpleNamespace
+
+from PIL import Image
 
 from invoice_ai.inference.pipeline import PipelineError
 from invoice_ai.worker.consumer import ResultPublishError, process_delivery
-from invoice_ai.worker.handler import download_image, failure_message, handle_request, image_kind
+from invoice_ai.worker.handler import PDF_DEFAULT_MESSAGE, download_image, failure_message, handle_request, image_kind, render_pdf
 
 JPEG = b"\xff\xd8\xff\xe0" + b"\x00" * 100
 PNG = b"\x89PNG\r\n\x1a\n" + b"\x00" * 100
@@ -52,7 +56,7 @@ class DownloadTests(unittest.TestCase):
         self.assertEqual(image_kind(JPEG), "jpeg")
         self.assertEqual(image_kind(PNG), "png")
         self.assertEqual(image_kind(b"RIFF\x00\x00\x00\x00WEBPVP8 "), "webp")
-        self.assertIsNone(image_kind(b"%PDF-1.7"))
+        self.assertIsNone(image_kind(b"GIF89a"))
 
     def test_download_success_with_presigned_query(self):
         FileServer.routes = {"/bucket/a.jpg": JPEG}
@@ -66,13 +70,13 @@ class DownloadTests(unittest.TestCase):
         self.assertEqual(raised.exception.code, "IMAGE_DOWNLOAD_FAILED")
 
     def test_too_large_and_not_an_image(self):
-        FileServer.routes = {"/big.jpg": JPEG + b"\x00" * 200, "/doc.pdf": b"%PDF-1.7" + b"\x00" * 50}
+        FileServer.routes = {"/big.jpg": JPEG + b"\x00" * 200, "/doc.gif": b"GIF89a" + b"\x00" * 50}
         with FileServer() as server:
             with self.assertRaises(PipelineError) as raised:
                 download_image(server.base + "/big.jpg", max_bytes=150)
             self.assertEqual(raised.exception.code, "FILE_TOO_LARGE")
             with self.assertRaises(PipelineError) as raised:
-                download_image(server.base + "/doc.pdf")
+                download_image(server.base + "/doc.gif")
             self.assertEqual(raised.exception.code, "IMAGE_DECODE_FAILED")
 
     def test_non_http_scheme_is_rejected(self):
@@ -127,6 +131,46 @@ class HandleRequestTests(unittest.TestCase):
         self.assertEqual(set(message), {"status", "error", "data"})
         self.assertEqual(message["data"], {"id": "abc"})
         self.assertTrue(message["error"]["code"] and message["error"]["message"])
+
+
+PDF_FIXTURES = Path(__file__).parent / "fixtures" / "pdf"
+
+
+class PdfTests(unittest.TestCase):
+    def test_pdf_signature(self):
+        self.assertEqual(image_kind((PDF_FIXTURES / "valid_one_page.pdf").read_bytes()), "pdf")
+
+    def test_one_page_pdf_reaches_the_pipeline_as_png(self):
+        pipeline = FakePipeline()
+        data = (PDF_FIXTURES / "valid_one_page.pdf").read_bytes()
+        message = handle_request(REQUEST, pipeline, downloader=lambda url: data)
+        self.assertEqual(message["status"], 0)
+        rendered, document_id = pipeline.calls[0]
+        self.assertEqual((image_kind(rendered), document_id), ("png", REQUEST.id))
+        width, height = Image.open(io.BytesIO(rendered)).size
+        self.assertLessEqual(max(width, height), 2000)  # T07 long-edge cap after the 200 DPI render
+
+    def test_rejected_pdfs_keep_their_t09_codes(self):
+        expected = {
+            "two_pages.pdf": "PDF_PAGE_COUNT_UNSUPPORTED",
+            "encrypted.pdf": "PDF_ENCRYPTED",
+            "corrupt.pdf": "PDF_DECODE_ERROR",
+            "pixel_bomb.pdf": "PIXEL_LIMIT_EXCEEDED",
+        }
+        for name, code in expected.items():
+            with self.subTest(pdf=name):
+                pipeline = FakePipeline()
+                data = (PDF_FIXTURES / name).read_bytes()
+                message = handle_request(REQUEST, pipeline, downloader=lambda url: data)
+                self.assertEqual((message["status"], message["error"]["code"], message["error"]["retryable"]), (1, code, False))
+                self.assertTrue(message["error"]["message"])
+                self.assertEqual(pipeline.calls, [])
+
+    def test_render_pdf_maps_unknown_codes_to_default_message(self):
+        with self.assertRaises(PipelineError) as raised:
+            render_pdf(b"%PDF-1.7 not really a pdf")
+        self.assertTrue(raised.exception.code.startswith("PDF_"))
+        self.assertEqual(raised.exception.message, PDF_DEFAULT_MESSAGE)
 
 
 class FakeChannel:
