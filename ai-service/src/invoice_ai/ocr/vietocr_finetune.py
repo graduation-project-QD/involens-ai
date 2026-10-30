@@ -141,6 +141,19 @@ def evaluate(args: argparse.Namespace) -> None:
     print(json.dumps({"crops": len(items), "seconds_per_crop": report["seconds_per_crop"], "ALL": metrics.get("ALL")}, ensure_ascii=False))
 
 
+def load_predictor(weights: str | Path, device: str = "cuda:0", model: str = "vgg_transformer", max_width: int = 512, beamsearch: bool = False) -> Any:
+    """VietOCR predictor configured exactly as ``recognize`` (same image sizes and decoding), for in-process use."""
+    from vietocr.tool.predictor import Predictor
+
+    defaults = argparse.Namespace(
+        model=model, data=Path("."), out=Path("."), device=device, weights=str(weights), batch_size=32, max_width=max_width,
+        workers=0, lr=3e-4, no_aug=True, iters=0, print_every=1, valid_every=1,
+    )
+    config = build_config(defaults)
+    config["predictor"]["beamsearch"] = beamsearch
+    return Predictor(config)
+
+
 def recognize(args: argparse.Namespace) -> None:
     """Read detector-box crops (``ocr.det_crops build``): text + probability per crop, no GT needed."""
     from PIL import Image
@@ -199,7 +212,7 @@ def main() -> None:
             p.add_argument("--dry-run", action="store_true", help="write config.yml and stop")
         elif name == "recognize":
             p.add_argument("--crops", type=Path, required=True, help="folder produced by invoice_ai.ocr.det_crops build")
-            p.add_argument("--split", default="val", choices=("train", "val", "all"))
+            p.add_argument("--split", default="val", choices=("train", "val", "test", "all"))
             p.add_argument("--beamsearch", action="store_true")
             p.add_argument("--limit", type=int, default=0)
         else:

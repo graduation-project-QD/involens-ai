@@ -1,0 +1,355 @@
+{
+  "bio_version": "kie_bio_v3",
+  "ocr_frame": "upright",
+  "assign_threshold": 0.5,
+  "ignore_threshold": 0.2,
+  "splits": {
+    "test": {
+      "documents_total": 136,
+      "documents_with_ocr": 136,
+      "ocr": {
+        "documents": 136,
+        "words": 13956,
+        "regions": 2139,
+        "region_match_rate": 0.9818,
+        "ignore_word_rate": 0.0037,
+        "o_word_rate": 0.6111,
+        "documents_with_invalid_bio": 0,
+        "tag_counts": {
+          "B-ADDRESS": 255,
+          "B-ITEM_NAME": 374,
+          "B-LINE_TOTAL": 363,
+          "B-QUANTITY": 324,
+          "B-SELLER": 146,
+          "B-TIMESTAMP": 150,
+          "B-TOTAL_COST": 125,
+          "B-UNIT_PRICE": 363,
+          "I-ADDRESS": 1431,
+          "I-ITEM_NAME": 1489,
+          "I-LINE_TOTAL": 9,
+          "I-SELLER": 207,
+          "I-TIMESTAMP": 124,
+          "I-TOTAL_COST": 7,
+          "I-UNIT_PRICE": 9,
+          "IGNORE": 51,
+          "O": 8529
+        },
+        "by_label": {
+          "SELLER": {
+            "regions": 146,
+            "match_rate": 1.0,
+            "mean_cer_matched": 0.0133,
+            "median_cer_matched": 0.0,
+            "exact_text_rate_matched": 0.9041,
+            "exact_raw_rate_matched": 0.8904,
+            "exact_normalized_rate_matched": 0.9041
+          },
+          "ADDRESS": {
+            "regions": 256,
+            "match_rate": 0.9961,
+            "mean_cer_matched": 0.0158,
+            "median_cer_matched": 0.0,
+            "exact_text_rate_matched": 0.7725,
+            "exact_raw_rate_matched": 0.7647,
+            "exact_normalized_rate_matched": 0.8431
+          },
+          "TIMESTAMP": {
+            "regions": 150,
+            "match_rate": 1.0,
+            "mean_cer_matched": 0.0097,
+            "median_cer_matched": 0.0,
+            "exact_text_rate_matched": 0.92,
+            "exact_raw_rate_matched": 0.92,
+            "exact_normalized_rate_matched": 0.96
+          },
+          "TOTAL_COST": {
+            "regions": 125,
+            "match_rate": 1.0,
+            "mean_cer_matched": 0.0036,
+            "median_cer_matched": 0.0,
+            "exact_text_rate_matched": 0.976,
+            "exact_raw_rate_matched": 0.976,
+            "exact_normalized_rate_matched": 0.976
+          },
+          "ITEM_NAME": {
+            "regions": 374,
+            "match_rate": 1.0,
+            "mean_cer_matched": 0.0152,
+            "median_cer_matched": 0.0,
+            "exact_text_rate_matched": 0.7968,
+            "exact_raw_rate_matched": 0.7727,
+            "exact_normalized_rate_matched": 0.8048
+          },
+          "QUANTITY": {
+            "regions": 362,
+            "match_rate": 0.895,
+            "mean_cer_matched": 0.0309,
+            "median_cer_matched": 0.0,
+            "exact_text_rate_matched": 0.9691,
+            "exact_raw_rate_matched": 0.9691,
+            "exact_normalized_rate_matched": 0.9691
+          },
+          "UNIT_PRICE": {
+            "regions": 363,
+            "match_rate": 1.0,
+            "mean_cer_matched": 0.0102,
+            "median_cer_matched": 0.0,
+            "exact_text_rate_matched": 0.9669,
+            "exact_raw_rate_matched": 0.9669,
+            "exact_normalized_rate_matched": 0.9669
+          },
+          "LINE_TOTAL": {
+            "regions": 363,
+            "match_rate": 1.0,
+            "mean_cer_matched": 0.0161,
+            "median_cer_matched": 0.0,
+            "exact_text_rate_matched": 0.9504,
+            "exact_raw_rate_matched": 0.9504,
+            "exact_normalized_rate_matched": 0.9504
+          }
+        }
+      },
+      "ocr_near_upright": {
+        "documents": 136,
+        "words": 13956,
+        "regions": 2139,
+        "region_match_rate": 0.9818,
+        "ignore_word_rate": 0.0037,
+        "o_word_rate": 0.6111,
+        "documents_with_invalid_bio": 0,
+        "tag_counts": {
+          "B-ADDRESS": 255,
+          "B-ITEM_NAME": 374,
+          "B-LINE_TOTAL": 363,
+          "B-QUANTITY": 324,
+          "B-SELLER": 146,
+          "B-TIMESTAMP": 150,
+          "B-TOTAL_COST": 125,
+          "B-UNIT_PRICE": 363,
+          "I-ADDRESS": 1431,
+          "I-ITEM_NAME": 1489,
+          "I-LINE_TOTAL": 9,
+          "I-SELLER": 207,
+          "I-TIMESTAMP": 124,
+          "I-TOTAL_COST": 7,
+          "I-UNIT_PRICE": 9,
+          "IGNORE": 51,
+          "O": 8529
+        },
+        "by_label": {
+          "SELLER": {
+            "regions": 146,
+            "match_rate": 1.0,
+            "mean_cer_matched": 0.0133,
+            "median_cer_matched": 0.0,
+            "exact_text_rate_matched": 0.9041,
+            "exact_raw_rate_matched": 0.8904,
+            "exact_normalized_rate_matched": 0.9041
+          },
+          "ADDRESS": {
+            "regions": 256,
+            "match_rate": 0.9961,
+            "mean_cer_matched": 0.0158,
+            "median_cer_matched": 0.0,
+            "exact_text_rate_matched": 0.7725,
+            "exact_raw_rate_matched": 0.7647,
+            "exact_normalized_rate_matched": 0.8431
+          },
+          "TIMESTAMP": {
+            "regions": 150,
+            "match_rate": 1.0,
+            "mean_cer_matched": 0.0097,
+            "median_cer_matched": 0.0,
+            "exact_text_rate_matched": 0.92,
+            "exact_raw_rate_matched": 0.92,
+            "exact_normalized_rate_matched": 0.96
+          },
+          "TOTAL_COST": {
+            "regions": 125,
+            "match_rate": 1.0,
+            "mean_cer_matched": 0.0036,
+            "median_cer_matched": 0.0,
+            "exact_text_rate_matched": 0.976,
+            "exact_raw_rate_matched": 0.976,
+            "exact_normalized_rate_matched": 0.976
+          },
+          "ITEM_NAME": {
+            "regions": 374,
+            "match_rate": 1.0,
+            "mean_cer_matched": 0.0152,
+            "median_cer_matched": 0.0,
+            "exact_text_rate_matched": 0.7968,
+            "exact_raw_rate_matched": 0.7727,
+            "exact_normalized_rate_matched": 0.8048
+          },
+          "QUANTITY": {
+            "regions": 362,
+            "match_rate": 0.895,
+            "mean_cer_matched": 0.0309,
+            "median_cer_matched": 0.0,
+            "exact_text_rate_matched": 0.9691,
+            "exact_raw_rate_matched": 0.9691,
+            "exact_normalized_rate_matched": 0.9691
+          },
+          "UNIT_PRICE": {
+            "regions": 363,
+            "match_rate": 1.0,
+            "mean_cer_matched": 0.0102,
+            "median_cer_matched": 0.0,
+            "exact_text_rate_matched": 0.9669,
+            "exact_raw_rate_matched": 0.9669,
+            "exact_normalized_rate_matched": 0.9669
+          },
+          "LINE_TOTAL": {
+            "regions": 363,
+            "match_rate": 1.0,
+            "mean_cer_matched": 0.0161,
+            "median_cer_matched": 0.0,
+            "exact_text_rate_matched": 0.9504,
+            "exact_raw_rate_matched": 0.9504,
+            "exact_normalized_rate_matched": 0.9504
+          }
+        }
+      },
+      "oracle": {
+        "documents": 136,
+        "words": 13934,
+        "regions": 2139,
+        "region_match_rate": 1.0,
+        "ignore_word_rate": 0.0,
+        "o_word_rate": 0.611,
+        "documents_with_invalid_bio": 0,
+        "tag_counts": {
+          "B-ADDRESS": 256,
+          "B-ITEM_NAME": 374,
+          "B-LINE_TOTAL": 363,
+          "B-QUANTITY": 362,
+          "B-SELLER": 146,
+          "B-TIMESTAMP": 150,
+          "B-TOTAL_COST": 125,
+          "B-UNIT_PRICE": 363,
+          "I-ADDRESS": 1439,
+          "I-ITEM_NAME": 1485,
+          "I-LINE_TOTAL": 8,
+          "I-SELLER": 209,
+          "I-TIMESTAMP": 125,
+          "I-TOTAL_COST": 7,
+          "I-UNIT_PRICE": 8,
+          "O": 8514
+        },
+        "by_label": {
+          "SELLER": {
+            "regions": 146,
+            "match_rate": 1.0,
+            "mean_cer_matched": 0.0,
+            "median_cer_matched": 0.0,
+            "exact_text_rate_matched": 1.0,
+            "exact_raw_rate_matched": 1.0,
+            "exact_normalized_rate_matched": 1.0
+          },
+          "ADDRESS": {
+            "regions": 256,
+            "match_rate": 1.0,
+            "mean_cer_matched": 0.0,
+            "median_cer_matched": 0.0,
+            "exact_text_rate_matched": 1.0,
+            "exact_raw_rate_matched": 1.0,
+            "exact_normalized_rate_matched": 1.0
+          },
+          "TIMESTAMP": {
+            "regions": 150,
+            "match_rate": 1.0,
+            "mean_cer_matched": 0.0,
+            "median_cer_matched": 0.0,
+            "exact_text_rate_matched": 1.0,
+            "exact_raw_rate_matched": 1.0,
+            "exact_normalized_rate_matched": 1.0
+          },
+          "TOTAL_COST": {
+            "regions": 125,
+            "match_rate": 1.0,
+            "mean_cer_matched": 0.0,
+            "median_cer_matched": 0.0,
+            "exact_text_rate_matched": 1.0,
+            "exact_raw_rate_matched": 1.0,
+            "exact_normalized_rate_matched": 1.0
+          },
+          "ITEM_NAME": {
+            "regions": 374,
+            "match_rate": 1.0,
+            "mean_cer_matched": 0.0,
+            "median_cer_matched": 0.0,
+            "exact_text_rate_matched": 1.0,
+            "exact_raw_rate_matched": 1.0,
+            "exact_normalized_rate_matched": 1.0
+          },
+          "QUANTITY": {
+            "regions": 362,
+            "match_rate": 1.0,
+            "mean_cer_matched": 0.0,
+            "median_cer_matched": 0.0,
+            "exact_text_rate_matched": 1.0,
+            "exact_raw_rate_matched": 1.0,
+            "exact_normalized_rate_matched": 1.0
+          },
+          "UNIT_PRICE": {
+            "regions": 363,
+            "match_rate": 1.0,
+            "mean_cer_matched": 0.0,
+            "median_cer_matched": 0.0,
+            "exact_text_rate_matched": 1.0,
+            "exact_raw_rate_matched": 1.0,
+            "exact_normalized_rate_matched": 1.0
+          },
+          "LINE_TOTAL": {
+            "regions": 363,
+            "match_rate": 1.0,
+            "mean_cer_matched": 0.0,
+            "median_cer_matched": 0.0,
+            "exact_text_rate_matched": 1.0,
+            "exact_raw_rate_matched": 1.0,
+            "exact_normalized_rate_matched": 1.0
+          }
+        }
+      }
+    }
+  },
+  "documents_region_match_below_0_9": [
+    {
+      "split": "test",
+      "img_id": "mcocr_public_145013unjxn.jpg",
+      "rotation": 0,
+      "region_match_rate": 0.875
+    },
+    {
+      "split": "test",
+      "img_id": "mcocr_public_145014cftxo.jpg",
+      "rotation": 0,
+      "region_match_rate": 0.864
+    },
+    {
+      "split": "test",
+      "img_id": "mcocr_public_145014hdquz.jpg",
+      "rotation": 0,
+      "region_match_rate": 0.87
+    },
+    {
+      "split": "test",
+      "img_id": "mcocr_public_145014jggjq.jpg",
+      "rotation": 0,
+      "region_match_rate": 0.875
+    },
+    {
+      "split": "test",
+      "img_id": "mcocr_public_145014umhqi.jpg",
+      "rotation": 0,
+      "region_match_rate": 0.867
+    },
+    {
+      "split": "test",
+      "img_id": "mcocr_public_145014xqbce.jpg",
+      "rotation": 0,
+      "region_match_rate": 0.812
+    }
+  ]
+}

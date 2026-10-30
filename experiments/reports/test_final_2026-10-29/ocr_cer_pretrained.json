@@ -1,0 +1,60 @@
+{
+  "split": "test",
+  "predictions": "..\\experiments\\artifacts\\test\\test_results_20261029\\ocr_pretrained\\predictions_det_test.csv",
+  "by_label": {
+    "SELLER": {
+      "regions": 146,
+      "missed_rate": 0.0,
+      "cer": 0.0935,
+      "exact_rate": 0.4521
+    },
+    "ADDRESS": {
+      "regions": 256,
+      "missed_rate": 0.0039,
+      "cer": 0.0771,
+      "exact_rate": 0.2383
+    },
+    "TIMESTAMP": {
+      "regions": 150,
+      "missed_rate": 0.0,
+      "cer": 0.0348,
+      "exact_rate": 0.8067
+    },
+    "TOTAL_COST": {
+      "regions": 125,
+      "missed_rate": 0.0,
+      "cer": 0.0251,
+      "exact_rate": 0.832
+    },
+    "ITEM_NAME": {
+      "regions": 374,
+      "missed_rate": 0.0,
+      "cer": 0.0697,
+      "exact_rate": 0.5053
+    },
+    "QUANTITY": {
+      "regions": 362,
+      "missed_rate": 0.0912,
+      "cer": 0.1531,
+      "exact_rate": 0.8343
+    },
+    "UNIT_PRICE": {
+      "regions": 363,
+      "missed_rate": 0.0,
+      "cer": 0.0069,
+      "exact_rate": 0.9642
+    },
+    "LINE_TOTAL": {
+      "regions": 363,
+      "missed_rate": 0.0,
+      "cer": 0.0259,
+      "exact_rate": 0.8595
+    },
+    "ALL": {
+      "regions": 2139,
+      "missed_rate": 0.0159,
+      "cer": 0.0611,
+      "exact_rate": 0.7036
+    }
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "orientation_version": "orientation_v1",
+  "splits": {
+    "train": {
+      "images": 1094,
+      "coarse_accuracy": 1.0,
+      "coarse_by_gt_class": {
+        "0": {
+          "images": 1031,
+          "coarse_accuracy": 1.0
+        },
+        "90": {
+          "images": 45,
+          "coarse_accuracy": 1.0
+        },
+        "180": {
+          "images": 5,
+          "coarse_accuracy": 1.0
+        },
+        "270": {
+          "images": 13,
+          "coarse_accuracy": 1.0
+        }
+      },
+      "error_with_deskew_on_coarse_correct": {
+        "mae": 0.446,
+        "median": 0.0,
+        "within_1deg": 0.7925,
+        "within_2deg": 0.9753
+      },
+      "error_coarse_only_on_coarse_correct": {
+        "mae": 0.773,
+        "median": 0.0,
+        "within_1deg": 0.7806,
+        "within_2deg": 0.8967
+      },
+      "mean_seconds_classify_detect": 0.851,
+      "mean_seconds_flip_check": 1.928,
+      "coarse_errors": []
+    },
+    "test": {
+      "images": 136,
+      "coarse_accuracy": 1.0,
+      "coarse_by_gt_class": {
+        "0": {
+          "images": 123,
+          "coarse_accuracy": 1.0
+        },
+        "90": {
+          "images": 11,
+          "coarse_accuracy": 1.0
+        },
+        "180": {
+          "images": 1,
+          "coarse_accuracy": 1.0
+        },
+        "270": {
+          "images": 1,
+          "coarse_accuracy": 1.0
+        }
+      },
+      "error_with_deskew_on_coarse_correct": {
+        "mae": 0.47,
+        "median": 0.0,
+        "within_1deg": 0.75,
+        "within_2deg": 0.9853
+      },
+      "error_coarse_only_on_coarse_correct": {
+        "mae": 0.551,
+        "median": 0.0,
+        "within_1deg": 0.8456,
+        "within_2deg": 0.9412
+      },
+      "mean_seconds_classify_detect": 2.521,
+      "mean_seconds_flip_check": null,
+      "coarse_errors": []
+    }
+  },
+  "params": {
+    "min_aspect": 2.0,
+    "min_length_px": 30.0,
+    "min_boxes": 3,
+    "max_abs_skew": 20.0,
+    "min_abs_skew": 1.0,
+    "flip_margin": 0.1
+  }
+}

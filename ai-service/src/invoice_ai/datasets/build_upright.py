@@ -7,13 +7,18 @@ can be opened in apps/mcocr-labeler for a visual check and consumed directly by 
 * 90/180/270°: lossless pixel transpose (no interpolation), saved as JPEG q95 4:4:4.
 * other angles: bicubic warp on an expanded canvas with white fill, saved as JPEG q95 4:4:4.
 
-Image warp and polygon rotation share ``geometry.upright_affine``. Test is intentionally excluded:
-its orientation must come from the automatic orientation module (B4), never from GT.
+Image warp and polygon rotation share ``geometry.upright_affine``. Test is excluded from the default
+build: its orientation must come from the automatic orientation module (B4), never from GT. For the
+final evaluation, test is built alone with the B4 angles (``--rotation-csv``); images and GT polygons
+are then rotated by the predicted angle, i.e. the frame the pipeline sees.
 
 Usage::
 
     python -m invoice_ai.datasets.build_upright --source ../dataset_hoadon/dataset_split_80_10_10 \
         --dest ../dataset_hoadon/dataset_upright_v1
+    python -m invoice_ai.datasets.build_upright --source ../dataset_hoadon/dataset_split_80_10_10 \
+        --dest ../dataset_hoadon/dataset_upright_test_auto --splits test \
+        --rotation-csv ../experiments/reports/orientation_test_2026-10-29/test_predictions.csv
 """
 
 from __future__ import annotations
@@ -105,14 +110,23 @@ def _write_csv(path: Path, fields: list[str], rows: list[dict[str, Any]]) -> Non
         writer.writerows(rows)
 
 
-def build(source: Path, dest: Path) -> dict[str, Any]:
+def read_rotations(source: Path, split: str, rotation_csv: Path | None) -> dict[str, float]:
+    """Clockwise angle per image: GT ``rotation_to_upright`` of the split, or ``pred_total_cw`` of a B4
+    prediction file (``evaluate_orientation`` output) when ``rotation_csv`` is given."""
+    if rotation_csv is None:
+        return {r["img_id"]: int(r["rotation_to_upright"]) for r in _read_csv(source / f"mcocr_{split}_rotation.csv")[1]}
+    return {r["img_id"]: float(r["pred_total_cw"]) for r in _read_csv(rotation_csv)[1]}
+
+
+def build(source: Path, dest: Path, splits: tuple[str, ...] = SPLITS, rotation_csv: Path | None = None) -> dict[str, Any]:
+    """Writes upright copies of the splits (images, rotated polygons, sidecars, manifest with the affine)."""
     if dest.exists() and any(dest.iterdir()):
         raise FileExistsError(f"{dest} is not empty")
     dest.mkdir(parents=True, exist_ok=True)
     manifest: list[dict[str, Any]] = []
-    for split in SPLITS:
+    for split in splits:
         fields, rows = _read_csv(source / f"mcocr_{split}_df.csv")
-        rotations = {r["img_id"]: int(r["rotation_to_upright"]) for r in _read_csv(source / f"mcocr_{split}_rotation.csv")[1]}
+        rotations = read_rotations(source, split, rotation_csv)
         image_dir = dest / f"{split}_images"
         image_dir.mkdir()
         out_rows = []
@@ -165,13 +179,14 @@ def build(source: Path, dest: Path) -> dict[str, Any]:
     summary = {
         "upright_version": UPRIGHT_VERSION,
         "source": str(source),
+        "rotation_source": str(rotation_csv) if rotation_csv else "gt",
         "created_at": datetime.now(timezone.utc).isoformat(),
         "splits": {
             split: {
                 "images": sum(m["split"] == split for m in manifest),
                 "methods": {k: sum(m["split"] == split and m["method"] == k for m in manifest) for k in ("copy", "rot90", "warp_bicubic")},
             }
-            for split in SPLITS
+            for split in splits
         },
         "jpeg": JPEG_OPTIONS,
         "fill_rgb": FILL_RGB,
@@ -184,8 +199,10 @@ def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--source", type=Path, required=True)
     parser.add_argument("--dest", type=Path, required=True)
+    parser.add_argument("--splits", nargs="+", default=list(SPLITS), choices=("train", "val", "test"))
+    parser.add_argument("--rotation-csv", type=Path, help="B4 predictions (pred_total_cw) instead of GT angles")
     args = parser.parse_args()
-    print(json.dumps(build(args.source, args.dest), indent=1))
+    print(json.dumps(build(args.source, args.dest, tuple(args.splits), args.rotation_csv), indent=1))
 
 
 if __name__ == "__main__":

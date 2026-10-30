@@ -21,7 +21,7 @@ import hashlib
 import json
 from collections import defaultdict
 from pathlib import Path
-from typing import Any
+from typing import Any, Sequence
 
 import cv2
 
@@ -37,16 +37,17 @@ DET_CROPS_VERSION = "det_crops_v1"
 # height, so allow 5 (3.5 dropped real "Số GD: ... Ngày: ..." lines).
 MAX_CHARS_PER_HEIGHT = 5.0
 DETECTION_CONFIG = "C1920_b0.2_t0.15"
-SPLITS = ("train", "val")
+SPLITS = ("train", "val", "test")
 
 
-def build(dataset: Path, detections: Path, out: Path) -> dict[str, Any]:
+def build(dataset: Path, detections: Path, out: Path, splits: Sequence[str] = ("train", "val")) -> dict[str, Any]:
+    """Cuts detector boxes of the given splits into crops for VietOCR; test is built on its own (B4 auto-rotated)."""
     from invoice_ai.preprocessing.orientation import read_bgr
 
     out.mkdir(parents=True, exist_ok=True)
     rows = []
     summary: dict[str, Any] = {"det_crops_version": DET_CROPS_VERSION, "crop_version": CROP_VERSION, "detection_config": DETECTION_CONFIG, "splits": {}}
-    for split in SPLITS:
+    for split in splits:
         (out / split).mkdir(exist_ok=True)
         records = _load_jsonl(detections / split / f"{DETECTION_CONFIG}.jsonl")
         kept = skipped = 0
@@ -185,6 +186,7 @@ def main() -> None:
     b.add_argument("--dataset", type=Path, required=True, help="upright dataset (dataset_upright_v1)")
     b.add_argument("--detections", type=Path, default=Path("../experiments/data/processed/detection_tuning_v1"))
     b.add_argument("--out", type=Path, required=True)
+    b.add_argument("--splits", nargs="+", default=["train", "val"], choices=SPLITS)
     for name in ("evaluate", "export-cache"):
         p = sub.add_parser(name)
         p.add_argument("--dataset", type=Path, required=True)
@@ -198,7 +200,7 @@ def main() -> None:
             p.add_argument("--ocr-version", default="paddle_det_c1920__vietocr_ft_v1")
     args = parser.parse_args()
     if args.command == "build":
-        print(json.dumps(build(args.dataset, args.detections, args.out), indent=1))
+        print(json.dumps(build(args.dataset, args.detections, args.out, args.splits), indent=1))
     elif args.command == "evaluate":
         result = evaluate(args.dataset, args.crops, args.predictions, args.split)
         if args.report:
