@@ -1,0 +1,410 @@
+{
+  "status": 0,
+  "error": null,
+  "data": {
+    "id": "mcocr_public_145014xyzwl",
+    "fields": {
+      "seller": {
+        "value": "VinCommerce",
+        "raw_text": "VinCommerce",
+        "confidence": 0.9998,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                134,
+                219
+              ],
+              [
+                235,
+                219
+              ],
+              [
+                235,
+                252
+              ],
+              [
+                134,
+                252
+              ]
+            ]
+          }
+        ]
+      },
+      "address": {
+        "value": "VM+ QNH 590 Trần Phú Số 590 Trần Phú, P. Cẩm Thủy TP. Cẩm Phả, Quảng Ninh",
+        "raw_text": "VM+ QNH 590 Trần Phú Số 590 Trần Phú, P. Cẩm Thủy TP. Cẩm Phả, Quảng Ninh",
+        "confidence": 0.9995,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                279,
+                187
+              ],
+              [
+                385,
+                187
+              ],
+              [
+                385,
+                205
+              ],
+              [
+                279,
+                205
+              ]
+            ]
+          },
+          {
+            "polygon": [
+              [
+                264,
+                205
+              ],
+              [
+                400,
+                205
+              ],
+              [
+                400,
+                226
+              ],
+              [
+                264,
+                226
+              ]
+            ]
+          },
+          {
+            "polygon": [
+              [
+                275,
+                226
+              ],
+              [
+                390,
+                226
+              ],
+              [
+                390,
+                244
+              ],
+              [
+                275,
+                244
+              ]
+            ]
+          }
+        ]
+      },
+      "timestamp": {
+        "value": "2020-08-14T07:56:00",
+        "raw_text": "14/08/2020 07:56",
+        "confidence": 0.9998,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                200,
+                294
+              ],
+              [
+                317,
+                294
+              ],
+              [
+                317,
+                310
+              ],
+              [
+                200,
+                310
+              ]
+            ]
+          }
+        ]
+      },
+      "total_cost": {
+        "value": "19500",
+        "raw_text": "19.500",
+        "confidence": 0.9998,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                395,
+                451
+              ],
+              [
+                442,
+                451
+              ],
+              [
+                442,
+                468
+              ],
+              [
+                395,
+                468
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    "line_items": [
+      {
+        "index": 1,
+        "item_name": {
+          "value": "CHUPA CHUPS Kẹo Dẻo Chua Cầu Vồng Dây 8g",
+          "raw_text": "CHUPA CHUPS Kẹo Dẻo Chua Cầu Vồng Dây 8g",
+          "confidence": 0.9998,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  133,
+                  363
+                ],
+                [
+                  426,
+                  363
+                ],
+                [
+                  426,
+                  381
+                ],
+                [
+                  133,
+                  381
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "2",
+          "raw_text": "2",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  348,
+                  382
+                ],
+                [
+                  362,
+                  382
+                ],
+                [
+                  362,
+                  397
+                ],
+                [
+                  348,
+                  397
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "2500",
+          "raw_text": "2.500",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  276,
+                  382
+                ],
+                [
+                  317,
+                  382
+                ],
+                [
+                  317,
+                  397
+                ],
+                [
+                  276,
+                  397
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "5000",
+          "raw_text": "5.000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  400,
+                  381
+                ],
+                [
+                  440,
+                  381
+                ],
+                [
+                  440,
+                  397
+                ],
+                [
+                  400,
+                  397
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "index": 2,
+        "item_name": {
+          "value": "PORORO Kẹo vitamin vị đào 12g-25 vỉ/HOP",
+          "raw_text": "PORORO Kẹo vitamin vị đào 12g-25 vỉ/HOP",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  132,
+                  397
+                ],
+                [
+                  420,
+                  397
+                ],
+                [
+                  420,
+                  417
+                ],
+                [
+                  132,
+                  417
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "1",
+          "raw_text": "1",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  349,
+                  418
+                ],
+                [
+                  362,
+                  418
+                ],
+                [
+                  362,
+                  432
+                ],
+                [
+                  349,
+                  432
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "14500",
+          "raw_text": "14.500",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  271,
+                  417
+                ],
+                [
+                  317,
+                  417
+                ],
+                [
+                  317,
+                  433
+                ],
+                [
+                  271,
+                  433
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "14500",
+          "raw_text": "14.500",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  394,
+                  416
+                ],
+                [
+                  441,
+                  416
+                ],
+                [
+                  441,
+                  432
+                ],
+                [
+                  394,
+                  432
+                ]
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "currency": "VND",
+    "overall_confidence": 0.9998,
+    "needs_review": false,
+    "warnings": [],
+    "image": {
+      "width": 595,
+      "height": 1035,
+      "rotation_applied": 1.09
+    },
+    "meta": {
+      "schema_version": "1.0",
+      "model_version": "layoutxlm-e2-b10",
+      "ocr_version": "ocr_v2",
+      "postprocess_version": "kie_postprocess_v1",
+      "processing_ms": 3799,
+      "pipeline_version": "inference_pipeline_v1"
+    }
+  }
+}

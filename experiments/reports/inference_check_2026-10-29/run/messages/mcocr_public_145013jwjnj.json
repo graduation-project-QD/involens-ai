@@ -1,0 +1,320 @@
+{
+  "status": 0,
+  "error": null,
+  "data": {
+    "id": "mcocr_public_145013jwjnj",
+    "fields": {
+      "seller": {
+        "value": "VinCommerce",
+        "raw_text": "VinCommerce",
+        "confidence": 0.9998,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                193,
+                226
+              ],
+              [
+                322,
+                226
+              ],
+              [
+                322,
+                262
+              ],
+              [
+                193,
+                262
+              ]
+            ]
+          }
+        ]
+      },
+      "address": {
+        "value": "VM+ QNH 590 Trần Phú Số 590 Trần Phú, P. Cẩm Thủy TP. Cẩm Phả, Quảng Ninh",
+        "raw_text": "VM+ QNH 590 Trần Phú Số 590 Trần Phú, P. Cẩm Thủy TP. Cẩm Phả, Quảng Ninh",
+        "confidence": 0.9994,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                381,
+                174
+              ],
+              [
+                522,
+                174
+              ],
+              [
+                522,
+                203
+              ],
+              [
+                381,
+                203
+              ]
+            ]
+          },
+          {
+            "polygon": [
+              [
+                362,
+                202
+              ],
+              [
+                541,
+                202
+              ],
+              [
+                541,
+                227
+              ],
+              [
+                362,
+                227
+              ]
+            ]
+          },
+          {
+            "polygon": [
+              [
+                375,
+                228
+              ],
+              [
+                528,
+                228
+              ],
+              [
+                528,
+                254
+              ],
+              [
+                375,
+                254
+              ]
+            ]
+          }
+        ]
+      },
+      "timestamp": {
+        "value": "2020-08-15T08:03:00",
+        "raw_text": "15/08/2020 08:03",
+        "confidence": 0.9997,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                278,
+                325
+              ],
+              [
+                430,
+                325
+              ],
+              [
+                430,
+                347
+              ],
+              [
+                278,
+                347
+              ]
+            ]
+          }
+        ]
+      },
+      "total_cost": {
+        "value": "46007",
+        "raw_text": "46.007",
+        "confidence": 0.9998,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                534,
+                532
+              ],
+              [
+                599,
+                532
+              ],
+              [
+                599,
+                553
+              ],
+              [
+                534,
+                553
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    "line_items": [
+      {
+        "index": 1,
+        "item_name": {
+          "value": "VMNK Táo Ruby Star NZL PG size 90-120",
+          "raw_text": "VMNK Táo Ruby Star NZL PG size 90-120",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  193,
+                  414
+                ],
+                [
+                  546,
+                  414
+                ],
+                [
+                  546,
+                  443
+                ],
+                [
+                  193,
+                  443
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "1",
+          "raw_text": null,
+          "confidence": null,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  370,
+                  466
+                ],
+                [
+                  429,
+                  466
+                ],
+                [
+                  429,
+                  485
+                ],
+                [
+                  370,
+                  485
+                ]
+              ]
+            },
+            {
+              "polygon": [
+                [
+                  532,
+                  460
+                ],
+                [
+                  595,
+                  460
+                ],
+                [
+                  595,
+                  482
+                ],
+                [
+                  532,
+                  482
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "67701",
+          "raw_text": "67.701",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  370,
+                  466
+                ],
+                [
+                  429,
+                  466
+                ],
+                [
+                  429,
+                  485
+                ],
+                [
+                  370,
+                  485
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "67701",
+          "raw_text": "67.701",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  532,
+                  460
+                ],
+                [
+                  595,
+                  460
+                ],
+                [
+                  595,
+                  482
+                ],
+                [
+                  532,
+                  482
+                ]
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "currency": "VND",
+    "overall_confidence": 0.9998,
+    "needs_review": true,
+    "warnings": [
+      {
+        "code": "QUANTITY_INFERRED",
+        "target": "line_items[1].quantity"
+      }
+    ],
+    "image": {
+      "width": 793,
+      "height": 1042,
+      "rotation_applied": 358.6
+    },
+    "meta": {
+      "schema_version": "1.0",
+      "model_version": "layoutxlm-e2-b10",
+      "ocr_version": "ocr_v2",
+      "postprocess_version": "kie_postprocess_v1",
+      "processing_ms": 3133,
+      "pipeline_version": "inference_pipeline_v1"
+    }
+  }
+}

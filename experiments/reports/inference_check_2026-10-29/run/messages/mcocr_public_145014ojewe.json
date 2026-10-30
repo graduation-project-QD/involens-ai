@@ -1,0 +1,295 @@
+{
+  "status": 0,
+  "error": null,
+  "data": {
+    "id": "mcocr_public_145014ojewe",
+    "fields": {
+      "seller": {
+        "value": "VinCommerce",
+        "raw_text": "VinCommerce",
+        "confidence": 0.9998,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                112,
+                82
+              ],
+              [
+                252,
+                82
+              ],
+              [
+                252,
+                125
+              ],
+              [
+                112,
+                125
+              ]
+            ]
+          }
+        ]
+      },
+      "address": {
+        "value": "VM+ QNH 1060-1062 Trần Phú Số 1060-1062 Đường Trần Phú TP. Cẩm Phả, Quảng Ninh",
+        "raw_text": "VM+ QNH 1060-1062 Trần Phú Số 1060-1062 Đường Trần Phú TP. Cẩm Phả, Quảng Ninh",
+        "confidence": 0.9758,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                295,
+                37
+              ],
+              [
+                483,
+                37
+              ],
+              [
+                483,
+                63
+              ],
+              [
+                295,
+                63
+              ]
+            ]
+          },
+          {
+            "polygon": [
+              [
+                293,
+                63
+              ],
+              [
+                485,
+                63
+              ],
+              [
+                485,
+                93
+              ],
+              [
+                293,
+                93
+              ]
+            ]
+          },
+          {
+            "polygon": [
+              [
+                308,
+                92
+              ],
+              [
+                471,
+                92
+              ],
+              [
+                471,
+                121
+              ],
+              [
+                308,
+                121
+              ]
+            ]
+          }
+        ]
+      },
+      "timestamp": {
+        "value": "2020-08-13T21:15:00",
+        "raw_text": "13/08/2020 21:15",
+        "confidence": 0.9998,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                206,
+                187
+              ],
+              [
+                369,
+                187
+              ],
+              [
+                369,
+                214
+              ],
+              [
+                206,
+                214
+              ]
+            ]
+          }
+        ]
+      },
+      "total_cost": {
+        "value": "35000",
+        "raw_text": "35.000",
+        "confidence": 0.9998,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                478,
+                384
+              ],
+              [
+                546,
+                384
+              ],
+              [
+                546,
+                408
+              ],
+              [
+                478,
+                408
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    "line_items": [
+      {
+        "index": 1,
+        "item_name": {
+          "value": "MAMAMY Khăn ướt vệ sinh 100 tờ không mùi",
+          "raw_text": "MAMAMY Khăn ướt vệ sinh 100 tờ không mùi",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  109,
+                  287
+                ],
+                [
+                  519,
+                  287
+                ],
+                [
+                  519,
+                  311
+                ],
+                [
+                  109,
+                  311
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "1",
+          "raw_text": "1",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  419,
+                  321
+                ],
+                [
+                  427,
+                  321
+                ],
+                [
+                  427,
+                  329
+                ],
+                [
+                  419,
+                  329
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "47200",
+          "raw_text": "47.200",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  303,
+                  313
+                ],
+                [
+                  370,
+                  313
+                ],
+                [
+                  370,
+                  336
+                ],
+                [
+                  303,
+                  336
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "47200",
+          "raw_text": "47.200",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  476,
+                  312
+                ],
+                [
+                  542,
+                  312
+                ],
+                [
+                  542,
+                  333
+                ],
+                [
+                  476,
+                  333
+                ]
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "currency": "VND",
+    "overall_confidence": 0.9963,
+    "needs_review": false,
+    "warnings": [],
+    "image": {
+      "width": 768,
+      "height": 1024,
+      "rotation_applied": 0.0
+    },
+    "meta": {
+      "schema_version": "1.0",
+      "model_version": "layoutxlm-e2-b10",
+      "ocr_version": "ocr_v2",
+      "postprocess_version": "kie_postprocess_v1",
+      "processing_ms": 3862,
+      "pipeline_version": "inference_pipeline_v1"
+    }
+  }
+}

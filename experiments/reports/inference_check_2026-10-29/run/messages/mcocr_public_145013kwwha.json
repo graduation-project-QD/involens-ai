@@ -1,0 +1,430 @@
+{
+  "status": 0,
+  "error": null,
+  "data": {
+    "id": "mcocr_public_145013kwwha",
+    "fields": {
+      "seller": {
+        "value": "Tiệm trà Thanh Xuân",
+        "raw_text": "Tiệm trà Thanh Xuân",
+        "confidence": 0.9456,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                230,
+                242
+              ],
+              [
+                302,
+                242
+              ],
+              [
+                302,
+                268
+              ],
+              [
+                230,
+                268
+              ]
+            ]
+          },
+          {
+            "polygon": [
+              [
+                249,
+                268
+              ],
+              [
+                350,
+                268
+              ],
+              [
+                350,
+                310
+              ],
+              [
+                249,
+                310
+              ]
+            ]
+          },
+          {
+            "polygon": [
+              [
+                252,
+                302
+              ],
+              [
+                349,
+                302
+              ],
+              [
+                349,
+                341
+              ],
+              [
+                252,
+                341
+              ]
+            ]
+          }
+        ]
+      },
+      "address": {
+        "value": "244/23a Huỳnh Văn Bánh, P.11, Q.PN",
+        "raw_text": "244/23a Huỳnh Văn Bánh, P.11, Q.PN",
+        "confidence": 0.9996,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                152,
+                365
+              ],
+              [
+                437,
+                365
+              ],
+              [
+                437,
+                392
+              ],
+              [
+                152,
+                392
+              ]
+            ]
+          }
+        ]
+      },
+      "timestamp": {
+        "value": "2020-09-30T18:31:00",
+        "raw_text": "30.09.2020 18.31 30.09.2020 18.33",
+        "confidence": 0.9235,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                260,
+                531
+              ],
+              [
+                385,
+                531
+              ],
+              [
+                385,
+                553
+              ],
+              [
+                260,
+                553
+              ]
+            ]
+          },
+          {
+            "polygon": [
+              [
+                261,
+                555
+              ],
+              [
+                386,
+                555
+              ],
+              [
+                386,
+                575
+              ],
+              [
+                261,
+                575
+              ]
+            ]
+          }
+        ]
+      },
+      "total_cost": {
+        "value": "12000",
+        "raw_text": "12 000",
+        "confidence": 0.9981,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                429,
+                767
+              ],
+              [
+                512,
+                767
+              ],
+              [
+                512,
+                794
+              ],
+              [
+                429,
+                794
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    "line_items": [
+      {
+        "index": 1,
+        "item_name": {
+          "value": "Bánh Cookies",
+          "raw_text": "Bánh Cookies",
+          "confidence": 0.9998,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  123,
+                  637
+                ],
+                [
+                  216,
+                  637
+                ],
+                [
+                  216,
+                  658
+                ],
+                [
+                  123,
+                  658
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "1",
+          "raw_text": "1",
+          "confidence": 0.9997,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  325,
+                  637
+                ],
+                [
+                  338,
+                  637
+                ],
+                [
+                  338,
+                  653
+                ],
+                [
+                  325,
+                  653
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "6000",
+          "raw_text": "6 000",
+          "confidence": 0.9993,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  373,
+                  634
+                ],
+                [
+                  415,
+                  634
+                ],
+                [
+                  415,
+                  653
+                ],
+                [
+                  373,
+                  653
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "6000",
+          "raw_text": "6 000",
+          "confidence": 0.9994,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  456,
+                  633
+                ],
+                [
+                  500,
+                  633
+                ],
+                [
+                  500,
+                  652
+                ],
+                [
+                  456,
+                  652
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "index": 2,
+        "item_name": {
+          "value": "Bánh Cookies",
+          "raw_text": "Bánh Cookies",
+          "confidence": 0.9997,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  122,
+                  662
+                ],
+                [
+                  216,
+                  662
+                ],
+                [
+                  216,
+                  682
+                ],
+                [
+                  122,
+                  682
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "1",
+          "raw_text": "1",
+          "confidence": 0.9995,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  324,
+                  662
+                ],
+                [
+                  340,
+                  662
+                ],
+                [
+                  340,
+                  680
+                ],
+                [
+                  324,
+                  680
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "6000",
+          "raw_text": "6 000",
+          "confidence": 0.9993,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  374,
+                  659
+                ],
+                [
+                  417,
+                  659
+                ],
+                [
+                  417,
+                  679
+                ],
+                [
+                  374,
+                  679
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "6000",
+          "raw_text": "6 000",
+          "confidence": 0.9993,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  457,
+                  658
+                ],
+                [
+                  503,
+                  658
+                ],
+                [
+                  503,
+                  679
+                ],
+                [
+                  457,
+                  679
+                ]
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "currency": "VND",
+    "overall_confidence": 0.9935,
+    "needs_review": false,
+    "warnings": [],
+    "image": {
+      "width": 576,
+      "height": 1024,
+      "rotation_applied": 0.0
+    },
+    "meta": {
+      "schema_version": "1.0",
+      "model_version": "layoutxlm-e2-b10",
+      "ocr_version": "ocr_v2",
+      "postprocess_version": "kie_postprocess_v1",
+      "processing_ms": 2893,
+      "pipeline_version": "inference_pipeline_v1"
+    }
+  }
+}

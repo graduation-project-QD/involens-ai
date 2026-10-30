@@ -1,0 +1,395 @@
+{
+  "status": 0,
+  "error": null,
+  "data": {
+    "id": "mcocr_public_145014nuhli",
+    "fields": {
+      "seller": {
+        "value": "MINIMART ANAN",
+        "raw_text": "MINIMART ANAN",
+        "confidence": 0.9997,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                333,
+                526
+              ],
+              [
+                450,
+                526
+              ],
+              [
+                450,
+                542
+              ],
+              [
+                333,
+                542
+              ]
+            ]
+          }
+        ]
+      },
+      "address": {
+        "value": "Chợ Sủi Phú Thị Gia Lâm",
+        "raw_text": "Chợ Sủi Phú Thị Gia Lâm",
+        "confidence": 0.9996,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                318,
+                547
+              ],
+              [
+                463,
+                547
+              ],
+              [
+                463,
+                564
+              ],
+              [
+                318,
+                564
+              ]
+            ]
+          }
+        ]
+      },
+      "timestamp": {
+        "value": "2020-08-10T14:26:00",
+        "raw_text": "10/08/2020-14:26",
+        "confidence": 0.9998,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                444,
+                828
+              ],
+              [
+                532,
+                828
+              ],
+              [
+                532,
+                849
+              ],
+              [
+                444,
+                849
+              ]
+            ]
+          }
+        ]
+      },
+      "total_cost": {
+        "value": "47200",
+        "raw_text": "47,200",
+        "confidence": 0.9987,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                491,
+                784
+              ],
+              [
+                534,
+                784
+              ],
+              [
+                534,
+                802
+              ],
+              [
+                491,
+                802
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    "line_items": [
+      {
+        "index": 1,
+        "item_name": {
+          "value": "Kem ly nho hoa quả sơn NT",
+          "raw_text": "Kem ly nho hoa quả sơn NT",
+          "confidence": 0.9998,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  330,
+                  635
+                ],
+                [
+                  484,
+                  635
+                ],
+                [
+                  484,
+                  653
+                ],
+                [
+                  330,
+                  653
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "1",
+          "raw_text": null,
+          "confidence": null,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  417,
+                  655
+                ],
+                [
+                  451,
+                  655
+                ],
+                [
+                  451,
+                  670
+                ],
+                [
+                  417,
+                  670
+                ]
+              ]
+            },
+            {
+              "polygon": [
+                [
+                  494,
+                  655
+                ],
+                [
+                  529,
+                  655
+                ],
+                [
+                  529,
+                  671
+                ],
+                [
+                  494,
+                  671
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "4000",
+          "raw_text": "4,000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  417,
+                  655
+                ],
+                [
+                  451,
+                  655
+                ],
+                [
+                  451,
+                  670
+                ],
+                [
+                  417,
+                  670
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "4000",
+          "raw_text": "4,000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  494,
+                  655
+                ],
+                [
+                  529,
+                  655
+                ],
+                [
+                  529,
+                  671
+                ],
+                [
+                  494,
+                  671
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "index": 2,
+        "item_name": {
+          "value": "chai sting đỏ 330ml NT",
+          "raw_text": "chai sting đỏ 330ml NT",
+          "confidence": 0.9998,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  328,
+                  675
+                ],
+                [
+                  459,
+                  675
+                ],
+                [
+                  459,
+                  693
+                ],
+                [
+                  328,
+                  693
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "1",
+          "raw_text": "1",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  320,
+                  719
+                ],
+                [
+                  325,
+                  719
+                ],
+                [
+                  325,
+                  725
+                ],
+                [
+                  320,
+                  725
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "7200",
+          "raw_text": "7,200",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  418,
+                  713
+                ],
+                [
+                  452,
+                  713
+                ],
+                [
+                  452,
+                  730
+                ],
+                [
+                  418,
+                  730
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "43200",
+          "raw_text": "43,200",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  488,
+                  716
+                ],
+                [
+                  530,
+                  716
+                ],
+                [
+                  530,
+                  732
+                ],
+                [
+                  488,
+                  732
+                ]
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "currency": "VND",
+    "overall_confidence": 0.9998,
+    "needs_review": true,
+    "warnings": [
+      {
+        "code": "QUANTITY_INFERRED",
+        "target": "line_items[1].quantity"
+      }
+    ],
+    "image": {
+      "width": 800,
+      "height": 1048,
+      "rotation_applied": 91.83
+    },
+    "meta": {
+      "schema_version": "1.0",
+      "model_version": "layoutxlm-e2-b10",
+      "ocr_version": "ocr_v2",
+      "postprocess_version": "kie_postprocess_v1",
+      "processing_ms": 3528,
+      "pipeline_version": "inference_pipeline_v1"
+    }
+  }
+}

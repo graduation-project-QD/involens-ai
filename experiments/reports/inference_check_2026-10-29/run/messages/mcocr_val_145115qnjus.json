@@ -1,0 +1,183 @@
+{
+  "status": 0,
+  "error": null,
+  "data": {
+    "id": "mcocr_val_145115qnjus",
+    "fields": {
+      "seller": {
+        "value": "VinCommerce",
+        "raw_text": "VinCommerce",
+        "confidence": 0.9998,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                88,
+                502
+              ],
+              [
+                250,
+                502
+              ],
+              [
+                250,
+                553
+              ],
+              [
+                88,
+                553
+              ]
+            ]
+          }
+        ]
+      },
+      "address": {
+        "value": "VM+ QNH 86 Trần Phú Số 86 Đường Trần Phú, P. Cẩm Tây TP Cẩm Phả, T. Quảng Ninh",
+        "raw_text": "VM+ QNH 86 Trần Phú Số 86 Đường Trần Phú, P. Cẩm Tây TP Cẩm Phả, T. Quảng Ninh",
+        "confidence": 0.9994,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                323,
+                453
+              ],
+              [
+                481,
+                453
+              ],
+              [
+                481,
+                481
+              ],
+              [
+                323,
+                481
+              ]
+            ]
+          },
+          {
+            "polygon": [
+              [
+                277,
+                479
+              ],
+              [
+                529,
+                479
+              ],
+              [
+                529,
+                518
+              ],
+              [
+                277,
+                518
+              ]
+            ]
+          },
+          {
+            "polygon": [
+              [
+                298,
+                511
+              ],
+              [
+                501,
+                511
+              ],
+              [
+                501,
+                546
+              ],
+              [
+                298,
+                546
+              ]
+            ]
+          }
+        ]
+      },
+      "timestamp": {
+        "value": "2020-08-09T07:47:00",
+        "raw_text": "09/08/2020 07:47",
+        "confidence": 0.9961,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                147,
+                599
+              ],
+              [
+                264,
+                599
+              ],
+              [
+                264,
+                625
+              ],
+              [
+                147,
+                625
+              ]
+            ]
+          },
+          {
+            "polygon": [
+              [
+                508,
+                599
+              ],
+              [
+                570,
+                599
+              ],
+              [
+                570,
+                624
+              ],
+              [
+                508,
+                624
+              ]
+            ]
+          }
+        ]
+      },
+      "total_cost": {
+        "value": null,
+        "raw_text": null,
+        "confidence": null,
+        "status": "absent",
+        "evidence": []
+      }
+    },
+    "line_items": [],
+    "currency": "VND",
+    "overall_confidence": 0.9996,
+    "needs_review": true,
+    "warnings": [
+      {
+        "code": "FIELD_ABSENT",
+        "target": "fields.total_cost"
+      }
+    ],
+    "image": {
+      "width": 622,
+      "height": 1294,
+      "rotation_applied": 1.44
+    },
+    "meta": {
+      "schema_version": "1.0",
+      "model_version": "layoutxlm-e2-b10",
+      "ocr_version": "ocr_v2",
+      "postprocess_version": "kie_postprocess_v1",
+      "processing_ms": 2635,
+      "pipeline_version": "inference_pipeline_v1"
+    }
+  }
+}

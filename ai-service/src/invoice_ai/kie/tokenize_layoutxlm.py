@@ -112,11 +112,18 @@ def check_sample(sample: dict[str, Any], record: dict[str, Any]) -> list[str]:
     return problems
 
 
+def model_image(image: Any) -> Any:
+    """The page as the LayoutXLM visual backbone sees it: RGB, resized to 224 x 224 (bilinear)."""
+    from PIL import Image
+
+    return image.convert("RGB").resize((IMAGE_SIZE, IMAGE_SIZE), Image.BILINEAR)
+
+
 def save_image(source: Path, target: Path) -> None:
     from PIL import Image
 
     with Image.open(source) as image:
-        image.convert("RGB").resize((IMAGE_SIZE, IMAGE_SIZE), Image.BILINEAR).save(target)
+        model_image(image).save(target)
 
 
 def main() -> None:

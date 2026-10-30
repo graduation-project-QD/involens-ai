@@ -1,0 +1,320 @@
+{
+  "status": 0,
+  "error": null,
+  "data": {
+    "id": "mcocr_val_145115eqtqa",
+    "fields": {
+      "seller": {
+        "value": "VinCommerce",
+        "raw_text": "VinCommerce",
+        "confidence": 0.9998,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                182,
+                372
+              ],
+              [
+                292,
+                372
+              ],
+              [
+                292,
+                408
+              ],
+              [
+                182,
+                408
+              ]
+            ]
+          }
+        ]
+      },
+      "address": {
+        "value": "VM+ QNH Tổ 8 Khu 3B Cẩm Trung Tổ 8, Khu 3B, P. Cẩm Trung TP. Cẩm Phả, T. Quảng Ninh",
+        "raw_text": "VM+ QNH Tổ 8 Khu 3B Cẩm Trung Tổ 8, Khu 3B, P. Cẩm Trung TP. Cẩm Phả, T. Quảng Ninh",
+        "confidence": 0.9998,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                314,
+                339
+              ],
+              [
+                475,
+                339
+              ],
+              [
+                475,
+                362
+              ],
+              [
+                314,
+                362
+              ]
+            ]
+          },
+          {
+            "polygon": [
+              [
+                330,
+                361
+              ],
+              [
+                461,
+                361
+              ],
+              [
+                461,
+                383
+              ],
+              [
+                330,
+                383
+              ]
+            ]
+          },
+          {
+            "polygon": [
+              [
+                328,
+                384
+              ],
+              [
+                461,
+                384
+              ],
+              [
+                461,
+                404
+              ],
+              [
+                328,
+                404
+              ]
+            ]
+          }
+        ]
+      },
+      "timestamp": {
+        "value": "2020-08-12T20:49:00",
+        "raw_text": "12/08/2020 20:49",
+        "confidence": 0.9998,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                255,
+                458
+              ],
+              [
+                379,
+                458
+              ],
+              [
+                379,
+                477
+              ],
+              [
+                255,
+                477
+              ]
+            ]
+          }
+        ]
+      },
+      "total_cost": {
+        "value": "8400",
+        "raw_text": "8.400",
+        "confidence": 0.9997,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                467,
+                610
+              ],
+              [
+                510,
+                610
+              ],
+              [
+                510,
+                627
+              ],
+              [
+                467,
+                627
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    "line_items": [
+      {
+        "index": 1,
+        "item_name": {
+          "value": "COCA Nước giải khát 330/320ml T24",
+          "raw_text": "COCA Nước giải khát 330/320ml T24",
+          "confidence": 0.9998,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  182,
+                  532
+                ],
+                [
+                  439,
+                  532
+                ],
+                [
+                  439,
+                  552
+                ],
+                [
+                  182,
+                  552
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "1",
+          "raw_text": null,
+          "confidence": null,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  336,
+                  553
+                ],
+                [
+                  379,
+                  553
+                ],
+                [
+                  379,
+                  570
+                ],
+                [
+                  336,
+                  570
+                ]
+              ]
+            },
+            {
+              "polygon": [
+                [
+                  466,
+                  553
+                ],
+                [
+                  508,
+                  553
+                ],
+                [
+                  508,
+                  569
+                ],
+                [
+                  466,
+                  569
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "9500",
+          "raw_text": "9.500",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  336,
+                  553
+                ],
+                [
+                  379,
+                  553
+                ],
+                [
+                  379,
+                  570
+                ],
+                [
+                  336,
+                  570
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "9500",
+          "raw_text": "9.500",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  466,
+                  553
+                ],
+                [
+                  508,
+                  553
+                ],
+                [
+                  508,
+                  569
+                ],
+                [
+                  466,
+                  569
+                ]
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "currency": "VND",
+    "overall_confidence": 0.9998,
+    "needs_review": true,
+    "warnings": [
+      {
+        "code": "QUANTITY_INFERRED",
+        "target": "line_items[1].quantity"
+      }
+    ],
+    "image": {
+      "width": 786,
+      "height": 1038,
+      "rotation_applied": 1.02
+    },
+    "meta": {
+      "schema_version": "1.0",
+      "model_version": "layoutxlm-e2-b10",
+      "ocr_version": "ocr_v2",
+      "postprocess_version": "kie_postprocess_v1",
+      "processing_ms": 3658,
+      "pipeline_version": "inference_pipeline_v1"
+    }
+  }
+}

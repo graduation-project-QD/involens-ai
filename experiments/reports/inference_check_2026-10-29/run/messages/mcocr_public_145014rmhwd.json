@@ -1,0 +1,565 @@
+{
+  "status": 0,
+  "error": null,
+  "data": {
+    "id": "mcocr_public_145014rmhwd",
+    "fields": {
+      "seller": {
+        "value": "Ga Dong Quan",
+        "raw_text": "Ga Dong Quan",
+        "confidence": 0.8398,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                121,
+                23
+              ],
+              [
+                449,
+                23
+              ],
+              [
+                449,
+                128
+              ],
+              [
+                121,
+                128
+              ]
+            ]
+          },
+          {
+            "polygon": [
+              [
+                447,
+                38
+              ],
+              [
+                645,
+                38
+              ],
+              [
+                645,
+                118
+              ],
+              [
+                447,
+                118
+              ]
+            ]
+          }
+        ]
+      },
+      "address": {
+        "value": "02 DUONG 20, DUONG QUANGHAM, P5, C",
+        "raw_text": "02 DUONG 20, DUONG QUANGHAM, P5, C",
+        "confidence": 0.9483,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                120,
+                121
+              ],
+              [
+                673,
+                121
+              ],
+              [
+                673,
+                164
+              ],
+              [
+                120,
+                164
+              ]
+            ]
+          }
+        ]
+      },
+      "timestamp": {
+        "value": "2019-03-24T15:04:00",
+        "raw_text": "24/03/2019 15:04:00 24/03/2019 14:38:01 24/03/2019 15:04:00",
+        "confidence": 0.9835,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                297,
+                276
+              ],
+              [
+                645,
+                276
+              ],
+              [
+                645,
+                309
+              ],
+              [
+                297,
+                309
+              ]
+            ]
+          },
+          {
+            "polygon": [
+              [
+                296,
+                444
+              ],
+              [
+                630,
+                444
+              ],
+              [
+                630,
+                474
+              ],
+              [
+                296,
+                474
+              ]
+            ]
+          },
+          {
+            "polygon": [
+              [
+                296,
+                475
+              ],
+              [
+                632,
+                475
+              ],
+              [
+                632,
+                507
+              ],
+              [
+                296,
+                507
+              ]
+            ]
+          }
+        ]
+      },
+      "total_cost": {
+        "value": "168000",
+        "raw_text": "168,000",
+        "confidence": 0.9996,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                476,
+                743
+              ],
+              [
+                658,
+                743
+              ],
+              [
+                658,
+                782
+              ],
+              [
+                476,
+                782
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    "line_items": [
+      {
+        "index": 1,
+        "item_name": {
+          "value": "GOI GA-110",
+          "raw_text": "GOI GA-110",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  94,
+                  534
+                ],
+                [
+                  279,
+                  534
+                ],
+                [
+                  279,
+                  563
+                ],
+                [
+                  94,
+                  563
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "1",
+          "raw_text": "1",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  146,
+                  566
+                ],
+                [
+                  172,
+                  566
+                ],
+                [
+                  172,
+                  594
+                ],
+                [
+                  146,
+                  594
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "110000",
+          "raw_text": "110,000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  291,
+                  565
+                ],
+                [
+                  416,
+                  565
+                ],
+                [
+                  416,
+                  600
+                ],
+                [
+                  291,
+                  600
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "110000",
+          "raw_text": "110,000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  530,
+                  565
+                ],
+                [
+                  652,
+                  565
+                ],
+                [
+                  652,
+                  598
+                ],
+                [
+                  530,
+                  598
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "index": 2,
+        "item_name": {
+          "value": "COM-13",
+          "raw_text": "COM-13",
+          "confidence": 0.9997,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  91,
+                  597
+                ],
+                [
+                  207,
+                  597
+                ],
+                [
+                  207,
+                  627
+                ],
+                [
+                  91,
+                  627
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "4",
+          "raw_text": "4",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  144,
+                  630
+                ],
+                [
+                  170,
+                  630
+                ],
+                [
+                  170,
+                  660
+                ],
+                [
+                  144,
+                  660
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "13000",
+          "raw_text": "13,000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  308,
+                  629
+                ],
+                [
+                  417,
+                  629
+                ],
+                [
+                  417,
+                  662
+                ],
+                [
+                  308,
+                  662
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "52000",
+          "raw_text": "52,000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  546,
+                  626
+                ],
+                [
+                  658,
+                  626
+                ],
+                [
+                  658,
+                  662
+                ],
+                [
+                  546,
+                  662
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "index": 3,
+        "item_name": {
+          "value": "Khan I Lanh",
+          "raw_text": "Khan I Lanh",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  85,
+                  664
+                ],
+                [
+                  189,
+                  664
+                ],
+                [
+                  189,
+                  694
+                ],
+                [
+                  85,
+                  694
+                ]
+              ]
+            },
+            {
+              "polygon": [
+                [
+                  176,
+                  665
+                ],
+                [
+                  259,
+                  665
+                ],
+                [
+                  259,
+                  695
+                ],
+                [
+                  176,
+                  695
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "3",
+          "raw_text": "3",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  138,
+                  697
+                ],
+                [
+                  166,
+                  697
+                ],
+                [
+                  166,
+                  730
+                ],
+                [
+                  138,
+                  730
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "2000",
+          "raw_text": "2,000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  323,
+                  694
+                ],
+                [
+                  418,
+                  694
+                ],
+                [
+                  418,
+                  729
+                ],
+                [
+                  323,
+                  729
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "6000",
+          "raw_text": "6,000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  567,
+                  694
+                ],
+                [
+                  660,
+                  694
+                ],
+                [
+                  660,
+                  728
+                ],
+                [
+                  567,
+                  728
+                ]
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "currency": "VND",
+    "overall_confidence": 0.991,
+    "needs_review": false,
+    "warnings": [],
+    "image": {
+      "width": 1024,
+      "height": 1024,
+      "rotation_applied": 0.0
+    },
+    "meta": {
+      "schema_version": "1.0",
+      "model_version": "layoutxlm-e2-b10",
+      "ocr_version": "ocr_v2",
+      "postprocess_version": "kie_postprocess_v1",
+      "processing_ms": 3301,
+      "pipeline_version": "inference_pipeline_v1"
+    }
+  }
+}

@@ -1,0 +1,370 @@
+{
+  "status": 0,
+  "error": null,
+  "data": {
+    "id": "mcocr_val_145115xhbhb",
+    "fields": {
+      "seller": {
+        "value": "Guitar Cafe",
+        "raw_text": "Guitar Cafe",
+        "confidence": 0.9971,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                277,
+                211
+              ],
+              [
+                509,
+                211
+              ],
+              [
+                509,
+                259
+              ],
+              [
+                277,
+                259
+              ]
+            ]
+          }
+        ]
+      },
+      "address": {
+        "value": "28 Phan Chu Trinh, Hiệp Phú, Quận 9, Hồ",
+        "raw_text": "28 Phan Chu Trinh, Hiệp Phú, Quận 9, Hồ",
+        "confidence": 0.9998,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                139,
+                300
+              ],
+              [
+                652,
+                300
+              ],
+              [
+                652,
+                346
+              ],
+              [
+                139,
+                346
+              ]
+            ]
+          }
+        ]
+      },
+      "timestamp": {
+        "value": "2020-10-04T00:00:00",
+        "raw_text": "04/10/2020",
+        "confidence": 0.9998,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                250,
+                353
+              ],
+              [
+                387,
+                353
+              ],
+              [
+                387,
+                388
+              ],
+              [
+                250,
+                388
+              ]
+            ]
+          }
+        ]
+      },
+      "total_cost": {
+        "value": "65000",
+        "raw_text": "65,000",
+        "confidence": 0.9996,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                545,
+                726
+              ],
+              [
+                679,
+                726
+              ],
+              [
+                679,
+                774
+              ],
+              [
+                545,
+                774
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    "line_items": [
+      {
+        "index": 1,
+        "item_name": {
+          "value": "Bánh mì ốp la 2 trứng - Phần",
+          "raw_text": "Bánh mì ốp la 2 trứng - Phần",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  113,
+                  540
+                ],
+                [
+                  553,
+                  540
+                ],
+                [
+                  553,
+                  582
+                ],
+                [
+                  113,
+                  582
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "1",
+          "raw_text": "1",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  429,
+                  578
+                ],
+                [
+                  487,
+                  578
+                ],
+                [
+                  487,
+                  627
+                ],
+                [
+                  429,
+                  627
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "30000",
+          "raw_text": "30,000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  243,
+                  580
+                ],
+                [
+                  359,
+                  580
+                ],
+                [
+                  359,
+                  627
+                ],
+                [
+                  243,
+                  627
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "30000",
+          "raw_text": "30,000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  563,
+                  583
+                ],
+                [
+                  674,
+                  583
+                ],
+                [
+                  674,
+                  624
+                ],
+                [
+                  563,
+                  624
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "index": 2,
+        "item_name": {
+          "value": "Trà Gừng mật ong (nóng) - Ly",
+          "raw_text": "Trà Gừng mật ong (nóng) - Ly",
+          "confidence": 0.9997,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  110,
+                  627
+                ],
+                [
+                  572,
+                  627
+                ],
+                [
+                  572,
+                  670
+                ],
+                [
+                  110,
+                  670
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "1",
+          "raw_text": "1",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  435,
+                  662
+                ],
+                [
+                  485,
+                  662
+                ],
+                [
+                  485,
+                  713
+                ],
+                [
+                  435,
+                  713
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "35000",
+          "raw_text": "35,000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  242,
+                  667
+                ],
+                [
+                  358,
+                  667
+                ],
+                [
+                  358,
+                  714
+                ],
+                [
+                  242,
+                  714
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "35000",
+          "raw_text": "35,000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  563,
+                  665
+                ],
+                [
+                  680,
+                  665
+                ],
+                [
+                  680,
+                  714
+                ],
+                [
+                  563,
+                  714
+                ]
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "currency": "VND",
+    "overall_confidence": 0.9998,
+    "needs_review": false,
+    "warnings": [],
+    "image": {
+      "width": 788,
+      "height": 1039,
+      "rotation_applied": 1.12
+    },
+    "meta": {
+      "schema_version": "1.0",
+      "model_version": "layoutxlm-e2-b10",
+      "ocr_version": "ocr_v2",
+      "postprocess_version": "kie_postprocess_v1",
+      "processing_ms": 3292,
+      "pipeline_version": "inference_pipeline_v1"
+    }
+  }
+}

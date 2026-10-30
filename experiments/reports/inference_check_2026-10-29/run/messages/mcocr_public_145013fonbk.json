@@ -1,0 +1,255 @@
+{
+  "status": 0,
+  "error": null,
+  "data": {
+    "id": "mcocr_public_145013fonbk",
+    "fields": {
+      "seller": {
+        "value": "Guitar Cafe",
+        "raw_text": "Guitar Cafe",
+        "confidence": 0.9974,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                192,
+                264
+              ],
+              [
+                373,
+                264
+              ],
+              [
+                373,
+                305
+              ],
+              [
+                192,
+                305
+              ]
+            ]
+          }
+        ]
+      },
+      "address": {
+        "value": "28 Phan Chu Trinh, Hiệp Phú, Quận 9, Hồ",
+        "raw_text": "28 Phan Chu Trinh, Hiệp Phú, Quận 9, Hồ",
+        "confidence": 0.9998,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                87,
+                334
+              ],
+              [
+                482,
+                334
+              ],
+              [
+                482,
+                376
+              ],
+              [
+                87,
+                376
+              ]
+            ]
+          }
+        ]
+      },
+      "timestamp": {
+        "value": "2020-10-05T00:00:00",
+        "raw_text": "05/10/2020",
+        "confidence": 0.9998,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                174,
+                378
+              ],
+              [
+                278,
+                378
+              ],
+              [
+                278,
+                406
+              ],
+              [
+                174,
+                406
+              ]
+            ]
+          }
+        ]
+      },
+      "total_cost": {
+        "value": "25000",
+        "raw_text": "25,000",
+        "confidence": 0.9996,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                388,
+                594
+              ],
+              [
+                483,
+                594
+              ],
+              [
+                483,
+                627
+              ],
+              [
+                388,
+                627
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    "line_items": [
+      {
+        "index": 1,
+        "item_name": {
+          "value": "Café sữa (n/d) - Ly",
+          "raw_text": "Café sữa (n/d) - Ly",
+          "confidence": 0.9998,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  77,
+                  520
+                ],
+                [
+                  292,
+                  520
+                ],
+                [
+                  292,
+                  553
+                ],
+                [
+                  77,
+                  553
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "1",
+          "raw_text": "1",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  321,
+                  555
+                ],
+                [
+                  338,
+                  555
+                ],
+                [
+                  338,
+                  578
+                ],
+                [
+                  321,
+                  578
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "25000",
+          "raw_text": "25,000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  173,
+                  550
+                ],
+                [
+                  257,
+                  550
+                ],
+                [
+                  257,
+                  584
+                ],
+                [
+                  173,
+                  584
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "25000",
+          "raw_text": "25,000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  402,
+                  553
+                ],
+                [
+                  485,
+                  553
+                ],
+                [
+                  485,
+                  585
+                ],
+                [
+                  402,
+                  585
+                ]
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "currency": "VND",
+    "overall_confidence": 0.9997,
+    "needs_review": false,
+    "warnings": [],
+    "image": {
+      "width": 576,
+      "height": 1024,
+      "rotation_applied": 0.0
+    },
+    "meta": {
+      "schema_version": "1.0",
+      "model_version": "layoutxlm-e2-b10",
+      "ocr_version": "ocr_v2",
+      "postprocess_version": "kie_postprocess_v1",
+      "processing_ms": 3024,
+      "pipeline_version": "inference_pipeline_v1"
+    }
+  }
+}

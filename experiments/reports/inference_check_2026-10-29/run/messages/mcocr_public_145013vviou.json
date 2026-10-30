@@ -1,0 +1,755 @@
+{
+  "status": 0,
+  "error": null,
+  "data": {
+    "id": "mcocr_public_145013vviou",
+    "fields": {
+      "seller": {
+        "value": "VinCommerce",
+        "raw_text": "VinCommerce",
+        "confidence": 0.9998,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                132,
+                253
+              ],
+              [
+                236,
+                253
+              ],
+              [
+                236,
+                272
+              ],
+              [
+                132,
+                272
+              ]
+            ]
+          }
+        ]
+      },
+      "address": {
+        "value": "VM+ QNH Tổ 7, Khu Minh Tiến A Tổ 7, Khu Minh Tiến A P. Cẩm Bình, TP. Cẩm Phả, QNH",
+        "raw_text": "VM+ QNH Tổ 7, Khu Minh Tiến A Tổ 7, Khu Minh Tiến A P. Cẩm Bình, TP. Cẩm Phả, QNH",
+        "confidence": 0.9995,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                274,
+                197
+              ],
+              [
+                450,
+                197
+              ],
+              [
+                450,
+                225
+              ],
+              [
+                274,
+                225
+              ]
+            ]
+          },
+          {
+            "polygon": [
+              [
+                300,
+                222
+              ],
+              [
+                424,
+                222
+              ],
+              [
+                424,
+                245
+              ],
+              [
+                300,
+                245
+              ]
+            ]
+          },
+          {
+            "polygon": [
+              [
+                274,
+                245
+              ],
+              [
+                450,
+                245
+              ],
+              [
+                450,
+                268
+              ],
+              [
+                274,
+                268
+              ]
+            ]
+          }
+        ]
+      },
+      "timestamp": {
+        "value": "2020-08-09T20:40:00",
+        "raw_text": "09/08/2020 20:40",
+        "confidence": 0.9998,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                199,
+                328
+              ],
+              [
+                345,
+                328
+              ],
+              [
+                345,
+                357
+              ],
+              [
+                199,
+                357
+              ]
+            ]
+          }
+        ]
+      },
+      "total_cost": {
+        "value": "170400",
+        "raw_text": "170.400",
+        "confidence": 0.9998,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                432,
+                658
+              ],
+              [
+                500,
+                658
+              ],
+              [
+                500,
+                676
+              ],
+              [
+                432,
+                676
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    "line_items": [
+      {
+        "index": 1,
+        "item_name": {
+          "value": "Kem sô cô la hạnh nhân Celano H125ml T12",
+          "raw_text": "Kem sô cô la hạnh nhân Celano H125ml T12",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  116,
+                  411
+                ],
+                [
+                  480,
+                  411
+                ],
+                [
+                  480,
+                  442
+                ],
+                [
+                  116,
+                  442
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "2",
+          "raw_text": "2",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  383,
+                  436
+                ],
+                [
+                  399,
+                  436
+                ],
+                [
+                  399,
+                  457
+                ],
+                [
+                  383,
+                  457
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "23000",
+          "raw_text": "23.000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  284,
+                  436
+                ],
+                [
+                  344,
+                  436
+                ],
+                [
+                  344,
+                  457
+                ],
+                [
+                  284,
+                  457
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "46000",
+          "raw_text": "46.000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  440,
+                  437
+                ],
+                [
+                  496,
+                  437
+                ],
+                [
+                  496,
+                  454
+                ],
+                [
+                  440,
+                  454
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "index": 2,
+        "item_name": {
+          "value": "Kem sô cô la hộp 450ml",
+          "raw_text": "Kem sô cô la hộp 450ml",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  116,
+                  458
+                ],
+                [
+                  316,
+                  458
+                ],
+                [
+                  316,
+                  484
+                ],
+                [
+                  116,
+                  484
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "1",
+          "raw_text": "1",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  383,
+                  482
+                ],
+                [
+                  400,
+                  482
+                ],
+                [
+                  400,
+                  499
+                ],
+                [
+                  383,
+                  499
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "43800",
+          "raw_text": "43.800",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  284,
+                  480
+                ],
+                [
+                  344,
+                  480
+                ],
+                [
+                  344,
+                  501
+                ],
+                [
+                  284,
+                  501
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "43800",
+          "raw_text": "43.800",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  440,
+                  480
+                ],
+                [
+                  497,
+                  480
+                ],
+                [
+                  497,
+                  497
+                ],
+                [
+                  440,
+                  497
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "index": 3,
+        "item_name": {
+          "value": "BINGGRAE Kem Together - Green Tea 110 ml",
+          "raw_text": "BINGGRAE Kem Together - Green Tea 110 ml",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  113,
+                  500
+                ],
+                [
+                  479,
+                  500
+                ],
+                [
+                  479,
+                  525
+                ],
+                [
+                  113,
+                  525
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "1",
+          "raw_text": "1",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  384,
+                  525
+                ],
+                [
+                  399,
+                  525
+                ],
+                [
+                  399,
+                  544
+                ],
+                [
+                  384,
+                  544
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "38400",
+          "raw_text": "38.400",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  283,
+                  524
+                ],
+                [
+                  345,
+                  524
+                ],
+                [
+                  345,
+                  544
+                ],
+                [
+                  283,
+                  544
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "38400",
+          "raw_text": "38.400",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  438,
+                  522
+                ],
+                [
+                  498,
+                  522
+                ],
+                [
+                  498,
+                  544
+                ],
+                [
+                  438,
+                  544
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "index": 4,
+        "item_name": {
+          "value": "Kem Extra sô cô la Celano cây 130ml T16",
+          "raw_text": "Kem Extra sô cô la Celano cây 130ml T16",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  112,
+                  544
+                ],
+                [
+                  472,
+                  544
+                ],
+                [
+                  472,
+                  569
+                ],
+                [
+                  112,
+                  569
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "1",
+          "raw_text": "1",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  379,
+                  569
+                ],
+                [
+                  401,
+                  569
+                ],
+                [
+                  401,
+                  587
+                ],
+                [
+                  379,
+                  587
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "19700",
+          "raw_text": "19.700",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  285,
+                  569
+                ],
+                [
+                  343,
+                  569
+                ],
+                [
+                  343,
+                  587
+                ],
+                [
+                  285,
+                  587
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "19700",
+          "raw_text": "19.700",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  441,
+                  569
+                ],
+                [
+                  497,
+                  569
+                ],
+                [
+                  497,
+                  586
+                ],
+                [
+                  441,
+                  586
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "index": 5,
+        "item_name": {
+          "value": "C'EST BON Bánh bông lan 5P (T20)",
+          "raw_text": "C'EST BON Bánh bông lan 5P (T20)",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  110,
+                  587
+                ],
+                [
+                  406,
+                  587
+                ],
+                [
+                  406,
+                  612
+                ],
+                [
+                  110,
+                  612
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "1",
+          "raw_text": "1",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  383,
+                  615
+                ],
+                [
+                  399,
+                  615
+                ],
+                [
+                  399,
+                  632
+                ],
+                [
+                  383,
+                  632
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "22500",
+          "raw_text": "22.500",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  284,
+                  615
+                ],
+                [
+                  342,
+                  615
+                ],
+                [
+                  342,
+                  632
+                ],
+                [
+                  284,
+                  632
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "22500",
+          "raw_text": "22.500",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  440,
+                  613
+                ],
+                [
+                  498,
+                  613
+                ],
+                [
+                  498,
+                  630
+                ],
+                [
+                  440,
+                  630
+                ]
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "currency": "VND",
+    "overall_confidence": 0.9999,
+    "needs_review": false,
+    "warnings": [],
+    "image": {
+      "width": 786,
+      "height": 1316,
+      "rotation_applied": 2.99
+    },
+    "meta": {
+      "schema_version": "1.0",
+      "model_version": "layoutxlm-e2-b10",
+      "ocr_version": "ocr_v2",
+      "postprocess_version": "kie_postprocess_v1",
+      "processing_ms": 3858,
+      "pipeline_version": "inference_pipeline_v1"
+    }
+  }
+}

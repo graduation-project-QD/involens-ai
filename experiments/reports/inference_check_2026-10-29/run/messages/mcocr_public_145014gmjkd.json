@@ -1,0 +1,485 @@
+{
+  "status": 0,
+  "error": null,
+  "data": {
+    "id": "mcocr_public_145014gmjkd",
+    "fields": {
+      "seller": {
+        "value": "Guitar Cafe",
+        "raw_text": "Guitar Cafe",
+        "confidence": 0.997,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                262,
+                154
+              ],
+              [
+                494,
+                154
+              ],
+              [
+                494,
+                203
+              ],
+              [
+                262,
+                203
+              ]
+            ]
+          }
+        ]
+      },
+      "address": {
+        "value": "28 Phan Chu Trinh, Hiệp Phú, Quận 9, Hồ",
+        "raw_text": "28 Phan Chu Trinh, Hiệp Phú, Quận 9, Hồ",
+        "confidence": 0.9998,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                127,
+                247
+              ],
+              [
+                638,
+                247
+              ],
+              [
+                638,
+                292
+              ],
+              [
+                127,
+                292
+              ]
+            ]
+          }
+        ]
+      },
+      "timestamp": {
+        "value": "2020-10-02T00:00:00",
+        "raw_text": "02/10/2020",
+        "confidence": 0.9998,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                237,
+                299
+              ],
+              [
+                373,
+                299
+              ],
+              [
+                373,
+                333
+              ],
+              [
+                237,
+                333
+              ]
+            ]
+          }
+        ]
+      },
+      "total_cost": {
+        "value": "85000",
+        "raw_text": "85,000",
+        "confidence": 0.9997,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                530,
+                755
+              ],
+              [
+                664,
+                755
+              ],
+              [
+                664,
+                803
+              ],
+              [
+                530,
+                803
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    "line_items": [
+      {
+        "index": 1,
+        "item_name": {
+          "value": "Café (nóng/ đá) - Ly",
+          "raw_text": "Café (nóng/ đá) - Ly",
+          "confidence": 0.9994,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  104,
+                  487
+                ],
+                [
+                  409,
+                  487
+                ],
+                [
+                  409,
+                  529
+                ],
+                [
+                  104,
+                  529
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "1",
+          "raw_text": "1",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  429,
+                  532
+                ],
+                [
+                  460,
+                  532
+                ],
+                [
+                  460,
+                  564
+                ],
+                [
+                  429,
+                  564
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "25000",
+          "raw_text": "25,000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  230,
+                  528
+                ],
+                [
+                  345,
+                  528
+                ],
+                [
+                  345,
+                  571
+                ],
+                [
+                  230,
+                  571
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "25000",
+          "raw_text": "25,000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  546,
+                  527
+                ],
+                [
+                  658,
+                  527
+                ],
+                [
+                  658,
+                  570
+                ],
+                [
+                  546,
+                  570
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "index": 2,
+        "item_name": {
+          "value": "Pạc xỉu (n/đ) - Ly",
+          "raw_text": "Pạc xỉu (n/đ) - Ly",
+          "confidence": 0.9994,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  99,
+                  572
+                ],
+                [
+                  363,
+                  572
+                ],
+                [
+                  363,
+                  613
+                ],
+                [
+                  99,
+                  613
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "1",
+          "raw_text": "1",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  418,
+                  612
+                ],
+                [
+                  465,
+                  612
+                ],
+                [
+                  465,
+                  653
+                ],
+                [
+                  418,
+                  653
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "30000",
+          "raw_text": "30,000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  229,
+                  612
+                ],
+                [
+                  345,
+                  612
+                ],
+                [
+                  345,
+                  656
+                ],
+                [
+                  229,
+                  656
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "30000",
+          "raw_text": "30,000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  549,
+                  612
+                ],
+                [
+                  661,
+                  612
+                ],
+                [
+                  661,
+                  654
+                ],
+                [
+                  549,
+                  654
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "index": 3,
+        "item_name": {
+          "value": "Thuốc lá Craven A (mèo) - Gói",
+          "raw_text": "Thuốc lá Craven A (mèo) - Gói",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  96,
+                  655
+                ],
+                [
+                  571,
+                  655
+                ],
+                [
+                  571,
+                  699
+                ],
+                [
+                  96,
+                  699
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "1",
+          "raw_text": "1",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  424,
+                  696
+                ],
+                [
+                  469,
+                  696
+                ],
+                [
+                  469,
+                  743
+                ],
+                [
+                  424,
+                  743
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "30000",
+          "raw_text": "30,000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  227,
+                  699
+                ],
+                [
+                  345,
+                  699
+                ],
+                [
+                  345,
+                  746
+                ],
+                [
+                  227,
+                  746
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "30000",
+          "raw_text": "30,000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  551,
+                  697
+                ],
+                [
+                  666,
+                  697
+                ],
+                [
+                  666,
+                  743
+                ],
+                [
+                  551,
+                  743
+                ]
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "currency": "VND",
+    "overall_confidence": 0.9998,
+    "needs_review": false,
+    "warnings": [],
+    "image": {
+      "width": 768,
+      "height": 1024,
+      "rotation_applied": 0.0
+    },
+    "meta": {
+      "schema_version": "1.0",
+      "model_version": "layoutxlm-e2-b10",
+      "ocr_version": "ocr_v2",
+      "postprocess_version": "kie_postprocess_v1",
+      "processing_ms": 3111,
+      "pipeline_version": "inference_pipeline_v1"
+    }
+  }
+}

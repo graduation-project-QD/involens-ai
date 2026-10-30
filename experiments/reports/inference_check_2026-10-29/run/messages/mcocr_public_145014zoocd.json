@@ -1,0 +1,430 @@
+{
+  "status": 0,
+  "error": null,
+  "data": {
+    "id": "mcocr_public_145014zoocd",
+    "fields": {
+      "seller": {
+        "value": "VinCommerce",
+        "raw_text": "VinCommerce",
+        "confidence": 0.9998,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                147,
+                267
+              ],
+              [
+                233,
+                267
+              ],
+              [
+                233,
+                300
+              ],
+              [
+                147,
+                300
+              ]
+            ]
+          }
+        ]
+      },
+      "address": {
+        "value": "VM+ QNH 1060-1062 Trần Phú Số 1060-1062 Đường Trần Phú TP. Cẩm Phả, Quảng Ninh",
+        "raw_text": "VM+ QNH 1060-1062 Trần Phú Số 1060-1062 Đường Trần Phú TP. Cẩm Phả, Quảng Ninh",
+        "confidence": 0.9856,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                257,
+                237
+              ],
+              [
+                369,
+                237
+              ],
+              [
+                369,
+                258
+              ],
+              [
+                257,
+                258
+              ]
+            ]
+          },
+          {
+            "polygon": [
+              [
+                255,
+                253
+              ],
+              [
+                370,
+                253
+              ],
+              [
+                370,
+                275
+              ],
+              [
+                255,
+                275
+              ]
+            ]
+          },
+          {
+            "polygon": [
+              [
+                264,
+                271
+              ],
+              [
+                360,
+                271
+              ],
+              [
+                360,
+                290
+              ],
+              [
+                264,
+                290
+              ]
+            ]
+          }
+        ]
+      },
+      "timestamp": {
+        "value": "2020-08-13T10:16:00",
+        "raw_text": "13/08/2020 10:16",
+        "confidence": 0.9998,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                203,
+                333
+              ],
+              [
+                298,
+                333
+              ],
+              [
+                298,
+                346
+              ],
+              [
+                203,
+                346
+              ]
+            ]
+          }
+        ]
+      },
+      "total_cost": {
+        "value": "59664",
+        "raw_text": "59.664",
+        "confidence": 0.9997,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                361,
+                464
+              ],
+              [
+                401,
+                464
+              ],
+              [
+                401,
+                476
+              ],
+              [
+                361,
+                476
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    "line_items": [
+      {
+        "index": 1,
+        "item_name": {
+          "value": "Filê gà công nghiệp CP - Khay 50 500G",
+          "raw_text": "Filê gà công nghiệp CP - Khay 50 500G",
+          "confidence": 0.9979,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  144,
+                  389
+                ],
+                [
+                  331,
+                  389
+                ],
+                [
+                  331,
+                  405
+                ],
+                [
+                  144,
+                  405
+                ]
+              ]
+            },
+            {
+              "polygon": [
+                [
+                  324,
+                  390
+                ],
+                [
+                  352,
+                  390
+                ],
+                [
+                  352,
+                  403
+                ],
+                [
+                  324,
+                  403
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "1",
+          "raw_text": "1",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  327,
+                  407
+                ],
+                [
+                  332,
+                  407
+                ],
+                [
+                  332,
+                  415
+                ],
+                [
+                  327,
+                  415
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "48000",
+          "raw_text": "48.000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  259,
+                  407
+                ],
+                [
+                  297,
+                  407
+                ],
+                [
+                  297,
+                  418
+                ],
+                [
+                  259,
+                  418
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "48000",
+          "raw_text": "48.000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  361,
+                  403
+                ],
+                [
+                  401,
+                  403
+                ],
+                [
+                  401,
+                  417
+                ],
+                [
+                  361,
+                  417
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "index": 2,
+        "item_name": {
+          "value": "Rau muống L1 Vineco",
+          "raw_text": "Rau muống L1 Vineco",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  143,
+                  419
+                ],
+                [
+                  264,
+                  419
+                ],
+                [
+                  264,
+                  433
+                ],
+                [
+                  143,
+                  433
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "1",
+          "raw_text": "1",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  325,
+                  435
+                ],
+                [
+                  334,
+                  435
+                ],
+                [
+                  334,
+                  446
+                ],
+                [
+                  325,
+                  446
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "11664",
+          "raw_text": "11.664",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  259,
+                  435
+                ],
+                [
+                  297,
+                  435
+                ],
+                [
+                  297,
+                  448
+                ],
+                [
+                  259,
+                  448
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "11664",
+          "raw_text": "11.664",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  362,
+                  435
+                ],
+                [
+                  401,
+                  435
+                ],
+                [
+                  401,
+                  447
+                ],
+                [
+                  362,
+                  447
+                ]
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "currency": "VND",
+    "overall_confidence": 0.9978,
+    "needs_review": false,
+    "warnings": [],
+    "image": {
+      "width": 599,
+      "height": 1037,
+      "rotation_applied": 358.71
+    },
+    "meta": {
+      "schema_version": "1.0",
+      "model_version": "layoutxlm-e2-b10",
+      "ocr_version": "ocr_v2",
+      "postprocess_version": "kie_postprocess_v1",
+      "processing_ms": 4093,
+      "pipeline_version": "inference_pipeline_v1"
+    }
+  }
+}

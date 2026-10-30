@@ -1,0 +1,206 @@
+{
+  "postprocess_version": "kie_postprocess_v1",
+  "split": "test",
+  "predictions": "..\\experiments\\reports\\inference_check_2026-10-29\\run\\predictions.jsonl",
+  "modes": {
+    "raw": {
+      "documents": 136,
+      "cells": 2005,
+      "wrong_cells": 248,
+      "wrong_cell_rate": 0.1237,
+      "wrong_cells_per_document": 1.824,
+      "documents_by_wrong_cells": {
+        "0": 47,
+        "1": 34,
+        "2": 19,
+        "3": 17,
+        "4+": 19
+      },
+      "error_free_documents": 0.3456,
+      "wrong_cells_by_field": {
+        "address": 39,
+        "item_name": 87,
+        "line_total": 23,
+        "quantity": 46,
+        "seller": 18,
+        "timestamp": 16,
+        "total_cost": 4,
+        "unit_price": 15
+      },
+      "line_items": {
+        "gt": 363,
+        "predicted": 368,
+        "exact": 228,
+        "precision": 0.6196,
+        "recall": 0.6281,
+        "f1": 0.6238
+      },
+      "header_fields": {
+        "seller": {
+          "f1": 0.8698884758364313,
+          "slot_exact_match": 0.8676470588235294
+        },
+        "address": {
+          "f1": 0.7137546468401487,
+          "slot_exact_match": 0.7132352941176471
+        },
+        "timestamp": {
+          "f1": 0.8830188679245284,
+          "slot_exact_match": 0.8823529411764706
+        },
+        "total_cost": {
+          "f1": 0.968,
+          "slot_exact_match": 0.9705882352941176
+        }
+      },
+      "header_document_exact_match": 0.5661764705882353,
+      "quantity_inferred": {
+        "count": 0,
+        "correct": 0
+      },
+      "review_routing": {
+        "needs_review": 38,
+        "with_errors": 89,
+        "flagged_with_errors": 33,
+        "flagged_without_errors": 5,
+        "missed_with_errors": 56,
+        "warnings_by_code": {
+          "FIELD_ABSENT": 68
+        }
+      }
+    },
+    "normalized": {
+      "documents": 136,
+      "cells": 2002,
+      "wrong_cells": 216,
+      "wrong_cell_rate": 0.1079,
+      "wrong_cells_per_document": 1.588,
+      "documents_by_wrong_cells": {
+        "0": 54,
+        "1": 32,
+        "2": 19,
+        "3": 16,
+        "4+": 15
+      },
+      "error_free_documents": 0.3971,
+      "wrong_cells_by_field": {
+        "address": 39,
+        "item_name": 84,
+        "line_total": 11,
+        "quantity": 46,
+        "seller": 18,
+        "timestamp": 8,
+        "total_cost": 2,
+        "unit_price": 8
+      },
+      "line_items": {
+        "gt": 363,
+        "predicted": 368,
+        "exact": 237,
+        "precision": 0.644,
+        "recall": 0.6529,
+        "f1": 0.6484
+      },
+      "header_fields": {
+        "seller": {
+          "f1": 0.8698884758364313,
+          "slot_exact_match": 0.8676470588235294
+        },
+        "address": {
+          "f1": 0.7137546468401487,
+          "slot_exact_match": 0.7132352941176471
+        },
+        "timestamp": {
+          "f1": 0.9469696969696969,
+          "slot_exact_match": 0.9411764705882353
+        },
+        "total_cost": {
+          "f1": 0.9879518072289156,
+          "slot_exact_match": 0.9852941176470589
+        }
+      },
+      "header_document_exact_match": 0.625,
+      "quantity_inferred": {
+        "count": 0,
+        "correct": 0
+      },
+      "review_routing": {
+        "needs_review": 38,
+        "with_errors": 82,
+        "flagged_with_errors": 29,
+        "flagged_without_errors": 9,
+        "missed_with_errors": 53,
+        "warnings_by_code": {
+          "FIELD_ABSENT": 71
+        }
+      }
+    },
+    "b11": {
+      "documents": 136,
+      "cells": 2004,
+      "wrong_cells": 184,
+      "wrong_cell_rate": 0.0918,
+      "wrong_cells_per_document": 1.353,
+      "documents_by_wrong_cells": {
+        "0": 56,
+        "1": 34,
+        "2": 22,
+        "3": 14,
+        "4+": 10
+      },
+      "error_free_documents": 0.4118,
+      "wrong_cells_by_field": {
+        "address": 39,
+        "item_name": 84,
+        "line_total": 11,
+        "quantity": 14,
+        "seller": 18,
+        "timestamp": 8,
+        "total_cost": 2,
+        "unit_price": 8
+      },
+      "line_items": {
+        "gt": 363,
+        "predicted": 368,
+        "exact": 263,
+        "precision": 0.7147,
+        "recall": 0.7245,
+        "f1": 0.7196
+      },
+      "header_fields": {
+        "seller": {
+          "f1": 0.8698884758364313,
+          "slot_exact_match": 0.8676470588235294
+        },
+        "address": {
+          "f1": 0.7137546468401487,
+          "slot_exact_match": 0.7132352941176471
+        },
+        "timestamp": {
+          "f1": 0.9469696969696969,
+          "slot_exact_match": 0.9411764705882353
+        },
+        "total_cost": {
+          "f1": 0.9879518072289156,
+          "slot_exact_match": 0.9852941176470589
+        }
+      },
+      "header_document_exact_match": 0.625,
+      "quantity_inferred": {
+        "count": 37,
+        "correct": 34
+      },
+      "review_routing": {
+        "needs_review": 38,
+        "with_errors": 80,
+        "flagged_with_errors": 27,
+        "flagged_without_errors": 11,
+        "missed_with_errors": 53,
+        "warnings_by_code": {
+          "FIELD_ABSENT": 34,
+          "QUANTITY_INFERRED": 37
+        }
+      }
+    }
+  }
+}

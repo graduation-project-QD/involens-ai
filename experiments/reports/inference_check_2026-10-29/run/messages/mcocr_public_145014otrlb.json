@@ -1,0 +1,510 @@
+{
+  "status": 0,
+  "error": null,
+  "data": {
+    "id": "mcocr_public_145014otrlb",
+    "fields": {
+      "seller": {
+        "value": "MINIMART ANAN",
+        "raw_text": "MINIMART ANAN",
+        "confidence": 0.9997,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                224,
+                127
+              ],
+              [
+                436,
+                127
+              ],
+              [
+                436,
+                159
+              ],
+              [
+                224,
+                159
+              ]
+            ]
+          }
+        ]
+      },
+      "address": {
+        "value": "Chợ Sủi Phú Thị Gia Lâm",
+        "raw_text": "Chợ Sủi Phú Thị Gia Lâm",
+        "confidence": 0.9975,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                194,
+                158
+              ],
+              [
+                460,
+                158
+              ],
+              [
+                460,
+                190
+              ],
+              [
+                194,
+                190
+              ]
+            ]
+          }
+        ]
+      },
+      "timestamp": {
+        "value": "2020-08-13T00:00:00",
+        "raw_text": "13/08/2020.18:18",
+        "confidence": 0.9999,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                386,
+                1002
+              ],
+              [
+                614,
+                1002
+              ],
+              [
+                614,
+                1024
+              ],
+              [
+                386,
+                1024
+              ]
+            ]
+          }
+        ]
+      },
+      "total_cost": {
+        "value": "651000",
+        "raw_text": "651,000",
+        "confidence": 0.9975,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                516,
+                646
+              ],
+              [
+                612,
+                646
+              ],
+              [
+                612,
+                679
+              ],
+              [
+                516,
+                679
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    "line_items": [
+      {
+        "index": 1,
+        "item_name": {
+          "value": "Sữa bột Pediasure 850g NT",
+          "raw_text": "Sữa bột Pediasure 850g NT",
+          "confidence": 0.9998,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  231,
+                  301
+                ],
+                [
+                  519,
+                  301
+                ],
+                [
+                  519,
+                  335
+                ],
+                [
+                  231,
+                  335
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "1",
+          "raw_text": null,
+          "confidence": null,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  354,
+                  335
+                ],
+                [
+                  444,
+                  335
+                ],
+                [
+                  444,
+                  364
+                ],
+                [
+                  354,
+                  364
+                ]
+              ]
+            },
+            {
+              "polygon": [
+                [
+                  501,
+                  332
+                ],
+                [
+                  591,
+                  332
+                ],
+                [
+                  591,
+                  362
+                ],
+                [
+                  501,
+                  362
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "575000",
+          "raw_text": "575,000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  354,
+                  335
+                ],
+                [
+                  444,
+                  335
+                ],
+                [
+                  444,
+                  364
+                ],
+                [
+                  354,
+                  364
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "575000",
+          "raw_text": "575,000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  501,
+                  332
+                ],
+                [
+                  591,
+                  332
+                ],
+                [
+                  591,
+                  362
+                ],
+                [
+                  501,
+                  362
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "index": 2,
+        "item_name": {
+          "value": "bột chiên giòn ajiquich 210 NT",
+          "raw_text": "bột chiên giòn ajiquich 210 NT",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  244,
+                  371
+                ],
+                [
+                  548,
+                  371
+                ],
+                [
+                  548,
+                  404
+                ],
+                [
+                  244,
+                  404
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "1",
+          "raw_text": "1",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  183,
+                  412
+                ],
+                [
+                  202,
+                  412
+                ],
+                [
+                  202,
+                  433
+                ],
+                [
+                  183,
+                  433
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "26000",
+          "raw_text": "26,000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  365,
+                  406
+                ],
+                [
+                  447,
+                  406
+                ],
+                [
+                  447,
+                  438
+                ],
+                [
+                  365,
+                  438
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "26000",
+          "raw_text": "26,000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  515,
+                  403
+                ],
+                [
+                  596,
+                  403
+                ],
+                [
+                  596,
+                  435
+                ],
+                [
+                  515,
+                  435
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "index": 3,
+        "item_name": {
+          "value": "SCU cam VNM 180ml NT",
+          "raw_text": "SCU cam VNM 180ml NT",
+          "confidence": 0.9998,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  222,
+                  446
+                ],
+                [
+                  501,
+                  446
+                ],
+                [
+                  501,
+                  477
+                ],
+                [
+                  222,
+                  477
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "8",
+          "raw_text": "8",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  184,
+                  524
+                ],
+                [
+                  200,
+                  524
+                ],
+                [
+                  200,
+                  545
+                ],
+                [
+                  184,
+                  545
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "6250",
+          "raw_text": "6,250",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  380,
+                  515
+                ],
+                [
+                  451,
+                  515
+                ],
+                [
+                  451,
+                  550
+                ],
+                [
+                  380,
+                  550
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "50000",
+          "raw_text": "50,000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  522,
+                  513
+                ],
+                [
+                  604,
+                  513
+                ],
+                [
+                  604,
+                  546
+                ],
+                [
+                  522,
+                  546
+                ]
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "currency": "VND",
+    "overall_confidence": 0.9995,
+    "needs_review": true,
+    "warnings": [
+      {
+        "code": "QUANTITY_INFERRED",
+        "target": "line_items[1].quantity"
+      }
+    ],
+    "image": {
+      "width": 768,
+      "height": 1024,
+      "rotation_applied": 0.0
+    },
+    "meta": {
+      "schema_version": "1.0",
+      "model_version": "layoutxlm-e2-b10",
+      "ocr_version": "ocr_v2",
+      "postprocess_version": "kie_postprocess_v1",
+      "processing_ms": 3640,
+      "pipeline_version": "inference_pipeline_v1"
+    }
+  }
+}

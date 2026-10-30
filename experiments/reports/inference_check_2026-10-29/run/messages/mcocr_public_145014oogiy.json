@@ -1,0 +1,275 @@
+{
+  "status": 0,
+  "error": null,
+  "data": {
+    "id": "mcocr_public_145014oogiy",
+    "fields": {
+      "seller": {
+        "value": "MILANO COFFEE",
+        "raw_text": "MILANO COFFEE",
+        "confidence": 0.7395,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                102,
+                188
+              ],
+              [
+                259,
+                188
+              ],
+              [
+                259,
+                245
+              ],
+              [
+                102,
+                245
+              ]
+            ]
+          },
+          {
+            "polygon": [
+              [
+                267,
+                199
+              ],
+              [
+                416,
+                199
+              ],
+              [
+                416,
+                244
+              ],
+              [
+                267,
+                244
+              ]
+            ]
+          }
+        ]
+      },
+      "address": {
+        "value": "186 Cây Trâm, P11, Q.Gò Vấp, TP HCM",
+        "raw_text": "186 Cây Trâm, P11, Q.Gò Vấp, TP HCM",
+        "confidence": 0.9998,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                105,
+                300
+              ],
+              [
+                441,
+                300
+              ],
+              [
+                441,
+                343
+              ],
+              [
+                105,
+                343
+              ]
+            ]
+          }
+        ]
+      },
+      "timestamp": {
+        "value": "2020-10-02T17:49:00",
+        "raw_text": "02.10.2020 17.49",
+        "confidence": 0.9997,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                127,
+                443
+              ],
+              [
+                258,
+                443
+              ],
+              [
+                258,
+                464
+              ],
+              [
+                127,
+                464
+              ]
+            ]
+          }
+        ]
+      },
+      "total_cost": {
+        "value": "39000",
+        "raw_text": "39 000",
+        "confidence": 0.9988,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                386,
+                589
+              ],
+              [
+                475,
+                589
+              ],
+              [
+                475,
+                617
+              ],
+              [
+                386,
+                617
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    "line_items": [
+      {
+        "index": 1,
+        "item_name": {
+          "value": "Hoàng đào đá xay (M)",
+          "raw_text": "Hoàng đào đá xay (M)",
+          "confidence": 0.9998,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  104,
+                  511
+                ],
+                [
+                  274,
+                  511
+                ],
+                [
+                  274,
+                  538
+                ],
+                [
+                  104,
+                  538
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "1",
+          "raw_text": "1",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  286,
+                  512
+                ],
+                [
+                  300,
+                  512
+                ],
+                [
+                  300,
+                  532
+                ],
+                [
+                  286,
+                  532
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "39000",
+          "raw_text": "39 000",
+          "confidence": 0.9993,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  328,
+                  508
+                ],
+                [
+                  385,
+                  508
+                ],
+                [
+                  385,
+                  530
+                ],
+                [
+                  328,
+                  530
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "39000",
+          "raw_text": "39 000",
+          "confidence": 0.9993,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  416,
+                  502
+                ],
+                [
+                  476,
+                  502
+                ],
+                [
+                  476,
+                  527
+                ],
+                [
+                  416,
+                  527
+                ]
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "currency": "VND",
+    "overall_confidence": 0.9889,
+    "needs_review": false,
+    "warnings": [],
+    "image": {
+      "width": 576,
+      "height": 1024,
+      "rotation_applied": 0.0
+    },
+    "meta": {
+      "schema_version": "1.0",
+      "model_version": "layoutxlm-e2-b10",
+      "ocr_version": "ocr_v2",
+      "postprocess_version": "kie_postprocess_v1",
+      "processing_ms": 2970,
+      "pipeline_version": "inference_pipeline_v1"
+    }
+  }
+}

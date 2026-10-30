@@ -1,0 +1,830 @@
+{
+  "status": 0,
+  "error": null,
+  "data": {
+    "id": "mcocr_public_145013kacze",
+    "fields": {
+      "seller": {
+        "value": "Nhà Hàng Aozora Sushi",
+        "raw_text": "Nhà Hàng Aozora Sushi",
+        "confidence": 0.9982,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                326,
+                54
+              ],
+              [
+                726,
+                54
+              ],
+              [
+                726,
+                99
+              ],
+              [
+                326,
+                99
+              ]
+            ]
+          }
+        ]
+      },
+      "address": {
+        "value": "153 Thụy Khuê, Quận Tây Hồ, Thành phố Hà Nội",
+        "raw_text": "153 Thụy Khuê, Quận Tây Hồ, Thành phố Hà Nội",
+        "confidence": 0.9995,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                210,
+                92
+              ],
+              [
+                843,
+                92
+              ],
+              [
+                843,
+                139
+              ],
+              [
+                210,
+                139
+              ]
+            ]
+          }
+        ]
+      },
+      "timestamp": {
+        "value": "2020-08-14T21:31:00",
+        "raw_text": "14-08-2020 21:31",
+        "confidence": 0.9993,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                652,
+                425
+              ],
+              [
+                891,
+                425
+              ],
+              [
+                891,
+                460
+              ],
+              [
+                652,
+                460
+              ]
+            ]
+          }
+        ]
+      },
+      "total_cost": {
+        "value": "328000",
+        "raw_text": "328,000đ",
+        "confidence": 0.9993,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                797,
+                1352
+              ],
+              [
+                1013,
+                1352
+              ],
+              [
+                1013,
+                1415
+              ],
+              [
+                797,
+                1415
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    "line_items": [
+      {
+        "index": 1,
+        "item_name": {
+          "value": "cơm chien hải sản",
+          "raw_text": "cơm chien hải sản",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  160,
+                  576
+                ],
+                [
+                  435,
+                  576
+                ],
+                [
+                  435,
+                  616
+                ],
+                [
+                  160,
+                  616
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "1",
+          "raw_text": "1",
+          "confidence": 0.9974,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  647,
+                  577
+                ],
+                [
+                  678,
+                  577
+                ],
+                [
+                  678,
+                  612
+                ],
+                [
+                  647,
+                  612
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "99000",
+          "raw_text": "99,000",
+          "confidence": 0.9996,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  156,
+                  611
+                ],
+                [
+                  266,
+                  611
+                ],
+                [
+                  266,
+                  656
+                ],
+                [
+                  156,
+                  656
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "99000",
+          "raw_text": "99,000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  810,
+                  576
+                ],
+                [
+                  914,
+                  576
+                ],
+                [
+                  914,
+                  614
+                ],
+                [
+                  810,
+                  614
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "index": 2,
+        "item_name": {
+          "value": "Salad Trứng Cua",
+          "raw_text": "Salad Trứng Cua",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  153,
+                  666
+                ],
+                [
+                  413,
+                  666
+                ],
+                [
+                  413,
+                  705
+                ],
+                [
+                  153,
+                  705
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "1",
+          "raw_text": "1",
+          "confidence": 0.9982,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  655,
+                  666
+                ],
+                [
+                  682,
+                  666
+                ],
+                [
+                  682,
+                  700
+                ],
+                [
+                  655,
+                  700
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "59000",
+          "raw_text": "59,000",
+          "confidence": 0.9997,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  150,
+                  703
+                ],
+                [
+                  261,
+                  703
+                ],
+                [
+                  261,
+                  745
+                ],
+                [
+                  150,
+                  745
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "59000",
+          "raw_text": "59,000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  820,
+                  661
+                ],
+                [
+                  927,
+                  661
+                ],
+                [
+                  927,
+                  705
+                ],
+                [
+                  820,
+                  705
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "index": 3,
+        "item_name": {
+          "value": "thịt heo chien xù",
+          "raw_text": "thịt heo chien xù",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  144,
+                  757
+                ],
+                [
+                  407,
+                  757
+                ],
+                [
+                  407,
+                  799
+                ],
+                [
+                  144,
+                  799
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "1",
+          "raw_text": "1",
+          "confidence": 0.9975,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  665,
+                  758
+                ],
+                [
+                  687,
+                  758
+                ],
+                [
+                  687,
+                  787
+                ],
+                [
+                  665,
+                  787
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "69000",
+          "raw_text": "69,000",
+          "confidence": 0.9996,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  142,
+                  799
+                ],
+                [
+                  256,
+                  799
+                ],
+                [
+                  256,
+                  841
+                ],
+                [
+                  142,
+                  841
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "69000",
+          "raw_text": "69,000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  829,
+                  752
+                ],
+                [
+                  940,
+                  752
+                ],
+                [
+                  940,
+                  797
+                ],
+                [
+                  829,
+                  797
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "index": 4,
+        "item_name": {
+          "value": "Súp Tôm",
+          "raw_text": "Súp Tôm",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  136,
+                  854
+                ],
+                [
+                  293,
+                  854
+                ],
+                [
+                  293,
+                  903
+                ],
+                [
+                  136,
+                  903
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "1",
+          "raw_text": "1",
+          "confidence": 0.9955,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  672,
+                  856
+                ],
+                [
+                  695,
+                  856
+                ],
+                [
+                  695,
+                  884
+                ],
+                [
+                  672,
+                  884
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "20000",
+          "raw_text": "20,000",
+          "confidence": 0.9997,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  133,
+                  894
+                ],
+                [
+                  254,
+                  894
+                ],
+                [
+                  254,
+                  946
+                ],
+                [
+                  133,
+                  946
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "20000",
+          "raw_text": "20,000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  842,
+                  847
+                ],
+                [
+                  955,
+                  847
+                ],
+                [
+                  955,
+                  891
+                ],
+                [
+                  842,
+                  891
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "index": 5,
+        "item_name": {
+          "value": "Trà",
+          "raw_text": "Trà",
+          "confidence": 0.9995,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  133,
+                  961
+                ],
+                [
+                  194,
+                  961
+                ],
+                [
+                  194,
+                  1003
+                ],
+                [
+                  133,
+                  1003
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "2",
+          "raw_text": "2",
+          "confidence": 0.986,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  675,
+                  953
+                ],
+                [
+                  709,
+                  953
+                ],
+                [
+                  709,
+                  993
+                ],
+                [
+                  675,
+                  993
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "6000",
+          "raw_text": "6,000",
+          "confidence": 0.9996,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  128,
+                  1003
+                ],
+                [
+                  229,
+                  1003
+                ],
+                [
+                  229,
+                  1054
+                ],
+                [
+                  128,
+                  1054
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "12000",
+          "raw_text": "12,000",
+          "confidence": 0.9995,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  854,
+                  946
+                ],
+                [
+                  970,
+                  946
+                ],
+                [
+                  970,
+                  993
+                ],
+                [
+                  854,
+                  993
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "index": 6,
+        "item_name": {
+          "value": "cơm rang trứng ốp",
+          "raw_text": "cơm rang trứng ốp",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  124,
+                  1067
+                ],
+                [
+                  442,
+                  1067
+                ],
+                [
+                  442,
+                  1121
+                ],
+                [
+                  124,
+                  1121
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "1",
+          "raw_text": "1",
+          "confidence": 0.9982,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  684,
+                  1066
+                ],
+                [
+                  711,
+                  1066
+                ],
+                [
+                  711,
+                  1101
+                ],
+                [
+                  684,
+                  1101
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "69000",
+          "raw_text": "69,000",
+          "confidence": 0.999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  124,
+                  1119
+                ],
+                [
+                  246,
+                  1119
+                ],
+                [
+                  246,
+                  1166
+                ],
+                [
+                  124,
+                  1166
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "69000",
+          "raw_text": "69,000",
+          "confidence": 0.9998,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  863,
+                  1052
+                ],
+                [
+                  985,
+                  1052
+                ],
+                [
+                  985,
+                  1107
+                ],
+                [
+                  863,
+                  1107
+                ]
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "currency": "VND",
+    "overall_confidence": 0.9992,
+    "needs_review": false,
+    "warnings": [],
+    "image": {
+      "width": 1103,
+      "height": 1678,
+      "rotation_applied": 357.16
+    },
+    "meta": {
+      "schema_version": "1.0",
+      "model_version": "layoutxlm-e2-b10",
+      "ocr_version": "ocr_v2",
+      "postprocess_version": "kie_postprocess_v1",
+      "processing_ms": 3259,
+      "pipeline_version": "inference_pipeline_v1"
+    }
+  }
+}

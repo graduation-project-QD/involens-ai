@@ -1,0 +1,263 @@
+{
+  "status": 0,
+  "error": null,
+  "data": {
+    "id": "mcocr_val_145115hhgju",
+    "fields": {
+      "seller": {
+        "value": "LahaCafé",
+        "raw_text": "LahaCafé",
+        "confidence": 0.9995,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                187,
+                325
+              ],
+              [
+                418,
+                325
+              ],
+              [
+                418,
+                400
+              ],
+              [
+                187,
+                400
+              ]
+            ]
+          }
+        ]
+      },
+      "address": {
+        "value": "857 Nguyễn Kiệm, P3, Q.Gò Vấp",
+        "raw_text": "857 Nguyễn Kiệm, P3, Q.Gò Vấp",
+        "confidence": 0.9349,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                184,
+                426
+              ],
+              [
+                420,
+                426
+              ],
+              [
+                420,
+                450
+              ],
+              [
+                184,
+                450
+              ]
+            ]
+          }
+        ]
+      },
+      "timestamp": {
+        "value": null,
+        "raw_text": "09.10.2C20",
+        "confidence": 0.9998,
+        "status": "absent",
+        "evidence": []
+      },
+      "total_cost": {
+        "value": "15000",
+        "raw_text": "15 000",
+        "confidence": 0.9987,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                446,
+                710
+              ],
+              [
+                534,
+                710
+              ],
+              [
+                534,
+                741
+              ],
+              [
+                446,
+                741
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    "line_items": [
+      {
+        "index": 1,
+        "item_name": {
+          "value": "Café đá S",
+          "raw_text": "Café đá S",
+          "confidence": 0.9995,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  119,
+                  639
+                ],
+                [
+                  207,
+                  639
+                ],
+                [
+                  207,
+                  665
+                ],
+                [
+                  119,
+                  665
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "1",
+          "raw_text": null,
+          "confidence": null,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  362,
+                  629
+                ],
+                [
+                  419,
+                  629
+                ],
+                [
+                  419,
+                  652
+                ],
+                [
+                  362,
+                  652
+                ]
+              ]
+            },
+            {
+              "polygon": [
+                [
+                  463,
+                  619
+                ],
+                [
+                  526,
+                  619
+                ],
+                [
+                  526,
+                  646
+                ],
+                [
+                  463,
+                  646
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "15000",
+          "raw_text": "15 000",
+          "confidence": 0.9989,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  362,
+                  629
+                ],
+                [
+                  419,
+                  629
+                ],
+                [
+                  419,
+                  652
+                ],
+                [
+                  362,
+                  652
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "15000",
+          "raw_text": "15 000",
+          "confidence": 0.9994,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  463,
+                  619
+                ],
+                [
+                  526,
+                  619
+                ],
+                [
+                  526,
+                  646
+                ],
+                [
+                  463,
+                  646
+                ]
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "currency": "VND",
+    "overall_confidence": 0.9954,
+    "needs_review": true,
+    "warnings": [
+      {
+        "code": "FIELD_ABSENT",
+        "target": "fields.timestamp"
+      },
+      {
+        "code": "QUANTITY_INFERRED",
+        "target": "line_items[1].quantity"
+      }
+    ],
+    "image": {
+      "width": 603,
+      "height": 1039,
+      "rotation_applied": 358.48
+    },
+    "meta": {
+      "schema_version": "1.0",
+      "model_version": "layoutxlm-e2-b10",
+      "ocr_version": "ocr_v2",
+      "postprocess_version": "kie_postprocess_v1",
+      "processing_ms": 3655,
+      "pipeline_version": "inference_pipeline_v1"
+    }
+  }
+}

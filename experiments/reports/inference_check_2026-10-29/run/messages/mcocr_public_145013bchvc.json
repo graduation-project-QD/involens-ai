@@ -1,0 +1,600 @@
+{
+  "status": 0,
+  "error": null,
+  "data": {
+    "id": "mcocr_public_145013bchvc",
+    "fields": {
+      "seller": {
+        "value": "NHÀ SÁCH GD-TC CẨM PHẢ",
+        "raw_text": "NHÀ SÁCH GD-TC CẨM PHẢ",
+        "confidence": 0.9996,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                112,
+                62
+              ],
+              [
+                458,
+                62
+              ],
+              [
+                458,
+                108
+              ],
+              [
+                112,
+                108
+              ]
+            ]
+          }
+        ]
+      },
+      "address": {
+        "value": "212 Đường Trần Phú-Cẩm Phả",
+        "raw_text": "212 Đường Trần Phú-Cẩm Phả",
+        "confidence": 0.9998,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                82,
+                99
+              ],
+              [
+                437,
+                99
+              ],
+              [
+                437,
+                143
+              ],
+              [
+                82,
+                143
+              ]
+            ]
+          }
+        ]
+      },
+      "timestamp": {
+        "value": "2020-08-14T16:40:27",
+        "raw_text": "16:40:27 - 14/08/2020",
+        "confidence": 0.9998,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                138,
+                212
+              ],
+              [
+                369,
+                212
+              ],
+              [
+                369,
+                245
+              ],
+              [
+                138,
+                245
+              ]
+            ]
+          }
+        ]
+      },
+      "total_cost": {
+        "value": "84000",
+        "raw_text": "84.000đ",
+        "confidence": 0.9998,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                439,
+                498
+              ],
+              [
+                537,
+                498
+              ],
+              [
+                537,
+                527
+              ],
+              [
+                439,
+                527
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    "line_items": [
+      {
+        "index": 1,
+        "item_name": {
+          "value": "Bút TL 093",
+          "raw_text": "Bút TL 093",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  21,
+                  289
+                ],
+                [
+                  137,
+                  289
+                ],
+                [
+                  137,
+                  316
+                ],
+                [
+                  21,
+                  316
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "1",
+          "raw_text": "1",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  257,
+                  291
+                ],
+                [
+                  276,
+                  291
+                ],
+                [
+                  276,
+                  311
+                ],
+                [
+                  257,
+                  311
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "55000",
+          "raw_text": "55.000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  291,
+                  286
+                ],
+                [
+                  369,
+                  286
+                ],
+                [
+                  369,
+                  314
+                ],
+                [
+                  291,
+                  314
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "55000",
+          "raw_text": "55.000đ",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  445,
+                  285
+                ],
+                [
+                  536,
+                  285
+                ],
+                [
+                  536,
+                  311
+                ],
+                [
+                  445,
+                  311
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "index": 2,
+        "item_name": {
+          "value": "bút Gel-012",
+          "raw_text": "bút Gel-012",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  21,
+                  323
+                ],
+                [
+                  145,
+                  323
+                ],
+                [
+                  145,
+                  350
+                ],
+                [
+                  21,
+                  350
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "3",
+          "raw_text": "3",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  256,
+                  323
+                ],
+                [
+                  288,
+                  323
+                ],
+                [
+                  288,
+                  347
+                ],
+                [
+                  256,
+                  347
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "6000",
+          "raw_text": "6.000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  304,
+                  319
+                ],
+                [
+                  369,
+                  319
+                ],
+                [
+                  369,
+                  348
+                ],
+                [
+                  304,
+                  348
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "18000",
+          "raw_text": "18.000đ",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  447,
+                  319
+                ],
+                [
+                  537,
+                  319
+                ],
+                [
+                  537,
+                  345
+                ],
+                [
+                  447,
+                  345
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "index": 3,
+        "item_name": {
+          "value": "Bút TR1",
+          "raw_text": "Bút TR1",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  21,
+                  357
+                ],
+                [
+                  109,
+                  357
+                ],
+                [
+                  109,
+                  383
+                ],
+                [
+                  21,
+                  383
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "1",
+          "raw_text": "1",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  255,
+                  357
+                ],
+                [
+                  276,
+                  357
+                ],
+                [
+                  276,
+                  380
+                ],
+                [
+                  255,
+                  380
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "4000",
+          "raw_text": "4.000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  304,
+                  353
+                ],
+                [
+                  370,
+                  353
+                ],
+                [
+                  370,
+                  382
+                ],
+                [
+                  304,
+                  382
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "4000",
+          "raw_text": "4.000đ",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  461,
+                  354
+                ],
+                [
+                  538,
+                  354
+                ],
+                [
+                  538,
+                  379
+                ],
+                [
+                  461,
+                  379
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "index": 4,
+        "item_name": {
+          "value": "Bút lông kim FL-09",
+          "raw_text": "Bút lông kim FL-09",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  18,
+                  388
+                ],
+                [
+                  221,
+                  388
+                ],
+                [
+                  221,
+                  421
+                ],
+                [
+                  18,
+                  421
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "7",
+          "raw_text": "7",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  251,
+                  387
+                ],
+                [
+                  282,
+                  387
+                ],
+                [
+                  282,
+                  415
+                ],
+                [
+                  251,
+                  415
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "7000",
+          "raw_text": "7.000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  305,
+                  389
+                ],
+                [
+                  371,
+                  389
+                ],
+                [
+                  371,
+                  415
+                ],
+                [
+                  305,
+                  415
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "7000",
+          "raw_text": "7.000đ",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  461,
+                  388
+                ],
+                [
+                  538,
+                  388
+                ],
+                [
+                  538,
+                  414
+                ],
+                [
+                  461,
+                  414
+                ]
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "currency": "VND",
+    "overall_confidence": 0.9999,
+    "needs_review": false,
+    "warnings": [],
+    "image": {
+      "width": 576,
+      "height": 1024,
+      "rotation_applied": 0.0
+    },
+    "meta": {
+      "schema_version": "1.0",
+      "model_version": "layoutxlm-e2-b10",
+      "ocr_version": "ocr_v2",
+      "postprocess_version": "kie_postprocess_v1",
+      "processing_ms": 3325,
+      "pipeline_version": "inference_pipeline_v1"
+    }
+  }
+}

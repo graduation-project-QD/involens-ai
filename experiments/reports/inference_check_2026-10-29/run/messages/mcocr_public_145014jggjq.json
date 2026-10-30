@@ -1,0 +1,280 @@
+{
+  "status": 0,
+  "error": null,
+  "data": {
+    "id": "mcocr_public_145014jggjq",
+    "fields": {
+      "seller": {
+        "value": "MINIMART ANAN",
+        "raw_text": "MINIMART ANAN",
+        "confidence": 0.9997,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                246,
+                251
+              ],
+              [
+                483,
+                251
+              ],
+              [
+                483,
+                306
+              ],
+              [
+                246,
+                306
+              ]
+            ]
+          }
+        ]
+      },
+      "address": {
+        "value": "Chợ Sủi Phú Thị Gia Lâm",
+        "raw_text": "Chợ Sủi Phú Thị Gia Lâm",
+        "confidence": 0.9996,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                213,
+                292
+              ],
+              [
+                508,
+                292
+              ],
+              [
+                508,
+                348
+              ],
+              [
+                213,
+                348
+              ]
+            ]
+          }
+        ]
+      },
+      "timestamp": {
+        "value": "2020-08-15T17:29:00",
+        "raw_text": "15/08/2020-17:29",
+        "confidence": 0.9999,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                463,
+                783
+              ],
+              [
+                653,
+                783
+              ],
+              [
+                653,
+                825
+              ],
+              [
+                463,
+                825
+              ]
+            ]
+          }
+        ]
+      },
+      "total_cost": {
+        "value": "38004",
+        "raw_text": "38,004",
+        "confidence": 0.9784,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                569,
+                642
+              ],
+              [
+                654,
+                642
+              ],
+              [
+                654,
+                673
+              ],
+              [
+                569,
+                673
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    "line_items": [
+      {
+        "index": 1,
+        "item_name": {
+          "value": "Nước me wonderfarm NT",
+          "raw_text": "Nước me wonderfarm NT",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  230,
+                  467
+                ],
+                [
+                  526,
+                  467
+                ],
+                [
+                  526,
+                  517
+                ],
+                [
+                  230,
+                  517
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "6",
+          "raw_text": null,
+          "confidence": null,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  418,
+                  555
+                ],
+                [
+                  485,
+                  555
+                ],
+                [
+                  485,
+                  585
+                ],
+                [
+                  418,
+                  585
+                ]
+              ]
+            },
+            {
+              "polygon": [
+                [
+                  562,
+                  556
+                ],
+                [
+                  645,
+                  556
+                ],
+                [
+                  645,
+                  585
+                ],
+                [
+                  562,
+                  585
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "6334",
+          "raw_text": "6,334",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  418,
+                  555
+                ],
+                [
+                  485,
+                  555
+                ],
+                [
+                  485,
+                  585
+                ],
+                [
+                  418,
+                  585
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "38004",
+          "raw_text": "38,004",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  562,
+                  556
+                ],
+                [
+                  645,
+                  556
+                ],
+                [
+                  645,
+                  585
+                ],
+                [
+                  562,
+                  585
+                ]
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "currency": "VND",
+    "overall_confidence": 0.9958,
+    "needs_review": true,
+    "warnings": [
+      {
+        "code": "QUANTITY_INFERRED",
+        "target": "line_items[1].quantity"
+      }
+    ],
+    "image": {
+      "width": 768,
+      "height": 1024,
+      "rotation_applied": 0.0
+    },
+    "meta": {
+      "schema_version": "1.0",
+      "model_version": "layoutxlm-e2-b10",
+      "ocr_version": "ocr_v2",
+      "postprocess_version": "kie_postprocess_v1",
+      "processing_ms": 3700,
+      "pipeline_version": "inference_pipeline_v1"
+    }
+  }
+}

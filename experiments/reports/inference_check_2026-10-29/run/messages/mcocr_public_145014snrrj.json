@@ -1,0 +1,255 @@
+{
+  "status": 0,
+  "error": null,
+  "data": {
+    "id": "mcocr_public_145014snrrj",
+    "fields": {
+      "seller": {
+        "value": "NHÀ SÁCH GD-TC CẨM PHẢ",
+        "raw_text": "NHÀ SÁCH GD-TC CẨM PHẢ",
+        "confidence": 0.9996,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                143,
+                261
+              ],
+              [
+                379,
+                261
+              ],
+              [
+                379,
+                290
+              ],
+              [
+                143,
+                290
+              ]
+            ]
+          }
+        ]
+      },
+      "address": {
+        "value": "212 Đường Trần Phú-Cẩm Phả",
+        "raw_text": "212 Đường Trần Phú-Cẩm Phả",
+        "confidence": 0.9998,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                120,
+                285
+              ],
+              [
+                366,
+                285
+              ],
+              [
+                366,
+                316
+              ],
+              [
+                120,
+                316
+              ]
+            ]
+          }
+        ]
+      },
+      "timestamp": {
+        "value": "2020-08-14T21:43:39",
+        "raw_text": "21:43:39 - 14/08/2020",
+        "confidence": 0.9998,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                161,
+                361
+              ],
+              [
+                320,
+                361
+              ],
+              [
+                320,
+                385
+              ],
+              [
+                161,
+                385
+              ]
+            ]
+          }
+        ]
+      },
+      "total_cost": {
+        "value": "75000",
+        "raw_text": "75.000đ",
+        "confidence": 0.9997,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                369,
+                485
+              ],
+              [
+                437,
+                485
+              ],
+              [
+                437,
+                507
+              ],
+              [
+                369,
+                507
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    "line_items": [
+      {
+        "index": 1,
+        "item_name": {
+          "value": "Vở kẻ ngang 200 tr",
+          "raw_text": "Vở kẻ ngang 200 tr",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  77,
+                  413
+                ],
+                [
+                  220,
+                  413
+                ],
+                [
+                  220,
+                  437
+                ],
+                [
+                  77,
+                  437
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "5",
+          "raw_text": "5",
+          "confidence": 0.9998,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  241,
+                  414
+                ],
+                [
+                  251,
+                  414
+                ],
+                [
+                  251,
+                  432
+                ],
+                [
+                  241,
+                  432
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "15000",
+          "raw_text": "15.000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  266,
+                  413
+                ],
+                [
+                  321,
+                  413
+                ],
+                [
+                  321,
+                  431
+                ],
+                [
+                  266,
+                  431
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "75000",
+          "raw_text": "75.000đ",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  373,
+                  412
+                ],
+                [
+                  434,
+                  412
+                ],
+                [
+                  434,
+                  429
+                ],
+                [
+                  373,
+                  429
+                ]
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "currency": "VND",
+    "overall_confidence": 0.9998,
+    "needs_review": false,
+    "warnings": [],
+    "image": {
+      "width": 576,
+      "height": 1024,
+      "rotation_applied": 0.0
+    },
+    "meta": {
+      "schema_version": "1.0",
+      "model_version": "layoutxlm-e2-b10",
+      "ocr_version": "ocr_v2",
+      "postprocess_version": "kie_postprocess_v1",
+      "processing_ms": 2983,
+      "pipeline_version": "inference_pipeline_v1"
+    }
+  }
+}

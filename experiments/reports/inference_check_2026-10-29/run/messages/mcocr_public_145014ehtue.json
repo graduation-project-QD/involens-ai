@@ -1,0 +1,640 @@
+{
+  "status": 0,
+  "error": null,
+  "data": {
+    "id": "mcocr_public_145014ehtue",
+    "fields": {
+      "seller": {
+        "value": "VinCommerce",
+        "raw_text": "VinCommerce",
+        "confidence": 0.9998,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                148,
+                147
+              ],
+              [
+                240,
+                147
+              ],
+              [
+                240,
+                172
+              ],
+              [
+                148,
+                172
+              ]
+            ]
+          }
+        ]
+      },
+      "address": {
+        "value": "VM+ QNH 86 Trần Phú Số 86 Đường Trần Phú, P. Cẩm Tây TP. Cẩm Phả, T. Quảng Ninh.",
+        "raw_text": "VM+ QNH 86 Trần Phú Số 86 Đường Trần Phú, P. Cẩm Tây TP. Cẩm Phả, T. Quảng Ninh.",
+        "confidence": 0.9977,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                289,
+                116
+              ],
+              [
+                388,
+                116
+              ],
+              [
+                388,
+                135
+              ],
+              [
+                289,
+                135
+              ]
+            ]
+          },
+          {
+            "polygon": [
+              [
+                262,
+                133
+              ],
+              [
+                416,
+                133
+              ],
+              [
+                416,
+                153
+              ],
+              [
+                262,
+                153
+              ]
+            ]
+          },
+          {
+            "polygon": [
+              [
+                276,
+                151
+              ],
+              [
+                400,
+                151
+              ],
+              [
+                400,
+                170
+              ],
+              [
+                276,
+                170
+              ]
+            ]
+          }
+        ]
+      },
+      "timestamp": {
+        "value": "2020-08-09T18:07:00",
+        "raw_text": "09/08/2020 18:07",
+        "confidence": 0.9998,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                209,
+                217
+              ],
+              [
+                326,
+                217
+              ],
+              [
+                326,
+                234
+              ],
+              [
+                209,
+                234
+              ]
+            ]
+          }
+        ]
+      },
+      "total_cost": {
+        "value": "42600",
+        "raw_text": "42.600",
+        "confidence": 0.9997,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                416,
+                514
+              ],
+              [
+                465,
+                514
+              ],
+              [
+                465,
+                532
+              ],
+              [
+                416,
+                532
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    "line_items": [
+      {
+        "index": 1,
+        "item_name": {
+          "value": "Omachi Mì K/tây tôm ccay 5+thịt 112g 24H",
+          "raw_text": "Omachi Mì K/tây tôm ccay 5+thịt 112g 24H",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  143,
+                  284
+                ],
+                [
+                  440,
+                  284
+                ],
+                [
+                  440,
+                  305
+                ],
+                [
+                  143,
+                  305
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "1",
+          "raw_text": "1",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  361,
+                  305
+                ],
+                [
+                  373,
+                  305
+                ],
+                [
+                  373,
+                  317
+                ],
+                [
+                  361,
+                  317
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "15300",
+          "raw_text": "15.300",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  282,
+                  303
+                ],
+                [
+                  329,
+                  303
+                ],
+                [
+                  329,
+                  319
+                ],
+                [
+                  282,
+                  319
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "15300",
+          "raw_text": "15.300",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  406,
+                  301
+                ],
+                [
+                  452,
+                  301
+                ],
+                [
+                  452,
+                  318
+                ],
+                [
+                  406,
+                  318
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "index": 2,
+        "item_name": {
+          "value": "Omachi Mì K/tây tôm ccay 5+thịt 112g 24H",
+          "raw_text": "Omachi Mì K/tây tôm ccay 5+thịt 112g 24H",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  142,
+                  335
+                ],
+                [
+                  442,
+                  335
+                ],
+                [
+                  442,
+                  357
+                ],
+                [
+                  142,
+                  357
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "1",
+          "raw_text": "1",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  364,
+                  356
+                ],
+                [
+                  374,
+                  356
+                ],
+                [
+                  374,
+                  369
+                ],
+                [
+                  364,
+                  369
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "15300",
+          "raw_text": "15.300",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  284,
+                  354
+                ],
+                [
+                  331,
+                  354
+                ],
+                [
+                  331,
+                  372
+                ],
+                [
+                  284,
+                  372
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "15300",
+          "raw_text": "15.300",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  408,
+                  352
+                ],
+                [
+                  455,
+                  352
+                ],
+                [
+                  455,
+                  370
+                ],
+                [
+                  408,
+                  370
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "index": 3,
+        "item_name": {
+          "value": "COCA Nước ngọt light 320/330ml T24",
+          "raw_text": "COCA Nước ngọt light 320/330ml T24",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  143,
+                  388
+                ],
+                [
+                  397,
+                  388
+                ],
+                [
+                  397,
+                  411
+                ],
+                [
+                  143,
+                  411
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "1",
+          "raw_text": "1",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  367,
+                  410
+                ],
+                [
+                  377,
+                  410
+                ],
+                [
+                  377,
+                  422
+                ],
+                [
+                  367,
+                  422
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "9300",
+          "raw_text": "9.300",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  290,
+                  407
+                ],
+                [
+                  333,
+                  407
+                ],
+                [
+                  333,
+                  426
+                ],
+                [
+                  290,
+                  426
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "9300",
+          "raw_text": "9.300",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  416,
+                  406
+                ],
+                [
+                  458,
+                  406
+                ],
+                [
+                  458,
+                  423
+                ],
+                [
+                  416,
+                  423
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "index": 4,
+        "item_name": {
+          "value": "COCA Nước ngọt zero 320/330ml T24",
+          "raw_text": "COCA Nước ngọt zero 320/330ml T24",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  143,
+                  443
+                ],
+                [
+                  392,
+                  443
+                ],
+                [
+                  392,
+                  464
+                ],
+                [
+                  143,
+                  464
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "1",
+          "raw_text": "1",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  367,
+                  462
+                ],
+                [
+                  380,
+                  462
+                ],
+                [
+                  380,
+                  477
+                ],
+                [
+                  367,
+                  477
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "9300",
+          "raw_text": "9.300",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  292,
+                  461
+                ],
+                [
+                  334,
+                  461
+                ],
+                [
+                  334,
+                  479
+                ],
+                [
+                  292,
+                  479
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "9300",
+          "raw_text": "9.300",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  420,
+                  461
+                ],
+                [
+                  462,
+                  461
+                ],
+                [
+                  462,
+                  476
+                ],
+                [
+                  420,
+                  476
+                ]
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "currency": "VND",
+    "overall_confidence": 0.9997,
+    "needs_review": false,
+    "warnings": [],
+    "image": {
+      "width": 576,
+      "height": 1024,
+      "rotation_applied": 90.0
+    },
+    "meta": {
+      "schema_version": "1.0",
+      "model_version": "layoutxlm-e2-b10",
+      "ocr_version": "ocr_v2",
+      "postprocess_version": "kie_postprocess_v1",
+      "processing_ms": 4027,
+      "pipeline_version": "inference_pipeline_v1"
+    }
+  }
+}

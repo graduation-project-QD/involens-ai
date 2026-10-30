@@ -204,11 +204,54 @@ def _load_jsonl(path: Path) -> dict[str, dict[str, Any]]:
 # ----------------------------------------------------------------------------- running the detector
 
 
-def run(args: argparse.Namespace) -> None:
-    os.environ.setdefault("PADDLE_PDX_CACHE_HOME", str(args.paddlex_home))
+def create_detector(config: DetConfig, paddlex_home: Path, cpu_threads: int = 6) -> Any:
+    """Loads the PaddleOCR text detector of one configuration (CPU, local model files)."""
+    os.environ.setdefault("PADDLE_PDX_CACHE_HOME", str(paddlex_home))
     os.environ.setdefault("PADDLE_PDX_DISABLE_MODEL_SOURCE_CHECK", "True")
     from paddleocr import TextDetection
 
+    return TextDetection(
+        model_name=config.model,
+        model_dir=str(Path(paddlex_home) / "official_models" / config.model),
+        device="cpu",
+        cpu_threads=cpu_threads,
+        enable_mkldnn=False,  # oneDNN fails on this Paddle build (T05/B4)
+        limit_side_len=config.resize_long,
+        limit_type="resize_long",
+        box_thresh=config.box_thresh,
+        unclip_ratio=config.unclip_ratio,
+        thresh=config.thresh,
+    )
+
+
+def crop_rectangle(config: DetConfig, source: dict[str, Any], width: int, height: int) -> tuple[int, int, int, int] | None:
+    """Background-crop rectangle of a cropping configuration, from the boxes of its crop-source pass."""
+    if not config.crop:
+        return None
+    params = CropParams(margin_page=0.03) if config.crop_from_self else CropParams()
+    return text_crop_rect(source["boxes"], source["scores"], width, height, params)
+
+
+def detect(detector: Any, image: np.ndarray, rect: Sequence[int] | None = None) -> dict[str, Any]:
+    """Text boxes of an upright image, optionally only inside the background-crop rectangle ``rect``.
+
+    Boxes are in full-image pixels rounded to 0.1 px (the precision stored for evaluation), with their
+    detector scores, the crop rectangle and the detection time.
+    """
+    x0, y0 = (rect[0], rect[1]) if rect else (0, 0)
+    view = image[rect[1] : rect[3], rect[0] : rect[2]] if rect else image
+    start = time.perf_counter()
+    result = list(detector.predict(view))[0]
+    seconds = time.perf_counter() - start
+    return {
+        "boxes": [[[round(x + x0, 1), round(y + y0, 1)] for x, y in quad] for quad in np.asarray(result["dt_polys"]).tolist()],
+        "scores": [round(float(s), 4) for s in result["dt_scores"]],
+        "crop_rect": list(rect) if rect else None,
+        "seconds": round(seconds, 3),
+    }
+
+
+def run(args: argparse.Namespace) -> None:
     from invoice_ai.preprocessing.orientation import read_bgr
 
     ids = image_ids(args)
@@ -225,40 +268,13 @@ def run(args: argparse.Namespace) -> None:
         crop_source = _load_jsonl(out_dir / f"{config.crop_source}.jsonl") if config.crop else {}
         if config.crop and any(i not in crop_source for i in todo):
             raise SystemExit(f"run {config.crop_source} on the same images before {name}")
-        crop_params = CropParams(margin_page=0.03) if config.crop_from_self else CropParams()
-        detector = TextDetection(
-            model_name=config.model,
-            model_dir=str(Path(args.paddlex_home) / "official_models" / config.model),
-            device="cpu",
-            cpu_threads=args.cpu_threads,
-            enable_mkldnn=False,  # oneDNN fails on this Paddle build (T05/B4)
-            limit_side_len=config.resize_long,
-            limit_type="resize_long",
-            box_thresh=config.box_thresh,
-            unclip_ratio=config.unclip_ratio,
-            thresh=config.thresh,
-        )
+        detector = create_detector(config, args.paddlex_home, args.cpu_threads)
         with path.open("a", encoding="utf-8") as handle:
             for index, img_id in enumerate(todo, 1):
                 image = read_bgr(args.dataset / f"{args.split}_images" / img_id)
                 height, width = image.shape[:2]
-                rect = None
-                if config.crop:
-                    source = crop_source[img_id]
-                    rect = text_crop_rect(source["boxes"], source["scores"], width, height, crop_params)
-                x0, y0 = (rect[0], rect[1]) if rect else (0, 0)
-                view = image[rect[1] : rect[3], rect[0] : rect[2]] if rect else image
-                start = time.perf_counter()
-                result = list(detector.predict(view))[0]
-                seconds = time.perf_counter() - start
-                boxes = [[[round(x + x0, 1), round(y + y0, 1)] for x, y in quad] for quad in np.asarray(result["dt_polys"]).tolist()]
-                record = {
-                    "img_id": img_id,
-                    "boxes": boxes,
-                    "scores": [round(float(s), 4) for s in result["dt_scores"]],
-                    "crop_rect": list(rect) if rect else None,
-                    "seconds": round(seconds, 3),
-                }
+                rect = crop_rectangle(config, crop_source[img_id], width, height) if config.crop else None
+                record = {"img_id": img_id, **detect(detector, image, rect)}
                 handle.write(json.dumps(record) + "\n")
                 handle.flush()
                 if index % 50 == 0:

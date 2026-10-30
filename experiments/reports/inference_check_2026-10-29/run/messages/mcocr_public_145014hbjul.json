@@ -1,0 +1,584 @@
+{
+  "status": 0,
+  "error": null,
+  "data": {
+    "id": "mcocr_public_145014hbjul",
+    "fields": {
+      "seller": {
+        "value": "NHÀ SÁCH GD-TC CẨM PHẢ",
+        "raw_text": "NHÀ SÁCH GD-TC CẨM PHẢ",
+        "confidence": 0.9996,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                186,
+                226
+              ],
+              [
+                363,
+                226
+              ],
+              [
+                363,
+                257
+              ],
+              [
+                186,
+                257
+              ]
+            ]
+          }
+        ]
+      },
+      "address": {
+        "value": "212 Đường Trần Phú-Cẩm Phả",
+        "raw_text": "212 Đường Trần Phú-Cẩm Phả",
+        "confidence": 0.9998,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                170,
+                243
+              ],
+              [
+                354,
+                243
+              ],
+              [
+                354,
+                272
+              ],
+              [
+                170,
+                272
+              ]
+            ]
+          }
+        ]
+      },
+      "timestamp": {
+        "value": "2020-08-13T09:33:26",
+        "raw_text": "09:33:26 - 13/08/2020",
+        "confidence": 0.9997,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                203,
+                300
+              ],
+              [
+                321,
+                300
+              ],
+              [
+                321,
+                321
+              ],
+              [
+                203,
+                321
+              ]
+            ]
+          }
+        ]
+      },
+      "total_cost": {
+        "value": "134000",
+        "raw_text": "134.000đ",
+        "confidence": 0.9997,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                356,
+                438
+              ],
+              [
+                415,
+                438
+              ],
+              [
+                415,
+                457
+              ],
+              [
+                356,
+                457
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    "line_items": [
+      {
+        "index": 1,
+        "item_name": {
+          "value": "Hộp bút TL-025",
+          "raw_text": "Hộp bút TL-025",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  143,
+                  336
+                ],
+                [
+                  231,
+                  336
+                ],
+                [
+                  231,
+                  354
+                ],
+                [
+                  143,
+                  354
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "1",
+          "raw_text": "1",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  266,
+                  344
+                ],
+                [
+                  274,
+                  344
+                ],
+                [
+                  274,
+                  351
+                ],
+                [
+                  266,
+                  351
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "95000",
+          "raw_text": "95.000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  283,
+                  340
+                ],
+                [
+                  322,
+                  340
+                ],
+                [
+                  322,
+                  354
+                ],
+                [
+                  283,
+                  354
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "95000",
+          "raw_text": "95.000đ",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  360,
+                  332
+                ],
+                [
+                  407,
+                  332
+                ],
+                [
+                  407,
+                  349
+                ],
+                [
+                  360,
+                  349
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "index": 2,
+        "item_name": {
+          "value": "Tiếng anh 11",
+          "raw_text": "Tiếng anh 11",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  144,
+                  353
+                ],
+                [
+                  217,
+                  353
+                ],
+                [
+                  217,
+                  372
+                ],
+                [
+                  144,
+                  372
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "1",
+          "raw_text": "1",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  266,
+                  358
+                ],
+                [
+                  276,
+                  358
+                ],
+                [
+                  276,
+                  369
+                ],
+                [
+                  266,
+                  369
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "16000",
+          "raw_text": "16.000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  284,
+                  356
+                ],
+                [
+                  323,
+                  356
+                ],
+                [
+                  323,
+                  370
+                ],
+                [
+                  284,
+                  370
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "16000",
+          "raw_text": "16.000đ",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  361,
+                  349
+                ],
+                [
+                  409,
+                  349
+                ],
+                [
+                  409,
+                  366
+                ],
+                [
+                  361,
+                  366
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "index": 3,
+        "item_name": {
+          "value": "Hóa 11",
+          "raw_text": "Hóa 11",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  145,
+                  370
+                ],
+                [
+                  187,
+                  370
+                ],
+                [
+                  187,
+                  387
+                ],
+                [
+                  145,
+                  387
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "1",
+          "raw_text": "1",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  267,
+                  375
+                ],
+                [
+                  288,
+                  375
+                ],
+                [
+                  288,
+                  385
+                ],
+                [
+                  267,
+                  385
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "18000",
+          "raw_text": "18.000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  285,
+                  372
+                ],
+                [
+                  325,
+                  372
+                ],
+                [
+                  325,
+                  387
+                ],
+                [
+                  285,
+                  387
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "18000",
+          "raw_text": "18.000đ",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  362,
+                  365
+                ],
+                [
+                  410,
+                  365
+                ],
+                [
+                  410,
+                  383
+                ],
+                [
+                  362,
+                  383
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "index": 4,
+        "item_name": {
+          "value": "3-Bảng tuần hoàn",
+          "raw_text": "3-Bảng tuần hoàn",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  146,
+                  387
+                ],
+                [
+                  246,
+                  387
+                ],
+                [
+                  246,
+                  406
+                ],
+                [
+                  146,
+                  406
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "1",
+          "raw_text": "1",
+          "confidence": 0.9993,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  268,
+                  393
+                ],
+                [
+                  277,
+                  393
+                ],
+                [
+                  277,
+                  402
+                ],
+                [
+                  268,
+                  402
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "5000",
+          "raw_text": "5.000",
+          "confidence": 0.973,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  293,
+                  389
+                ],
+                [
+                  326,
+                  389
+                ],
+                [
+                  326,
+                  404
+                ],
+                [
+                  293,
+                  404
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": null,
+          "raw_text": null,
+          "confidence": null,
+          "status": "absent",
+          "evidence": []
+        }
+      }
+    ],
+    "currency": "VND",
+    "overall_confidence": 0.9991,
+    "needs_review": true,
+    "warnings": [
+      {
+        "code": "FIELD_ABSENT",
+        "target": "line_items[4].line_total"
+      }
+    ],
+    "image": {
+      "width": 576,
+      "height": 1024,
+      "rotation_applied": 0.0
+    },
+    "meta": {
+      "schema_version": "1.0",
+      "model_version": "layoutxlm-e2-b10",
+      "ocr_version": "ocr_v2",
+      "postprocess_version": "kie_postprocess_v1",
+      "processing_ms": 3425,
+      "pipeline_version": "inference_pipeline_v1"
+    }
+  }
+}

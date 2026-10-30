@@ -1,0 +1,485 @@
+{
+  "status": 0,
+  "error": null,
+  "data": {
+    "id": "mcocr_public_145013atnil",
+    "fields": {
+      "seller": {
+        "value": "CỬA HÀNG NĂM OÁNH",
+        "raw_text": "CỬA HÀNG NĂM OÁNH",
+        "confidence": 0.9997,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                330,
+                238
+              ],
+              [
+                667,
+                238
+              ],
+              [
+                667,
+                276
+              ],
+              [
+                330,
+                276
+              ]
+            ]
+          }
+        ]
+      },
+      "address": {
+        "value": "Thôn Phú Thụy, Xã Phú Thị, Huyện Gia Lâm, TP Hà Nội",
+        "raw_text": "Thôn Phú Thụy, Xã Phú Thị, Huyện Gia Lâm, TP Hà Nội",
+        "confidence": 0.9998,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                154,
+                270
+              ],
+              [
+                847,
+                270
+              ],
+              [
+                847,
+                328
+              ],
+              [
+                154,
+                328
+              ]
+            ]
+          }
+        ]
+      },
+      "timestamp": {
+        "value": "2020-08-12T00:00:00",
+        "raw_text": "12-08-2020",
+        "confidence": 0.9998,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                706,
+                485
+              ],
+              [
+                855,
+                485
+              ],
+              [
+                855,
+                521
+              ],
+              [
+                706,
+                521
+              ]
+            ]
+          }
+        ]
+      },
+      "total_cost": {
+        "value": "178000",
+        "raw_text": "178,000",
+        "confidence": 0.9997,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                733,
+                1046
+              ],
+              [
+                882,
+                1046
+              ],
+              [
+                882,
+                1097
+              ],
+              [
+                733,
+                1097
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    "line_items": [
+      {
+        "index": 1,
+        "item_name": {
+          "value": "NG Ariel Dịu nhẹ 3.1L",
+          "raw_text": "NG Ariel Dịu nhẹ 3.1L",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  131,
+                  662
+                ],
+                [
+                  503,
+                  662
+                ],
+                [
+                  503,
+                  710
+                ],
+                [
+                  131,
+                  710
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "1",
+          "raw_text": "1",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  125,
+                  722
+                ],
+                [
+                  158,
+                  722
+                ],
+                [
+                  158,
+                  759
+                ],
+                [
+                  125,
+                  759
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "145000",
+          "raw_text": "145,000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  406,
+                  722
+                ],
+                [
+                  540,
+                  722
+                ],
+                [
+                  540,
+                  764
+                ],
+                [
+                  406,
+                  764
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "145000",
+          "raw_text": "145,000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  726,
+                  722
+                ],
+                [
+                  869,
+                  722
+                ],
+                [
+                  869,
+                  767
+                ],
+                [
+                  726,
+                  767
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "index": 2,
+        "item_name": {
+          "value": "BVS Sensi Cool móng cánh 8m",
+          "raw_text": "BVS Sensi Cool móng cánh 8m",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  120,
+                  778
+                ],
+                [
+                  643,
+                  778
+                ],
+                [
+                  643,
+                  830
+                ],
+                [
+                  120,
+                  830
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "1",
+          "raw_text": "1",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  118,
+                  844
+                ],
+                [
+                  146,
+                  844
+                ],
+                [
+                  146,
+                  875
+                ],
+                [
+                  118,
+                  875
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "18500",
+          "raw_text": "18,500",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  409,
+                  839
+                ],
+                [
+                  531,
+                  839
+                ],
+                [
+                  531,
+                  889
+                ],
+                [
+                  409,
+                  889
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "18500",
+          "raw_text": "18,500",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  750,
+                  844
+                ],
+                [
+                  874,
+                  844
+                ],
+                [
+                  874,
+                  890
+                ],
+                [
+                  750,
+                  890
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "index": 3,
+        "item_name": {
+          "value": "BVS Diana đây ke siêu thấm",
+          "raw_text": "BVS Diana đây ke siêu thấm",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  112,
+                  900
+                ],
+                [
+                  596,
+                  900
+                ],
+                [
+                  596,
+                  956
+                ],
+                [
+                  112,
+                  956
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "1",
+          "raw_text": "1",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  106,
+                  966
+                ],
+                [
+                  138,
+                  966
+                ],
+                [
+                  138,
+                  1003
+                ],
+                [
+                  106,
+                  1003
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "14500",
+          "raw_text": "14,500",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  409,
+                  968
+                ],
+                [
+                  529,
+                  968
+                ],
+                [
+                  529,
+                  1013
+                ],
+                [
+                  409,
+                  1013
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "14500",
+          "raw_text": "14,500",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  755,
+                  975
+                ],
+                [
+                  879,
+                  975
+                ],
+                [
+                  879,
+                  1017
+                ],
+                [
+                  755,
+                  1017
+                ]
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "currency": "VND",
+    "overall_confidence": 0.9999,
+    "needs_review": false,
+    "warnings": [],
+    "image": {
+      "width": 1024,
+      "height": 1365,
+      "rotation_applied": 0.0
+    },
+    "meta": {
+      "schema_version": "1.0",
+      "model_version": "layoutxlm-e2-b10",
+      "ocr_version": "ocr_v2",
+      "postprocess_version": "kie_postprocess_v1",
+      "processing_ms": 3515,
+      "pipeline_version": "inference_pipeline_v1"
+    }
+  }
+}

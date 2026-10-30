@@ -1,0 +1,410 @@
+{
+  "status": 0,
+  "error": null,
+  "data": {
+    "id": "mcocr_val_145115diyls",
+    "fields": {
+      "seller": {
+        "value": "VinCommerce",
+        "raw_text": "VinCommerce",
+        "confidence": 0.9998,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                252,
+                385
+              ],
+              [
+                348,
+                385
+              ],
+              [
+                348,
+                414
+              ],
+              [
+                252,
+                414
+              ]
+            ]
+          }
+        ]
+      },
+      "address": {
+        "value": "VM+ QNH 112 Thanh Niên Số 112 Thanh Niên, P. Cẩm Thành TP. Cẩm Phả, Quảng Ninh",
+        "raw_text": "VM+ QNH 112 Thanh Niên Số 112 Thanh Niên, P. Cẩm Thành TP. Cẩm Phả, Quảng Ninh",
+        "confidence": 0.9993,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                386,
+                355
+              ],
+              [
+                495,
+                355
+              ],
+              [
+                495,
+                373
+              ],
+              [
+                386,
+                373
+              ]
+            ]
+          },
+          {
+            "polygon": [
+              [
+                369,
+                372
+              ],
+              [
+                513,
+                372
+              ],
+              [
+                513,
+                392
+              ],
+              [
+                369,
+                392
+              ]
+            ]
+          },
+          {
+            "polygon": [
+              [
+                386,
+                391
+              ],
+              [
+                496,
+                391
+              ],
+              [
+                496,
+                410
+              ],
+              [
+                386,
+                410
+              ]
+            ]
+          }
+        ]
+      },
+      "timestamp": {
+        "value": "2020-08-10T06:18:00",
+        "raw_text": "10/08/2020 06:18",
+        "confidence": 0.9998,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                316,
+                460
+              ],
+              [
+                426,
+                460
+              ],
+              [
+                426,
+                476
+              ],
+              [
+                316,
+                476
+              ]
+            ]
+          }
+        ]
+      },
+      "total_cost": {
+        "value": "18200",
+        "raw_text": "18.200",
+        "confidence": 0.9997,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                505,
+                614
+              ],
+              [
+                550,
+                614
+              ],
+              [
+                550,
+                628
+              ],
+              [
+                505,
+                628
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    "line_items": [
+      {
+        "index": 1,
+        "item_name": {
+          "value": "Kẹo dẻo Haribo Happy Cola gói 30g",
+          "raw_text": "Kẹo dẻo Haribo Happy Cola gói 30g",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  250,
+                  526
+                ],
+                [
+                  483,
+                  526
+                ],
+                [
+                  483,
+                  544
+                ],
+                [
+                  250,
+                  544
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "1",
+          "raw_text": "1",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  461,
+                  549
+                ],
+                [
+                  468,
+                  549
+                ],
+                [
+                  468,
+                  555
+                ],
+                [
+                  461,
+                  555
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "9100",
+          "raw_text": "9.100",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  389,
+                  545
+                ],
+                [
+                  427,
+                  545
+                ],
+                [
+                  427,
+                  559
+                ],
+                [
+                  389,
+                  559
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "9100",
+          "raw_text": "9.100",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  508,
+                  543
+                ],
+                [
+                  547,
+                  543
+                ],
+                [
+                  547,
+                  558
+                ],
+                [
+                  508,
+                  558
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "index": 2,
+        "item_name": {
+          "value": "HARIBO Kẹo đẻo Goldbears 30g (T192)",
+          "raw_text": "HARIBO Kẹo đẻo Goldbears 30g (T192)",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  249,
+                  560
+                ],
+                [
+                  496,
+                  560
+                ],
+                [
+                  496,
+                  578
+                ],
+                [
+                  249,
+                  578
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "1",
+          "raw_text": "1",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  460,
+                  581
+                ],
+                [
+                  470,
+                  581
+                ],
+                [
+                  470,
+                  591
+                ],
+                [
+                  460,
+                  591
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "9100",
+          "raw_text": "9.100",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  389,
+                  579
+                ],
+                [
+                  428,
+                  579
+                ],
+                [
+                  428,
+                  594
+                ],
+                [
+                  389,
+                  594
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "9100",
+          "raw_text": "9.100",
+          "confidence": 0.9998,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  509,
+                  579
+                ],
+                [
+                  548,
+                  579
+                ],
+                [
+                  548,
+                  593
+                ],
+                [
+                  509,
+                  593
+                ]
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "currency": "VND",
+    "overall_confidence": 0.9998,
+    "needs_review": false,
+    "warnings": [],
+    "image": {
+      "width": 768,
+      "height": 1024,
+      "rotation_applied": 0.0
+    },
+    "meta": {
+      "schema_version": "1.0",
+      "model_version": "layoutxlm-e2-b10",
+      "ocr_version": "ocr_v2",
+      "postprocess_version": "kie_postprocess_v1",
+      "processing_ms": 3806,
+      "pipeline_version": "inference_pipeline_v1"
+    }
+  }
+}

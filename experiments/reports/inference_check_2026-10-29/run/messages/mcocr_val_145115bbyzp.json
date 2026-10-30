@@ -1,0 +1,370 @@
+{
+  "status": 0,
+  "error": null,
+  "data": {
+    "id": "mcocr_val_145115bbyzp",
+    "fields": {
+      "seller": {
+        "value": "MINIMART ANAN",
+        "raw_text": "MINIMART ANAN",
+        "confidence": 0.9996,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                334,
+                377
+              ],
+              [
+                485,
+                377
+              ],
+              [
+                485,
+                397
+              ],
+              [
+                334,
+                397
+              ]
+            ]
+          }
+        ]
+      },
+      "address": {
+        "value": "Chợ Sủi Phú Thị Gia Lâm",
+        "raw_text": "Chợ Sủi Phú Thị Gia Lâm",
+        "confidence": 0.9997,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                316,
+                404
+              ],
+              [
+                500,
+                404
+              ],
+              [
+                500,
+                423
+              ],
+              [
+                316,
+                423
+              ]
+            ]
+          }
+        ]
+      },
+      "timestamp": {
+        "value": "2020-08-11T21:12:00",
+        "raw_text": "11/08/2020-21:12",
+        "confidence": 0.9999,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                479,
+                878
+              ],
+              [
+                599,
+                878
+              ],
+              [
+                599,
+                904
+              ],
+              [
+                479,
+                904
+              ]
+            ]
+          }
+        ]
+      },
+      "total_cost": {
+        "value": "230000",
+        "raw_text": "230,000",
+        "confidence": 0.9997,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                535,
+                641
+              ],
+              [
+                600,
+                641
+              ],
+              [
+                600,
+                662
+              ],
+              [
+                535,
+                662
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    "line_items": [
+      {
+        "index": 1,
+        "item_name": {
+          "value": "nước giặt omo cửa trước túi N0",
+          "raw_text": "nước giặt omo cửa trước túi N0",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  326,
+                  509
+                ],
+                [
+                  554,
+                  509
+                ],
+                [
+                  554,
+                  531
+                ],
+                [
+                  326,
+                  531
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "1",
+          "raw_text": "1",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  311,
+                  535
+                ],
+                [
+                  327,
+                  535
+                ],
+                [
+                  327,
+                  552
+                ],
+                [
+                  311,
+                  552
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "160000",
+          "raw_text": "160,000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  427,
+                  533
+                ],
+                [
+                  489,
+                  533
+                ],
+                [
+                  489,
+                  554
+                ],
+                [
+                  427,
+                  554
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "160000",
+          "raw_text": "160,000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  529,
+                  533
+                ],
+                [
+                  592,
+                  533
+                ],
+                [
+                  592,
+                  552
+                ],
+                [
+                  529,
+                  552
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "index": 2,
+        "item_name": {
+          "value": "DG Dove phục hồi 320g NT",
+          "raw_text": "DG Dove phục hồi 320g NT",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  347,
+                  560
+                ],
+                [
+                  543,
+                  560
+                ],
+                [
+                  543,
+                  582
+                ],
+                [
+                  347,
+                  582
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "1",
+          "raw_text": "1",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  313,
+                  589
+                ],
+                [
+                  321,
+                  589
+                ],
+                [
+                  321,
+                  600
+                ],
+                [
+                  313,
+                  600
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "70000",
+          "raw_text": "70,000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  435,
+                  585
+                ],
+                [
+                  490,
+                  585
+                ],
+                [
+                  490,
+                  606
+                ],
+                [
+                  435,
+                  606
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "70000",
+          "raw_text": "70,000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  540,
+                  584
+                ],
+                [
+                  595,
+                  584
+                ],
+                [
+                  595,
+                  606
+                ],
+                [
+                  540,
+                  606
+                ]
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "currency": "VND",
+    "overall_confidence": 0.9998,
+    "needs_review": false,
+    "warnings": [],
+    "image": {
+      "width": 795,
+      "height": 1044,
+      "rotation_applied": 358.48
+    },
+    "meta": {
+      "schema_version": "1.0",
+      "model_version": "layoutxlm-e2-b10",
+      "ocr_version": "ocr_v2",
+      "postprocess_version": "kie_postprocess_v1",
+      "processing_ms": 4441,
+      "pipeline_version": "inference_pipeline_v1"
+    }
+  }
+}

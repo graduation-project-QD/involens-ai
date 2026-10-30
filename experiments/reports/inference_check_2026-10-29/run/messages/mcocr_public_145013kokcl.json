@@ -1,0 +1,337 @@
+{
+  "status": 0,
+  "error": null,
+  "data": {
+    "id": "mcocr_public_145013kokcl",
+    "fields": {
+      "seller": {
+        "value": "MINIMARI ANAN",
+        "raw_text": "MINIMARI ANAN",
+        "confidence": 0.9997,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                224,
+                80
+              ],
+              [
+                456,
+                80
+              ],
+              [
+                456,
+                125
+              ],
+              [
+                224,
+                125
+              ]
+            ]
+          }
+        ]
+      },
+      "address": {
+        "value": "Chợ Sủi Phú Thị Gia Lâm",
+        "raw_text": "Chợ Sủi Phú Thị Gia Lâm",
+        "confidence": 0.995,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                195,
+                125
+              ],
+              [
+                479,
+                125
+              ],
+              [
+                479,
+                162
+              ],
+              [
+                195,
+                162
+              ]
+            ]
+          }
+        ]
+      },
+      "timestamp": {
+        "value": null,
+        "raw_text": null,
+        "confidence": null,
+        "status": "absent",
+        "evidence": []
+      },
+      "total_cost": {
+        "value": null,
+        "raw_text": ",132,000",
+        "confidence": 0.9997,
+        "status": "absent",
+        "evidence": []
+      }
+    },
+    "line_items": [
+      {
+        "index": 1,
+        "item_name": {
+          "value": "Mì chính ajinomoto 1kg NT",
+          "raw_text": "Mì chính ajinomoto 1kg NT",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  219,
+                  286
+                ],
+                [
+                  513,
+                  286
+                ],
+                [
+                  513,
+                  323
+                ],
+                [
+                  219,
+                  323
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "2",
+          "raw_text": "2",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  200,
+                  326
+                ],
+                [
+                  219,
+                  326
+                ],
+                [
+                  219,
+                  347
+                ],
+                [
+                  200,
+                  347
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "62000",
+          "raw_text": "62,000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  383,
+                  323
+                ],
+                [
+                  461,
+                  323
+                ],
+                [
+                  461,
+                  354
+                ],
+                [
+                  383,
+                  354
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "124000",
+          "raw_text": "124,000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  521,
+                  312
+                ],
+                [
+                  614,
+                  312
+                ],
+                [
+                  614,
+                  351
+                ],
+                [
+                  521,
+                  351
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "index": 2,
+        "item_name": {
+          "value": "BVS Libera 8p NT",
+          "raw_text": "BVS Libera 8p NT",
+          "confidence": 0.9998,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  226,
+                  362
+                ],
+                [
+                  439,
+                  362
+                ],
+                [
+                  439,
+                  392
+                ],
+                [
+                  226,
+                  392
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "1",
+          "raw_text": "1",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  202,
+                  402
+                ],
+                [
+                  217,
+                  402
+                ],
+                [
+                  217,
+                  416
+                ],
+                [
+                  202,
+                  416
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "8000",
+          "raw_text": "8,000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  397,
+                  394
+                ],
+                [
+                  465,
+                  394
+                ],
+                [
+                  465,
+                  428
+                ],
+                [
+                  397,
+                  428
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "8000",
+          "raw_text": "8,000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  548,
+                  386
+                ],
+                [
+                  619,
+                  386
+                ],
+                [
+                  619,
+                  422
+                ],
+                [
+                  548,
+                  422
+                ]
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "currency": "VND",
+    "overall_confidence": 0.9991,
+    "needs_review": true,
+    "warnings": [
+      {
+        "code": "FIELD_ABSENT",
+        "target": "fields.timestamp"
+      },
+      {
+        "code": "FIELD_ABSENT",
+        "target": "fields.total_cost"
+      }
+    ],
+    "image": {
+      "width": 768,
+      "height": 1024,
+      "rotation_applied": 0.0
+    },
+    "meta": {
+      "schema_version": "1.0",
+      "model_version": "layoutxlm-e2-b10",
+      "ocr_version": "ocr_v2",
+      "postprocess_version": "kie_postprocess_v1",
+      "processing_ms": 3212,
+      "pipeline_version": "inference_pipeline_v1"
+    }
+  }
+}

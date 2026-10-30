@@ -1,0 +1,390 @@
+{
+  "status": 0,
+  "error": null,
+  "data": {
+    "id": "mcocr_public_145014nerzt",
+    "fields": {
+      "seller": {
+        "value": "PHỐ MỎ",
+        "raw_text": "PHỐ MỎ",
+        "confidence": 0.9961,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                218,
+                50
+              ],
+              [
+                326,
+                50
+              ],
+              [
+                326,
+                85
+              ],
+              [
+                218,
+                85
+              ]
+            ]
+          }
+        ]
+      },
+      "address": {
+        "value": "Tổ 7 khu Tân Lập 4 - P.Cẩm Thủy - Tp.Cẩm Phả - Quảng Ninh",
+        "raw_text": "Tổ 7 khu Tân Lập 4 - P.Cẩm Thủy - Tp.Cẩm Phả - Quảng Ninh",
+        "confidence": 0.7429,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                74,
+                73
+              ],
+              [
+                464,
+                73
+              ],
+              [
+                464,
+                115
+              ],
+              [
+                74,
+                115
+              ]
+            ]
+          },
+          {
+            "polygon": [
+              [
+                122,
+                100
+              ],
+              [
+                427,
+                100
+              ],
+              [
+                427,
+                141
+              ],
+              [
+                122,
+                141
+              ]
+            ]
+          }
+        ]
+      },
+      "timestamp": {
+        "value": "2020-08-13T20:30:00",
+        "raw_text": "13 / 08 / 2020 - 20 : 30",
+        "confidence": 0.998,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                183,
+                227
+              ],
+              [
+                365,
+                227
+              ],
+              [
+                365,
+                252
+              ],
+              [
+                183,
+                252
+              ]
+            ]
+          }
+        ]
+      },
+      "total_cost": {
+        "value": "50000",
+        "raw_text": "50,000",
+        "confidence": 0.9997,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                425,
+                612
+              ],
+              [
+                492,
+                612
+              ],
+              [
+                492,
+                639
+              ],
+              [
+                425,
+                639
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    "line_items": [
+      {
+        "index": 1,
+        "item_name": {
+          "value": "Up Sz Quất Nha Đam",
+          "raw_text": "Up Sz Quất Nha Đam",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  60,
+                  399
+                ],
+                [
+                  261,
+                  399
+                ],
+                [
+                  261,
+                  428
+                ],
+                [
+                  60,
+                  428
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "1",
+          "raw_text": "1",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  315,
+                  433
+                ],
+                [
+                  332,
+                  433
+                ],
+                [
+                  332,
+                  452
+                ],
+                [
+                  315,
+                  452
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "30000",
+          "raw_text": "30,000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  58,
+                  430
+                ],
+                [
+                  122,
+                  430
+                ],
+                [
+                  122,
+                  457
+                ],
+                [
+                  58,
+                  457
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "30000",
+          "raw_text": "30,000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  417,
+                  428
+                ],
+                [
+                  481,
+                  428
+                ],
+                [
+                  481,
+                  453
+                ],
+                [
+                  417,
+                  453
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "index": 2,
+        "item_name": {
+          "value": "Trà chanh Up Sz",
+          "raw_text": "Trà chanh Up Sz",
+          "confidence": 0.9998,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  58,
+                  463
+                ],
+                [
+                  215,
+                  463
+                ],
+                [
+                  215,
+                  489
+                ],
+                [
+                  58,
+                  489
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "1",
+          "raw_text": "1",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  315,
+                  493
+                ],
+                [
+                  334,
+                  493
+                ],
+                [
+                  334,
+                  514
+                ],
+                [
+                  315,
+                  514
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "20000",
+          "raw_text": "20,000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  57,
+                  493
+                ],
+                [
+                  120,
+                  493
+                ],
+                [
+                  120,
+                  516
+                ],
+                [
+                  57,
+                  516
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "20000",
+          "raw_text": "20,000",
+          "confidence": 0.9998,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  419,
+                  489
+                ],
+                [
+                  485,
+                  489
+                ],
+                [
+                  485,
+                  515
+                ],
+                [
+                  419,
+                  515
+                ]
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "currency": "VND",
+    "overall_confidence": 0.9935,
+    "needs_review": false,
+    "warnings": [],
+    "image": {
+      "width": 576,
+      "height": 1024,
+      "rotation_applied": 0.0
+    },
+    "meta": {
+      "schema_version": "1.0",
+      "model_version": "layoutxlm-e2-b10",
+      "ocr_version": "ocr_v2",
+      "postprocess_version": "kie_postprocess_v1",
+      "processing_ms": 2661,
+      "pipeline_version": "inference_pipeline_v1"
+    }
+  }
+}

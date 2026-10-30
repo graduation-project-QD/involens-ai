@@ -1,0 +1,435 @@
+{
+  "status": 0,
+  "error": null,
+  "data": {
+    "id": "mcocr_public_145014umhqi",
+    "fields": {
+      "seller": {
+        "value": "Co.opFood.",
+        "raw_text": "Co.opFood.",
+        "confidence": 0.9733,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                469,
+                1119
+              ],
+              [
+                652,
+                1119
+              ],
+              [
+                652,
+                1171
+              ],
+              [
+                469,
+                1171
+              ]
+            ]
+          }
+        ]
+      },
+      "address": {
+        "value": "Du an Dau tu xay dung khu nha o Hi Brand tai Khu do thi moi Van Phu, P. Phu La, Q. Ha Dong, Tp Ha Noi",
+        "raw_text": "Du an Dau tu xay dung khu nha o Hi Brand tai Khu do thi moi Van Phu, P. Phu La, Q. Ha Dong, Tp Ha Noi",
+        "confidence": 0.9776,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                346,
+                0
+              ],
+              [
+                900,
+                0
+              ],
+              [
+                900,
+                26
+              ],
+              [
+                346,
+                26
+              ]
+            ]
+          },
+          {
+            "polygon": [
+              [
+                452,
+                20
+              ],
+              [
+                828,
+                20
+              ],
+              [
+                828,
+                55
+              ],
+              [
+                452,
+                55
+              ]
+            ]
+          },
+          {
+            "polygon": [
+              [
+                409,
+                49
+              ],
+              [
+                857,
+                49
+              ],
+              [
+                857,
+                90
+              ],
+              [
+                409,
+                90
+              ]
+            ]
+          }
+        ]
+      },
+      "timestamp": {
+        "value": "2019-09-23T11:00:11",
+        "raw_text": "23/09/2019 11:00:11",
+        "confidence": 0.9609,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                611,
+                279
+              ],
+              [
+                903,
+                279
+              ],
+              [
+                903,
+                318
+              ],
+              [
+                611,
+                318
+              ]
+            ]
+          }
+        ]
+      },
+      "total_cost": {
+        "value": "57000",
+        "raw_text": "57,000.00",
+        "confidence": 0.9997,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                762,
+                563
+              ],
+              [
+                908,
+                563
+              ],
+              [
+                908,
+                604
+              ],
+              [
+                762,
+                604
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    "line_items": [
+      {
+        "index": 1,
+        "item_name": {
+          "value": "Keo the Playmore dua hau",
+          "raw_text": "Keo the Playmore dua hau",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  549,
+                  384
+                ],
+                [
+                  892,
+                  384
+                ],
+                [
+                  892,
+                  421
+                ],
+                [
+                  549,
+                  421
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "1",
+          "raw_text": "1",
+          "confidence": 0.9996,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  453,
+                  419
+                ],
+                [
+                  472,
+                  419
+                ],
+                [
+                  472,
+                  455
+                ],
+                [
+                  453,
+                  455
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "29800",
+          "raw_text": "29,800.00",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  544,
+                  419
+                ],
+                [
+                  685,
+                  419
+                ],
+                [
+                  685,
+                  458
+                ],
+                [
+                  544,
+                  458
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "29800",
+          "raw_text": "29,800.00",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  763,
+                  417
+                ],
+                [
+                  905,
+                  417
+                ],
+                [
+                  905,
+                  458
+                ],
+                [
+                  763,
+                  458
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "index": 2,
+        "item_name": {
+          "value": "Kem iceWaffle socola 150m",
+          "raw_text": "Kem iceWaffle socola 150m",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  543,
+                  455
+                ],
+                [
+                  905,
+                  455
+                ],
+                [
+                  905,
+                  490
+                ],
+                [
+                  543,
+                  490
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "1",
+          "raw_text": null,
+          "confidence": null,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  541,
+                  490
+                ],
+                [
+                  684,
+                  490
+                ],
+                [
+                  684,
+                  529
+                ],
+                [
+                  541,
+                  529
+                ]
+              ]
+            },
+            {
+              "polygon": [
+                [
+                  762,
+                  490
+                ],
+                [
+                  906,
+                  490
+                ],
+                [
+                  906,
+                  530
+                ],
+                [
+                  762,
+                  530
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "27200",
+          "raw_text": "27,200.00",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  541,
+                  490
+                ],
+                [
+                  684,
+                  490
+                ],
+                [
+                  684,
+                  529
+                ],
+                [
+                  541,
+                  529
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "27200",
+          "raw_text": "27,200.00",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  762,
+                  490
+                ],
+                [
+                  906,
+                  490
+                ],
+                [
+                  906,
+                  530
+                ],
+                [
+                  762,
+                  530
+                ]
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "currency": "VND",
+    "overall_confidence": 0.997,
+    "needs_review": true,
+    "warnings": [
+      {
+        "code": "QUANTITY_INFERRED",
+        "target": "line_items[2].quantity"
+      }
+    ],
+    "image": {
+      "width": 1024,
+      "height": 1366,
+      "rotation_applied": 0.0
+    },
+    "meta": {
+      "schema_version": "1.0",
+      "model_version": "layoutxlm-e2-b10",
+      "ocr_version": "ocr_v2",
+      "postprocess_version": "kie_postprocess_v1",
+      "processing_ms": 4078,
+      "pipeline_version": "inference_pipeline_v1"
+    }
+  }
+}

@@ -1,0 +1,600 @@
+{
+  "status": 0,
+  "error": null,
+  "data": {
+    "id": "mcocr_public_145014gcycl",
+    "fields": {
+      "seller": {
+        "value": "MINIMART ANAN",
+        "raw_text": "MINIMART ANAN",
+        "confidence": 0.9995,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                248,
+                212
+              ],
+              [
+                416,
+                212
+              ],
+              [
+                416,
+                245
+              ],
+              [
+                248,
+                245
+              ]
+            ]
+          }
+        ]
+      },
+      "address": {
+        "value": "Chợ Sủi Phú Thị Gia Lâm",
+        "raw_text": "Chợ Sủi Phú Thị Gia Lâm",
+        "confidence": 0.9997,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                226,
+                240
+              ],
+              [
+                434,
+                240
+              ],
+              [
+                434,
+                274
+              ],
+              [
+                226,
+                274
+              ]
+            ]
+          }
+        ]
+      },
+      "timestamp": {
+        "value": "2020-08-17T08:43:00",
+        "raw_text": "17/08/2020-08:43",
+        "confidence": 0.9999,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                407,
+                986
+              ],
+              [
+                560,
+                986
+              ],
+              [
+                560,
+                1018
+              ],
+              [
+                407,
+                1018
+              ]
+            ]
+          }
+        ]
+      },
+      "total_cost": {
+        "value": "107000",
+        "raw_text": "107,000",
+        "confidence": 0.9822,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                480,
+                710
+              ],
+              [
+                553,
+                710
+              ],
+              [
+                553,
+                735
+              ],
+              [
+                480,
+                735
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    "line_items": [
+      {
+        "index": 1,
+        "item_name": {
+          "value": "Sữa chua đường VNM 100g NT",
+          "raw_text": "Sữa chua đường VNM 100g NT",
+          "confidence": 0.9995,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  243,
+                  359
+                ],
+                [
+                  496,
+                  359
+                ],
+                [
+                  496,
+                  392
+                ],
+                [
+                  243,
+                  392
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "8",
+          "raw_text": "8",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  228,
+                  414
+                ],
+                [
+                  239,
+                  414
+                ],
+                [
+                  239,
+                  428
+                ],
+                [
+                  228,
+                  428
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "5250",
+          "raw_text": "5,250",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  373,
+                  419
+                ],
+                [
+                  420,
+                  419
+                ],
+                [
+                  420,
+                  438
+                ],
+                [
+                  373,
+                  438
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "42000",
+          "raw_text": "42,000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  472,
+                  413
+                ],
+                [
+                  531,
+                  413
+                ],
+                [
+                  531,
+                  437
+                ],
+                [
+                  472,
+                  437
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "index": 2,
+        "item_name": {
+          "value": "Hạt nêm Knor 175g, vissan NT",
+          "raw_text": "Hạt nêm Knor 175g, vissan NT",
+          "confidence": 0.9998,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  241,
+                  441
+                ],
+                [
+                  492,
+                  441
+                ],
+                [
+                  492,
+                  469
+                ],
+                [
+                  241,
+                  469
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "1",
+          "raw_text": "1",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  226,
+                  469
+                ],
+                [
+                  240,
+                  469
+                ],
+                [
+                  240,
+                  486
+                ],
+                [
+                  226,
+                  486
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "14000",
+          "raw_text": "14,000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  365,
+                  469
+                ],
+                [
+                  422,
+                  469
+                ],
+                [
+                  422,
+                  492
+                ],
+                [
+                  365,
+                  492
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "14000",
+          "raw_text": "14,000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  475,
+                  466
+                ],
+                [
+                  534,
+                  466
+                ],
+                [
+                  534,
+                  493
+                ],
+                [
+                  475,
+                  493
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "index": 3,
+        "item_name": {
+          "value": "kdr ngọc châu hộp 100g N0",
+          "raw_text": "kdr ngọc châu hộp 100g N0",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  262,
+                  499
+                ],
+                [
+                  482,
+                  499
+                ],
+                [
+                  482,
+                  522
+                ],
+                [
+                  262,
+                  522
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "1",
+          "raw_text": "1",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  225,
+                  527
+                ],
+                [
+                  238,
+                  527
+                ],
+                [
+                  238,
+                  544
+                ],
+                [
+                  225,
+                  544
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "35000",
+          "raw_text": "35,000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  364,
+                  523
+                ],
+                [
+                  425,
+                  523
+                ],
+                [
+                  425,
+                  547
+                ],
+                [
+                  364,
+                  547
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "35000",
+          "raw_text": "35,000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  476,
+                  523
+                ],
+                [
+                  537,
+                  523
+                ],
+                [
+                  537,
+                  548
+                ],
+                [
+                  476,
+                  548
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "index": 4,
+        "item_name": {
+          "value": "SCU susu dâu VNM 110ml NT",
+          "raw_text": "SCU susu dâu VNM 110ml NT",
+          "confidence": 0.9987,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  240,
+                  554
+                ],
+                [
+                  494,
+                  554
+                ],
+                [
+                  494,
+                  578
+                ],
+                [
+                  240,
+                  578
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "4",
+          "raw_text": "4",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  223,
+                  615
+                ],
+                [
+                  236,
+                  615
+                ],
+                [
+                  236,
+                  632
+                ],
+                [
+                  223,
+                  632
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "4000",
+          "raw_text": "4,000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  376,
+                  609
+                ],
+                [
+                  427,
+                  609
+                ],
+                [
+                  427,
+                  633
+                ],
+                [
+                  376,
+                  633
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "16000",
+          "raw_text": "16,000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  484,
+                  609
+                ],
+                [
+                  541,
+                  609
+                ],
+                [
+                  541,
+                  632
+                ],
+                [
+                  484,
+                  632
+                ]
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "currency": "VND",
+    "overall_confidence": 0.9994,
+    "needs_review": false,
+    "warnings": [],
+    "image": {
+      "width": 768,
+      "height": 1024,
+      "rotation_applied": 0.0
+    },
+    "meta": {
+      "schema_version": "1.0",
+      "model_version": "layoutxlm-e2-b10",
+      "ocr_version": "ocr_v2",
+      "postprocess_version": "kie_postprocess_v1",
+      "processing_ms": 3659,
+      "pipeline_version": "inference_pipeline_v1"
+    }
+  }
+}

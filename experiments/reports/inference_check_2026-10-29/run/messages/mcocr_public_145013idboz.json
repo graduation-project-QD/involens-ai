@@ -1,0 +1,430 @@
+{
+  "status": 0,
+  "error": null,
+  "data": {
+    "id": "mcocr_public_145013idboz",
+    "fields": {
+      "seller": {
+        "value": "VinCommerce",
+        "raw_text": "VinCommerce",
+        "confidence": 0.9998,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                133,
+                232
+              ],
+              [
+                283,
+                232
+              ],
+              [
+                283,
+                275
+              ],
+              [
+                133,
+                275
+              ]
+            ]
+          }
+        ]
+      },
+      "address": {
+        "value": "VM+ QNH 86 Trần Phú Số 86 Đường Trần Phú, P. Cẩm Tây TP Cẩm Phả, T. Quảng Ninh.",
+        "raw_text": "VM+ QNH 86 Trần Phú Số 86 Đường Trần Phú, P. Cẩm Tây TP Cẩm Phả, T. Quảng Ninh.",
+        "confidence": 0.9977,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                359,
+                183
+              ],
+              [
+                509,
+                183
+              ],
+              [
+                509,
+                212
+              ],
+              [
+                359,
+                212
+              ]
+            ]
+          },
+          {
+            "polygon": [
+              [
+                313,
+                210
+              ],
+              [
+                553,
+                210
+              ],
+              [
+                553,
+                246
+              ],
+              [
+                313,
+                246
+              ]
+            ]
+          },
+          {
+            "polygon": [
+              [
+                335,
+                239
+              ],
+              [
+                526,
+                239
+              ],
+              [
+                526,
+                275
+              ],
+              [
+                335,
+                275
+              ]
+            ]
+          }
+        ]
+      },
+      "timestamp": {
+        "value": "2020-08-09T13:28:00",
+        "raw_text": "09/08/2020 13:28",
+        "confidence": 0.9997,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                230,
+                344
+              ],
+              [
+                410,
+                344
+              ],
+              [
+                410,
+                372
+              ],
+              [
+                230,
+                372
+              ]
+            ]
+          }
+        ]
+      },
+      "total_cost": {
+        "value": "41500",
+        "raw_text": "41.500",
+        "confidence": 0.9998,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                527,
+                594
+              ],
+              [
+                600,
+                594
+              ],
+              [
+                600,
+                614
+              ],
+              [
+                527,
+                614
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    "line_items": [
+      {
+        "index": 1,
+        "item_name": {
+          "value": "NESCAFE Café Việt lon 170ml T24",
+          "raw_text": "NESCAFE Café Việt lon 170ml T24",
+          "confidence": 0.9998,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  128,
+                  454
+                ],
+                [
+                  267,
+                  454
+                ],
+                [
+                  267,
+                  477
+                ],
+                [
+                  128,
+                  477
+                ]
+              ]
+            },
+            {
+              "polygon": [
+                [
+                  276,
+                  454
+                ],
+                [
+                  486,
+                  454
+                ],
+                [
+                  486,
+                  483
+                ],
+                [
+                  276,
+                  483
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "2",
+          "raw_text": "2",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  452,
+                  485
+                ],
+                [
+                  478,
+                  485
+                ],
+                [
+                  478,
+                  508
+                ],
+                [
+                  452,
+                  508
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "12500",
+          "raw_text": "12.500",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  338,
+                  483
+                ],
+                [
+                  408,
+                  483
+                ],
+                [
+                  408,
+                  506
+                ],
+                [
+                  338,
+                  506
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "25000",
+          "raw_text": "25.000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  525,
+                  485
+                ],
+                [
+                  597,
+                  485
+                ],
+                [
+                  597,
+                  507
+                ],
+                [
+                  525,
+                  507
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "index": 2,
+        "item_name": {
+          "value": "DKSH: Mr.Brown vị socola 240ml T24",
+          "raw_text": "DKSH: Mr.Brown vị socola 240ml T24",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  126,
+                  509
+                ],
+                [
+                  507,
+                  509
+                ],
+                [
+                  507,
+                  534
+                ],
+                [
+                  126,
+                  534
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "1",
+          "raw_text": "1",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  460,
+                  541
+                ],
+                [
+                  474,
+                  541
+                ],
+                [
+                  474,
+                  559
+                ],
+                [
+                  460,
+                  559
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "16500",
+          "raw_text": "16.500",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  339,
+                  538
+                ],
+                [
+                  408,
+                  538
+                ],
+                [
+                  408,
+                  561
+                ],
+                [
+                  339,
+                  561
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "16500",
+          "raw_text": "16.500",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  528,
+                  540
+                ],
+                [
+                  598,
+                  540
+                ],
+                [
+                  598,
+                  561
+                ],
+                [
+                  528,
+                  561
+                ]
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "currency": "VND",
+    "overall_confidence": 0.9995,
+    "needs_review": false,
+    "warnings": [],
+    "image": {
+      "width": 720,
+      "height": 1280,
+      "rotation_applied": 0.0
+    },
+    "meta": {
+      "schema_version": "1.0",
+      "model_version": "layoutxlm-e2-b10",
+      "ocr_version": "ocr_v2",
+      "postprocess_version": "kie_postprocess_v1",
+      "processing_ms": 3492,
+      "pipeline_version": "inference_pipeline_v1"
+    }
+  }
+}

@@ -1,0 +1,295 @@
+{
+  "status": 0,
+  "error": null,
+  "data": {
+    "id": "mcocr_public_145014obtof",
+    "fields": {
+      "seller": {
+        "value": "VinCommerce",
+        "raw_text": "VinCommerce",
+        "confidence": 0.9998,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                120,
+                188
+              ],
+              [
+                218,
+                188
+              ],
+              [
+                218,
+                221
+              ],
+              [
+                120,
+                221
+              ]
+            ]
+          }
+        ]
+      },
+      "address": {
+        "value": "VM+ QNH Tổ 7, Khu Minh Tiến A Tổ 7, Khu Minh Tiến A P. Cẩm Bình, TP. Cẩm Phả, QNH",
+        "raw_text": "VM+ QNH Tổ 7, Khu Minh Tiến A Tổ 7, Khu Minh Tiến A P. Cẩm Bình, TP. Cẩm Phả, QNH",
+        "confidence": 0.9996,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                242,
+                156
+              ],
+              [
+                381,
+                156
+              ],
+              [
+                381,
+                178
+              ],
+              [
+                242,
+                178
+              ]
+            ]
+          },
+          {
+            "polygon": [
+              [
+                263,
+                177
+              ],
+              [
+                360,
+                177
+              ],
+              [
+                360,
+                195
+              ],
+              [
+                263,
+                195
+              ]
+            ]
+          },
+          {
+            "polygon": [
+              [
+                243,
+                196
+              ],
+              [
+                380,
+                196
+              ],
+              [
+                380,
+                214
+              ],
+              [
+                243,
+                214
+              ]
+            ]
+          }
+        ]
+      },
+      "timestamp": {
+        "value": "2020-08-13T15:59:00",
+        "raw_text": "13/08/2020 15:59",
+        "confidence": 0.9997,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                185,
+                263
+              ],
+              [
+                297,
+                263
+              ],
+              [
+                297,
+                282
+              ],
+              [
+                185,
+                282
+              ]
+            ]
+          }
+        ]
+      },
+      "total_cost": {
+        "value": "139000",
+        "raw_text": "139.000",
+        "confidence": 0.9998,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                367,
+                383
+              ],
+              [
+                417,
+                383
+              ],
+              [
+                417,
+                397
+              ],
+              [
+                367,
+                397
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    "line_items": [
+      {
+        "index": 1,
+        "item_name": {
+          "value": "VM HOME Dù gấp gọn bán t.đ trơn M1(đen)",
+          "raw_text": "VM HOME Dù gấp gọn bán t.đ trơn M1(đen)",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  120,
+                  330
+                ],
+                [
+                  395,
+                  330
+                ],
+                [
+                  395,
+                  349
+                ],
+                [
+                  120,
+                  349
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "1",
+          "raw_text": "1",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  328,
+                  349
+                ],
+                [
+                  342,
+                  349
+                ],
+                [
+                  342,
+                  362
+                ],
+                [
+                  328,
+                  362
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "139000",
+          "raw_text": "139.000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  248,
+                  350
+                ],
+                [
+                  298,
+                  350
+                ],
+                [
+                  298,
+                  364
+                ],
+                [
+                  248,
+                  364
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "139000",
+          "raw_text": "139.000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  365,
+                  348
+                ],
+                [
+                  417,
+                  348
+                ],
+                [
+                  417,
+                  364
+                ],
+                [
+                  365,
+                  364
+                ]
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "currency": "VND",
+    "overall_confidence": 0.9998,
+    "needs_review": false,
+    "warnings": [],
+    "image": {
+      "width": 576,
+      "height": 1024,
+      "rotation_applied": 0.0
+    },
+    "meta": {
+      "schema_version": "1.0",
+      "model_version": "layoutxlm-e2-b10",
+      "ocr_version": "ocr_v2",
+      "postprocess_version": "kie_postprocess_v1",
+      "processing_ms": 3273,
+      "pipeline_version": "inference_pipeline_v1"
+    }
+  }
+}

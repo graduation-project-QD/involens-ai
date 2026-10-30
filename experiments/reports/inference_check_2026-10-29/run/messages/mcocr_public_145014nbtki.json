@@ -1,0 +1,700 @@
+{
+  "status": 0,
+  "error": null,
+  "data": {
+    "id": "mcocr_public_145014nbtki",
+    "fields": {
+      "seller": {
+        "value": "VinCommerce",
+        "raw_text": "VinCommerce",
+        "confidence": 0.9998,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                264,
+                225
+              ],
+              [
+                409,
+                225
+              ],
+              [
+                409,
+                265
+              ],
+              [
+                264,
+                265
+              ]
+            ]
+          }
+        ]
+      },
+      "address": {
+        "value": "VM+ HNI 32 Láng Trung P. Láng Hạ Số 32 ngo Lăng 10 Q.Đống Đa, Hà Nội",
+        "raw_text": "VM+ HNI 32 Láng Trung P. Láng Hạ Số 32 ngo Lăng 10 Q.Đống Đa, Hà Nội",
+        "confidence": 0.8325,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                473,
+                140
+              ],
+              [
+                643,
+                140
+              ],
+              [
+                643,
+                183
+              ],
+              [
+                473,
+                183
+              ]
+            ]
+          },
+          {
+            "polygon": [
+              [
+                594,
+                167
+              ],
+              [
+                678,
+                167
+              ],
+              [
+                678,
+                199
+              ],
+              [
+                594,
+                199
+              ]
+            ]
+          },
+          {
+            "polygon": [
+              [
+                441,
+                174
+              ],
+              [
+                603,
+                174
+              ],
+              [
+                603,
+                218
+              ],
+              [
+                441,
+                218
+              ]
+            ]
+          },
+          {
+            "polygon": [
+              [
+                487,
+                198
+              ],
+              [
+                628,
+                198
+              ],
+              [
+                628,
+                240
+              ],
+              [
+                487,
+                240
+              ]
+            ]
+          }
+        ]
+      },
+      "timestamp": {
+        "value": "2020-08-02T12:39:00",
+        "raw_text": "02/08/2020 12:39",
+        "confidence": 0.9998,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                353,
+                317
+              ],
+              [
+                536,
+                317
+              ],
+              [
+                536,
+                354
+              ],
+              [
+                353,
+                354
+              ]
+            ]
+          }
+        ]
+      },
+      "total_cost": {
+        "value": "101100",
+        "raw_text": "101.100",
+        "confidence": 0.9998,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                646,
+                677
+              ],
+              [
+                730,
+                677
+              ],
+              [
+                730,
+                700
+              ],
+              [
+                646,
+                700
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    "line_items": [
+      {
+        "index": 1,
+        "item_name": {
+          "value": "Dăm bông hấp Đức Việt gói a000",
+          "raw_text": "Dăm bông hấp Đức Việt gói a000",
+          "confidence": 0.9994,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  241,
+                  420
+                ],
+                [
+                  535,
+                  420
+                ],
+                [
+                  535,
+                  458
+                ],
+                [
+                  241,
+                  458
+                ]
+              ]
+            },
+            {
+              "polygon": [
+                [
+                  540,
+                  420
+                ],
+                [
+                  591,
+                  420
+                ],
+                [
+                  591,
+                  444
+                ],
+                [
+                  540,
+                  444
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "1",
+          "raw_text": "1",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  589,
+                  452
+                ],
+                [
+                  598,
+                  452
+                ],
+                [
+                  598,
+                  467
+                ],
+                [
+                  589,
+                  467
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "39500",
+          "raw_text": "39.500",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  458,
+                  453
+                ],
+                [
+                  533,
+                  453
+                ],
+                [
+                  533,
+                  478
+                ],
+                [
+                  458,
+                  478
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "39500",
+          "raw_text": "39.500",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  656,
+                  439
+                ],
+                [
+                  733,
+                  439
+                ],
+                [
+                  733,
+                  465
+                ],
+                [
+                  656,
+                  465
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "index": 2,
+        "item_name": {
+          "value": "SCA Vinamilk rá đường hộp 100g",
+          "raw_text": "SCA Vinamilk rá đường hộp 100g",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  241,
+                  478
+                ],
+                [
+                  539,
+                  478
+                ],
+                [
+                  539,
+                  505
+                ],
+                [
+                  241,
+                  505
+                ]
+              ]
+            },
+            {
+              "polygon": [
+                [
+                  529,
+                  480
+                ],
+                [
+                  589,
+                  480
+                ],
+                [
+                  589,
+                  504
+                ],
+                [
+                  529,
+                  504
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "4",
+          "raw_text": "4",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  586,
+                  506
+                ],
+                [
+                  603,
+                  506
+                ],
+                [
+                  603,
+                  526
+                ],
+                [
+                  586,
+                  526
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "6000",
+          "raw_text": "6.000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  467,
+                  505
+                ],
+                [
+                  533,
+                  505
+                ],
+                [
+                  533,
+                  530
+                ],
+                [
+                  467,
+                  530
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "24000",
+          "raw_text": "24.000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  656,
+                  498
+                ],
+                [
+                  731,
+                  498
+                ],
+                [
+                  731,
+                  526
+                ],
+                [
+                  656,
+                  526
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "index": 3,
+        "item_name": {
+          "value": "Sữa TT Vinamilk có đường túi 220ml",
+          "raw_text": "Sữa TT Vinamilk có đường túi 220ml",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  240,
+                  529
+                ],
+                [
+                  636,
+                  529
+                ],
+                [
+                  636,
+                  562
+                ],
+                [
+                  240,
+                  562
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "1",
+          "raw_text": "1",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  585,
+                  564
+                ],
+                [
+                  605,
+                  564
+                ],
+                [
+                  605,
+                  585
+                ],
+                [
+                  585,
+                  585
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "7200",
+          "raw_text": "7.200",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  466,
+                  559
+                ],
+                [
+                  533,
+                  559
+                ],
+                [
+                  533,
+                  585
+                ],
+                [
+                  466,
+                  585
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "7200",
+          "raw_text": "7.200",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  668,
+                  559
+                ],
+                [
+                  728,
+                  559
+                ],
+                [
+                  728,
+                  585
+                ],
+                [
+                  668,
+                  585
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "index": 4,
+        "item_name": {
+          "value": "Sữa TTT TH True Milk ít đường gói 220ml",
+          "raw_text": "Sữa TTT TH True Milk ít đường gói 220ml",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  246,
+                  586
+                ],
+                [
+                  693,
+                  586
+                ],
+                [
+                  693,
+                  617
+                ],
+                [
+                  246,
+                  617
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "4",
+          "raw_text": "4",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  586,
+                  619
+                ],
+                [
+                  603,
+                  619
+                ],
+                [
+                  603,
+                  640
+                ],
+                [
+                  586,
+                  640
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "7600",
+          "raw_text": "7.600",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  466,
+                  617
+                ],
+                [
+                  532,
+                  617
+                ],
+                [
+                  532,
+                  642
+                ],
+                [
+                  466,
+                  642
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "30400",
+          "raw_text": "30.400",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  656,
+                  619
+                ],
+                [
+                  729,
+                  619
+                ],
+                [
+                  729,
+                  643
+                ],
+                [
+                  656,
+                  643
+                ]
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "currency": "VND",
+    "overall_confidence": 0.99,
+    "needs_review": false,
+    "warnings": [],
+    "image": {
+      "width": 1063,
+      "height": 1395,
+      "rotation_applied": 1.64
+    },
+    "meta": {
+      "schema_version": "1.0",
+      "model_version": "layoutxlm-e2-b10",
+      "ocr_version": "ocr_v2",
+      "postprocess_version": "kie_postprocess_v1",
+      "processing_ms": 3897,
+      "pipeline_version": "inference_pipeline_v1"
+    }
+  }
+}

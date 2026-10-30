@@ -1,0 +1,255 @@
+{
+  "status": 0,
+  "error": null,
+  "data": {
+    "id": "mcocr_public_145013tlipr",
+    "fields": {
+      "seller": {
+        "value": "MINIMART ANAN",
+        "raw_text": "MINIMART ANAN",
+        "confidence": 0.9997,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                306,
+                386
+              ],
+              [
+                448,
+                386
+              ],
+              [
+                448,
+                406
+              ],
+              [
+                306,
+                406
+              ]
+            ]
+          }
+        ]
+      },
+      "address": {
+        "value": "Chợ Sủi Phú Thị Gia Lâm",
+        "raw_text": "Chợ Sủi Phú Thị Gia Lâm",
+        "confidence": 0.9997,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                287,
+                409
+              ],
+              [
+                464,
+                409
+              ],
+              [
+                464,
+                429
+              ],
+              [
+                287,
+                429
+              ]
+            ]
+          }
+        ]
+      },
+      "timestamp": {
+        "value": "2020-08-10T17:12:00",
+        "raw_text": "10/08/2020-17:12",
+        "confidence": 0.9998,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                431,
+                861
+              ],
+              [
+                545,
+                861
+              ],
+              [
+                545,
+                880
+              ],
+              [
+                431,
+                880
+              ]
+            ]
+          }
+        ]
+      },
+      "total_cost": {
+        "value": "42000",
+        "raw_text": "42,000",
+        "confidence": 0.9876,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                501,
+                645
+              ],
+              [
+                555,
+                645
+              ],
+              [
+                555,
+                667
+              ],
+              [
+                501,
+                667
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    "line_items": [
+      {
+        "index": 1,
+        "item_name": {
+          "value": "kem sữa chua subo VNM NT",
+          "raw_text": "kem sữa chua subo VNM NT",
+          "confidence": 0.9998,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  299,
+                  513
+                ],
+                [
+                  498,
+                  513
+                ],
+                [
+                  498,
+                  532
+                ],
+                [
+                  299,
+                  532
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "15",
+          "raw_text": "15",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  271,
+                  558
+                ],
+                [
+                  293,
+                  558
+                ],
+                [
+                  293,
+                  575
+                ],
+                [
+                  271,
+                  575
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "2800",
+          "raw_text": "2,800",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  407,
+                  560
+                ],
+                [
+                  450,
+                  560
+                ],
+                [
+                  450,
+                  579
+                ],
+                [
+                  407,
+                  579
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "42000",
+          "raw_text": "42,000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  496,
+                  560
+                ],
+                [
+                  549,
+                  560
+                ],
+                [
+                  549,
+                  581
+                ],
+                [
+                  496,
+                  581
+                ]
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "currency": "VND",
+    "overall_confidence": 0.9992,
+    "needs_review": false,
+    "warnings": [],
+    "image": {
+      "width": 768,
+      "height": 1024,
+      "rotation_applied": 0.0
+    },
+    "meta": {
+      "schema_version": "1.0",
+      "model_version": "layoutxlm-e2-b10",
+      "ocr_version": "ocr_v2",
+      "postprocess_version": "kie_postprocess_v1",
+      "processing_ms": 3486,
+      "pipeline_version": "inference_pipeline_v1"
+    }
+  }
+}

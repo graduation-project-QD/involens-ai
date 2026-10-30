@@ -1,0 +1,610 @@
+{
+  "status": 0,
+  "error": null,
+  "data": {
+    "id": "mcocr_val_145115tuidk",
+    "fields": {
+      "seller": {
+        "value": "SCTC CÔ THỎ 104 TRẦN PHÚ - CẨM PHẢ",
+        "raw_text": "SCTC CÔ THỎ 104 TRẦN PHÚ - CẨM PHẢ",
+        "confidence": 0.9987,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                154,
+                231
+              ],
+              [
+                493,
+                231
+              ],
+              [
+                493,
+                270
+              ],
+              [
+                154,
+                270
+              ]
+            ]
+          },
+          {
+            "polygon": [
+              [
+                297,
+                261
+              ],
+              [
+                345,
+                261
+              ],
+              [
+                345,
+                289
+              ],
+              [
+                297,
+                289
+              ]
+            ]
+          }
+        ]
+      },
+      "address": {
+        "value": "104 Trần Phú Thủ - phường Cẩm Tây - Thành phố Cẩm Phả Quảng Ninh",
+        "raw_text": "104 Trần Phú Thủ - phường Cẩm Tây - Thành phố Cẩm Phả Quảng Ninh",
+        "confidence": 0.9997,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                146,
+                296
+              ],
+              [
+                244,
+                296
+              ],
+              [
+                244,
+                317
+              ],
+              [
+                146,
+                317
+              ]
+            ]
+          },
+          {
+            "polygon": [
+              [
+                232,
+                289
+              ],
+              [
+                501,
+                289
+              ],
+              [
+                501,
+                317
+              ],
+              [
+                232,
+                317
+              ]
+            ]
+          },
+          {
+            "polygon": [
+              [
+                255,
+                313
+              ],
+              [
+                386,
+                313
+              ],
+              [
+                386,
+                337
+              ],
+              [
+                255,
+                337
+              ]
+            ]
+          }
+        ]
+      },
+      "timestamp": {
+        "value": "2020-08-08T20:14:00",
+        "raw_text": "08/08/2020 (08:14 CH - 08:14 CH)",
+        "confidence": 0.9876,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                131,
+                475
+              ],
+              [
+                358,
+                475
+              ],
+              [
+                358,
+                495
+              ],
+              [
+                131,
+                495
+              ]
+            ]
+          }
+        ]
+      },
+      "total_cost": {
+        "value": "120000",
+        "raw_text": "120.000đ",
+        "confidence": 0.9997,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                414,
+                700
+              ],
+              [
+                513,
+                700
+              ],
+              [
+                513,
+                725
+              ],
+              [
+                414,
+                725
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    "line_items": [
+      {
+        "index": 1,
+        "item_name": {
+          "value": "Sữa chua việt quất",
+          "raw_text": "Sữa chua việt quất",
+          "confidence": 0.9998,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  160,
+                  581
+                ],
+                [
+                  254,
+                  581
+                ],
+                [
+                  254,
+                  599
+                ],
+                [
+                  160,
+                  599
+                ]
+              ]
+            },
+            {
+              "polygon": [
+                [
+                  156,
+                  597
+                ],
+                [
+                  198,
+                  597
+                ],
+                [
+                  198,
+                  622
+                ],
+                [
+                  156,
+                  622
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "2",
+          "raw_text": "2",
+          "confidence": 0.9998,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  305,
+                  590
+                ],
+                [
+                  315,
+                  590
+                ],
+                [
+                  315,
+                  602
+                ],
+                [
+                  305,
+                  602
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "35000",
+          "raw_text": "35.000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  341,
+                  586
+                ],
+                [
+                  393,
+                  586
+                ],
+                [
+                  393,
+                  607
+                ],
+                [
+                  341,
+                  607
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "70000",
+          "raw_text": "70.000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  458,
+                  586
+                ],
+                [
+                  507,
+                  586
+                ],
+                [
+                  507,
+                  605
+                ],
+                [
+                  458,
+                  605
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "index": 2,
+        "item_name": {
+          "value": "Sữa chua chanh leo",
+          "raw_text": "Sữa chua chanh leo",
+          "confidence": 0.9996,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  158,
+                  623
+                ],
+                [
+                  227,
+                  623
+                ],
+                [
+                  227,
+                  641
+                ],
+                [
+                  158,
+                  641
+                ]
+              ]
+            },
+            {
+              "polygon": [
+                [
+                  157,
+                  641
+                ],
+                [
+                  232,
+                  641
+                ],
+                [
+                  232,
+                  660
+                ],
+                [
+                  157,
+                  660
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "1",
+          "raw_text": null,
+          "confidence": null,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  340,
+                  627
+                ],
+                [
+                  392,
+                  627
+                ],
+                [
+                  392,
+                  649
+                ],
+                [
+                  340,
+                  649
+                ]
+              ]
+            },
+            {
+              "polygon": [
+                [
+                  458,
+                  630
+                ],
+                [
+                  509,
+                  630
+                ],
+                [
+                  509,
+                  648
+                ],
+                [
+                  458,
+                  648
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "25000",
+          "raw_text": "25.000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  340,
+                  627
+                ],
+                [
+                  392,
+                  627
+                ],
+                [
+                  392,
+                  649
+                ],
+                [
+                  340,
+                  649
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "25000",
+          "raw_text": "25.000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  458,
+                  630
+                ],
+                [
+                  509,
+                  630
+                ],
+                [
+                  509,
+                  648
+                ],
+                [
+                  458,
+                  648
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "index": 3,
+        "item_name": {
+          "value": "Sữa chua cacao",
+          "raw_text": "Sữa chua cacao",
+          "confidence": 0.9998,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  158,
+                  670
+                ],
+                [
+                  268,
+                  670
+                ],
+                [
+                  268,
+                  686
+                ],
+                [
+                  158,
+                  686
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "1",
+          "raw_text": "1",
+          "confidence": 0.9998,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  305,
+                  672
+                ],
+                [
+                  311,
+                  672
+                ],
+                [
+                  311,
+                  678
+                ],
+                [
+                  305,
+                  678
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "25000",
+          "raw_text": "25.000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  340,
+                  666
+                ],
+                [
+                  392,
+                  666
+                ],
+                [
+                  392,
+                  686
+                ],
+                [
+                  340,
+                  686
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "25000",
+          "raw_text": "25.000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  459,
+                  668
+                ],
+                [
+                  509,
+                  668
+                ],
+                [
+                  509,
+                  686
+                ],
+                [
+                  459,
+                  686
+                ]
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "currency": "VND",
+    "overall_confidence": 0.999,
+    "needs_review": true,
+    "warnings": [
+      {
+        "code": "QUANTITY_INFERRED",
+        "target": "line_items[2].quantity"
+      }
+    ],
+    "image": {
+      "width": 768,
+      "height": 1024,
+      "rotation_applied": 270.0
+    },
+    "meta": {
+      "schema_version": "1.0",
+      "model_version": "layoutxlm-e2-b10",
+      "ocr_version": "ocr_v2",
+      "postprocess_version": "kie_postprocess_v1",
+      "processing_ms": 3257,
+      "pipeline_version": "inference_pipeline_v1"
+    }
+  }
+}

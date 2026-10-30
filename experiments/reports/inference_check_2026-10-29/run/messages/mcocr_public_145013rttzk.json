@@ -1,0 +1,315 @@
+{
+  "status": 0,
+  "error": null,
+  "data": {
+    "id": "mcocr_public_145013rttzk",
+    "fields": {
+      "seller": {
+        "value": "THE COFFEE HOUSE",
+        "raw_text": "THE COFFEE HOUSE",
+        "confidence": 0.9993,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                164,
+                365
+              ],
+              [
+                220,
+                365
+              ],
+              [
+                220,
+                394
+              ],
+              [
+                164,
+                394
+              ]
+            ]
+          },
+          {
+            "polygon": [
+              [
+                224,
+                364
+              ],
+              [
+                339,
+                364
+              ],
+              [
+                339,
+                396
+              ],
+              [
+                224,
+                396
+              ]
+            ]
+          },
+          {
+            "polygon": [
+              [
+                341,
+                363
+              ],
+              [
+                439,
+                363
+              ],
+              [
+                439,
+                396
+              ],
+              [
+                341,
+                396
+              ]
+            ]
+          }
+        ]
+      },
+      "address": {
+        "value": "403 Phan Huy Ích, P.14, Q.Gò Vấp",
+        "raw_text": "403 Phan Huy Ích, P.14, Q.Gò Vấp",
+        "confidence": 0.9996,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                179,
+                398
+              ],
+              [
+                423,
+                398
+              ],
+              [
+                423,
+                421
+              ],
+              [
+                179,
+                421
+              ]
+            ]
+          }
+        ]
+      },
+      "timestamp": {
+        "value": "2020-10-01T09:40:00",
+        "raw_text": "01.10.2020 09.40",
+        "confidence": 0.9997,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                191,
+                442
+              ],
+              [
+                308,
+                442
+              ],
+              [
+                308,
+                466
+              ],
+              [
+                191,
+                466
+              ]
+            ]
+          }
+        ]
+      },
+      "total_cost": {
+        "value": "52000",
+        "raw_text": "52 000",
+        "confidence": 0.9989,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                425,
+                610
+              ],
+              [
+                480,
+                610
+              ],
+              [
+                480,
+                628
+              ],
+              [
+                425,
+                628
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    "line_items": [
+      {
+        "index": 1,
+        "item_name": {
+          "value": "Oolong Sen An Nhiên - Đá (Vừa)",
+          "raw_text": "Oolong Sen An Nhiên - Đá (Vừa)",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  157,
+                  540
+                ],
+                [
+                  249,
+                  540
+                ],
+                [
+                  249,
+                  557
+                ],
+                [
+                  157,
+                  557
+                ]
+              ]
+            },
+            {
+              "polygon": [
+                [
+                  157,
+                  554
+                ],
+                [
+                  261,
+                  554
+                ],
+                [
+                  261,
+                  574
+                ],
+                [
+                  157,
+                  574
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "1",
+          "raw_text": "1",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  289,
+                  549
+                ],
+                [
+                  302,
+                  549
+                ],
+                [
+                  302,
+                  564
+                ],
+                [
+                  289,
+                  564
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "52000",
+          "raw_text": "52 000",
+          "confidence": 0.9994,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  329,
+                  549
+                ],
+                [
+                  375,
+                  549
+                ],
+                [
+                  375,
+                  565
+                ],
+                [
+                  329,
+                  565
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "52000",
+          "raw_text": "52 000",
+          "confidence": 0.9994,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  432,
+                  549
+                ],
+                [
+                  481,
+                  549
+                ],
+                [
+                  481,
+                  566
+                ],
+                [
+                  432,
+                  566
+                ]
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "currency": "VND",
+    "overall_confidence": 0.9997,
+    "needs_review": false,
+    "warnings": [],
+    "image": {
+      "width": 625,
+      "height": 1051,
+      "rotation_applied": 2.8
+    },
+    "meta": {
+      "schema_version": "1.0",
+      "model_version": "layoutxlm-e2-b10",
+      "ocr_version": "ocr_v2",
+      "postprocess_version": "kie_postprocess_v1",
+      "processing_ms": 3542,
+      "pipeline_version": "inference_pipeline_v1"
+    }
+  }
+}

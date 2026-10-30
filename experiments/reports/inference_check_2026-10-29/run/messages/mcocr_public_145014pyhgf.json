@@ -1,0 +1,605 @@
+{
+  "status": 0,
+  "error": null,
+  "data": {
+    "id": "mcocr_public_145014pyhgf",
+    "fields": {
+      "seller": {
+        "value": "Saigon Co.op Co.op Food HN THE K-PARK",
+        "raw_text": "Saigon Co.op Co.op Food HN THE K-PARK",
+        "confidence": 0.9983,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                497,
+                1
+              ],
+              [
+                680,
+                1
+              ],
+              [
+                680,
+                41
+              ],
+              [
+                497,
+                41
+              ]
+            ]
+          },
+          {
+            "polygon": [
+              [
+                409,
+                27
+              ],
+              [
+                770,
+                27
+              ],
+              [
+                770,
+                76
+              ],
+              [
+                409,
+                76
+              ]
+            ]
+          }
+        ]
+      },
+      "address": {
+        "value": "Tang 1,SH42 - Toa K3,Cong trinh chung cu ket hop dich vu tren o dat H-CT2 thuoc Du an Dau tu xay dung Khu nha o Hi Brand tai Khu do thi moi Van Phu, P. Phu La, Q. Ha Dong, Tp Ha Noi",
+        "raw_text": "Tang 1,SH42 - Toa K3,Cong trinh chung cu ket hop dich vu tren o dat H-CT2 thuoc Du an Dau tu xay dung Khu nha o Hi Brand tai Khu do thi moi Van Phu, P. Phu La, Q. Ha Dong, Tp Ha Noi",
+        "confidence": 0.9495,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                273,
+                96
+              ],
+              [
+                877,
+                96
+              ],
+              [
+                877,
+                148
+              ],
+              [
+                273,
+                148
+              ]
+            ]
+          },
+          {
+            "polygon": [
+              [
+                281,
+                128
+              ],
+              [
+                864,
+                128
+              ],
+              [
+                864,
+                182
+              ],
+              [
+                281,
+                182
+              ]
+            ]
+          },
+          {
+            "polygon": [
+              [
+                264,
+                160
+              ],
+              [
+                882,
+                160
+              ],
+              [
+                882,
+                217
+              ],
+              [
+                264,
+                217
+              ]
+            ]
+          },
+          {
+            "polygon": [
+              [
+                383,
+                201
+              ],
+              [
+                800,
+                201
+              ],
+              [
+                800,
+                246
+              ],
+              [
+                383,
+                246
+              ]
+            ]
+          },
+          {
+            "polygon": [
+              [
+                333,
+                234
+              ],
+              [
+                833,
+                234
+              ],
+              [
+                833,
+                284
+              ],
+              [
+                333,
+                284
+              ]
+            ]
+          }
+        ]
+      },
+      "timestamp": {
+        "value": "2019-09-23T09:34:16",
+        "raw_text": "23/09/2019 9:34:16",
+        "confidence": 0.8759,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                554,
+                492
+              ],
+              [
+                728,
+                492
+              ],
+              [
+                728,
+                533
+              ],
+              [
+                554,
+                533
+              ]
+            ]
+          },
+          {
+            "polygon": [
+              [
+                762,
+                492
+              ],
+              [
+                888,
+                492
+              ],
+              [
+                888,
+                529
+              ],
+              [
+                762,
+                529
+              ]
+            ]
+          }
+        ]
+      },
+      "total_cost": {
+        "value": "24500",
+        "raw_text": "24,500.00",
+        "confidence": 0.9997,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                735,
+                951
+              ],
+              [
+                908,
+                951
+              ],
+              [
+                908,
+                999
+              ],
+              [
+                735,
+                999
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    "line_items": [
+      {
+        "index": 1,
+        "item_name": {
+          "value": "Bong lan cuon 100g-BM990",
+          "raw_text": "Bong lan cuon 100g-BM990",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  484,
+                  607
+                ],
+                [
+                  877,
+                  607
+                ],
+                [
+                  877,
+                  649
+                ],
+                [
+                  484,
+                  649
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "1",
+          "raw_text": "1",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  367,
+                  652
+                ],
+                [
+                  395,
+                  652
+                ],
+                [
+                  395,
+                  682
+                ],
+                [
+                  367,
+                  682
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "9900",
+          "raw_text": "9,900.00",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  499,
+                  645
+                ],
+                [
+                  642,
+                  645
+                ],
+                [
+                  642,
+                  690
+                ],
+                [
+                  499,
+                  690
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "9900",
+          "raw_text": "9,900.00",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  749,
+                  647
+                ],
+                [
+                  895,
+                  647
+                ],
+                [
+                  895,
+                  691
+                ],
+                [
+                  749,
+                  691
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "index": 2,
+        "item_name": {
+          "value": "Bngot A3INOMOT0 140g",
+          "raw_text": "Bngot A3INOMOT0 140g",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  465,
+                  686
+                ],
+                [
+                  812,
+                  686
+                ],
+                [
+                  812,
+                  734
+                ],
+                [
+                  465,
+                  734
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "1",
+          "raw_text": "1",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  355,
+                  734
+                ],
+                [
+                  386,
+                  734
+                ],
+                [
+                  386,
+                  764
+                ],
+                [
+                  355,
+                  764
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "10000",
+          "raw_text": "10,000.00",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  480,
+                  728
+                ],
+                [
+                  642,
+                  728
+                ],
+                [
+                  642,
+                  772
+                ],
+                [
+                  480,
+                  772
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "10000",
+          "raw_text": "10,000.00",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  735,
+                  731
+                ],
+                [
+                  898,
+                  731
+                ],
+                [
+                  898,
+                  773
+                ],
+                [
+                  735,
+                  773
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "index": 3,
+        "item_name": {
+          "value": "Bot canh lot HAICHAU 190g",
+          "raw_text": "Bot canh lot HAICHAU 190g",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  472,
+                  811
+                ],
+                [
+                  903,
+                  811
+                ],
+                [
+                  903,
+                  865
+                ],
+                [
+                  472,
+                  865
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "1",
+          "raw_text": "1",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  337,
+                  852
+                ],
+                [
+                  387,
+                  852
+                ],
+                [
+                  387,
+                  902
+                ],
+                [
+                  337,
+                  902
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "4600",
+          "raw_text": "4,600.00",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  490,
+                  856
+                ],
+                [
+                  639,
+                  856
+                ],
+                [
+                  639,
+                  904
+                ],
+                [
+                  490,
+                  904
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "4600",
+          "raw_text": "4,600.00",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  753,
+                  861
+                ],
+                [
+                  905,
+                  861
+                ],
+                [
+                  905,
+                  908
+                ],
+                [
+                  753,
+                  908
+                ]
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "currency": "VND",
+    "overall_confidence": 0.9938,
+    "needs_review": false,
+    "warnings": [],
+    "image": {
+      "width": 1024,
+      "height": 1366,
+      "rotation_applied": 0.0
+    },
+    "meta": {
+      "schema_version": "1.0",
+      "model_version": "layoutxlm-e2-b10",
+      "ocr_version": "ocr_v2",
+      "postprocess_version": "kie_postprocess_v1",
+      "processing_ms": 4803,
+      "pipeline_version": "inference_pipeline_v1"
+    }
+  }
+}

@@ -1,0 +1,485 @@
+{
+  "status": 0,
+  "error": null,
+  "data": {
+    "id": "mcocr_val_145115vxzfr",
+    "fields": {
+      "seller": {
+        "value": "MINIMART ANAN",
+        "raw_text": "MINIMART ANAN",
+        "confidence": 0.9997,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                322,
+                412
+              ],
+              [
+                474,
+                412
+              ],
+              [
+                474,
+                433
+              ],
+              [
+                322,
+                433
+              ]
+            ]
+          }
+        ]
+      },
+      "address": {
+        "value": "Chợ Sủi Phú Thị Gia Lâm",
+        "raw_text": "Chợ Sủi Phú Thị Gia Lâm",
+        "confidence": 0.9996,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                302,
+                438
+              ],
+              [
+                491,
+                438
+              ],
+              [
+                491,
+                461
+              ],
+              [
+                302,
+                461
+              ]
+            ]
+          }
+        ]
+      },
+      "timestamp": {
+        "value": "2020-08-09T09:15:00",
+        "raw_text": "09/08/2020-09:15",
+        "confidence": 0.9999,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                454,
+                801
+              ],
+              [
+                582,
+                801
+              ],
+              [
+                582,
+                825
+              ],
+              [
+                454,
+                825
+              ]
+            ]
+          }
+        ]
+      },
+      "total_cost": {
+        "value": "93000",
+        "raw_text": "93,000",
+        "confidence": 0.9998,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                531,
+                744
+              ],
+              [
+                587,
+                744
+              ],
+              [
+                587,
+                766
+              ],
+              [
+                531,
+                766
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    "line_items": [
+      {
+        "index": 1,
+        "item_name": {
+          "value": "Giấy rút cân victory, rosar NT",
+          "raw_text": "Giấy rút cân victory, rosar NT",
+          "confidence": 0.9992,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  311,
+                  552
+                ],
+                [
+                  533,
+                  552
+                ],
+                [
+                  533,
+                  575
+                ],
+                [
+                  311,
+                  575
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "1",
+          "raw_text": "1",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  299,
+                  578
+                ],
+                [
+                  310,
+                  578
+                ],
+                [
+                  310,
+                  591
+                ],
+                [
+                  299,
+                  591
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "34000",
+          "raw_text": "34,000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  422,
+                  575
+                ],
+                [
+                  476,
+                  575
+                ],
+                [
+                  476,
+                  598
+                ],
+                [
+                  422,
+                  598
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "34000",
+          "raw_text": "34,000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  526,
+                  578
+                ],
+                [
+                  581,
+                  578
+                ],
+                [
+                  581,
+                  598
+                ],
+                [
+                  526,
+                  598
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "index": 2,
+        "item_name": {
+          "value": "Bia ken lon 330ml NT",
+          "raw_text": "Bia ken lon 330ml NT",
+          "confidence": 0.998,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  319,
+                  604
+                ],
+                [
+                  476,
+                  604
+                ],
+                [
+                  476,
+                  625
+                ],
+                [
+                  319,
+                  625
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "1",
+          "raw_text": "1",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  293,
+                  628
+                ],
+                [
+                  311,
+                  628
+                ],
+                [
+                  311,
+                  645
+                ],
+                [
+                  293,
+                  645
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "17000",
+          "raw_text": "17,000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  423,
+                  630
+                ],
+                [
+                  477,
+                  630
+                ],
+                [
+                  477,
+                  650
+                ],
+                [
+                  423,
+                  650
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "17000",
+          "raw_text": "17,000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  529,
+                  632
+                ],
+                [
+                  584,
+                  632
+                ],
+                [
+                  584,
+                  652
+                ],
+                [
+                  529,
+                  652
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "index": 3,
+        "item_name": {
+          "value": "Bia 333 NT",
+          "raw_text": "Bia 333 NT",
+          "confidence": 0.999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  318,
+                  658
+                ],
+                [
+                  401,
+                  658
+                ],
+                [
+                  401,
+                  678
+                ],
+                [
+                  318,
+                  678
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "4",
+          "raw_text": "4",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  295,
+                  684
+                ],
+                [
+                  307,
+                  684
+                ],
+                [
+                  307,
+                  699
+                ],
+                [
+                  295,
+                  699
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "10500",
+          "raw_text": "10,500",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  423,
+                  684
+                ],
+                [
+                  478,
+                  684
+                ],
+                [
+                  478,
+                  706
+                ],
+                [
+                  423,
+                  706
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "42000",
+          "raw_text": "42,000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  529,
+                  686
+                ],
+                [
+                  585,
+                  686
+                ],
+                [
+                  585,
+                  708
+                ],
+                [
+                  529,
+                  708
+                ]
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "currency": "VND",
+    "overall_confidence": 0.9997,
+    "needs_review": false,
+    "warnings": [],
+    "image": {
+      "width": 768,
+      "height": 1024,
+      "rotation_applied": 0.0
+    },
+    "meta": {
+      "schema_version": "1.0",
+      "model_version": "layoutxlm-e2-b10",
+      "ocr_version": "ocr_v2",
+      "postprocess_version": "kie_postprocess_v1",
+      "processing_ms": 3608,
+      "pipeline_version": "inference_pipeline_v1"
+    }
+  }
+}

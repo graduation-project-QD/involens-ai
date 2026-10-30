@@ -1,0 +1,525 @@
+{
+  "status": 0,
+  "error": null,
+  "data": {
+    "id": "mcocr_public_145014divcp",
+    "fields": {
+      "seller": {
+        "value": "VinCommerce",
+        "raw_text": "VinCommerce",
+        "confidence": 0.9998,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                204,
+                188
+              ],
+              [
+                337,
+                188
+              ],
+              [
+                337,
+                231
+              ],
+              [
+                204,
+                231
+              ]
+            ]
+          }
+        ]
+      },
+      "address": {
+        "value": "VM+ QNH 1060-1062 Trần Phú Số 1060-1062 Đường Trần Phú TP. Cẩm Phả, Quảng Ninh",
+        "raw_text": "VM+ QNH 1060-1062 Trần Phú Số 1060-1062 Đường Trần Phú TP. Cẩm Phả, Quảng Ninh",
+        "confidence": 0.9949,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                376,
+                148
+              ],
+              [
+                551,
+                148
+              ],
+              [
+                551,
+                173
+              ],
+              [
+                376,
+                173
+              ]
+            ]
+          },
+          {
+            "polygon": [
+              [
+                375,
+                175
+              ],
+              [
+                553,
+                175
+              ],
+              [
+                553,
+                199
+              ],
+              [
+                375,
+                199
+              ]
+            ]
+          },
+          {
+            "polygon": [
+              [
+                390,
+                202
+              ],
+              [
+                540,
+                202
+              ],
+              [
+                540,
+                225
+              ],
+              [
+                390,
+                225
+              ]
+            ]
+          }
+        ]
+      },
+      "timestamp": {
+        "value": "2020-08-15T07:42:00",
+        "raw_text": "15/08/2020 07:42",
+        "confidence": 0.9997,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                293,
+                293
+              ],
+              [
+                444,
+                293
+              ],
+              [
+                444,
+                317
+              ],
+              [
+                293,
+                317
+              ]
+            ]
+          }
+        ]
+      },
+      "total_cost": {
+        "value": "319500",
+        "raw_text": "319.500",
+        "confidence": 0.9998,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                537,
+                553
+              ],
+              [
+                609,
+                553
+              ],
+              [
+                609,
+                572
+              ],
+              [
+                537,
+                572
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    "line_items": [
+      {
+        "index": 1,
+        "item_name": {
+          "value": "CP_Thịt ba rọi có da 300g",
+          "raw_text": "CP_Thịt ba rọi có da 300g",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  203,
+                  386
+                ],
+                [
+                  444,
+                  386
+                ],
+                [
+                  444,
+                  411
+                ],
+                [
+                  203,
+                  411
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "3",
+          "raw_text": "3",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  486,
+                  413
+                ],
+                [
+                  501,
+                  413
+                ],
+                [
+                  501,
+                  431
+                ],
+                [
+                  486,
+                  431
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "66500",
+          "raw_text": "66.500",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  383,
+                  412
+                ],
+                [
+                  444,
+                  412
+                ],
+                [
+                  444,
+                  432
+                ],
+                [
+                  383,
+                  432
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "199500",
+          "raw_text": "199.500",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  536,
+                  412
+                ],
+                [
+                  605,
+                  412
+                ],
+                [
+                  605,
+                  430
+                ],
+                [
+                  536,
+                  430
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "index": 2,
+        "item_name": {
+          "value": "COLGATE Kem đánh răng tinhdầu chanh 180g",
+          "raw_text": "COLGATE Kem đánh răng tinhdầu chanh 180g",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  203,
+                  434
+                ],
+                [
+                  587,
+                  434
+                ],
+                [
+                  587,
+                  456
+                ],
+                [
+                  203,
+                  456
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "1",
+          "raw_text": "1",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  487,
+                  460
+                ],
+                [
+                  503,
+                  460
+                ],
+                [
+                  503,
+                  477
+                ],
+                [
+                  487,
+                  477
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "48000",
+          "raw_text": "48.000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  383,
+                  458
+                ],
+                [
+                  445,
+                  458
+                ],
+                [
+                  445,
+                  479
+                ],
+                [
+                  383,
+                  479
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "48000",
+          "raw_text": "48.000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  545,
+                  458
+                ],
+                [
+                  606,
+                  458
+                ],
+                [
+                  606,
+                  478
+                ],
+                [
+                  545,
+                  478
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "index": 3,
+        "item_name": {
+          "value": "SUNRISE Ngũ Cốc Yến mạch 500gx24",
+          "raw_text": "SUNRISE Ngũ Cốc Yến mạch 500gx24",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  203,
+                  482
+                ],
+                [
+                  509,
+                  482
+                ],
+                [
+                  509,
+                  503
+                ],
+                [
+                  203,
+                  503
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "1",
+          "raw_text": "1",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  487,
+                  507
+                ],
+                [
+                  504,
+                  507
+                ],
+                [
+                  504,
+                  524
+                ],
+                [
+                  487,
+                  524
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "72000",
+          "raw_text": "72.000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  384,
+                  506
+                ],
+                [
+                  445,
+                  506
+                ],
+                [
+                  445,
+                  525
+                ],
+                [
+                  384,
+                  525
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "72000",
+          "raw_text": "72.000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  546,
+                  505
+                ],
+                [
+                  607,
+                  505
+                ],
+                [
+                  607,
+                  524
+                ],
+                [
+                  546,
+                  524
+                ]
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "currency": "VND",
+    "overall_confidence": 0.9993,
+    "needs_review": false,
+    "warnings": [],
+    "image": {
+      "width": 794,
+      "height": 1043,
+      "rotation_applied": 358.52
+    },
+    "meta": {
+      "schema_version": "1.0",
+      "model_version": "layoutxlm-e2-b10",
+      "ocr_version": "ocr_v2",
+      "postprocess_version": "kie_postprocess_v1",
+      "processing_ms": 3889,
+      "pipeline_version": "inference_pipeline_v1"
+    }
+  }
+}

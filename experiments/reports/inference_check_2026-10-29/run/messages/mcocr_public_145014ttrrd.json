@@ -1,0 +1,340 @@
+{
+  "status": 0,
+  "error": null,
+  "data": {
+    "id": "mcocr_public_145014ttrrd",
+    "fields": {
+      "seller": {
+        "value": "THE COFFEE HOUSE",
+        "raw_text": "THE COFFEE HOUSE",
+        "confidence": 0.9993,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                96,
+                393
+              ],
+              [
+                152,
+                393
+              ],
+              [
+                152,
+                421
+              ],
+              [
+                96,
+                421
+              ]
+            ]
+          },
+          {
+            "polygon": [
+              [
+                158,
+                392
+              ],
+              [
+                268,
+                392
+              ],
+              [
+                268,
+                422
+              ],
+              [
+                158,
+                422
+              ]
+            ]
+          },
+          {
+            "polygon": [
+              [
+                273,
+                394
+              ],
+              [
+                366,
+                394
+              ],
+              [
+                366,
+                422
+              ],
+              [
+                273,
+                422
+              ]
+            ]
+          }
+        ]
+      },
+      "address": {
+        "value": "403 Phan Huy Ích, P.14, Q.Gò Vấp",
+        "raw_text": "403 Phan Huy Ích, P.14, Q.Gò Vấp",
+        "confidence": 0.9997,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                111,
+                423
+              ],
+              [
+                353,
+                423
+              ],
+              [
+                353,
+                449
+              ],
+              [
+                111,
+                449
+              ]
+            ]
+          }
+        ]
+      },
+      "timestamp": {
+        "value": "2020-10-01T08:35:00",
+        "raw_text": "01.10.2020 08.35 35",
+        "confidence": 0.9994,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                118,
+                471
+              ],
+              [
+                234,
+                471
+              ],
+              [
+                234,
+                493
+              ],
+              [
+                118,
+                493
+              ]
+            ]
+          },
+          {
+            "polygon": [
+              [
+                225,
+                473
+              ],
+              [
+                242,
+                473
+              ],
+              [
+                242,
+                489
+              ],
+              [
+                225,
+                489
+              ]
+            ]
+          }
+        ]
+      },
+      "total_cost": {
+        "value": "35000",
+        "raw_text": "35 000",
+        "confidence": 0.9989,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                359,
+                617
+              ],
+              [
+                413,
+                617
+              ],
+              [
+                413,
+                633
+              ],
+              [
+                359,
+                633
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    "line_items": [
+      {
+        "index": 1,
+        "item_name": {
+          "value": "Bạc Xỉu (Vừa)",
+          "raw_text": "Bạc Xỉu (Vừa)",
+          "confidence": 0.9998,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  80,
+                  566
+                ],
+                [
+                  172,
+                  566
+                ],
+                [
+                  172,
+                  585
+                ],
+                [
+                  80,
+                  585
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "1",
+          "raw_text": null,
+          "confidence": null,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  261,
+                  564
+                ],
+                [
+                  307,
+                  564
+                ],
+                [
+                  307,
+                  581
+                ],
+                [
+                  261,
+                  581
+                ]
+              ]
+            },
+            {
+              "polygon": [
+                [
+                  364,
+                  564
+                ],
+                [
+                  412,
+                  564
+                ],
+                [
+                  412,
+                  579
+                ],
+                [
+                  364,
+                  579
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "35000",
+          "raw_text": "35 000",
+          "confidence": 0.9993,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  261,
+                  564
+                ],
+                [
+                  307,
+                  564
+                ],
+                [
+                  307,
+                  581
+                ],
+                [
+                  261,
+                  581
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "35000",
+          "raw_text": "35 000",
+          "confidence": 0.9994,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  364,
+                  564
+                ],
+                [
+                  412,
+                  564
+                ],
+                [
+                  412,
+                  579
+                ],
+                [
+                  364,
+                  579
+                ]
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "currency": "VND",
+    "overall_confidence": 0.9996,
+    "needs_review": true,
+    "warnings": [
+      {
+        "code": "QUANTITY_INFERRED",
+        "target": "line_items[1].quantity"
+      }
+    ],
+    "image": {
+      "width": 576,
+      "height": 1024,
+      "rotation_applied": 0.0
+    },
+    "meta": {
+      "schema_version": "1.0",
+      "model_version": "layoutxlm-e2-b10",
+      "ocr_version": "ocr_v2",
+      "postprocess_version": "kie_postprocess_v1",
+      "processing_ms": 3096,
+      "pipeline_version": "inference_pipeline_v1"
+    }
+  }
+}

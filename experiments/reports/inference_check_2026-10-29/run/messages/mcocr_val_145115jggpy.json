@@ -1,0 +1,600 @@
+{
+  "status": 0,
+  "error": null,
+  "data": {
+    "id": "mcocr_val_145115jggpy",
+    "fields": {
+      "seller": {
+        "value": "CỬA HÀNG NĂM OÁNH",
+        "raw_text": "CỬA HÀNG NĂM OÁNH",
+        "confidence": 0.9995,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                319,
+                367
+              ],
+              [
+                494,
+                367
+              ],
+              [
+                494,
+                391
+              ],
+              [
+                319,
+                391
+              ]
+            ]
+          }
+        ]
+      },
+      "address": {
+        "value": "Thôn Phú Thụy, Xã Phú Thị, Huyện Gia Lâm, TP Hà Nội",
+        "raw_text": "Thôn Phú Thụy, Xã Phú Thị, Huyện Gia Lâm, TP Hà Nội",
+        "confidence": 0.9998,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                232,
+                392
+              ],
+              [
+                581,
+                392
+              ],
+              [
+                581,
+                415
+              ],
+              [
+                232,
+                415
+              ]
+            ]
+          }
+        ]
+      },
+      "timestamp": {
+        "value": "2020-08-10T00:00:00",
+        "raw_text": "10-08-2020",
+        "confidence": 0.9999,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                512,
+                505
+              ],
+              [
+                586,
+                505
+              ],
+              [
+                586,
+                524
+              ],
+              [
+                512,
+                524
+              ]
+            ]
+          }
+        ]
+      },
+      "total_cost": {
+        "value": "118168",
+        "raw_text": "118,168",
+        "confidence": 0.9997,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                527,
+                849
+              ],
+              [
+                600,
+                849
+              ],
+              [
+                600,
+                876
+              ],
+              [
+                527,
+                876
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    "line_items": [
+      {
+        "index": 1,
+        "item_name": {
+          "value": "Dầu Meizan Gold 1L",
+          "raw_text": "Dầu Meizan Gold 1L",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  224,
+                  594
+                ],
+                [
+                  395,
+                  594
+                ],
+                [
+                  395,
+                  615
+                ],
+                [
+                  224,
+                  615
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "1",
+          "raw_text": "1",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  222,
+                  626
+                ],
+                [
+                  236,
+                  626
+                ],
+                [
+                  236,
+                  643
+                ],
+                [
+                  222,
+                  643
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "27000",
+          "raw_text": "27,000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  365,
+                  623
+                ],
+                [
+                  426,
+                  623
+                ],
+                [
+                  426,
+                  647
+                ],
+                [
+                  365,
+                  647
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "27000",
+          "raw_text": "27,000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  532,
+                  624
+                ],
+                [
+                  592,
+                  624
+                ],
+                [
+                  592,
+                  647
+                ],
+                [
+                  532,
+                  647
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "index": 2,
+        "item_name": {
+          "value": "Tương ớt Chin-su mới 250g",
+          "raw_text": "Tương ớt Chin-su mới 250g",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  221,
+                  654
+                ],
+                [
+                  451,
+                  654
+                ],
+                [
+                  451,
+                  681
+                ],
+                [
+                  221,
+                  681
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "1",
+          "raw_text": "1",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  224,
+                  689
+                ],
+                [
+                  230,
+                  689
+                ],
+                [
+                  230,
+                  700
+                ],
+                [
+                  224,
+                  700
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "12000",
+          "raw_text": "12,000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  366,
+                  683
+                ],
+                [
+                  427,
+                  683
+                ],
+                [
+                  427,
+                  709
+                ],
+                [
+                  366,
+                  709
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "12000",
+          "raw_text": "12,000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  533,
+                  684
+                ],
+                [
+                  595,
+                  684
+                ],
+                [
+                  595,
+                  709
+                ],
+                [
+                  533,
+                  709
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "index": 3,
+        "item_name": {
+          "value": "Bia Sài Gòn (lon) 330ml",
+          "raw_text": "Bia Sài Gòn (lon) 330ml",
+          "confidence": 0.9997,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  220,
+                  717
+                ],
+                [
+                  424,
+                  717
+                ],
+                [
+                  424,
+                  740
+                ],
+                [
+                  220,
+                  740
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "2",
+          "raw_text": "2",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  220,
+                  751
+                ],
+                [
+                  231,
+                  751
+                ],
+                [
+                  231,
+                  767
+                ],
+                [
+                  220,
+                  767
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "9584",
+          "raw_text": "9,584",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  370,
+                  747
+                ],
+                [
+                  422,
+                  747
+                ],
+                [
+                  422,
+                  771
+                ],
+                [
+                  370,
+                  771
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "19168",
+          "raw_text": "19,168",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  536,
+                  748
+                ],
+                [
+                  595,
+                  748
+                ],
+                [
+                  595,
+                  771
+                ],
+                [
+                  536,
+                  771
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "index": 4,
+        "item_name": {
+          "value": "Fino không đường 200ml BB",
+          "raw_text": "Fino không đường 200ml BB",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  217,
+                  778
+                ],
+                [
+                  463,
+                  778
+                ],
+                [
+                  463,
+                  804
+                ],
+                [
+                  217,
+                  804
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "10",
+          "raw_text": "10",
+          "confidence": 0.9997,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  217,
+                  810
+                ],
+                [
+                  242,
+                  810
+                ],
+                [
+                  242,
+                  833
+                ],
+                [
+                  217,
+                  833
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "6000",
+          "raw_text": "6,000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  369,
+                  808
+                ],
+                [
+                  422,
+                  808
+                ],
+                [
+                  422,
+                  835
+                ],
+                [
+                  369,
+                  835
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "60000",
+          "raw_text": "60,000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  535,
+                  811
+                ],
+                [
+                  597,
+                  811
+                ],
+                [
+                  597,
+                  835
+                ],
+                [
+                  535,
+                  835
+                ]
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "currency": "VND",
+    "overall_confidence": 0.9998,
+    "needs_review": false,
+    "warnings": [],
+    "image": {
+      "width": 797,
+      "height": 1046,
+      "rotation_applied": 1.65
+    },
+    "meta": {
+      "schema_version": "1.0",
+      "model_version": "layoutxlm-e2-b10",
+      "ocr_version": "ocr_v2",
+      "postprocess_version": "kie_postprocess_v1",
+      "processing_ms": 3277,
+      "pipeline_version": "inference_pipeline_v1"
+    }
+  }
+}

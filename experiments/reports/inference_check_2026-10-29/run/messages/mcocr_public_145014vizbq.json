@@ -1,0 +1,239 @@
+{
+  "status": 0,
+  "error": null,
+  "data": {
+    "id": "mcocr_public_145014vizbq",
+    "fields": {
+      "seller": {
+        "value": "SIEU THL BACH HOA TONG HOP",
+        "raw_text": "SIEU THL BACH HOA TONG HOP",
+        "confidence": 0.9995,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                178,
+                303
+              ],
+              [
+                577,
+                303
+              ],
+              [
+                577,
+                334
+              ],
+              [
+                178,
+                334
+              ]
+            ]
+          }
+        ]
+      },
+      "address": {
+        "value": "Số 5 Cẩm Tây - Cẩm Phả - QN",
+        "raw_text": "Số 5 Cẩm Tây - Cẩm Phả - QN",
+        "confidence": 0.9997,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                230,
+                341
+              ],
+              [
+                526,
+                341
+              ],
+              [
+                526,
+                371
+              ],
+              [
+                230,
+                371
+              ]
+            ]
+          }
+        ]
+      },
+      "timestamp": {
+        "value": null,
+        "raw_text": null,
+        "confidence": null,
+        "status": "absent",
+        "evidence": []
+      },
+      "total_cost": {
+        "value": "39000",
+        "raw_text": "39,000",
+        "confidence": 0.9997,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                545,
+                693
+              ],
+              [
+                616,
+                693
+              ],
+              [
+                616,
+                722
+              ],
+              [
+                545,
+                722
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    "line_items": [
+      {
+        "index": 1,
+        "item_name": {
+          "value": "Tính bột nghệ vàng nguyên chất 50g_TD NT",
+          "raw_text": "Tính bột nghệ vàng nguyên chất 50g_TD NT",
+          "confidence": 0.9998,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  126,
+                  593
+                ],
+                [
+                  546,
+                  593
+                ],
+                [
+                  546,
+                  624
+                ],
+                [
+                  126,
+                  624
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "1",
+          "raw_text": "1",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  244,
+                  628
+                ],
+                [
+                  264,
+                  628
+                ],
+                [
+                  264,
+                  648
+                ],
+                [
+                  244,
+                  648
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "39000",
+          "raw_text": "39,000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  407,
+                  626
+                ],
+                [
+                  478,
+                  626
+                ],
+                [
+                  478,
+                  654
+                ],
+                [
+                  407,
+                  654
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "39000",
+          "raw_text": "39,000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  541,
+                  627
+                ],
+                [
+                  611,
+                  627
+                ],
+                [
+                  611,
+                  653
+                ],
+                [
+                  541,
+                  653
+                ]
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "currency": "VND",
+    "overall_confidence": 0.9998,
+    "needs_review": true,
+    "warnings": [
+      {
+        "code": "FIELD_ABSENT",
+        "target": "fields.timestamp"
+      }
+    ],
+    "image": {
+      "width": 758,
+      "height": 1301,
+      "rotation_applied": 1.7
+    },
+    "meta": {
+      "schema_version": "1.0",
+      "model_version": "layoutxlm-e2-b10",
+      "ocr_version": "ocr_v2",
+      "postprocess_version": "kie_postprocess_v1",
+      "processing_ms": 3137,
+      "pipeline_version": "inference_pipeline_v1"
+    }
+  }
+}

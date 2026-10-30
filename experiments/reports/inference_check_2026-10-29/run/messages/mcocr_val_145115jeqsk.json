@@ -1,0 +1,355 @@
+{
+  "status": 0,
+  "error": null,
+  "data": {
+    "id": "mcocr_val_145115jeqsk",
+    "fields": {
+      "seller": {
+        "value": "Saigon Co.op Co.op Food HN THE K-PARK",
+        "raw_text": "Saigon Co.op Co.op Food HN THE K-PARK",
+        "confidence": 0.9985,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                407,
+                182
+              ],
+              [
+                550,
+                182
+              ],
+              [
+                550,
+                213
+              ],
+              [
+                407,
+                213
+              ]
+            ]
+          },
+          {
+            "polygon": [
+              [
+                340,
+                210
+              ],
+              [
+                617,
+                210
+              ],
+              [
+                617,
+                245
+              ],
+              [
+                340,
+                245
+              ]
+            ]
+          }
+        ]
+      },
+      "address": {
+        "value": "Tang 1,SH42 - Toa K3,Cong trinh chung cu ket hop dich vu tren o dat H-CT2 thuoc Du an Dau tu xay dung Khu nha o Hi Brand tai Khu do thi moi Van Phu, P. Phu La, Q. Ha Dong, Tp Ha Noi",
+        "raw_text": "Tang 1,SH42 - Toa K3,Cong trinh chung cu ket hop dich vu tren o dat H-CT2 thuoc Du an Dau tu xay dung Khu nha o Hi Brand tai Khu do thi moi Van Phu, P. Phu La, Q. Ha Dong, Tp Ha Noi",
+        "confidence": 0.9761,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                239,
+                275
+              ],
+              [
+                695,
+                275
+              ],
+              [
+                695,
+                306
+              ],
+              [
+                239,
+                306
+              ]
+            ]
+          },
+          {
+            "polygon": [
+              [
+                251,
+                302
+              ],
+              [
+                683,
+                302
+              ],
+              [
+                683,
+                335
+              ],
+              [
+                251,
+                335
+              ]
+            ]
+          },
+          {
+            "polygon": [
+              [
+                241,
+                332
+              ],
+              [
+                695,
+                332
+              ],
+              [
+                695,
+                366
+              ],
+              [
+                241,
+                366
+              ]
+            ]
+          },
+          {
+            "polygon": [
+              [
+                333,
+                365
+              ],
+              [
+                636,
+                365
+              ],
+              [
+                636,
+                392
+              ],
+              [
+                333,
+                392
+              ]
+            ]
+          },
+          {
+            "polygon": [
+              [
+                299,
+                391
+              ],
+              [
+                659,
+                391
+              ],
+              [
+                659,
+                426
+              ],
+              [
+                299,
+                426
+              ]
+            ]
+          }
+        ]
+      },
+      "timestamp": {
+        "value": "2019-09-20T10:27:16",
+        "raw_text": "20/09/2019 10:27:16",
+        "confidence": 0.9518,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                468,
+                596
+              ],
+              [
+                693,
+                596
+              ],
+              [
+                693,
+                628
+              ],
+              [
+                468,
+                628
+              ]
+            ]
+          }
+        ]
+      },
+      "total_cost": {
+        "value": "24500",
+        "raw_text": "24,500.00",
+        "confidence": 0.9996,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                588,
+                770
+              ],
+              [
+                695,
+                770
+              ],
+              [
+                695,
+                803
+              ],
+              [
+                588,
+                803
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    "line_items": [
+      {
+        "index": 1,
+        "item_name": {
+          "value": "Pindua EvereadySHD A44 12",
+          "raw_text": "Pindua EvereadySHD A44 12",
+          "confidence": 0.9995,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  423,
+                  684
+                ],
+                [
+                  693,
+                  684
+                ],
+                [
+                  693,
+                  712
+                ],
+                [
+                  423,
+                  712
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "1",
+          "raw_text": "1",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  325,
+                  714
+                ],
+                [
+                  362,
+                  714
+                ],
+                [
+                  362,
+                  738
+                ],
+                [
+                  325,
+                  738
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "24500",
+          "raw_text": "24,500.00",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  423,
+                  713
+                ],
+                [
+                  530,
+                  713
+                ],
+                [
+                  530,
+                  743
+                ],
+                [
+                  423,
+                  743
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "24500",
+          "raw_text": "24,500.00",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  587,
+                  710
+                ],
+                [
+                  693,
+                  710
+                ],
+                [
+                  693,
+                  744
+                ],
+                [
+                  587,
+                  744
+                ]
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "currency": "VND",
+    "overall_confidence": 0.9952,
+    "needs_review": false,
+    "warnings": [],
+    "image": {
+      "width": 1024,
+      "height": 1366,
+      "rotation_applied": 0.0
+    },
+    "meta": {
+      "schema_version": "1.0",
+      "model_version": "layoutxlm-e2-b10",
+      "ocr_version": "ocr_v2",
+      "postprocess_version": "kie_postprocess_v1",
+      "processing_ms": 3547,
+      "pipeline_version": "inference_pipeline_v1"
+    }
+  }
+}

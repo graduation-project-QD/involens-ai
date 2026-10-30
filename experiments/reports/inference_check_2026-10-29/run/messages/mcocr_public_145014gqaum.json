@@ -1,0 +1,295 @@
+{
+  "status": 0,
+  "error": null,
+  "data": {
+    "id": "mcocr_public_145014gqaum",
+    "fields": {
+      "seller": {
+        "value": "VinCommerce",
+        "raw_text": "VinCommerce",
+        "confidence": 0.9998,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                207,
+                398
+              ],
+              [
+                308,
+                398
+              ],
+              [
+                308,
+                429
+              ],
+              [
+                207,
+                429
+              ]
+            ]
+          }
+        ]
+      },
+      "address": {
+        "value": "VM+ QNH 112 Thanh Niên Số 112 Thanh Niên, P. Cẩm Thành TP. Cẩm Phả, Quảng Ninh",
+        "raw_text": "VM+ QNH 112 Thanh Niên Số 112 Thanh Niên, P. Cẩm Thành TP. Cẩm Phả, Quảng Ninh",
+        "confidence": 0.9992,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                348,
+                364
+              ],
+              [
+                462,
+                364
+              ],
+              [
+                462,
+                381
+              ],
+              [
+                348,
+                381
+              ]
+            ]
+          },
+          {
+            "polygon": [
+              [
+                330,
+                382
+              ],
+              [
+                481,
+                382
+              ],
+              [
+                481,
+                401
+              ],
+              [
+                330,
+                401
+              ]
+            ]
+          },
+          {
+            "polygon": [
+              [
+                348,
+                401
+              ],
+              [
+                463,
+                401
+              ],
+              [
+                463,
+                421
+              ],
+              [
+                348,
+                421
+              ]
+            ]
+          }
+        ]
+      },
+      "timestamp": {
+        "value": "2020-08-10T06:17:00",
+        "raw_text": "10/08/2020 06:17",
+        "confidence": 0.9998,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                276,
+                471
+              ],
+              [
+                390,
+                471
+              ],
+              [
+                390,
+                492
+              ],
+              [
+                276,
+                492
+              ]
+            ]
+          }
+        ]
+      },
+      "total_cost": {
+        "value": "39000",
+        "raw_text": "39.000",
+        "confidence": 0.9996,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                470,
+                595
+              ],
+              [
+                518,
+                595
+              ],
+              [
+                518,
+                611
+              ],
+              [
+                470,
+                611
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    "line_items": [
+      {
+        "index": 1,
+        "item_name": {
+          "value": "LIPZO Bàn chải đánh răng Kids1",
+          "raw_text": "LIPZO Bàn chải đánh răng Kids1",
+          "confidence": 0.9998,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  206,
+                  541
+                ],
+                [
+                  427,
+                  541
+                ],
+                [
+                  427,
+                  563
+                ],
+                [
+                  206,
+                  563
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "1",
+          "raw_text": "1",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  307,
+                  560
+                ],
+                [
+                  330,
+                  560
+                ],
+                [
+                  330,
+                  584
+                ],
+                [
+                  307,
+                  584
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "39000",
+          "raw_text": "39.000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  345,
+                  561
+                ],
+                [
+                  393,
+                  561
+                ],
+                [
+                  393,
+                  578
+                ],
+                [
+                  345,
+                  578
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "39000",
+          "raw_text": "39.000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  468,
+                  560
+                ],
+                [
+                  516,
+                  560
+                ],
+                [
+                  516,
+                  575
+                ],
+                [
+                  468,
+                  575
+                ]
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "currency": "VND",
+    "overall_confidence": 0.9998,
+    "needs_review": false,
+    "warnings": [],
+    "image": {
+      "width": 768,
+      "height": 1024,
+      "rotation_applied": 0.0
+    },
+    "meta": {
+      "schema_version": "1.0",
+      "model_version": "layoutxlm-e2-b10",
+      "ocr_version": "ocr_v2",
+      "postprocess_version": "kie_postprocess_v1",
+      "processing_ms": 3476,
+      "pipeline_version": "inference_pipeline_v1"
+    }
+  }
+}

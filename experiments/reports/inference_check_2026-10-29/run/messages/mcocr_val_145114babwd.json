@@ -1,0 +1,660 @@
+{
+  "status": 0,
+  "error": null,
+  "data": {
+    "id": "mcocr_val_145114babwd",
+    "fields": {
+      "seller": {
+        "value": "VinCommerce",
+        "raw_text": "VinCommerce",
+        "confidence": 0.9998,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                204,
+                239
+              ],
+              [
+                307,
+                239
+              ],
+              [
+                307,
+                276
+              ],
+              [
+                204,
+                276
+              ]
+            ]
+          }
+        ]
+      },
+      "address": {
+        "value": "VM+ QNH 112 Thanh Niên Số 112 Thanh Niên, P. Cẩm Thành TP. Cẩm Phả, Quảng Ninh",
+        "raw_text": "VM+ QNH 112 Thanh Niên Số 112 Thanh Niên, P. Cẩm Thành TP. Cẩm Phả, Quảng Ninh",
+        "confidence": 0.9997,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                343,
+                218
+              ],
+              [
+                454,
+                218
+              ],
+              [
+                454,
+                234
+              ],
+              [
+                343,
+                234
+              ]
+            ]
+          },
+          {
+            "polygon": [
+              [
+                326,
+                234
+              ],
+              [
+                473,
+                234
+              ],
+              [
+                473,
+                253
+              ],
+              [
+                326,
+                253
+              ]
+            ]
+          },
+          {
+            "polygon": [
+              [
+                344,
+                253
+              ],
+              [
+                456,
+                253
+              ],
+              [
+                456,
+                274
+              ],
+              [
+                344,
+                274
+              ]
+            ]
+          }
+        ]
+      },
+      "timestamp": {
+        "value": "2020-08-12T21:30:00",
+        "raw_text": "12/08/2020 21:30",
+        "confidence": 0.9996,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                272,
+                317
+              ],
+              [
+                386,
+                317
+              ],
+              [
+                386,
+                341
+              ],
+              [
+                272,
+                341
+              ]
+            ]
+          }
+        ]
+      },
+      "total_cost": {
+        "value": "154100",
+        "raw_text": "154.100",
+        "confidence": 0.9998,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                456,
+                542
+              ],
+              [
+                509,
+                542
+              ],
+              [
+                509,
+                558
+              ],
+              [
+                456,
+                558
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    "line_items": [
+      {
+        "index": 1,
+        "item_name": {
+          "value": "STC Lif Kun hương nho hộp p 48X180ml",
+          "raw_text": "STC Lif Kun hương nho hộp p 48X180ml",
+          "confidence": 0.9998,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  204,
+                  385
+                ],
+                [
+                  388,
+                  385
+                ],
+                [
+                  388,
+                  408
+                ],
+                [
+                  204,
+                  408
+                ]
+              ]
+            },
+            {
+              "polygon": [
+                [
+                  380,
+                  390
+                ],
+                [
+                  447,
+                  390
+                ],
+                [
+                  447,
+                  406
+                ],
+                [
+                  380,
+                  406
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "2",
+          "raw_text": "2",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  417,
+                  408
+                ],
+                [
+                  428,
+                  408
+                ],
+                [
+                  428,
+                  421
+                ],
+                [
+                  417,
+                  421
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "24800",
+          "raw_text": "24.800",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  341,
+                  408
+                ],
+                [
+                  385,
+                  408
+                ],
+                [
+                  385,
+                  422
+                ],
+                [
+                  341,
+                  422
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "49600",
+          "raw_text": "49.600",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  459,
+                  403
+                ],
+                [
+                  505,
+                  403
+                ],
+                [
+                  505,
+                  420
+                ],
+                [
+                  459,
+                  420
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "index": 2,
+        "item_name": {
+          "value": "SCU tt vị kem dâu Kun lốc 4 hộpx180ml",
+          "raw_text": "SCU tt vị kem dâu Kun lốc 4 hộpx180ml",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  203,
+                  419
+                ],
+                [
+                  470,
+                  419
+                ],
+                [
+                  470,
+                  441
+                ],
+                [
+                  203,
+                  441
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "1",
+          "raw_text": "1",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  420,
+                  444
+                ],
+                [
+                  426,
+                  444
+                ],
+                [
+                  426,
+                  452
+                ],
+                [
+                  420,
+                  452
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "28700",
+          "raw_text": "28.700",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  342,
+                  442
+                ],
+                [
+                  386,
+                  442
+                ],
+                [
+                  386,
+                  456
+                ],
+                [
+                  342,
+                  456
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "28700",
+          "raw_text": "28.700",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  460,
+                  437
+                ],
+                [
+                  506,
+                  437
+                ],
+                [
+                  506,
+                  454
+                ],
+                [
+                  460,
+                  454
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "index": 3,
+        "item_name": {
+          "value": "Sữa TT vị SCL Dutch Lady L4 hộpx180ml",
+          "raw_text": "Sữa TT vị SCL Dutch Lady L4 hộpx180ml",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  204,
+                  453
+                ],
+                [
+                  471,
+                  453
+                ],
+                [
+                  471,
+                  476
+                ],
+                [
+                  204,
+                  476
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "1",
+          "raw_text": "1",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  417,
+                  476
+                ],
+                [
+                  429,
+                  476
+                ],
+                [
+                  429,
+                  489
+                ],
+                [
+                  417,
+                  489
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "30800",
+          "raw_text": "30.800",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  341,
+                  475
+                ],
+                [
+                  387,
+                  475
+                ],
+                [
+                  387,
+                  490
+                ],
+                [
+                  341,
+                  490
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "30800",
+          "raw_text": "30.800",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  460,
+                  472
+                ],
+                [
+                  506,
+                  472
+                ],
+                [
+                  506,
+                  489
+                ],
+                [
+                  460,
+                  489
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "index": 4,
+        "item_name": {
+          "value": "C'EST BON Bánh bông lan 5P (T20)",
+          "raw_text": "C'EST BON Bánh bông lan 5P (T20)",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  205,
+                  490
+                ],
+                [
+                  435,
+                  490
+                ],
+                [
+                  435,
+                  509
+                ],
+                [
+                  205,
+                  509
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "2",
+          "raw_text": "2",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  419,
+                  511
+                ],
+                [
+                  431,
+                  511
+                ],
+                [
+                  431,
+                  524
+                ],
+                [
+                  419,
+                  524
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "22500",
+          "raw_text": "22.500",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  342,
+                  510
+                ],
+                [
+                  387,
+                  510
+                ],
+                [
+                  387,
+                  525
+                ],
+                [
+                  342,
+                  525
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "45000",
+          "raw_text": "45.000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  462,
+                  508
+                ],
+                [
+                  507,
+                  508
+                ],
+                [
+                  507,
+                  522
+                ],
+                [
+                  462,
+                  522
+                ]
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "currency": "VND",
+    "overall_confidence": 0.9999,
+    "needs_review": false,
+    "warnings": [],
+    "image": {
+      "width": 768,
+      "height": 1024,
+      "rotation_applied": 0.0
+    },
+    "meta": {
+      "schema_version": "1.0",
+      "model_version": "layoutxlm-e2-b10",
+      "ocr_version": "ocr_v2",
+      "postprocess_version": "kie_postprocess_v1",
+      "processing_ms": 3671,
+      "pipeline_version": "inference_pipeline_v1"
+    }
+  }
+}

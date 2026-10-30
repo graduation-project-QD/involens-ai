@@ -1,0 +1,315 @@
+{
+  "status": 0,
+  "error": null,
+  "data": {
+    "id": "mcocr_public_145014hpikq",
+    "fields": {
+      "seller": {
+        "value": "FamilyMart MINIMART MOWMANI",
+        "raw_text": "FamilyMart MINIMART MOWMANI",
+        "confidence": 0.7016,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                196,
+                328
+              ],
+              [
+                562,
+                328
+              ],
+              [
+                562,
+                420
+              ],
+              [
+                196,
+                420
+              ]
+            ]
+          },
+          {
+            "polygon": [
+              [
+                113,
+                338
+              ],
+              [
+                193,
+                338
+              ],
+              [
+                193,
+                372
+              ],
+              [
+                113,
+                372
+              ]
+            ]
+          },
+          {
+            "polygon": [
+              [
+                117,
+                363
+              ],
+              [
+                201,
+                363
+              ],
+              [
+                201,
+                401
+              ],
+              [
+                117,
+                401
+              ]
+            ]
+          }
+        ]
+      },
+      "address": {
+        "value": "Block Đỗ Khu B KTX ĐHIQG, P Đông Hòa, TX Lĩ An, Bình Dương",
+        "raw_text": "Block Đỗ Khu B KTX ĐHIQG, P Đông Hòa, TX Lĩ An, Bình Dương",
+        "confidence": 0.9996,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                69,
+                408
+              ],
+              [
+                595,
+                408
+              ],
+              [
+                595,
+                478
+              ],
+              [
+                69,
+                478
+              ]
+            ]
+          },
+          {
+            "polygon": [
+              [
+                194,
+                448
+              ],
+              [
+                468,
+                448
+              ],
+              [
+                468,
+                497
+              ],
+              [
+                194,
+                497
+              ]
+            ]
+          }
+        ]
+      },
+      "timestamp": {
+        "value": "2020-08-14T05:57:00",
+        "raw_text": "05:57 14/08/2020",
+        "confidence": 0.994,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                105,
+                903
+              ],
+              [
+                416,
+                903
+              ],
+              [
+                416,
+                941
+              ],
+              [
+                105,
+                941
+              ]
+            ]
+          }
+        ]
+      },
+      "total_cost": {
+        "value": "14000",
+        "raw_text": "14,000",
+        "confidence": 0.9997,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                529,
+                705
+              ],
+              [
+                607,
+                705
+              ],
+              [
+                607,
+                737
+              ],
+              [
+                529,
+                737
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    "line_items": [
+      {
+        "index": 1,
+        "item_name": {
+          "value": "T2.CMUSUBI cia áP CH",
+          "raw_text": "T2.CMUSUBI cia áP CH",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  117,
+                  636
+                ],
+                [
+                  327,
+                  636
+                ],
+                [
+                  327,
+                  666
+                ],
+                [
+                  117,
+                  666
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "1",
+          "raw_text": "1",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  372,
+                  639
+                ],
+                [
+                  388,
+                  639
+                ],
+                [
+                  388,
+                  652
+                ],
+                [
+                  372,
+                  652
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "14000",
+          "raw_text": "14,000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  423,
+                  633
+                ],
+                [
+                  486,
+                  633
+                ],
+                [
+                  486,
+                  655
+                ],
+                [
+                  423,
+                  655
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "-14000",
+          "raw_text": "-14.000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  530,
+                  633
+                ],
+                [
+                  602,
+                  633
+                ],
+                [
+                  602,
+                  652
+                ],
+                [
+                  530,
+                  652
+                ]
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "currency": "VND",
+    "overall_confidence": 0.9883,
+    "needs_review": false,
+    "warnings": [],
+    "image": {
+      "width": 777,
+      "height": 1463,
+      "rotation_applied": 358.11
+    },
+    "meta": {
+      "schema_version": "1.0",
+      "model_version": "layoutxlm-e2-b10",
+      "ocr_version": "ocr_v2",
+      "postprocess_version": "kie_postprocess_v1",
+      "processing_ms": 3421,
+      "pipeline_version": "inference_pipeline_v1"
+    }
+  }
+}

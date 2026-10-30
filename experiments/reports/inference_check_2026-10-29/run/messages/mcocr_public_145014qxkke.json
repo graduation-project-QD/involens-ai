@@ -1,0 +1,370 @@
+{
+  "status": 0,
+  "error": null,
+  "data": {
+    "id": "mcocr_public_145014qxkke",
+    "fields": {
+      "seller": {
+        "value": "MINIMART ANAN",
+        "raw_text": "MINIMART ANAN",
+        "confidence": 0.9996,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                207,
+                242
+              ],
+              [
+                443,
+                242
+              ],
+              [
+                443,
+                270
+              ],
+              [
+                207,
+                270
+              ]
+            ]
+          }
+        ]
+      },
+      "address": {
+        "value": "Chợ Sủi Phú Thị Gia Lâm",
+        "raw_text": "Chợ Sủi Phú Thị Gia Lâm",
+        "confidence": 0.9994,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                174,
+                278
+              ],
+              [
+                470,
+                278
+              ],
+              [
+                470,
+                310
+              ],
+              [
+                174,
+                310
+              ]
+            ]
+          }
+        ]
+      },
+      "timestamp": {
+        "value": "2020-08-13T17:34:00",
+        "raw_text": "13/08/2020-17:34",
+        "confidence": 0.9998,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                437,
+                804
+              ],
+              [
+                623,
+                804
+              ],
+              [
+                623,
+                844
+              ],
+              [
+                437,
+                844
+              ]
+            ]
+          }
+        ]
+      },
+      "total_cost": {
+        "value": "118500",
+        "raw_text": "118,500",
+        "confidence": 0.9997,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                524,
+                664
+              ],
+              [
+                625,
+                664
+              ],
+              [
+                625,
+                697
+              ],
+              [
+                524,
+                697
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    "line_items": [
+      {
+        "index": 1,
+        "item_name": {
+          "value": "Bánh mì ruốc stass hải châu NT",
+          "raw_text": "Bánh mì ruốc stass hải châu NT",
+          "confidence": 0.9996,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  216,
+                  452
+                ],
+                [
+                  578,
+                  452
+                ],
+                [
+                  578,
+                  484
+                ],
+                [
+                  216,
+                  484
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "3",
+          "raw_text": "3",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  166,
+                  495
+                ],
+                [
+                  187,
+                  495
+                ],
+                [
+                  187,
+                  516
+                ],
+                [
+                  166,
+                  516
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "4500",
+          "raw_text": "4,500",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  377,
+                  489
+                ],
+                [
+                  450,
+                  489
+                ],
+                [
+                  450,
+                  524
+                ],
+                [
+                  377,
+                  524
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "13500",
+          "raw_text": "13,500",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  528,
+                  488
+                ],
+                [
+                  615,
+                  488
+                ],
+                [
+                  615,
+                  523
+                ],
+                [
+                  528,
+                  523
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "index": 2,
+        "item_name": {
+          "value": "vỉ sữa chua men sống prob NT",
+          "raw_text": "vỉ sữa chua men sống prob NT",
+          "confidence": 0.986,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  214,
+                  534
+                ],
+                [
+                  578,
+                  534
+                ],
+                [
+                  578,
+                  567
+                ],
+                [
+                  214,
+                  567
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "5",
+          "raw_text": "5",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  162,
+                  575
+                ],
+                [
+                  185,
+                  575
+                ],
+                [
+                  185,
+                  602
+                ],
+                [
+                  162,
+                  602
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "21000",
+          "raw_text": "21,000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  363,
+                  573
+                ],
+                [
+                  451,
+                  573
+                ],
+                [
+                  451,
+                  606
+                ],
+                [
+                  363,
+                  606
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "105000",
+          "raw_text": "105,000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  517,
+                  574
+                ],
+                [
+                  617,
+                  574
+                ],
+                [
+                  617,
+                  605
+                ],
+                [
+                  517,
+                  605
+                ]
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "currency": "VND",
+    "overall_confidence": 0.9993,
+    "needs_review": false,
+    "warnings": [],
+    "image": {
+      "width": 768,
+      "height": 1024,
+      "rotation_applied": 0.0
+    },
+    "meta": {
+      "schema_version": "1.0",
+      "model_version": "layoutxlm-e2-b10",
+      "ocr_version": "ocr_v2",
+      "postprocess_version": "kie_postprocess_v1",
+      "processing_ms": 3462,
+      "pipeline_version": "inference_pipeline_v1"
+    }
+  }
+}

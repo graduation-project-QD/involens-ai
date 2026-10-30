@@ -1,0 +1,255 @@
+{
+  "status": 0,
+  "error": null,
+  "data": {
+    "id": "mcocr_val_145115rtkgt",
+    "fields": {
+      "seller": {
+        "value": "NHÀ SÁCH GD-TC CẨM PHẢ",
+        "raw_text": "NHÀ SÁCH GD-TC CẨM PHẢ",
+        "confidence": 0.9996,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                235,
+                389
+              ],
+              [
+                492,
+                389
+              ],
+              [
+                492,
+                420
+              ],
+              [
+                235,
+                420
+              ]
+            ]
+          }
+        ]
+      },
+      "address": {
+        "value": "212 Đường Trần Phú-Cẩm Phả",
+        "raw_text": "212 Đường Trần Phú-Cẩm Phả",
+        "confidence": 0.9998,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                211,
+                416
+              ],
+              [
+                477,
+                416
+              ],
+              [
+                477,
+                446
+              ],
+              [
+                211,
+                446
+              ]
+            ]
+          }
+        ]
+      },
+      "timestamp": {
+        "value": "2020-08-10T21:52:02",
+        "raw_text": "21:52:02 - 10/08/2020",
+        "confidence": 0.9997,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                253,
+                498
+              ],
+              [
+                427,
+                498
+              ],
+              [
+                427,
+                522
+              ],
+              [
+                253,
+                522
+              ]
+            ]
+          }
+        ]
+      },
+      "total_cost": {
+        "value": "630000",
+        "raw_text": "630.000đ",
+        "confidence": 0.9997,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                469,
+                637
+              ],
+              [
+                554,
+                637
+              ],
+              [
+                554,
+                659
+              ],
+              [
+                469,
+                659
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    "line_items": [
+      {
+        "index": 1,
+        "item_name": {
+          "value": "Máy tính FX-580VN",
+          "raw_text": "Máy tính FX-580VN",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  162,
+                  555
+                ],
+                [
+                  322,
+                  555
+                ],
+                [
+                  322,
+                  579
+                ],
+                [
+                  162,
+                  579
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "1",
+          "raw_text": "1",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  340,
+                  556
+                ],
+                [
+                  352,
+                  556
+                ],
+                [
+                  352,
+                  574
+                ],
+                [
+                  340,
+                  574
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "630000",
+          "raw_text": "630.000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  356,
+                  555
+                ],
+                [
+                  427,
+                  555
+                ],
+                [
+                  427,
+                  573
+                ],
+                [
+                  356,
+                  573
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "630000",
+          "raw_text": "630.000đ",
+          "confidence": 0.9998,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  473,
+                  553
+                ],
+                [
+                  552,
+                  553
+                ],
+                [
+                  552,
+                  574
+                ],
+                [
+                  473,
+                  574
+                ]
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "currency": "VND",
+    "overall_confidence": 0.9998,
+    "needs_review": false,
+    "warnings": [],
+    "image": {
+      "width": 768,
+      "height": 1024,
+      "rotation_applied": 180.0
+    },
+    "meta": {
+      "schema_version": "1.0",
+      "model_version": "layoutxlm-e2-b10",
+      "ocr_version": "ocr_v2",
+      "postprocess_version": "kie_postprocess_v1",
+      "processing_ms": 3341,
+      "pipeline_version": "inference_pipeline_v1"
+    }
+  }
+}

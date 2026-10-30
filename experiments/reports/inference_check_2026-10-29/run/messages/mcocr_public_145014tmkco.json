@@ -1,0 +1,525 @@
+{
+  "status": 0,
+  "error": null,
+  "data": {
+    "id": "mcocr_public_145014tmkco",
+    "fields": {
+      "seller": {
+        "value": "VinCommerce",
+        "raw_text": "VinCommerce",
+        "confidence": 0.9998,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                147,
+                188
+              ],
+              [
+                255,
+                188
+              ],
+              [
+                255,
+                219
+              ],
+              [
+                147,
+                219
+              ]
+            ]
+          }
+        ]
+      },
+      "address": {
+        "value": "VM+ QNH 590 Trần Phú Số 590 Trần Phú, P. Cẩm Thủy TP. Cẩm Phả, Quảng Ninh",
+        "raw_text": "VM+ QNH 590 Trần Phú Số 590 Trần Phú, P. Cẩm Thủy TP. Cẩm Phả, Quảng Ninh",
+        "confidence": 0.997,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                305,
+                149
+              ],
+              [
+                420,
+                149
+              ],
+              [
+                420,
+                171
+              ],
+              [
+                305,
+                171
+              ]
+            ]
+          },
+          {
+            "polygon": [
+              [
+                288,
+                170
+              ],
+              [
+                437,
+                170
+              ],
+              [
+                437,
+                192
+              ],
+              [
+                288,
+                192
+              ]
+            ]
+          },
+          {
+            "polygon": [
+              [
+                299,
+                192
+              ],
+              [
+                426,
+                192
+              ],
+              [
+                426,
+                213
+              ],
+              [
+                299,
+                213
+              ]
+            ]
+          }
+        ]
+      },
+      "timestamp": {
+        "value": "2020-08-14T09:59:00",
+        "raw_text": "14/08/2020 09:59",
+        "confidence": 0.9997,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                221,
+                269
+              ],
+              [
+                346,
+                269
+              ],
+              [
+                346,
+                288
+              ],
+              [
+                221,
+                288
+              ]
+            ]
+          }
+        ]
+      },
+      "total_cost": {
+        "value": "262588",
+        "raw_text": "262.588",
+        "confidence": 0.9998,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                422,
+                518
+              ],
+              [
+                483,
+                518
+              ],
+              [
+                483,
+                537
+              ],
+              [
+                422,
+                537
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    "line_items": [
+      {
+        "index": 1,
+        "item_name": {
+          "value": "Sầu riêng nguyên trái",
+          "raw_text": "Sầu riêng nguyên trái",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  145,
+                  343
+                ],
+                [
+                  311,
+                  343
+                ],
+                [
+                  311,
+                  365
+                ],
+                [
+                  145,
+                  365
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "1",
+          "raw_text": "1",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  381,
+                  366
+                ],
+                [
+                  395,
+                  366
+                ],
+                [
+                  395,
+                  380
+                ],
+                [
+                  381,
+                  380
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "234549",
+          "raw_text": "234.549",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  287,
+                  366
+                ],
+                [
+                  346,
+                  366
+                ],
+                [
+                  346,
+                  382
+                ],
+                [
+                  287,
+                  382
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "234549",
+          "raw_text": "234.549",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  419,
+                  363
+                ],
+                [
+                  480,
+                  363
+                ],
+                [
+                  480,
+                  381
+                ],
+                [
+                  419,
+                  381
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "index": 2,
+        "item_name": {
+          "value": "Cải ngồng (cải ngọt bông) DL L1 Vineco",
+          "raw_text": "Cải ngồng (cải ngọt bông) DL L1 Vineco",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  145,
+                  381
+                ],
+                [
+                  450,
+                  381
+                ],
+                [
+                  450,
+                  404
+                ],
+                [
+                  145,
+                  404
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "1",
+          "raw_text": "1",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  382,
+                  425
+                ],
+                [
+                  393,
+                  425
+                ],
+                [
+                  393,
+                  437
+                ],
+                [
+                  382,
+                  437
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "18357",
+          "raw_text": "18.357",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  295,
+                  423
+                ],
+                [
+                  346,
+                  423
+                ],
+                [
+                  346,
+                  440
+                ],
+                [
+                  295,
+                  440
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "18357",
+          "raw_text": "18.357",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  430,
+                  422
+                ],
+                [
+                  480,
+                  422
+                ],
+                [
+                  480,
+                  439
+                ],
+                [
+                  430,
+                  439
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "index": 3,
+        "item_name": {
+          "value": "Cải xanh (cải canh) L1 Vineco",
+          "raw_text": "Cải xanh (cải canh) L1 Vineco",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  144,
+                  440
+                ],
+                [
+                  372,
+                  440
+                ],
+                [
+                  372,
+                  459
+                ],
+                [
+                  144,
+                  459
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "1",
+          "raw_text": "1",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  385,
+                  484
+                ],
+                [
+                  391,
+                  484
+                ],
+                [
+                  391,
+                  493
+                ],
+                [
+                  385,
+                  493
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "9682",
+          "raw_text": "9.682",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  302,
+                  481
+                ],
+                [
+                  346,
+                  481
+                ],
+                [
+                  346,
+                  498
+                ],
+                [
+                  302,
+                  498
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "9682",
+          "raw_text": "9.682",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  436,
+                  479
+                ],
+                [
+                  482,
+                  479
+                ],
+                [
+                  482,
+                  498
+                ],
+                [
+                  436,
+                  498
+                ]
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "currency": "VND",
+    "overall_confidence": 0.9996,
+    "needs_review": false,
+    "warnings": [],
+    "image": {
+      "width": 600,
+      "height": 1037,
+      "rotation_applied": 1.36
+    },
+    "meta": {
+      "schema_version": "1.0",
+      "model_version": "layoutxlm-e2-b10",
+      "ocr_version": "ocr_v2",
+      "postprocess_version": "kie_postprocess_v1",
+      "processing_ms": 3465,
+      "pipeline_version": "inference_pipeline_v1"
+    }
+  }
+}

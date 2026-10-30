@@ -1,0 +1,600 @@
+{
+  "status": 0,
+  "error": null,
+  "data": {
+    "id": "mcocr_public_145013ywtjf",
+    "fields": {
+      "seller": {
+        "value": "MINIMART ANAN",
+        "raw_text": "MINIMART ANAN",
+        "confidence": 0.9997,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                281,
+                130
+              ],
+              [
+                439,
+                130
+              ],
+              [
+                439,
+                159
+              ],
+              [
+                281,
+                159
+              ]
+            ]
+          }
+        ]
+      },
+      "address": {
+        "value": "Chợ Sủi Phú Thị Gia Lâm",
+        "raw_text": "Chợ Sủi Phú Thị Gia Lâm",
+        "confidence": 0.9989,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                260,
+                157
+              ],
+              [
+                456,
+                157
+              ],
+              [
+                456,
+                188
+              ],
+              [
+                260,
+                188
+              ]
+            ]
+          }
+        ]
+      },
+      "timestamp": {
+        "value": "2020-08-16T16:47:00",
+        "raw_text": "16/08/2020-16:47",
+        "confidence": 0.9999,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                413,
+                835
+              ],
+              [
+                548,
+                835
+              ],
+              [
+                548,
+                868
+              ],
+              [
+                413,
+                868
+              ]
+            ]
+          }
+        ]
+      },
+      "total_cost": {
+        "value": "148000",
+        "raw_text": "148,000",
+        "confidence": 0.9804,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                480,
+                572
+              ],
+              [
+                553,
+                572
+              ],
+              [
+                553,
+                596
+              ],
+              [
+                480,
+                596
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    "line_items": [
+      {
+        "index": 1,
+        "item_name": {
+          "value": "milo to 180ml NT",
+          "raw_text": "milo to 180ml NT",
+          "confidence": 0.9874,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  272,
+                  276
+                ],
+                [
+                  403,
+                  276
+                ],
+                [
+                  403,
+                  295
+                ],
+                [
+                  272,
+                  295
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "8",
+          "raw_text": "8",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  256,
+                  328
+                ],
+                [
+                  265,
+                  328
+                ],
+                [
+                  265,
+                  338
+                ],
+                [
+                  256,
+                  338
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "6500",
+          "raw_text": "6,500",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  391,
+                  322
+                ],
+                [
+                  437,
+                  322
+                ],
+                [
+                  437,
+                  341
+                ],
+                [
+                  391,
+                  341
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "52000",
+          "raw_text": "52,000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  487,
+                  317
+                ],
+                [
+                  546,
+                  317
+                ],
+                [
+                  546,
+                  341
+                ],
+                [
+                  487,
+                  341
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "index": 2,
+        "item_name": {
+          "value": "bánh trứng tươi chà bông ka N0",
+          "raw_text": "bánh trứng tươi chà bông ka N0",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  285,
+                  346
+                ],
+                [
+                  524,
+                  346
+                ],
+                [
+                  524,
+                  371
+                ],
+                [
+                  285,
+                  371
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "1",
+          "raw_text": "1",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  252,
+                  377
+                ],
+                [
+                  263,
+                  377
+                ],
+                [
+                  263,
+                  390
+                ],
+                [
+                  252,
+                  390
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "30000",
+          "raw_text": "30,000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  378,
+                  370
+                ],
+                [
+                  437,
+                  370
+                ],
+                [
+                  437,
+                  394
+                ],
+                [
+                  378,
+                  394
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "30000",
+          "raw_text": "30,000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  487,
+                  367
+                ],
+                [
+                  547,
+                  367
+                ],
+                [
+                  547,
+                  391
+                ],
+                [
+                  487,
+                  391
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "index": 3,
+        "item_name": {
+          "value": "bánh mochi đài loan gói 120 N0",
+          "raw_text": "bánh mochi đài loan gói 120 N0",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  283,
+                  397
+                ],
+                [
+                  524,
+                  397
+                ],
+                [
+                  524,
+                  422
+                ],
+                [
+                  283,
+                  422
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "1",
+          "raw_text": "1",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  249,
+                  429
+                ],
+                [
+                  259,
+                  429
+                ],
+                [
+                  259,
+                  442
+                ],
+                [
+                  249,
+                  442
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "33000",
+          "raw_text": "33,000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  377,
+                  425
+                ],
+                [
+                  436,
+                  425
+                ],
+                [
+                  436,
+                  447
+                ],
+                [
+                  377,
+                  447
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "33000",
+          "raw_text": "33,000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  487,
+                  421
+                ],
+                [
+                  547,
+                  421
+                ],
+                [
+                  547,
+                  446
+                ],
+                [
+                  487,
+                  446
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "index": 4,
+        "item_name": {
+          "value": "Bánh tipo salsa 360g NT",
+          "raw_text": "Bánh tipo salsa 360g NT",
+          "confidence": 0.9989,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  281,
+                  452
+                ],
+                [
+                  473,
+                  452
+                ],
+                [
+                  473,
+                  475
+                ],
+                [
+                  281,
+                  475
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "1",
+          "raw_text": "1",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  242,
+                  478
+                ],
+                [
+                  256,
+                  478
+                ],
+                [
+                  256,
+                  495
+                ],
+                [
+                  242,
+                  495
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "33000",
+          "raw_text": "33,000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  375,
+                  477
+                ],
+                [
+                  435,
+                  477
+                ],
+                [
+                  435,
+                  499
+                ],
+                [
+                  375,
+                  499
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "33000",
+          "raw_text": "33,000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  487,
+                  476
+                ],
+                [
+                  548,
+                  476
+                ],
+                [
+                  548,
+                  499
+                ],
+                [
+                  487,
+                  499
+                ]
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "currency": "VND",
+    "overall_confidence": 0.995,
+    "needs_review": false,
+    "warnings": [],
+    "image": {
+      "width": 811,
+      "height": 1056,
+      "rotation_applied": 2.42
+    },
+    "meta": {
+      "schema_version": "1.0",
+      "model_version": "layoutxlm-e2-b10",
+      "ocr_version": "ocr_v2",
+      "postprocess_version": "kie_postprocess_v1",
+      "processing_ms": 3888,
+      "pipeline_version": "inference_pipeline_v1"
+    }
+  }
+}

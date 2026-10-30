@@ -1,0 +1,680 @@
+{
+  "status": 0,
+  "error": null,
+  "data": {
+    "id": "mcocr_public_145014eeksl",
+    "fields": {
+      "seller": {
+        "value": "mmerce",
+        "raw_text": "mmerce",
+        "confidence": 0.8197,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                159,
+                109
+              ],
+              [
+                218,
+                109
+              ],
+              [
+                218,
+                132
+              ],
+              [
+                159,
+                132
+              ]
+            ]
+          }
+        ]
+      },
+      "address": {
+        "value": "VM+ QNH Tổ 7, Khu Minh Tiến A Tổ 7, Khu Minh Tiến A P. Cẩm Bình, TP. Cẩm Phả, QNH",
+        "raw_text": "VM+ QNH Tổ 7, Khu Minh Tiến A Tổ 7, Khu Minh Tiến A P. Cẩm Bình, TP. Cẩm Phả, QNH",
+        "confidence": 0.9921,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                253,
+                65
+              ],
+              [
+                417,
+                65
+              ],
+              [
+                417,
+                97
+              ],
+              [
+                253,
+                97
+              ]
+            ]
+          },
+          {
+            "polygon": [
+              [
+                277,
+                90
+              ],
+              [
+                393,
+                90
+              ],
+              [
+                393,
+                117
+              ],
+              [
+                277,
+                117
+              ]
+            ]
+          },
+          {
+            "polygon": [
+              [
+                252,
+                111
+              ],
+              [
+                416,
+                111
+              ],
+              [
+                416,
+                139
+              ],
+              [
+                252,
+                139
+              ]
+            ]
+          }
+        ]
+      },
+      "timestamp": {
+        "value": "2020-08-09T11:25:00",
+        "raw_text": "09/08/2020 11:25",
+        "confidence": 0.9996,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                98,
+                187
+              ],
+              [
+                318,
+                187
+              ],
+              [
+                318,
+                214
+              ],
+              [
+                98,
+                214
+              ]
+            ]
+          }
+        ]
+      },
+      "total_cost": {
+        "value": "137400",
+        "raw_text": "137.400",
+        "confidence": 0.9997,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                406,
+                499
+              ],
+              [
+                469,
+                499
+              ],
+              [
+                469,
+                517
+              ],
+              [
+                406,
+                517
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    "line_items": [
+      {
+        "index": 1,
+        "item_name": {
+          "value": "VMGOOD Nước ép lô hội 500ml T20",
+          "raw_text": "VMGOOD Nước ép lô hội 500ml T20",
+          "confidence": 0.9998,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  103,
+                  268
+                ],
+                [
+                  370,
+                  268
+                ],
+                [
+                  370,
+                  295
+                ],
+                [
+                  103,
+                  295
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "1",
+          "raw_text": "1",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  357,
+                  296
+                ],
+                [
+                  370,
+                  296
+                ],
+                [
+                  370,
+                  311
+                ],
+                [
+                  357,
+                  311
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "27500",
+          "raw_text": "27.500",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  265,
+                  294
+                ],
+                [
+                  320,
+                  294
+                ],
+                [
+                  320,
+                  313
+                ],
+                [
+                  265,
+                  313
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "27500",
+          "raw_text": "27.500",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  407,
+                  295
+                ],
+                [
+                  460,
+                  295
+                ],
+                [
+                  460,
+                  315
+                ],
+                [
+                  407,
+                  315
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "index": 2,
+        "item_name": {
+          "value": "VINAMILK SCU ProbiGoldmật 1 ongănghệ 130ml",
+          "raw_text": "VINAMILK SCU ProbiGoldmật 1 ongănghệ 130ml",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  103,
+                  310
+                ],
+                [
+                  323,
+                  310
+                ],
+                [
+                  323,
+                  333
+                ],
+                [
+                  103,
+                  333
+                ]
+              ]
+            },
+            {
+              "polygon": [
+                [
+                  316,
+                  319
+                ],
+                [
+                  328,
+                  319
+                ],
+                [
+                  328,
+                  329
+                ],
+                [
+                  316,
+                  329
+                ]
+              ]
+            },
+            {
+              "polygon": [
+                [
+                  321,
+                  315
+                ],
+                [
+                  435,
+                  315
+                ],
+                [
+                  435,
+                  334
+                ],
+                [
+                  321,
+                  334
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "1",
+          "raw_text": "1",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  360,
+                  340
+                ],
+                [
+                  369,
+                  340
+                ],
+                [
+                  369,
+                  350
+                ],
+                [
+                  360,
+                  350
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "38500",
+          "raw_text": "38.500",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  266,
+                  335
+                ],
+                [
+                  320,
+                  335
+                ],
+                [
+                  320,
+                  354
+                ],
+                [
+                  266,
+                  354
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "38500",
+          "raw_text": "38.500",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  408,
+                  336
+                ],
+                [
+                  461,
+                  336
+                ],
+                [
+                  461,
+                  354
+                ],
+                [
+                  408,
+                  354
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "index": 3,
+        "item_name": {
+          "value": "BETAGEN Sữa uống lên men Hương Dừa 300ml",
+          "raw_text": "BETAGEN Sữa uống lên men Hương Dừa 300ml",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  103,
+                  374
+                ],
+                [
+                  445,
+                  374
+                ],
+                [
+                  445,
+                  397
+                ],
+                [
+                  103,
+                  397
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "1",
+          "raw_text": "1",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  361,
+                  401
+                ],
+                [
+                  370,
+                  401
+                ],
+                [
+                  370,
+                  413
+                ],
+                [
+                  361,
+                  413
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "21400",
+          "raw_text": "21.400",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  265,
+                  395
+                ],
+                [
+                  320,
+                  395
+                ],
+                [
+                  320,
+                  415
+                ],
+                [
+                  265,
+                  415
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "21400",
+          "raw_text": "21.400",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  410,
+                  397
+                ],
+                [
+                  464,
+                  397
+                ],
+                [
+                  464,
+                  414
+                ],
+                [
+                  410,
+                  414
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "index": 4,
+        "item_name": {
+          "value": "DYKANKA Dầu ăn hướng dương chai 1L",
+          "raw_text": "DYKANKA Dầu ăn hướng dương chai 1L",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  102,
+                  436
+                ],
+                [
+                  397,
+                  436
+                ],
+                [
+                  397,
+                  456
+                ],
+                [
+                  102,
+                  456
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "1",
+          "raw_text": "1",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  360,
+                  459
+                ],
+                [
+                  373,
+                  459
+                ],
+                [
+                  373,
+                  475
+                ],
+                [
+                  360,
+                  475
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "59000",
+          "raw_text": "59.000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  266,
+                  458
+                ],
+                [
+                  321,
+                  458
+                ],
+                [
+                  321,
+                  476
+                ],
+                [
+                  266,
+                  476
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "59000",
+          "raw_text": "59.000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  412,
+                  457
+                ],
+                [
+                  466,
+                  457
+                ],
+                [
+                  466,
+                  474
+                ],
+                [
+                  412,
+                  474
+                ]
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "currency": "VND",
+    "overall_confidence": 0.997,
+    "needs_review": false,
+    "warnings": [],
+    "image": {
+      "width": 601,
+      "height": 1038,
+      "rotation_applied": 91.39
+    },
+    "meta": {
+      "schema_version": "1.0",
+      "model_version": "layoutxlm-e2-b10",
+      "ocr_version": "ocr_v2",
+      "postprocess_version": "kie_postprocess_v1",
+      "processing_ms": 4769,
+      "pipeline_version": "inference_pipeline_v1"
+    }
+  }
+}

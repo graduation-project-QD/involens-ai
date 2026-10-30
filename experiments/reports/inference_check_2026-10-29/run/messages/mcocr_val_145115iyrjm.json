@@ -1,0 +1,255 @@
+{
+  "status": 0,
+  "error": null,
+  "data": {
+    "id": "mcocr_val_145115iyrjm",
+    "fields": {
+      "seller": {
+        "value": "NHÀ SÁCH GD-TC CẨM PHẢ",
+        "raw_text": "NHÀ SÁCH GD-TC CẨM PHẢ",
+        "confidence": 0.9996,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                291,
+                469
+              ],
+              [
+                527,
+                469
+              ],
+              [
+                527,
+                494
+              ],
+              [
+                291,
+                494
+              ]
+            ]
+          }
+        ]
+      },
+      "address": {
+        "value": "212 Đường Trần Phú-Cẩm Phả",
+        "raw_text": "212 Đường Trần Phú-Cẩm Phả",
+        "confidence": 0.9998,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                271,
+                494
+              ],
+              [
+                512,
+                494
+              ],
+              [
+                512,
+                520
+              ],
+              [
+                271,
+                520
+              ]
+            ]
+          }
+        ]
+      },
+      "timestamp": {
+        "value": "2020-08-11T10:19:05",
+        "raw_text": "10:19:05 - 11/08/2020",
+        "confidence": 0.9997,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                309,
+                568
+              ],
+              [
+                465,
+                568
+              ],
+              [
+                465,
+                590
+              ],
+              [
+                309,
+                590
+              ]
+            ]
+          }
+        ]
+      },
+      "total_cost": {
+        "value": "5000",
+        "raw_text": "5.000đ",
+        "confidence": 0.9998,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                519,
+                695
+              ],
+              [
+                577,
+                695
+              ],
+              [
+                577,
+                716
+              ],
+              [
+                519,
+                716
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    "line_items": [
+      {
+        "index": 1,
+        "item_name": {
+          "value": "VPP Loại 5K",
+          "raw_text": "VPP Loại 5K",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  229,
+                  620
+                ],
+                [
+                  325,
+                  620
+                ],
+                [
+                  325,
+                  639
+                ],
+                [
+                  229,
+                  639
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "7",
+          "raw_text": "7",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  386,
+                  619
+                ],
+                [
+                  403,
+                  619
+                ],
+                [
+                  403,
+                  636
+                ],
+                [
+                  386,
+                  636
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "5000",
+          "raw_text": "5.000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  422,
+                  620
+                ],
+                [
+                  465,
+                  620
+                ],
+                [
+                  465,
+                  637
+                ],
+                [
+                  422,
+                  637
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "5000",
+          "raw_text": "5.000đ",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  525,
+                  621
+                ],
+                [
+                  578,
+                  621
+                ],
+                [
+                  578,
+                  639
+                ],
+                [
+                  525,
+                  639
+                ]
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "currency": "VND",
+    "overall_confidence": 0.9998,
+    "needs_review": false,
+    "warnings": [],
+    "image": {
+      "width": 792,
+      "height": 1042,
+      "rotation_applied": 358.63
+    },
+    "meta": {
+      "schema_version": "1.0",
+      "model_version": "layoutxlm-e2-b10",
+      "ocr_version": "ocr_v2",
+      "postprocess_version": "kie_postprocess_v1",
+      "processing_ms": 3391,
+      "pipeline_version": "inference_pipeline_v1"
+    }
+  }
+}

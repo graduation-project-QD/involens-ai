@@ -1,0 +1,295 @@
+{
+  "status": 0,
+  "error": null,
+  "data": {
+    "id": "mcocr_public_145014plbzo",
+    "fields": {
+      "seller": {
+        "value": "VinCommerce",
+        "raw_text": "VinCommerce",
+        "confidence": 0.9998,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                162,
+                242
+              ],
+              [
+                288,
+                242
+              ],
+              [
+                288,
+                278
+              ],
+              [
+                162,
+                278
+              ]
+            ]
+          }
+        ]
+      },
+      "address": {
+        "value": "VM+ QNH 590 Trần Phú Số 590 Trần Phú, P. Cẩm Thủy TP. Cẩm Phả, Quảng Ninh",
+        "raw_text": "VM+ QNH 590 Trần Phú Số 590 Trần Phú, P. Cẩm Thủy TP. Cẩm Phả, Quảng Ninh",
+        "confidence": 0.9995,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                345,
+                202
+              ],
+              [
+                475,
+                202
+              ],
+              [
+                475,
+                224
+              ],
+              [
+                345,
+                224
+              ]
+            ]
+          },
+          {
+            "polygon": [
+              [
+                326,
+                224
+              ],
+              [
+                495,
+                224
+              ],
+              [
+                495,
+                251
+              ],
+              [
+                326,
+                251
+              ]
+            ]
+          },
+          {
+            "polygon": [
+              [
+                339,
+                251
+              ],
+              [
+                482,
+                251
+              ],
+              [
+                482,
+                274
+              ],
+              [
+                339,
+                274
+              ]
+            ]
+          }
+        ]
+      },
+      "timestamp": {
+        "value": "2020-08-15T07:41:00",
+        "raw_text": "15/08/2020 07:41",
+        "confidence": 0.9998,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                248,
+                340
+              ],
+              [
+                391,
+                340
+              ],
+              [
+                391,
+                362
+              ],
+              [
+                248,
+                362
+              ]
+            ]
+          }
+        ]
+      },
+      "total_cost": {
+        "value": "3997",
+        "raw_text": "3.997",
+        "confidence": 0.9997,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                495,
+                516
+              ],
+              [
+                544,
+                516
+              ],
+              [
+                544,
+                535
+              ],
+              [
+                495,
+                535
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    "line_items": [
+      {
+        "index": 1,
+        "item_name": {
+          "value": "BÍ Ỏ HỒ LÔ",
+          "raw_text": "BÍ Ỏ HỒ LÔ",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  164,
+                  428
+                ],
+                [
+                  258,
+                  428
+                ],
+                [
+                  258,
+                  450
+                ],
+                [
+                  164,
+                  450
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "1",
+          "raw_text": "1",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  436,
+                  456
+                ],
+                [
+                  442,
+                  456
+                ],
+                [
+                  442,
+                  466
+                ],
+                [
+                  436,
+                  466
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "7337",
+          "raw_text": "7.337",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  344,
+                  453
+                ],
+                [
+                  392,
+                  453
+                ],
+                [
+                  392,
+                  472
+                ],
+                [
+                  344,
+                  472
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "7337",
+          "raw_text": "7.337",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  494,
+                  450
+                ],
+                [
+                  543,
+                  450
+                ],
+                [
+                  543,
+                  469
+                ],
+                [
+                  494,
+                  469
+                ]
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "currency": "VND",
+    "overall_confidence": 0.9998,
+    "needs_review": false,
+    "warnings": [],
+    "image": {
+      "width": 794,
+      "height": 1043,
+      "rotation_applied": 358.52
+    },
+    "meta": {
+      "schema_version": "1.0",
+      "model_version": "layoutxlm-e2-b10",
+      "ocr_version": "ocr_v2",
+      "postprocess_version": "kie_postprocess_v1",
+      "processing_ms": 3669,
+      "pipeline_version": "inference_pipeline_v1"
+    }
+  }
+}

@@ -1,0 +1,295 @@
+{
+  "status": 0,
+  "error": null,
+  "data": {
+    "id": "mcocr_public_145014xpuhm",
+    "fields": {
+      "seller": {
+        "value": "VinCommerce",
+        "raw_text": "VinCommerce",
+        "confidence": 0.9998,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                127,
+                225
+              ],
+              [
+                219,
+                225
+              ],
+              [
+                219,
+                258
+              ],
+              [
+                127,
+                258
+              ]
+            ]
+          }
+        ]
+      },
+      "address": {
+        "value": "VM+ QNH Tổ 8 Khu 3B Cẩm Trung Tổ 8, Khu 3B, P. Cẩm Trung TP. Cẩm Phả, T. Quảng Ninh",
+        "raw_text": "VM+ QNH Tổ 8 Khu 3B Cẩm Trung Tổ 8, Khu 3B, P. Cẩm Trung TP. Cẩm Phả, T. Quảng Ninh",
+        "confidence": 0.9997,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                236,
+                199
+              ],
+              [
+                372,
+                199
+              ],
+              [
+                372,
+                219
+              ],
+              [
+                236,
+                219
+              ]
+            ]
+          },
+          {
+            "polygon": [
+              [
+                250,
+                218
+              ],
+              [
+                360,
+                218
+              ],
+              [
+                360,
+                236
+              ],
+              [
+                250,
+                236
+              ]
+            ]
+          },
+          {
+            "polygon": [
+              [
+                248,
+                236
+              ],
+              [
+                361,
+                236
+              ],
+              [
+                361,
+                252
+              ],
+              [
+                248,
+                252
+              ]
+            ]
+          }
+        ]
+      },
+      "timestamp": {
+        "value": "2020-08-12T21:44:00",
+        "raw_text": "12/08/2020 21:44",
+        "confidence": 0.9998,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                188,
+                294
+              ],
+              [
+                291,
+                294
+              ],
+              [
+                291,
+                315
+              ],
+              [
+                188,
+                315
+              ]
+            ]
+          }
+        ]
+      },
+      "total_cost": {
+        "value": "22000",
+        "raw_text": "22.000",
+        "confidence": 0.9998,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                360,
+                408
+              ],
+              [
+                402,
+                408
+              ],
+              [
+                402,
+                421
+              ],
+              [
+                360,
+                421
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    "line_items": [
+      {
+        "index": 1,
+        "item_name": {
+          "value": "OKAMURA dụng cụ cạo lưỡi as-tc2p",
+          "raw_text": "OKAMURA dụng cụ cạo lưỡi as-tc2p",
+          "confidence": 0.9997,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  126,
+                  355
+                ],
+                [
+                  337,
+                  355
+                ],
+                [
+                  337,
+                  378
+                ],
+                [
+                  126,
+                  378
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "1",
+          "raw_text": "1",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  320,
+                  376
+                ],
+                [
+                  332,
+                  376
+                ],
+                [
+                  332,
+                  389
+                ],
+                [
+                  320,
+                  389
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "22000",
+          "raw_text": "22.000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  250,
+                  376
+                ],
+                [
+                  293,
+                  376
+                ],
+                [
+                  293,
+                  390
+                ],
+                [
+                  250,
+                  390
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "22000",
+          "raw_text": "22.000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  359,
+                  376
+                ],
+                [
+                  401,
+                  376
+                ],
+                [
+                  401,
+                  390
+                ],
+                [
+                  359,
+                  390
+                ]
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "currency": "VND",
+    "overall_confidence": 0.9998,
+    "needs_review": false,
+    "warnings": [],
+    "image": {
+      "width": 576,
+      "height": 1024,
+      "rotation_applied": 0.0
+    },
+    "meta": {
+      "schema_version": "1.0",
+      "model_version": "layoutxlm-e2-b10",
+      "ocr_version": "ocr_v2",
+      "postprocess_version": "kie_postprocess_v1",
+      "processing_ms": 3834,
+      "pipeline_version": "inference_pipeline_v1"
+    }
+  }
+}

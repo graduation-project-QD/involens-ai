@@ -1,0 +1,723 @@
+{
+  "status": 0,
+  "error": null,
+  "data": {
+    "id": "mcocr_public_145013clltn",
+    "fields": {
+      "seller": {
+        "value": "SIEU THI BACH HOA TONG HOP",
+        "raw_text": "SIEU THI BACH HOA TONG HOP",
+        "confidence": 0.9996,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                265,
+                128
+              ],
+              [
+                656,
+                128
+              ],
+              [
+                656,
+                163
+              ],
+              [
+                265,
+                163
+              ]
+            ]
+          }
+        ]
+      },
+      "address": {
+        "value": "Số 5 Cẩm Tây - Cẩm Phả - QN",
+        "raw_text": "Số 5 Cẩm Tây - Cẩm Phả - QN",
+        "confidence": 0.9995,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                316,
+                165
+              ],
+              [
+                607,
+                165
+              ],
+              [
+                607,
+                197
+              ],
+              [
+                316,
+                197
+              ]
+            ]
+          }
+        ]
+      },
+      "timestamp": {
+        "value": null,
+        "raw_text": null,
+        "confidence": null,
+        "status": "absent",
+        "evidence": []
+      },
+      "total_cost": {
+        "value": "72000",
+        "raw_text": "72,000",
+        "confidence": 0.9997,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                639,
+                913
+              ],
+              [
+                715,
+                913
+              ],
+              [
+                715,
+                945
+              ],
+              [
+                639,
+                945
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    "line_items": [
+      {
+        "index": 1,
+        "item_name": {
+          "value": "PROBI SC lên men vị dâu 65ml'l'lỉ 5c T2",
+          "raw_text": "PROBI SC lên men vị dâu 65ml'l'lỉ 5c T2",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  215,
+                  411
+                ],
+                [
+                  595,
+                  411
+                ],
+                [
+                  595,
+                  440
+                ],
+                [
+                  215,
+                  440
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "2",
+          "raw_text": "2",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  334,
+                  452
+                ],
+                [
+                  342,
+                  452
+                ],
+                [
+                  342,
+                  464
+                ],
+                [
+                  334,
+                  464
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "23000",
+          "raw_text": "23,000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  490,
+                  443
+                ],
+                [
+                  564,
+                  443
+                ],
+                [
+                  564,
+                  474
+                ],
+                [
+                  490,
+                  474
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "46000",
+          "raw_text": "46,000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  625,
+                  441
+                ],
+                [
+                  699,
+                  441
+                ],
+                [
+                  699,
+                  475
+                ],
+                [
+                  625,
+                  475
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "index": 2,
+        "item_name": {
+          "value": "Bim bim Swing các vị 30g (Thùng 8 dây T2",
+          "raw_text": "Bim bim Swing các vị 30g (Thùng 8 dây T2",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  212,
+                  509
+                ],
+                [
+                  617,
+                  509
+                ],
+                [
+                  617,
+                  538
+                ],
+                [
+                  212,
+                  538
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "1",
+          "raw_text": "1",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  334,
+                  549
+                ],
+                [
+                  342,
+                  549
+                ],
+                [
+                  342,
+                  561
+                ],
+                [
+                  334,
+                  561
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "6000",
+          "raw_text": "6,000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  503,
+                  540
+                ],
+                [
+                  567,
+                  540
+                ],
+                [
+                  567,
+                  572
+                ],
+                [
+                  503,
+                  572
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "6000",
+          "raw_text": "6,000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  639,
+                  540
+                ],
+                [
+                  702,
+                  540
+                ],
+                [
+                  702,
+                  569
+                ],
+                [
+                  639,
+                  569
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "index": 3,
+        "item_name": {
+          "value": "Kem đậu xanh sầu riêng Merino que/60 T2",
+          "raw_text": "Kem đậu xanh sầu riêng Merino que/60 T2",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  213,
+                  608
+                ],
+                [
+                  617,
+                  608
+                ],
+                [
+                  617,
+                  634
+                ],
+                [
+                  213,
+                  634
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "2",
+          "raw_text": "2",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  329,
+                  644
+                ],
+                [
+                  346,
+                  644
+                ],
+                [
+                  346,
+                  664
+                ],
+                [
+                  329,
+                  664
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "5000",
+          "raw_text": "5,000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  504,
+                  641
+                ],
+                [
+                  567,
+                  641
+                ],
+                [
+                  567,
+                  669
+                ],
+                [
+                  504,
+                  669
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "10000",
+          "raw_text": "10,000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  631,
+                  641
+                ],
+                [
+                  704,
+                  641
+                ],
+                [
+                  704,
+                  668
+                ],
+                [
+                  631,
+                  668
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "index": 4,
+        "item_name": {
+          "value": "Kem que sữa dừa Merino T60 T2",
+          "raw_text": "Kem que sữa dừa Merino T60 T2",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  211,
+                  707
+                ],
+                [
+                  525,
+                  707
+                ],
+                [
+                  525,
+                  736
+                ],
+                [
+                  211,
+                  736
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "1",
+          "raw_text": "1",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  333,
+                  746
+                ],
+                [
+                  343,
+                  746
+                ],
+                [
+                  343,
+                  759
+                ],
+                [
+                  333,
+                  759
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "5000",
+          "raw_text": "5,000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  506,
+                  738
+                ],
+                [
+                  567,
+                  738
+                ],
+                [
+                  567,
+                  769
+                ],
+                [
+                  506,
+                  769
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "5000",
+          "raw_text": "5,000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  645,
+                  740
+                ],
+                [
+                  706,
+                  740
+                ],
+                [
+                  706,
+                  768
+                ],
+                [
+                  645,
+                  768
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "index": 5,
+        "item_name": {
+          "value": "Kem merino Kool nho cam dâu 56g'60 T2",
+          "raw_text": "Kem merino Kool nho cam dâu 56g'60 T2",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  210,
+                  809
+                ],
+                [
+                  613,
+                  809
+                ],
+                [
+                  613,
+                  836
+                ],
+                [
+                  210,
+                  836
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "1",
+          "raw_text": null,
+          "confidence": null,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  508,
+                  841
+                ],
+                [
+                  569,
+                  841
+                ],
+                [
+                  569,
+                  870
+                ],
+                [
+                  508,
+                  870
+                ]
+              ]
+            },
+            {
+              "polygon": [
+                [
+                  647,
+                  842
+                ],
+                [
+                  708,
+                  842
+                ],
+                [
+                  708,
+                  868
+                ],
+                [
+                  647,
+                  868
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "5000",
+          "raw_text": "5,000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  508,
+                  841
+                ],
+                [
+                  569,
+                  841
+                ],
+                [
+                  569,
+                  870
+                ],
+                [
+                  508,
+                  870
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "5000",
+          "raw_text": "5.000",
+          "confidence": 0.9998,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  647,
+                  842
+                ],
+                [
+                  708,
+                  842
+                ],
+                [
+                  708,
+                  868
+                ],
+                [
+                  647,
+                  868
+                ]
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "currency": "VND",
+    "overall_confidence": 0.9999,
+    "needs_review": true,
+    "warnings": [
+      {
+        "code": "FIELD_ABSENT",
+        "target": "fields.timestamp"
+      },
+      {
+        "code": "QUANTITY_INFERRED",
+        "target": "line_items[5].quantity"
+      }
+    ],
+    "image": {
+      "width": 760,
+      "height": 1302,
+      "rotation_applied": 1.8
+    },
+    "meta": {
+      "schema_version": "1.0",
+      "model_version": "layoutxlm-e2-b10",
+      "ocr_version": "ocr_v2",
+      "postprocess_version": "kie_postprocess_v1",
+      "processing_ms": 3821,
+      "pipeline_version": "inference_pipeline_v1"
+    }
+  }
+}

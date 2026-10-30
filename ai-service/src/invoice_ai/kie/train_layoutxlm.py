@@ -39,21 +39,28 @@ def load_samples(path: Path) -> list[dict[str, Any]]:
         return [json.loads(line) for line in handle]
 
 
-def load_image(path: Path) -> Any:
-    """224 x 224 image as a float BGR CHW tensor in 0-255 (the detectron2 backbone normalises it)."""
+def image_tensor(image: Any) -> Any:
+    """224 x 224 PIL image as a float BGR CHW tensor in 0-255 (the detectron2 backbone normalises it)."""
     import numpy as np
     import torch
-    from PIL import Image
 
-    with Image.open(path) as image:
-        array = np.asarray(image.convert("RGB"), dtype=np.float32)[:, :, ::-1].copy()
+    array = np.asarray(image.convert("RGB"), dtype=np.float32)[:, :, ::-1].copy()
     return torch.from_numpy(array).permute(2, 0, 1)
 
 
+def load_image(path: Path) -> Any:
+    """Stored 224 x 224 image (``tokenize_layoutxlm``) as the model input tensor."""
+    from PIL import Image
+
+    with Image.open(path) as image:
+        return image_tensor(image)
+
+
 class SampleDataset:
-    def __init__(self, data_dir: Path, samples: list[dict[str, Any]]) -> None:
+    def __init__(self, data_dir: Path, samples: list[dict[str, Any]], images: dict[str, Any] | None = None) -> None:
+        """Windows of tokenized documents; ``images`` preloads tensors by sample ``image`` key (in-memory inference)."""
         self.data_dir, self.samples = data_dir, samples
-        self.images: dict[str, Any] = {}
+        self.images: dict[str, Any] = dict(images or {})
 
     def __len__(self) -> int:
         return len(self.samples)

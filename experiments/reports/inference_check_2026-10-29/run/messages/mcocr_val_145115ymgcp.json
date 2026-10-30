@@ -1,0 +1,295 @@
+{
+  "status": 0,
+  "error": null,
+  "data": {
+    "id": "mcocr_val_145115ymgcp",
+    "fields": {
+      "seller": {
+        "value": "VinCommerce",
+        "raw_text": "VinCommerce",
+        "confidence": 0.9998,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                233,
+                413
+              ],
+              [
+                346,
+                413
+              ],
+              [
+                346,
+                446
+              ],
+              [
+                233,
+                446
+              ]
+            ]
+          }
+        ]
+      },
+      "address": {
+        "value": "VM+ QNH Tổ 7, Khu Minh Tiến A Tổ 7, Khu Minh Tiến A P. Cẩm Bình, TP. Cẩm Phả, QNH",
+        "raw_text": "VM+ QNH Tổ 7, Khu Minh Tiến A Tổ 7, Khu Minh Tiến A P. Cẩm Bình, TP. Cẩm Phả, QNH",
+        "confidence": 0.9997,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                374,
+                377
+              ],
+              [
+                530,
+                377
+              ],
+              [
+                530,
+                399
+              ],
+              [
+                374,
+                399
+              ]
+            ]
+          },
+          {
+            "polygon": [
+              [
+                397,
+                400
+              ],
+              [
+                507,
+                400
+              ],
+              [
+                507,
+                419
+              ],
+              [
+                397,
+                419
+              ]
+            ]
+          },
+          {
+            "polygon": [
+              [
+                373,
+                421
+              ],
+              [
+                529,
+                421
+              ],
+              [
+                529,
+                440
+              ],
+              [
+                373,
+                440
+              ]
+            ]
+          }
+        ]
+      },
+      "timestamp": {
+        "value": "2020-08-11T11:12:00",
+        "raw_text": "11/08/2020 11:12",
+        "confidence": 0.9998,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                305,
+                498
+              ],
+              [
+                435,
+                498
+              ],
+              [
+                435,
+                517
+              ],
+              [
+                305,
+                517
+              ]
+            ]
+          }
+        ]
+      },
+      "total_cost": {
+        "value": "63000",
+        "raw_text": "63.000",
+        "confidence": 0.9998,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                519,
+                635
+              ],
+              [
+                570,
+                635
+              ],
+              [
+                570,
+                653
+              ],
+              [
+                519,
+                653
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    "line_items": [
+      {
+        "index": 1,
+        "item_name": {
+          "value": "Cá viên đông lạnh Home Food gói 500g",
+          "raw_text": "Cá viên đông lạnh Home Food gói 500g",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  231,
+                  576
+                ],
+                [
+                  522,
+                  576
+                ],
+                [
+                  522,
+                  595
+                ],
+                [
+                  231,
+                  595
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "1",
+          "raw_text": "1",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  471,
+                  598
+                ],
+                [
+                  482,
+                  598
+                ],
+                [
+                  482,
+                  610
+                ],
+                [
+                  471,
+                  610
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "63000",
+          "raw_text": "63.000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  383,
+                  596
+                ],
+                [
+                  435,
+                  596
+                ],
+                [
+                  435,
+                  614
+                ],
+                [
+                  383,
+                  614
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "63000",
+          "raw_text": "63.000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  517,
+                  595
+                ],
+                [
+                  570,
+                  595
+                ],
+                [
+                  570,
+                  613
+                ],
+                [
+                  517,
+                  613
+                ]
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "currency": "VND",
+    "overall_confidence": 0.9998,
+    "needs_review": false,
+    "warnings": [],
+    "image": {
+      "width": 833,
+      "height": 1072,
+      "rotation_applied": 93.74
+    },
+    "meta": {
+      "schema_version": "1.0",
+      "model_version": "layoutxlm-e2-b10",
+      "ocr_version": "ocr_v2",
+      "postprocess_version": "kie_postprocess_v1",
+      "processing_ms": 3452,
+      "pipeline_version": "inference_pipeline_v1"
+    }
+  }
+}

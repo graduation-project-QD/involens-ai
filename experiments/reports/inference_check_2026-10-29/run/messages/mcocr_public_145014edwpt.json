@@ -1,0 +1,485 @@
+{
+  "status": 0,
+  "error": null,
+  "data": {
+    "id": "mcocr_public_145014edwpt",
+    "fields": {
+      "seller": {
+        "value": "MINIMART ANAN",
+        "raw_text": "MINIMART ANAN",
+        "confidence": 0.9996,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                225,
+                174
+              ],
+              [
+                484,
+                174
+              ],
+              [
+                484,
+                207
+              ],
+              [
+                225,
+                207
+              ]
+            ]
+          }
+        ]
+      },
+      "address": {
+        "value": "Chợ Sủi Phú Thị Gia Lâm",
+        "raw_text": "Chợ Sủi Phú Thị Gia Lâm",
+        "confidence": 0.9988,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                190,
+                220
+              ],
+              [
+                514,
+                220
+              ],
+              [
+                514,
+                254
+              ],
+              [
+                190,
+                254
+              ]
+            ]
+          }
+        ]
+      },
+      "timestamp": {
+        "value": "2020-08-13T16:58:00",
+        "raw_text": "13/08/2020-16:58",
+        "confidence": 0.9998,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                472,
+                836
+              ],
+              [
+                675,
+                836
+              ],
+              [
+                675,
+                880
+              ],
+              [
+                472,
+                880
+              ]
+            ]
+          }
+        ]
+      },
+      "total_cost": {
+        "value": "252000",
+        "raw_text": "252,000",
+        "confidence": 0.9998,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                568,
+                731
+              ],
+              [
+                682,
+                731
+              ],
+              [
+                682,
+                769
+              ],
+              [
+                568,
+                769
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    "line_items": [
+      {
+        "index": 1,
+        "item_name": {
+          "value": "KDR Closup bạc hà 180g NT",
+          "raw_text": "KDR Closup bạc hà 180g NT",
+          "confidence": 0.9989,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  243,
+                  410
+                ],
+                [
+                  598,
+                  410
+                ],
+                [
+                  598,
+                  447
+                ],
+                [
+                  243,
+                  447
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "1",
+          "raw_text": "1",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  186,
+                  453
+                ],
+                [
+                  210,
+                  453
+                ],
+                [
+                  210,
+                  478
+                ],
+                [
+                  186,
+                  478
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "29000",
+          "raw_text": "29,000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  396,
+                  451
+                ],
+                [
+                  489,
+                  451
+                ],
+                [
+                  489,
+                  487
+                ],
+                [
+                  396,
+                  487
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "29000",
+          "raw_text": "29,000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  572,
+                  449
+                ],
+                [
+                  668,
+                  449
+                ],
+                [
+                  668,
+                  484
+                ],
+                [
+                  572,
+                  484
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "index": 2,
+        "item_name": {
+          "value": "SRM E100 bò 80ml NT",
+          "raw_text": "SRM E100 bò 80ml NT",
+          "confidence": 0.9995,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  237,
+                  499
+                ],
+                [
+                  522,
+                  499
+                ],
+                [
+                  522,
+                  531
+                ],
+                [
+                  237,
+                  531
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "1",
+          "raw_text": "1",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  185,
+                  543
+                ],
+                [
+                  207,
+                  543
+                ],
+                [
+                  207,
+                  566
+                ],
+                [
+                  185,
+                  566
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "18000",
+          "raw_text": "18,000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  399,
+                  540
+                ],
+                [
+                  490,
+                  540
+                ],
+                [
+                  490,
+                  574
+                ],
+                [
+                  399,
+                  574
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "18000",
+          "raw_text": "18,000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  579,
+                  540
+                ],
+                [
+                  671,
+                  540
+                ],
+                [
+                  671,
+                  575
+                ],
+                [
+                  579,
+                  575
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "index": 3,
+        "item_name": {
+          "value": "dg sunsilk 1.4kg NT",
+          "raw_text": "dg sunsilk 1.4kg NT",
+          "confidence": 0.9997,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  237,
+                  588
+                ],
+                [
+                  486,
+                  588
+                ],
+                [
+                  486,
+                  624
+                ],
+                [
+                  237,
+                  624
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "1",
+          "raw_text": "1",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  182,
+                  635
+                ],
+                [
+                  204,
+                  635
+                ],
+                [
+                  204,
+                  658
+                ],
+                [
+                  182,
+                  658
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "205000",
+          "raw_text": "205,000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  381,
+                  630
+                ],
+                [
+                  492,
+                  630
+                ],
+                [
+                  492,
+                  667
+                ],
+                [
+                  381,
+                  667
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "205000",
+          "raw_text": "205,000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  562,
+                  633
+                ],
+                [
+                  674,
+                  633
+                ],
+                [
+                  674,
+                  666
+                ],
+                [
+                  562,
+                  666
+                ]
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "currency": "VND",
+    "overall_confidence": 0.9997,
+    "needs_review": false,
+    "warnings": [],
+    "image": {
+      "width": 768,
+      "height": 1024,
+      "rotation_applied": 0.0
+    },
+    "meta": {
+      "schema_version": "1.0",
+      "model_version": "layoutxlm-e2-b10",
+      "ocr_version": "ocr_v2",
+      "postprocess_version": "kie_postprocess_v1",
+      "processing_ms": 3241,
+      "pipeline_version": "inference_pipeline_v1"
+    }
+  }
+}

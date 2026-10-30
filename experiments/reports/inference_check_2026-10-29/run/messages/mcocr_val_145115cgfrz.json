@@ -1,0 +1,585 @@
+{
+  "status": 0,
+  "error": null,
+  "data": {
+    "id": "mcocr_val_145115cgfrz",
+    "fields": {
+      "seller": {
+        "value": "Saigon Co.op Co.op Food HN THE K-PARK",
+        "raw_text": "Saigon Co.op Co.op Food HN THE K-PARK",
+        "confidence": 0.9988,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                519,
+                3
+              ],
+              [
+                646,
+                3
+              ],
+              [
+                646,
+                26
+              ],
+              [
+                519,
+                26
+              ]
+            ]
+          },
+          {
+            "polygon": [
+              [
+                458,
+                20
+              ],
+              [
+                707,
+                20
+              ],
+              [
+                707,
+                51
+              ],
+              [
+                458,
+                51
+              ]
+            ]
+          }
+        ]
+      },
+      "address": {
+        "value": "Tang 1,SH42 - Toa K3,Cong trinh chung cu ket hop dich vu tren o dat H-CT2 thuoc Du an Dau tu xay dung Khu nha o Hi Brand tai Khu do thi moi Van Phu, P. Phu La, Q. Ha Dong, Tp Ha Noi",
+        "raw_text": "Tang 1,SH42 - Toa K3,Cong trinh chung cu ket hop dich vu tren o dat H-CT2 thuoc Du an Dau tu xay dung Khu nha o Hi Brand tai Khu do thi moi Van Phu, P. Phu La, Q. Ha Dong, Tp Ha Noi",
+        "confidence": 0.9541,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                364,
+                67
+              ],
+              [
+                779,
+                67
+              ],
+              [
+                779,
+                98
+              ],
+              [
+                364,
+                98
+              ]
+            ]
+          },
+          {
+            "polygon": [
+              [
+                371,
+                92
+              ],
+              [
+                769,
+                92
+              ],
+              [
+                769,
+                120
+              ],
+              [
+                371,
+                120
+              ]
+            ]
+          },
+          {
+            "polygon": [
+              [
+                360,
+                112
+              ],
+              [
+                781,
+                112
+              ],
+              [
+                781,
+                143
+              ],
+              [
+                360,
+                143
+              ]
+            ]
+          },
+          {
+            "polygon": [
+              [
+                442,
+                139
+              ],
+              [
+                728,
+                139
+              ],
+              [
+                728,
+                163
+              ],
+              [
+                442,
+                163
+              ]
+            ]
+          },
+          {
+            "polygon": [
+              [
+                409,
+                160
+              ],
+              [
+                749,
+                160
+              ],
+              [
+                749,
+                190
+              ],
+              [
+                409,
+                190
+              ]
+            ]
+          }
+        ]
+      },
+      "timestamp": {
+        "value": "2019-09-23T10:22:20",
+        "raw_text": "23/09/2019 10:22:20",
+        "confidence": 0.9917,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                563,
+                326
+              ],
+              [
+                782,
+                326
+              ],
+              [
+                782,
+                355
+              ],
+              [
+                563,
+                355
+              ]
+            ]
+          }
+        ]
+      },
+      "total_cost": {
+        "value": "38735",
+        "raw_text": "38,735.00",
+        "confidence": 0.9998,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                679,
+                642
+              ],
+              [
+                790,
+                642
+              ],
+              [
+                790,
+                672
+              ],
+              [
+                679,
+                672
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    "line_items": [
+      {
+        "index": 1,
+        "item_name": {
+          "value": "Thit xay pha loc kg-HM",
+          "raw_text": "Thit xay pha loc kg-HM",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  529,
+                  403
+                ],
+                [
+                  750,
+                  403
+                ],
+                [
+                  750,
+                  430
+                ],
+                [
+                  529,
+                  430
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "0.104",
+          "raw_text": "0.104",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  416,
+                  455
+                ],
+                [
+                  479,
+                  455
+                ],
+                [
+                  479,
+                  481
+                ],
+                [
+                  416,
+                  481
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "112000",
+          "raw_text": "112,000.00",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  504,
+                  430
+                ],
+                [
+                  620,
+                  430
+                ],
+                [
+                  620,
+                  458
+                ],
+                [
+                  504,
+                  458
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "11648",
+          "raw_text": "11,648.00",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  679,
+                  429
+                ],
+                [
+                  783,
+                  429
+                ],
+                [
+                  783,
+                  458
+                ],
+                [
+                  679,
+                  458
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "index": 2,
+        "item_name": {
+          "value": "C-Chen com 4.5 D0021-408",
+          "raw_text": "C-Chen com 4.5 D0021-408",
+          "confidence": 0.9963,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  506,
+                  481
+                ],
+                [
+                  774,
+                  481
+                ],
+                [
+                  774,
+                  505
+                ],
+                [
+                  506,
+                  505
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "1",
+          "raw_text": "1",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  428,
+                  505
+                ],
+                [
+                  455,
+                  505
+                ],
+                [
+                  455,
+                  531
+                ],
+                [
+                  428,
+                  531
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "8200",
+          "raw_text": "8,200.00",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  523,
+                  505
+                ],
+                [
+                  618,
+                  505
+                ],
+                [
+                  618,
+                  535
+                ],
+                [
+                  523,
+                  535
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "8200",
+          "raw_text": "8,200.00",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  689,
+                  507
+                ],
+                [
+                  785,
+                  507
+                ],
+                [
+                  785,
+                  534
+                ],
+                [
+                  689,
+                  534
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "index": 3,
+        "item_name": {
+          "value": "Bong cai xanh Kg",
+          "raw_text": "Bong cai xanh Kg",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  528,
+                  534
+                ],
+                [
+                  685,
+                  534
+                ],
+                [
+                  685,
+                  561
+                ],
+                [
+                  528,
+                  561
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "0.374",
+          "raw_text": "0.374",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  409,
+                  587
+                ],
+                [
+                  474,
+                  587
+                ],
+                [
+                  474,
+                  613
+                ],
+                [
+                  409,
+                  613
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "50500",
+          "raw_text": "50,500.00",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  510,
+                  557
+                ],
+                [
+                  618,
+                  557
+                ],
+                [
+                  618,
+                  587
+                ],
+                [
+                  510,
+                  587
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "18887",
+          "raw_text": "18,887.00",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  680,
+                  560
+                ],
+                [
+                  787,
+                  560
+                ],
+                [
+                  787,
+                  587
+                ],
+                [
+                  680,
+                  587
+                ]
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "currency": "VND",
+    "overall_confidence": 0.9944,
+    "needs_review": false,
+    "warnings": [],
+    "image": {
+      "width": 1024,
+      "height": 1366,
+      "rotation_applied": 0.0
+    },
+    "meta": {
+      "schema_version": "1.0",
+      "model_version": "layoutxlm-e2-b10",
+      "ocr_version": "ocr_v2",
+      "postprocess_version": "kie_postprocess_v1",
+      "processing_ms": 4089,
+      "pipeline_version": "inference_pipeline_v1"
+    }
+  }
+}

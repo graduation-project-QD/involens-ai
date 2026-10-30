@@ -1,0 +1,255 @@
+{
+  "status": 0,
+  "error": null,
+  "data": {
+    "id": "mcocr_public_145014jlxnp",
+    "fields": {
+      "seller": {
+        "value": "NHÀ SÁCH GD-TC CẨM PHẢ",
+        "raw_text": "NHÀ SÁCH GD-TC CẨM PHẢ",
+        "confidence": 0.9996,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                125,
+                480
+              ],
+              [
+                490,
+                480
+              ],
+              [
+                490,
+                524
+              ],
+              [
+                125,
+                524
+              ]
+            ]
+          }
+        ]
+      },
+      "address": {
+        "value": "212 Đường Trần Phú-Cẩm Phả",
+        "raw_text": "212 Đường Trần Phú-Cẩm Phả",
+        "confidence": 0.9998,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                94,
+                521
+              ],
+              [
+                468,
+                521
+              ],
+              [
+                468,
+                559
+              ],
+              [
+                94,
+                559
+              ]
+            ]
+          }
+        ]
+      },
+      "timestamp": {
+        "value": "2020-08-14T09:39:25",
+        "raw_text": "09:39:25 - 14/08/2020",
+        "confidence": 0.9998,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                152,
+                634
+              ],
+              [
+                393,
+                634
+              ],
+              [
+                393,
+                667
+              ],
+              [
+                152,
+                667
+              ]
+            ]
+          }
+        ]
+      },
+      "total_cost": {
+        "value": "10000",
+        "raw_text": "10.000đ",
+        "confidence": 0.9998,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                459,
+                832
+              ],
+              [
+                559,
+                832
+              ],
+              [
+                559,
+                860
+              ],
+              [
+                459,
+                860
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    "line_items": [
+      {
+        "index": 1,
+        "item_name": {
+          "value": "áo mưa giấy",
+          "raw_text": "áo mưa giấy",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  25,
+                  713
+                ],
+                [
+                  167,
+                  713
+                ],
+                [
+                  167,
+                  748
+                ],
+                [
+                  25,
+                  748
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "1",
+          "raw_text": "1",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  272,
+                  716
+                ],
+                [
+                  299,
+                  716
+                ],
+                [
+                  299,
+                  741
+                ],
+                [
+                  272,
+                  741
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "10000",
+          "raw_text": "10.000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  311,
+                  716
+                ],
+                [
+                  390,
+                  716
+                ],
+                [
+                  390,
+                  741
+                ],
+                [
+                  311,
+                  741
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "10000",
+          "raw_text": "10.000đ",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  469,
+                  719
+                ],
+                [
+                  563,
+                  719
+                ],
+                [
+                  563,
+                  745
+                ],
+                [
+                  469,
+                  745
+                ]
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "currency": "VND",
+    "overall_confidence": 0.9998,
+    "needs_review": false,
+    "warnings": [],
+    "image": {
+      "width": 590,
+      "height": 1280,
+      "rotation_applied": 0.0
+    },
+    "meta": {
+      "schema_version": "1.0",
+      "model_version": "layoutxlm-e2-b10",
+      "ocr_version": "ocr_v2",
+      "postprocess_version": "kie_postprocess_v1",
+      "processing_ms": 3592,
+      "pipeline_version": "inference_pipeline_v1"
+    }
+  }
+}

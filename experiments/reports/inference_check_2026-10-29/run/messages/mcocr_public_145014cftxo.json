@@ -1,0 +1,713 @@
+{
+  "status": 0,
+  "error": null,
+  "data": {
+    "id": "mcocr_public_145014cftxo",
+    "fields": {
+      "seller": {
+        "value": "VinCommerce",
+        "raw_text": "VinCommerce",
+        "confidence": 0.9998,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                242,
+                272
+              ],
+              [
+                352,
+                272
+              ],
+              [
+                352,
+                306
+              ],
+              [
+                242,
+                306
+              ]
+            ]
+          }
+        ]
+      },
+      "address": {
+        "value": "VM+ QNH Tổ 7, Khu Minh Tiến A Tổ 7, Khu Minh Tiến A P. Cẩm Bình, TP. Cẩm Phả, QNH",
+        "raw_text": "VM+ QNH Tổ 7, Khu Minh Tiến A Tổ 7, Khu Minh Tiến A P. Cẩm Bình, TP. Cẩm Phả, QNH",
+        "confidence": 0.9997,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                380,
+                235
+              ],
+              [
+                539,
+                235
+              ],
+              [
+                539,
+                256
+              ],
+              [
+                380,
+                256
+              ]
+            ]
+          },
+          {
+            "polygon": [
+              [
+                404,
+                254
+              ],
+              [
+                516,
+                254
+              ],
+              [
+                516,
+                276
+              ],
+              [
+                404,
+                276
+              ]
+            ]
+          },
+          {
+            "polygon": [
+              [
+                379,
+                276
+              ],
+              [
+                540,
+                276
+              ],
+              [
+                540,
+                296
+              ],
+              [
+                379,
+                296
+              ]
+            ]
+          }
+        ]
+      },
+      "timestamp": {
+        "value": "2020-08-09T20:30:00",
+        "raw_text": "09/08/2020 20:30",
+        "confidence": 0.9998,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                312,
+                355
+              ],
+              [
+                442,
+                355
+              ],
+              [
+                442,
+                375
+              ],
+              [
+                312,
+                375
+              ]
+            ]
+          }
+        ]
+      },
+      "total_cost": {
+        "value": "114700",
+        "raw_text": "114.700",
+        "confidence": 0.9998,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                521,
+                615
+              ],
+              [
+                581,
+                615
+              ],
+              [
+                581,
+                634
+              ],
+              [
+                521,
+                634
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    "line_items": [
+      {
+        "index": 1,
+        "item_name": {
+          "value": "LAURIER BVS SM bảo vệ 1mm 22,5cm 10miếng",
+          "raw_text": "LAURIER BVS SM bảo vệ 1mm 22,5cm 10miếng",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  239,
+                  435
+                ],
+                [
+                  563,
+                  435
+                ],
+                [
+                  563,
+                  454
+                ],
+                [
+                  239,
+                  454
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "1",
+          "raw_text": "1",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  478,
+                  457
+                ],
+                [
+                  490,
+                  457
+                ],
+                [
+                  490,
+                  472
+                ],
+                [
+                  478,
+                  472
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "43000",
+          "raw_text": "43.000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  390,
+                  456
+                ],
+                [
+                  442,
+                  456
+                ],
+                [
+                  442,
+                  473
+                ],
+                [
+                  390,
+                  473
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "43000",
+          "raw_text": "43.000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  526,
+                  455
+                ],
+                [
+                  579,
+                  455
+                ],
+                [
+                  579,
+                  472
+                ],
+                [
+                  526,
+                  472
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "index": 2,
+        "item_name": {
+          "value": "IPEK Bông tẩy trang 120M",
+          "raw_text": "IPEK Bông tẩy trang 120M",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  238,
+                  474
+                ],
+                [
+                  435,
+                  474
+                ],
+                [
+                  435,
+                  495
+                ],
+                [
+                  238,
+                  495
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "1",
+          "raw_text": null,
+          "confidence": null,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  389,
+                  496
+                ],
+                [
+                  441,
+                  496
+                ],
+                [
+                  441,
+                  513
+                ],
+                [
+                  389,
+                  513
+                ]
+              ]
+            },
+            {
+              "polygon": [
+                [
+                  527,
+                  496
+                ],
+                [
+                  579,
+                  496
+                ],
+                [
+                  579,
+                  513
+                ],
+                [
+                  527,
+                  513
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "37000",
+          "raw_text": "37.000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  389,
+                  496
+                ],
+                [
+                  441,
+                  496
+                ],
+                [
+                  441,
+                  513
+                ],
+                [
+                  389,
+                  513
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "37000",
+          "raw_text": "37.000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  527,
+                  496
+                ],
+                [
+                  579,
+                  496
+                ],
+                [
+                  579,
+                  513
+                ],
+                [
+                  527,
+                  513
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "index": 3,
+        "item_name": {
+          "value": "LAURIER BVS h.ngày activefit k.hương20M",
+          "raw_text": "LAURIER BVS h.ngày activefit k.hương20M",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  238,
+                  514
+                ],
+                [
+                  555,
+                  514
+                ],
+                [
+                  555,
+                  534
+                ],
+                [
+                  238,
+                  534
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "1",
+          "raw_text": null,
+          "confidence": null,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  391,
+                  535
+                ],
+                [
+                  442,
+                  535
+                ],
+                [
+                  442,
+                  552
+                ],
+                [
+                  391,
+                  552
+                ]
+              ]
+            },
+            {
+              "polygon": [
+                [
+                  528,
+                  536
+                ],
+                [
+                  579,
+                  536
+                ],
+                [
+                  579,
+                  552
+                ],
+                [
+                  528,
+                  552
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "18000",
+          "raw_text": "18.000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  391,
+                  535
+                ],
+                [
+                  442,
+                  535
+                ],
+                [
+                  442,
+                  552
+                ],
+                [
+                  391,
+                  552
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "18000",
+          "raw_text": "18.000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  528,
+                  536
+                ],
+                [
+                  579,
+                  536
+                ],
+                [
+                  579,
+                  552
+                ],
+                [
+                  528,
+                  552
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "index": 4,
+        "item_name": {
+          "value": "BẢO MINH Kẹo Dồi 150g/ 120g",
+          "raw_text": "BẢO MINH Kẹo Dồi 150g/ 120g",
+          "confidence": 0.9998,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  239,
+                  553
+                ],
+                [
+                  458,
+                  553
+                ],
+                [
+                  458,
+                  574
+                ],
+                [
+                  239,
+                  574
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "1",
+          "raw_text": null,
+          "confidence": null,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  391,
+                  574
+                ],
+                [
+                  442,
+                  574
+                ],
+                [
+                  442,
+                  593
+                ],
+                [
+                  391,
+                  593
+                ]
+              ]
+            },
+            {
+              "polygon": [
+                [
+                  528,
+                  576
+                ],
+                [
+                  580,
+                  576
+                ],
+                [
+                  580,
+                  593
+                ],
+                [
+                  528,
+                  593
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "16700",
+          "raw_text": "16.700",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  391,
+                  574
+                ],
+                [
+                  442,
+                  574
+                ],
+                [
+                  442,
+                  593
+                ],
+                [
+                  391,
+                  593
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "16700",
+          "raw_text": "16.700",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  528,
+                  576
+                ],
+                [
+                  580,
+                  576
+                ],
+                [
+                  580,
+                  593
+                ],
+                [
+                  528,
+                  593
+                ]
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "currency": "VND",
+    "overall_confidence": 0.9999,
+    "needs_review": true,
+    "warnings": [
+      {
+        "code": "QUANTITY_INFERRED",
+        "target": "line_items[2].quantity"
+      },
+      {
+        "code": "QUANTITY_INFERRED",
+        "target": "line_items[3].quantity"
+      },
+      {
+        "code": "QUANTITY_INFERRED",
+        "target": "line_items[4].quantity"
+      }
+    ],
+    "image": {
+      "width": 812,
+      "height": 1056,
+      "rotation_applied": 2.48
+    },
+    "meta": {
+      "schema_version": "1.0",
+      "model_version": "layoutxlm-e2-b10",
+      "ocr_version": "ocr_v2",
+      "postprocess_version": "kie_postprocess_v1",
+      "processing_ms": 3563,
+      "pipeline_version": "inference_pipeline_v1"
+    }
+  }
+}

@@ -1,0 +1,390 @@
+{
+  "status": 0,
+  "error": null,
+  "data": {
+    "id": "mcocr_public_145014luapg",
+    "fields": {
+      "seller": {
+        "value": "PHÓ MỎ",
+        "raw_text": "PHÓ MỎ",
+        "confidence": 0.9986,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                308,
+                267
+              ],
+              [
+                394,
+                267
+              ],
+              [
+                394,
+                293
+              ],
+              [
+                308,
+                293
+              ]
+            ]
+          }
+        ]
+      },
+      "address": {
+        "value": "Tổ 7 khu Tân Lập 4 - P.Cẩm Thủy - Tp.Cẩm Phả - Quảng Ninh",
+        "raw_text": "Tổ 7 khu Tân Lập 4 - P.Cẩm Thủy - Tp.Cẩm Phả - Quảng Ninh",
+        "confidence": 0.8414,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                186,
+                288
+              ],
+              [
+                513,
+                288
+              ],
+              [
+                513,
+                322
+              ],
+              [
+                186,
+                322
+              ]
+            ]
+          },
+          {
+            "polygon": [
+              [
+                229,
+                315
+              ],
+              [
+                474,
+                315
+              ],
+              [
+                474,
+                343
+              ],
+              [
+                229,
+                343
+              ]
+            ]
+          }
+        ]
+      },
+      "timestamp": {
+        "value": "2020-08-11T21:34:00",
+        "raw_text": "11 / 08 / 2020 - 21 : 34",
+        "confidence": 0.9996,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                282,
+                425
+              ],
+              [
+                423,
+                425
+              ],
+              [
+                423,
+                440
+              ],
+              [
+                282,
+                440
+              ]
+            ]
+          }
+        ]
+      },
+      "total_cost": {
+        "value": "50000",
+        "raw_text": "50,000",
+        "confidence": 0.9997,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                463,
+                729
+              ],
+              [
+                512,
+                729
+              ],
+              [
+                512,
+                749
+              ],
+              [
+                463,
+                749
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    "line_items": [
+      {
+        "index": 1,
+        "item_name": {
+          "value": "Bim bim",
+          "raw_text": "Bim bim",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  189,
+                  563
+                ],
+                [
+                  250,
+                  563
+                ],
+                [
+                  250,
+                  582
+                ],
+                [
+                  189,
+                  582
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "2",
+          "raw_text": "2",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  382,
+                  586
+                ],
+                [
+                  396,
+                  586
+                ],
+                [
+                  396,
+                  604
+                ],
+                [
+                  382,
+                  604
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "10000",
+          "raw_text": "10.000",
+          "confidence": 0.9988,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  191,
+                  588
+                ],
+                [
+                  237,
+                  588
+                ],
+                [
+                  237,
+                  604
+                ],
+                [
+                  191,
+                  604
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "20000",
+          "raw_text": "20,000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  460,
+                  586
+                ],
+                [
+                  508,
+                  586
+                ],
+                [
+                  508,
+                  604
+                ],
+                [
+                  460,
+                  604
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "index": 2,
+        "item_name": {
+          "value": "Trà chanh",
+          "raw_text": "Trà chanh",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  189,
+                  612
+                ],
+                [
+                  261,
+                  612
+                ],
+                [
+                  261,
+                  628
+                ],
+                [
+                  189,
+                  628
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "3",
+          "raw_text": "3",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  383,
+                  635
+                ],
+                [
+                  396,
+                  635
+                ],
+                [
+                  396,
+                  650
+                ],
+                [
+                  383,
+                  650
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "10000",
+          "raw_text": "10.000",
+          "confidence": 0.9988,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  190,
+                  635
+                ],
+                [
+                  236,
+                  635
+                ],
+                [
+                  236,
+                  652
+                ],
+                [
+                  190,
+                  652
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "30000",
+          "raw_text": "30,000",
+          "confidence": 0.9998,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  461,
+                  634
+                ],
+                [
+                  509,
+                  634
+                ],
+                [
+                  509,
+                  652
+                ],
+                [
+                  461,
+                  652
+                ]
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "currency": "VND",
+    "overall_confidence": 0.9954,
+    "needs_review": false,
+    "warnings": [],
+    "image": {
+      "width": 768,
+      "height": 1024,
+      "rotation_applied": 90.0
+    },
+    "meta": {
+      "schema_version": "1.0",
+      "model_version": "layoutxlm-e2-b10",
+      "ocr_version": "ocr_v2",
+      "postprocess_version": "kie_postprocess_v1",
+      "processing_ms": 3119,
+      "pipeline_version": "inference_pipeline_v1"
+    }
+  }
+}

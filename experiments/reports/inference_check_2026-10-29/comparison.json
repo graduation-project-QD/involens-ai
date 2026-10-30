@@ -1,0 +1,27 @@
+{
+ "documents": 136,
+ "rotation_identical": 136,
+ "words_identical": 132,
+ "boxes_identical": 132,
+ "documents_tags_identical": 132,
+ "reference_words": 13956,
+ "word_tag_agreement": 0.99971,
+ "differing_documents": [
+  [
+   "mcocr_public_145014nsqiz.jpg",
+   "words_equal=False, word_ratio=0.972"
+  ],
+  [
+   "mcocr_public_145014pyhgf.jpg",
+   "words_equal=False, word_ratio=0.995"
+  ],
+  [
+   "mcocr_public_145014zoocd.jpg",
+   "words_equal=False, word_ratio=0.991"
+  ],
+  [
+   "mcocr_val_145115cgfrz.jpg",
+   "words_equal=False, word_ratio=0.995"
+  ]
+ ]
+}

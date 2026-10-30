@@ -1,0 +1,295 @@
+{
+  "status": 0,
+  "error": null,
+  "data": {
+    "id": "mcocr_val_145115mnmrc",
+    "fields": {
+      "seller": {
+        "value": "THỨC COFFEE",
+        "raw_text": "THỨC COFFEE",
+        "confidence": 0.9991,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                250,
+                39
+              ],
+              [
+                772,
+                39
+              ],
+              [
+                772,
+                145
+              ],
+              [
+                250,
+                145
+              ]
+            ]
+          }
+        ]
+      },
+      "address": {
+        "value": "22 Quang Trung, P10, Gò Vấp",
+        "raw_text": "22 Quang Trung, P10, Gò Vấp",
+        "confidence": 0.9995,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                317,
+                156
+              ],
+              [
+                707,
+                156
+              ],
+              [
+                707,
+                200
+              ],
+              [
+                317,
+                200
+              ]
+            ]
+          }
+        ]
+      },
+      "timestamp": {
+        "value": "2019-03-31T09:28:00",
+        "raw_text": "31.03.2019 09.28",
+        "confidence": 0.6877,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                705,
+                355
+              ],
+              [
+                831,
+                355
+              ],
+              [
+                831,
+                384
+              ],
+              [
+                705,
+                384
+              ]
+            ]
+          },
+          {
+            "polygon": [
+              [
+                766,
+                395
+              ],
+              [
+                835,
+                395
+              ],
+              [
+                835,
+                425
+              ],
+              [
+                766,
+                425
+              ]
+            ]
+          }
+        ]
+      },
+      "total_cost": {
+        "value": "35000",
+        "raw_text": "35 000",
+        "confidence": 0.9987,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                733,
+                648
+              ],
+              [
+                839,
+                648
+              ],
+              [
+                839,
+                682
+              ],
+              [
+                733,
+                682
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    "line_items": [
+      {
+        "index": 1,
+        "item_name": {
+          "value": "COFFEE WITH MILK ICE",
+          "raw_text": "COFFEE WITH MILK ICE",
+          "confidence": 0.9997,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  218,
+                  531
+                ],
+                [
+                  461,
+                  531
+                ],
+                [
+                  461,
+                  562
+                ],
+                [
+                  218,
+                  562
+                ]
+              ]
+            },
+            {
+              "polygon": [
+                [
+                  215,
+                  562
+                ],
+                [
+                  265,
+                  562
+                ],
+                [
+                  265,
+                  594
+                ],
+                [
+                  215,
+                  594
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "1",
+          "raw_text": "1,00",
+          "confidence": 0.9998,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  500,
+                  544
+                ],
+                [
+                  564,
+                  544
+                ],
+                [
+                  564,
+                  583
+                ],
+                [
+                  500,
+                  583
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "35000",
+          "raw_text": "35 000",
+          "confidence": 0.9993,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  602,
+                  545
+                ],
+                [
+                  690,
+                  545
+                ],
+                [
+                  690,
+                  577
+                ],
+                [
+                  602,
+                  577
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "35000",
+          "raw_text": "35 000",
+          "confidence": 0.9993,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  759,
+                  545
+                ],
+                [
+                  844,
+                  545
+                ],
+                [
+                  844,
+                  575
+                ],
+                [
+                  759,
+                  575
+                ]
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "currency": "VND",
+    "overall_confidence": 0.9847,
+    "needs_review": false,
+    "warnings": [],
+    "image": {
+      "width": 1024,
+      "height": 1024,
+      "rotation_applied": 0.0
+    },
+    "meta": {
+      "schema_version": "1.0",
+      "model_version": "layoutxlm-e2-b10",
+      "ocr_version": "ocr_v2",
+      "postprocess_version": "kie_postprocess_v1",
+      "processing_ms": 3419,
+      "pipeline_version": "inference_pipeline_v1"
+    }
+  }
+}

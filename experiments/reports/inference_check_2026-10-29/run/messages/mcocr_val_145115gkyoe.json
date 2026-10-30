@@ -1,0 +1,139 @@
+{
+  "status": 0,
+  "error": null,
+  "data": {
+    "id": "mcocr_val_145115gkyoe",
+    "fields": {
+      "seller": {
+        "value": "CTY CP SÁCH & TBTH QUẢNG NINH",
+        "raw_text": "CTY CP SÁCH & TBTH QUẢNG NINH",
+        "confidence": 0.9994,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                108,
+                481
+              ],
+              [
+                355,
+                481
+              ],
+              [
+                355,
+                505
+              ],
+              [
+                108,
+                505
+              ]
+            ]
+          }
+        ]
+      },
+      "address": {
+        "value": "Số 10 Long Tien - TP.Hạ Long - QN",
+        "raw_text": "Số 10 Long Tien - TP.Hạ Long - QN",
+        "confidence": 0.9995,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                134,
+                506
+              ],
+              [
+                386,
+                506
+              ],
+              [
+                386,
+                530
+              ],
+              [
+                134,
+                530
+              ]
+            ]
+          }
+        ]
+      },
+      "timestamp": {
+        "value": "2020-08-09T11:37:20",
+        "raw_text": "11:37:20 - 09/08/2020",
+        "confidence": 0.9997,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                290,
+                573
+              ],
+              [
+                425,
+                573
+              ],
+              [
+                425,
+                592
+              ],
+              [
+                290,
+                592
+              ]
+            ]
+          }
+        ]
+      },
+      "total_cost": {
+        "value": "19724600",
+        "raw_text": "19.724.600đ",
+        "confidence": 0.9996,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                339,
+                662
+              ],
+              [
+                431,
+                662
+              ],
+              [
+                431,
+                681
+              ],
+              [
+                339,
+                681
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    "line_items": [],
+    "currency": "VND",
+    "overall_confidence": 0.9997,
+    "needs_review": false,
+    "warnings": [],
+    "image": {
+      "width": 576,
+      "height": 1024,
+      "rotation_applied": 90.0
+    },
+    "meta": {
+      "schema_version": "1.0",
+      "model_version": "layoutxlm-e2-b10",
+      "ocr_version": "ocr_v2",
+      "postprocess_version": "kie_postprocess_v1",
+      "processing_ms": 2804,
+      "pipeline_version": "inference_pipeline_v1"
+    }
+  }
+}

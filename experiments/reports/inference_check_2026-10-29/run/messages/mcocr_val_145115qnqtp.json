@@ -1,0 +1,255 @@
+{
+  "status": 0,
+  "error": null,
+  "data": {
+    "id": "mcocr_val_145115qnqtp",
+    "fields": {
+      "seller": {
+        "value": "CỬA HÀNG NĂM OÁNH",
+        "raw_text": "CỬA HÀNG NĂM OÁNH",
+        "confidence": 0.9996,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                323,
+                469
+              ],
+              [
+                498,
+                469
+              ],
+              [
+                498,
+                490
+              ],
+              [
+                323,
+                490
+              ]
+            ]
+          }
+        ]
+      },
+      "address": {
+        "value": "Thôn Phú Thuỵ, Xã Phú Thị, Huyện Gia Lâm, TP Hà Nội",
+        "raw_text": "Thôn Phú Thuỵ, Xã Phú Thị, Huyện Gia Lâm, TP Hà Nội",
+        "confidence": 0.9998,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                232,
+                494
+              ],
+              [
+                593,
+                494
+              ],
+              [
+                593,
+                517
+              ],
+              [
+                232,
+                517
+              ]
+            ]
+          }
+        ]
+      },
+      "timestamp": {
+        "value": "2020-08-10T00:00:00",
+        "raw_text": "10-08-2020",
+        "confidence": 0.9999,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                517,
+                612
+              ],
+              [
+                596,
+                612
+              ],
+              [
+                596,
+                632
+              ],
+              [
+                517,
+                632
+              ]
+            ]
+          }
+        ]
+      },
+      "total_cost": {
+        "value": "165000",
+        "raw_text": "165,000",
+        "confidence": 0.9998,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                527,
+                774
+              ],
+              [
+                599,
+                774
+              ],
+              [
+                599,
+                801
+              ],
+              [
+                527,
+                801
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    "line_items": [
+      {
+        "index": 1,
+        "item_name": {
+          "value": "Bim đán Huggies S56",
+          "raw_text": "Bim đán Huggies S56",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  225,
+                  701
+                ],
+                [
+                  408,
+                  701
+                ],
+                [
+                  408,
+                  734
+                ],
+                [
+                  225,
+                  734
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "1",
+          "raw_text": "1",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  229,
+                  745
+                ],
+                [
+                  237,
+                  745
+                ],
+                [
+                  237,
+                  759
+                ],
+                [
+                  229,
+                  759
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "165000",
+          "raw_text": "165,000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  368,
+                  732
+                ],
+                [
+                  435,
+                  732
+                ],
+                [
+                  435,
+                  755
+                ],
+                [
+                  368,
+                  755
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "165000",
+          "raw_text": "165,000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  527,
+                  738
+                ],
+                [
+                  599,
+                  738
+                ],
+                [
+                  599,
+                  763
+                ],
+                [
+                  527,
+                  763
+                ]
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "currency": "VND",
+    "overall_confidence": 0.9998,
+    "needs_review": false,
+    "warnings": [],
+    "image": {
+      "width": 768,
+      "height": 1024,
+      "rotation_applied": 0.0
+    },
+    "meta": {
+      "schema_version": "1.0",
+      "model_version": "layoutxlm-e2-b10",
+      "ocr_version": "ocr_v2",
+      "postprocess_version": "kie_postprocess_v1",
+      "processing_ms": 3557,
+      "pipeline_version": "inference_pipeline_v1"
+    }
+  }
+}

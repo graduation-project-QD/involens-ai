@@ -1,0 +1,830 @@
+{
+  "status": 0,
+  "error": null,
+  "data": {
+    "id": "mcocr_val_145115djbdi",
+    "fields": {
+      "seller": {
+        "value": "NHÀ SÁCH GD-TC CẨM PHẢ",
+        "raw_text": "NHÀ SÁCH GD-TC CẨM PHẢ",
+        "confidence": 0.9996,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                159,
+                214
+              ],
+              [
+                406,
+                214
+              ],
+              [
+                406,
+                242
+              ],
+              [
+                159,
+                242
+              ]
+            ]
+          }
+        ]
+      },
+      "address": {
+        "value": "212 Đường Trần Phú-Cẩm Phả",
+        "raw_text": "212 Đường Trần Phú-Cẩm Phả",
+        "confidence": 0.9998,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                134,
+                239
+              ],
+              [
+                392,
+                239
+              ],
+              [
+                392,
+                268
+              ],
+              [
+                134,
+                268
+              ]
+            ]
+          }
+        ]
+      },
+      "timestamp": {
+        "value": "2020-08-14T20:10:06",
+        "raw_text": "20:10:06 - 14/08/2020",
+        "confidence": 0.9997,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                177,
+                318
+              ],
+              [
+                343,
+                318
+              ],
+              [
+                343,
+                342
+              ],
+              [
+                177,
+                342
+              ]
+            ]
+          }
+        ]
+      },
+      "total_cost": {
+        "value": "315000",
+        "raw_text": "315.000đ",
+        "confidence": 0.9998,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                382,
+                572
+              ],
+              [
+                463,
+                572
+              ],
+              [
+                463,
+                595
+              ],
+              [
+                382,
+                595
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    "line_items": [
+      {
+        "index": 1,
+        "item_name": {
+          "value": "Tập tô màu",
+          "raw_text": "Tập tô màu",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  92,
+                  372
+                ],
+                [
+                  180,
+                  372
+                ],
+                [
+                  180,
+                  393
+                ],
+                [
+                  92,
+                  393
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "1",
+          "raw_text": "1",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  260,
+                  372
+                ],
+                [
+                  272,
+                  372
+                ],
+                [
+                  272,
+                  392
+                ],
+                [
+                  260,
+                  392
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "18000",
+          "raw_text": "18.000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  278,
+                  372
+                ],
+                [
+                  343,
+                  372
+                ],
+                [
+                  343,
+                  392
+                ],
+                [
+                  278,
+                  392
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "18000",
+          "raw_text": "18.000đ",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  396,
+                  372
+                ],
+                [
+                  461,
+                  372
+                ],
+                [
+                  461,
+                  391
+                ],
+                [
+                  396,
+                  391
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "index": 2,
+        "item_name": {
+          "value": "Tủ sách bé vào lớp",
+          "raw_text": "Tủ sách bé vào lớp",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  92,
+                  395
+                ],
+                [
+                  238,
+                  395
+                ],
+                [
+                  238,
+                  419
+                ],
+                [
+                  92,
+                  419
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "1",
+          "raw_text": "1",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  253,
+                  398
+                ],
+                [
+                  266,
+                  398
+                ],
+                [
+                  266,
+                  417
+                ],
+                [
+                  253,
+                  417
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "12000",
+          "raw_text": "12.000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  273,
+                  398
+                ],
+                [
+                  344,
+                  398
+                ],
+                [
+                  344,
+                  417
+                ],
+                [
+                  273,
+                  417
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "12000",
+          "raw_text": "12.000đ",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  397,
+                  397
+                ],
+                [
+                  461,
+                  397
+                ],
+                [
+                  461,
+                  416
+                ],
+                [
+                  397,
+                  416
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "index": 3,
+        "item_name": {
+          "value": "Thám tử conan",
+          "raw_text": "Thám tử conan",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  91,
+                  420
+                ],
+                [
+                  208,
+                  420
+                ],
+                [
+                  208,
+                  442
+                ],
+                [
+                  91,
+                  442
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "1",
+          "raw_text": "1",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  262,
+                  425
+                ],
+                [
+                  293,
+                  425
+                ],
+                [
+                  293,
+                  438
+                ],
+                [
+                  262,
+                  438
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "20000",
+          "raw_text": "20.000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  285,
+                  422
+                ],
+                [
+                  343,
+                  422
+                ],
+                [
+                  343,
+                  441
+                ],
+                [
+                  285,
+                  441
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "20000",
+          "raw_text": "20.000đ",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  396,
+                  421
+                ],
+                [
+                  461,
+                  421
+                ],
+                [
+                  461,
+                  440
+                ],
+                [
+                  396,
+                  440
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "index": 4,
+        "item_name": {
+          "value": "Pokemon đặc biệt",
+          "raw_text": "Pokemon đặc biệt",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  92,
+                  447
+                ],
+                [
+                  231,
+                  447
+                ],
+                [
+                  231,
+                  466
+                ],
+                [
+                  92,
+                  466
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "1",
+          "raw_text": "1",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  260,
+                  446
+                ],
+                [
+                  272,
+                  446
+                ],
+                [
+                  272,
+                  466
+                ],
+                [
+                  260,
+                  466
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "25000",
+          "raw_text": "25.000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  278,
+                  446
+                ],
+                [
+                  344,
+                  446
+                ],
+                [
+                  344,
+                  466
+                ],
+                [
+                  278,
+                  466
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "25000",
+          "raw_text": "25.000đ",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  396,
+                  446
+                ],
+                [
+                  462,
+                  446
+                ],
+                [
+                  462,
+                  465
+                ],
+                [
+                  396,
+                  465
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "index": 5,
+        "item_name": {
+          "value": "Bộ truyện hay nhất",
+          "raw_text": "Bộ truyện hay nhất",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  91,
+                  469
+                ],
+                [
+                  238,
+                  469
+                ],
+                [
+                  238,
+                  492
+                ],
+                [
+                  91,
+                  492
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "1",
+          "raw_text": "1",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  261,
+                  470
+                ],
+                [
+                  271,
+                  470
+                ],
+                [
+                  271,
+                  489
+                ],
+                [
+                  261,
+                  489
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "135000",
+          "raw_text": "135.000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  276,
+                  470
+                ],
+                [
+                  343,
+                  470
+                ],
+                [
+                  343,
+                  489
+                ],
+                [
+                  276,
+                  489
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "135000",
+          "raw_text": "135.000đ",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  387,
+                  470
+                ],
+                [
+                  462,
+                  470
+                ],
+                [
+                  462,
+                  488
+                ],
+                [
+                  387,
+                  488
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "index": 6,
+        "item_name": {
+          "value": "Rút gỗ số đại cỡ",
+          "raw_text": "Rút gỗ số đại cỡ",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  92,
+                  493
+                ],
+                [
+                  219,
+                  493
+                ],
+                [
+                  219,
+                  516
+                ],
+                [
+                  92,
+                  516
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "1",
+          "raw_text": "1",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  262,
+                  496
+                ],
+                [
+                  273,
+                  496
+                ],
+                [
+                  273,
+                  513
+                ],
+                [
+                  262,
+                  513
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "105000",
+          "raw_text": "105.000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  277,
+                  496
+                ],
+                [
+                  344,
+                  496
+                ],
+                [
+                  344,
+                  513
+                ],
+                [
+                  277,
+                  513
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "105000",
+          "raw_text": "105.000đ",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  387,
+                  495
+                ],
+                [
+                  462,
+                  495
+                ],
+                [
+                  462,
+                  513
+                ],
+                [
+                  387,
+                  513
+                ]
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "currency": "VND",
+    "overall_confidence": 0.9999,
+    "needs_review": false,
+    "warnings": [],
+    "image": {
+      "width": 611,
+      "height": 1043,
+      "rotation_applied": 1.95
+    },
+    "meta": {
+      "schema_version": "1.0",
+      "model_version": "layoutxlm-e2-b10",
+      "ocr_version": "ocr_v2",
+      "postprocess_version": "kie_postprocess_v1",
+      "processing_ms": 3699,
+      "pipeline_version": "inference_pipeline_v1"
+    }
+  }
+}

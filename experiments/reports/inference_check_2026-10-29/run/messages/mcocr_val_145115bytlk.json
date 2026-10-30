@@ -1,0 +1,485 @@
+{
+  "status": 0,
+  "error": null,
+  "data": {
+    "id": "mcocr_val_145115bytlk",
+    "fields": {
+      "seller": {
+        "value": "MINIMART ANAN",
+        "raw_text": "MINIMART ANAN",
+        "confidence": 0.9996,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                303,
+                349
+              ],
+              [
+                484,
+                349
+              ],
+              [
+                484,
+                371
+              ],
+              [
+                303,
+                371
+              ]
+            ]
+          }
+        ]
+      },
+      "address": {
+        "value": "Chợ Sủi Phú Thị Gia Lâm",
+        "raw_text": "Chợ Sủi Phú Thị Gia Lâm",
+        "confidence": 0.9996,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                279,
+                380
+              ],
+              [
+                505,
+                380
+              ],
+              [
+                505,
+                401
+              ],
+              [
+                279,
+                401
+              ]
+            ]
+          }
+        ]
+      },
+      "timestamp": {
+        "value": "2020-08-12T13:32:00",
+        "raw_text": "12/08/2020-13:32",
+        "confidence": 0.9998,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                471,
+                825
+              ],
+              [
+                611,
+                825
+              ],
+              [
+                611,
+                848
+              ],
+              [
+                471,
+                848
+              ]
+            ]
+          }
+        ]
+      },
+      "total_cost": {
+        "value": "134000",
+        "raw_text": "134,000",
+        "confidence": 0.9997,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                549,
+                733
+              ],
+              [
+                623,
+                733
+              ],
+              [
+                623,
+                755
+              ],
+              [
+                549,
+                755
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    "line_items": [
+      {
+        "index": 1,
+        "item_name": {
+          "value": "xả vải comfort nước hoa túi NT",
+          "raw_text": "xả vải comfort nước hoa túi NT",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  287,
+                  505
+                ],
+                [
+                  569,
+                  505
+                ],
+                [
+                  569,
+                  528
+                ],
+                [
+                  287,
+                  528
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "1",
+          "raw_text": "1",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  273,
+                  537
+                ],
+                [
+                  287,
+                  537
+                ],
+                [
+                  287,
+                  553
+                ],
+                [
+                  273,
+                  553
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "86000",
+          "raw_text": "86,000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  425,
+                  534
+                ],
+                [
+                  491,
+                  534
+                ],
+                [
+                  491,
+                  559
+                ],
+                [
+                  425,
+                  559
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "86000",
+          "raw_text": "86,000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  551,
+                  536
+                ],
+                [
+                  618,
+                  536
+                ],
+                [
+                  618,
+                  559
+                ],
+                [
+                  551,
+                  559
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "index": 2,
+        "item_name": {
+          "value": "xả comfort dây các loại 22m NT",
+          "raw_text": "xả comfort dây các loại 22m NT",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  286,
+                  567
+                ],
+                [
+                  582,
+                  567
+                ],
+                [
+                  582,
+                  593
+                ],
+                [
+                  286,
+                  593
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "2",
+          "raw_text": "2",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  271,
+                  601
+                ],
+                [
+                  287,
+                  601
+                ],
+                [
+                  287,
+                  618
+                ],
+                [
+                  271,
+                  618
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "16000",
+          "raw_text": "16,000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  428,
+                  598
+                ],
+                [
+                  493,
+                  598
+                ],
+                [
+                  493,
+                  623
+                ],
+                [
+                  428,
+                  623
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "32000",
+          "raw_text": "32,000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  554,
+                  600
+                ],
+                [
+                  620,
+                  600
+                ],
+                [
+                  620,
+                  624
+                ],
+                [
+                  554,
+                  624
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "index": 3,
+        "item_name": {
+          "value": "Bột giặt orno đỏ 400g NT",
+          "raw_text": "Bột giặt orno đỏ 400g NT",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  304,
+                  633
+                ],
+                [
+                  533,
+                  633
+                ],
+                [
+                  533,
+                  660
+                ],
+                [
+                  304,
+                  660
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "1",
+          "raw_text": "1",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  268,
+                  666
+                ],
+                [
+                  285,
+                  666
+                ],
+                [
+                  285,
+                  685
+                ],
+                [
+                  268,
+                  685
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "16000",
+          "raw_text": "16,000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  429,
+                  665
+                ],
+                [
+                  494,
+                  665
+                ],
+                [
+                  494,
+                  690
+                ],
+                [
+                  429,
+                  690
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "16000",
+          "raw_text": "16,000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  558,
+                  666
+                ],
+                [
+                  622,
+                  666
+                ],
+                [
+                  622,
+                  689
+                ],
+                [
+                  558,
+                  689
+                ]
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "currency": "VND",
+    "overall_confidence": 0.9998,
+    "needs_review": false,
+    "warnings": [],
+    "image": {
+      "width": 803,
+      "height": 1050,
+      "rotation_applied": 1.97
+    },
+    "meta": {
+      "schema_version": "1.0",
+      "model_version": "layoutxlm-e2-b10",
+      "ocr_version": "ocr_v2",
+      "postprocess_version": "kie_postprocess_v1",
+      "processing_ms": 4346,
+      "pipeline_version": "inference_pipeline_v1"
+    }
+  }
+}

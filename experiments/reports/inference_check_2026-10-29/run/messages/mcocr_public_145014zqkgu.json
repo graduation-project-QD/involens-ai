@@ -1,0 +1,370 @@
+{
+  "status": 0,
+  "error": null,
+  "data": {
+    "id": "mcocr_public_145014zqkgu",
+    "fields": {
+      "seller": {
+        "value": "MINIMART ANAN",
+        "raw_text": "MINIMART ANAN",
+        "confidence": 0.9996,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                296,
+                279
+              ],
+              [
+                484,
+                279
+              ],
+              [
+                484,
+                302
+              ],
+              [
+                296,
+                302
+              ]
+            ]
+          }
+        ]
+      },
+      "address": {
+        "value": "Chợ Sủi Phú Thị Gia Lâm",
+        "raw_text": "Chợ Sủi Phú Thị Gia Lâm",
+        "confidence": 0.9996,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                269,
+                308
+              ],
+              [
+                505,
+                308
+              ],
+              [
+                505,
+                332
+              ],
+              [
+                269,
+                332
+              ]
+            ]
+          }
+        ]
+      },
+      "timestamp": {
+        "value": "2020-08-16T16:53:00",
+        "raw_text": "16/08/2020-16:53",
+        "confidence": 0.9998,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                475,
+                794
+              ],
+              [
+                638,
+                794
+              ],
+              [
+                638,
+                827
+              ],
+              [
+                475,
+                827
+              ]
+            ]
+          }
+        ]
+      },
+      "total_cost": {
+        "value": "47000",
+        "raw_text": "47,000",
+        "confidence": 0.9718,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                565,
+                709
+              ],
+              [
+                642,
+                709
+              ],
+              [
+                642,
+                738
+              ],
+              [
+                565,
+                738
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    "line_items": [
+      {
+        "index": 1,
+        "item_name": {
+          "value": "Sữa chua nha đam 100g NT",
+          "raw_text": "Sữa chua nha đam 100g NT",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  302,
+                  431
+                ],
+                [
+                  559,
+                  431
+                ],
+                [
+                  559,
+                  456
+                ],
+                [
+                  302,
+                  456
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "4",
+          "raw_text": "4",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  253,
+                  491
+                ],
+                [
+                  268,
+                  491
+                ],
+                [
+                  268,
+                  509
+                ],
+                [
+                  253,
+                  509
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "6500",
+          "raw_text": "6,500",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  428,
+                  486
+                ],
+                [
+                  488,
+                  486
+                ],
+                [
+                  488,
+                  515
+                ],
+                [
+                  428,
+                  515
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "26000",
+          "raw_text": "26,000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  552,
+                  484
+                ],
+                [
+                  625,
+                  484
+                ],
+                [
+                  625,
+                  512
+                ],
+                [
+                  552,
+                  512
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "index": 2,
+        "item_name": {
+          "value": "Sữa chua đường VNM 100g NT",
+          "raw_text": "Sữa chua đường VNM 100g NT",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  297,
+                  521
+                ],
+                [
+                  594,
+                  521
+                ],
+                [
+                  594,
+                  550
+                ],
+                [
+                  297,
+                  550
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "4",
+          "raw_text": "4",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  246,
+                  590
+                ],
+                [
+                  262,
+                  590
+                ],
+                [
+                  262,
+                  608
+                ],
+                [
+                  246,
+                  608
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "5250",
+          "raw_text": "5,250",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  428,
+                  585
+                ],
+                [
+                  489,
+                  585
+                ],
+                [
+                  489,
+                  614
+                ],
+                [
+                  428,
+                  614
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "21000",
+          "raw_text": "21,000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  554,
+                  585
+                ],
+                [
+                  632,
+                  585
+                ],
+                [
+                  632,
+                  614
+                ],
+                [
+                  554,
+                  614
+                ]
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "currency": "VND",
+    "overall_confidence": 0.994,
+    "needs_review": false,
+    "warnings": [],
+    "image": {
+      "width": 867,
+      "height": 1096,
+      "rotation_applied": 5.78
+    },
+    "meta": {
+      "schema_version": "1.0",
+      "model_version": "layoutxlm-e2-b10",
+      "ocr_version": "ocr_v2",
+      "postprocess_version": "kie_postprocess_v1",
+      "processing_ms": 3841,
+      "pipeline_version": "inference_pipeline_v1"
+    }
+  }
+}

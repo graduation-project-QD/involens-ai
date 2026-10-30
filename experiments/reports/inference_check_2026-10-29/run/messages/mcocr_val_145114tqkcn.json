@@ -1,0 +1,600 @@
+{
+  "status": 0,
+  "error": null,
+  "data": {
+    "id": "mcocr_val_145114tqkcn",
+    "fields": {
+      "seller": {
+        "value": "NHÀ SÁCH GD-TC CẨM PHẢ",
+        "raw_text": "NHÀ SÁCH GD-TC CẨM PHẢ",
+        "confidence": 0.9996,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                184,
+                240
+              ],
+              [
+                394,
+                240
+              ],
+              [
+                394,
+                271
+              ],
+              [
+                184,
+                271
+              ]
+            ]
+          }
+        ]
+      },
+      "address": {
+        "value": "212 Đường Trần Phú-Cẩm Phả",
+        "raw_text": "212 Đường Trần Phú-Cẩm Phả",
+        "confidence": 0.9998,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                164,
+                262
+              ],
+              [
+                382,
+                262
+              ],
+              [
+                382,
+                291
+              ],
+              [
+                164,
+                291
+              ]
+            ]
+          }
+        ]
+      },
+      "timestamp": {
+        "value": "2020-08-15T08:29:48",
+        "raw_text": "08:29:48 - 15/08/2020",
+        "confidence": 0.9998,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                204,
+                331
+              ],
+              [
+                342,
+                331
+              ],
+              [
+                342,
+                351
+              ],
+              [
+                204,
+                351
+              ]
+            ]
+          }
+        ]
+      },
+      "total_cost": {
+        "value": "39500",
+        "raw_text": "39.500đ",
+        "confidence": 0.9998,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                388,
+                500
+              ],
+              [
+                449,
+                500
+              ],
+              [
+                449,
+                518
+              ],
+              [
+                388,
+                518
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    "line_items": [
+      {
+        "index": 1,
+        "item_name": {
+          "value": "VBT Toán 2/1",
+          "raw_text": "VBT Toán 2/1",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  129,
+                  374
+                ],
+                [
+                  218,
+                  374
+                ],
+                [
+                  218,
+                  393
+                ],
+                [
+                  129,
+                  393
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "7",
+          "raw_text": "7",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  272,
+                  377
+                ],
+                [
+                  286,
+                  377
+                ],
+                [
+                  286,
+                  392
+                ],
+                [
+                  272,
+                  392
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "9000",
+          "raw_text": "9.000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  304,
+                  376
+                ],
+                [
+                  342,
+                  376
+                ],
+                [
+                  342,
+                  391
+                ],
+                [
+                  304,
+                  391
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "9000",
+          "raw_text": "9.000đ",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  396,
+                  373
+                ],
+                [
+                  444,
+                  373
+                ],
+                [
+                  444,
+                  389
+                ],
+                [
+                  396,
+                  389
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "index": 2,
+        "item_name": {
+          "value": "Tập bài hát 2",
+          "raw_text": "Tập bài hát 2",
+          "confidence": 0.9997,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  129,
+                  395
+                ],
+                [
+                  215,
+                  395
+                ],
+                [
+                  215,
+                  413
+                ],
+                [
+                  129,
+                  413
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "1",
+          "raw_text": "1",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  276,
+                  401
+                ],
+                [
+                  283,
+                  401
+                ],
+                [
+                  283,
+                  410
+                ],
+                [
+                  276,
+                  410
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "4700",
+          "raw_text": "4.700",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  305,
+                  396
+                ],
+                [
+                  343,
+                  396
+                ],
+                [
+                  343,
+                  411
+                ],
+                [
+                  305,
+                  411
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "4700",
+          "raw_text": "4.700đ",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  397,
+                  393
+                ],
+                [
+                  445,
+                  393
+                ],
+                [
+                  445,
+                  409
+                ],
+                [
+                  397,
+                  409
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "index": 3,
+        "item_name": {
+          "value": "Tiếng việt 2/1",
+          "raw_text": "Tiếng việt 2/1",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  130,
+                  416
+                ],
+                [
+                  217,
+                  416
+                ],
+                [
+                  217,
+                  434
+                ],
+                [
+                  130,
+                  434
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "4",
+          "raw_text": "4",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  275,
+                  420
+                ],
+                [
+                  283,
+                  420
+                ],
+                [
+                  283,
+                  428
+                ],
+                [
+                  275,
+                  428
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "13000",
+          "raw_text": "13.000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  297,
+                  415
+                ],
+                [
+                  345,
+                  415
+                ],
+                [
+                  345,
+                  432
+                ],
+                [
+                  297,
+                  432
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "13000",
+          "raw_text": "13.000đ",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  390,
+                  413
+                ],
+                [
+                  446,
+                  413
+                ],
+                [
+                  446,
+                  430
+                ],
+                [
+                  390,
+                  430
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "index": 4,
+        "item_name": {
+          "value": "Vở tập vễ 2",
+          "raw_text": "Vở tập vễ 2",
+          "confidence": 0.9998,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  130,
+                  436
+                ],
+                [
+                  206,
+                  436
+                ],
+                [
+                  206,
+                  456
+                ],
+                [
+                  130,
+                  456
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "1",
+          "raw_text": "1",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  276,
+                  440
+                ],
+                [
+                  288,
+                  440
+                ],
+                [
+                  288,
+                  451
+                ],
+                [
+                  276,
+                  451
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "12800",
+          "raw_text": "12.800",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  297,
+                  436
+                ],
+                [
+                  345,
+                  436
+                ],
+                [
+                  345,
+                  453
+                ],
+                [
+                  297,
+                  453
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "12800",
+          "raw_text": "12.800đ",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  392,
+                  433
+                ],
+                [
+                  448,
+                  433
+                ],
+                [
+                  448,
+                  451
+                ],
+                [
+                  392,
+                  451
+                ]
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "currency": "VND",
+    "overall_confidence": 0.9999,
+    "needs_review": false,
+    "warnings": [],
+    "image": {
+      "width": 576,
+      "height": 1024,
+      "rotation_applied": 0.0
+    },
+    "meta": {
+      "schema_version": "1.0",
+      "model_version": "layoutxlm-e2-b10",
+      "ocr_version": "ocr_v2",
+      "postprocess_version": "kie_postprocess_v1",
+      "processing_ms": 3487,
+      "pipeline_version": "inference_pipeline_v1"
+    }
+  }
+}

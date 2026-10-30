@@ -1,0 +1,295 @@
+{
+  "status": 0,
+  "error": null,
+  "data": {
+    "id": "mcocr_val_145115yckpl",
+    "fields": {
+      "seller": {
+        "value": "VinCommerce",
+        "raw_text": "VinCommerce",
+        "confidence": 0.9998,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                104,
+                267
+              ],
+              [
+                215,
+                267
+              ],
+              [
+                215,
+                306
+              ],
+              [
+                104,
+                306
+              ]
+            ]
+          }
+        ]
+      },
+      "address": {
+        "value": "VM+ QNH Dự án KDC lấn biển cọc 6 DA khu ĐCLB cọc 6, P. Cẩm Sơn TP. Cẩm Phả, T. Quảng Ninh",
+        "raw_text": "VM+ QNH Dự án KDC lấn biển cọc 6 DA khu ĐCLB cọc 6, P. Cẩm Sơn TP. Cẩm Phả, T. Quảng Ninh",
+        "confidence": 0.9998,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                234,
+                231
+              ],
+              [
+                408,
+                231
+              ],
+              [
+                408,
+                254
+              ],
+              [
+                234,
+                254
+              ]
+            ]
+          },
+          {
+            "polygon": [
+              [
+                242,
+                255
+              ],
+              [
+                399,
+                255
+              ],
+              [
+                399,
+                275
+              ],
+              [
+                242,
+                275
+              ]
+            ]
+          },
+          {
+            "polygon": [
+              [
+                251,
+                278
+              ],
+              [
+                389,
+                278
+              ],
+              [
+                389,
+                298
+              ],
+              [
+                251,
+                298
+              ]
+            ]
+          }
+        ]
+      },
+      "timestamp": {
+        "value": "2020-08-12T11:14:00",
+        "raw_text": "12/08/2020 11:14",
+        "confidence": 0.9998,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                175,
+                352
+              ],
+              [
+                301,
+                352
+              ],
+              [
+                301,
+                370
+              ],
+              [
+                175,
+                370
+              ]
+            ]
+          }
+        ]
+      },
+      "total_cost": {
+        "value": "5100",
+        "raw_text": "5.100",
+        "confidence": 0.9998,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                393,
+                482
+              ],
+              [
+                438,
+                482
+              ],
+              [
+                438,
+                499
+              ],
+              [
+                393,
+                499
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    "line_items": [
+      {
+        "index": 1,
+        "item_name": {
+          "value": "VIFON Bột canh gói 200g",
+          "raw_text": "VIFON Bột canh gói 200g",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  99,
+                  422
+                ],
+                [
+                  285,
+                  422
+                ],
+                [
+                  285,
+                  441
+                ],
+                [
+                  99,
+                  441
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "1",
+          "raw_text": "1",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  337,
+                  445
+                ],
+                [
+                  348,
+                  445
+                ],
+                [
+                  348,
+                  456
+                ],
+                [
+                  337,
+                  456
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "5100",
+          "raw_text": "5.100",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  256,
+                  442
+                ],
+                [
+                  300,
+                  442
+                ],
+                [
+                  300,
+                  459
+                ],
+                [
+                  256,
+                  459
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "5100",
+          "raw_text": "5.100",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  393,
+                  443
+                ],
+                [
+                  437,
+                  443
+                ],
+                [
+                  437,
+                  458
+                ],
+                [
+                  393,
+                  458
+                ]
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "currency": "VND",
+    "overall_confidence": 0.9998,
+    "needs_review": false,
+    "warnings": [],
+    "image": {
+      "width": 576,
+      "height": 1024,
+      "rotation_applied": 0.0
+    },
+    "meta": {
+      "schema_version": "1.0",
+      "model_version": "layoutxlm-e2-b10",
+      "ocr_version": "ocr_v2",
+      "postprocess_version": "kie_postprocess_v1",
+      "processing_ms": 3388,
+      "pipeline_version": "inference_pipeline_v1"
+    }
+  }
+}

@@ -1,0 +1,640 @@
+{
+  "status": 0,
+  "error": null,
+  "data": {
+    "id": "mcocr_public_145014gkruw",
+    "fields": {
+      "seller": {
+        "value": "VinCommerce",
+        "raw_text": "VinCommerce",
+        "confidence": 0.9998,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                234,
+                167
+              ],
+              [
+                395,
+                167
+              ],
+              [
+                395,
+                216
+              ],
+              [
+                234,
+                216
+              ]
+            ]
+          }
+        ]
+      },
+      "address": {
+        "value": "VM+ 81A Xuân Diệu Số 81A, đường Xuân Diệu P. Quản An, Q. Tây Hồ, Hà Nội",
+        "raw_text": "VM+ 81A Xuân Diệu Số 81A, đường Xuân Diệu P. Quản An, Q. Tây Hồ, Hà Nội",
+        "confidence": 0.9966,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                479,
+                124
+              ],
+              [
+                618,
+                124
+              ],
+              [
+                618,
+                154
+              ],
+              [
+                479,
+                154
+              ]
+            ]
+          },
+          {
+            "polygon": [
+              [
+                454,
+                150
+              ],
+              [
+                643,
+                150
+              ],
+              [
+                643,
+                190
+              ],
+              [
+                454,
+                190
+              ]
+            ]
+          },
+          {
+            "polygon": [
+              [
+                444,
+                182
+              ],
+              [
+                653,
+                182
+              ],
+              [
+                653,
+                217
+              ],
+              [
+                444,
+                217
+              ]
+            ]
+          }
+        ]
+      },
+      "timestamp": {
+        "value": "2020-08-15T12:09:00",
+        "raw_text": "15/08/2020 12:09",
+        "confidence": 0.9998,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                335,
+                285
+              ],
+              [
+                522,
+                285
+              ],
+              [
+                522,
+                314
+              ],
+              [
+                335,
+                314
+              ]
+            ]
+          }
+        ]
+      },
+      "total_cost": {
+        "value": "39050",
+        "raw_text": "39.050",
+        "confidence": 0.9998,
+        "status": "found",
+        "evidence": [
+          {
+            "polygon": [
+              [
+                648,
+                680
+              ],
+              [
+                721,
+                680
+              ],
+              [
+                721,
+                701
+              ],
+              [
+                648,
+                701
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    "line_items": [
+      {
+        "index": 1,
+        "item_name": {
+          "value": "Tía tô L1 Vineco",
+          "raw_text": "Tía tô L1 Vineco",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  229,
+                  402
+                ],
+                [
+                  414,
+                  402
+                ],
+                [
+                  414,
+                  429
+                ],
+                [
+                  229,
+                  429
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "1",
+          "raw_text": "1",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  574,
+                  440
+                ],
+                [
+                  594,
+                  440
+                ],
+                [
+                  594,
+                  462
+                ],
+                [
+                  574,
+                  462
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "7546",
+          "raw_text": "7.546",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  461,
+                  436
+                ],
+                [
+                  524,
+                  436
+                ],
+                [
+                  524,
+                  462
+                ],
+                [
+                  461,
+                  462
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "7546",
+          "raw_text": "7.546",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  655,
+                  440
+                ],
+                [
+                  716,
+                  440
+                ],
+                [
+                  716,
+                  464
+                ],
+                [
+                  655,
+                  464
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "index": 2,
+        "item_name": {
+          "value": "Kinh gio+i L1 Vineco",
+          "raw_text": "Kinh gio+i L1 Vineco",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  226,
+                  463
+                ],
+                [
+                  455,
+                  463
+                ],
+                [
+                  455,
+                  490
+                ],
+                [
+                  226,
+                  490
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "1",
+          "raw_text": "1",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  575,
+                  501
+                ],
+                [
+                  594,
+                  501
+                ],
+                [
+                  594,
+                  522
+                ],
+                [
+                  575,
+                  522
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "5504",
+          "raw_text": "5.504",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  460,
+                  497
+                ],
+                [
+                  524,
+                  497
+                ],
+                [
+                  524,
+                  522
+                ],
+                [
+                  460,
+                  522
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "5504",
+          "raw_text": "5.504",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  655,
+                  501
+                ],
+                [
+                  716,
+                  501
+                ],
+                [
+                  716,
+                  522
+                ],
+                [
+                  655,
+                  522
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "index": 3,
+        "item_name": {
+          "value": "Nước ion Pocari Sweat T24 chaix500ml",
+          "raw_text": "Nước ion Pocari Sweat T24 chaix500ml",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  226,
+                  525
+                ],
+                [
+                  647,
+                  525
+                ],
+                [
+                  647,
+                  555
+                ],
+                [
+                  226,
+                  555
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "1",
+          "raw_text": "1",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  577,
+                  560
+                ],
+                [
+                  594,
+                  560
+                ],
+                [
+                  594,
+                  581
+                ],
+                [
+                  577,
+                  581
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "14000",
+          "raw_text": "14.000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  454,
+                  557
+                ],
+                [
+                  525,
+                  557
+                ],
+                [
+                  525,
+                  582
+                ],
+                [
+                  454,
+                  582
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "14000",
+          "raw_text": "14.000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  647,
+                  560
+                ],
+                [
+                  717,
+                  560
+                ],
+                [
+                  717,
+                  582
+                ],
+                [
+                  647,
+                  582
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "index": 4,
+        "item_name": {
+          "value": "Nc uống ion PocariSweat T24 chaix350ml",
+          "raw_text": "Nc uống ion PocariSweat T24 chaix350ml",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  226,
+                  585
+                ],
+                [
+                  671,
+                  585
+                ],
+                [
+                  671,
+                  615
+                ],
+                [
+                  226,
+                  615
+                ]
+              ]
+            }
+          ]
+        },
+        "quantity": {
+          "value": "1",
+          "raw_text": "1",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  577,
+                  620
+                ],
+                [
+                  594,
+                  620
+                ],
+                [
+                  594,
+                  641
+                ],
+                [
+                  577,
+                  641
+                ]
+              ]
+            }
+          ]
+        },
+        "unit_price": {
+          "value": "12000",
+          "raw_text": "12.000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  454,
+                  617
+                ],
+                [
+                  526,
+                  617
+                ],
+                [
+                  526,
+                  641
+                ],
+                [
+                  454,
+                  641
+                ]
+              ]
+            }
+          ]
+        },
+        "line_total": {
+          "value": "12000",
+          "raw_text": "12.000",
+          "confidence": 0.9999,
+          "status": "found",
+          "evidence": [
+            {
+              "polygon": [
+                [
+                  648,
+                  619
+                ],
+                [
+                  719,
+                  619
+                ],
+                [
+                  719,
+                  642
+                ],
+                [
+                  648,
+                  642
+                ]
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "currency": "VND",
+    "overall_confidence": 0.9995,
+    "needs_review": false,
+    "warnings": [],
+    "image": {
+      "width": 1024,
+      "height": 1366,
+      "rotation_applied": 0.0
+    },
+    "meta": {
+      "schema_version": "1.0",
+      "model_version": "layoutxlm-e2-b10",
+      "ocr_version": "ocr_v2",
+      "postprocess_version": "kie_postprocess_v1",
+      "processing_ms": 3738,
+      "pipeline_version": "inference_pipeline_v1"
+    }
+  }
+}
