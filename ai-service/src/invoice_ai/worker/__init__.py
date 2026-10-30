@@ -1,1 +1,1 @@
-"""AI worker: consumes extraction requests from RabbitMQ, runs the inference pipeline, publishes results."""
+"""AI worker: extraction handler run by ``rabbitMQ.rabitMQService.receive_messages`` for each request."""

@@ -11,7 +11,7 @@ from types import SimpleNamespace
 from PIL import Image
 
 from invoice_ai.inference.pipeline import PipelineError
-from invoice_ai.worker.consumer import ResultPublishError, process_delivery
+from invoice_ai.rabbitMQ.rabitMQService import ResultPublishError, process_delivery
 from invoice_ai.worker.handler import PDF_DEFAULT_MESSAGE, download_image, failure_message, handle_request, image_kind, render_pdf
 
 JPEG = b"\xff\xd8\xff\xe0" + b"\x00" * 100

@@ -1,6 +1,8 @@
 from __future__ import annotations
 
+import json
 import logging
+from typing import Any, Callable
 
 import pika
 
@@ -79,12 +81,47 @@ def send_message(message: str) -> None:
         logger.error("Result message publishing failed (%s).", type(error).__name__)
         raise
 
+class ResultPublishError(RuntimeError):
+    """The result of a processed request could not be published; the request stays unacknowledged."""
+
+
+def process_delivery(
+    channel: Any,
+    delivery_tag: int,
+    body: bytes,
+    handle: Callable[[requestDTO], dict[str, Any]],
+    publish: Callable[[str], None] | None = None,
+) -> None:
+    """Handle one request: map it, run the extraction handler, publish the result, then acknowledge.
+
+    An unreadable request (bad JSON, missing id/url) is logged and acknowledged without a result: no
+    document can be addressed and redelivering it would fail the same way. When publishing the result
+    fails, ``ResultPublishError`` is raised and the request is not acknowledged, so RabbitMQ redelivers it.
+    """
+    publish = publish or send_message
+    try:
+        request = requestDTO.from_json(body.decode("utf-8"))
+    except (UnicodeDecodeError, ValueError, TypeError) as error:
+        logger.error("Unreadable request message acknowledged without result (%s).", type(error).__name__)
+        channel.basic_ack(delivery_tag=delivery_tag)
+        return
+    logger.info("Received RabbitMQ request: id=%s", request.id)
+    result = handle(request)
+    try:
+        publish(json.dumps(result, ensure_ascii=False))
+    except Exception as error:
+        logger.error("Result publishing failed (%s); request left unacknowledged: id=%s", type(error).__name__, request.id)
+        raise ResultPublishError(f"result of document {request.id} was not published") from error
+    channel.basic_ack(delivery_tag=delivery_tag)
+    logger.info("Request acknowledged after publishing the result: id=%s, status=%s", request.id, result.get("status"))
+
+
 """
-hàm này  dùng để nhận message từ rabbitMQ, 
-khi có hàm xử lý chỉ import vào gọi hàm xử lý trong hàm này là đc nhé 
+hàm này dùng để nhận message từ rabbitMQ và gọi hàm trích xuất (handle) cho từng message.
+AI worker gọi: receive_messages(lambda request: handle_request(request, pipeline))
 """
-def receive_messages() -> None:
-    """Consume document IDs and signed URLs, acknowledging mapped requests or requeuing failures."""
+def receive_messages(handle: Callable[[requestDTO], dict[str, Any]]) -> None:
+    """Consume extraction requests one at a time, publish each extraction result, then acknowledge it."""
     logger.info("Starting RabbitMQ request message consumption.")
     if not config.RABBITMQ_ENABLED:
         logger.error("Cannot consume: RabbitMQ integration is disabled.")
@@ -94,6 +131,7 @@ def receive_messages() -> None:
         parameters = build_connection_parameters()
         with pika.BlockingConnection(parameters) as connection:
             channel = connection.channel()
+            channel.basic_qos(prefetch_count=1)  # one heavy extraction at a time per worker
             logger.info(
                 "Listening for request messages on queue=%s.",
                 config.RABBITMQ_EXTRACT_QUEUE,
@@ -101,24 +139,7 @@ def receive_messages() -> None:
             for method, _, body in channel.consume(
                 queue=config.RABBITMQ_EXTRACT_QUEUE, auto_ack=False
             ):
-                try:
-                    message = body.decode("utf-8")
-                    request = requestDTO.from_json(message)
-                    logger.info(
-                        "Received RabbitMQ request: id=%s",
-                        request.id,
-                    )
-                    #gọi hàm xử lý message tiếp ở đây nhé
-                except Exception as error:
-                    logger.error(
-                        "Request message handling failed (%s); requesting requeue.",
-                        type(error).__name__,
-                    )
-                    channel.basic_nack(delivery_tag=method.delivery_tag, requeue=True)
-                    logger.info("Requested requeue for the failed request message.")
-                    continue
-
-                channel.basic_ack(delivery_tag=method.delivery_tag)
+                process_delivery(channel, method.delivery_tag, body, handle)
     except KeyboardInterrupt:
         logger.error("Request message consumption interrupted; connection cleanup finished.")
         raise

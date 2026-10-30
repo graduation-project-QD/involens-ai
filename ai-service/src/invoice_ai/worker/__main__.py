@@ -17,7 +17,7 @@ from pathlib import Path
 from typing import Sequence
 
 from invoice_ai.inference import InvoicePipeline
-from invoice_ai.worker.consumer import run_consumer
+from invoice_ai.rabbitMQ.rabitMQService import receive_messages
 from invoice_ai.worker.handler import handle_request
 
 logger = logging.getLogger("invoice_ai.worker")
@@ -36,7 +36,7 @@ def main(argv: Sequence[str] | None = None) -> None:
     logger.info("AI worker starting")
     pipeline = InvoicePipeline(args.weights, args.paddlex_home, args.device, args.cpu_threads, args.tokenizer)
     try:
-        run_consumer(lambda request: handle_request(request, pipeline))
+        receive_messages(lambda request: handle_request(request, pipeline))
     except Exception:
         logger.error("AI worker stopped", exc_info=True)
         raise
